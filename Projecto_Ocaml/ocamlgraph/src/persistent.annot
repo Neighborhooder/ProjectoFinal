@@ -1,0 +1,6155 @@
+"src/persistent.ml" 43 2103 2119 "src/persistent.ml" 43 2103 2127
+call(
+  stack
+)
+"src/persistent.ml" 43 2103 2114 "src/persistent.ml" 43 2103 2128
+call(
+  stack
+)
+"src/persistent.ml" 51 2334 2340 "src/persistent.ml" 51 2334 2347
+type(
+  'a abstract_vertex -> 'b abstract_vertex -> int
+)
+ident(
+  def compare "src/persistent.ml" 52 2385 2387 "src/persistent.ml" 60 2633 2636
+)
+"src/persistent.ml" 51 2334 2348 "src/persistent.ml" 51 2334 2349
+type(
+  'a abstract_vertex
+)
+ident(
+  def x "src/persistent.ml" 51 2334 2350 "src/persistent.ml" 51 2334 2384
+)
+"src/persistent.ml" 51 2334 2350 "src/persistent.ml" 51 2334 2351
+type(
+  'b abstract_vertex
+)
+ident(
+  def y "src/persistent.ml" 51 2334 2354 "src/persistent.ml" 51 2334 2384
+)
+"src/persistent.ml" 51 2334 2354 "src/persistent.ml" 51 2334 2372
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/persistent.ml" 51 2334 2373 "src/persistent.ml" 51 2334 2374
+type(
+  'a abstract_vertex
+)
+ident(
+  int_ref x "src/persistent.ml" 51 2334 2348 "src/persistent.ml" 51 2334 2349
+)
+"src/persistent.ml" 51 2334 2373 "src/persistent.ml" 51 2334 2378
+type(
+  int
+)
+"src/persistent.ml" 51 2334 2379 "src/persistent.ml" 51 2334 2380
+type(
+  'b abstract_vertex
+)
+ident(
+  int_ref y "src/persistent.ml" 51 2334 2350 "src/persistent.ml" 51 2334 2351
+)
+"src/persistent.ml" 51 2334 2379 "src/persistent.ml" 51 2334 2384
+type(
+  int
+)
+"src/persistent.ml" 51 2334 2354 "src/persistent.ml" 51 2334 2384
+type(
+  int
+)
+"src/persistent.ml" 52 2385 2391 "src/persistent.ml" 52 2385 2395
+type(
+  'c abstract_vertex -> int
+)
+ident(
+  def hash "src/persistent.ml" 53 2406 2408 "src/persistent.ml" 60 2633 2636
+)
+"src/persistent.ml" 52 2385 2396 "src/persistent.ml" 52 2385 2397
+type(
+  'c abstract_vertex
+)
+ident(
+  def x "src/persistent.ml" 52 2385 2400 "src/persistent.ml" 52 2385 2405
+)
+"src/persistent.ml" 52 2385 2400 "src/persistent.ml" 52 2385 2401
+type(
+  'c abstract_vertex
+)
+ident(
+  int_ref x "src/persistent.ml" 52 2385 2396 "src/persistent.ml" 52 2385 2397
+)
+"src/persistent.ml" 52 2385 2400 "src/persistent.ml" 52 2385 2405
+type(
+  int
+)
+"src/persistent.ml" 53 2406 2412 "src/persistent.ml" 53 2406 2417
+type(
+  'd abstract_vertex -> 'e abstract_vertex -> bool
+)
+ident(
+  def equal "src/persistent.ml" 54 2438 2440 "src/persistent.ml" 60 2633 2636
+)
+"src/persistent.ml" 53 2406 2418 "src/persistent.ml" 53 2406 2419
+type(
+  'd abstract_vertex
+)
+ident(
+  def x "src/persistent.ml" 53 2406 2420 "src/persistent.ml" 53 2406 2437
+)
+"src/persistent.ml" 53 2406 2420 "src/persistent.ml" 53 2406 2421
+type(
+  'e abstract_vertex
+)
+ident(
+  def y "src/persistent.ml" 53 2406 2424 "src/persistent.ml" 53 2406 2437
+)
+"src/persistent.ml" 53 2406 2424 "src/persistent.ml" 53 2406 2425
+type(
+  'd abstract_vertex
+)
+ident(
+  int_ref x "src/persistent.ml" 53 2406 2418 "src/persistent.ml" 53 2406 2419
+)
+"src/persistent.ml" 53 2406 2424 "src/persistent.ml" 53 2406 2429
+type(
+  int
+)
+"src/persistent.ml" 53 2406 2430 "src/persistent.ml" 53 2406 2431
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/persistent.ml" 53 2406 2432 "src/persistent.ml" 53 2406 2433
+type(
+  'e abstract_vertex
+)
+ident(
+  int_ref y "src/persistent.ml" 53 2406 2420 "src/persistent.ml" 53 2406 2421
+)
+"src/persistent.ml" 53 2406 2432 "src/persistent.ml" 53 2406 2437
+type(
+  int
+)
+"src/persistent.ml" 53 2406 2424 "src/persistent.ml" 53 2406 2437
+type(
+  bool
+)
+"src/persistent.ml" 54 2438 2444 "src/persistent.ml" 54 2438 2449
+type(
+  'f abstract_vertex -> 'f
+)
+ident(
+  def label "src/persistent.ml" 55 2462 2464 "src/persistent.ml" 60 2633 2636
+)
+"src/persistent.ml" 54 2438 2450 "src/persistent.ml" 54 2438 2451
+type(
+  'f abstract_vertex
+)
+ident(
+  def x "src/persistent.ml" 54 2438 2454 "src/persistent.ml" 54 2438 2461
+)
+"src/persistent.ml" 54 2438 2454 "src/persistent.ml" 54 2438 2455
+type(
+  'f abstract_vertex
+)
+ident(
+  int_ref x "src/persistent.ml" 54 2438 2450 "src/persistent.ml" 54 2438 2451
+)
+"src/persistent.ml" 54 2438 2454 "src/persistent.ml" 54 2438 2461
+type(
+  'f
+)
+"src/persistent.ml" 55 2462 2468 "src/persistent.ml" 55 2462 2474
+type(
+  'g -> 'g abstract_vertex
+)
+ident(
+  def create "src/persistent.ml" 59 2596 2632 "src/persistent.ml" 60 2633 2636
+)
+"src/persistent.ml" 55 2462 2475 "src/persistent.ml" 55 2462 2476
+type(
+  'g
+)
+ident(
+  def l "src/persistent.ml" 56 2479 2483 "src/persistent.ml" 59 2596 2632
+)
+"src/persistent.ml" 56 2479 2486 "src/persistent.ml" 56 2479 2487
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/persistent.ml" 56 2479 2487 "src/persistent.ml" 56 2479 2497
+type(
+  int ref
+)
+ident(
+  ext_ref Blocks.cpt_vertex
+)
+"src/persistent.ml" 56 2479 2486 "src/persistent.ml" 56 2479 2497
+type(
+  int
+)
+"src/persistent.ml" 56 2479 2498 "src/persistent.ml" 56 2479 2499
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/persistent.ml" 56 2479 2500 "src/persistent.ml" 56 2479 2526
+type(
+  int
+)
+ident(
+  ext_ref Blocks.first_value_for_cpt_vertex
+)
+"src/persistent.ml" 56 2479 2527 "src/persistent.ml" 56 2479 2528
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/persistent.ml" 56 2479 2529 "src/persistent.ml" 56 2479 2530
+type(
+  int
+)
+"src/persistent.ml" 56 2479 2500 "src/persistent.ml" 56 2479 2530
+type(
+  int
+)
+"src/persistent.ml" 56 2479 2486 "src/persistent.ml" 56 2479 2530
+type(
+  bool
+)
+"src/persistent.ml" 57 2536 2542 "src/persistent.ml" 57 2536 2553
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/persistent.ml" 57 2536 2554 "src/persistent.ml" 57 2536 2573
+type(
+  string
+)
+"src/persistent.ml" 57 2536 2542 "src/persistent.ml" 57 2536 2573
+call(
+  stack
+)
+type(
+  unit
+)
+"src/persistent.ml" 56 2479 2483 "src/persistent.ml" 57 2536 2573
+type(
+  unit
+)
+"src/persistent.ml" 58 2575 2579 "src/persistent.ml" 58 2575 2583
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/persistent.ml" 58 2575 2584 "src/persistent.ml" 58 2575 2594
+type(
+  int ref
+)
+ident(
+  ext_ref Blocks.cpt_vertex
+)
+"src/persistent.ml" 58 2575 2579 "src/persistent.ml" 58 2575 2594
+type(
+  unit
+)
+"src/persistent.ml" 59 2596 2608 "src/persistent.ml" 59 2596 2609
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/persistent.ml" 59 2596 2609 "src/persistent.ml" 59 2596 2619
+type(
+  int ref
+)
+ident(
+  ext_ref Blocks.cpt_vertex
+)
+"src/persistent.ml" 59 2596 2608 "src/persistent.ml" 59 2596 2619
+type(
+  int
+)
+"src/persistent.ml" 59 2596 2629 "src/persistent.ml" 59 2596 2630
+type(
+  'g
+)
+ident(
+  int_ref l "src/persistent.ml" 55 2462 2475 "src/persistent.ml" 55 2462 2476
+)
+"src/persistent.ml" 59 2596 2600 "src/persistent.ml" 59 2596 2632
+type(
+  'g abstract_vertex
+)
+"src/persistent.ml" 58 2575 2579 "src/persistent.ml" 59 2596 2632
+type(
+  'g abstract_vertex
+)
+"src/persistent.ml" 56 2479 2483 "src/persistent.ml" 59 2596 2632
+type(
+  'g abstract_vertex
+)
+"src/persistent.ml" 65 2704 2716 "src/persistent.ml" 65 2704 2737
+call(
+  stack
+)
+"src/persistent.ml" 66 2738 2746 "src/persistent.ml" 66 2738 2759
+type(
+  S.t HM.t -> HM.key -> S.t HM.t
+)
+ident(
+  def remove_vertex "src/persistent.ml" 71 2896 2905 "src/persistent.ml" 72 2906 2911
+)
+"src/persistent.ml" 66 2738 2760 "src/persistent.ml" 66 2738 2761
+type(
+  S.t HM.t
+)
+ident(
+  def g "src/persistent.ml" 66 2738 2762 "src/persistent.ml" 71 2896 2905
+)
+"src/persistent.ml" 66 2738 2762 "src/persistent.ml" 66 2738 2763
+type(
+  HM.key
+)
+ident(
+  def v "src/persistent.ml" 67 2766 2772 "src/persistent.ml" 71 2896 2905
+)
+"src/persistent.ml" 67 2766 2775 "src/persistent.ml" 67 2766 2781
+type(
+  HM.key -> S.t HM.t -> bool
+)
+ident(
+  ext_ref HM.mem
+)
+"src/persistent.ml" 67 2766 2782 "src/persistent.ml" 67 2766 2783
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 66 2738 2762 "src/persistent.ml" 66 2738 2763
+)
+"src/persistent.ml" 67 2766 2784 "src/persistent.ml" 67 2766 2785
+type(
+  S.t HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 66 2738 2760 "src/persistent.ml" 66 2738 2761
+)
+"src/persistent.ml" 67 2766 2775 "src/persistent.ml" 67 2766 2785
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 68 2791 2803 "src/persistent.ml" 68 2791 2804
+type(
+  S.t HM.t
+)
+ident(
+  def g "src/persistent.ml" 69 2824 2832 "src/persistent.ml" 69 2824 2884
+)
+"src/persistent.ml" 68 2791 2807 "src/persistent.ml" 68 2791 2816
+type(
+  HM.key -> S.t HM.t -> S.t HM.t
+)
+ident(
+  ext_ref HM.remove
+)
+"src/persistent.ml" 68 2791 2817 "src/persistent.ml" 68 2791 2818
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 66 2738 2762 "src/persistent.ml" 66 2738 2763
+)
+"src/persistent.ml" 68 2791 2819 "src/persistent.ml" 68 2791 2820
+type(
+  S.t HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 66 2738 2760 "src/persistent.ml" 66 2738 2761
+)
+"src/persistent.ml" 68 2791 2807 "src/persistent.ml" 68 2791 2820
+call(
+  stack
+)
+type(
+  S.t HM.t
+)
+"src/persistent.ml" 69 2824 2832 "src/persistent.ml" 69 2824 2839
+type(
+  (HM.key -> S.t -> S.t HM.t -> S.t HM.t) -> S.t HM.t -> S.t HM.t -> S.t HM.t
+)
+ident(
+  ext_ref HM.fold
+)
+"src/persistent.ml" 69 2824 2845 "src/persistent.ml" 69 2824 2846
+type(
+  HM.key
+)
+ident(
+  def k "src/persistent.ml" 69 2824 2847 "src/persistent.ml" 69 2824 2875
+)
+"src/persistent.ml" 69 2824 2847 "src/persistent.ml" 69 2824 2848
+type(
+  S.t
+)
+ident(
+  def s "src/persistent.ml" 69 2824 2852 "src/persistent.ml" 69 2824 2875
+)
+"src/persistent.ml" 69 2824 2852 "src/persistent.ml" 69 2824 2858
+type(
+  HM.key -> S.t -> S.t HM.t -> S.t HM.t
+)
+ident(
+  ext_ref HM.add
+)
+"src/persistent.ml" 69 2824 2859 "src/persistent.ml" 69 2824 2860
+type(
+  HM.key
+)
+ident(
+  int_ref k "src/persistent.ml" 69 2824 2845 "src/persistent.ml" 69 2824 2846
+)
+"src/persistent.ml" 69 2824 2862 "src/persistent.ml" 69 2824 2870
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  ext_ref S.remove
+)
+"src/persistent.ml" 69 2824 2871 "src/persistent.ml" 69 2824 2872
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 66 2738 2762 "src/persistent.ml" 66 2738 2763
+)
+"src/persistent.ml" 69 2824 2873 "src/persistent.ml" 69 2824 2874
+type(
+  S.t
+)
+ident(
+  int_ref s "src/persistent.ml" 69 2824 2847 "src/persistent.ml" 69 2824 2848
+)
+"src/persistent.ml" 69 2824 2861 "src/persistent.ml" 69 2824 2875
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/persistent.ml" 69 2824 2852 "src/persistent.ml" 69 2824 2875
+call(
+  tail
+)
+type(
+  S.t HM.t -> S.t HM.t
+)
+"src/persistent.ml" 69 2824 2840 "src/persistent.ml" 69 2824 2876
+type(
+  HM.key -> S.t -> S.t HM.t -> S.t HM.t
+)
+"src/persistent.ml" 69 2824 2877 "src/persistent.ml" 69 2824 2878
+type(
+  S.t HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 68 2791 2803 "src/persistent.ml" 68 2791 2804
+)
+"src/persistent.ml" 69 2824 2879 "src/persistent.ml" 69 2824 2884
+type(
+  S.t HM.return
+)
+ident(
+  ext_ref empty
+)
+"src/persistent.ml" 69 2824 2832 "src/persistent.ml" 69 2824 2884
+call(
+  tail
+)
+type(
+  S.t HM.t
+)
+"src/persistent.ml" 68 2791 2799 "src/persistent.ml" 69 2824 2884
+type(
+  S.t HM.t
+)
+"src/persistent.ml" 71 2896 2904 "src/persistent.ml" 71 2896 2905
+type(
+  S.t HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 66 2738 2760 "src/persistent.ml" 66 2738 2761
+)
+"src/persistent.ml" 67 2766 2772 "src/persistent.ml" 71 2896 2905
+type(
+  S.t HM.t
+)
+"src/persistent.ml" 75 2981 2993 "src/persistent.ml" 75 2981 3021
+call(
+  stack
+)
+"src/persistent.ml" 75 2981 2993 "src/persistent.ml" 75 2981 3024
+call(
+  stack
+)
+"src/persistent.ml" 76 3025 3033 "src/persistent.ml" 76 3025 3046
+type(
+  S.t HM.t -> HM.key -> S.t HM.t
+)
+ident(
+  def remove_vertex "src/persistent.ml" 82 3252 3261 "src/persistent.ml" 83 3262 3267
+)
+"src/persistent.ml" 76 3025 3047 "src/persistent.ml" 76 3025 3048
+type(
+  S.t HM.t
+)
+ident(
+  def g "src/persistent.ml" 76 3025 3049 "src/persistent.ml" 82 3252 3261
+)
+"src/persistent.ml" 76 3025 3049 "src/persistent.ml" 76 3025 3050
+type(
+  HM.key
+)
+ident(
+  def v "src/persistent.ml" 77 3053 3059 "src/persistent.ml" 82 3252 3261
+)
+"src/persistent.ml" 77 3053 3062 "src/persistent.ml" 77 3053 3068
+type(
+  HM.key -> S.t HM.t -> bool
+)
+ident(
+  ext_ref HM.mem
+)
+"src/persistent.ml" 77 3053 3069 "src/persistent.ml" 77 3053 3070
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 76 3025 3049 "src/persistent.ml" 76 3025 3050
+)
+"src/persistent.ml" 77 3053 3071 "src/persistent.ml" 77 3053 3072
+type(
+  S.t HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 76 3025 3047 "src/persistent.ml" 76 3025 3048
+)
+"src/persistent.ml" 77 3053 3062 "src/persistent.ml" 77 3053 3072
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 78 3078 3090 "src/persistent.ml" 78 3078 3091
+type(
+  S.t HM.t
+)
+ident(
+  def g "src/persistent.ml" 79 3111 3119 "src/persistent.ml" 80 3182 3240
+)
+"src/persistent.ml" 78 3078 3094 "src/persistent.ml" 78 3078 3103
+type(
+  HM.key -> S.t HM.t -> S.t HM.t
+)
+ident(
+  ext_ref HM.remove
+)
+"src/persistent.ml" 78 3078 3104 "src/persistent.ml" 78 3078 3105
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 76 3025 3049 "src/persistent.ml" 76 3025 3050
+)
+"src/persistent.ml" 78 3078 3106 "src/persistent.ml" 78 3078 3107
+type(
+  S.t HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 76 3025 3047 "src/persistent.ml" 76 3025 3048
+)
+"src/persistent.ml" 78 3078 3094 "src/persistent.ml" 78 3078 3107
+call(
+  stack
+)
+type(
+  S.t HM.t
+)
+"src/persistent.ml" 79 3111 3123 "src/persistent.ml" 79 3111 3129
+type(
+  V.t -> S.t -> S.t
+)
+ident(
+  def remove "src/persistent.ml" 80 3182 3190 "src/persistent.ml" 80 3182 3240
+)
+"src/persistent.ml" 79 3111 3130 "src/persistent.ml" 79 3111 3131
+type(
+  V.t
+)
+ident(
+  def v "src/persistent.ml" 79 3111 3134 "src/persistent.ml" 79 3111 3178
+)
+"src/persistent.ml" 79 3111 3134 "src/persistent.ml" 79 3111 3142
+type(
+  (S.elt -> bool) -> S.t -> S.t
+)
+ident(
+  ext_ref S.filter
+)
+"src/persistent.ml" 79 3111 3149 "src/persistent.ml" 79 3111 3151
+type(
+  V.t
+)
+ident(
+  def v2 "src/persistent.ml" 79 3111 3159 "src/persistent.ml" 79 3111 3177
+)
+"src/persistent.ml" 79 3111 3153 "src/persistent.ml" 79 3111 3154
+type(
+  E.t
+)
+"src/persistent.ml" 79 3111 3148 "src/persistent.ml" 79 3111 3155
+type(
+  S.elt
+)
+"src/persistent.ml" 79 3111 3159 "src/persistent.ml" 79 3111 3162
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/persistent.ml" 79 3111 3164 "src/persistent.ml" 79 3111 3171
+type(
+  V.t -> V.t -> bool
+)
+ident(
+  ext_ref V.equal
+)
+"src/persistent.ml" 79 3111 3172 "src/persistent.ml" 79 3111 3173
+type(
+  V.t
+)
+ident(
+  int_ref v "src/persistent.ml" 79 3111 3130 "src/persistent.ml" 79 3111 3131
+)
+"src/persistent.ml" 79 3111 3174 "src/persistent.ml" 79 3111 3176
+type(
+  V.t
+)
+ident(
+  int_ref v2 "src/persistent.ml" 79 3111 3149 "src/persistent.ml" 79 3111 3151
+)
+"src/persistent.ml" 79 3111 3163 "src/persistent.ml" 79 3111 3177
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 79 3111 3159 "src/persistent.ml" 79 3111 3177
+type(
+  bool
+)
+"src/persistent.ml" 79 3111 3143 "src/persistent.ml" 79 3111 3178
+type(
+  S.elt -> bool
+)
+"src/persistent.ml" 79 3111 3134 "src/persistent.ml" 79 3111 3178
+call(
+  tail
+)
+type(
+  S.t -> S.t
+)
+"src/persistent.ml" 80 3182 3190 "src/persistent.ml" 80 3182 3197
+type(
+  (HM.key -> S.t -> S.t HM.t -> S.t HM.t) -> S.t HM.t -> S.t HM.t -> S.t HM.t
+)
+ident(
+  ext_ref HM.fold
+)
+"src/persistent.ml" 80 3182 3203 "src/persistent.ml" 80 3182 3204
+type(
+  HM.key
+)
+ident(
+  def k "src/persistent.ml" 80 3182 3205 "src/persistent.ml" 80 3182 3231
+)
+"src/persistent.ml" 80 3182 3205 "src/persistent.ml" 80 3182 3206
+type(
+  S.t
+)
+ident(
+  def s "src/persistent.ml" 80 3182 3210 "src/persistent.ml" 80 3182 3231
+)
+"src/persistent.ml" 80 3182 3210 "src/persistent.ml" 80 3182 3216
+type(
+  HM.key -> S.t -> S.t HM.t -> S.t HM.t
+)
+ident(
+  ext_ref HM.add
+)
+"src/persistent.ml" 80 3182 3217 "src/persistent.ml" 80 3182 3218
+type(
+  HM.key
+)
+ident(
+  int_ref k "src/persistent.ml" 80 3182 3203 "src/persistent.ml" 80 3182 3204
+)
+"src/persistent.ml" 80 3182 3220 "src/persistent.ml" 80 3182 3226
+type(
+  V.t -> S.t -> S.t
+)
+ident(
+  int_ref remove "src/persistent.ml" 79 3111 3123 "src/persistent.ml" 79 3111 3129
+)
+"src/persistent.ml" 80 3182 3227 "src/persistent.ml" 80 3182 3228
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 76 3025 3049 "src/persistent.ml" 76 3025 3050
+)
+"src/persistent.ml" 80 3182 3229 "src/persistent.ml" 80 3182 3230
+type(
+  S.t
+)
+ident(
+  int_ref s "src/persistent.ml" 80 3182 3205 "src/persistent.ml" 80 3182 3206
+)
+"src/persistent.ml" 80 3182 3219 "src/persistent.ml" 80 3182 3231
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/persistent.ml" 80 3182 3210 "src/persistent.ml" 80 3182 3231
+call(
+  tail
+)
+type(
+  S.t HM.t -> S.t HM.t
+)
+"src/persistent.ml" 80 3182 3198 "src/persistent.ml" 80 3182 3232
+type(
+  HM.key -> S.t -> S.t HM.t -> S.t HM.t
+)
+"src/persistent.ml" 80 3182 3233 "src/persistent.ml" 80 3182 3234
+type(
+  S.t HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 78 3078 3090 "src/persistent.ml" 78 3078 3091
+)
+"src/persistent.ml" 80 3182 3235 "src/persistent.ml" 80 3182 3240
+type(
+  S.t HM.return
+)
+ident(
+  ext_ref empty
+)
+"src/persistent.ml" 80 3182 3190 "src/persistent.ml" 80 3182 3240
+call(
+  tail
+)
+type(
+  S.t HM.t
+)
+"src/persistent.ml" 79 3111 3119 "src/persistent.ml" 80 3182 3240
+type(
+  S.t HM.t
+)
+"src/persistent.ml" 78 3078 3086 "src/persistent.ml" 80 3182 3240
+type(
+  S.t HM.t
+)
+"src/persistent.ml" 82 3252 3260 "src/persistent.ml" 82 3252 3261
+type(
+  S.t HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 76 3025 3047 "src/persistent.ml" 76 3025 3048
+)
+"src/persistent.ml" 77 3053 3059 "src/persistent.ml" 82 3252 3261
+type(
+  S.t HM.t
+)
+"src/persistent.ml" 86 3324 3336 "src/persistent.ml" 86 3324 3370
+call(
+  stack
+)
+"src/persistent.ml" 87 3371 3379 "src/persistent.ml" 87 3371 3392
+type(
+  (S.t * S.t) HM.t -> HM.key -> (S.t * S.t) HM.t
+)
+ident(
+  def remove_vertex "src/persistent.ml" 106 3931 3940 "src/persistent.ml" 107 3941 3946
+)
+"src/persistent.ml" 87 3371 3393 "src/persistent.ml" 87 3371 3394
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  def g "src/persistent.ml" 87 3371 3395 "src/persistent.ml" 106 3931 3940
+)
+"src/persistent.ml" 87 3371 3395 "src/persistent.ml" 87 3371 3396
+type(
+  HM.key
+)
+ident(
+  def v "src/persistent.ml" 88 3399 3405 "src/persistent.ml" 106 3931 3940
+)
+"src/persistent.ml" 88 3399 3408 "src/persistent.ml" 88 3399 3414
+type(
+  HM.key -> (S.t * S.t) HM.t -> bool
+)
+ident(
+  ext_ref HM.mem
+)
+"src/persistent.ml" 88 3399 3415 "src/persistent.ml" 88 3399 3416
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 87 3371 3395 "src/persistent.ml" 87 3371 3396
+)
+"src/persistent.ml" 88 3399 3417 "src/persistent.ml" 88 3399 3418
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 87 3371 3393 "src/persistent.ml" 87 3371 3394
+)
+"src/persistent.ml" 88 3399 3408 "src/persistent.ml" 88 3399 3418
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 89 3424 3436 "src/persistent.ml" 89 3424 3442
+type(
+  V.t -> S.t -> S.t
+)
+ident(
+  def remove "src/persistent.ml" 90 3490 3498 "src/persistent.ml" 104 3898 3919
+)
+"src/persistent.ml" 89 3424 3443 "src/persistent.ml" 89 3424 3444
+type(
+  V.t
+)
+ident(
+  def v "src/persistent.ml" 89 3424 3447 "src/persistent.ml" 89 3424 3486
+)
+"src/persistent.ml" 89 3424 3447 "src/persistent.ml" 89 3424 3455
+type(
+  (S.elt -> bool) -> S.t -> S.t
+)
+ident(
+  ext_ref S.filter
+)
+"src/persistent.ml" 89 3424 3461 "src/persistent.ml" 89 3424 3463
+type(
+  S.elt
+)
+ident(
+  def v' "src/persistent.ml" 89 3424 3467 "src/persistent.ml" 89 3424 3485
+)
+"src/persistent.ml" 89 3424 3467 "src/persistent.ml" 89 3424 3470
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/persistent.ml" 89 3424 3472 "src/persistent.ml" 89 3424 3479
+type(
+  V.t -> V.t -> bool
+)
+ident(
+  ext_ref V.equal
+)
+"src/persistent.ml" 89 3424 3480 "src/persistent.ml" 89 3424 3481
+type(
+  V.t
+)
+ident(
+  int_ref v "src/persistent.ml" 89 3424 3443 "src/persistent.ml" 89 3424 3444
+)
+"src/persistent.ml" 89 3424 3482 "src/persistent.ml" 89 3424 3484
+type(
+  S.elt
+)
+ident(
+  int_ref v' "src/persistent.ml" 89 3424 3461 "src/persistent.ml" 89 3424 3463
+)
+"src/persistent.ml" 89 3424 3471 "src/persistent.ml" 89 3424 3485
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 89 3424 3467 "src/persistent.ml" 89 3424 3485
+type(
+  bool
+)
+"src/persistent.ml" 89 3424 3456 "src/persistent.ml" 89 3424 3486
+type(
+  S.elt -> bool
+)
+"src/persistent.ml" 89 3424 3447 "src/persistent.ml" 89 3424 3486
+call(
+  tail
+)
+type(
+  S.t -> S.t
+)
+"src/persistent.ml" 90 3490 3502 "src/persistent.ml" 90 3490 3503
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  def g "src/persistent.ml" 97 3694 3702 "src/persistent.ml" 104 3898 3919
+)
+"src/persistent.ml" 91 3506 3516 "src/persistent.ml" 91 3506 3525
+type(
+  (S.elt -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t) ->
+  (S.t * S.t) HM.t -> HM.key -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t
+)
+ident(
+  ext_ref fold_pred
+)
+"src/persistent.ml" 92 3526 3543 "src/persistent.ml" 92 3526 3545
+type(
+  S.elt
+)
+ident(
+  def v' "src/persistent.ml" 92 3526 3546 "src/persistent.ml" 94 3608 3663
+)
+"src/persistent.ml" 92 3526 3546 "src/persistent.ml" 92 3526 3549
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  def acc "src/persistent.ml" 93 3553 3568 "src/persistent.ml" 94 3608 3663
+)
+"src/persistent.ml" 93 3553 3572 "src/persistent.ml" 93 3553 3578
+type(
+  S.t
+)
+ident(
+  def in_set "src/persistent.ml" 94 3608 3623 "src/persistent.ml" 94 3608 3663
+)
+"src/persistent.ml" 93 3553 3580 "src/persistent.ml" 93 3553 3587
+type(
+  S.t
+)
+ident(
+  def out_set "src/persistent.ml" 94 3608 3623 "src/persistent.ml" 94 3608 3663
+)
+"src/persistent.ml" 93 3553 3572 "src/persistent.ml" 93 3553 3587
+type(
+  S.t * S.t
+)
+"src/persistent.ml" 93 3553 3590 "src/persistent.ml" 93 3553 3597
+type(
+  HM.key -> (S.t * S.t) HM.t -> S.t * S.t
+)
+ident(
+  ext_ref HM.find
+)
+"src/persistent.ml" 93 3553 3598 "src/persistent.ml" 93 3553 3600
+type(
+  S.elt
+)
+ident(
+  int_ref v' "src/persistent.ml" 92 3526 3543 "src/persistent.ml" 92 3526 3545
+)
+"src/persistent.ml" 93 3553 3601 "src/persistent.ml" 93 3553 3604
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref acc "src/persistent.ml" 92 3526 3546 "src/persistent.ml" 92 3526 3549
+)
+"src/persistent.ml" 93 3553 3590 "src/persistent.ml" 93 3553 3604
+call(
+  stack
+)
+type(
+  S.t * S.t
+)
+"src/persistent.ml" 94 3608 3623 "src/persistent.ml" 94 3608 3629
+type(
+  HM.key -> S.t * S.t -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t
+)
+ident(
+  ext_ref HM.add
+)
+"src/persistent.ml" 94 3608 3630 "src/persistent.ml" 94 3608 3632
+type(
+  S.elt
+)
+ident(
+  int_ref v' "src/persistent.ml" 92 3526 3543 "src/persistent.ml" 92 3526 3545
+)
+"src/persistent.ml" 94 3608 3634 "src/persistent.ml" 94 3608 3640
+type(
+  S.t
+)
+ident(
+  int_ref in_set "src/persistent.ml" 93 3553 3572 "src/persistent.ml" 93 3553 3578
+)
+"src/persistent.ml" 94 3608 3642 "src/persistent.ml" 94 3608 3648
+type(
+  V.t -> S.t -> S.t
+)
+ident(
+  int_ref remove "src/persistent.ml" 89 3424 3436 "src/persistent.ml" 89 3424 3442
+)
+"src/persistent.ml" 94 3608 3649 "src/persistent.ml" 94 3608 3650
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 87 3371 3395 "src/persistent.ml" 87 3371 3396
+)
+"src/persistent.ml" 94 3608 3651 "src/persistent.ml" 94 3608 3658
+type(
+  S.t
+)
+ident(
+  int_ref out_set "src/persistent.ml" 93 3553 3580 "src/persistent.ml" 93 3553 3587
+)
+"src/persistent.ml" 94 3608 3642 "src/persistent.ml" 94 3608 3658
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/persistent.ml" 94 3608 3633 "src/persistent.ml" 94 3608 3659
+type(
+  S.t * S.t
+)
+"src/persistent.ml" 94 3608 3660 "src/persistent.ml" 94 3608 3663
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref acc "src/persistent.ml" 92 3526 3546 "src/persistent.ml" 92 3526 3549
+)
+"src/persistent.ml" 94 3608 3623 "src/persistent.ml" 94 3608 3663
+call(
+  tail
+)
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 93 3553 3568 "src/persistent.ml" 94 3608 3663
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 92 3526 3538 "src/persistent.ml" 94 3608 3664
+type(
+  S.elt -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t
+)
+"src/persistent.ml" 95 3665 3677 "src/persistent.ml" 95 3665 3678
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 87 3371 3393 "src/persistent.ml" 87 3371 3394
+)
+"src/persistent.ml" 95 3665 3679 "src/persistent.ml" 95 3665 3680
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 87 3371 3395 "src/persistent.ml" 87 3371 3396
+)
+"src/persistent.ml" 95 3665 3681 "src/persistent.ml" 95 3665 3682
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 87 3371 3393 "src/persistent.ml" 87 3371 3394
+)
+"src/persistent.ml" 91 3506 3516 "src/persistent.ml" 95 3665 3682
+call(
+  stack
+)
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 97 3694 3706 "src/persistent.ml" 97 3694 3707
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  def g "src/persistent.ml" 104 3898 3906 "src/persistent.ml" 104 3898 3919
+)
+"src/persistent.ml" 98 3710 3720 "src/persistent.ml" 98 3710 3729
+type(
+  (S.elt -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t) ->
+  (S.t * S.t) HM.t -> HM.key -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t
+)
+ident(
+  ext_ref fold_succ
+)
+"src/persistent.ml" 99 3730 3747 "src/persistent.ml" 99 3730 3749
+type(
+  S.elt
+)
+ident(
+  def v' "src/persistent.ml" 99 3730 3750 "src/persistent.ml" 101 3812 3867
+)
+"src/persistent.ml" 99 3730 3750 "src/persistent.ml" 99 3730 3753
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  def acc "src/persistent.ml" 100 3757 3772 "src/persistent.ml" 101 3812 3867
+)
+"src/persistent.ml" 100 3757 3776 "src/persistent.ml" 100 3757 3782
+type(
+  S.t
+)
+ident(
+  def in_set "src/persistent.ml" 101 3812 3827 "src/persistent.ml" 101 3812 3867
+)
+"src/persistent.ml" 100 3757 3784 "src/persistent.ml" 100 3757 3791
+type(
+  S.t
+)
+ident(
+  def out_set "src/persistent.ml" 101 3812 3827 "src/persistent.ml" 101 3812 3867
+)
+"src/persistent.ml" 100 3757 3776 "src/persistent.ml" 100 3757 3791
+type(
+  S.t * S.t
+)
+"src/persistent.ml" 100 3757 3794 "src/persistent.ml" 100 3757 3801
+type(
+  HM.key -> (S.t * S.t) HM.t -> S.t * S.t
+)
+ident(
+  ext_ref HM.find
+)
+"src/persistent.ml" 100 3757 3802 "src/persistent.ml" 100 3757 3804
+type(
+  S.elt
+)
+ident(
+  int_ref v' "src/persistent.ml" 99 3730 3747 "src/persistent.ml" 99 3730 3749
+)
+"src/persistent.ml" 100 3757 3805 "src/persistent.ml" 100 3757 3808
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref acc "src/persistent.ml" 99 3730 3750 "src/persistent.ml" 99 3730 3753
+)
+"src/persistent.ml" 100 3757 3794 "src/persistent.ml" 100 3757 3808
+call(
+  stack
+)
+type(
+  S.t * S.t
+)
+"src/persistent.ml" 101 3812 3827 "src/persistent.ml" 101 3812 3833
+type(
+  HM.key -> S.t * S.t -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t
+)
+ident(
+  ext_ref HM.add
+)
+"src/persistent.ml" 101 3812 3834 "src/persistent.ml" 101 3812 3836
+type(
+  S.elt
+)
+ident(
+  int_ref v' "src/persistent.ml" 99 3730 3747 "src/persistent.ml" 99 3730 3749
+)
+"src/persistent.ml" 101 3812 3838 "src/persistent.ml" 101 3812 3844
+type(
+  V.t -> S.t -> S.t
+)
+ident(
+  int_ref remove "src/persistent.ml" 89 3424 3436 "src/persistent.ml" 89 3424 3442
+)
+"src/persistent.ml" 101 3812 3845 "src/persistent.ml" 101 3812 3846
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 87 3371 3395 "src/persistent.ml" 87 3371 3396
+)
+"src/persistent.ml" 101 3812 3847 "src/persistent.ml" 101 3812 3853
+type(
+  S.t
+)
+ident(
+  int_ref in_set "src/persistent.ml" 100 3757 3776 "src/persistent.ml" 100 3757 3782
+)
+"src/persistent.ml" 101 3812 3838 "src/persistent.ml" 101 3812 3853
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/persistent.ml" 101 3812 3855 "src/persistent.ml" 101 3812 3862
+type(
+  S.t
+)
+ident(
+  int_ref out_set "src/persistent.ml" 100 3757 3784 "src/persistent.ml" 100 3757 3791
+)
+"src/persistent.ml" 101 3812 3837 "src/persistent.ml" 101 3812 3863
+type(
+  S.t * S.t
+)
+"src/persistent.ml" 101 3812 3864 "src/persistent.ml" 101 3812 3867
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref acc "src/persistent.ml" 99 3730 3750 "src/persistent.ml" 99 3730 3753
+)
+"src/persistent.ml" 101 3812 3827 "src/persistent.ml" 101 3812 3867
+call(
+  tail
+)
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 100 3757 3772 "src/persistent.ml" 101 3812 3867
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 99 3730 3742 "src/persistent.ml" 101 3812 3868
+type(
+  S.elt -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t
+)
+"src/persistent.ml" 102 3869 3881 "src/persistent.ml" 102 3869 3882
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 90 3490 3502 "src/persistent.ml" 90 3490 3503
+)
+"src/persistent.ml" 102 3869 3883 "src/persistent.ml" 102 3869 3884
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 87 3371 3395 "src/persistent.ml" 87 3371 3396
+)
+"src/persistent.ml" 102 3869 3885 "src/persistent.ml" 102 3869 3886
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 90 3490 3502 "src/persistent.ml" 90 3490 3503
+)
+"src/persistent.ml" 98 3710 3720 "src/persistent.ml" 102 3869 3886
+call(
+  stack
+)
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 104 3898 3906 "src/persistent.ml" 104 3898 3915
+type(
+  HM.key -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t
+)
+ident(
+  ext_ref HM.remove
+)
+"src/persistent.ml" 104 3898 3916 "src/persistent.ml" 104 3898 3917
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 87 3371 3395 "src/persistent.ml" 87 3371 3396
+)
+"src/persistent.ml" 104 3898 3918 "src/persistent.ml" 104 3898 3919
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 97 3694 3706 "src/persistent.ml" 97 3694 3707
+)
+"src/persistent.ml" 104 3898 3906 "src/persistent.ml" 104 3898 3919
+call(
+  tail
+)
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 97 3694 3702 "src/persistent.ml" 104 3898 3919
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 90 3490 3498 "src/persistent.ml" 104 3898 3919
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 89 3424 3432 "src/persistent.ml" 104 3898 3919
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 106 3931 3939 "src/persistent.ml" 106 3931 3940
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 87 3371 3393 "src/persistent.ml" 87 3371 3394
+)
+"src/persistent.ml" 88 3399 3405 "src/persistent.ml" 106 3931 3940
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 110 4029 4041 "src/persistent.ml" 110 4029 4082
+call(
+  stack
+)
+"src/persistent.ml" 110 4029 4041 "src/persistent.ml" 110 4029 4085
+call(
+  stack
+)
+"src/persistent.ml" 111 4086 4094 "src/persistent.ml" 111 4086 4107
+type(
+  t -> vertex -> (S.t * S.t) HM.t
+)
+ident(
+  def remove_vertex "src/persistent.ml" 130 4664 4673 "src/persistent.ml" 131 4674 4679
+)
+"src/persistent.ml" 111 4086 4109 "src/persistent.ml" 111 4086 4110
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 111 4086 4114 "src/persistent.ml" 130 4664 4673
+)
+"src/persistent.ml" 111 4086 4115 "src/persistent.ml" 111 4086 4116
+type(
+  vertex
+)
+ident(
+  def v "src/persistent.ml" 112 4127 4133 "src/persistent.ml" 130 4664 4673
+)
+"src/persistent.ml" 112 4127 4136 "src/persistent.ml" 112 4127 4142
+type(
+  HM.key -> (S.t * S.t) HM.t -> bool
+)
+ident(
+  ext_ref HM.mem
+)
+"src/persistent.ml" 112 4127 4143 "src/persistent.ml" 112 4127 4144
+type(
+  vertex
+)
+ident(
+  int_ref v "src/persistent.ml" 111 4086 4115 "src/persistent.ml" 111 4086 4116
+)
+"src/persistent.ml" 112 4127 4145 "src/persistent.ml" 112 4127 4146
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 111 4086 4109 "src/persistent.ml" 111 4086 4110
+)
+"src/persistent.ml" 112 4127 4136 "src/persistent.ml" 112 4127 4146
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 113 4152 4164 "src/persistent.ml" 113 4152 4170
+type(
+  V.t -> S.t -> S.t
+)
+ident(
+  def remove "src/persistent.ml" 114 4223 4231 "src/persistent.ml" 128 4631 4652
+)
+"src/persistent.ml" 113 4152 4171 "src/persistent.ml" 113 4152 4172
+type(
+  V.t
+)
+ident(
+  def v "src/persistent.ml" 113 4152 4175 "src/persistent.ml" 113 4152 4219
+)
+"src/persistent.ml" 113 4152 4175 "src/persistent.ml" 113 4152 4183
+type(
+  (S.elt -> bool) -> S.t -> S.t
+)
+ident(
+  ext_ref S.filter
+)
+"src/persistent.ml" 113 4152 4190 "src/persistent.ml" 113 4152 4192
+type(
+  V.t
+)
+ident(
+  def v' "src/persistent.ml" 113 4152 4200 "src/persistent.ml" 113 4152 4218
+)
+"src/persistent.ml" 113 4152 4194 "src/persistent.ml" 113 4152 4195
+type(
+  E.t
+)
+"src/persistent.ml" 113 4152 4189 "src/persistent.ml" 113 4152 4196
+type(
+  S.elt
+)
+"src/persistent.ml" 113 4152 4200 "src/persistent.ml" 113 4152 4203
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/persistent.ml" 113 4152 4205 "src/persistent.ml" 113 4152 4212
+type(
+  V.t -> V.t -> bool
+)
+ident(
+  ext_ref V.equal
+)
+"src/persistent.ml" 113 4152 4213 "src/persistent.ml" 113 4152 4214
+type(
+  V.t
+)
+ident(
+  int_ref v "src/persistent.ml" 113 4152 4171 "src/persistent.ml" 113 4152 4172
+)
+"src/persistent.ml" 113 4152 4215 "src/persistent.ml" 113 4152 4217
+type(
+  V.t
+)
+ident(
+  int_ref v' "src/persistent.ml" 113 4152 4190 "src/persistent.ml" 113 4152 4192
+)
+"src/persistent.ml" 113 4152 4204 "src/persistent.ml" 113 4152 4218
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 113 4152 4200 "src/persistent.ml" 113 4152 4218
+type(
+  bool
+)
+"src/persistent.ml" 113 4152 4184 "src/persistent.ml" 113 4152 4219
+type(
+  S.elt -> bool
+)
+"src/persistent.ml" 113 4152 4175 "src/persistent.ml" 113 4152 4219
+call(
+  tail
+)
+type(
+  S.t -> S.t
+)
+"src/persistent.ml" 114 4223 4235 "src/persistent.ml" 114 4223 4236
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  def g "src/persistent.ml" 121 4427 4435 "src/persistent.ml" 128 4631 4652
+)
+"src/persistent.ml" 115 4239 4249 "src/persistent.ml" 115 4239 4258
+type(
+  (V.t -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t) ->
+  (S.t * S.t) HM.t -> HM.key -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t
+)
+ident(
+  ext_ref fold_pred
+)
+"src/persistent.ml" 116 4259 4276 "src/persistent.ml" 116 4259 4278
+type(
+  V.t
+)
+ident(
+  def v' "src/persistent.ml" 116 4259 4279 "src/persistent.ml" 118 4341 4396
+)
+"src/persistent.ml" 116 4259 4279 "src/persistent.ml" 116 4259 4282
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  def acc "src/persistent.ml" 117 4286 4301 "src/persistent.ml" 118 4341 4396
+)
+"src/persistent.ml" 117 4286 4305 "src/persistent.ml" 117 4286 4311
+type(
+  S.t
+)
+ident(
+  def in_set "src/persistent.ml" 118 4341 4356 "src/persistent.ml" 118 4341 4396
+)
+"src/persistent.ml" 117 4286 4313 "src/persistent.ml" 117 4286 4320
+type(
+  S.t
+)
+ident(
+  def out_set "src/persistent.ml" 118 4341 4356 "src/persistent.ml" 118 4341 4396
+)
+"src/persistent.ml" 117 4286 4305 "src/persistent.ml" 117 4286 4320
+type(
+  S.t * S.t
+)
+"src/persistent.ml" 117 4286 4323 "src/persistent.ml" 117 4286 4330
+type(
+  HM.key -> (S.t * S.t) HM.t -> S.t * S.t
+)
+ident(
+  ext_ref HM.find
+)
+"src/persistent.ml" 117 4286 4331 "src/persistent.ml" 117 4286 4333
+type(
+  V.t
+)
+ident(
+  int_ref v' "src/persistent.ml" 116 4259 4276 "src/persistent.ml" 116 4259 4278
+)
+"src/persistent.ml" 117 4286 4334 "src/persistent.ml" 117 4286 4337
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref acc "src/persistent.ml" 116 4259 4279 "src/persistent.ml" 116 4259 4282
+)
+"src/persistent.ml" 117 4286 4323 "src/persistent.ml" 117 4286 4337
+call(
+  stack
+)
+type(
+  S.t * S.t
+)
+"src/persistent.ml" 118 4341 4356 "src/persistent.ml" 118 4341 4362
+type(
+  HM.key -> S.t * S.t -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t
+)
+ident(
+  ext_ref HM.add
+)
+"src/persistent.ml" 118 4341 4363 "src/persistent.ml" 118 4341 4365
+type(
+  V.t
+)
+ident(
+  int_ref v' "src/persistent.ml" 116 4259 4276 "src/persistent.ml" 116 4259 4278
+)
+"src/persistent.ml" 118 4341 4367 "src/persistent.ml" 118 4341 4373
+type(
+  S.t
+)
+ident(
+  int_ref in_set "src/persistent.ml" 117 4286 4305 "src/persistent.ml" 117 4286 4311
+)
+"src/persistent.ml" 118 4341 4375 "src/persistent.ml" 118 4341 4381
+type(
+  V.t -> S.t -> S.t
+)
+ident(
+  int_ref remove "src/persistent.ml" 113 4152 4164 "src/persistent.ml" 113 4152 4170
+)
+"src/persistent.ml" 118 4341 4382 "src/persistent.ml" 118 4341 4383
+type(
+  vertex
+)
+ident(
+  int_ref v "src/persistent.ml" 111 4086 4115 "src/persistent.ml" 111 4086 4116
+)
+"src/persistent.ml" 118 4341 4384 "src/persistent.ml" 118 4341 4391
+type(
+  S.t
+)
+ident(
+  int_ref out_set "src/persistent.ml" 117 4286 4313 "src/persistent.ml" 117 4286 4320
+)
+"src/persistent.ml" 118 4341 4375 "src/persistent.ml" 118 4341 4391
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/persistent.ml" 118 4341 4366 "src/persistent.ml" 118 4341 4392
+type(
+  S.t * S.t
+)
+"src/persistent.ml" 118 4341 4393 "src/persistent.ml" 118 4341 4396
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref acc "src/persistent.ml" 116 4259 4279 "src/persistent.ml" 116 4259 4282
+)
+"src/persistent.ml" 118 4341 4356 "src/persistent.ml" 118 4341 4396
+call(
+  tail
+)
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 117 4286 4301 "src/persistent.ml" 118 4341 4396
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 116 4259 4271 "src/persistent.ml" 118 4341 4397
+type(
+  V.t -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t
+)
+"src/persistent.ml" 119 4398 4410 "src/persistent.ml" 119 4398 4411
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 111 4086 4109 "src/persistent.ml" 111 4086 4110
+)
+"src/persistent.ml" 119 4398 4412 "src/persistent.ml" 119 4398 4413
+type(
+  vertex
+)
+ident(
+  int_ref v "src/persistent.ml" 111 4086 4115 "src/persistent.ml" 111 4086 4116
+)
+"src/persistent.ml" 119 4398 4414 "src/persistent.ml" 119 4398 4415
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 111 4086 4109 "src/persistent.ml" 111 4086 4110
+)
+"src/persistent.ml" 115 4239 4249 "src/persistent.ml" 119 4398 4415
+call(
+  stack
+)
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 121 4427 4439 "src/persistent.ml" 121 4427 4440
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  def g "src/persistent.ml" 128 4631 4639 "src/persistent.ml" 128 4631 4652
+)
+"src/persistent.ml" 122 4443 4453 "src/persistent.ml" 122 4443 4462
+type(
+  (V.t -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t) ->
+  (S.t * S.t) HM.t -> HM.key -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t
+)
+ident(
+  ext_ref fold_succ
+)
+"src/persistent.ml" 123 4463 4480 "src/persistent.ml" 123 4463 4482
+type(
+  V.t
+)
+ident(
+  def v' "src/persistent.ml" 123 4463 4483 "src/persistent.ml" 125 4545 4600
+)
+"src/persistent.ml" 123 4463 4483 "src/persistent.ml" 123 4463 4486
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  def acc "src/persistent.ml" 124 4490 4505 "src/persistent.ml" 125 4545 4600
+)
+"src/persistent.ml" 124 4490 4509 "src/persistent.ml" 124 4490 4515
+type(
+  S.t
+)
+ident(
+  def in_set "src/persistent.ml" 125 4545 4560 "src/persistent.ml" 125 4545 4600
+)
+"src/persistent.ml" 124 4490 4517 "src/persistent.ml" 124 4490 4524
+type(
+  S.t
+)
+ident(
+  def out_set "src/persistent.ml" 125 4545 4560 "src/persistent.ml" 125 4545 4600
+)
+"src/persistent.ml" 124 4490 4509 "src/persistent.ml" 124 4490 4524
+type(
+  S.t * S.t
+)
+"src/persistent.ml" 124 4490 4527 "src/persistent.ml" 124 4490 4534
+type(
+  HM.key -> (S.t * S.t) HM.t -> S.t * S.t
+)
+ident(
+  ext_ref HM.find
+)
+"src/persistent.ml" 124 4490 4535 "src/persistent.ml" 124 4490 4537
+type(
+  V.t
+)
+ident(
+  int_ref v' "src/persistent.ml" 123 4463 4480 "src/persistent.ml" 123 4463 4482
+)
+"src/persistent.ml" 124 4490 4538 "src/persistent.ml" 124 4490 4541
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref acc "src/persistent.ml" 123 4463 4483 "src/persistent.ml" 123 4463 4486
+)
+"src/persistent.ml" 124 4490 4527 "src/persistent.ml" 124 4490 4541
+call(
+  stack
+)
+type(
+  S.t * S.t
+)
+"src/persistent.ml" 125 4545 4560 "src/persistent.ml" 125 4545 4566
+type(
+  HM.key -> S.t * S.t -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t
+)
+ident(
+  ext_ref HM.add
+)
+"src/persistent.ml" 125 4545 4567 "src/persistent.ml" 125 4545 4569
+type(
+  V.t
+)
+ident(
+  int_ref v' "src/persistent.ml" 123 4463 4480 "src/persistent.ml" 123 4463 4482
+)
+"src/persistent.ml" 125 4545 4571 "src/persistent.ml" 125 4545 4577
+type(
+  V.t -> S.t -> S.t
+)
+ident(
+  int_ref remove "src/persistent.ml" 113 4152 4164 "src/persistent.ml" 113 4152 4170
+)
+"src/persistent.ml" 125 4545 4578 "src/persistent.ml" 125 4545 4579
+type(
+  vertex
+)
+ident(
+  int_ref v "src/persistent.ml" 111 4086 4115 "src/persistent.ml" 111 4086 4116
+)
+"src/persistent.ml" 125 4545 4580 "src/persistent.ml" 125 4545 4586
+type(
+  S.t
+)
+ident(
+  int_ref in_set "src/persistent.ml" 124 4490 4509 "src/persistent.ml" 124 4490 4515
+)
+"src/persistent.ml" 125 4545 4571 "src/persistent.ml" 125 4545 4586
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/persistent.ml" 125 4545 4588 "src/persistent.ml" 125 4545 4595
+type(
+  S.t
+)
+ident(
+  int_ref out_set "src/persistent.ml" 124 4490 4517 "src/persistent.ml" 124 4490 4524
+)
+"src/persistent.ml" 125 4545 4570 "src/persistent.ml" 125 4545 4596
+type(
+  S.t * S.t
+)
+"src/persistent.ml" 125 4545 4597 "src/persistent.ml" 125 4545 4600
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref acc "src/persistent.ml" 123 4463 4483 "src/persistent.ml" 123 4463 4486
+)
+"src/persistent.ml" 125 4545 4560 "src/persistent.ml" 125 4545 4600
+call(
+  tail
+)
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 124 4490 4505 "src/persistent.ml" 125 4545 4600
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 123 4463 4475 "src/persistent.ml" 125 4545 4601
+type(
+  V.t -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t
+)
+"src/persistent.ml" 126 4602 4614 "src/persistent.ml" 126 4602 4615
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 114 4223 4235 "src/persistent.ml" 114 4223 4236
+)
+"src/persistent.ml" 126 4602 4616 "src/persistent.ml" 126 4602 4617
+type(
+  vertex
+)
+ident(
+  int_ref v "src/persistent.ml" 111 4086 4115 "src/persistent.ml" 111 4086 4116
+)
+"src/persistent.ml" 126 4602 4618 "src/persistent.ml" 126 4602 4619
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 114 4223 4235 "src/persistent.ml" 114 4223 4236
+)
+"src/persistent.ml" 122 4443 4453 "src/persistent.ml" 126 4602 4619
+call(
+  stack
+)
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 128 4631 4639 "src/persistent.ml" 128 4631 4648
+type(
+  HM.key -> (S.t * S.t) HM.t -> (S.t * S.t) HM.t
+)
+ident(
+  ext_ref HM.remove
+)
+"src/persistent.ml" 128 4631 4649 "src/persistent.ml" 128 4631 4650
+type(
+  vertex
+)
+ident(
+  int_ref v "src/persistent.ml" 111 4086 4115 "src/persistent.ml" 111 4086 4116
+)
+"src/persistent.ml" 128 4631 4651 "src/persistent.ml" 128 4631 4652
+type(
+  (S.t * S.t) HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 121 4427 4439 "src/persistent.ml" 121 4427 4440
+)
+"src/persistent.ml" 128 4631 4639 "src/persistent.ml" 128 4631 4652
+call(
+  tail
+)
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 121 4427 4435 "src/persistent.ml" 128 4631 4652
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 114 4223 4231 "src/persistent.ml" 128 4631 4652
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 113 4152 4160 "src/persistent.ml" 128 4631 4652
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 130 4664 4672 "src/persistent.ml" 130 4664 4673
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 111 4086 4109 "src/persistent.ml" 111 4086 4110
+)
+"src/persistent.ml" 112 4127 4133 "src/persistent.ml" 130 4664 4673
+type(
+  (S.t * S.t) HM.t
+)
+"src/persistent.ml" 135 4728 4759 "src/persistent.ml" 135 4728 4776
+call(
+  stack
+)
+"src/persistent.ml" 135 4728 4740 "src/persistent.ml" 135 4728 4777
+call(
+  stack
+)
+"src/persistent.ml" 137 4779 4787 "src/persistent.ml" 137 4779 4792
+type(
+  t
+)
+ident(
+  def empty "src/persistent.ml" 139 4826 4830 "src/persistent.ml" 164 5581 5586
+)
+"src/persistent.ml" 137 4779 4805 "src/persistent.ml" 137 4779 4812
+type(
+  G.S.t G.HM.return
+)
+ident(
+  ext_ref G.empty
+)
+"src/persistent.ml" 137 4779 4821 "src/persistent.ml" 137 4779 4822
+type(
+  int
+)
+"src/persistent.ml" 137 4779 4795 "src/persistent.ml" 137 4779 4824
+type(
+  t
+)
+"src/persistent.ml" 139 4826 4834 "src/persistent.ml" 139 4826 4844
+type(
+  t -> G.vertex -> t
+)
+ident(
+  def add_vertex "src/persistent.ml" 146 4993 4997 "src/persistent.ml" 164 5581 5586
+)
+"src/persistent.ml" 139 4826 4845 "src/persistent.ml" 139 4826 4846
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 139 4826 4847 "src/persistent.ml" 144 4950 4991
+)
+"src/persistent.ml" 139 4826 4847 "src/persistent.ml" 139 4826 4848
+type(
+  G.vertex
+)
+ident(
+  def v "src/persistent.ml" 140 4851 4857 "src/persistent.ml" 144 4950 4991
+)
+"src/persistent.ml" 140 4851 4860 "src/persistent.ml" 140 4851 4870
+type(
+  t -> G.vertex -> bool
+)
+ident(
+  ext_ref mem_vertex
+)
+"src/persistent.ml" 140 4851 4871 "src/persistent.ml" 140 4851 4872
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 139 4826 4845 "src/persistent.ml" 139 4826 4846
+)
+"src/persistent.ml" 140 4851 4873 "src/persistent.ml" 140 4851 4874
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/persistent.ml" 139 4826 4847 "src/persistent.ml" 139 4826 4848
+)
+"src/persistent.ml" 140 4851 4860 "src/persistent.ml" 140 4851 4874
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 141 4880 4888 "src/persistent.ml" 141 4880 4889
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 139 4826 4845 "src/persistent.ml" 139 4826 4846
+)
+"src/persistent.ml" 143 4901 4919 "src/persistent.ml" 143 4901 4938
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.S.t G.HM.t
+)
+ident(
+  ext_ref G.unsafe_add_vertex
+)
+"src/persistent.ml" 143 4901 4939 "src/persistent.ml" 143 4901 4940
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 139 4826 4845 "src/persistent.ml" 139 4826 4846
+)
+"src/persistent.ml" 143 4901 4939 "src/persistent.ml" 143 4901 4946
+type(
+  G.t
+)
+"src/persistent.ml" 143 4901 4947 "src/persistent.ml" 143 4901 4948
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/persistent.ml" 139 4826 4847 "src/persistent.ml" 139 4826 4848
+)
+"src/persistent.ml" 143 4901 4919 "src/persistent.ml" 143 4901 4948
+call(
+  stack
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 144 4950 4967 "src/persistent.ml" 144 4950 4982
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"src/persistent.ml" 144 4950 4983 "src/persistent.ml" 144 4950 4984
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 139 4826 4845 "src/persistent.ml" 139 4826 4846
+)
+"src/persistent.ml" 144 4950 4983 "src/persistent.ml" 144 4950 4989
+type(
+  int
+)
+"src/persistent.ml" 144 4950 4967 "src/persistent.ml" 144 4950 4989
+type(
+  int
+)
+"src/persistent.ml" 143 4901 4909 "src/persistent.ml" 144 4950 4991
+type(
+  t
+)
+"src/persistent.ml" 140 4851 4857 "src/persistent.ml" 144 4950 4991
+type(
+  t
+)
+"src/persistent.ml" 146 4993 5001 "src/persistent.ml" 146 4993 5009
+type(
+  t -> G.vertex -> G.vertex -> t
+)
+ident(
+  def add_edge "src/persistent.ml" 151 5144 5148 "src/persistent.ml" 164 5581 5586
+)
+"src/persistent.ml" 146 4993 5010 "src/persistent.ml" 146 4993 5011
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 146 4993 5012 "src/persistent.ml" 149 5086 5142
+)
+"src/persistent.ml" 146 4993 5012 "src/persistent.ml" 146 4993 5014
+type(
+  G.vertex
+)
+ident(
+  def v1 "src/persistent.ml" 146 4993 5015 "src/persistent.ml" 149 5086 5142
+)
+"src/persistent.ml" 146 4993 5015 "src/persistent.ml" 146 4993 5017
+type(
+  G.vertex
+)
+ident(
+  def v2 "src/persistent.ml" 147 5020 5026 "src/persistent.ml" 149 5086 5142
+)
+"src/persistent.ml" 147 5020 5030 "src/persistent.ml" 147 5020 5031
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 148 5053 5059 "src/persistent.ml" 149 5086 5142
+)
+"src/persistent.ml" 147 5020 5034 "src/persistent.ml" 147 5020 5044
+type(
+  t -> G.vertex -> t
+)
+ident(
+  int_ref add_vertex "src/persistent.ml" 139 4826 4834 "src/persistent.ml" 139 4826 4844
+)
+"src/persistent.ml" 147 5020 5045 "src/persistent.ml" 147 5020 5046
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 146 4993 5010 "src/persistent.ml" 146 4993 5011
+)
+"src/persistent.ml" 147 5020 5047 "src/persistent.ml" 147 5020 5049
+type(
+  G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 146 4993 5012 "src/persistent.ml" 146 4993 5014
+)
+"src/persistent.ml" 147 5020 5034 "src/persistent.ml" 147 5020 5049
+call(
+  stack
+)
+type(
+  t
+)
+"src/persistent.ml" 148 5053 5063 "src/persistent.ml" 148 5053 5064
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 149 5086 5092 "src/persistent.ml" 149 5086 5142
+)
+"src/persistent.ml" 148 5053 5067 "src/persistent.ml" 148 5053 5077
+type(
+  t -> G.vertex -> t
+)
+ident(
+  int_ref add_vertex "src/persistent.ml" 139 4826 4834 "src/persistent.ml" 139 4826 4844
+)
+"src/persistent.ml" 148 5053 5078 "src/persistent.ml" 148 5053 5079
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 147 5020 5030 "src/persistent.ml" 147 5020 5031
+)
+"src/persistent.ml" 148 5053 5080 "src/persistent.ml" 148 5053 5082
+type(
+  G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 146 4993 5015 "src/persistent.ml" 146 4993 5017
+)
+"src/persistent.ml" 148 5053 5067 "src/persistent.ml" 148 5053 5082
+call(
+  stack
+)
+type(
+  t
+)
+"src/persistent.ml" 149 5086 5094 "src/persistent.ml" 149 5086 5095
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 148 5053 5063 "src/persistent.ml" 148 5053 5064
+)
+"src/persistent.ml" 149 5086 5109 "src/persistent.ml" 149 5086 5126
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.S.elt -> G.S.t G.HM.t
+)
+ident(
+  ext_ref G.unsafe_add_edge
+)
+"src/persistent.ml" 149 5086 5127 "src/persistent.ml" 149 5086 5128
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 148 5053 5063 "src/persistent.ml" 148 5053 5064
+)
+"src/persistent.ml" 149 5086 5127 "src/persistent.ml" 149 5086 5134
+type(
+  G.t
+)
+"src/persistent.ml" 149 5086 5135 "src/persistent.ml" 149 5086 5137
+type(
+  G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 146 4993 5012 "src/persistent.ml" 146 4993 5014
+)
+"src/persistent.ml" 149 5086 5138 "src/persistent.ml" 149 5086 5140
+type(
+  G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 146 4993 5015 "src/persistent.ml" 146 4993 5017
+)
+"src/persistent.ml" 149 5086 5109 "src/persistent.ml" 149 5086 5140
+call(
+  stack
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 149 5086 5092 "src/persistent.ml" 149 5086 5142
+type(
+  t
+)
+"src/persistent.ml" 148 5053 5059 "src/persistent.ml" 149 5086 5142
+type(
+  t
+)
+"src/persistent.ml" 147 5020 5026 "src/persistent.ml" 149 5086 5142
+type(
+  t
+)
+"src/persistent.ml" 151 5144 5152 "src/persistent.ml" 151 5144 5162
+type(
+  t -> G.vertex * G.vertex -> t
+)
+ident(
+  def add_edge_e "src/persistent.ml" 153 5194 5198 "src/persistent.ml" 164 5581 5586
+)
+"src/persistent.ml" 151 5144 5163 "src/persistent.ml" 151 5144 5164
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 151 5144 5165 "src/persistent.ml" 151 5144 5192
+)
+"src/persistent.ml" 151 5144 5166 "src/persistent.ml" 151 5144 5168
+type(
+  G.vertex
+)
+ident(
+  def v1 "src/persistent.ml" 151 5144 5176 "src/persistent.ml" 151 5144 5192
+)
+"src/persistent.ml" 151 5144 5170 "src/persistent.ml" 151 5144 5172
+type(
+  G.vertex
+)
+ident(
+  def v2 "src/persistent.ml" 151 5144 5176 "src/persistent.ml" 151 5144 5192
+)
+"src/persistent.ml" 151 5144 5165 "src/persistent.ml" 151 5144 5173
+type(
+  G.vertex * G.vertex
+)
+"src/persistent.ml" 151 5144 5176 "src/persistent.ml" 151 5144 5184
+type(
+  t -> G.vertex -> G.vertex -> t
+)
+ident(
+  int_ref add_edge "src/persistent.ml" 146 4993 5001 "src/persistent.ml" 146 4993 5009
+)
+"src/persistent.ml" 151 5144 5185 "src/persistent.ml" 151 5144 5186
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 151 5144 5163 "src/persistent.ml" 151 5144 5164
+)
+"src/persistent.ml" 151 5144 5187 "src/persistent.ml" 151 5144 5189
+type(
+  G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 151 5144 5166 "src/persistent.ml" 151 5144 5168
+)
+"src/persistent.ml" 151 5144 5190 "src/persistent.ml" 151 5144 5192
+type(
+  G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 151 5144 5170 "src/persistent.ml" 151 5144 5172
+)
+"src/persistent.ml" 151 5144 5176 "src/persistent.ml" 151 5144 5192
+call(
+  tail
+)
+type(
+  t
+)
+"src/persistent.ml" 153 5194 5202 "src/persistent.ml" 153 5194 5215
+type(
+  t -> HM.key -> t
+)
+ident(
+  def remove_vertex "src/persistent.ml" 161 5446 5450 "src/persistent.ml" 164 5581 5586
+)
+"src/persistent.ml" 153 5194 5216 "src/persistent.ml" 153 5194 5217
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 153 5194 5218 "src/persistent.ml" 159 5435 5444
+)
+"src/persistent.ml" 153 5194 5218 "src/persistent.ml" 153 5194 5219
+type(
+  HM.key
+)
+ident(
+  def v "src/persistent.ml" 154 5222 5228 "src/persistent.ml" 159 5435 5444
+)
+"src/persistent.ml" 154 5222 5231 "src/persistent.ml" 154 5222 5237
+type(
+  HM.key -> G.S.t HM.t -> bool
+)
+ident(
+  ext_ref HM.mem
+)
+"src/persistent.ml" 154 5222 5238 "src/persistent.ml" 154 5222 5239
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 153 5194 5218 "src/persistent.ml" 153 5194 5219
+)
+"src/persistent.ml" 154 5222 5240 "src/persistent.ml" 154 5222 5241
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 153 5194 5216 "src/persistent.ml" 153 5194 5217
+)
+"src/persistent.ml" 154 5222 5240 "src/persistent.ml" 154 5222 5247
+type(
+  G.t
+)
+"src/persistent.ml" 154 5222 5231 "src/persistent.ml" 154 5222 5247
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 155 5253 5265 "src/persistent.ml" 155 5253 5266
+type(
+  G.S.t HM.t
+)
+ident(
+  def e "src/persistent.ml" 156 5292 5300 "src/persistent.ml" 157 5371 5423
+)
+"src/persistent.ml" 155 5253 5269 "src/persistent.ml" 155 5253 5278
+type(
+  HM.key -> G.S.t HM.t -> G.S.t HM.t
+)
+ident(
+  ext_ref HM.remove
+)
+"src/persistent.ml" 155 5253 5279 "src/persistent.ml" 155 5253 5280
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 153 5194 5218 "src/persistent.ml" 153 5194 5219
+)
+"src/persistent.ml" 155 5253 5281 "src/persistent.ml" 155 5253 5282
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 153 5194 5216 "src/persistent.ml" 153 5194 5217
+)
+"src/persistent.ml" 155 5253 5281 "src/persistent.ml" 155 5253 5288
+type(
+  G.t
+)
+"src/persistent.ml" 155 5253 5269 "src/persistent.ml" 155 5253 5288
+call(
+  stack
+)
+type(
+  G.S.t HM.t
+)
+"src/persistent.ml" 156 5292 5304 "src/persistent.ml" 156 5292 5305
+type(
+  S.t HM.t
+)
+ident(
+  def e "src/persistent.ml" 157 5371 5379 "src/persistent.ml" 157 5371 5423
+)
+"src/persistent.ml" 156 5292 5308 "src/persistent.ml" 156 5292 5315
+type(
+  (HM.key -> S.t -> S.t HM.t -> S.t HM.t) -> S.t HM.t -> S.t HM.t -> S.t HM.t
+)
+ident(
+  ext_ref HM.fold
+)
+"src/persistent.ml" 156 5292 5321 "src/persistent.ml" 156 5292 5322
+type(
+  HM.key
+)
+ident(
+  def k "src/persistent.ml" 156 5292 5323 "src/persistent.ml" 156 5292 5355
+)
+"src/persistent.ml" 156 5292 5323 "src/persistent.ml" 156 5292 5324
+type(
+  S.t
+)
+ident(
+  def s "src/persistent.ml" 156 5292 5325 "src/persistent.ml" 156 5292 5355
+)
+"src/persistent.ml" 156 5292 5325 "src/persistent.ml" 156 5292 5326
+type(
+  S.t HM.t
+)
+ident(
+  def g "src/persistent.ml" 156 5292 5330 "src/persistent.ml" 156 5292 5355
+)
+"src/persistent.ml" 156 5292 5330 "src/persistent.ml" 156 5292 5336
+type(
+  HM.key -> S.t -> S.t HM.t -> S.t HM.t
+)
+ident(
+  ext_ref HM.add
+)
+"src/persistent.ml" 156 5292 5337 "src/persistent.ml" 156 5292 5338
+type(
+  HM.key
+)
+ident(
+  int_ref k "src/persistent.ml" 156 5292 5321 "src/persistent.ml" 156 5292 5322
+)
+"src/persistent.ml" 156 5292 5340 "src/persistent.ml" 156 5292 5348
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  ext_ref S.remove
+)
+"src/persistent.ml" 156 5292 5349 "src/persistent.ml" 156 5292 5350
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 153 5194 5218 "src/persistent.ml" 153 5194 5219
+)
+"src/persistent.ml" 156 5292 5351 "src/persistent.ml" 156 5292 5352
+type(
+  S.t
+)
+ident(
+  int_ref s "src/persistent.ml" 156 5292 5323 "src/persistent.ml" 156 5292 5324
+)
+"src/persistent.ml" 156 5292 5339 "src/persistent.ml" 156 5292 5353
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/persistent.ml" 156 5292 5354 "src/persistent.ml" 156 5292 5355
+type(
+  S.t HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 156 5292 5325 "src/persistent.ml" 156 5292 5326
+)
+"src/persistent.ml" 156 5292 5330 "src/persistent.ml" 156 5292 5355
+call(
+  tail
+)
+type(
+  S.t HM.t
+)
+"src/persistent.ml" 156 5292 5316 "src/persistent.ml" 156 5292 5356
+type(
+  HM.key -> S.t -> S.t HM.t -> S.t HM.t
+)
+"src/persistent.ml" 156 5292 5357 "src/persistent.ml" 156 5292 5358
+type(
+  G.S.t HM.t
+)
+ident(
+  int_ref e "src/persistent.ml" 155 5253 5265 "src/persistent.ml" 155 5253 5266
+)
+"src/persistent.ml" 156 5292 5359 "src/persistent.ml" 156 5292 5367
+type(
+  S.t HM.return
+)
+ident(
+  ext_ref HM.empty
+)
+"src/persistent.ml" 156 5292 5308 "src/persistent.ml" 156 5292 5367
+call(
+  stack
+)
+type(
+  S.t HM.t
+)
+"src/persistent.ml" 157 5371 5389 "src/persistent.ml" 157 5371 5390
+type(
+  S.t HM.t
+)
+ident(
+  int_ref e "src/persistent.ml" 156 5292 5304 "src/persistent.ml" 156 5292 5305
+)
+"src/persistent.ml" 157 5371 5399 "src/persistent.ml" 157 5371 5414
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.pred
+)
+"src/persistent.ml" 157 5371 5415 "src/persistent.ml" 157 5371 5416
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 153 5194 5216 "src/persistent.ml" 153 5194 5217
+)
+"src/persistent.ml" 157 5371 5415 "src/persistent.ml" 157 5371 5421
+type(
+  int
+)
+"src/persistent.ml" 157 5371 5399 "src/persistent.ml" 157 5371 5421
+type(
+  int
+)
+"src/persistent.ml" 157 5371 5379 "src/persistent.ml" 157 5371 5423
+type(
+  t
+)
+"src/persistent.ml" 156 5292 5300 "src/persistent.ml" 157 5371 5423
+type(
+  t
+)
+"src/persistent.ml" 155 5253 5261 "src/persistent.ml" 157 5371 5423
+type(
+  t
+)
+"src/persistent.ml" 159 5435 5443 "src/persistent.ml" 159 5435 5444
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 153 5194 5216 "src/persistent.ml" 153 5194 5217
+)
+"src/persistent.ml" 154 5222 5228 "src/persistent.ml" 159 5435 5444
+type(
+  t
+)
+"src/persistent.ml" 161 5446 5454 "src/persistent.ml" 161 5446 5465
+type(
+  t -> G.vertex -> G.vertex -> t
+)
+ident(
+  def remove_edge "src/persistent.ml" 162 5515 5519 "src/persistent.ml" 164 5581 5586
+)
+"src/persistent.ml" 161 5446 5466 "src/persistent.ml" 161 5446 5467
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 161 5446 5468 "src/persistent.ml" 161 5446 5514
+)
+"src/persistent.ml" 161 5446 5468 "src/persistent.ml" 161 5446 5470
+type(
+  G.vertex
+)
+ident(
+  def v1 "src/persistent.ml" 161 5446 5471 "src/persistent.ml" 161 5446 5514
+)
+"src/persistent.ml" 161 5446 5471 "src/persistent.ml" 161 5446 5473
+type(
+  G.vertex
+)
+ident(
+  def v2 "src/persistent.ml" 161 5446 5476 "src/persistent.ml" 161 5446 5514
+)
+"src/persistent.ml" 161 5446 5478 "src/persistent.ml" 161 5446 5479
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 161 5446 5466 "src/persistent.ml" 161 5446 5467
+)
+"src/persistent.ml" 161 5446 5493 "src/persistent.ml" 161 5446 5504
+type(
+  t -> G.vertex -> G.vertex -> G.t
+)
+ident(
+  ext_ref remove_edge
+)
+"src/persistent.ml" 161 5446 5505 "src/persistent.ml" 161 5446 5506
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 161 5446 5466 "src/persistent.ml" 161 5446 5467
+)
+"src/persistent.ml" 161 5446 5507 "src/persistent.ml" 161 5446 5509
+type(
+  G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 161 5446 5468 "src/persistent.ml" 161 5446 5470
+)
+"src/persistent.ml" 161 5446 5510 "src/persistent.ml" 161 5446 5512
+type(
+  G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 161 5446 5471 "src/persistent.ml" 161 5446 5473
+)
+"src/persistent.ml" 161 5446 5493 "src/persistent.ml" 161 5446 5512
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/persistent.ml" 161 5446 5476 "src/persistent.ml" 161 5446 5514
+type(
+  t
+)
+"src/persistent.ml" 162 5515 5523 "src/persistent.ml" 162 5515 5536
+type(
+  t -> G.edge -> t
+)
+ident(
+  def remove_edge_e "src/persistent.ml" 162 5515 5579 "src/persistent.ml" 164 5581 5586
+)
+"src/persistent.ml" 162 5515 5537 "src/persistent.ml" 162 5515 5538
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 162 5515 5539 "src/persistent.ml" 162 5515 5579
+)
+"src/persistent.ml" 162 5515 5539 "src/persistent.ml" 162 5515 5540
+type(
+  G.edge
+)
+ident(
+  def e "src/persistent.ml" 162 5515 5543 "src/persistent.ml" 162 5515 5579
+)
+"src/persistent.ml" 162 5515 5545 "src/persistent.ml" 162 5515 5546
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 162 5515 5537 "src/persistent.ml" 162 5515 5538
+)
+"src/persistent.ml" 162 5515 5560 "src/persistent.ml" 162 5515 5573
+type(
+  t -> G.edge -> G.t
+)
+ident(
+  ext_ref remove_edge_e
+)
+"src/persistent.ml" 162 5515 5574 "src/persistent.ml" 162 5515 5575
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 162 5515 5537 "src/persistent.ml" 162 5515 5538
+)
+"src/persistent.ml" 162 5515 5576 "src/persistent.ml" 162 5515 5577
+type(
+  G.edge
+)
+ident(
+  int_ref e "src/persistent.ml" 162 5515 5539 "src/persistent.ml" 162 5515 5540
+)
+"src/persistent.ml" 162 5515 5560 "src/persistent.ml" 162 5515 5577
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/persistent.ml" 162 5515 5543 "src/persistent.ml" 162 5515 5579
+type(
+  t
+)
+"src/persistent.ml" 168 5666 5704 "src/persistent.ml" 168 5666 5721
+call(
+  stack
+)
+"src/persistent.ml" 168 5666 5678 "src/persistent.ml" 168 5666 5722
+call(
+  stack
+)
+"src/persistent.ml" 168 5666 5678 "src/persistent.ml" 168 5666 5728
+call(
+  stack
+)
+"src/persistent.ml" 170 5730 5738 "src/persistent.ml" 170 5730 5743
+type(
+  t
+)
+ident(
+  def empty "src/persistent.ml" 172 5777 5781 "src/persistent.ml" 203 6721 6726
+)
+"src/persistent.ml" 170 5730 5756 "src/persistent.ml" 170 5730 5763
+type(
+  G.S.t G.HM.return
+)
+ident(
+  ext_ref G.empty
+)
+"src/persistent.ml" 170 5730 5772 "src/persistent.ml" 170 5730 5773
+type(
+  int
+)
+"src/persistent.ml" 170 5730 5746 "src/persistent.ml" 170 5730 5775
+type(
+  t
+)
+"src/persistent.ml" 172 5777 5785 "src/persistent.ml" 172 5777 5795
+type(
+  t -> G.vertex -> t
+)
+ident(
+  def add_vertex "src/persistent.ml" 179 5944 5948 "src/persistent.ml" 203 6721 6726
+)
+"src/persistent.ml" 172 5777 5796 "src/persistent.ml" 172 5777 5797
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 172 5777 5798 "src/persistent.ml" 177 5901 5942
+)
+"src/persistent.ml" 172 5777 5798 "src/persistent.ml" 172 5777 5799
+type(
+  G.vertex
+)
+ident(
+  def v "src/persistent.ml" 173 5802 5808 "src/persistent.ml" 177 5901 5942
+)
+"src/persistent.ml" 173 5802 5811 "src/persistent.ml" 173 5802 5821
+type(
+  t -> G.vertex -> bool
+)
+ident(
+  ext_ref mem_vertex
+)
+"src/persistent.ml" 173 5802 5822 "src/persistent.ml" 173 5802 5823
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 172 5777 5796 "src/persistent.ml" 172 5777 5797
+)
+"src/persistent.ml" 173 5802 5824 "src/persistent.ml" 173 5802 5825
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/persistent.ml" 172 5777 5798 "src/persistent.ml" 172 5777 5799
+)
+"src/persistent.ml" 173 5802 5811 "src/persistent.ml" 173 5802 5825
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 174 5831 5839 "src/persistent.ml" 174 5831 5840
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 172 5777 5796 "src/persistent.ml" 172 5777 5797
+)
+"src/persistent.ml" 176 5852 5870 "src/persistent.ml" 176 5852 5889
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.S.t G.HM.t
+)
+ident(
+  ext_ref G.unsafe_add_vertex
+)
+"src/persistent.ml" 176 5852 5890 "src/persistent.ml" 176 5852 5891
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 172 5777 5796 "src/persistent.ml" 172 5777 5797
+)
+"src/persistent.ml" 176 5852 5890 "src/persistent.ml" 176 5852 5897
+type(
+  G.t
+)
+"src/persistent.ml" 176 5852 5898 "src/persistent.ml" 176 5852 5899
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/persistent.ml" 172 5777 5798 "src/persistent.ml" 172 5777 5799
+)
+"src/persistent.ml" 176 5852 5870 "src/persistent.ml" 176 5852 5899
+call(
+  stack
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 177 5901 5918 "src/persistent.ml" 177 5901 5933
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"src/persistent.ml" 177 5901 5934 "src/persistent.ml" 177 5901 5935
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 172 5777 5796 "src/persistent.ml" 172 5777 5797
+)
+"src/persistent.ml" 177 5901 5934 "src/persistent.ml" 177 5901 5940
+type(
+  int
+)
+"src/persistent.ml" 177 5901 5918 "src/persistent.ml" 177 5901 5940
+type(
+  int
+)
+"src/persistent.ml" 176 5852 5860 "src/persistent.ml" 177 5901 5942
+type(
+  t
+)
+"src/persistent.ml" 173 5802 5808 "src/persistent.ml" 177 5901 5942
+type(
+  t
+)
+"src/persistent.ml" 179 5944 5952 "src/persistent.ml" 179 5944 5962
+type(
+  t -> G.vertex * Edge.t * G.vertex -> t
+)
+ident(
+  def add_edge_e "src/persistent.ml" 184 6108 6112 "src/persistent.ml" 203 6721 6726
+)
+"src/persistent.ml" 179 5944 5963 "src/persistent.ml" 179 5944 5964
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 179 5944 5965 "src/persistent.ml" 182 6045 6106
+)
+"src/persistent.ml" 179 5944 5966 "src/persistent.ml" 179 5944 5968
+type(
+  G.vertex
+)
+ident(
+  def v1 "src/persistent.ml" 180 5979 5985 "src/persistent.ml" 182 6045 6106
+)
+"src/persistent.ml" 179 5944 5970 "src/persistent.ml" 179 5944 5971
+type(
+  Edge.t
+)
+ident(
+  def l "src/persistent.ml" 180 5979 5985 "src/persistent.ml" 182 6045 6106
+)
+"src/persistent.ml" 179 5944 5973 "src/persistent.ml" 179 5944 5975
+type(
+  G.vertex
+)
+ident(
+  def v2 "src/persistent.ml" 180 5979 5985 "src/persistent.ml" 182 6045 6106
+)
+"src/persistent.ml" 179 5944 5965 "src/persistent.ml" 179 5944 5976
+type(
+  G.vertex * Edge.t * G.vertex
+)
+"src/persistent.ml" 180 5979 5989 "src/persistent.ml" 180 5979 5990
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 181 6012 6018 "src/persistent.ml" 182 6045 6106
+)
+"src/persistent.ml" 180 5979 5993 "src/persistent.ml" 180 5979 6003
+type(
+  t -> G.vertex -> t
+)
+ident(
+  int_ref add_vertex "src/persistent.ml" 172 5777 5785 "src/persistent.ml" 172 5777 5795
+)
+"src/persistent.ml" 180 5979 6004 "src/persistent.ml" 180 5979 6005
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 179 5944 5963 "src/persistent.ml" 179 5944 5964
+)
+"src/persistent.ml" 180 5979 6006 "src/persistent.ml" 180 5979 6008
+type(
+  G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 179 5944 5966 "src/persistent.ml" 179 5944 5968
+)
+"src/persistent.ml" 180 5979 5993 "src/persistent.ml" 180 5979 6008
+call(
+  stack
+)
+type(
+  t
+)
+"src/persistent.ml" 181 6012 6022 "src/persistent.ml" 181 6012 6023
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 182 6045 6051 "src/persistent.ml" 182 6045 6106
+)
+"src/persistent.ml" 181 6012 6026 "src/persistent.ml" 181 6012 6036
+type(
+  t -> G.vertex -> t
+)
+ident(
+  int_ref add_vertex "src/persistent.ml" 172 5777 5785 "src/persistent.ml" 172 5777 5795
+)
+"src/persistent.ml" 181 6012 6037 "src/persistent.ml" 181 6012 6038
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 180 5979 5989 "src/persistent.ml" 180 5979 5990
+)
+"src/persistent.ml" 181 6012 6039 "src/persistent.ml" 181 6012 6041
+type(
+  G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 179 5944 5973 "src/persistent.ml" 179 5944 5975
+)
+"src/persistent.ml" 181 6012 6026 "src/persistent.ml" 181 6012 6041
+call(
+  stack
+)
+type(
+  t
+)
+"src/persistent.ml" 182 6045 6053 "src/persistent.ml" 182 6045 6054
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 181 6012 6022 "src/persistent.ml" 181 6012 6023
+)
+"src/persistent.ml" 182 6045 6068 "src/persistent.ml" 182 6045 6085
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.S.elt -> G.S.t G.HM.t
+)
+ident(
+  ext_ref G.unsafe_add_edge
+)
+"src/persistent.ml" 182 6045 6086 "src/persistent.ml" 182 6045 6087
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 181 6012 6022 "src/persistent.ml" 181 6012 6023
+)
+"src/persistent.ml" 182 6045 6086 "src/persistent.ml" 182 6045 6093
+type(
+  G.t
+)
+"src/persistent.ml" 182 6045 6094 "src/persistent.ml" 182 6045 6096
+type(
+  G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 179 5944 5966 "src/persistent.ml" 179 5944 5968
+)
+"src/persistent.ml" 182 6045 6098 "src/persistent.ml" 182 6045 6100
+type(
+  G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 179 5944 5973 "src/persistent.ml" 179 5944 5975
+)
+"src/persistent.ml" 182 6045 6102 "src/persistent.ml" 182 6045 6103
+type(
+  Edge.t
+)
+ident(
+  int_ref l "src/persistent.ml" 179 5944 5970 "src/persistent.ml" 179 5944 5971
+)
+"src/persistent.ml" 182 6045 6097 "src/persistent.ml" 182 6045 6104
+type(
+  G.S.elt
+)
+"src/persistent.ml" 182 6045 6068 "src/persistent.ml" 182 6045 6104
+call(
+  stack
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 182 6045 6051 "src/persistent.ml" 182 6045 6106
+type(
+  t
+)
+"src/persistent.ml" 181 6012 6018 "src/persistent.ml" 182 6045 6106
+type(
+  t
+)
+"src/persistent.ml" 180 5979 5985 "src/persistent.ml" 182 6045 6106
+type(
+  t
+)
+"src/persistent.ml" 184 6108 6116 "src/persistent.ml" 184 6108 6124
+type(
+  t -> G.vertex -> G.vertex -> t
+)
+ident(
+  def add_edge "src/persistent.ml" 186 6172 6176 "src/persistent.ml" 203 6721 6726
+)
+"src/persistent.ml" 184 6108 6125 "src/persistent.ml" 184 6108 6126
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 184 6108 6127 "src/persistent.ml" 184 6108 6170
+)
+"src/persistent.ml" 184 6108 6127 "src/persistent.ml" 184 6108 6129
+type(
+  G.vertex
+)
+ident(
+  def v1 "src/persistent.ml" 184 6108 6130 "src/persistent.ml" 184 6108 6170
+)
+"src/persistent.ml" 184 6108 6130 "src/persistent.ml" 184 6108 6132
+type(
+  G.vertex
+)
+ident(
+  def v2 "src/persistent.ml" 184 6108 6135 "src/persistent.ml" 184 6108 6170
+)
+"src/persistent.ml" 184 6108 6135 "src/persistent.ml" 184 6108 6145
+type(
+  t -> G.vertex * Edge.t * G.vertex -> t
+)
+ident(
+  int_ref add_edge_e "src/persistent.ml" 179 5944 5952 "src/persistent.ml" 179 5944 5962
+)
+"src/persistent.ml" 184 6108 6146 "src/persistent.ml" 184 6108 6147
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 184 6108 6125 "src/persistent.ml" 184 6108 6126
+)
+"src/persistent.ml" 184 6108 6149 "src/persistent.ml" 184 6108 6151
+type(
+  G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 184 6108 6127 "src/persistent.ml" 184 6108 6129
+)
+"src/persistent.ml" 184 6108 6153 "src/persistent.ml" 184 6108 6165
+type(
+  Edge.t
+)
+ident(
+  ext_ref Edge.default
+)
+"src/persistent.ml" 184 6108 6167 "src/persistent.ml" 184 6108 6169
+type(
+  G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 184 6108 6130 "src/persistent.ml" 184 6108 6132
+)
+"src/persistent.ml" 184 6108 6148 "src/persistent.ml" 184 6108 6170
+type(
+  G.vertex * Edge.t * G.vertex
+)
+"src/persistent.ml" 184 6108 6135 "src/persistent.ml" 184 6108 6170
+call(
+  tail
+)
+type(
+  t
+)
+"src/persistent.ml" 186 6172 6180 "src/persistent.ml" 186 6172 6193
+type(
+  t -> HM.key -> t
+)
+ident(
+  def remove_vertex "src/persistent.ml" 200 6586 6590 "src/persistent.ml" 203 6721 6726
+)
+"src/persistent.ml" 186 6172 6194 "src/persistent.ml" 186 6172 6195
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 186 6172 6196 "src/persistent.ml" 198 6575 6584
+)
+"src/persistent.ml" 186 6172 6196 "src/persistent.ml" 186 6172 6197
+type(
+  HM.key
+)
+ident(
+  def v "src/persistent.ml" 187 6200 6206 "src/persistent.ml" 198 6575 6584
+)
+"src/persistent.ml" 187 6200 6209 "src/persistent.ml" 187 6200 6215
+type(
+  HM.key -> G.S.t HM.t -> bool
+)
+ident(
+  ext_ref HM.mem
+)
+"src/persistent.ml" 187 6200 6216 "src/persistent.ml" 187 6200 6217
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 186 6172 6196 "src/persistent.ml" 186 6172 6197
+)
+"src/persistent.ml" 187 6200 6218 "src/persistent.ml" 187 6200 6219
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 186 6172 6194 "src/persistent.ml" 186 6172 6195
+)
+"src/persistent.ml" 187 6200 6218 "src/persistent.ml" 187 6200 6225
+type(
+  G.t
+)
+"src/persistent.ml" 187 6200 6209 "src/persistent.ml" 187 6200 6225
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 188 6231 6243 "src/persistent.ml" 188 6231 6249
+type(
+  V.t -> S.t -> S.t
+)
+ident(
+  def remove "src/persistent.ml" 193 6386 6394 "src/persistent.ml" 196 6522 6563
+)
+"src/persistent.ml" 188 6231 6250 "src/persistent.ml" 188 6231 6251
+type(
+  V.t
+)
+ident(
+  def v "src/persistent.ml" 188 6231 6252 "src/persistent.ml" 191 6353 6374
+)
+"src/persistent.ml" 188 6231 6252 "src/persistent.ml" 188 6231 6253
+type(
+  S.t
+)
+ident(
+  def s "src/persistent.ml" 189 6256 6266 "src/persistent.ml" 191 6353 6374
+)
+"src/persistent.ml" 189 6256 6266 "src/persistent.ml" 189 6256 6272
+type(
+  (S.elt -> S.t -> S.t) -> S.t -> S.t -> S.t
+)
+ident(
+  ext_ref S.fold
+)
+"src/persistent.ml" 190 6273 6291 "src/persistent.ml" 190 6273 6293
+type(
+  G.V.t
+)
+ident(
+  def v2 "src/persistent.ml" 190 6273 6303 "src/persistent.ml" 190 6273 6351
+)
+"src/persistent.ml" 190 6273 6295 "src/persistent.ml" 190 6273 6296
+type(
+  Edge.t
+)
+"src/persistent.ml" 190 6273 6291 "src/persistent.ml" 190 6273 6296
+type(
+  S.elt
+)
+"src/persistent.ml" 190 6273 6300 "src/persistent.ml" 190 6273 6301
+ident(
+  def e "src/persistent.ml" 190 6273 6303 "src/persistent.ml" 190 6273 6351
+)
+"src/persistent.ml" 190 6273 6290 "src/persistent.ml" 190 6273 6302
+type(
+  S.elt
+)
+"src/persistent.ml" 190 6273 6303 "src/persistent.ml" 190 6273 6304
+type(
+  S.t
+)
+ident(
+  def s "src/persistent.ml" 190 6273 6308 "src/persistent.ml" 190 6273 6351
+)
+"src/persistent.ml" 190 6273 6311 "src/persistent.ml" 190 6273 6314
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/persistent.ml" 190 6273 6316 "src/persistent.ml" 190 6273 6323
+type(
+  V.t -> V.t -> bool
+)
+ident(
+  ext_ref V.equal
+)
+"src/persistent.ml" 190 6273 6324 "src/persistent.ml" 190 6273 6325
+type(
+  V.t
+)
+ident(
+  int_ref v "src/persistent.ml" 188 6231 6250 "src/persistent.ml" 188 6231 6251
+)
+"src/persistent.ml" 190 6273 6326 "src/persistent.ml" 190 6273 6328
+type(
+  G.V.t
+)
+ident(
+  int_ref v2 "src/persistent.ml" 190 6273 6291 "src/persistent.ml" 190 6273 6293
+)
+"src/persistent.ml" 190 6273 6315 "src/persistent.ml" 190 6273 6329
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 190 6273 6311 "src/persistent.ml" 190 6273 6329
+type(
+  bool
+)
+"src/persistent.ml" 190 6273 6335 "src/persistent.ml" 190 6273 6340
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  ext_ref S.add
+)
+"src/persistent.ml" 190 6273 6341 "src/persistent.ml" 190 6273 6342
+type(
+  S.elt
+)
+ident(
+  int_ref e "src/persistent.ml" 190 6273 6290 "src/persistent.ml" 190 6273 6302
+)
+"src/persistent.ml" 190 6273 6343 "src/persistent.ml" 190 6273 6344
+type(
+  S.t
+)
+ident(
+  int_ref s "src/persistent.ml" 190 6273 6303 "src/persistent.ml" 190 6273 6304
+)
+"src/persistent.ml" 190 6273 6335 "src/persistent.ml" 190 6273 6344
+call(
+  tail
+)
+type(
+  S.t
+)
+"src/persistent.ml" 190 6273 6350 "src/persistent.ml" 190 6273 6351
+type(
+  S.t
+)
+ident(
+  int_ref s "src/persistent.ml" 190 6273 6303 "src/persistent.ml" 190 6273 6304
+)
+"src/persistent.ml" 190 6273 6308 "src/persistent.ml" 190 6273 6351
+type(
+  S.t
+)
+"src/persistent.ml" 190 6273 6285 "src/persistent.ml" 190 6273 6352
+type(
+  S.elt -> S.t -> S.t
+)
+"src/persistent.ml" 191 6353 6365 "src/persistent.ml" 191 6353 6366
+type(
+  S.t
+)
+ident(
+  int_ref s "src/persistent.ml" 188 6231 6252 "src/persistent.ml" 188 6231 6253
+)
+"src/persistent.ml" 191 6353 6367 "src/persistent.ml" 191 6353 6374
+type(
+  S.t
+)
+ident(
+  ext_ref S.empty
+)
+"src/persistent.ml" 189 6256 6266 "src/persistent.ml" 191 6353 6374
+call(
+  tail
+)
+type(
+  S.t
+)
+"src/persistent.ml" 193 6386 6398 "src/persistent.ml" 193 6386 6403
+type(
+  G.S.t HM.t
+)
+ident(
+  def edges "src/persistent.ml" 194 6429 6437 "src/persistent.ml" 196 6522 6563
+)
+"src/persistent.ml" 193 6386 6406 "src/persistent.ml" 193 6386 6415
+type(
+  HM.key -> G.S.t HM.t -> G.S.t HM.t
+)
+ident(
+  ext_ref HM.remove
+)
+"src/persistent.ml" 193 6386 6416 "src/persistent.ml" 193 6386 6417
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 186 6172 6196 "src/persistent.ml" 186 6172 6197
+)
+"src/persistent.ml" 193 6386 6418 "src/persistent.ml" 193 6386 6419
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 186 6172 6194 "src/persistent.ml" 186 6172 6195
+)
+"src/persistent.ml" 193 6386 6418 "src/persistent.ml" 193 6386 6425
+type(
+  G.t
+)
+"src/persistent.ml" 193 6386 6406 "src/persistent.ml" 193 6386 6425
+call(
+  stack
+)
+type(
+  G.S.t HM.t
+)
+"src/persistent.ml" 195 6447 6459 "src/persistent.ml" 195 6447 6466
+type(
+  (HM.key -> S.t -> S.t HM.t -> S.t HM.t) -> S.t HM.t -> S.t HM.t -> S.t HM.t
+)
+ident(
+  ext_ref HM.fold
+)
+"src/persistent.ml" 195 6447 6472 "src/persistent.ml" 195 6447 6473
+type(
+  HM.key
+)
+ident(
+  def k "src/persistent.ml" 195 6447 6474 "src/persistent.ml" 195 6447 6504
+)
+"src/persistent.ml" 195 6447 6474 "src/persistent.ml" 195 6447 6475
+type(
+  S.t
+)
+ident(
+  def s "src/persistent.ml" 195 6447 6476 "src/persistent.ml" 195 6447 6504
+)
+"src/persistent.ml" 195 6447 6476 "src/persistent.ml" 195 6447 6477
+type(
+  S.t HM.t
+)
+ident(
+  def g "src/persistent.ml" 195 6447 6481 "src/persistent.ml" 195 6447 6504
+)
+"src/persistent.ml" 195 6447 6481 "src/persistent.ml" 195 6447 6487
+type(
+  HM.key -> S.t -> S.t HM.t -> S.t HM.t
+)
+ident(
+  ext_ref HM.add
+)
+"src/persistent.ml" 195 6447 6488 "src/persistent.ml" 195 6447 6489
+type(
+  HM.key
+)
+ident(
+  int_ref k "src/persistent.ml" 195 6447 6472 "src/persistent.ml" 195 6447 6473
+)
+"src/persistent.ml" 195 6447 6491 "src/persistent.ml" 195 6447 6497
+type(
+  V.t -> S.t -> S.t
+)
+ident(
+  int_ref remove "src/persistent.ml" 188 6231 6243 "src/persistent.ml" 188 6231 6249
+)
+"src/persistent.ml" 195 6447 6498 "src/persistent.ml" 195 6447 6499
+type(
+  HM.key
+)
+ident(
+  int_ref v "src/persistent.ml" 186 6172 6196 "src/persistent.ml" 186 6172 6197
+)
+"src/persistent.ml" 195 6447 6500 "src/persistent.ml" 195 6447 6501
+type(
+  S.t
+)
+ident(
+  int_ref s "src/persistent.ml" 195 6447 6474 "src/persistent.ml" 195 6447 6475
+)
+"src/persistent.ml" 195 6447 6490 "src/persistent.ml" 195 6447 6502
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/persistent.ml" 195 6447 6503 "src/persistent.ml" 195 6447 6504
+type(
+  S.t HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 195 6447 6476 "src/persistent.ml" 195 6447 6477
+)
+"src/persistent.ml" 195 6447 6481 "src/persistent.ml" 195 6447 6504
+call(
+  tail
+)
+type(
+  S.t HM.t
+)
+"src/persistent.ml" 195 6447 6467 "src/persistent.ml" 195 6447 6505
+type(
+  HM.key -> S.t -> S.t HM.t -> S.t HM.t
+)
+"src/persistent.ml" 195 6447 6506 "src/persistent.ml" 195 6447 6511
+type(
+  G.S.t HM.t
+)
+ident(
+  int_ref edges "src/persistent.ml" 193 6386 6398 "src/persistent.ml" 193 6386 6403
+)
+"src/persistent.ml" 195 6447 6512 "src/persistent.ml" 195 6447 6520
+type(
+  S.t HM.return
+)
+ident(
+  ext_ref HM.empty
+)
+"src/persistent.ml" 195 6447 6459 "src/persistent.ml" 195 6447 6520
+call(
+  stack
+)
+type(
+  S.t HM.t
+)
+"src/persistent.ml" 196 6522 6539 "src/persistent.ml" 196 6522 6554
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.pred
+)
+"src/persistent.ml" 196 6522 6555 "src/persistent.ml" 196 6522 6556
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 186 6172 6194 "src/persistent.ml" 186 6172 6195
+)
+"src/persistent.ml" 196 6522 6555 "src/persistent.ml" 196 6522 6561
+type(
+  int
+)
+"src/persistent.ml" 196 6522 6539 "src/persistent.ml" 196 6522 6561
+type(
+  int
+)
+"src/persistent.ml" 194 6429 6437 "src/persistent.ml" 196 6522 6563
+type(
+  t
+)
+"src/persistent.ml" 193 6386 6394 "src/persistent.ml" 196 6522 6563
+type(
+  t
+)
+"src/persistent.ml" 188 6231 6239 "src/persistent.ml" 196 6522 6563
+type(
+  t
+)
+"src/persistent.ml" 198 6575 6583 "src/persistent.ml" 198 6575 6584
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 186 6172 6194 "src/persistent.ml" 186 6172 6195
+)
+"src/persistent.ml" 187 6200 6206 "src/persistent.ml" 198 6575 6584
+type(
+  t
+)
+"src/persistent.ml" 200 6586 6594 "src/persistent.ml" 200 6586 6605
+type(
+  t -> G.vertex -> G.vertex -> t
+)
+ident(
+  def remove_edge "src/persistent.ml" 201 6655 6659 "src/persistent.ml" 203 6721 6726
+)
+"src/persistent.ml" 200 6586 6606 "src/persistent.ml" 200 6586 6607
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 200 6586 6608 "src/persistent.ml" 200 6586 6654
+)
+"src/persistent.ml" 200 6586 6608 "src/persistent.ml" 200 6586 6610
+type(
+  G.vertex
+)
+ident(
+  def v1 "src/persistent.ml" 200 6586 6611 "src/persistent.ml" 200 6586 6654
+)
+"src/persistent.ml" 200 6586 6611 "src/persistent.ml" 200 6586 6613
+type(
+  G.vertex
+)
+ident(
+  def v2 "src/persistent.ml" 200 6586 6616 "src/persistent.ml" 200 6586 6654
+)
+"src/persistent.ml" 200 6586 6618 "src/persistent.ml" 200 6586 6619
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 200 6586 6606 "src/persistent.ml" 200 6586 6607
+)
+"src/persistent.ml" 200 6586 6633 "src/persistent.ml" 200 6586 6644
+type(
+  t -> G.vertex -> G.vertex -> G.t
+)
+ident(
+  ext_ref remove_edge
+)
+"src/persistent.ml" 200 6586 6645 "src/persistent.ml" 200 6586 6646
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 200 6586 6606 "src/persistent.ml" 200 6586 6607
+)
+"src/persistent.ml" 200 6586 6647 "src/persistent.ml" 200 6586 6649
+type(
+  G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 200 6586 6608 "src/persistent.ml" 200 6586 6610
+)
+"src/persistent.ml" 200 6586 6650 "src/persistent.ml" 200 6586 6652
+type(
+  G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 200 6586 6611 "src/persistent.ml" 200 6586 6613
+)
+"src/persistent.ml" 200 6586 6633 "src/persistent.ml" 200 6586 6652
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/persistent.ml" 200 6586 6616 "src/persistent.ml" 200 6586 6654
+type(
+  t
+)
+"src/persistent.ml" 201 6655 6663 "src/persistent.ml" 201 6655 6676
+type(
+  t -> G.edge -> t
+)
+ident(
+  def remove_edge_e "src/persistent.ml" 201 6655 6719 "src/persistent.ml" 203 6721 6726
+)
+"src/persistent.ml" 201 6655 6677 "src/persistent.ml" 201 6655 6678
+type(
+  t
+)
+ident(
+  def g "src/persistent.ml" 201 6655 6679 "src/persistent.ml" 201 6655 6719
+)
+"src/persistent.ml" 201 6655 6679 "src/persistent.ml" 201 6655 6680
+type(
+  G.edge
+)
+ident(
+  def e "src/persistent.ml" 201 6655 6683 "src/persistent.ml" 201 6655 6719
+)
+"src/persistent.ml" 201 6655 6685 "src/persistent.ml" 201 6655 6686
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 201 6655 6677 "src/persistent.ml" 201 6655 6678
+)
+"src/persistent.ml" 201 6655 6700 "src/persistent.ml" 201 6655 6713
+type(
+  t -> G.edge -> G.t
+)
+ident(
+  ext_ref remove_edge_e
+)
+"src/persistent.ml" 201 6655 6714 "src/persistent.ml" 201 6655 6715
+type(
+  t
+)
+ident(
+  int_ref g "src/persistent.ml" 201 6655 6677 "src/persistent.ml" 201 6655 6678
+)
+"src/persistent.ml" 201 6655 6716 "src/persistent.ml" 201 6655 6717
+type(
+  G.edge
+)
+ident(
+  int_ref e "src/persistent.ml" 201 6655 6679 "src/persistent.ml" 201 6655 6680
+)
+"src/persistent.ml" 201 6655 6700 "src/persistent.ml" 201 6655 6717
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/persistent.ml" 201 6655 6683 "src/persistent.ml" 201 6655 6719
+type(
+  t
+)
+"src/persistent.ml" 211 6799 6829 "src/persistent.ml" 211 6799 6848
+call(
+  stack
+)
+"src/persistent.ml" 212 6869 6881 "src/persistent.ml" 212 6869 6889
+call(
+  stack
+)
+"src/persistent.ml" 215 6932 6940 "src/persistent.ml" 215 6932 6945
+type(
+  'a G.HM.return
+)
+ident(
+  def empty "src/persistent.ml" 219 7021 7025 "src/persistent.ml" 233 7422 7427
+)
+"src/persistent.ml" 215 6932 6948 "src/persistent.ml" 215 6932 6955
+type(
+  'a G.HM.return
+)
+ident(
+  ext_ref G.empty
+)
+"src/persistent.ml" 219 7021 7029 "src/persistent.ml" 219 7021 7037
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.S.elt -> G.S.t G.HM.t
+)
+ident(
+  def add_edge "src/persistent.ml" 224 7164 7168 "src/persistent.ml" 233 7422 7427
+)
+"src/persistent.ml" 219 7021 7038 "src/persistent.ml" 219 7021 7039
+type(
+  G.S.t G.HM.t
+)
+ident(
+  def g "src/persistent.ml" 219 7021 7040 "src/persistent.ml" 222 7131 7162
+)
+"src/persistent.ml" 219 7021 7040 "src/persistent.ml" 219 7021 7042
+type(
+  G.HM.key
+)
+ident(
+  def v1 "src/persistent.ml" 219 7021 7043 "src/persistent.ml" 222 7131 7162
+)
+"src/persistent.ml" 219 7021 7043 "src/persistent.ml" 219 7021 7045
+type(
+  G.S.elt
+)
+ident(
+  def v2 "src/persistent.ml" 220 7048 7054 "src/persistent.ml" 222 7131 7162
+)
+"src/persistent.ml" 220 7048 7058 "src/persistent.ml" 220 7048 7059
+type(
+  G.S.t G.HM.t
+)
+ident(
+  def g "src/persistent.ml" 221 7084 7090 "src/persistent.ml" 222 7131 7162
+)
+"src/persistent.ml" 220 7048 7062 "src/persistent.ml" 220 7048 7072
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.S.elt -> G.S.t G.HM.t
+)
+ident(
+  ext_ref G.add_edge
+)
+"src/persistent.ml" 220 7048 7073 "src/persistent.ml" 220 7048 7074
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 219 7021 7038 "src/persistent.ml" 219 7021 7039
+)
+"src/persistent.ml" 220 7048 7075 "src/persistent.ml" 220 7048 7077
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 219 7021 7040 "src/persistent.ml" 219 7021 7042
+)
+"src/persistent.ml" 220 7048 7078 "src/persistent.ml" 220 7048 7080
+type(
+  G.S.elt
+)
+ident(
+  int_ref v2 "src/persistent.ml" 219 7021 7043 "src/persistent.ml" 219 7021 7045
+)
+"src/persistent.ml" 220 7048 7062 "src/persistent.ml" 220 7048 7080
+call(
+  stack
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 221 7084 7098 "src/persistent.ml" 221 7084 7106
+type(
+  G.HM.key -> G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 221 7084 7107 "src/persistent.ml" 221 7084 7109
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 219 7021 7040 "src/persistent.ml" 219 7021 7042
+)
+"src/persistent.ml" 221 7084 7110 "src/persistent.ml" 221 7084 7111
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 220 7048 7058 "src/persistent.ml" 220 7048 7059
+)
+"src/persistent.ml" 221 7084 7098 "src/persistent.ml" 221 7084 7111
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 221 7084 7112 "src/persistent.ml" 221 7084 7114
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/persistent.ml" 221 7084 7115 "src/persistent.ml" 221 7084 7123
+type(
+  G.HM.key -> G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 221 7084 7124 "src/persistent.ml" 221 7084 7126
+type(
+  G.S.elt
+)
+ident(
+  int_ref v2 "src/persistent.ml" 219 7021 7043 "src/persistent.ml" 219 7021 7045
+)
+"src/persistent.ml" 221 7084 7127 "src/persistent.ml" 221 7084 7128
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 220 7048 7058 "src/persistent.ml" 220 7048 7059
+)
+"src/persistent.ml" 221 7084 7115 "src/persistent.ml" 221 7084 7128
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 221 7084 7097 "src/persistent.ml" 221 7084 7129
+type(
+  bool
+)
+"src/persistent.ml" 221 7084 7090 "src/persistent.ml" 221 7084 7129
+type(
+  unit
+)
+"src/persistent.ml" 222 7131 7137 "src/persistent.ml" 222 7131 7154
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.S.elt -> G.S.t G.HM.t
+)
+ident(
+  ext_ref G.unsafe_add_edge
+)
+"src/persistent.ml" 222 7131 7155 "src/persistent.ml" 222 7131 7156
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 220 7048 7058 "src/persistent.ml" 220 7048 7059
+)
+"src/persistent.ml" 222 7131 7157 "src/persistent.ml" 222 7131 7159
+type(
+  G.S.elt
+)
+ident(
+  int_ref v2 "src/persistent.ml" 219 7021 7043 "src/persistent.ml" 219 7021 7045
+)
+"src/persistent.ml" 222 7131 7160 "src/persistent.ml" 222 7131 7162
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 219 7021 7040 "src/persistent.ml" 219 7021 7042
+)
+"src/persistent.ml" 222 7131 7137 "src/persistent.ml" 222 7131 7162
+call(
+  tail
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 221 7084 7090 "src/persistent.ml" 222 7131 7162
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 220 7048 7054 "src/persistent.ml" 222 7131 7162
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 224 7164 7172 "src/persistent.ml" 224 7164 7182
+type(
+  G.S.t G.HM.t -> G.HM.key * G.S.elt -> G.S.t G.HM.t
+)
+ident(
+  def add_edge_e "src/persistent.ml" 226 7214 7218 "src/persistent.ml" 233 7422 7427
+)
+"src/persistent.ml" 224 7164 7183 "src/persistent.ml" 224 7164 7184
+type(
+  G.S.t G.HM.t
+)
+ident(
+  def g "src/persistent.ml" 224 7164 7185 "src/persistent.ml" 224 7164 7212
+)
+"src/persistent.ml" 224 7164 7186 "src/persistent.ml" 224 7164 7188
+type(
+  G.HM.key
+)
+ident(
+  def v1 "src/persistent.ml" 224 7164 7196 "src/persistent.ml" 224 7164 7212
+)
+"src/persistent.ml" 224 7164 7190 "src/persistent.ml" 224 7164 7192
+type(
+  G.S.elt
+)
+ident(
+  def v2 "src/persistent.ml" 224 7164 7196 "src/persistent.ml" 224 7164 7212
+)
+"src/persistent.ml" 224 7164 7185 "src/persistent.ml" 224 7164 7193
+type(
+  G.HM.key * G.S.elt
+)
+"src/persistent.ml" 224 7164 7196 "src/persistent.ml" 224 7164 7204
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.S.elt -> G.S.t G.HM.t
+)
+ident(
+  int_ref add_edge "src/persistent.ml" 219 7021 7029 "src/persistent.ml" 219 7021 7037
+)
+"src/persistent.ml" 224 7164 7205 "src/persistent.ml" 224 7164 7206
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 224 7164 7183 "src/persistent.ml" 224 7164 7184
+)
+"src/persistent.ml" 224 7164 7207 "src/persistent.ml" 224 7164 7209
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 224 7164 7186 "src/persistent.ml" 224 7164 7188
+)
+"src/persistent.ml" 224 7164 7210 "src/persistent.ml" 224 7164 7212
+type(
+  G.S.elt
+)
+ident(
+  int_ref v2 "src/persistent.ml" 224 7164 7190 "src/persistent.ml" 224 7164 7192
+)
+"src/persistent.ml" 224 7164 7196 "src/persistent.ml" 224 7164 7212
+call(
+  tail
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 226 7214 7222 "src/persistent.ml" 226 7214 7233
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.HM.key -> G.S.t G.HM.t
+)
+ident(
+  def remove_edge "src/persistent.ml" 231 7366 7370 "src/persistent.ml" 233 7422 7427
+)
+"src/persistent.ml" 226 7214 7234 "src/persistent.ml" 226 7214 7235
+type(
+  G.S.t G.HM.t
+)
+ident(
+  def g "src/persistent.ml" 226 7214 7236 "src/persistent.ml" 229 7330 7364
+)
+"src/persistent.ml" 226 7214 7236 "src/persistent.ml" 226 7214 7238
+type(
+  G.HM.key
+)
+ident(
+  def v1 "src/persistent.ml" 226 7214 7239 "src/persistent.ml" 229 7330 7364
+)
+"src/persistent.ml" 226 7214 7239 "src/persistent.ml" 226 7214 7241
+type(
+  G.HM.key
+)
+ident(
+  def v2 "src/persistent.ml" 227 7244 7250 "src/persistent.ml" 229 7330 7364
+)
+"src/persistent.ml" 227 7244 7254 "src/persistent.ml" 227 7244 7255
+type(
+  G.S.t G.HM.t
+)
+ident(
+  def g "src/persistent.ml" 228 7283 7289 "src/persistent.ml" 229 7330 7364
+)
+"src/persistent.ml" 227 7244 7258 "src/persistent.ml" 227 7244 7271
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.HM.key -> G.S.t G.HM.t
+)
+ident(
+  ext_ref G.remove_edge
+)
+"src/persistent.ml" 227 7244 7272 "src/persistent.ml" 227 7244 7273
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 226 7214 7234 "src/persistent.ml" 226 7214 7235
+)
+"src/persistent.ml" 227 7244 7274 "src/persistent.ml" 227 7244 7276
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 226 7214 7236 "src/persistent.ml" 226 7214 7238
+)
+"src/persistent.ml" 227 7244 7277 "src/persistent.ml" 227 7244 7279
+type(
+  G.HM.key
+)
+ident(
+  int_ref v2 "src/persistent.ml" 226 7214 7239 "src/persistent.ml" 226 7214 7241
+)
+"src/persistent.ml" 227 7244 7258 "src/persistent.ml" 227 7244 7279
+call(
+  stack
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 228 7283 7297 "src/persistent.ml" 228 7283 7305
+type(
+  G.HM.key -> G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 228 7283 7306 "src/persistent.ml" 228 7283 7308
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 226 7214 7236 "src/persistent.ml" 226 7214 7238
+)
+"src/persistent.ml" 228 7283 7309 "src/persistent.ml" 228 7283 7310
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 227 7244 7254 "src/persistent.ml" 227 7244 7255
+)
+"src/persistent.ml" 228 7283 7297 "src/persistent.ml" 228 7283 7310
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 228 7283 7311 "src/persistent.ml" 228 7283 7313
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/persistent.ml" 228 7283 7314 "src/persistent.ml" 228 7283 7322
+type(
+  G.HM.key -> G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 228 7283 7323 "src/persistent.ml" 228 7283 7325
+type(
+  G.HM.key
+)
+ident(
+  int_ref v2 "src/persistent.ml" 226 7214 7239 "src/persistent.ml" 226 7214 7241
+)
+"src/persistent.ml" 228 7283 7326 "src/persistent.ml" 228 7283 7327
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 227 7244 7254 "src/persistent.ml" 227 7244 7255
+)
+"src/persistent.ml" 228 7283 7314 "src/persistent.ml" 228 7283 7327
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 228 7283 7296 "src/persistent.ml" 228 7283 7328
+type(
+  bool
+)
+"src/persistent.ml" 228 7283 7289 "src/persistent.ml" 228 7283 7328
+type(
+  unit
+)
+"src/persistent.ml" 229 7330 7336 "src/persistent.ml" 229 7330 7356
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.S.elt -> G.S.t G.HM.t
+)
+ident(
+  ext_ref G.unsafe_remove_edge
+)
+"src/persistent.ml" 229 7330 7357 "src/persistent.ml" 229 7330 7358
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 227 7244 7254 "src/persistent.ml" 227 7244 7255
+)
+"src/persistent.ml" 229 7330 7359 "src/persistent.ml" 229 7330 7361
+type(
+  G.HM.key
+)
+ident(
+  int_ref v2 "src/persistent.ml" 226 7214 7239 "src/persistent.ml" 226 7214 7241
+)
+"src/persistent.ml" 229 7330 7362 "src/persistent.ml" 229 7330 7364
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 226 7214 7236 "src/persistent.ml" 226 7214 7238
+)
+"src/persistent.ml" 229 7330 7336 "src/persistent.ml" 229 7330 7364
+call(
+  tail
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 228 7283 7289 "src/persistent.ml" 229 7330 7364
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 227 7244 7250 "src/persistent.ml" 229 7330 7364
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 231 7366 7374 "src/persistent.ml" 231 7366 7387
+type(
+  G.S.t G.HM.t -> G.HM.key * G.HM.key -> G.S.t G.HM.t
+)
+ident(
+  def remove_edge_e "src/persistent.ml" 231 7366 7420 "src/persistent.ml" 233 7422 7427
+)
+"src/persistent.ml" 231 7366 7388 "src/persistent.ml" 231 7366 7389
+type(
+  G.S.t G.HM.t
+)
+ident(
+  def g "src/persistent.ml" 231 7366 7390 "src/persistent.ml" 231 7366 7420
+)
+"src/persistent.ml" 231 7366 7391 "src/persistent.ml" 231 7366 7393
+type(
+  G.HM.key
+)
+ident(
+  def v1 "src/persistent.ml" 231 7366 7401 "src/persistent.ml" 231 7366 7420
+)
+"src/persistent.ml" 231 7366 7395 "src/persistent.ml" 231 7366 7397
+type(
+  G.HM.key
+)
+ident(
+  def v2 "src/persistent.ml" 231 7366 7401 "src/persistent.ml" 231 7366 7420
+)
+"src/persistent.ml" 231 7366 7390 "src/persistent.ml" 231 7366 7398
+type(
+  G.HM.key * G.HM.key
+)
+"src/persistent.ml" 231 7366 7401 "src/persistent.ml" 231 7366 7412
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.HM.key -> G.S.t G.HM.t
+)
+ident(
+  int_ref remove_edge "src/persistent.ml" 226 7214 7222 "src/persistent.ml" 226 7214 7233
+)
+"src/persistent.ml" 231 7366 7413 "src/persistent.ml" 231 7366 7414
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 231 7366 7388 "src/persistent.ml" 231 7366 7389
+)
+"src/persistent.ml" 231 7366 7415 "src/persistent.ml" 231 7366 7417
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 231 7366 7391 "src/persistent.ml" 231 7366 7393
+)
+"src/persistent.ml" 231 7366 7418 "src/persistent.ml" 231 7366 7420
+type(
+  G.HM.key
+)
+ident(
+  int_ref v2 "src/persistent.ml" 231 7366 7395 "src/persistent.ml" 231 7366 7397
+)
+"src/persistent.ml" 231 7366 7401 "src/persistent.ml" 231 7366 7420
+call(
+  tail
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 238 7525 7539 "src/persistent.ml" 238 7525 7565
+call(
+  stack
+)
+"src/persistent.ml" 238 7525 7539 "src/persistent.ml" 238 7525 7571
+call(
+  stack
+)
+"src/persistent.ml" 241 7602 7614 "src/persistent.ml" 241 7602 7622
+call(
+  stack
+)
+"src/persistent.ml" 244 7665 7673 "src/persistent.ml" 244 7665 7678
+type(
+  'b G.HM.return
+)
+ident(
+  def empty "src/persistent.ml" 248 7754 7758 "src/persistent.ml" 265 8300 8305
+)
+"src/persistent.ml" 244 7665 7681 "src/persistent.ml" 244 7665 7688
+type(
+  'b G.HM.return
+)
+ident(
+  ext_ref G.empty
+)
+"src/persistent.ml" 248 7754 7762 "src/persistent.ml" 248 7754 7772
+type(
+  G.S.t G.HM.t -> G.HM.key * Edge.t * G.V.t -> G.S.t G.HM.t
+)
+ident(
+  def add_edge_e "src/persistent.ml" 253 7913 7917 "src/persistent.ml" 265 8300 8305
+)
+"src/persistent.ml" 248 7754 7773 "src/persistent.ml" 248 7754 7774
+type(
+  G.S.t G.HM.t
+)
+ident(
+  def g "src/persistent.ml" 248 7754 7775 "src/persistent.ml" 251 7875 7911
+)
+"src/persistent.ml" 248 7754 7776 "src/persistent.ml" 248 7754 7778
+type(
+  G.HM.key
+)
+ident(
+  def v1 "src/persistent.ml" 249 7794 7800 "src/persistent.ml" 251 7875 7911
+)
+"src/persistent.ml" 248 7754 7780 "src/persistent.ml" 248 7754 7781
+type(
+  Edge.t
+)
+ident(
+  def l "src/persistent.ml" 249 7794 7800 "src/persistent.ml" 251 7875 7911
+)
+"src/persistent.ml" 248 7754 7783 "src/persistent.ml" 248 7754 7785
+type(
+  G.V.t
+)
+ident(
+  def v2 "src/persistent.ml" 249 7794 7800 "src/persistent.ml" 251 7875 7911
+)
+"src/persistent.ml" 248 7754 7776 "src/persistent.ml" 248 7754 7785
+type(
+  G.HM.key * Edge.t * G.V.t
+)
+"src/persistent.ml" 248 7754 7789 "src/persistent.ml" 248 7754 7790
+ident(
+  def e "src/persistent.ml" 249 7794 7800 "src/persistent.ml" 251 7875 7911
+)
+"src/persistent.ml" 248 7754 7775 "src/persistent.ml" 248 7754 7791
+type(
+  G.HM.key * Edge.t * G.V.t
+)
+"src/persistent.ml" 249 7794 7804 "src/persistent.ml" 249 7794 7805
+type(
+  G.S.t G.HM.t
+)
+ident(
+  def g "src/persistent.ml" 250 7828 7834 "src/persistent.ml" 251 7875 7911
+)
+"src/persistent.ml" 249 7794 7808 "src/persistent.ml" 249 7794 7820
+type(
+  G.S.t G.HM.t -> G.HM.key * Edge.t * G.V.t -> G.S.t G.HM.t
+)
+ident(
+  ext_ref G.add_edge_e
+)
+"src/persistent.ml" 249 7794 7821 "src/persistent.ml" 249 7794 7822
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 248 7754 7773 "src/persistent.ml" 248 7754 7774
+)
+"src/persistent.ml" 249 7794 7823 "src/persistent.ml" 249 7794 7824
+type(
+  G.HM.key * Edge.t * G.V.t
+)
+ident(
+  int_ref e "src/persistent.ml" 248 7754 7775 "src/persistent.ml" 248 7754 7791
+)
+"src/persistent.ml" 249 7794 7808 "src/persistent.ml" 249 7794 7824
+call(
+  stack
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 250 7828 7842 "src/persistent.ml" 250 7828 7850
+type(
+  G.HM.key -> G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 250 7828 7851 "src/persistent.ml" 250 7828 7853
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 248 7754 7776 "src/persistent.ml" 248 7754 7778
+)
+"src/persistent.ml" 250 7828 7854 "src/persistent.ml" 250 7828 7855
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 249 7794 7804 "src/persistent.ml" 249 7794 7805
+)
+"src/persistent.ml" 250 7828 7842 "src/persistent.ml" 250 7828 7855
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 250 7828 7856 "src/persistent.ml" 250 7828 7858
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/persistent.ml" 250 7828 7859 "src/persistent.ml" 250 7828 7867
+type(
+  G.HM.key -> G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 250 7828 7868 "src/persistent.ml" 250 7828 7870
+type(
+  G.V.t
+)
+ident(
+  int_ref v2 "src/persistent.ml" 248 7754 7783 "src/persistent.ml" 248 7754 7785
+)
+"src/persistent.ml" 250 7828 7871 "src/persistent.ml" 250 7828 7872
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 249 7794 7804 "src/persistent.ml" 249 7794 7805
+)
+"src/persistent.ml" 250 7828 7859 "src/persistent.ml" 250 7828 7872
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 250 7828 7841 "src/persistent.ml" 250 7828 7873
+type(
+  bool
+)
+"src/persistent.ml" 250 7828 7834 "src/persistent.ml" 250 7828 7873
+type(
+  unit
+)
+"src/persistent.ml" 251 7875 7881 "src/persistent.ml" 251 7875 7898
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.S.elt -> G.S.t G.HM.t
+)
+ident(
+  ext_ref G.unsafe_add_edge
+)
+"src/persistent.ml" 251 7875 7899 "src/persistent.ml" 251 7875 7900
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 249 7794 7804 "src/persistent.ml" 249 7794 7805
+)
+"src/persistent.ml" 251 7875 7901 "src/persistent.ml" 251 7875 7903
+type(
+  G.V.t
+)
+ident(
+  int_ref v2 "src/persistent.ml" 248 7754 7783 "src/persistent.ml" 248 7754 7785
+)
+"src/persistent.ml" 251 7875 7905 "src/persistent.ml" 251 7875 7907
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 248 7754 7776 "src/persistent.ml" 248 7754 7778
+)
+"src/persistent.ml" 251 7875 7909 "src/persistent.ml" 251 7875 7910
+type(
+  Edge.t
+)
+ident(
+  int_ref l "src/persistent.ml" 248 7754 7780 "src/persistent.ml" 248 7754 7781
+)
+"src/persistent.ml" 251 7875 7904 "src/persistent.ml" 251 7875 7911
+type(
+  G.S.elt
+)
+"src/persistent.ml" 251 7875 7881 "src/persistent.ml" 251 7875 7911
+call(
+  tail
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 250 7828 7834 "src/persistent.ml" 251 7875 7911
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 249 7794 7800 "src/persistent.ml" 251 7875 7911
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 253 7913 7921 "src/persistent.ml" 253 7913 7929
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.V.t -> G.S.t G.HM.t
+)
+ident(
+  def add_edge "src/persistent.ml" 255 7977 7981 "src/persistent.ml" 265 8300 8305
+)
+"src/persistent.ml" 253 7913 7930 "src/persistent.ml" 253 7913 7931
+type(
+  G.S.t G.HM.t
+)
+ident(
+  def g "src/persistent.ml" 253 7913 7932 "src/persistent.ml" 253 7913 7975
+)
+"src/persistent.ml" 253 7913 7932 "src/persistent.ml" 253 7913 7934
+type(
+  G.HM.key
+)
+ident(
+  def v1 "src/persistent.ml" 253 7913 7935 "src/persistent.ml" 253 7913 7975
+)
+"src/persistent.ml" 253 7913 7935 "src/persistent.ml" 253 7913 7937
+type(
+  G.V.t
+)
+ident(
+  def v2 "src/persistent.ml" 253 7913 7940 "src/persistent.ml" 253 7913 7975
+)
+"src/persistent.ml" 253 7913 7940 "src/persistent.ml" 253 7913 7950
+type(
+  G.S.t G.HM.t -> G.HM.key * Edge.t * G.V.t -> G.S.t G.HM.t
+)
+ident(
+  int_ref add_edge_e "src/persistent.ml" 248 7754 7762 "src/persistent.ml" 248 7754 7772
+)
+"src/persistent.ml" 253 7913 7951 "src/persistent.ml" 253 7913 7952
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 253 7913 7930 "src/persistent.ml" 253 7913 7931
+)
+"src/persistent.ml" 253 7913 7954 "src/persistent.ml" 253 7913 7956
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 253 7913 7932 "src/persistent.ml" 253 7913 7934
+)
+"src/persistent.ml" 253 7913 7958 "src/persistent.ml" 253 7913 7970
+type(
+  Edge.t
+)
+ident(
+  ext_ref Edge.default
+)
+"src/persistent.ml" 253 7913 7972 "src/persistent.ml" 253 7913 7974
+type(
+  G.V.t
+)
+ident(
+  int_ref v2 "src/persistent.ml" 253 7913 7935 "src/persistent.ml" 253 7913 7937
+)
+"src/persistent.ml" 253 7913 7953 "src/persistent.ml" 253 7913 7975
+type(
+  G.HM.key * Edge.t * G.V.t
+)
+"src/persistent.ml" 253 7913 7940 "src/persistent.ml" 253 7913 7975
+call(
+  tail
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 255 7977 7985 "src/persistent.ml" 255 7977 7996
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.HM.key -> G.S.t G.HM.t
+)
+ident(
+  def remove_edge "src/persistent.ml" 260 8129 8133 "src/persistent.ml" 265 8300 8305
+)
+"src/persistent.ml" 255 7977 7997 "src/persistent.ml" 255 7977 7998
+type(
+  G.S.t G.HM.t
+)
+ident(
+  def g "src/persistent.ml" 255 7977 7999 "src/persistent.ml" 258 8093 8127
+)
+"src/persistent.ml" 255 7977 7999 "src/persistent.ml" 255 7977 8001
+type(
+  G.HM.key
+)
+ident(
+  def v1 "src/persistent.ml" 255 7977 8002 "src/persistent.ml" 258 8093 8127
+)
+"src/persistent.ml" 255 7977 8002 "src/persistent.ml" 255 7977 8004
+type(
+  G.HM.key
+)
+ident(
+  def v2 "src/persistent.ml" 256 8007 8013 "src/persistent.ml" 258 8093 8127
+)
+"src/persistent.ml" 256 8007 8017 "src/persistent.ml" 256 8007 8018
+type(
+  G.S.t G.HM.t
+)
+ident(
+  def g "src/persistent.ml" 257 8046 8052 "src/persistent.ml" 258 8093 8127
+)
+"src/persistent.ml" 256 8007 8021 "src/persistent.ml" 256 8007 8034
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.HM.key -> G.S.t G.HM.t
+)
+ident(
+  ext_ref G.remove_edge
+)
+"src/persistent.ml" 256 8007 8035 "src/persistent.ml" 256 8007 8036
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 255 7977 7997 "src/persistent.ml" 255 7977 7998
+)
+"src/persistent.ml" 256 8007 8037 "src/persistent.ml" 256 8007 8039
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 255 7977 7999 "src/persistent.ml" 255 7977 8001
+)
+"src/persistent.ml" 256 8007 8040 "src/persistent.ml" 256 8007 8042
+type(
+  G.HM.key
+)
+ident(
+  int_ref v2 "src/persistent.ml" 255 7977 8002 "src/persistent.ml" 255 7977 8004
+)
+"src/persistent.ml" 256 8007 8021 "src/persistent.ml" 256 8007 8042
+call(
+  stack
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 257 8046 8060 "src/persistent.ml" 257 8046 8068
+type(
+  G.HM.key -> G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 257 8046 8069 "src/persistent.ml" 257 8046 8071
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 255 7977 7999 "src/persistent.ml" 255 7977 8001
+)
+"src/persistent.ml" 257 8046 8072 "src/persistent.ml" 257 8046 8073
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 256 8007 8017 "src/persistent.ml" 256 8007 8018
+)
+"src/persistent.ml" 257 8046 8060 "src/persistent.ml" 257 8046 8073
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 257 8046 8074 "src/persistent.ml" 257 8046 8076
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/persistent.ml" 257 8046 8077 "src/persistent.ml" 257 8046 8085
+type(
+  G.HM.key -> G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 257 8046 8086 "src/persistent.ml" 257 8046 8088
+type(
+  G.HM.key
+)
+ident(
+  int_ref v2 "src/persistent.ml" 255 7977 8002 "src/persistent.ml" 255 7977 8004
+)
+"src/persistent.ml" 257 8046 8089 "src/persistent.ml" 257 8046 8090
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 256 8007 8017 "src/persistent.ml" 256 8007 8018
+)
+"src/persistent.ml" 257 8046 8077 "src/persistent.ml" 257 8046 8090
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 257 8046 8059 "src/persistent.ml" 257 8046 8091
+type(
+  bool
+)
+"src/persistent.ml" 257 8046 8052 "src/persistent.ml" 257 8046 8091
+type(
+  unit
+)
+"src/persistent.ml" 258 8093 8099 "src/persistent.ml" 258 8093 8119
+type(
+  G.S.t G.HM.t -> G.HM.key -> G.V.t -> G.S.t G.HM.t
+)
+ident(
+  ext_ref G.unsafe_remove_edge
+)
+"src/persistent.ml" 258 8093 8120 "src/persistent.ml" 258 8093 8121
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 256 8007 8017 "src/persistent.ml" 256 8007 8018
+)
+"src/persistent.ml" 258 8093 8122 "src/persistent.ml" 258 8093 8124
+type(
+  G.HM.key
+)
+ident(
+  int_ref v2 "src/persistent.ml" 255 7977 8002 "src/persistent.ml" 255 7977 8004
+)
+"src/persistent.ml" 258 8093 8125 "src/persistent.ml" 258 8093 8127
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 255 7977 7999 "src/persistent.ml" 255 7977 8001
+)
+"src/persistent.ml" 258 8093 8099 "src/persistent.ml" 258 8093 8127
+call(
+  tail
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 257 8046 8052 "src/persistent.ml" 258 8093 8127
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 256 8007 8013 "src/persistent.ml" 258 8093 8127
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 260 8129 8137 "src/persistent.ml" 260 8129 8150
+type(
+  G.S.t G.HM.t -> G.HM.key * Edge.t * G.HM.key -> G.S.t G.HM.t
+)
+ident(
+  def remove_edge_e "src/persistent.ml" 263 8256 8298 "src/persistent.ml" 265 8300 8305
+)
+"src/persistent.ml" 260 8129 8151 "src/persistent.ml" 260 8129 8152
+type(
+  G.S.t G.HM.t
+)
+ident(
+  def g "src/persistent.ml" 260 8129 8153 "src/persistent.ml" 263 8256 8298
+)
+"src/persistent.ml" 260 8129 8154 "src/persistent.ml" 260 8129 8156
+type(
+  G.HM.key
+)
+ident(
+  def v1 "src/persistent.ml" 261 8172 8178 "src/persistent.ml" 263 8256 8298
+)
+"src/persistent.ml" 260 8129 8158 "src/persistent.ml" 260 8129 8159
+type(
+  Edge.t
+)
+ident(
+  def l "src/persistent.ml" 261 8172 8178 "src/persistent.ml" 263 8256 8298
+)
+"src/persistent.ml" 260 8129 8161 "src/persistent.ml" 260 8129 8163
+type(
+  G.HM.key
+)
+ident(
+  def v2 "src/persistent.ml" 261 8172 8178 "src/persistent.ml" 263 8256 8298
+)
+"src/persistent.ml" 260 8129 8154 "src/persistent.ml" 260 8129 8163
+type(
+  G.HM.key * Edge.t * G.HM.key
+)
+"src/persistent.ml" 260 8129 8167 "src/persistent.ml" 260 8129 8168
+ident(
+  def e "src/persistent.ml" 261 8172 8178 "src/persistent.ml" 263 8256 8298
+)
+"src/persistent.ml" 260 8129 8153 "src/persistent.ml" 260 8129 8169
+type(
+  G.HM.key * Edge.t * G.HM.key
+)
+"src/persistent.ml" 261 8172 8182 "src/persistent.ml" 261 8172 8183
+type(
+  G.S.t G.HM.t
+)
+ident(
+  def g "src/persistent.ml" 262 8209 8215 "src/persistent.ml" 263 8256 8298
+)
+"src/persistent.ml" 261 8172 8186 "src/persistent.ml" 261 8172 8201
+type(
+  G.S.t G.HM.t -> G.HM.key * Edge.t * G.HM.key -> G.S.t G.HM.t
+)
+ident(
+  ext_ref G.remove_edge_e
+)
+"src/persistent.ml" 261 8172 8202 "src/persistent.ml" 261 8172 8203
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 260 8129 8151 "src/persistent.ml" 260 8129 8152
+)
+"src/persistent.ml" 261 8172 8204 "src/persistent.ml" 261 8172 8205
+type(
+  G.HM.key * Edge.t * G.HM.key
+)
+ident(
+  int_ref e "src/persistent.ml" 260 8129 8153 "src/persistent.ml" 260 8129 8169
+)
+"src/persistent.ml" 261 8172 8186 "src/persistent.ml" 261 8172 8205
+call(
+  stack
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 262 8209 8223 "src/persistent.ml" 262 8209 8231
+type(
+  G.HM.key -> G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 262 8209 8232 "src/persistent.ml" 262 8209 8234
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 260 8129 8154 "src/persistent.ml" 260 8129 8156
+)
+"src/persistent.ml" 262 8209 8235 "src/persistent.ml" 262 8209 8236
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 261 8172 8182 "src/persistent.ml" 261 8172 8183
+)
+"src/persistent.ml" 262 8209 8223 "src/persistent.ml" 262 8209 8236
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 262 8209 8237 "src/persistent.ml" 262 8209 8239
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/persistent.ml" 262 8209 8240 "src/persistent.ml" 262 8209 8248
+type(
+  G.HM.key -> G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 262 8209 8249 "src/persistent.ml" 262 8209 8251
+type(
+  G.HM.key
+)
+ident(
+  int_ref v2 "src/persistent.ml" 260 8129 8161 "src/persistent.ml" 260 8129 8163
+)
+"src/persistent.ml" 262 8209 8252 "src/persistent.ml" 262 8209 8253
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 261 8172 8182 "src/persistent.ml" 261 8172 8183
+)
+"src/persistent.ml" 262 8209 8240 "src/persistent.ml" 262 8209 8253
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 262 8209 8222 "src/persistent.ml" 262 8209 8254
+type(
+  bool
+)
+"src/persistent.ml" 262 8209 8215 "src/persistent.ml" 262 8209 8254
+type(
+  unit
+)
+"src/persistent.ml" 263 8256 8262 "src/persistent.ml" 263 8256 8284
+type(
+  G.S.t G.HM.t -> G.HM.key * Edge.t * G.V.t -> G.S.t G.HM.t
+)
+ident(
+  ext_ref G.unsafe_remove_edge_e
+)
+"src/persistent.ml" 263 8256 8285 "src/persistent.ml" 263 8256 8286
+type(
+  G.S.t G.HM.t
+)
+ident(
+  int_ref g "src/persistent.ml" 261 8172 8182 "src/persistent.ml" 261 8172 8183
+)
+"src/persistent.ml" 263 8256 8288 "src/persistent.ml" 263 8256 8290
+type(
+  G.HM.key
+)
+ident(
+  int_ref v2 "src/persistent.ml" 260 8129 8161 "src/persistent.ml" 260 8129 8163
+)
+"src/persistent.ml" 263 8256 8292 "src/persistent.ml" 263 8256 8293
+type(
+  Edge.t
+)
+ident(
+  int_ref l "src/persistent.ml" 260 8129 8158 "src/persistent.ml" 260 8129 8159
+)
+"src/persistent.ml" 263 8256 8295 "src/persistent.ml" 263 8256 8297
+type(
+  G.HM.key
+)
+ident(
+  int_ref v1 "src/persistent.ml" 260 8129 8154 "src/persistent.ml" 260 8129 8156
+)
+"src/persistent.ml" 263 8256 8287 "src/persistent.ml" 263 8256 8298
+type(
+  G.HM.key * Edge.t * G.V.t
+)
+"src/persistent.ml" 263 8256 8262 "src/persistent.ml" 263 8256 8298
+call(
+  tail
+)
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 262 8209 8215 "src/persistent.ml" 263 8256 8298
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 261 8172 8178 "src/persistent.ml" 263 8256 8298
+type(
+  G.S.t G.HM.t
+)
+"src/persistent.ml" 269 8354 8384 "src/persistent.ml" 269 8354 8403
+call(
+  stack
+)
+"src/persistent.ml" 270 8424 8436 "src/persistent.ml" 270 8424 8444
+call(
+  stack
+)
+"src/persistent.ml" 273 8487 8495 "src/persistent.ml" 273 8487 8500
+type(
+  G.t
+)
+ident(
+  def empty "src/persistent.ml" 277 8576 8580 "src/persistent.ml" 291 9067 9072
+)
+"src/persistent.ml" 273 8487 8503 "src/persistent.ml" 273 8487 8510
+type(
+  G.t
+)
+ident(
+  int_ref G.empty "src/persistent.ml" 137 4779 4787 "src/persistent.ml" 137 4779 4792
+)
+"src/persistent.ml" 277 8576 8584 "src/persistent.ml" 277 8576 8592
+type(
+  G.t -> G.G.vertex -> G.G.vertex -> G.t
+)
+ident(
+  def add_edge "src/persistent.ml" 282 8764 8768 "src/persistent.ml" 291 9067 9072
+)
+"src/persistent.ml" 277 8576 8593 "src/persistent.ml" 277 8576 8594
+type(
+  G.t
+)
+ident(
+  def g "src/persistent.ml" 277 8576 8595 "src/persistent.ml" 280 8702 8762
+)
+"src/persistent.ml" 277 8576 8595 "src/persistent.ml" 277 8576 8597
+type(
+  G.G.vertex
+)
+ident(
+  def v1 "src/persistent.ml" 277 8576 8598 "src/persistent.ml" 280 8702 8762
+)
+"src/persistent.ml" 277 8576 8598 "src/persistent.ml" 277 8576 8600
+type(
+  G.G.vertex
+)
+ident(
+  def v2 "src/persistent.ml" 278 8603 8609 "src/persistent.ml" 280 8702 8762
+)
+"src/persistent.ml" 278 8603 8613 "src/persistent.ml" 278 8603 8614
+type(
+  G.t
+)
+ident(
+  def g "src/persistent.ml" 279 8639 8645 "src/persistent.ml" 280 8702 8762
+)
+"src/persistent.ml" 278 8603 8617 "src/persistent.ml" 278 8603 8627
+type(
+  G.t -> G.G.vertex -> G.G.vertex -> G.t
+)
+ident(
+  int_ref G.add_edge "src/persistent.ml" 146 4993 5001 "src/persistent.ml" 146 4993 5009
+)
+"src/persistent.ml" 278 8603 8628 "src/persistent.ml" 278 8603 8629
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 277 8576 8593 "src/persistent.ml" 277 8576 8594
+)
+"src/persistent.ml" 278 8603 8630 "src/persistent.ml" 278 8603 8632
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 277 8576 8595 "src/persistent.ml" 277 8576 8597
+)
+"src/persistent.ml" 278 8603 8633 "src/persistent.ml" 278 8603 8635
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 277 8576 8598 "src/persistent.ml" 277 8576 8600
+)
+"src/persistent.ml" 278 8603 8617 "src/persistent.ml" 278 8603 8635
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/persistent.ml" 279 8639 8653 "src/persistent.ml" 279 8639 8661
+type(
+  G.HM.key -> G.G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 279 8639 8662 "src/persistent.ml" 279 8639 8664
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 277 8576 8595 "src/persistent.ml" 277 8576 8597
+)
+"src/persistent.ml" 279 8639 8665 "src/persistent.ml" 279 8639 8666
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 278 8603 8613 "src/persistent.ml" 278 8603 8614
+)
+"src/persistent.ml" 279 8639 8665 "src/persistent.ml" 279 8639 8674
+type(
+  G.G.t
+)
+"src/persistent.ml" 279 8639 8653 "src/persistent.ml" 279 8639 8674
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 279 8639 8675 "src/persistent.ml" 279 8639 8677
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/persistent.ml" 279 8639 8678 "src/persistent.ml" 279 8639 8686
+type(
+  G.HM.key -> G.G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 279 8639 8687 "src/persistent.ml" 279 8639 8689
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 277 8576 8598 "src/persistent.ml" 277 8576 8600
+)
+"src/persistent.ml" 279 8639 8690 "src/persistent.ml" 279 8639 8691
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 278 8603 8613 "src/persistent.ml" 278 8603 8614
+)
+"src/persistent.ml" 279 8639 8690 "src/persistent.ml" 279 8639 8699
+type(
+  G.G.t
+)
+"src/persistent.ml" 279 8639 8678 "src/persistent.ml" 279 8639 8699
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 279 8639 8652 "src/persistent.ml" 279 8639 8700
+type(
+  bool
+)
+"src/persistent.ml" 279 8639 8645 "src/persistent.ml" 279 8639 8700
+type(
+  unit
+)
+"src/persistent.ml" 280 8702 8710 "src/persistent.ml" 280 8702 8711
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 278 8603 8613 "src/persistent.ml" 278 8603 8614
+)
+"src/persistent.ml" 280 8702 8727 "src/persistent.ml" 280 8702 8744
+type(
+  G.G.t -> G.G.vertex -> G.G.S.elt -> G.G.t
+)
+ident(
+  ext_ref G.unsafe_add_edge
+)
+"src/persistent.ml" 280 8702 8745 "src/persistent.ml" 280 8702 8746
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 278 8603 8613 "src/persistent.ml" 278 8603 8614
+)
+"src/persistent.ml" 280 8702 8745 "src/persistent.ml" 280 8702 8754
+type(
+  G.G.t
+)
+"src/persistent.ml" 280 8702 8755 "src/persistent.ml" 280 8702 8757
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 277 8576 8598 "src/persistent.ml" 277 8576 8600
+)
+"src/persistent.ml" 280 8702 8758 "src/persistent.ml" 280 8702 8760
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 277 8576 8595 "src/persistent.ml" 277 8576 8597
+)
+"src/persistent.ml" 280 8702 8727 "src/persistent.ml" 280 8702 8760
+call(
+  stack
+)
+type(
+  G.G.t
+)
+"src/persistent.ml" 280 8702 8708 "src/persistent.ml" 280 8702 8762
+type(
+  G.t
+)
+"src/persistent.ml" 279 8639 8645 "src/persistent.ml" 280 8702 8762
+type(
+  G.t
+)
+"src/persistent.ml" 278 8603 8609 "src/persistent.ml" 280 8702 8762
+type(
+  G.t
+)
+"src/persistent.ml" 282 8764 8772 "src/persistent.ml" 282 8764 8782
+type(
+  G.t -> G.G.vertex * G.G.vertex -> G.t
+)
+ident(
+  def add_edge_e "src/persistent.ml" 284 8814 8818 "src/persistent.ml" 291 9067 9072
+)
+"src/persistent.ml" 282 8764 8783 "src/persistent.ml" 282 8764 8784
+type(
+  G.t
+)
+ident(
+  def g "src/persistent.ml" 282 8764 8785 "src/persistent.ml" 282 8764 8812
+)
+"src/persistent.ml" 282 8764 8786 "src/persistent.ml" 282 8764 8788
+type(
+  G.G.vertex
+)
+ident(
+  def v1 "src/persistent.ml" 282 8764 8796 "src/persistent.ml" 282 8764 8812
+)
+"src/persistent.ml" 282 8764 8790 "src/persistent.ml" 282 8764 8792
+type(
+  G.G.vertex
+)
+ident(
+  def v2 "src/persistent.ml" 282 8764 8796 "src/persistent.ml" 282 8764 8812
+)
+"src/persistent.ml" 282 8764 8785 "src/persistent.ml" 282 8764 8793
+type(
+  G.G.vertex * G.G.vertex
+)
+"src/persistent.ml" 282 8764 8796 "src/persistent.ml" 282 8764 8804
+type(
+  G.t -> G.G.vertex -> G.G.vertex -> G.t
+)
+ident(
+  int_ref add_edge "src/persistent.ml" 277 8576 8584 "src/persistent.ml" 277 8576 8592
+)
+"src/persistent.ml" 282 8764 8805 "src/persistent.ml" 282 8764 8806
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 282 8764 8783 "src/persistent.ml" 282 8764 8784
+)
+"src/persistent.ml" 282 8764 8807 "src/persistent.ml" 282 8764 8809
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 282 8764 8786 "src/persistent.ml" 282 8764 8788
+)
+"src/persistent.ml" 282 8764 8810 "src/persistent.ml" 282 8764 8812
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 282 8764 8790 "src/persistent.ml" 282 8764 8792
+)
+"src/persistent.ml" 282 8764 8796 "src/persistent.ml" 282 8764 8812
+call(
+  tail
+)
+type(
+  G.t
+)
+"src/persistent.ml" 284 8814 8822 "src/persistent.ml" 284 8814 8833
+type(
+  G.t -> G.G.vertex -> G.G.vertex -> G.t
+)
+ident(
+  def remove_edge "src/persistent.ml" 289 9011 9015 "src/persistent.ml" 291 9067 9072
+)
+"src/persistent.ml" 284 8814 8834 "src/persistent.ml" 284 8814 8835
+type(
+  G.t
+)
+ident(
+  def g "src/persistent.ml" 284 8814 8836 "src/persistent.ml" 287 8946 9009
+)
+"src/persistent.ml" 284 8814 8836 "src/persistent.ml" 284 8814 8838
+type(
+  G.G.vertex
+)
+ident(
+  def v1 "src/persistent.ml" 284 8814 8839 "src/persistent.ml" 287 8946 9009
+)
+"src/persistent.ml" 284 8814 8839 "src/persistent.ml" 284 8814 8841
+type(
+  G.G.vertex
+)
+ident(
+  def v2 "src/persistent.ml" 285 8844 8850 "src/persistent.ml" 287 8946 9009
+)
+"src/persistent.ml" 285 8844 8854 "src/persistent.ml" 285 8844 8855
+type(
+  G.t
+)
+ident(
+  def g "src/persistent.ml" 286 8883 8889 "src/persistent.ml" 287 8946 9009
+)
+"src/persistent.ml" 285 8844 8858 "src/persistent.ml" 285 8844 8871
+type(
+  G.t -> G.G.vertex -> G.G.vertex -> G.t
+)
+ident(
+  int_ref G.remove_edge "src/persistent.ml" 161 5446 5454 "src/persistent.ml" 161 5446 5465
+)
+"src/persistent.ml" 285 8844 8872 "src/persistent.ml" 285 8844 8873
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 284 8814 8834 "src/persistent.ml" 284 8814 8835
+)
+"src/persistent.ml" 285 8844 8874 "src/persistent.ml" 285 8844 8876
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 284 8814 8836 "src/persistent.ml" 284 8814 8838
+)
+"src/persistent.ml" 285 8844 8877 "src/persistent.ml" 285 8844 8879
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 284 8814 8839 "src/persistent.ml" 284 8814 8841
+)
+"src/persistent.ml" 285 8844 8858 "src/persistent.ml" 285 8844 8879
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/persistent.ml" 286 8883 8897 "src/persistent.ml" 286 8883 8905
+type(
+  G.HM.key -> G.G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 286 8883 8906 "src/persistent.ml" 286 8883 8908
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 284 8814 8836 "src/persistent.ml" 284 8814 8838
+)
+"src/persistent.ml" 286 8883 8909 "src/persistent.ml" 286 8883 8910
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 285 8844 8854 "src/persistent.ml" 285 8844 8855
+)
+"src/persistent.ml" 286 8883 8909 "src/persistent.ml" 286 8883 8918
+type(
+  G.G.t
+)
+"src/persistent.ml" 286 8883 8897 "src/persistent.ml" 286 8883 8918
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 286 8883 8919 "src/persistent.ml" 286 8883 8921
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/persistent.ml" 286 8883 8922 "src/persistent.ml" 286 8883 8930
+type(
+  G.HM.key -> G.G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 286 8883 8931 "src/persistent.ml" 286 8883 8933
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 284 8814 8839 "src/persistent.ml" 284 8814 8841
+)
+"src/persistent.ml" 286 8883 8934 "src/persistent.ml" 286 8883 8935
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 285 8844 8854 "src/persistent.ml" 285 8844 8855
+)
+"src/persistent.ml" 286 8883 8934 "src/persistent.ml" 286 8883 8943
+type(
+  G.G.t
+)
+"src/persistent.ml" 286 8883 8922 "src/persistent.ml" 286 8883 8943
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 286 8883 8896 "src/persistent.ml" 286 8883 8944
+type(
+  bool
+)
+"src/persistent.ml" 286 8883 8889 "src/persistent.ml" 286 8883 8944
+type(
+  unit
+)
+"src/persistent.ml" 287 8946 8954 "src/persistent.ml" 287 8946 8955
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 285 8844 8854 "src/persistent.ml" 285 8844 8855
+)
+"src/persistent.ml" 287 8946 8971 "src/persistent.ml" 287 8946 8991
+type(
+  G.G.t -> G.G.vertex -> G.G.vertex -> G.G.t
+)
+ident(
+  ext_ref G.unsafe_remove_edge
+)
+"src/persistent.ml" 287 8946 8992 "src/persistent.ml" 287 8946 8993
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 285 8844 8854 "src/persistent.ml" 285 8844 8855
+)
+"src/persistent.ml" 287 8946 8992 "src/persistent.ml" 287 8946 9001
+type(
+  G.G.t
+)
+"src/persistent.ml" 287 8946 9002 "src/persistent.ml" 287 8946 9004
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 284 8814 8839 "src/persistent.ml" 284 8814 8841
+)
+"src/persistent.ml" 287 8946 9005 "src/persistent.ml" 287 8946 9007
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 284 8814 8836 "src/persistent.ml" 284 8814 8838
+)
+"src/persistent.ml" 287 8946 8971 "src/persistent.ml" 287 8946 9007
+call(
+  stack
+)
+type(
+  G.G.t
+)
+"src/persistent.ml" 287 8946 8952 "src/persistent.ml" 287 8946 9009
+type(
+  G.t
+)
+"src/persistent.ml" 286 8883 8889 "src/persistent.ml" 287 8946 9009
+type(
+  G.t
+)
+"src/persistent.ml" 285 8844 8850 "src/persistent.ml" 287 8946 9009
+type(
+  G.t
+)
+"src/persistent.ml" 289 9011 9019 "src/persistent.ml" 289 9011 9032
+type(
+  G.t -> G.G.vertex * G.G.vertex -> G.t
+)
+ident(
+  def remove_edge_e "src/persistent.ml" 289 9011 9065 "src/persistent.ml" 291 9067 9072
+)
+"src/persistent.ml" 289 9011 9033 "src/persistent.ml" 289 9011 9034
+type(
+  G.t
+)
+ident(
+  def g "src/persistent.ml" 289 9011 9035 "src/persistent.ml" 289 9011 9065
+)
+"src/persistent.ml" 289 9011 9036 "src/persistent.ml" 289 9011 9038
+type(
+  G.G.vertex
+)
+ident(
+  def v1 "src/persistent.ml" 289 9011 9046 "src/persistent.ml" 289 9011 9065
+)
+"src/persistent.ml" 289 9011 9040 "src/persistent.ml" 289 9011 9042
+type(
+  G.G.vertex
+)
+ident(
+  def v2 "src/persistent.ml" 289 9011 9046 "src/persistent.ml" 289 9011 9065
+)
+"src/persistent.ml" 289 9011 9035 "src/persistent.ml" 289 9011 9043
+type(
+  G.G.vertex * G.G.vertex
+)
+"src/persistent.ml" 289 9011 9046 "src/persistent.ml" 289 9011 9057
+type(
+  G.t -> G.G.vertex -> G.G.vertex -> G.t
+)
+ident(
+  int_ref remove_edge "src/persistent.ml" 284 8814 8822 "src/persistent.ml" 284 8814 8833
+)
+"src/persistent.ml" 289 9011 9058 "src/persistent.ml" 289 9011 9059
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 289 9011 9033 "src/persistent.ml" 289 9011 9034
+)
+"src/persistent.ml" 289 9011 9060 "src/persistent.ml" 289 9011 9062
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 289 9011 9036 "src/persistent.ml" 289 9011 9038
+)
+"src/persistent.ml" 289 9011 9063 "src/persistent.ml" 289 9011 9065
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 289 9011 9040 "src/persistent.ml" 289 9011 9042
+)
+"src/persistent.ml" 289 9011 9046 "src/persistent.ml" 289 9011 9065
+call(
+  tail
+)
+type(
+  G.t
+)
+"src/persistent.ml" 296 9175 9189 "src/persistent.ml" 296 9175 9215
+call(
+  stack
+)
+"src/persistent.ml" 296 9175 9189 "src/persistent.ml" 296 9175 9221
+call(
+  stack
+)
+"src/persistent.ml" 299 9252 9264 "src/persistent.ml" 299 9252 9272
+call(
+  stack
+)
+"src/persistent.ml" 302 9315 9323 "src/persistent.ml" 302 9315 9328
+type(
+  G.t
+)
+ident(
+  def empty "src/persistent.ml" 306 9404 9408 "src/persistent.ml" 323 10085 10090
+)
+"src/persistent.ml" 302 9315 9331 "src/persistent.ml" 302 9315 9338
+type(
+  G.t
+)
+ident(
+  int_ref G.empty "src/persistent.ml" 170 5730 5738 "src/persistent.ml" 170 5730 5743
+)
+"src/persistent.ml" 306 9404 9412 "src/persistent.ml" 306 9404 9422
+type(
+  G.t -> G.G.vertex * Edge.t * G.G.vertex -> G.t
+)
+ident(
+  def add_edge_e "src/persistent.ml" 311 9608 9612 "src/persistent.ml" 323 10085 10090
+)
+"src/persistent.ml" 306 9404 9423 "src/persistent.ml" 306 9404 9424
+type(
+  G.t
+)
+ident(
+  def g "src/persistent.ml" 306 9404 9425 "src/persistent.ml" 309 9541 9606
+)
+"src/persistent.ml" 306 9404 9426 "src/persistent.ml" 306 9404 9428
+type(
+  G.G.vertex
+)
+ident(
+  def v1 "src/persistent.ml" 307 9444 9450 "src/persistent.ml" 309 9541 9606
+)
+"src/persistent.ml" 306 9404 9430 "src/persistent.ml" 306 9404 9431
+type(
+  Edge.t
+)
+ident(
+  def l "src/persistent.ml" 307 9444 9450 "src/persistent.ml" 309 9541 9606
+)
+"src/persistent.ml" 306 9404 9433 "src/persistent.ml" 306 9404 9435
+type(
+  G.G.vertex
+)
+ident(
+  def v2 "src/persistent.ml" 307 9444 9450 "src/persistent.ml" 309 9541 9606
+)
+"src/persistent.ml" 306 9404 9426 "src/persistent.ml" 306 9404 9435
+type(
+  G.G.vertex * Edge.t * G.G.vertex
+)
+"src/persistent.ml" 306 9404 9439 "src/persistent.ml" 306 9404 9440
+ident(
+  def e "src/persistent.ml" 307 9444 9450 "src/persistent.ml" 309 9541 9606
+)
+"src/persistent.ml" 306 9404 9425 "src/persistent.ml" 306 9404 9441
+type(
+  G.G.vertex * Edge.t * G.G.vertex
+)
+"src/persistent.ml" 307 9444 9454 "src/persistent.ml" 307 9444 9455
+type(
+  G.t
+)
+ident(
+  def g "src/persistent.ml" 308 9478 9484 "src/persistent.ml" 309 9541 9606
+)
+"src/persistent.ml" 307 9444 9458 "src/persistent.ml" 307 9444 9470
+type(
+  G.t -> G.G.vertex * Edge.t * G.G.vertex -> G.t
+)
+ident(
+  int_ref G.add_edge_e "src/persistent.ml" 179 5944 5952 "src/persistent.ml" 179 5944 5962
+)
+"src/persistent.ml" 307 9444 9471 "src/persistent.ml" 307 9444 9472
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 306 9404 9423 "src/persistent.ml" 306 9404 9424
+)
+"src/persistent.ml" 307 9444 9473 "src/persistent.ml" 307 9444 9474
+type(
+  G.G.vertex * Edge.t * G.G.vertex
+)
+ident(
+  int_ref e "src/persistent.ml" 306 9404 9425 "src/persistent.ml" 306 9404 9441
+)
+"src/persistent.ml" 307 9444 9458 "src/persistent.ml" 307 9444 9474
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/persistent.ml" 308 9478 9492 "src/persistent.ml" 308 9478 9500
+type(
+  G.HM.key -> G.G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 308 9478 9501 "src/persistent.ml" 308 9478 9503
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 306 9404 9426 "src/persistent.ml" 306 9404 9428
+)
+"src/persistent.ml" 308 9478 9504 "src/persistent.ml" 308 9478 9505
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 307 9444 9454 "src/persistent.ml" 307 9444 9455
+)
+"src/persistent.ml" 308 9478 9504 "src/persistent.ml" 308 9478 9513
+type(
+  G.G.t
+)
+"src/persistent.ml" 308 9478 9492 "src/persistent.ml" 308 9478 9513
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 308 9478 9514 "src/persistent.ml" 308 9478 9516
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/persistent.ml" 308 9478 9517 "src/persistent.ml" 308 9478 9525
+type(
+  G.HM.key -> G.G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 308 9478 9526 "src/persistent.ml" 308 9478 9528
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 306 9404 9433 "src/persistent.ml" 306 9404 9435
+)
+"src/persistent.ml" 308 9478 9529 "src/persistent.ml" 308 9478 9530
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 307 9444 9454 "src/persistent.ml" 307 9444 9455
+)
+"src/persistent.ml" 308 9478 9529 "src/persistent.ml" 308 9478 9538
+type(
+  G.G.t
+)
+"src/persistent.ml" 308 9478 9517 "src/persistent.ml" 308 9478 9538
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 308 9478 9491 "src/persistent.ml" 308 9478 9539
+type(
+  bool
+)
+"src/persistent.ml" 308 9478 9484 "src/persistent.ml" 308 9478 9539
+type(
+  unit
+)
+"src/persistent.ml" 309 9541 9549 "src/persistent.ml" 309 9541 9550
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 307 9444 9454 "src/persistent.ml" 307 9444 9455
+)
+"src/persistent.ml" 309 9541 9566 "src/persistent.ml" 309 9541 9583
+type(
+  G.G.t -> G.G.vertex -> G.G.S.elt -> G.G.t
+)
+ident(
+  ext_ref G.unsafe_add_edge
+)
+"src/persistent.ml" 309 9541 9584 "src/persistent.ml" 309 9541 9585
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 307 9444 9454 "src/persistent.ml" 307 9444 9455
+)
+"src/persistent.ml" 309 9541 9584 "src/persistent.ml" 309 9541 9593
+type(
+  G.G.t
+)
+"src/persistent.ml" 309 9541 9594 "src/persistent.ml" 309 9541 9596
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 306 9404 9433 "src/persistent.ml" 306 9404 9435
+)
+"src/persistent.ml" 309 9541 9598 "src/persistent.ml" 309 9541 9600
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 306 9404 9426 "src/persistent.ml" 306 9404 9428
+)
+"src/persistent.ml" 309 9541 9602 "src/persistent.ml" 309 9541 9603
+type(
+  Edge.t
+)
+ident(
+  int_ref l "src/persistent.ml" 306 9404 9430 "src/persistent.ml" 306 9404 9431
+)
+"src/persistent.ml" 309 9541 9597 "src/persistent.ml" 309 9541 9604
+type(
+  G.G.S.elt
+)
+"src/persistent.ml" 309 9541 9566 "src/persistent.ml" 309 9541 9604
+call(
+  stack
+)
+type(
+  G.G.t
+)
+"src/persistent.ml" 309 9541 9547 "src/persistent.ml" 309 9541 9606
+type(
+  G.t
+)
+"src/persistent.ml" 308 9478 9484 "src/persistent.ml" 309 9541 9606
+type(
+  G.t
+)
+"src/persistent.ml" 307 9444 9450 "src/persistent.ml" 309 9541 9606
+type(
+  G.t
+)
+"src/persistent.ml" 311 9608 9616 "src/persistent.ml" 311 9608 9624
+type(
+  G.t -> G.G.vertex -> G.G.vertex -> G.t
+)
+ident(
+  def add_edge "src/persistent.ml" 313 9672 9676 "src/persistent.ml" 323 10085 10090
+)
+"src/persistent.ml" 311 9608 9625 "src/persistent.ml" 311 9608 9626
+type(
+  G.t
+)
+ident(
+  def g "src/persistent.ml" 311 9608 9627 "src/persistent.ml" 311 9608 9670
+)
+"src/persistent.ml" 311 9608 9627 "src/persistent.ml" 311 9608 9629
+type(
+  G.G.vertex
+)
+ident(
+  def v1 "src/persistent.ml" 311 9608 9630 "src/persistent.ml" 311 9608 9670
+)
+"src/persistent.ml" 311 9608 9630 "src/persistent.ml" 311 9608 9632
+type(
+  G.G.vertex
+)
+ident(
+  def v2 "src/persistent.ml" 311 9608 9635 "src/persistent.ml" 311 9608 9670
+)
+"src/persistent.ml" 311 9608 9635 "src/persistent.ml" 311 9608 9645
+type(
+  G.t -> G.G.vertex * Edge.t * G.G.vertex -> G.t
+)
+ident(
+  int_ref add_edge_e "src/persistent.ml" 306 9404 9412 "src/persistent.ml" 306 9404 9422
+)
+"src/persistent.ml" 311 9608 9646 "src/persistent.ml" 311 9608 9647
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 311 9608 9625 "src/persistent.ml" 311 9608 9626
+)
+"src/persistent.ml" 311 9608 9649 "src/persistent.ml" 311 9608 9651
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 311 9608 9627 "src/persistent.ml" 311 9608 9629
+)
+"src/persistent.ml" 311 9608 9653 "src/persistent.ml" 311 9608 9665
+type(
+  Edge.t
+)
+ident(
+  ext_ref Edge.default
+)
+"src/persistent.ml" 311 9608 9667 "src/persistent.ml" 311 9608 9669
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 311 9608 9630 "src/persistent.ml" 311 9608 9632
+)
+"src/persistent.ml" 311 9608 9648 "src/persistent.ml" 311 9608 9670
+type(
+  G.G.vertex * Edge.t * G.G.vertex
+)
+"src/persistent.ml" 311 9608 9635 "src/persistent.ml" 311 9608 9670
+call(
+  tail
+)
+type(
+  G.t
+)
+"src/persistent.ml" 313 9672 9680 "src/persistent.ml" 313 9672 9691
+type(
+  G.t -> G.G.vertex -> G.G.vertex -> G.t
+)
+ident(
+  def remove_edge "src/persistent.ml" 318 9869 9873 "src/persistent.ml" 323 10085 10090
+)
+"src/persistent.ml" 313 9672 9692 "src/persistent.ml" 313 9672 9693
+type(
+  G.t
+)
+ident(
+  def g "src/persistent.ml" 313 9672 9694 "src/persistent.ml" 316 9804 9867
+)
+"src/persistent.ml" 313 9672 9694 "src/persistent.ml" 313 9672 9696
+type(
+  G.G.vertex
+)
+ident(
+  def v1 "src/persistent.ml" 313 9672 9697 "src/persistent.ml" 316 9804 9867
+)
+"src/persistent.ml" 313 9672 9697 "src/persistent.ml" 313 9672 9699
+type(
+  G.G.vertex
+)
+ident(
+  def v2 "src/persistent.ml" 314 9702 9708 "src/persistent.ml" 316 9804 9867
+)
+"src/persistent.ml" 314 9702 9712 "src/persistent.ml" 314 9702 9713
+type(
+  G.t
+)
+ident(
+  def g "src/persistent.ml" 315 9741 9747 "src/persistent.ml" 316 9804 9867
+)
+"src/persistent.ml" 314 9702 9716 "src/persistent.ml" 314 9702 9729
+type(
+  G.t -> G.G.vertex -> G.G.vertex -> G.t
+)
+ident(
+  int_ref G.remove_edge "src/persistent.ml" 200 6586 6594 "src/persistent.ml" 200 6586 6605
+)
+"src/persistent.ml" 314 9702 9730 "src/persistent.ml" 314 9702 9731
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 313 9672 9692 "src/persistent.ml" 313 9672 9693
+)
+"src/persistent.ml" 314 9702 9732 "src/persistent.ml" 314 9702 9734
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 313 9672 9694 "src/persistent.ml" 313 9672 9696
+)
+"src/persistent.ml" 314 9702 9735 "src/persistent.ml" 314 9702 9737
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 313 9672 9697 "src/persistent.ml" 313 9672 9699
+)
+"src/persistent.ml" 314 9702 9716 "src/persistent.ml" 314 9702 9737
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/persistent.ml" 315 9741 9755 "src/persistent.ml" 315 9741 9763
+type(
+  G.HM.key -> G.G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 315 9741 9764 "src/persistent.ml" 315 9741 9766
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 313 9672 9694 "src/persistent.ml" 313 9672 9696
+)
+"src/persistent.ml" 315 9741 9767 "src/persistent.ml" 315 9741 9768
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 314 9702 9712 "src/persistent.ml" 314 9702 9713
+)
+"src/persistent.ml" 315 9741 9767 "src/persistent.ml" 315 9741 9776
+type(
+  G.G.t
+)
+"src/persistent.ml" 315 9741 9755 "src/persistent.ml" 315 9741 9776
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 315 9741 9777 "src/persistent.ml" 315 9741 9779
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/persistent.ml" 315 9741 9780 "src/persistent.ml" 315 9741 9788
+type(
+  G.HM.key -> G.G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 315 9741 9789 "src/persistent.ml" 315 9741 9791
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 313 9672 9697 "src/persistent.ml" 313 9672 9699
+)
+"src/persistent.ml" 315 9741 9792 "src/persistent.ml" 315 9741 9793
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 314 9702 9712 "src/persistent.ml" 314 9702 9713
+)
+"src/persistent.ml" 315 9741 9792 "src/persistent.ml" 315 9741 9801
+type(
+  G.G.t
+)
+"src/persistent.ml" 315 9741 9780 "src/persistent.ml" 315 9741 9801
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 315 9741 9754 "src/persistent.ml" 315 9741 9802
+type(
+  bool
+)
+"src/persistent.ml" 315 9741 9747 "src/persistent.ml" 315 9741 9802
+type(
+  unit
+)
+"src/persistent.ml" 316 9804 9812 "src/persistent.ml" 316 9804 9813
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 314 9702 9712 "src/persistent.ml" 314 9702 9713
+)
+"src/persistent.ml" 316 9804 9829 "src/persistent.ml" 316 9804 9849
+type(
+  G.G.t -> G.G.vertex -> G.G.vertex -> G.G.t
+)
+ident(
+  ext_ref G.unsafe_remove_edge
+)
+"src/persistent.ml" 316 9804 9850 "src/persistent.ml" 316 9804 9851
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 314 9702 9712 "src/persistent.ml" 314 9702 9713
+)
+"src/persistent.ml" 316 9804 9850 "src/persistent.ml" 316 9804 9859
+type(
+  G.G.t
+)
+"src/persistent.ml" 316 9804 9860 "src/persistent.ml" 316 9804 9862
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 313 9672 9697 "src/persistent.ml" 313 9672 9699
+)
+"src/persistent.ml" 316 9804 9863 "src/persistent.ml" 316 9804 9865
+type(
+  G.G.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 313 9672 9694 "src/persistent.ml" 313 9672 9696
+)
+"src/persistent.ml" 316 9804 9829 "src/persistent.ml" 316 9804 9865
+call(
+  stack
+)
+type(
+  G.G.t
+)
+"src/persistent.ml" 316 9804 9810 "src/persistent.ml" 316 9804 9867
+type(
+  G.t
+)
+"src/persistent.ml" 315 9741 9747 "src/persistent.ml" 316 9804 9867
+type(
+  G.t
+)
+"src/persistent.ml" 314 9702 9708 "src/persistent.ml" 316 9804 9867
+type(
+  G.t
+)
+"src/persistent.ml" 318 9869 9877 "src/persistent.ml" 318 9869 9890
+type(
+  G.t -> G.G.E.vertex * G.G.E.label * G.G.E.vertex -> G.t
+)
+ident(
+  def remove_edge_e "src/persistent.ml" 321 10012 10083 "src/persistent.ml" 323 10085 10090
+)
+"src/persistent.ml" 318 9869 9891 "src/persistent.ml" 318 9869 9892
+type(
+  G.t
+)
+ident(
+  def g "src/persistent.ml" 318 9869 9893 "src/persistent.ml" 321 10012 10083
+)
+"src/persistent.ml" 318 9869 9894 "src/persistent.ml" 318 9869 9896
+type(
+  G.G.E.vertex
+)
+ident(
+  def v1 "src/persistent.ml" 319 9912 9918 "src/persistent.ml" 321 10012 10083
+)
+"src/persistent.ml" 318 9869 9898 "src/persistent.ml" 318 9869 9899
+type(
+  G.G.E.label
+)
+ident(
+  def l "src/persistent.ml" 319 9912 9918 "src/persistent.ml" 321 10012 10083
+)
+"src/persistent.ml" 318 9869 9901 "src/persistent.ml" 318 9869 9903
+type(
+  G.G.E.vertex
+)
+ident(
+  def v2 "src/persistent.ml" 319 9912 9918 "src/persistent.ml" 321 10012 10083
+)
+"src/persistent.ml" 318 9869 9894 "src/persistent.ml" 318 9869 9903
+type(
+  G.G.E.vertex * G.G.E.label * G.G.E.vertex
+)
+"src/persistent.ml" 318 9869 9907 "src/persistent.ml" 318 9869 9908
+ident(
+  def e "src/persistent.ml" 319 9912 9918 "src/persistent.ml" 321 10012 10083
+)
+"src/persistent.ml" 318 9869 9893 "src/persistent.ml" 318 9869 9909
+type(
+  G.G.E.vertex * G.G.E.label * G.G.E.vertex
+)
+"src/persistent.ml" 319 9912 9922 "src/persistent.ml" 319 9912 9923
+type(
+  G.t
+)
+ident(
+  def g "src/persistent.ml" 320 9949 9955 "src/persistent.ml" 321 10012 10083
+)
+"src/persistent.ml" 319 9912 9926 "src/persistent.ml" 319 9912 9941
+type(
+  G.t -> G.G.edge -> G.t
+)
+ident(
+  int_ref G.remove_edge_e "src/persistent.ml" 201 6655 6663 "src/persistent.ml" 201 6655 6676
+)
+"src/persistent.ml" 319 9912 9942 "src/persistent.ml" 319 9912 9943
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 318 9869 9891 "src/persistent.ml" 318 9869 9892
+)
+"src/persistent.ml" 319 9912 9944 "src/persistent.ml" 319 9912 9945
+type(
+  G.G.edge
+)
+ident(
+  int_ref e "src/persistent.ml" 318 9869 9893 "src/persistent.ml" 318 9869 9909
+)
+"src/persistent.ml" 319 9912 9926 "src/persistent.ml" 319 9912 9945
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/persistent.ml" 320 9949 9963 "src/persistent.ml" 320 9949 9971
+type(
+  G.HM.key -> G.G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 320 9949 9972 "src/persistent.ml" 320 9949 9974
+type(
+  G.G.E.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 318 9869 9894 "src/persistent.ml" 318 9869 9896
+)
+"src/persistent.ml" 320 9949 9975 "src/persistent.ml" 320 9949 9976
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 319 9912 9922 "src/persistent.ml" 319 9912 9923
+)
+"src/persistent.ml" 320 9949 9975 "src/persistent.ml" 320 9949 9984
+type(
+  G.G.t
+)
+"src/persistent.ml" 320 9949 9963 "src/persistent.ml" 320 9949 9984
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 320 9949 9985 "src/persistent.ml" 320 9949 9987
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/persistent.ml" 320 9949 9988 "src/persistent.ml" 320 9949 9996
+type(
+  G.HM.key -> G.G.S.t G.HM.t -> bool
+)
+ident(
+  ext_ref G.HM.mem
+)
+"src/persistent.ml" 320 9949 9997 "src/persistent.ml" 320 9949 9999
+type(
+  G.G.E.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 318 9869 9901 "src/persistent.ml" 318 9869 9903
+)
+"src/persistent.ml" 320 9949 10000 "src/persistent.ml" 320 9949 10001
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 319 9912 9922 "src/persistent.ml" 319 9912 9923
+)
+"src/persistent.ml" 320 9949 10000 "src/persistent.ml" 320 9949 10009
+type(
+  G.G.t
+)
+"src/persistent.ml" 320 9949 9988 "src/persistent.ml" 320 9949 10009
+call(
+  stack
+)
+type(
+  bool
+)
+"src/persistent.ml" 320 9949 9962 "src/persistent.ml" 320 9949 10010
+type(
+  bool
+)
+"src/persistent.ml" 320 9949 9955 "src/persistent.ml" 320 9949 10010
+type(
+  unit
+)
+"src/persistent.ml" 321 10012 10020 "src/persistent.ml" 321 10012 10021
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 319 9912 9922 "src/persistent.ml" 319 9912 9923
+)
+"src/persistent.ml" 321 10012 10037 "src/persistent.ml" 321 10012 10059
+type(
+  G.G.t -> G.G.edge -> G.G.t
+)
+ident(
+  ext_ref G.unsafe_remove_edge_e
+)
+"src/persistent.ml" 321 10012 10060 "src/persistent.ml" 321 10012 10061
+type(
+  G.t
+)
+ident(
+  int_ref g "src/persistent.ml" 319 9912 9922 "src/persistent.ml" 319 9912 9923
+)
+"src/persistent.ml" 321 10012 10060 "src/persistent.ml" 321 10012 10069
+type(
+  G.G.t
+)
+"src/persistent.ml" 321 10012 10071 "src/persistent.ml" 321 10012 10073
+type(
+  G.G.E.vertex
+)
+ident(
+  int_ref v2 "src/persistent.ml" 318 9869 9901 "src/persistent.ml" 318 9869 9903
+)
+"src/persistent.ml" 321 10012 10075 "src/persistent.ml" 321 10012 10076
+type(
+  G.G.E.label
+)
+ident(
+  int_ref l "src/persistent.ml" 318 9869 9898 "src/persistent.ml" 318 9869 9899
+)
+"src/persistent.ml" 321 10012 10078 "src/persistent.ml" 321 10012 10080
+type(
+  G.G.E.vertex
+)
+ident(
+  int_ref v1 "src/persistent.ml" 318 9869 9894 "src/persistent.ml" 318 9869 9896
+)
+"src/persistent.ml" 321 10012 10070 "src/persistent.ml" 321 10012 10081
+type(
+  G.G.edge
+)
+"src/persistent.ml" 321 10012 10037 "src/persistent.ml" 321 10012 10081
+call(
+  stack
+)
+type(
+  G.G.t
+)
+"src/persistent.ml" 321 10012 10018 "src/persistent.ml" 321 10012 10083
+type(
+  G.t
+)
+"src/persistent.ml" 320 9949 9955 "src/persistent.ml" 321 10012 10083
+type(
+  G.t
+)
+"src/persistent.ml" 319 9912 9918 "src/persistent.ml" 321 10012 10083
+type(
+  G.t
+)

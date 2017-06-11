@@ -1,0 +1,3508 @@
+"src/mcs_m.ml" 23 1386 1398 "src/mcs_m.ml" 23 1386 1433
+call(
+  stack
+)
+"src/mcs_m.ml" 23 1386 1398 "src/mcs_m.ml" 23 1386 1436
+call(
+  stack
+)
+"src/mcs_m.ml" 24 1437 1445 "src/mcs_m.ml" 24 1437 1451
+type(
+  t -> data
+)
+ident(
+  def weight "src/mcs_m.ml" 25 1459 1463 "src/mcs_m.ml" 26 1489 1494
+)
+"src/mcs_m.ml" 24 1437 1454 "src/mcs_m.ml" 24 1437 1458
+type(
+  t -> data
+)
+ident(
+  ext_ref data
+)
+"src/mcs_m.ml" 25 1459 1467 "src/mcs_m.ml" 25 1459 1477
+type(
+  t -> data -> unit
+)
+ident(
+  def set_weight "src/mcs_m.ml" 25 1459 1488 "src/mcs_m.ml" 26 1489 1494
+)
+"src/mcs_m.ml" 25 1459 1480 "src/mcs_m.ml" 25 1459 1488
+type(
+  t -> data -> unit
+)
+ident(
+  ext_ref set_data
+)
+"src/mcs_m.ml" 31 1572 1590 "src/mcs_m.ml" 31 1572 1605
+call(
+  stack
+)
+"src/mcs_m.ml" 32 1606 1621 "src/mcs_m.ml" 32 1606 1652
+call(
+  stack
+)
+"src/mcs_m.ml" 33 1653 1674 "src/mcs_m.ml" 33 1653 1687
+call(
+  stack
+)
+"src/mcs_m.ml" 34 1688 1713 "src/mcs_m.ml" 34 1688 1727
+call(
+  stack
+)
+"src/mcs_m.ml" 35 1728 1748 "src/mcs_m.ml" 35 1728 1762
+call(
+  stack
+)
+"src/mcs_m.ml" 36 1763 1778 "src/mcs_m.ml" 36 1763 1796
+call(
+  stack
+)
+"src/mcs_m.ml" 38 1798 1806 "src/mcs_m.ml" 38 1798 1816
+type(
+  G.t -> NewV.t -> H.key -> bool
+)
+ident(
+  def check_path "src/mcs_m.ml" 59 2313 2317 "src/mcs_m.ml" 112 4063 4068
+)
+"src/mcs_m.ml" 38 1798 1817 "src/mcs_m.ml" 38 1798 1818
+type(
+  G.t
+)
+ident(
+  def g "src/mcs_m.ml" 38 1798 1819 "src/mcs_m.ml" 57 2297 2311
+)
+"src/mcs_m.ml" 38 1798 1819 "src/mcs_m.ml" 38 1798 1820
+type(
+  NewV.t
+)
+ident(
+  def u "src/mcs_m.ml" 38 1798 1821 "src/mcs_m.ml" 57 2297 2311
+)
+"src/mcs_m.ml" 38 1798 1821 "src/mcs_m.ml" 38 1798 1822
+type(
+  H.key
+)
+ident(
+  def v "src/mcs_m.ml" 39 1825 1831 "src/mcs_m.ml" 57 2297 2311
+)
+"src/mcs_m.ml" 39 1825 1835 "src/mcs_m.ml" 39 1825 1836
+type(
+  unit H.t
+)
+ident(
+  def h "src/mcs_m.ml" 40 1854 1860 "src/mcs_m.ml" 57 2297 2311
+)
+"src/mcs_m.ml" 39 1825 1839 "src/mcs_m.ml" 39 1825 1847
+type(
+  int -> unit H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/mcs_m.ml" 39 1825 1848 "src/mcs_m.ml" 39 1825 1850
+type(
+  int
+)
+"src/mcs_m.ml" 39 1825 1839 "src/mcs_m.ml" 39 1825 1850
+call(
+  stack
+)
+type(
+  unit H.t
+)
+"src/mcs_m.ml" 40 1854 1864 "src/mcs_m.ml" 40 1854 1868
+type(
+  NewV.data
+)
+ident(
+  def maxw "src/mcs_m.ml" 41 1888 1894 "src/mcs_m.ml" 57 2297 2311
+)
+"src/mcs_m.ml" 40 1854 1871 "src/mcs_m.ml" 40 1854 1882
+type(
+  NewV.t -> NewV.data
+)
+ident(
+  int_ref NewV.weight "src/mcs_m.ml" 24 1437 1445 "src/mcs_m.ml" 24 1437 1451
+)
+"src/mcs_m.ml" 40 1854 1883 "src/mcs_m.ml" 40 1854 1884
+type(
+  NewV.t
+)
+ident(
+  int_ref u "src/mcs_m.ml" 38 1798 1819 "src/mcs_m.ml" 38 1798 1820
+)
+"src/mcs_m.ml" 40 1854 1871 "src/mcs_m.ml" 40 1854 1884
+call(
+  stack
+)
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 41 1888 1902 "src/mcs_m.ml" 41 1888 1905
+type(
+  H.key -> bool
+)
+ident(
+  def aux "src/mcs_m.ml" 41 1888 1894 "src/mcs_m.ml" 57 2297 2311
+)
+"src/mcs_m.ml" 41 1888 1906 "src/mcs_m.ml" 41 1888 1907
+type(
+  H.key
+)
+ident(
+  def x "src/mcs_m.ml" 41 1888 1908 "src/mcs_m.ml" 56 2262 2296
+)
+"src/mcs_m.ml" 42 1917 1928 "src/mcs_m.ml" 42 1917 1933
+type(
+  unit H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/mcs_m.ml" 42 1917 1934 "src/mcs_m.ml" 42 1917 1935
+type(
+  unit H.t
+)
+ident(
+  int_ref h "src/mcs_m.ml" 39 1825 1835 "src/mcs_m.ml" 39 1825 1836
+)
+"src/mcs_m.ml" 42 1917 1936 "src/mcs_m.ml" 42 1917 1937
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mcs_m.ml" 41 1888 1906 "src/mcs_m.ml" 41 1888 1907
+)
+"src/mcs_m.ml" 42 1917 1928 "src/mcs_m.ml" 42 1917 1937
+call(
+  stack
+)
+type(
+  bool
+)
+"src/mcs_m.ml" 43 1943 1953 "src/mcs_m.ml" 43 1943 1958
+type(
+  bool
+)
+"src/mcs_m.ml" 45 1972 1983 "src/mcs_m.ml" 45 1972 1984
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mcs_m.ml" 41 1888 1906 "src/mcs_m.ml" 41 1888 1907
+)
+"src/mcs_m.ml" 45 1972 1985 "src/mcs_m.ml" 45 1972 1986
+type(
+  H.key -> H.key -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/mcs_m.ml" 45 1972 1987 "src/mcs_m.ml" 45 1972 1988
+type(
+  H.key
+)
+ident(
+  int_ref v "src/mcs_m.ml" 38 1798 1821 "src/mcs_m.ml" 38 1798 1822
+)
+"src/mcs_m.ml" 45 1972 1983 "src/mcs_m.ml" 45 1972 1988
+type(
+  bool
+)
+"src/mcs_m.ml" 45 1972 1994 "src/mcs_m.ml" 45 1972 1998
+type(
+  bool
+)
+"src/mcs_m.ml" 47 2012 2023 "src/mcs_m.ml" 47 2012 2034
+type(
+  NewV.t -> NewV.data
+)
+ident(
+  int_ref NewV.weight "src/mcs_m.ml" 24 1437 1445 "src/mcs_m.ml" 24 1437 1451
+)
+"src/mcs_m.ml" 47 2012 2035 "src/mcs_m.ml" 47 2012 2036
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mcs_m.ml" 41 1888 1906 "src/mcs_m.ml" 41 1888 1907
+)
+"src/mcs_m.ml" 47 2012 2023 "src/mcs_m.ml" 47 2012 2036
+call(
+  stack
+)
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 47 2012 2037 "src/mcs_m.ml" 47 2012 2038
+type(
+  NewV.data -> NewV.data -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/mcs_m.ml" 47 2012 2039 "src/mcs_m.ml" 47 2012 2043
+type(
+  NewV.data
+)
+ident(
+  int_ref maxw "src/mcs_m.ml" 40 1854 1864 "src/mcs_m.ml" 40 1854 1868
+)
+"src/mcs_m.ml" 47 2012 2023 "src/mcs_m.ml" 47 2012 2043
+type(
+  bool
+)
+"src/mcs_m.ml" 47 2012 2044 "src/mcs_m.ml" 47 2012 2046
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/mcs_m.ml" 47 2012 2047 "src/mcs_m.ml" 47 2012 2048
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mcs_m.ml" 41 1888 1906 "src/mcs_m.ml" 41 1888 1907
+)
+"src/mcs_m.ml" 47 2012 2049 "src/mcs_m.ml" 47 2012 2050
+type(
+  H.key -> H.key -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/mcs_m.ml" 47 2012 2051 "src/mcs_m.ml" 47 2012 2052
+type(
+  NewV.t
+)
+ident(
+  int_ref u "src/mcs_m.ml" 38 1798 1819 "src/mcs_m.ml" 38 1798 1820
+)
+"src/mcs_m.ml" 47 2012 2047 "src/mcs_m.ml" 47 2012 2052
+type(
+  bool
+)
+"src/mcs_m.ml" 47 2012 2023 "src/mcs_m.ml" 47 2012 2052
+type(
+  bool
+)
+"src/mcs_m.ml" 49 2074 2086 "src/mcs_m.ml" 49 2074 2091
+type(
+  unit H.t -> H.key -> unit -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/mcs_m.ml" 49 2074 2092 "src/mcs_m.ml" 49 2074 2093
+type(
+  unit H.t
+)
+ident(
+  int_ref h "src/mcs_m.ml" 39 1825 1835 "src/mcs_m.ml" 39 1825 1836
+)
+"src/mcs_m.ml" 49 2074 2094 "src/mcs_m.ml" 49 2074 2095
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mcs_m.ml" 41 1888 1906 "src/mcs_m.ml" 41 1888 1907
+)
+"src/mcs_m.ml" 49 2074 2096 "src/mcs_m.ml" 49 2074 2098
+type(
+  unit
+)
+"src/mcs_m.ml" 49 2074 2086 "src/mcs_m.ml" 49 2074 2098
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mcs_m.ml" 50 2100 2112 "src/mcs_m.ml" 50 2100 2123
+type(
+  (G.vertex -> bool -> bool) -> G.t -> G.vertex -> bool -> bool
+)
+ident(
+  ext_ref G.fold_succ
+)
+"src/mcs_m.ml" 51 2124 2143 "src/mcs_m.ml" 51 2124 2144
+type(
+  G.vertex
+)
+ident(
+  def x "src/mcs_m.ml" 51 2124 2145 "src/mcs_m.ml" 53 2195 2222
+)
+"src/mcs_m.ml" 51 2124 2145 "src/mcs_m.ml" 51 2124 2150
+type(
+  bool
+)
+ident(
+  def found "src/mcs_m.ml" 52 2154 2171 "src/mcs_m.ml" 53 2195 2222
+)
+"src/mcs_m.ml" 52 2154 2174 "src/mcs_m.ml" 52 2154 2177
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/mcs_m.ml" 52 2154 2178 "src/mcs_m.ml" 52 2154 2183
+type(
+  bool
+)
+ident(
+  int_ref found "src/mcs_m.ml" 51 2124 2145 "src/mcs_m.ml" 51 2124 2150
+)
+"src/mcs_m.ml" 52 2154 2174 "src/mcs_m.ml" 52 2154 2183
+type(
+  bool
+)
+"src/mcs_m.ml" 52 2154 2189 "src/mcs_m.ml" 52 2154 2192
+type(
+  H.key -> bool
+)
+ident(
+  int_ref aux "src/mcs_m.ml" 41 1888 1902 "src/mcs_m.ml" 41 1888 1905
+)
+"src/mcs_m.ml" 52 2154 2193 "src/mcs_m.ml" 52 2154 2194
+type(
+  G.vertex
+)
+ident(
+  int_ref x "src/mcs_m.ml" 51 2124 2143 "src/mcs_m.ml" 51 2124 2144
+)
+"src/mcs_m.ml" 52 2154 2189 "src/mcs_m.ml" 52 2154 2194
+call(
+  tail
+)
+type(
+  bool
+)
+"src/mcs_m.ml" 53 2195 2217 "src/mcs_m.ml" 53 2195 2222
+type(
+  bool
+)
+ident(
+  int_ref found "src/mcs_m.ml" 51 2124 2145 "src/mcs_m.ml" 51 2124 2150
+)
+"src/mcs_m.ml" 52 2154 2171 "src/mcs_m.ml" 53 2195 2222
+type(
+  bool
+)
+"src/mcs_m.ml" 51 2124 2138 "src/mcs_m.ml" 53 2195 2223
+type(
+  G.vertex -> bool -> bool
+)
+"src/mcs_m.ml" 54 2224 2238 "src/mcs_m.ml" 54 2224 2239
+type(
+  G.t
+)
+ident(
+  int_ref g "src/mcs_m.ml" 38 1798 1817 "src/mcs_m.ml" 38 1798 1818
+)
+"src/mcs_m.ml" 54 2224 2240 "src/mcs_m.ml" 54 2224 2241
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mcs_m.ml" 41 1888 1906 "src/mcs_m.ml" 41 1888 1907
+)
+"src/mcs_m.ml" 54 2224 2242 "src/mcs_m.ml" 54 2224 2247
+type(
+  bool
+)
+"src/mcs_m.ml" 50 2100 2112 "src/mcs_m.ml" 54 2224 2247
+call(
+  tail
+)
+type(
+  bool
+)
+"src/mcs_m.ml" 48 2058 2068 "src/mcs_m.ml" 55 2248 2261
+type(
+  bool
+)
+"src/mcs_m.ml" 56 2262 2276 "src/mcs_m.ml" 56 2262 2281
+type(
+  unit H.t -> H.key -> unit -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/mcs_m.ml" 56 2262 2282 "src/mcs_m.ml" 56 2262 2283
+type(
+  unit H.t
+)
+ident(
+  int_ref h "src/mcs_m.ml" 39 1825 1835 "src/mcs_m.ml" 39 1825 1836
+)
+"src/mcs_m.ml" 56 2262 2284 "src/mcs_m.ml" 56 2262 2285
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mcs_m.ml" 41 1888 1906 "src/mcs_m.ml" 41 1888 1907
+)
+"src/mcs_m.ml" 56 2262 2286 "src/mcs_m.ml" 56 2262 2288
+type(
+  unit
+)
+"src/mcs_m.ml" 56 2262 2276 "src/mcs_m.ml" 56 2262 2288
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mcs_m.ml" 56 2262 2290 "src/mcs_m.ml" 56 2262 2295
+type(
+  bool
+)
+"src/mcs_m.ml" 56 2262 2275 "src/mcs_m.ml" 56 2262 2296
+type(
+  bool
+)
+"src/mcs_m.ml" 47 2012 2020 "src/mcs_m.ml" 56 2262 2296
+type(
+  bool
+)
+"src/mcs_m.ml" 45 1972 1980 "src/mcs_m.ml" 56 2262 2296
+type(
+  bool
+)
+"src/mcs_m.ml" 42 1917 1925 "src/mcs_m.ml" 56 2262 2296
+type(
+  bool
+)
+type(
+  bool
+)
+"src/mcs_m.ml" 57 2297 2306 "src/mcs_m.ml" 57 2297 2309
+type(
+  H.key -> bool
+)
+ident(
+  int_ref aux "src/mcs_m.ml" 41 1888 1902 "src/mcs_m.ml" 41 1888 1905
+)
+"src/mcs_m.ml" 57 2297 2310 "src/mcs_m.ml" 57 2297 2311
+type(
+  NewV.t
+)
+ident(
+  int_ref u "src/mcs_m.ml" 38 1798 1819 "src/mcs_m.ml" 38 1798 1820
+)
+"src/mcs_m.ml" 57 2297 2306 "src/mcs_m.ml" 57 2297 2311
+call(
+  tail
+)
+type(
+  bool
+)
+"src/mcs_m.ml" 41 1888 1894 "src/mcs_m.ml" 57 2297 2311
+type(
+  bool
+)
+"src/mcs_m.ml" 40 1854 1860 "src/mcs_m.ml" 57 2297 2311
+type(
+  bool
+)
+"src/mcs_m.ml" 39 1825 1831 "src/mcs_m.ml" 57 2297 2311
+type(
+  bool
+)
+"src/mcs_m.ml" 59 2313 2331 "src/mcs_m.ml" 59 2313 2346
+call(
+  stack
+)
+"src/mcs_m.ml" 59 2313 2372 "src/mcs_m.ml" 59 2313 2384
+call(
+  stack
+)
+"src/mcs_m.ml" 59 2313 2331 "src/mcs_m.ml" 59 2313 2389
+call(
+  stack
+)
+"src/mcs_m.ml" 61 2391 2399 "src/mcs_m.ml" 61 2391 2403
+type(
+  ('a -> bool * 'a) -> bool * 'a -> 'a
+)
+ident(
+  def fold "src/mcs_m.ml" 67 2514 2518 "src/mcs_m.ml" 112 4063 4068
+)
+"src/mcs_m.ml" 61 2391 2404 "src/mcs_m.ml" 61 2391 2405
+type(
+  'a -> bool * 'a
+)
+ident(
+  def f "src/mcs_m.ml" 61 2391 2406 "src/mcs_m.ml" 65 2498 2512
+)
+"src/mcs_m.ml" 61 2391 2406 "src/mcs_m.ml" 61 2391 2407
+type(
+  bool * 'a
+)
+ident(
+  def d "src/mcs_m.ml" 62 2410 2416 "src/mcs_m.ml" 65 2498 2512
+)
+"src/mcs_m.ml" 62 2410 2424 "src/mcs_m.ml" 62 2410 2427
+type(
+  bool * 'a -> 'a
+)
+ident(
+  def aux "src/mcs_m.ml" 62 2410 2416 "src/mcs_m.ml" 65 2498 2512
+)
+"src/mcs_m.ml" 63 2439 2450 "src/mcs_m.ml" 63 2439 2454
+type(
+  bool
+)
+"src/mcs_m.ml" 63 2439 2456 "src/mcs_m.ml" 63 2439 2457
+type(
+  'a
+)
+ident(
+  def a "src/mcs_m.ml" 63 2439 2462 "src/mcs_m.ml" 63 2439 2471
+)
+"src/mcs_m.ml" 63 2439 2449 "src/mcs_m.ml" 63 2439 2458
+type(
+  bool * 'a
+)
+"src/mcs_m.ml" 63 2439 2462 "src/mcs_m.ml" 63 2439 2465
+type(
+  bool * 'a -> 'a
+)
+ident(
+  int_ref aux "src/mcs_m.ml" 62 2410 2424 "src/mcs_m.ml" 62 2410 2427
+)
+"src/mcs_m.ml" 63 2439 2467 "src/mcs_m.ml" 63 2439 2468
+type(
+  'a -> bool * 'a
+)
+ident(
+  int_ref f "src/mcs_m.ml" 61 2391 2404 "src/mcs_m.ml" 61 2391 2405
+)
+"src/mcs_m.ml" 63 2439 2469 "src/mcs_m.ml" 63 2439 2470
+type(
+  'a
+)
+ident(
+  int_ref a "src/mcs_m.ml" 63 2439 2456 "src/mcs_m.ml" 63 2439 2457
+)
+"src/mcs_m.ml" 63 2439 2466 "src/mcs_m.ml" 63 2439 2471
+call(
+  stack
+)
+type(
+  bool * 'a
+)
+"src/mcs_m.ml" 63 2439 2462 "src/mcs_m.ml" 63 2439 2471
+call(
+  tail
+)
+type(
+  'a
+)
+"src/mcs_m.ml" 64 2472 2483 "src/mcs_m.ml" 64 2472 2488
+type(
+  bool
+)
+"src/mcs_m.ml" 64 2472 2490 "src/mcs_m.ml" 64 2472 2491
+type(
+  'a
+)
+ident(
+  def a "src/mcs_m.ml" 64 2472 2496 "src/mcs_m.ml" 64 2472 2497
+)
+"src/mcs_m.ml" 64 2472 2482 "src/mcs_m.ml" 64 2472 2492
+type(
+  bool * 'a
+)
+"src/mcs_m.ml" 64 2472 2496 "src/mcs_m.ml" 64 2472 2497
+type(
+  'a
+)
+ident(
+  int_ref a "src/mcs_m.ml" 64 2472 2490 "src/mcs_m.ml" 64 2472 2491
+)
+"src/mcs_m.ml" 62 2410 2430 "src/mcs_m.ml" 64 2472 2497
+type(
+  bool * 'a -> 'a
+)
+"src/mcs_m.ml" 65 2498 2507 "src/mcs_m.ml" 65 2498 2510
+type(
+  bool * 'a -> 'a
+)
+ident(
+  int_ref aux "src/mcs_m.ml" 62 2410 2424 "src/mcs_m.ml" 62 2410 2427
+)
+"src/mcs_m.ml" 65 2498 2511 "src/mcs_m.ml" 65 2498 2512
+type(
+  bool * 'a
+)
+ident(
+  int_ref d "src/mcs_m.ml" 61 2391 2406 "src/mcs_m.ml" 61 2391 2407
+)
+"src/mcs_m.ml" 65 2498 2507 "src/mcs_m.ml" 65 2498 2512
+call(
+  tail
+)
+type(
+  'a
+)
+"src/mcs_m.ml" 62 2410 2416 "src/mcs_m.ml" 65 2498 2512
+type(
+  'a
+)
+"src/mcs_m.ml" 67 2514 2522 "src/mcs_m.ml" 67 2514 2526
+type(
+  Gr.t -> (int * Gr.V.t) list * (Gr.V.t * Gr.V.t) list
+)
+ident(
+  def mcsm "src/mcs_m.ml" 109 3939 3943 "src/mcs_m.ml" 112 4063 4068
+)
+"src/mcs_m.ml" 67 2514 2527 "src/mcs_m.ml" 67 2514 2528
+type(
+  Gr.t
+)
+ident(
+  def g "src/mcs_m.ml" 68 2531 2537 "src/mcs_m.ml" 107 3918 3937
+)
+"src/mcs_m.ml" 68 2531 2541 "src/mcs_m.ml" 68 2531 2543
+type(
+  Persistent.Graph.Concrete(NewV).t
+)
+ident(
+  def g' "src/mcs_m.ml" 69 2576 2582 "src/mcs_m.ml" 107 3918 3937
+)
+"src/mcs_m.ml" 68 2531 2546 "src/mcs_m.ml" 68 2531 2554
+type(
+  (Gr.V.t -> NewV.t) -> Gr.t -> Persistent.Graph.Concrete(NewV).t
+)
+ident(
+  ext_ref Copy.map
+)
+"src/mcs_m.ml" 68 2531 2556 "src/mcs_m.ml" 68 2531 2567
+type(
+  NewV.data -> Gr.V.t -> NewV.t
+)
+ident(
+  ext_ref NewV.create
+)
+"src/mcs_m.ml" 68 2531 2568 "src/mcs_m.ml" 68 2531 2569
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 68 2531 2555 "src/mcs_m.ml" 68 2531 2570
+call(
+  stack
+)
+type(
+  Gr.V.t -> NewV.t
+)
+"src/mcs_m.ml" 68 2531 2571 "src/mcs_m.ml" 68 2531 2572
+type(
+  Gr.t
+)
+ident(
+  int_ref g "src/mcs_m.ml" 67 2514 2527 "src/mcs_m.ml" 67 2514 2528
+)
+"src/mcs_m.ml" 68 2531 2546 "src/mcs_m.ml" 68 2531 2572
+call(
+  stack
+)
+type(
+  Persistent.Graph.Concrete(NewV).t
+)
+"src/mcs_m.ml" 69 2576 2587 "src/mcs_m.ml" 69 2576 2588
+type(
+  int
+)
+"src/mcs_m.ml" 69 2576 2590 "src/mcs_m.ml" 69 2576 2591
+type(
+  G.t
+)
+"src/mcs_m.ml" 69 2576 2593 "src/mcs_m.ml" 69 2576 2596
+type(
+  (int * Gr.V.t) list
+)
+ident(
+  def ord "src/mcs_m.ml" 104 3816 3822 "src/mcs_m.ml" 107 3918 3937
+)
+"src/mcs_m.ml" 69 2576 2598 "src/mcs_m.ml" 69 2576 2604
+type(
+  EdgeSet.t
+)
+ident(
+  def triang "src/mcs_m.ml" 104 3816 3822 "src/mcs_m.ml" 107 3918 3937
+)
+"src/mcs_m.ml" 69 2576 2586 "src/mcs_m.ml" 69 2576 2605
+type(
+  int * G.t * (int * Gr.V.t) list * EdgeSet.t
+)
+"src/mcs_m.ml" 70 2608 2616 "src/mcs_m.ml" 70 2608 2620
+type(
+  (int * G.t * (int * Gr.V.t) list * EdgeSet.t ->
+   bool * (int * G.t * (int * Gr.V.t) list * EdgeSet.t)) ->
+  bool * (int * G.t * (int * Gr.V.t) list * EdgeSet.t) ->
+  int * G.t * (int * Gr.V.t) list * EdgeSet.t
+)
+ident(
+  int_ref fold "src/mcs_m.ml" 61 2391 2399 "src/mcs_m.ml" 61 2391 2403
+)
+"src/mcs_m.ml" 71 2621 2638 "src/mcs_m.ml" 71 2621 2639
+type(
+  int
+)
+ident(
+  def i "src/mcs_m.ml" 72 2659 2672 "src/mcs_m.ml" 101 3705 3747
+)
+"src/mcs_m.ml" 71 2621 2641 "src/mcs_m.ml" 71 2621 2643
+type(
+  G.t
+)
+ident(
+  def g' "src/mcs_m.ml" 72 2659 2672 "src/mcs_m.ml" 101 3705 3747
+)
+"src/mcs_m.ml" 71 2621 2645 "src/mcs_m.ml" 71 2621 2646
+type(
+  (int * Gr.V.t) list
+)
+ident(
+  def a "src/mcs_m.ml" 72 2659 2672 "src/mcs_m.ml" 101 3705 3747
+)
+"src/mcs_m.ml" 71 2621 2648 "src/mcs_m.ml" 71 2621 2649
+type(
+  EdgeSet.t
+)
+ident(
+  def f "src/mcs_m.ml" 72 2659 2672 "src/mcs_m.ml" 101 3705 3747
+)
+"src/mcs_m.ml" 71 2621 2637 "src/mcs_m.ml" 71 2621 2650
+type(
+  int * G.t * (int * Gr.V.t) list * EdgeSet.t
+)
+"src/mcs_m.ml" 71 2621 2654 "src/mcs_m.ml" 71 2621 2655
+ident(
+  def x "src/mcs_m.ml" 72 2659 2672 "src/mcs_m.ml" 101 3705 3747
+)
+"src/mcs_m.ml" 71 2621 2636 "src/mcs_m.ml" 71 2621 2656
+type(
+  int * G.t * (int * Gr.V.t) list * EdgeSet.t
+)
+"src/mcs_m.ml" 72 2659 2675 "src/mcs_m.ml" 72 2659 2676
+type(
+  int
+)
+ident(
+  int_ref i "src/mcs_m.ml" 71 2621 2638 "src/mcs_m.ml" 71 2621 2639
+)
+"src/mcs_m.ml" 72 2659 2677 "src/mcs_m.ml" 72 2659 2678
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/mcs_m.ml" 72 2659 2679 "src/mcs_m.ml" 72 2659 2680
+type(
+  int
+)
+"src/mcs_m.ml" 72 2659 2675 "src/mcs_m.ml" 72 2659 2680
+type(
+  bool
+)
+"src/mcs_m.ml" 72 2659 2687 "src/mcs_m.ml" 72 2659 2692
+type(
+  bool
+)
+"src/mcs_m.ml" 72 2659 2694 "src/mcs_m.ml" 72 2659 2695
+type(
+  int * G.t * (int * Gr.V.t) list * EdgeSet.t
+)
+ident(
+  int_ref x "src/mcs_m.ml" 71 2621 2636 "src/mcs_m.ml" 71 2621 2656
+)
+"src/mcs_m.ml" 72 2659 2686 "src/mcs_m.ml" 72 2659 2696
+type(
+  bool * (int * G.t * (int * Gr.V.t) list * EdgeSet.t)
+)
+"src/mcs_m.ml" 74 2715 2734 "src/mcs_m.ml" 74 2715 2735
+type(
+  NewV.t
+)
+ident(
+  def v "src/mcs_m.ml" 80 2955 2970 "src/mcs_m.ml" 101 3705 3747
+)
+"src/mcs_m.ml" 75 2738 2755 "src/mcs_m.ml" 75 2738 2768
+type(
+  (G.vertex -> NewV.t -> NewV.t) -> G.t -> NewV.t -> NewV.t
+)
+ident(
+  ext_ref G.fold_vertex
+)
+"src/mcs_m.ml" 76 2769 2793 "src/mcs_m.ml" 76 2769 2794
+type(
+  G.vertex
+)
+ident(
+  def x "src/mcs_m.ml" 76 2769 2795 "src/mcs_m.ml" 77 2802 2874
+)
+"src/mcs_m.ml" 76 2769 2795 "src/mcs_m.ml" 76 2769 2798
+type(
+  NewV.t
+)
+ident(
+  def max "src/mcs_m.ml" 77 2802 2824 "src/mcs_m.ml" 77 2802 2874
+)
+"src/mcs_m.ml" 77 2802 2827 "src/mcs_m.ml" 77 2802 2838
+type(
+  NewV.t -> NewV.data
+)
+ident(
+  int_ref NewV.weight "src/mcs_m.ml" 24 1437 1445 "src/mcs_m.ml" 24 1437 1451
+)
+"src/mcs_m.ml" 77 2802 2839 "src/mcs_m.ml" 77 2802 2840
+type(
+  G.vertex
+)
+ident(
+  int_ref x "src/mcs_m.ml" 76 2769 2793 "src/mcs_m.ml" 76 2769 2794
+)
+"src/mcs_m.ml" 77 2802 2827 "src/mcs_m.ml" 77 2802 2840
+call(
+  stack
+)
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 77 2802 2841 "src/mcs_m.ml" 77 2802 2842
+type(
+  NewV.data -> NewV.data -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/mcs_m.ml" 77 2802 2843 "src/mcs_m.ml" 77 2802 2854
+type(
+  NewV.t -> NewV.data
+)
+ident(
+  int_ref NewV.weight "src/mcs_m.ml" 24 1437 1445 "src/mcs_m.ml" 24 1437 1451
+)
+"src/mcs_m.ml" 77 2802 2855 "src/mcs_m.ml" 77 2802 2858
+type(
+  NewV.t
+)
+ident(
+  int_ref max "src/mcs_m.ml" 76 2769 2795 "src/mcs_m.ml" 76 2769 2798
+)
+"src/mcs_m.ml" 77 2802 2843 "src/mcs_m.ml" 77 2802 2858
+call(
+  stack
+)
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 77 2802 2827 "src/mcs_m.ml" 77 2802 2858
+type(
+  bool
+)
+"src/mcs_m.ml" 77 2802 2864 "src/mcs_m.ml" 77 2802 2865
+type(
+  G.vertex
+)
+ident(
+  int_ref x "src/mcs_m.ml" 76 2769 2793 "src/mcs_m.ml" 76 2769 2794
+)
+"src/mcs_m.ml" 77 2802 2871 "src/mcs_m.ml" 77 2802 2874
+type(
+  NewV.t
+)
+ident(
+  int_ref max "src/mcs_m.ml" 76 2769 2795 "src/mcs_m.ml" 76 2769 2798
+)
+"src/mcs_m.ml" 77 2802 2824 "src/mcs_m.ml" 77 2802 2874
+type(
+  G.vertex
+)
+"src/mcs_m.ml" 76 2769 2788 "src/mcs_m.ml" 77 2802 2875
+type(
+  G.vertex -> NewV.t -> NewV.t
+)
+"src/mcs_m.ml" 78 2876 2895 "src/mcs_m.ml" 78 2876 2897
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/mcs_m.ml" 71 2621 2641 "src/mcs_m.ml" 71 2621 2643
+)
+"src/mcs_m.ml" 78 2876 2899 "src/mcs_m.ml" 78 2876 2902
+type(
+  NewV.data -> NewV.data ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/mcs_m.ml" 78 2876 2903 "src/mcs_m.ml" 78 2876 2904
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 78 2876 2899 "src/mcs_m.ml" 78 2876 2904
+type(
+  NewV.data ref
+)
+"src/mcs_m.ml" 78 2876 2906 "src/mcs_m.ml" 78 2876 2909
+type(
+  G.vertex -> Gr.V.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"src/mcs_m.ml" 78 2876 2911 "src/mcs_m.ml" 78 2876 2931
+type(
+  G.t -> G.vertex
+)
+ident(
+  ext_ref Choose.choose_vertex
+)
+"src/mcs_m.ml" 78 2876 2932 "src/mcs_m.ml" 78 2876 2934
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/mcs_m.ml" 71 2621 2641 "src/mcs_m.ml" 71 2621 2643
+)
+"src/mcs_m.ml" 78 2876 2910 "src/mcs_m.ml" 78 2876 2935
+call(
+  stack
+)
+type(
+  G.vertex
+)
+"src/mcs_m.ml" 78 2876 2906 "src/mcs_m.ml" 78 2876 2935
+type(
+  Gr.V.t
+)
+"src/mcs_m.ml" 78 2876 2898 "src/mcs_m.ml" 78 2876 2936
+type(
+  NewV.t
+)
+"src/mcs_m.ml" 75 2738 2755 "src/mcs_m.ml" 78 2876 2936
+call(
+  stack
+)
+type(
+  NewV.t
+)
+"src/mcs_m.ml" 80 2955 2974 "src/mcs_m.ml" 80 2955 2975
+type(
+  VerticesSet.t
+)
+ident(
+  def s "src/mcs_m.ml" 90 3285 3300 "src/mcs_m.ml" 101 3705 3747
+)
+"src/mcs_m.ml" 81 2978 2995 "src/mcs_m.ml" 81 2978 3008
+type(
+  (G.vertex -> VerticesSet.t -> VerticesSet.t) ->
+  G.t -> VerticesSet.t -> VerticesSet.t
+)
+ident(
+  ext_ref G.fold_vertex
+)
+"src/mcs_m.ml" 82 3009 3033 "src/mcs_m.ml" 82 3009 3034
+type(
+  G.vertex
+)
+ident(
+  def x "src/mcs_m.ml" 82 3009 3035 "src/mcs_m.ml" 87 3197 3225
+)
+"src/mcs_m.ml" 82 3009 3035 "src/mcs_m.ml" 82 3009 3036
+type(
+  VerticesSet.t
+)
+ident(
+  def s "src/mcs_m.ml" 83 3040 3062 "src/mcs_m.ml" 87 3197 3225
+)
+"src/mcs_m.ml" 83 3040 3065 "src/mcs_m.ml" 83 3040 3066
+type(
+  G.vertex
+)
+ident(
+  int_ref x "src/mcs_m.ml" 82 3009 3033 "src/mcs_m.ml" 82 3009 3034
+)
+"src/mcs_m.ml" 83 3040 3067 "src/mcs_m.ml" 83 3040 3068
+type(
+  G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/mcs_m.ml" 83 3040 3069 "src/mcs_m.ml" 83 3040 3070
+type(
+  NewV.t
+)
+ident(
+  int_ref v "src/mcs_m.ml" 74 2715 2734 "src/mcs_m.ml" 74 2715 2735
+)
+"src/mcs_m.ml" 83 3040 3065 "src/mcs_m.ml" 83 3040 3070
+type(
+  bool
+)
+"src/mcs_m.ml" 83 3040 3076 "src/mcs_m.ml" 83 3040 3077
+type(
+  VerticesSet.t
+)
+ident(
+  int_ref s "src/mcs_m.ml" 82 3009 3035 "src/mcs_m.ml" 82 3009 3036
+)
+"src/mcs_m.ml" 85 3105 3130 "src/mcs_m.ml" 85 3105 3140
+type(
+  G.t -> NewV.t -> H.key -> bool
+)
+ident(
+  int_ref check_path "src/mcs_m.ml" 38 1798 1806 "src/mcs_m.ml" 38 1798 1816
+)
+"src/mcs_m.ml" 85 3105 3141 "src/mcs_m.ml" 85 3105 3143
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/mcs_m.ml" 71 2621 2641 "src/mcs_m.ml" 71 2621 2643
+)
+"src/mcs_m.ml" 85 3105 3144 "src/mcs_m.ml" 85 3105 3145
+type(
+  G.vertex
+)
+ident(
+  int_ref x "src/mcs_m.ml" 82 3009 3033 "src/mcs_m.ml" 82 3009 3034
+)
+"src/mcs_m.ml" 85 3105 3146 "src/mcs_m.ml" 85 3105 3147
+type(
+  NewV.t
+)
+ident(
+  int_ref v "src/mcs_m.ml" 74 2715 2734 "src/mcs_m.ml" 74 2715 2735
+)
+"src/mcs_m.ml" 85 3105 3130 "src/mcs_m.ml" 85 3105 3147
+call(
+  stack
+)
+type(
+  bool
+)
+"src/mcs_m.ml" 86 3153 3177 "src/mcs_m.ml" 86 3153 3192
+type(
+  VerticesSet.elt -> VerticesSet.t -> VerticesSet.t
+)
+ident(
+  ext_ref VerticesSet.add
+)
+"src/mcs_m.ml" 86 3153 3193 "src/mcs_m.ml" 86 3153 3194
+type(
+  G.vertex
+)
+ident(
+  int_ref x "src/mcs_m.ml" 82 3009 3033 "src/mcs_m.ml" 82 3009 3034
+)
+"src/mcs_m.ml" 86 3153 3195 "src/mcs_m.ml" 86 3153 3196
+type(
+  VerticesSet.t
+)
+ident(
+  int_ref s "src/mcs_m.ml" 82 3009 3035 "src/mcs_m.ml" 82 3009 3036
+)
+"src/mcs_m.ml" 86 3153 3177 "src/mcs_m.ml" 86 3153 3196
+call(
+  tail
+)
+type(
+  VerticesSet.t
+)
+"src/mcs_m.ml" 87 3197 3224 "src/mcs_m.ml" 87 3197 3225
+type(
+  VerticesSet.t
+)
+ident(
+  int_ref s "src/mcs_m.ml" 82 3009 3035 "src/mcs_m.ml" 82 3009 3036
+)
+"src/mcs_m.ml" 85 3105 3127 "src/mcs_m.ml" 87 3197 3225
+type(
+  VerticesSet.t
+)
+"src/mcs_m.ml" 83 3040 3062 "src/mcs_m.ml" 87 3197 3225
+type(
+  VerticesSet.t
+)
+"src/mcs_m.ml" 82 3009 3028 "src/mcs_m.ml" 87 3197 3226
+type(
+  G.vertex -> VerticesSet.t -> VerticesSet.t
+)
+"src/mcs_m.ml" 88 3227 3246 "src/mcs_m.ml" 88 3227 3248
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/mcs_m.ml" 71 2621 2641 "src/mcs_m.ml" 71 2621 2643
+)
+"src/mcs_m.ml" 88 3227 3249 "src/mcs_m.ml" 88 3227 3266
+type(
+  VerticesSet.t
+)
+ident(
+  ext_ref VerticesSet.empty
+)
+"src/mcs_m.ml" 81 2978 2995 "src/mcs_m.ml" 88 3227 3266
+call(
+  stack
+)
+type(
+  VerticesSet.t
+)
+"src/mcs_m.ml" 90 3285 3304 "src/mcs_m.ml" 90 3285 3306
+type(
+  EdgeSet.t
+)
+ident(
+  def f' "src/mcs_m.ml" 99 3607 3622 "src/mcs_m.ml" 101 3705 3747
+)
+"src/mcs_m.ml" 91 3309 3326 "src/mcs_m.ml" 91 3309 3342
+type(
+  (VerticesSet.elt -> EdgeSet.t -> EdgeSet.t) ->
+  VerticesSet.t -> EdgeSet.t -> EdgeSet.t
+)
+ident(
+  ext_ref VerticesSet.fold
+)
+"src/mcs_m.ml" 92 3343 3367 "src/mcs_m.ml" 92 3343 3368
+type(
+  VerticesSet.elt
+)
+ident(
+  def x "src/mcs_m.ml" 92 3343 3369 "src/mcs_m.ml" 96 3536 3564
+)
+"src/mcs_m.ml" 92 3343 3369 "src/mcs_m.ml" 92 3343 3370
+type(
+  EdgeSet.t
+)
+ident(
+  def f "src/mcs_m.ml" 93 3374 3396 "src/mcs_m.ml" 96 3536 3564
+)
+"src/mcs_m.ml" 93 3374 3396 "src/mcs_m.ml" 93 3374 3411
+type(
+  NewV.t -> NewV.data -> unit
+)
+ident(
+  int_ref NewV.set_weight "src/mcs_m.ml" 25 1459 1467 "src/mcs_m.ml" 25 1459 1477
+)
+"src/mcs_m.ml" 93 3374 3412 "src/mcs_m.ml" 93 3374 3413
+type(
+  VerticesSet.elt
+)
+ident(
+  int_ref x "src/mcs_m.ml" 92 3343 3367 "src/mcs_m.ml" 92 3343 3368
+)
+"src/mcs_m.ml" 93 3374 3415 "src/mcs_m.ml" 93 3374 3419
+type(
+  NewV.data -> NewV.data
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"src/mcs_m.ml" 93 3374 3421 "src/mcs_m.ml" 93 3374 3432
+type(
+  NewV.t -> NewV.data
+)
+ident(
+  int_ref NewV.weight "src/mcs_m.ml" 24 1437 1445 "src/mcs_m.ml" 24 1437 1451
+)
+"src/mcs_m.ml" 93 3374 3433 "src/mcs_m.ml" 93 3374 3434
+type(
+  VerticesSet.elt
+)
+ident(
+  int_ref x "src/mcs_m.ml" 92 3343 3367 "src/mcs_m.ml" 92 3343 3368
+)
+"src/mcs_m.ml" 93 3374 3420 "src/mcs_m.ml" 93 3374 3435
+call(
+  stack
+)
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 93 3374 3414 "src/mcs_m.ml" 93 3374 3436
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 93 3374 3396 "src/mcs_m.ml" 93 3374 3436
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mcs_m.ml" 94 3438 3463 "src/mcs_m.ml" 94 3438 3466
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/mcs_m.ml" 94 3438 3468 "src/mcs_m.ml" 94 3438 3478
+type(
+  G.t -> G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref G.mem_edge
+)
+"src/mcs_m.ml" 94 3438 3479 "src/mcs_m.ml" 94 3438 3481
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/mcs_m.ml" 71 2621 2641 "src/mcs_m.ml" 71 2621 2643
+)
+"src/mcs_m.ml" 94 3438 3482 "src/mcs_m.ml" 94 3438 3483
+type(
+  VerticesSet.elt
+)
+ident(
+  int_ref x "src/mcs_m.ml" 92 3343 3367 "src/mcs_m.ml" 92 3343 3368
+)
+"src/mcs_m.ml" 94 3438 3484 "src/mcs_m.ml" 94 3438 3485
+type(
+  NewV.t
+)
+ident(
+  int_ref v "src/mcs_m.ml" 74 2715 2734 "src/mcs_m.ml" 74 2715 2735
+)
+"src/mcs_m.ml" 94 3438 3467 "src/mcs_m.ml" 94 3438 3486
+call(
+  stack
+)
+type(
+  bool
+)
+"src/mcs_m.ml" 94 3438 3463 "src/mcs_m.ml" 94 3438 3486
+type(
+  bool
+)
+"src/mcs_m.ml" 95 3492 3516 "src/mcs_m.ml" 95 3492 3527
+type(
+  EdgeSet.elt -> EdgeSet.t -> EdgeSet.t
+)
+ident(
+  ext_ref EdgeSet.add
+)
+"src/mcs_m.ml" 95 3492 3529 "src/mcs_m.ml" 95 3492 3530
+type(
+  VerticesSet.elt
+)
+ident(
+  int_ref x "src/mcs_m.ml" 92 3343 3367 "src/mcs_m.ml" 92 3343 3368
+)
+"src/mcs_m.ml" 95 3492 3531 "src/mcs_m.ml" 95 3492 3532
+type(
+  NewV.t
+)
+ident(
+  int_ref v "src/mcs_m.ml" 74 2715 2734 "src/mcs_m.ml" 74 2715 2735
+)
+"src/mcs_m.ml" 95 3492 3528 "src/mcs_m.ml" 95 3492 3533
+type(
+  EdgeSet.elt
+)
+"src/mcs_m.ml" 95 3492 3534 "src/mcs_m.ml" 95 3492 3535
+type(
+  EdgeSet.t
+)
+ident(
+  int_ref f "src/mcs_m.ml" 92 3343 3369 "src/mcs_m.ml" 92 3343 3370
+)
+"src/mcs_m.ml" 95 3492 3516 "src/mcs_m.ml" 95 3492 3535
+call(
+  tail
+)
+type(
+  EdgeSet.t
+)
+"src/mcs_m.ml" 96 3536 3563 "src/mcs_m.ml" 96 3536 3564
+type(
+  EdgeSet.t
+)
+ident(
+  int_ref f "src/mcs_m.ml" 92 3343 3369 "src/mcs_m.ml" 92 3343 3370
+)
+"src/mcs_m.ml" 94 3438 3460 "src/mcs_m.ml" 96 3536 3564
+type(
+  EdgeSet.t
+)
+"src/mcs_m.ml" 93 3374 3396 "src/mcs_m.ml" 96 3536 3564
+type(
+  EdgeSet.t
+)
+"src/mcs_m.ml" 92 3343 3362 "src/mcs_m.ml" 96 3536 3565
+type(
+  VerticesSet.elt -> EdgeSet.t -> EdgeSet.t
+)
+"src/mcs_m.ml" 97 3566 3585 "src/mcs_m.ml" 97 3566 3586
+type(
+  VerticesSet.t
+)
+ident(
+  int_ref s "src/mcs_m.ml" 80 2955 2974 "src/mcs_m.ml" 80 2955 2975
+)
+"src/mcs_m.ml" 97 3566 3587 "src/mcs_m.ml" 97 3566 3588
+type(
+  EdgeSet.t
+)
+ident(
+  int_ref f "src/mcs_m.ml" 71 2621 2648 "src/mcs_m.ml" 71 2621 2649
+)
+"src/mcs_m.ml" 91 3309 3326 "src/mcs_m.ml" 97 3566 3588
+call(
+  stack
+)
+type(
+  EdgeSet.t
+)
+"src/mcs_m.ml" 99 3607 3626 "src/mcs_m.ml" 99 3607 3628
+type(
+  G.t
+)
+ident(
+  def g' "src/mcs_m.ml" 100 3655 3670 "src/mcs_m.ml" 101 3705 3747
+)
+"src/mcs_m.ml" 99 3607 3631 "src/mcs_m.ml" 99 3607 3646
+type(
+  G.t -> G.vertex -> G.t
+)
+ident(
+  ext_ref G.remove_vertex
+)
+"src/mcs_m.ml" 99 3607 3647 "src/mcs_m.ml" 99 3607 3649
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/mcs_m.ml" 71 2621 2641 "src/mcs_m.ml" 71 2621 2643
+)
+"src/mcs_m.ml" 99 3607 3650 "src/mcs_m.ml" 99 3607 3651
+type(
+  NewV.t
+)
+ident(
+  int_ref v "src/mcs_m.ml" 74 2715 2734 "src/mcs_m.ml" 74 2715 2735
+)
+"src/mcs_m.ml" 99 3607 3631 "src/mcs_m.ml" 99 3607 3651
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/mcs_m.ml" 100 3655 3674 "src/mcs_m.ml" 100 3655 3676
+type(
+  (int * Gr.V.t) list
+)
+ident(
+  def a' "src/mcs_m.ml" 101 3705 3720 "src/mcs_m.ml" 101 3705 3747
+)
+"src/mcs_m.ml" 100 3655 3680 "src/mcs_m.ml" 100 3655 3681
+type(
+  int
+)
+ident(
+  int_ref i "src/mcs_m.ml" 71 2621 2638 "src/mcs_m.ml" 71 2621 2639
+)
+"src/mcs_m.ml" 100 3655 3683 "src/mcs_m.ml" 100 3655 3693
+type(
+  NewV.t -> Gr.V.t
+)
+ident(
+  ext_ref NewV.label
+)
+"src/mcs_m.ml" 100 3655 3694 "src/mcs_m.ml" 100 3655 3695
+type(
+  NewV.t
+)
+ident(
+  int_ref v "src/mcs_m.ml" 74 2715 2734 "src/mcs_m.ml" 74 2715 2735
+)
+"src/mcs_m.ml" 100 3655 3683 "src/mcs_m.ml" 100 3655 3695
+call(
+  stack
+)
+type(
+  Gr.V.t
+)
+"src/mcs_m.ml" 100 3655 3679 "src/mcs_m.ml" 100 3655 3696
+type(
+  int * Gr.V.t
+)
+"src/mcs_m.ml" 100 3655 3700 "src/mcs_m.ml" 100 3655 3701
+type(
+  (int * Gr.V.t) list
+)
+ident(
+  int_ref a "src/mcs_m.ml" 71 2621 2645 "src/mcs_m.ml" 71 2621 2646
+)
+"src/mcs_m.ml" 100 3655 3679 "src/mcs_m.ml" 100 3655 3701
+type(
+  (int * Gr.V.t) list
+)
+"src/mcs_m.ml" 101 3705 3721 "src/mcs_m.ml" 101 3705 3725
+type(
+  bool
+)
+"src/mcs_m.ml" 101 3705 3728 "src/mcs_m.ml" 101 3705 3729
+type(
+  int
+)
+ident(
+  int_ref i "src/mcs_m.ml" 71 2621 2638 "src/mcs_m.ml" 71 2621 2639
+)
+"src/mcs_m.ml" 101 3705 3730 "src/mcs_m.ml" 101 3705 3731
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/mcs_m.ml" 101 3705 3732 "src/mcs_m.ml" 101 3705 3733
+type(
+  int
+)
+"src/mcs_m.ml" 101 3705 3728 "src/mcs_m.ml" 101 3705 3733
+type(
+  int
+)
+"src/mcs_m.ml" 101 3705 3735 "src/mcs_m.ml" 101 3705 3737
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/mcs_m.ml" 99 3607 3626 "src/mcs_m.ml" 99 3607 3628
+)
+"src/mcs_m.ml" 101 3705 3739 "src/mcs_m.ml" 101 3705 3741
+type(
+  (int * Gr.V.t) list
+)
+ident(
+  int_ref a' "src/mcs_m.ml" 100 3655 3674 "src/mcs_m.ml" 100 3655 3676
+)
+"src/mcs_m.ml" 101 3705 3743 "src/mcs_m.ml" 101 3705 3745
+type(
+  EdgeSet.t
+)
+ident(
+  int_ref f' "src/mcs_m.ml" 90 3285 3304 "src/mcs_m.ml" 90 3285 3306
+)
+"src/mcs_m.ml" 101 3705 3727 "src/mcs_m.ml" 101 3705 3746
+type(
+  int * G.t * (int * Gr.V.t) list * EdgeSet.t
+)
+"src/mcs_m.ml" 101 3705 3720 "src/mcs_m.ml" 101 3705 3747
+type(
+  bool * (int * G.t * (int * Gr.V.t) list * EdgeSet.t)
+)
+"src/mcs_m.ml" 100 3655 3670 "src/mcs_m.ml" 101 3705 3747
+type(
+  bool * (int * G.t * (int * Gr.V.t) list * EdgeSet.t)
+)
+"src/mcs_m.ml" 99 3607 3622 "src/mcs_m.ml" 101 3705 3747
+type(
+  bool * (int * G.t * (int * Gr.V.t) list * EdgeSet.t)
+)
+"src/mcs_m.ml" 90 3285 3300 "src/mcs_m.ml" 101 3705 3747
+type(
+  bool * (int * G.t * (int * Gr.V.t) list * EdgeSet.t)
+)
+"src/mcs_m.ml" 80 2955 2970 "src/mcs_m.ml" 101 3705 3747
+type(
+  bool * (int * G.t * (int * Gr.V.t) list * EdgeSet.t)
+)
+"src/mcs_m.ml" 74 2715 2730 "src/mcs_m.ml" 101 3705 3747
+type(
+  bool * (int * G.t * (int * Gr.V.t) list * EdgeSet.t)
+)
+"src/mcs_m.ml" 72 2659 2672 "src/mcs_m.ml" 101 3705 3747
+type(
+  bool * (int * G.t * (int * Gr.V.t) list * EdgeSet.t)
+)
+"src/mcs_m.ml" 71 2621 2631 "src/mcs_m.ml" 101 3705 3748
+type(
+  int * G.t * (int * Gr.V.t) list * EdgeSet.t ->
+  bool * (int * G.t * (int * Gr.V.t) list * EdgeSet.t)
+)
+"src/mcs_m.ml" 102 3749 3760 "src/mcs_m.ml" 102 3749 3764
+type(
+  bool
+)
+"src/mcs_m.ml" 102 3749 3767 "src/mcs_m.ml" 102 3749 3779
+type(
+  Gr.t -> int
+)
+ident(
+  ext_ref Gr.nb_vertex
+)
+"src/mcs_m.ml" 102 3749 3780 "src/mcs_m.ml" 102 3749 3781
+type(
+  Gr.t
+)
+ident(
+  int_ref g "src/mcs_m.ml" 67 2514 2527 "src/mcs_m.ml" 67 2514 2528
+)
+"src/mcs_m.ml" 102 3749 3767 "src/mcs_m.ml" 102 3749 3781
+call(
+  stack
+)
+type(
+  int
+)
+"src/mcs_m.ml" 102 3749 3783 "src/mcs_m.ml" 102 3749 3785
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/mcs_m.ml" 68 2531 2541 "src/mcs_m.ml" 68 2531 2543
+)
+"src/mcs_m.ml" 102 3749 3787 "src/mcs_m.ml" 102 3749 3789
+type(
+  (int * Gr.V.t) list
+)
+"src/mcs_m.ml" 102 3749 3791 "src/mcs_m.ml" 102 3749 3804
+type(
+  EdgeSet.t
+)
+ident(
+  ext_ref EdgeSet.empty
+)
+"src/mcs_m.ml" 102 3749 3766 "src/mcs_m.ml" 102 3749 3805
+type(
+  int * G.t * (int * Gr.V.t) list * EdgeSet.t
+)
+"src/mcs_m.ml" 102 3749 3759 "src/mcs_m.ml" 102 3749 3806
+type(
+  bool * (int * G.t * (int * Gr.V.t) list * EdgeSet.t)
+)
+"src/mcs_m.ml" 70 2608 2616 "src/mcs_m.ml" 102 3749 3806
+call(
+  stack
+)
+type(
+  int * G.t * (int * Gr.V.t) list * EdgeSet.t
+)
+"src/mcs_m.ml" 104 3816 3823 "src/mcs_m.ml" 104 3816 3831
+type(
+  (int * Gr.V.t) list -> (int * Gr.V.t) list
+)
+ident(
+  ext_ref List.rev
+)
+"src/mcs_m.ml" 104 3816 3832 "src/mcs_m.ml" 104 3816 3835
+type(
+  (int * Gr.V.t) list
+)
+ident(
+  int_ref ord "src/mcs_m.ml" 69 2576 2593 "src/mcs_m.ml" 69 2576 2596
+)
+"src/mcs_m.ml" 104 3816 3823 "src/mcs_m.ml" 104 3816 3835
+call(
+  stack
+)
+type(
+  (int * Gr.V.t) list
+)
+"src/mcs_m.ml" 105 3837 3844 "src/mcs_m.ml" 105 3837 3856
+type(
+  (EdgeSet.elt -> (Gr.V.t * Gr.V.t) list -> (Gr.V.t * Gr.V.t) list) ->
+  EdgeSet.t -> (Gr.V.t * Gr.V.t) list -> (Gr.V.t * Gr.V.t) list
+)
+ident(
+  ext_ref EdgeSet.fold
+)
+"src/mcs_m.ml" 106 3857 3872 "src/mcs_m.ml" 106 3857 3873
+type(
+  NewV.t
+)
+ident(
+  def x "src/mcs_m.ml" 106 3857 3878 "src/mcs_m.ml" 106 3857 3916
+)
+"src/mcs_m.ml" 106 3857 3875 "src/mcs_m.ml" 106 3857 3876
+type(
+  NewV.t
+)
+ident(
+  def y "src/mcs_m.ml" 106 3857 3878 "src/mcs_m.ml" 106 3857 3916
+)
+"src/mcs_m.ml" 106 3857 3871 "src/mcs_m.ml" 106 3857 3877
+type(
+  EdgeSet.elt
+)
+"src/mcs_m.ml" 106 3857 3878 "src/mcs_m.ml" 106 3857 3879
+type(
+  (Gr.V.t * Gr.V.t) list
+)
+ident(
+  def e "src/mcs_m.ml" 106 3857 3883 "src/mcs_m.ml" 106 3857 3916
+)
+"src/mcs_m.ml" 106 3857 3884 "src/mcs_m.ml" 106 3857 3894
+type(
+  NewV.t -> Gr.V.t
+)
+ident(
+  ext_ref NewV.label
+)
+"src/mcs_m.ml" 106 3857 3895 "src/mcs_m.ml" 106 3857 3896
+type(
+  NewV.t
+)
+ident(
+  int_ref x "src/mcs_m.ml" 106 3857 3872 "src/mcs_m.ml" 106 3857 3873
+)
+"src/mcs_m.ml" 106 3857 3884 "src/mcs_m.ml" 106 3857 3896
+call(
+  stack
+)
+type(
+  Gr.V.t
+)
+"src/mcs_m.ml" 106 3857 3898 "src/mcs_m.ml" 106 3857 3908
+type(
+  NewV.t -> Gr.V.t
+)
+ident(
+  ext_ref NewV.label
+)
+"src/mcs_m.ml" 106 3857 3909 "src/mcs_m.ml" 106 3857 3910
+type(
+  NewV.t
+)
+ident(
+  int_ref y "src/mcs_m.ml" 106 3857 3875 "src/mcs_m.ml" 106 3857 3876
+)
+"src/mcs_m.ml" 106 3857 3898 "src/mcs_m.ml" 106 3857 3910
+call(
+  stack
+)
+type(
+  Gr.V.t
+)
+"src/mcs_m.ml" 106 3857 3883 "src/mcs_m.ml" 106 3857 3911
+type(
+  Gr.V.t * Gr.V.t
+)
+"src/mcs_m.ml" 106 3857 3915 "src/mcs_m.ml" 106 3857 3916
+type(
+  (Gr.V.t * Gr.V.t) list
+)
+ident(
+  int_ref e "src/mcs_m.ml" 106 3857 3878 "src/mcs_m.ml" 106 3857 3879
+)
+"src/mcs_m.ml" 106 3857 3883 "src/mcs_m.ml" 106 3857 3916
+type(
+  (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 106 3857 3866 "src/mcs_m.ml" 106 3857 3917
+type(
+  EdgeSet.elt -> (Gr.V.t * Gr.V.t) list -> (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 107 3918 3927 "src/mcs_m.ml" 107 3918 3933
+type(
+  EdgeSet.t
+)
+ident(
+  int_ref triang "src/mcs_m.ml" 69 2576 2598 "src/mcs_m.ml" 69 2576 2604
+)
+"src/mcs_m.ml" 107 3918 3934 "src/mcs_m.ml" 107 3918 3936
+type(
+  (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 105 3837 3844 "src/mcs_m.ml" 107 3918 3936
+call(
+  stack
+)
+type(
+  (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 104 3816 3822 "src/mcs_m.ml" 107 3918 3937
+type(
+  (int * Gr.V.t) list * (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 69 2576 2582 "src/mcs_m.ml" 107 3918 3937
+type(
+  (int * Gr.V.t) list * (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 68 2531 2537 "src/mcs_m.ml" 107 3918 3937
+type(
+  (int * Gr.V.t) list * (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 109 3939 3947 "src/mcs_m.ml" 109 3939 3958
+type(
+  Gr.t -> Gr.t
+)
+ident(
+  def triangulate "src/mcs_m.ml" 111 3997 4062 "src/mcs_m.ml" 112 4063 4068
+)
+"src/mcs_m.ml" 109 3939 3959 "src/mcs_m.ml" 109 3939 3960
+type(
+  Gr.t
+)
+ident(
+  def g "src/mcs_m.ml" 110 3963 3969 "src/mcs_m.ml" 111 3997 4062
+)
+"src/mcs_m.ml" 110 3963 3974 "src/mcs_m.ml" 110 3963 3975
+type(
+  (int * Gr.V.t) list
+)
+"src/mcs_m.ml" 110 3963 3977 "src/mcs_m.ml" 110 3963 3983
+type(
+  (Gr.V.t * Gr.V.t) list
+)
+ident(
+  def triang "src/mcs_m.ml" 111 3997 4003 "src/mcs_m.ml" 111 3997 4062
+)
+"src/mcs_m.ml" 110 3963 3973 "src/mcs_m.ml" 110 3963 3984
+type(
+  (int * Gr.V.t) list * (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 110 3963 3987 "src/mcs_m.ml" 110 3963 3991
+type(
+  Gr.t -> (int * Gr.V.t) list * (Gr.V.t * Gr.V.t) list
+)
+ident(
+  int_ref mcsm "src/mcs_m.ml" 67 2514 2522 "src/mcs_m.ml" 67 2514 2526
+)
+"src/mcs_m.ml" 110 3963 3992 "src/mcs_m.ml" 110 3963 3993
+type(
+  Gr.t
+)
+ident(
+  int_ref g "src/mcs_m.ml" 109 3939 3959 "src/mcs_m.ml" 109 3939 3960
+)
+"src/mcs_m.ml" 110 3963 3987 "src/mcs_m.ml" 110 3963 3993
+call(
+  stack
+)
+type(
+  (int * Gr.V.t) list * (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 111 3997 4003 "src/mcs_m.ml" 111 3997 4017
+type(
+  (Gr.t -> Gr.vertex * Gr.vertex -> Gr.t) ->
+  Gr.t -> (Gr.vertex * Gr.vertex) list -> Gr.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/mcs_m.ml" 111 3997 4023 "src/mcs_m.ml" 111 3997 4024
+type(
+  Gr.t
+)
+ident(
+  def g "src/mcs_m.ml" 111 3997 4025 "src/mcs_m.ml" 111 3997 4052
+)
+"src/mcs_m.ml" 111 3997 4026 "src/mcs_m.ml" 111 3997 4027
+type(
+  Gr.vertex
+)
+ident(
+  def x "src/mcs_m.ml" 111 3997 4035 "src/mcs_m.ml" 111 3997 4052
+)
+"src/mcs_m.ml" 111 3997 4029 "src/mcs_m.ml" 111 3997 4030
+type(
+  Gr.vertex
+)
+ident(
+  def y "src/mcs_m.ml" 111 3997 4035 "src/mcs_m.ml" 111 3997 4052
+)
+"src/mcs_m.ml" 111 3997 4025 "src/mcs_m.ml" 111 3997 4031
+type(
+  Gr.vertex * Gr.vertex
+)
+"src/mcs_m.ml" 111 3997 4035 "src/mcs_m.ml" 111 3997 4046
+type(
+  Gr.t -> Gr.vertex -> Gr.vertex -> Gr.t
+)
+ident(
+  ext_ref Gr.add_edge
+)
+"src/mcs_m.ml" 111 3997 4047 "src/mcs_m.ml" 111 3997 4048
+type(
+  Gr.t
+)
+ident(
+  int_ref g "src/mcs_m.ml" 111 3997 4023 "src/mcs_m.ml" 111 3997 4024
+)
+"src/mcs_m.ml" 111 3997 4049 "src/mcs_m.ml" 111 3997 4050
+type(
+  Gr.vertex
+)
+ident(
+  int_ref x "src/mcs_m.ml" 111 3997 4026 "src/mcs_m.ml" 111 3997 4027
+)
+"src/mcs_m.ml" 111 3997 4051 "src/mcs_m.ml" 111 3997 4052
+type(
+  Gr.vertex
+)
+ident(
+  int_ref y "src/mcs_m.ml" 111 3997 4029 "src/mcs_m.ml" 111 3997 4030
+)
+"src/mcs_m.ml" 111 3997 4035 "src/mcs_m.ml" 111 3997 4052
+call(
+  tail
+)
+type(
+  Gr.t
+)
+"src/mcs_m.ml" 111 3997 4018 "src/mcs_m.ml" 111 3997 4053
+type(
+  Gr.t -> Gr.vertex * Gr.vertex -> Gr.t
+)
+"src/mcs_m.ml" 111 3997 4054 "src/mcs_m.ml" 111 3997 4055
+type(
+  Gr.t
+)
+ident(
+  int_ref g "src/mcs_m.ml" 109 3939 3959 "src/mcs_m.ml" 109 3939 3960
+)
+"src/mcs_m.ml" 111 3997 4056 "src/mcs_m.ml" 111 3997 4062
+type(
+  (Gr.vertex * Gr.vertex) list
+)
+ident(
+  int_ref triang "src/mcs_m.ml" 110 3963 3977 "src/mcs_m.ml" 110 3963 3983
+)
+"src/mcs_m.ml" 111 3997 4003 "src/mcs_m.ml" 111 3997 4062
+call(
+  tail
+)
+type(
+  Gr.t
+)
+"src/mcs_m.ml" 110 3963 3969 "src/mcs_m.ml" 111 3997 4062
+type(
+  Gr.t
+)
+"src/mcs_m.ml" 117 4146 4164 "src/mcs_m.ml" 117 4146 4179
+call(
+  stack
+)
+"src/mcs_m.ml" 118 4180 4195 "src/mcs_m.ml" 118 4180 4226
+call(
+  stack
+)
+"src/mcs_m.ml" 119 4227 4248 "src/mcs_m.ml" 119 4227 4261
+call(
+  stack
+)
+"src/mcs_m.ml" 120 4262 4287 "src/mcs_m.ml" 120 4262 4301
+call(
+  stack
+)
+"src/mcs_m.ml" 121 4302 4322 "src/mcs_m.ml" 121 4302 4336
+call(
+  stack
+)
+"src/mcs_m.ml" 122 4337 4352 "src/mcs_m.ml" 122 4337 4370
+call(
+  stack
+)
+"src/mcs_m.ml" 124 4372 4380 "src/mcs_m.ml" 124 4372 4390
+type(
+  G.t -> NewV.t -> H.key -> bool
+)
+ident(
+  def check_path "src/mcs_m.ml" 143 4855 4859 "src/mcs_m.ml" 187 6137 6142
+)
+"src/mcs_m.ml" 124 4372 4391 "src/mcs_m.ml" 124 4372 4392
+type(
+  G.t
+)
+ident(
+  def g "src/mcs_m.ml" 124 4372 4393 "src/mcs_m.ml" 141 4839 4853
+)
+"src/mcs_m.ml" 124 4372 4393 "src/mcs_m.ml" 124 4372 4394
+type(
+  NewV.t
+)
+ident(
+  def u "src/mcs_m.ml" 124 4372 4395 "src/mcs_m.ml" 141 4839 4853
+)
+"src/mcs_m.ml" 124 4372 4395 "src/mcs_m.ml" 124 4372 4396
+type(
+  H.key
+)
+ident(
+  def v "src/mcs_m.ml" 125 4399 4405 "src/mcs_m.ml" 141 4839 4853
+)
+"src/mcs_m.ml" 125 4399 4409 "src/mcs_m.ml" 125 4399 4410
+type(
+  unit H.t
+)
+ident(
+  def h "src/mcs_m.ml" 126 4428 4434 "src/mcs_m.ml" 141 4839 4853
+)
+"src/mcs_m.ml" 125 4399 4413 "src/mcs_m.ml" 125 4399 4421
+type(
+  int -> unit H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/mcs_m.ml" 125 4399 4422 "src/mcs_m.ml" 125 4399 4424
+type(
+  int
+)
+"src/mcs_m.ml" 125 4399 4413 "src/mcs_m.ml" 125 4399 4424
+call(
+  stack
+)
+type(
+  unit H.t
+)
+"src/mcs_m.ml" 126 4428 4438 "src/mcs_m.ml" 126 4428 4442
+type(
+  NewV.data
+)
+ident(
+  def maxw "src/mcs_m.ml" 127 4462 4468 "src/mcs_m.ml" 141 4839 4853
+)
+"src/mcs_m.ml" 126 4428 4445 "src/mcs_m.ml" 126 4428 4456
+type(
+  NewV.t -> NewV.data
+)
+ident(
+  int_ref NewV.weight "src/mcs_m.ml" 24 1437 1445 "src/mcs_m.ml" 24 1437 1451
+)
+"src/mcs_m.ml" 126 4428 4457 "src/mcs_m.ml" 126 4428 4458
+type(
+  NewV.t
+)
+ident(
+  int_ref u "src/mcs_m.ml" 124 4372 4393 "src/mcs_m.ml" 124 4372 4394
+)
+"src/mcs_m.ml" 126 4428 4445 "src/mcs_m.ml" 126 4428 4458
+call(
+  stack
+)
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 127 4462 4476 "src/mcs_m.ml" 127 4462 4479
+type(
+  H.key -> bool
+)
+ident(
+  def aux "src/mcs_m.ml" 127 4462 4468 "src/mcs_m.ml" 141 4839 4853
+)
+"src/mcs_m.ml" 127 4462 4480 "src/mcs_m.ml" 127 4462 4481
+type(
+  H.key
+)
+ident(
+  def x "src/mcs_m.ml" 127 4462 4482 "src/mcs_m.ml" 140 4800 4838
+)
+"src/mcs_m.ml" 128 4491 4502 "src/mcs_m.ml" 128 4491 4507
+type(
+  unit H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/mcs_m.ml" 128 4491 4508 "src/mcs_m.ml" 128 4491 4509
+type(
+  unit H.t
+)
+ident(
+  int_ref h "src/mcs_m.ml" 125 4399 4409 "src/mcs_m.ml" 125 4399 4410
+)
+"src/mcs_m.ml" 128 4491 4510 "src/mcs_m.ml" 128 4491 4511
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mcs_m.ml" 127 4462 4480 "src/mcs_m.ml" 127 4462 4481
+)
+"src/mcs_m.ml" 128 4491 4502 "src/mcs_m.ml" 128 4491 4511
+call(
+  stack
+)
+type(
+  bool
+)
+"src/mcs_m.ml" 129 4517 4527 "src/mcs_m.ml" 129 4517 4532
+type(
+  bool
+)
+"src/mcs_m.ml" 131 4546 4557 "src/mcs_m.ml" 131 4546 4558
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mcs_m.ml" 127 4462 4480 "src/mcs_m.ml" 127 4462 4481
+)
+"src/mcs_m.ml" 131 4546 4559 "src/mcs_m.ml" 131 4546 4560
+type(
+  H.key -> H.key -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/mcs_m.ml" 131 4546 4561 "src/mcs_m.ml" 131 4546 4562
+type(
+  H.key
+)
+ident(
+  int_ref v "src/mcs_m.ml" 124 4372 4395 "src/mcs_m.ml" 124 4372 4396
+)
+"src/mcs_m.ml" 131 4546 4557 "src/mcs_m.ml" 131 4546 4562
+type(
+  bool
+)
+"src/mcs_m.ml" 131 4546 4568 "src/mcs_m.ml" 131 4546 4572
+type(
+  bool
+)
+"src/mcs_m.ml" 133 4586 4597 "src/mcs_m.ml" 133 4586 4608
+type(
+  NewV.t -> NewV.data
+)
+ident(
+  int_ref NewV.weight "src/mcs_m.ml" 24 1437 1445 "src/mcs_m.ml" 24 1437 1451
+)
+"src/mcs_m.ml" 133 4586 4609 "src/mcs_m.ml" 133 4586 4610
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mcs_m.ml" 127 4462 4480 "src/mcs_m.ml" 127 4462 4481
+)
+"src/mcs_m.ml" 133 4586 4597 "src/mcs_m.ml" 133 4586 4610
+call(
+  stack
+)
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 133 4586 4611 "src/mcs_m.ml" 133 4586 4612
+type(
+  NewV.data -> NewV.data -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/mcs_m.ml" 133 4586 4613 "src/mcs_m.ml" 133 4586 4617
+type(
+  NewV.data
+)
+ident(
+  int_ref maxw "src/mcs_m.ml" 126 4428 4438 "src/mcs_m.ml" 126 4428 4442
+)
+"src/mcs_m.ml" 133 4586 4597 "src/mcs_m.ml" 133 4586 4617
+type(
+  bool
+)
+"src/mcs_m.ml" 133 4586 4618 "src/mcs_m.ml" 133 4586 4620
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/mcs_m.ml" 133 4586 4621 "src/mcs_m.ml" 133 4586 4622
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mcs_m.ml" 127 4462 4480 "src/mcs_m.ml" 127 4462 4481
+)
+"src/mcs_m.ml" 133 4586 4623 "src/mcs_m.ml" 133 4586 4624
+type(
+  H.key -> H.key -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/mcs_m.ml" 133 4586 4625 "src/mcs_m.ml" 133 4586 4626
+type(
+  NewV.t
+)
+ident(
+  int_ref u "src/mcs_m.ml" 124 4372 4393 "src/mcs_m.ml" 124 4372 4394
+)
+"src/mcs_m.ml" 133 4586 4621 "src/mcs_m.ml" 133 4586 4626
+type(
+  bool
+)
+"src/mcs_m.ml" 133 4586 4597 "src/mcs_m.ml" 133 4586 4626
+type(
+  bool
+)
+"src/mcs_m.ml" 134 4638 4648 "src/mcs_m.ml" 134 4638 4653
+type(
+  unit H.t -> H.key -> unit -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/mcs_m.ml" 134 4638 4654 "src/mcs_m.ml" 134 4638 4655
+type(
+  unit H.t
+)
+ident(
+  int_ref h "src/mcs_m.ml" 125 4399 4409 "src/mcs_m.ml" 125 4399 4410
+)
+"src/mcs_m.ml" 134 4638 4656 "src/mcs_m.ml" 134 4638 4657
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mcs_m.ml" 127 4462 4480 "src/mcs_m.ml" 127 4462 4481
+)
+"src/mcs_m.ml" 134 4638 4658 "src/mcs_m.ml" 134 4638 4660
+type(
+  unit
+)
+"src/mcs_m.ml" 134 4638 4648 "src/mcs_m.ml" 134 4638 4660
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mcs_m.ml" 135 4662 4672 "src/mcs_m.ml" 135 4662 4683
+type(
+  (G.vertex -> bool -> bool) -> G.t -> G.vertex -> bool -> bool
+)
+ident(
+  ext_ref G.fold_succ
+)
+"src/mcs_m.ml" 136 4684 4701 "src/mcs_m.ml" 136 4684 4702
+type(
+  G.vertex
+)
+ident(
+  def x "src/mcs_m.ml" 136 4684 4703 "src/mcs_m.ml" 138 4751 4776
+)
+"src/mcs_m.ml" 136 4684 4703 "src/mcs_m.ml" 136 4684 4708
+type(
+  bool
+)
+ident(
+  def found "src/mcs_m.ml" 137 4712 4727 "src/mcs_m.ml" 138 4751 4776
+)
+"src/mcs_m.ml" 137 4712 4730 "src/mcs_m.ml" 137 4712 4733
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/mcs_m.ml" 137 4712 4734 "src/mcs_m.ml" 137 4712 4739
+type(
+  bool
+)
+ident(
+  int_ref found "src/mcs_m.ml" 136 4684 4703 "src/mcs_m.ml" 136 4684 4708
+)
+"src/mcs_m.ml" 137 4712 4730 "src/mcs_m.ml" 137 4712 4739
+type(
+  bool
+)
+"src/mcs_m.ml" 137 4712 4745 "src/mcs_m.ml" 137 4712 4748
+type(
+  H.key -> bool
+)
+ident(
+  int_ref aux "src/mcs_m.ml" 127 4462 4476 "src/mcs_m.ml" 127 4462 4479
+)
+"src/mcs_m.ml" 137 4712 4749 "src/mcs_m.ml" 137 4712 4750
+type(
+  G.vertex
+)
+ident(
+  int_ref x "src/mcs_m.ml" 136 4684 4701 "src/mcs_m.ml" 136 4684 4702
+)
+"src/mcs_m.ml" 137 4712 4745 "src/mcs_m.ml" 137 4712 4750
+call(
+  tail
+)
+type(
+  bool
+)
+"src/mcs_m.ml" 138 4751 4771 "src/mcs_m.ml" 138 4751 4776
+type(
+  bool
+)
+ident(
+  int_ref found "src/mcs_m.ml" 136 4684 4703 "src/mcs_m.ml" 136 4684 4708
+)
+"src/mcs_m.ml" 137 4712 4727 "src/mcs_m.ml" 138 4751 4776
+type(
+  bool
+)
+"src/mcs_m.ml" 136 4684 4696 "src/mcs_m.ml" 138 4751 4777
+type(
+  G.vertex -> bool -> bool
+)
+"src/mcs_m.ml" 139 4778 4790 "src/mcs_m.ml" 139 4778 4791
+type(
+  G.t
+)
+ident(
+  int_ref g "src/mcs_m.ml" 124 4372 4391 "src/mcs_m.ml" 124 4372 4392
+)
+"src/mcs_m.ml" 139 4778 4792 "src/mcs_m.ml" 139 4778 4793
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mcs_m.ml" 127 4462 4480 "src/mcs_m.ml" 127 4462 4481
+)
+"src/mcs_m.ml" 139 4778 4794 "src/mcs_m.ml" 139 4778 4799
+type(
+  bool
+)
+"src/mcs_m.ml" 135 4662 4672 "src/mcs_m.ml" 139 4778 4799
+call(
+  tail
+)
+type(
+  bool
+)
+"src/mcs_m.ml" 133 4586 4632 "src/mcs_m.ml" 140 4800 4811
+type(
+  bool
+)
+"src/mcs_m.ml" 140 4800 4818 "src/mcs_m.ml" 140 4800 4823
+type(
+  unit H.t -> H.key -> unit -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/mcs_m.ml" 140 4800 4824 "src/mcs_m.ml" 140 4800 4825
+type(
+  unit H.t
+)
+ident(
+  int_ref h "src/mcs_m.ml" 125 4399 4409 "src/mcs_m.ml" 125 4399 4410
+)
+"src/mcs_m.ml" 140 4800 4826 "src/mcs_m.ml" 140 4800 4827
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mcs_m.ml" 127 4462 4480 "src/mcs_m.ml" 127 4462 4481
+)
+"src/mcs_m.ml" 140 4800 4828 "src/mcs_m.ml" 140 4800 4830
+type(
+  unit
+)
+"src/mcs_m.ml" 140 4800 4818 "src/mcs_m.ml" 140 4800 4830
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mcs_m.ml" 140 4800 4832 "src/mcs_m.ml" 140 4800 4837
+type(
+  bool
+)
+"src/mcs_m.ml" 140 4800 4817 "src/mcs_m.ml" 140 4800 4838
+type(
+  bool
+)
+"src/mcs_m.ml" 133 4586 4594 "src/mcs_m.ml" 140 4800 4838
+type(
+  bool
+)
+"src/mcs_m.ml" 131 4546 4554 "src/mcs_m.ml" 140 4800 4838
+type(
+  bool
+)
+"src/mcs_m.ml" 128 4491 4499 "src/mcs_m.ml" 140 4800 4838
+type(
+  bool
+)
+type(
+  bool
+)
+"src/mcs_m.ml" 141 4839 4848 "src/mcs_m.ml" 141 4839 4851
+type(
+  H.key -> bool
+)
+ident(
+  int_ref aux "src/mcs_m.ml" 127 4462 4476 "src/mcs_m.ml" 127 4462 4479
+)
+"src/mcs_m.ml" 141 4839 4852 "src/mcs_m.ml" 141 4839 4853
+type(
+  NewV.t
+)
+ident(
+  int_ref u "src/mcs_m.ml" 124 4372 4393 "src/mcs_m.ml" 124 4372 4394
+)
+"src/mcs_m.ml" 141 4839 4848 "src/mcs_m.ml" 141 4839 4853
+call(
+  tail
+)
+type(
+  bool
+)
+"src/mcs_m.ml" 127 4462 4468 "src/mcs_m.ml" 141 4839 4853
+type(
+  bool
+)
+"src/mcs_m.ml" 126 4428 4434 "src/mcs_m.ml" 141 4839 4853
+type(
+  bool
+)
+"src/mcs_m.ml" 125 4399 4405 "src/mcs_m.ml" 141 4839 4853
+type(
+  bool
+)
+"src/mcs_m.ml" 143 4855 4873 "src/mcs_m.ml" 143 4855 4888
+call(
+  stack
+)
+"src/mcs_m.ml" 143 4855 4914 "src/mcs_m.ml" 143 4855 4926
+call(
+  stack
+)
+"src/mcs_m.ml" 143 4855 4873 "src/mcs_m.ml" 143 4855 4931
+call(
+  stack
+)
+"src/mcs_m.ml" 145 4933 4941 "src/mcs_m.ml" 145 4933 4945
+type(
+  Gr.t -> (int * Gr.V.t) list * (Gr.V.t * Gr.V.t) list
+)
+ident(
+  def mcsm "src/mcs_m.ml" 184 6022 6026 "src/mcs_m.ml" 187 6137 6142
+)
+"src/mcs_m.ml" 145 4933 4946 "src/mcs_m.ml" 145 4933 4947
+type(
+  Gr.t
+)
+ident(
+  def g "src/mcs_m.ml" 146 4950 4956 "src/mcs_m.ml" 182 6005 6020
+)
+"src/mcs_m.ml" 146 4950 4960 "src/mcs_m.ml" 146 4950 4961
+type(
+  EdgeSet.t ref
+)
+ident(
+  def f "src/mcs_m.ml" 149 5048 5054 "src/mcs_m.ml" 182 6005 6020
+)
+"src/mcs_m.ml" 146 4950 4964 "src/mcs_m.ml" 146 4950 4967
+type(
+  EdgeSet.t -> EdgeSet.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/mcs_m.ml" 146 4950 4968 "src/mcs_m.ml" 146 4950 4981
+type(
+  EdgeSet.t
+)
+ident(
+  ext_ref EdgeSet.empty
+)
+"src/mcs_m.ml" 146 4950 4964 "src/mcs_m.ml" 146 4950 4981
+type(
+  EdgeSet.t ref
+)
+"src/mcs_m.ml" 147 4982 4992 "src/mcs_m.ml" 147 4982 4993
+type(
+  (int * Gr.V.t) list ref
+)
+ident(
+  def a "src/mcs_m.ml" 149 5048 5054 "src/mcs_m.ml" 182 6005 6020
+)
+"src/mcs_m.ml" 147 4982 4996 "src/mcs_m.ml" 147 4982 4999
+type(
+  (int * Gr.V.t) list -> (int * Gr.V.t) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/mcs_m.ml" 147 4982 5000 "src/mcs_m.ml" 147 4982 5002
+type(
+  (int * Gr.V.t) list
+)
+"src/mcs_m.ml" 147 4982 4996 "src/mcs_m.ml" 147 4982 5002
+type(
+  (int * Gr.V.t) list ref
+)
+"src/mcs_m.ml" 148 5003 5013 "src/mcs_m.ml" 148 5003 5015
+type(
+  Imperative.Graph.Concrete(NewV).t
+)
+ident(
+  def g' "src/mcs_m.ml" 149 5048 5054 "src/mcs_m.ml" 182 6005 6020
+)
+"src/mcs_m.ml" 148 5003 5018 "src/mcs_m.ml" 148 5003 5026
+type(
+  (Gr.V.t -> NewV.t) -> Gr.t -> Imperative.Graph.Concrete(NewV).t
+)
+ident(
+  ext_ref Copy.map
+)
+"src/mcs_m.ml" 148 5003 5028 "src/mcs_m.ml" 148 5003 5039
+type(
+  NewV.data -> Gr.V.t -> NewV.t
+)
+ident(
+  ext_ref NewV.create
+)
+"src/mcs_m.ml" 148 5003 5040 "src/mcs_m.ml" 148 5003 5041
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 148 5003 5027 "src/mcs_m.ml" 148 5003 5042
+call(
+  stack
+)
+type(
+  Gr.V.t -> NewV.t
+)
+"src/mcs_m.ml" 148 5003 5043 "src/mcs_m.ml" 148 5003 5044
+type(
+  Gr.t
+)
+ident(
+  int_ref g "src/mcs_m.ml" 145 4933 4946 "src/mcs_m.ml" 145 4933 4947
+)
+"src/mcs_m.ml" 148 5003 5018 "src/mcs_m.ml" 148 5003 5044
+call(
+  stack
+)
+type(
+  Imperative.Graph.Concrete(NewV).t
+)
+"src/mcs_m.ml" 149 5048 5062 "src/mcs_m.ml" 149 5048 5074
+type(
+  Gr.t -> int
+)
+ident(
+  ext_ref Gr.nb_vertex
+)
+"src/mcs_m.ml" 149 5048 5075 "src/mcs_m.ml" 149 5048 5076
+type(
+  Gr.t
+)
+ident(
+  int_ref g "src/mcs_m.ml" 145 4933 4946 "src/mcs_m.ml" 145 4933 4947
+)
+"src/mcs_m.ml" 149 5048 5062 "src/mcs_m.ml" 149 5048 5076
+call(
+  stack
+)
+type(
+  int
+)
+"src/mcs_m.ml" 149 5048 5084 "src/mcs_m.ml" 149 5048 5085
+type(
+  int
+)
+"src/mcs_m.ml" 150 5089 5101 "src/mcs_m.ml" 150 5089 5102
+type(
+  NewV.t
+)
+ident(
+  def v "src/mcs_m.ml" 156 5287 5295 "src/mcs_m.ml" 177 5854 5891
+)
+"src/mcs_m.ml" 151 5105 5115 "src/mcs_m.ml" 151 5105 5128
+type(
+  (G.vertex -> NewV.t -> NewV.t) -> G.t -> NewV.t -> NewV.t
+)
+ident(
+  ext_ref G.fold_vertex
+)
+"src/mcs_m.ml" 152 5129 5146 "src/mcs_m.ml" 152 5129 5147
+type(
+  G.vertex
+)
+ident(
+  def x "src/mcs_m.ml" 152 5129 5148 "src/mcs_m.ml" 153 5155 5220
+)
+"src/mcs_m.ml" 152 5129 5148 "src/mcs_m.ml" 152 5129 5151
+type(
+  NewV.t
+)
+ident(
+  def max "src/mcs_m.ml" 153 5155 5170 "src/mcs_m.ml" 153 5155 5220
+)
+"src/mcs_m.ml" 153 5155 5173 "src/mcs_m.ml" 153 5155 5184
+type(
+  NewV.t -> NewV.data
+)
+ident(
+  int_ref NewV.weight "src/mcs_m.ml" 24 1437 1445 "src/mcs_m.ml" 24 1437 1451
+)
+"src/mcs_m.ml" 153 5155 5185 "src/mcs_m.ml" 153 5155 5186
+type(
+  G.vertex
+)
+ident(
+  int_ref x "src/mcs_m.ml" 152 5129 5146 "src/mcs_m.ml" 152 5129 5147
+)
+"src/mcs_m.ml" 153 5155 5173 "src/mcs_m.ml" 153 5155 5186
+call(
+  stack
+)
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 153 5155 5187 "src/mcs_m.ml" 153 5155 5188
+type(
+  NewV.data -> NewV.data -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/mcs_m.ml" 153 5155 5189 "src/mcs_m.ml" 153 5155 5200
+type(
+  NewV.t -> NewV.data
+)
+ident(
+  int_ref NewV.weight "src/mcs_m.ml" 24 1437 1445 "src/mcs_m.ml" 24 1437 1451
+)
+"src/mcs_m.ml" 153 5155 5201 "src/mcs_m.ml" 153 5155 5204
+type(
+  NewV.t
+)
+ident(
+  int_ref max "src/mcs_m.ml" 152 5129 5148 "src/mcs_m.ml" 152 5129 5151
+)
+"src/mcs_m.ml" 153 5155 5189 "src/mcs_m.ml" 153 5155 5204
+call(
+  stack
+)
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 153 5155 5173 "src/mcs_m.ml" 153 5155 5204
+type(
+  bool
+)
+"src/mcs_m.ml" 153 5155 5210 "src/mcs_m.ml" 153 5155 5211
+type(
+  G.vertex
+)
+ident(
+  int_ref x "src/mcs_m.ml" 152 5129 5146 "src/mcs_m.ml" 152 5129 5147
+)
+"src/mcs_m.ml" 153 5155 5217 "src/mcs_m.ml" 153 5155 5220
+type(
+  NewV.t
+)
+ident(
+  int_ref max "src/mcs_m.ml" 152 5129 5148 "src/mcs_m.ml" 152 5129 5151
+)
+"src/mcs_m.ml" 153 5155 5170 "src/mcs_m.ml" 153 5155 5220
+type(
+  G.vertex
+)
+"src/mcs_m.ml" 152 5129 5141 "src/mcs_m.ml" 153 5155 5221
+type(
+  G.vertex -> NewV.t -> NewV.t
+)
+"src/mcs_m.ml" 154 5222 5234 "src/mcs_m.ml" 154 5222 5236
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/mcs_m.ml" 148 5003 5013 "src/mcs_m.ml" 148 5003 5015
+)
+"src/mcs_m.ml" 154 5222 5238 "src/mcs_m.ml" 154 5222 5241
+type(
+  NewV.data -> NewV.data ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/mcs_m.ml" 154 5222 5242 "src/mcs_m.ml" 154 5222 5243
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 154 5222 5238 "src/mcs_m.ml" 154 5222 5243
+type(
+  NewV.data ref
+)
+"src/mcs_m.ml" 154 5222 5245 "src/mcs_m.ml" 154 5222 5248
+type(
+  G.vertex -> Gr.V.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"src/mcs_m.ml" 154 5222 5250 "src/mcs_m.ml" 154 5222 5270
+type(
+  G.t -> G.vertex
+)
+ident(
+  ext_ref Choose.choose_vertex
+)
+"src/mcs_m.ml" 154 5222 5271 "src/mcs_m.ml" 154 5222 5273
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/mcs_m.ml" 148 5003 5013 "src/mcs_m.ml" 148 5003 5015
+)
+"src/mcs_m.ml" 154 5222 5249 "src/mcs_m.ml" 154 5222 5274
+call(
+  stack
+)
+type(
+  G.vertex
+)
+"src/mcs_m.ml" 154 5222 5245 "src/mcs_m.ml" 154 5222 5274
+type(
+  Gr.V.t
+)
+"src/mcs_m.ml" 154 5222 5237 "src/mcs_m.ml" 154 5222 5275
+type(
+  NewV.t
+)
+"src/mcs_m.ml" 151 5105 5115 "src/mcs_m.ml" 154 5222 5275
+call(
+  stack
+)
+type(
+  NewV.t
+)
+"src/mcs_m.ml" 156 5287 5299 "src/mcs_m.ml" 156 5287 5300
+type(
+  VerticesSet.t
+)
+ident(
+  def s "src/mcs_m.ml" 166 5547 5555 "src/mcs_m.ml" 177 5854 5891
+)
+"src/mcs_m.ml" 157 5303 5313 "src/mcs_m.ml" 157 5303 5326
+type(
+  (G.vertex -> VerticesSet.t -> VerticesSet.t) ->
+  G.t -> VerticesSet.t -> VerticesSet.t
+)
+ident(
+  ext_ref G.fold_vertex
+)
+"src/mcs_m.ml" 158 5327 5344 "src/mcs_m.ml" 158 5327 5345
+type(
+  G.vertex
+)
+ident(
+  def x "src/mcs_m.ml" 158 5327 5346 "src/mcs_m.ml" 163 5480 5501
+)
+"src/mcs_m.ml" 158 5327 5346 "src/mcs_m.ml" 158 5327 5347
+type(
+  VerticesSet.t
+)
+ident(
+  def s "src/mcs_m.ml" 159 5351 5366 "src/mcs_m.ml" 163 5480 5501
+)
+"src/mcs_m.ml" 159 5351 5369 "src/mcs_m.ml" 159 5351 5370
+type(
+  G.vertex
+)
+ident(
+  int_ref x "src/mcs_m.ml" 158 5327 5344 "src/mcs_m.ml" 158 5327 5345
+)
+"src/mcs_m.ml" 159 5351 5371 "src/mcs_m.ml" 159 5351 5372
+type(
+  G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/mcs_m.ml" 159 5351 5373 "src/mcs_m.ml" 159 5351 5374
+type(
+  NewV.t
+)
+ident(
+  int_ref v "src/mcs_m.ml" 150 5089 5101 "src/mcs_m.ml" 150 5089 5102
+)
+"src/mcs_m.ml" 159 5351 5369 "src/mcs_m.ml" 159 5351 5374
+type(
+  bool
+)
+"src/mcs_m.ml" 159 5351 5380 "src/mcs_m.ml" 159 5351 5381
+type(
+  VerticesSet.t
+)
+ident(
+  int_ref s "src/mcs_m.ml" 158 5327 5346 "src/mcs_m.ml" 158 5327 5347
+)
+"src/mcs_m.ml" 161 5402 5420 "src/mcs_m.ml" 161 5402 5430
+type(
+  G.t -> NewV.t -> H.key -> bool
+)
+ident(
+  int_ref check_path "src/mcs_m.ml" 124 4372 4380 "src/mcs_m.ml" 124 4372 4390
+)
+"src/mcs_m.ml" 161 5402 5431 "src/mcs_m.ml" 161 5402 5433
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/mcs_m.ml" 148 5003 5013 "src/mcs_m.ml" 148 5003 5015
+)
+"src/mcs_m.ml" 161 5402 5434 "src/mcs_m.ml" 161 5402 5435
+type(
+  G.vertex
+)
+ident(
+  int_ref x "src/mcs_m.ml" 158 5327 5344 "src/mcs_m.ml" 158 5327 5345
+)
+"src/mcs_m.ml" 161 5402 5436 "src/mcs_m.ml" 161 5402 5437
+type(
+  NewV.t
+)
+ident(
+  int_ref v "src/mcs_m.ml" 150 5089 5101 "src/mcs_m.ml" 150 5089 5102
+)
+"src/mcs_m.ml" 161 5402 5420 "src/mcs_m.ml" 161 5402 5437
+call(
+  stack
+)
+type(
+  bool
+)
+"src/mcs_m.ml" 162 5443 5460 "src/mcs_m.ml" 162 5443 5475
+type(
+  VerticesSet.elt -> VerticesSet.t -> VerticesSet.t
+)
+ident(
+  ext_ref VerticesSet.add
+)
+"src/mcs_m.ml" 162 5443 5476 "src/mcs_m.ml" 162 5443 5477
+type(
+  G.vertex
+)
+ident(
+  int_ref x "src/mcs_m.ml" 158 5327 5344 "src/mcs_m.ml" 158 5327 5345
+)
+"src/mcs_m.ml" 162 5443 5478 "src/mcs_m.ml" 162 5443 5479
+type(
+  VerticesSet.t
+)
+ident(
+  int_ref s "src/mcs_m.ml" 158 5327 5346 "src/mcs_m.ml" 158 5327 5347
+)
+"src/mcs_m.ml" 162 5443 5460 "src/mcs_m.ml" 162 5443 5479
+call(
+  tail
+)
+type(
+  VerticesSet.t
+)
+"src/mcs_m.ml" 163 5480 5500 "src/mcs_m.ml" 163 5480 5501
+type(
+  VerticesSet.t
+)
+ident(
+  int_ref s "src/mcs_m.ml" 158 5327 5346 "src/mcs_m.ml" 158 5327 5347
+)
+"src/mcs_m.ml" 161 5402 5417 "src/mcs_m.ml" 163 5480 5501
+type(
+  VerticesSet.t
+)
+"src/mcs_m.ml" 159 5351 5366 "src/mcs_m.ml" 163 5480 5501
+type(
+  VerticesSet.t
+)
+"src/mcs_m.ml" 158 5327 5339 "src/mcs_m.ml" 163 5480 5502
+type(
+  G.vertex -> VerticesSet.t -> VerticesSet.t
+)
+"src/mcs_m.ml" 164 5503 5515 "src/mcs_m.ml" 164 5503 5517
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/mcs_m.ml" 148 5003 5013 "src/mcs_m.ml" 148 5003 5015
+)
+"src/mcs_m.ml" 164 5503 5518 "src/mcs_m.ml" 164 5503 5535
+type(
+  VerticesSet.t
+)
+ident(
+  ext_ref VerticesSet.empty
+)
+"src/mcs_m.ml" 157 5303 5313 "src/mcs_m.ml" 164 5503 5535
+call(
+  stack
+)
+type(
+  VerticesSet.t
+)
+"src/mcs_m.ml" 166 5547 5559 "src/mcs_m.ml" 166 5547 5561
+type(
+  EdgeSet.t
+)
+ident(
+  def f' "src/mcs_m.ml" 175 5807 5815 "src/mcs_m.ml" 177 5854 5891
+)
+"src/mcs_m.ml" 167 5564 5574 "src/mcs_m.ml" 167 5564 5590
+type(
+  (VerticesSet.elt -> EdgeSet.t -> EdgeSet.t) ->
+  VerticesSet.t -> EdgeSet.t -> EdgeSet.t
+)
+ident(
+  ext_ref VerticesSet.fold
+)
+"src/mcs_m.ml" 168 5591 5608 "src/mcs_m.ml" 168 5591 5609
+type(
+  VerticesSet.elt
+)
+ident(
+  def x "src/mcs_m.ml" 168 5591 5610 "src/mcs_m.ml" 172 5756 5777
+)
+"src/mcs_m.ml" 168 5591 5610 "src/mcs_m.ml" 168 5591 5611
+type(
+  EdgeSet.t
+)
+ident(
+  def f "src/mcs_m.ml" 169 5615 5630 "src/mcs_m.ml" 172 5756 5777
+)
+"src/mcs_m.ml" 169 5615 5630 "src/mcs_m.ml" 169 5615 5645
+type(
+  NewV.t -> NewV.data -> unit
+)
+ident(
+  int_ref NewV.set_weight "src/mcs_m.ml" 25 1459 1467 "src/mcs_m.ml" 25 1459 1477
+)
+"src/mcs_m.ml" 169 5615 5646 "src/mcs_m.ml" 169 5615 5647
+type(
+  VerticesSet.elt
+)
+ident(
+  int_ref x "src/mcs_m.ml" 168 5591 5608 "src/mcs_m.ml" 168 5591 5609
+)
+"src/mcs_m.ml" 169 5615 5649 "src/mcs_m.ml" 169 5615 5653
+type(
+  NewV.data -> NewV.data
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"src/mcs_m.ml" 169 5615 5655 "src/mcs_m.ml" 169 5615 5666
+type(
+  NewV.t -> NewV.data
+)
+ident(
+  int_ref NewV.weight "src/mcs_m.ml" 24 1437 1445 "src/mcs_m.ml" 24 1437 1451
+)
+"src/mcs_m.ml" 169 5615 5667 "src/mcs_m.ml" 169 5615 5668
+type(
+  VerticesSet.elt
+)
+ident(
+  int_ref x "src/mcs_m.ml" 168 5591 5608 "src/mcs_m.ml" 168 5591 5609
+)
+"src/mcs_m.ml" 169 5615 5654 "src/mcs_m.ml" 169 5615 5669
+call(
+  stack
+)
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 169 5615 5648 "src/mcs_m.ml" 169 5615 5670
+type(
+  NewV.data
+)
+"src/mcs_m.ml" 169 5615 5630 "src/mcs_m.ml" 169 5615 5670
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mcs_m.ml" 170 5672 5690 "src/mcs_m.ml" 170 5672 5693
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/mcs_m.ml" 170 5672 5695 "src/mcs_m.ml" 170 5672 5705
+type(
+  G.t -> G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref G.mem_edge
+)
+"src/mcs_m.ml" 170 5672 5706 "src/mcs_m.ml" 170 5672 5708
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/mcs_m.ml" 148 5003 5013 "src/mcs_m.ml" 148 5003 5015
+)
+"src/mcs_m.ml" 170 5672 5709 "src/mcs_m.ml" 170 5672 5710
+type(
+  VerticesSet.elt
+)
+ident(
+  int_ref x "src/mcs_m.ml" 168 5591 5608 "src/mcs_m.ml" 168 5591 5609
+)
+"src/mcs_m.ml" 170 5672 5711 "src/mcs_m.ml" 170 5672 5712
+type(
+  NewV.t
+)
+ident(
+  int_ref v "src/mcs_m.ml" 150 5089 5101 "src/mcs_m.ml" 150 5089 5102
+)
+"src/mcs_m.ml" 170 5672 5694 "src/mcs_m.ml" 170 5672 5713
+call(
+  stack
+)
+type(
+  bool
+)
+"src/mcs_m.ml" 170 5672 5690 "src/mcs_m.ml" 170 5672 5713
+type(
+  bool
+)
+"src/mcs_m.ml" 171 5719 5736 "src/mcs_m.ml" 171 5719 5747
+type(
+  EdgeSet.elt -> EdgeSet.t -> EdgeSet.t
+)
+ident(
+  ext_ref EdgeSet.add
+)
+"src/mcs_m.ml" 171 5719 5749 "src/mcs_m.ml" 171 5719 5750
+type(
+  VerticesSet.elt
+)
+ident(
+  int_ref x "src/mcs_m.ml" 168 5591 5608 "src/mcs_m.ml" 168 5591 5609
+)
+"src/mcs_m.ml" 171 5719 5751 "src/mcs_m.ml" 171 5719 5752
+type(
+  NewV.t
+)
+ident(
+  int_ref v "src/mcs_m.ml" 150 5089 5101 "src/mcs_m.ml" 150 5089 5102
+)
+"src/mcs_m.ml" 171 5719 5748 "src/mcs_m.ml" 171 5719 5753
+type(
+  EdgeSet.elt
+)
+"src/mcs_m.ml" 171 5719 5754 "src/mcs_m.ml" 171 5719 5755
+type(
+  EdgeSet.t
+)
+ident(
+  int_ref f "src/mcs_m.ml" 168 5591 5610 "src/mcs_m.ml" 168 5591 5611
+)
+"src/mcs_m.ml" 171 5719 5736 "src/mcs_m.ml" 171 5719 5755
+call(
+  tail
+)
+type(
+  EdgeSet.t
+)
+"src/mcs_m.ml" 172 5756 5776 "src/mcs_m.ml" 172 5756 5777
+type(
+  EdgeSet.t
+)
+ident(
+  int_ref f "src/mcs_m.ml" 168 5591 5610 "src/mcs_m.ml" 168 5591 5611
+)
+"src/mcs_m.ml" 170 5672 5687 "src/mcs_m.ml" 172 5756 5777
+type(
+  EdgeSet.t
+)
+"src/mcs_m.ml" 169 5615 5630 "src/mcs_m.ml" 172 5756 5777
+type(
+  EdgeSet.t
+)
+"src/mcs_m.ml" 168 5591 5603 "src/mcs_m.ml" 172 5756 5778
+type(
+  VerticesSet.elt -> EdgeSet.t -> EdgeSet.t
+)
+"src/mcs_m.ml" 173 5779 5791 "src/mcs_m.ml" 173 5779 5792
+type(
+  VerticesSet.t
+)
+ident(
+  int_ref s "src/mcs_m.ml" 156 5287 5299 "src/mcs_m.ml" 156 5287 5300
+)
+"src/mcs_m.ml" 173 5779 5793 "src/mcs_m.ml" 173 5779 5794
+type(
+  EdgeSet.t ref -> EdgeSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/mcs_m.ml" 173 5779 5794 "src/mcs_m.ml" 173 5779 5795
+type(
+  EdgeSet.t ref
+)
+ident(
+  int_ref f "src/mcs_m.ml" 146 4950 4960 "src/mcs_m.ml" 146 4950 4961
+)
+"src/mcs_m.ml" 173 5779 5793 "src/mcs_m.ml" 173 5779 5795
+type(
+  EdgeSet.t
+)
+"src/mcs_m.ml" 167 5564 5574 "src/mcs_m.ml" 173 5779 5795
+call(
+  stack
+)
+type(
+  EdgeSet.t
+)
+"src/mcs_m.ml" 175 5807 5815 "src/mcs_m.ml" 175 5807 5816
+type(
+  EdgeSet.t ref
+)
+ident(
+  int_ref f "src/mcs_m.ml" 146 4950 4960 "src/mcs_m.ml" 146 4950 4961
+)
+"src/mcs_m.ml" 175 5807 5817 "src/mcs_m.ml" 175 5807 5819
+type(
+  EdgeSet.t ref -> EdgeSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/mcs_m.ml" 175 5807 5820 "src/mcs_m.ml" 175 5807 5822
+type(
+  EdgeSet.t
+)
+ident(
+  int_ref f' "src/mcs_m.ml" 166 5547 5559 "src/mcs_m.ml" 166 5547 5561
+)
+"src/mcs_m.ml" 175 5807 5815 "src/mcs_m.ml" 175 5807 5822
+type(
+  unit
+)
+"src/mcs_m.ml" 176 5824 5832 "src/mcs_m.ml" 176 5824 5847
+type(
+  G.t -> G.vertex -> unit
+)
+ident(
+  ext_ref G.remove_vertex
+)
+"src/mcs_m.ml" 176 5824 5848 "src/mcs_m.ml" 176 5824 5850
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/mcs_m.ml" 148 5003 5013 "src/mcs_m.ml" 148 5003 5015
+)
+"src/mcs_m.ml" 176 5824 5851 "src/mcs_m.ml" 176 5824 5852
+type(
+  NewV.t
+)
+ident(
+  int_ref v "src/mcs_m.ml" 150 5089 5101 "src/mcs_m.ml" 150 5089 5102
+)
+"src/mcs_m.ml" 176 5824 5832 "src/mcs_m.ml" 176 5824 5852
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mcs_m.ml" 177 5854 5862 "src/mcs_m.ml" 177 5854 5863
+type(
+  (int * Gr.V.t) list ref
+)
+ident(
+  int_ref a "src/mcs_m.ml" 147 4982 4992 "src/mcs_m.ml" 147 4982 4993
+)
+"src/mcs_m.ml" 177 5854 5864 "src/mcs_m.ml" 177 5854 5866
+type(
+  (int * Gr.V.t) list ref -> (int * Gr.V.t) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/mcs_m.ml" 177 5854 5868 "src/mcs_m.ml" 177 5854 5869
+type(
+  int
+)
+ident(
+  int_ref i "src/mcs_m.ml" 149 5048 5054 "src/mcs_m.ml" 178 5892 5902
+)
+"src/mcs_m.ml" 177 5854 5871 "src/mcs_m.ml" 177 5854 5881
+type(
+  NewV.t -> Gr.V.t
+)
+ident(
+  ext_ref NewV.label
+)
+"src/mcs_m.ml" 177 5854 5882 "src/mcs_m.ml" 177 5854 5883
+type(
+  NewV.t
+)
+ident(
+  int_ref v "src/mcs_m.ml" 150 5089 5101 "src/mcs_m.ml" 150 5089 5102
+)
+"src/mcs_m.ml" 177 5854 5871 "src/mcs_m.ml" 177 5854 5883
+call(
+  stack
+)
+type(
+  Gr.V.t
+)
+"src/mcs_m.ml" 177 5854 5867 "src/mcs_m.ml" 177 5854 5884
+type(
+  int * Gr.V.t
+)
+"src/mcs_m.ml" 177 5854 5888 "src/mcs_m.ml" 177 5854 5889
+type(
+  (int * Gr.V.t) list ref -> (int * Gr.V.t) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/mcs_m.ml" 177 5854 5889 "src/mcs_m.ml" 177 5854 5890
+type(
+  (int * Gr.V.t) list ref
+)
+ident(
+  int_ref a "src/mcs_m.ml" 147 4982 4992 "src/mcs_m.ml" 147 4982 4993
+)
+"src/mcs_m.ml" 177 5854 5888 "src/mcs_m.ml" 177 5854 5890
+type(
+  (int * Gr.V.t) list
+)
+"src/mcs_m.ml" 177 5854 5867 "src/mcs_m.ml" 177 5854 5890
+type(
+  (int * Gr.V.t) list
+)
+"src/mcs_m.ml" 177 5854 5862 "src/mcs_m.ml" 177 5854 5891
+type(
+  unit
+)
+"src/mcs_m.ml" 176 5824 5832 "src/mcs_m.ml" 177 5854 5891
+type(
+  unit
+)
+"src/mcs_m.ml" 175 5807 5815 "src/mcs_m.ml" 177 5854 5891
+type(
+  unit
+)
+"src/mcs_m.ml" 166 5547 5555 "src/mcs_m.ml" 177 5854 5891
+type(
+  unit
+)
+"src/mcs_m.ml" 156 5287 5295 "src/mcs_m.ml" 177 5854 5891
+type(
+  unit
+)
+"src/mcs_m.ml" 150 5089 5097 "src/mcs_m.ml" 177 5854 5891
+type(
+  unit
+)
+"src/mcs_m.ml" 149 5048 5054 "src/mcs_m.ml" 178 5892 5902
+type(
+  unit
+)
+"src/mcs_m.ml" 179 5904 5911 "src/mcs_m.ml" 179 5904 5919
+type(
+  (int * Gr.V.t) list -> (int * Gr.V.t) list
+)
+ident(
+  ext_ref List.rev
+)
+"src/mcs_m.ml" 179 5904 5920 "src/mcs_m.ml" 179 5904 5921
+type(
+  (int * Gr.V.t) list ref -> (int * Gr.V.t) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/mcs_m.ml" 179 5904 5921 "src/mcs_m.ml" 179 5904 5922
+type(
+  (int * Gr.V.t) list ref
+)
+ident(
+  int_ref a "src/mcs_m.ml" 147 4982 4992 "src/mcs_m.ml" 147 4982 4993
+)
+"src/mcs_m.ml" 179 5904 5920 "src/mcs_m.ml" 179 5904 5922
+type(
+  (int * Gr.V.t) list
+)
+"src/mcs_m.ml" 179 5904 5911 "src/mcs_m.ml" 179 5904 5922
+call(
+  stack
+)
+type(
+  (int * Gr.V.t) list
+)
+"src/mcs_m.ml" 180 5924 5931 "src/mcs_m.ml" 180 5924 5943
+type(
+  (EdgeSet.elt -> (Gr.V.t * Gr.V.t) list -> (Gr.V.t * Gr.V.t) list) ->
+  EdgeSet.t -> (Gr.V.t * Gr.V.t) list -> (Gr.V.t * Gr.V.t) list
+)
+ident(
+  ext_ref EdgeSet.fold
+)
+"src/mcs_m.ml" 181 5944 5959 "src/mcs_m.ml" 181 5944 5960
+type(
+  NewV.t
+)
+ident(
+  def x "src/mcs_m.ml" 181 5944 5965 "src/mcs_m.ml" 181 5944 6003
+)
+"src/mcs_m.ml" 181 5944 5962 "src/mcs_m.ml" 181 5944 5963
+type(
+  NewV.t
+)
+ident(
+  def y "src/mcs_m.ml" 181 5944 5965 "src/mcs_m.ml" 181 5944 6003
+)
+"src/mcs_m.ml" 181 5944 5958 "src/mcs_m.ml" 181 5944 5964
+type(
+  EdgeSet.elt
+)
+"src/mcs_m.ml" 181 5944 5965 "src/mcs_m.ml" 181 5944 5966
+type(
+  (Gr.V.t * Gr.V.t) list
+)
+ident(
+  def e "src/mcs_m.ml" 181 5944 5970 "src/mcs_m.ml" 181 5944 6003
+)
+"src/mcs_m.ml" 181 5944 5971 "src/mcs_m.ml" 181 5944 5981
+type(
+  NewV.t -> Gr.V.t
+)
+ident(
+  ext_ref NewV.label
+)
+"src/mcs_m.ml" 181 5944 5982 "src/mcs_m.ml" 181 5944 5983
+type(
+  NewV.t
+)
+ident(
+  int_ref x "src/mcs_m.ml" 181 5944 5959 "src/mcs_m.ml" 181 5944 5960
+)
+"src/mcs_m.ml" 181 5944 5971 "src/mcs_m.ml" 181 5944 5983
+call(
+  stack
+)
+type(
+  Gr.V.t
+)
+"src/mcs_m.ml" 181 5944 5985 "src/mcs_m.ml" 181 5944 5995
+type(
+  NewV.t -> Gr.V.t
+)
+ident(
+  ext_ref NewV.label
+)
+"src/mcs_m.ml" 181 5944 5996 "src/mcs_m.ml" 181 5944 5997
+type(
+  NewV.t
+)
+ident(
+  int_ref y "src/mcs_m.ml" 181 5944 5962 "src/mcs_m.ml" 181 5944 5963
+)
+"src/mcs_m.ml" 181 5944 5985 "src/mcs_m.ml" 181 5944 5997
+call(
+  stack
+)
+type(
+  Gr.V.t
+)
+"src/mcs_m.ml" 181 5944 5970 "src/mcs_m.ml" 181 5944 5998
+type(
+  Gr.V.t * Gr.V.t
+)
+"src/mcs_m.ml" 181 5944 6002 "src/mcs_m.ml" 181 5944 6003
+type(
+  (Gr.V.t * Gr.V.t) list
+)
+ident(
+  int_ref e "src/mcs_m.ml" 181 5944 5965 "src/mcs_m.ml" 181 5944 5966
+)
+"src/mcs_m.ml" 181 5944 5970 "src/mcs_m.ml" 181 5944 6003
+type(
+  (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 181 5944 5953 "src/mcs_m.ml" 181 5944 6004
+type(
+  EdgeSet.elt -> (Gr.V.t * Gr.V.t) list -> (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 182 6005 6014 "src/mcs_m.ml" 182 6005 6015
+type(
+  EdgeSet.t ref -> EdgeSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/mcs_m.ml" 182 6005 6015 "src/mcs_m.ml" 182 6005 6016
+type(
+  EdgeSet.t ref
+)
+ident(
+  int_ref f "src/mcs_m.ml" 146 4950 4960 "src/mcs_m.ml" 146 4950 4961
+)
+"src/mcs_m.ml" 182 6005 6014 "src/mcs_m.ml" 182 6005 6016
+type(
+  EdgeSet.t
+)
+"src/mcs_m.ml" 182 6005 6017 "src/mcs_m.ml" 182 6005 6019
+type(
+  (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 180 5924 5931 "src/mcs_m.ml" 182 6005 6019
+call(
+  stack
+)
+type(
+  (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 179 5904 5910 "src/mcs_m.ml" 182 6005 6020
+type(
+  (int * Gr.V.t) list * (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 149 5048 5054 "src/mcs_m.ml" 182 6005 6020
+type(
+  (int * Gr.V.t) list * (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 146 4950 4956 "src/mcs_m.ml" 182 6005 6020
+type(
+  (int * Gr.V.t) list * (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 184 6022 6030 "src/mcs_m.ml" 184 6022 6041
+type(
+  Gr.t -> unit
+)
+ident(
+  def triangulate "src/mcs_m.ml" 186 6080 6136 "src/mcs_m.ml" 187 6137 6142
+)
+"src/mcs_m.ml" 184 6022 6042 "src/mcs_m.ml" 184 6022 6043
+type(
+  Gr.t
+)
+ident(
+  def g "src/mcs_m.ml" 185 6046 6052 "src/mcs_m.ml" 186 6080 6136
+)
+"src/mcs_m.ml" 185 6046 6057 "src/mcs_m.ml" 185 6046 6058
+type(
+  (int * Gr.V.t) list
+)
+"src/mcs_m.ml" 185 6046 6060 "src/mcs_m.ml" 185 6046 6066
+type(
+  (Gr.V.t * Gr.V.t) list
+)
+ident(
+  def triang "src/mcs_m.ml" 186 6080 6086 "src/mcs_m.ml" 186 6080 6136
+)
+"src/mcs_m.ml" 185 6046 6056 "src/mcs_m.ml" 185 6046 6067
+type(
+  (int * Gr.V.t) list * (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 185 6046 6070 "src/mcs_m.ml" 185 6046 6074
+type(
+  Gr.t -> (int * Gr.V.t) list * (Gr.V.t * Gr.V.t) list
+)
+ident(
+  int_ref mcsm "src/mcs_m.ml" 145 4933 4941 "src/mcs_m.ml" 145 4933 4945
+)
+"src/mcs_m.ml" 185 6046 6075 "src/mcs_m.ml" 185 6046 6076
+type(
+  Gr.t
+)
+ident(
+  int_ref g "src/mcs_m.ml" 184 6022 6042 "src/mcs_m.ml" 184 6022 6043
+)
+"src/mcs_m.ml" 185 6046 6070 "src/mcs_m.ml" 185 6046 6076
+call(
+  stack
+)
+type(
+  (int * Gr.V.t) list * (Gr.V.t * Gr.V.t) list
+)
+"src/mcs_m.ml" 186 6080 6086 "src/mcs_m.ml" 186 6080 6095
+type(
+  (Gr.vertex * Gr.vertex -> unit) -> (Gr.vertex * Gr.vertex) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/mcs_m.ml" 186 6080 6102 "src/mcs_m.ml" 186 6080 6103
+type(
+  Gr.vertex
+)
+ident(
+  def x "src/mcs_m.ml" 186 6080 6111 "src/mcs_m.ml" 186 6080 6128
+)
+"src/mcs_m.ml" 186 6080 6105 "src/mcs_m.ml" 186 6080 6106
+type(
+  Gr.vertex
+)
+ident(
+  def y "src/mcs_m.ml" 186 6080 6111 "src/mcs_m.ml" 186 6080 6128
+)
+"src/mcs_m.ml" 186 6080 6101 "src/mcs_m.ml" 186 6080 6107
+type(
+  Gr.vertex * Gr.vertex
+)
+"src/mcs_m.ml" 186 6080 6111 "src/mcs_m.ml" 186 6080 6122
+type(
+  Gr.t -> Gr.vertex -> Gr.vertex -> unit
+)
+ident(
+  ext_ref Gr.add_edge
+)
+"src/mcs_m.ml" 186 6080 6123 "src/mcs_m.ml" 186 6080 6124
+type(
+  Gr.t
+)
+ident(
+  int_ref g "src/mcs_m.ml" 184 6022 6042 "src/mcs_m.ml" 184 6022 6043
+)
+"src/mcs_m.ml" 186 6080 6125 "src/mcs_m.ml" 186 6080 6126
+type(
+  Gr.vertex
+)
+ident(
+  int_ref x "src/mcs_m.ml" 186 6080 6102 "src/mcs_m.ml" 186 6080 6103
+)
+"src/mcs_m.ml" 186 6080 6127 "src/mcs_m.ml" 186 6080 6128
+type(
+  Gr.vertex
+)
+ident(
+  int_ref y "src/mcs_m.ml" 186 6080 6105 "src/mcs_m.ml" 186 6080 6106
+)
+"src/mcs_m.ml" 186 6080 6111 "src/mcs_m.ml" 186 6080 6128
+call(
+  tail
+)
+type(
+  unit
+)
+"src/mcs_m.ml" 186 6080 6096 "src/mcs_m.ml" 186 6080 6129
+type(
+  Gr.vertex * Gr.vertex -> unit
+)
+"src/mcs_m.ml" 186 6080 6130 "src/mcs_m.ml" 186 6080 6136
+type(
+  (Gr.vertex * Gr.vertex) list
+)
+ident(
+  int_ref triang "src/mcs_m.ml" 185 6046 6060 "src/mcs_m.ml" 185 6046 6066
+)
+"src/mcs_m.ml" 186 6080 6086 "src/mcs_m.ml" 186 6080 6136
+call(
+  tail
+)
+type(
+  unit
+)
+"src/mcs_m.ml" 185 6046 6052 "src/mcs_m.ml" 186 6080 6136
+type(
+  unit
+)

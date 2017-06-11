@@ -1,0 +1,3037 @@
+"src/strat.ml" 100 3185 3201 "src/strat.ml" 100 3185 3215
+call(
+  stack
+)
+"src/strat.ml" 103 3218 3228 "src/strat.ml" 103 3218 3230
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  def eq "src/strat.ml" 103 3218 3220 "src/strat.ml" 231 6151 6154
+)
+"src/strat.ml" 103 3218 3231 "src/strat.ml" 103 3218 3233
+type(
+  'a list
+)
+ident(
+  def l1 "src/strat.ml" 103 3218 3234 "src/strat.ml" 107 3340 3356
+)
+"src/strat.ml" 103 3218 3234 "src/strat.ml" 103 3218 3236
+type(
+  'a list
+)
+ident(
+  def l2 "src/strat.ml" 103 3218 3239 "src/strat.ml" 107 3340 3356
+)
+"src/strat.ml" 103 3218 3245 "src/strat.ml" 103 3218 3247
+type(
+  'a list
+)
+ident(
+  int_ref l1 "src/strat.ml" 103 3218 3231 "src/strat.ml" 103 3218 3233
+)
+"src/strat.ml" 103 3218 3249 "src/strat.ml" 103 3218 3251
+type(
+  'a list
+)
+ident(
+  int_ref l2 "src/strat.ml" 103 3218 3234 "src/strat.ml" 103 3218 3236
+)
+"src/strat.ml" 103 3218 3245 "src/strat.ml" 103 3218 3251
+type(
+  'a list * 'a list
+)
+"src/strat.ml" 104 3257 3263 "src/strat.ml" 104 3257 3265
+type(
+  'a list
+)
+"src/strat.ml" 104 3257 3267 "src/strat.ml" 104 3257 3269
+type(
+  'a list
+)
+"src/strat.ml" 104 3257 3263 "src/strat.ml" 104 3257 3269
+type(
+  'a list * 'a list
+)
+"src/strat.ml" 104 3257 3273 "src/strat.ml" 104 3257 3277
+type(
+  bool
+)
+"src/strat.ml" 105 3278 3284 "src/strat.ml" 105 3278 3286
+type(
+  'a
+)
+ident(
+  def e1 "src/strat.ml" 106 3308 3314 "src/strat.ml" 106 3308 3339
+)
+"src/strat.ml" 105 3278 3290 "src/strat.ml" 105 3278 3293
+type(
+  'a list
+)
+ident(
+  def l1' "src/strat.ml" 106 3308 3314 "src/strat.ml" 106 3308 3339
+)
+"src/strat.ml" 105 3278 3284 "src/strat.ml" 105 3278 3293
+type(
+  'a list
+)
+"src/strat.ml" 105 3278 3295 "src/strat.ml" 105 3278 3297
+type(
+  'a
+)
+ident(
+  def e2 "src/strat.ml" 106 3308 3314 "src/strat.ml" 106 3308 3339
+)
+"src/strat.ml" 105 3278 3301 "src/strat.ml" 105 3278 3304
+type(
+  'a list
+)
+ident(
+  def l2' "src/strat.ml" 106 3308 3314 "src/strat.ml" 106 3308 3339
+)
+"src/strat.ml" 105 3278 3295 "src/strat.ml" 105 3278 3304
+type(
+  'a list
+)
+"src/strat.ml" 105 3278 3284 "src/strat.ml" 105 3278 3304
+type(
+  'a list * 'a list
+)
+"src/strat.ml" 106 3308 3315 "src/strat.ml" 106 3308 3317
+type(
+  'a
+)
+ident(
+  int_ref e1 "src/strat.ml" 105 3278 3284 "src/strat.ml" 105 3278 3286
+)
+"src/strat.ml" 106 3308 3318 "src/strat.ml" 106 3308 3319
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/strat.ml" 106 3308 3320 "src/strat.ml" 106 3308 3322
+type(
+  'a
+)
+ident(
+  int_ref e2 "src/strat.ml" 105 3278 3295 "src/strat.ml" 105 3278 3297
+)
+"src/strat.ml" 106 3308 3314 "src/strat.ml" 106 3308 3323
+type(
+  bool
+)
+"src/strat.ml" 106 3308 3324 "src/strat.ml" 106 3308 3326
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/strat.ml" 106 3308 3328 "src/strat.ml" 106 3308 3330
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  int_ref eq "src/strat.ml" 103 3218 3228 "src/strat.ml" 103 3218 3230
+)
+"src/strat.ml" 106 3308 3331 "src/strat.ml" 106 3308 3334
+type(
+  'a list
+)
+ident(
+  int_ref l1' "src/strat.ml" 105 3278 3290 "src/strat.ml" 105 3278 3293
+)
+"src/strat.ml" 106 3308 3335 "src/strat.ml" 106 3308 3338
+type(
+  'a list
+)
+ident(
+  int_ref l2' "src/strat.ml" 105 3278 3301 "src/strat.ml" 105 3278 3304
+)
+"src/strat.ml" 106 3308 3327 "src/strat.ml" 106 3308 3339
+call(
+  tail
+)
+type(
+  bool
+)
+"src/strat.ml" 106 3308 3314 "src/strat.ml" 106 3308 3339
+type(
+  bool
+)
+"src/strat.ml" 107 3340 3346 "src/strat.ml" 107 3340 3347
+type(
+  'a list * 'a list
+)
+"src/strat.ml" 107 3340 3351 "src/strat.ml" 107 3340 3356
+type(
+  bool
+)
+"src/strat.ml" 103 3218 3239 "src/strat.ml" 107 3340 3356
+type(
+  bool
+)
+"src/strat.ml" 109 3358 3368 "src/strat.ml" 109 3358 3374
+type(
+  'b -> 'b list -> 'b list -> bool * bool
+)
+ident(
+  def eq_mem "src/strat.ml" 109 3358 3360 "src/strat.ml" 231 6151 6154
+)
+"src/strat.ml" 109 3358 3375 "src/strat.ml" 109 3358 3376
+type(
+  'b
+)
+ident(
+  def i "src/strat.ml" 109 3358 3377 "src/strat.ml" 116 3583 3608
+)
+"src/strat.ml" 109 3358 3377 "src/strat.ml" 109 3358 3379
+type(
+  'b list
+)
+ident(
+  def l1 "src/strat.ml" 109 3358 3380 "src/strat.ml" 116 3583 3608
+)
+"src/strat.ml" 109 3358 3380 "src/strat.ml" 109 3358 3382
+type(
+  'b list
+)
+ident(
+  def l2 "src/strat.ml" 109 3358 3385 "src/strat.ml" 116 3583 3608
+)
+"src/strat.ml" 109 3358 3391 "src/strat.ml" 109 3358 3393
+type(
+  'b list
+)
+ident(
+  int_ref l1 "src/strat.ml" 109 3358 3377 "src/strat.ml" 109 3358 3379
+)
+"src/strat.ml" 109 3358 3395 "src/strat.ml" 109 3358 3397
+type(
+  'b list
+)
+ident(
+  int_ref l2 "src/strat.ml" 109 3358 3380 "src/strat.ml" 109 3358 3382
+)
+"src/strat.ml" 109 3358 3391 "src/strat.ml" 109 3358 3397
+type(
+  'b list * 'b list
+)
+"src/strat.ml" 110 3403 3409 "src/strat.ml" 110 3403 3411
+type(
+  'b list
+)
+"src/strat.ml" 110 3403 3413 "src/strat.ml" 110 3403 3415
+type(
+  'b list
+)
+"src/strat.ml" 110 3403 3409 "src/strat.ml" 110 3403 3415
+type(
+  'b list * 'b list
+)
+"src/strat.ml" 110 3403 3420 "src/strat.ml" 110 3403 3424
+type(
+  bool
+)
+"src/strat.ml" 110 3403 3426 "src/strat.ml" 110 3403 3431
+type(
+  bool
+)
+"src/strat.ml" 110 3403 3419 "src/strat.ml" 110 3403 3432
+type(
+  bool * bool
+)
+"src/strat.ml" 111 3433 3439 "src/strat.ml" 111 3433 3441
+type(
+  'b
+)
+ident(
+  def e1 "src/strat.ml" 112 3463 3469 "src/strat.ml" 115 3557 3582
+)
+"src/strat.ml" 111 3433 3445 "src/strat.ml" 111 3433 3448
+type(
+  'b list
+)
+ident(
+  def l1' "src/strat.ml" 112 3463 3469 "src/strat.ml" 115 3557 3582
+)
+"src/strat.ml" 111 3433 3439 "src/strat.ml" 111 3433 3448
+type(
+  'b list
+)
+"src/strat.ml" 111 3433 3450 "src/strat.ml" 111 3433 3452
+type(
+  'b
+)
+ident(
+  def e2 "src/strat.ml" 112 3463 3469 "src/strat.ml" 115 3557 3582
+)
+"src/strat.ml" 111 3433 3456 "src/strat.ml" 111 3433 3459
+type(
+  'b list
+)
+ident(
+  def l2' "src/strat.ml" 112 3463 3469 "src/strat.ml" 115 3557 3582
+)
+"src/strat.ml" 111 3433 3450 "src/strat.ml" 111 3433 3459
+type(
+  'b list
+)
+"src/strat.ml" 111 3433 3439 "src/strat.ml" 111 3433 3459
+type(
+  'b list * 'b list
+)
+"src/strat.ml" 112 3463 3472 "src/strat.ml" 112 3463 3474
+type(
+  'b
+)
+ident(
+  int_ref e1 "src/strat.ml" 111 3433 3439 "src/strat.ml" 111 3433 3441
+)
+"src/strat.ml" 112 3463 3475 "src/strat.ml" 112 3463 3476
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/strat.ml" 112 3463 3477 "src/strat.ml" 112 3463 3479
+type(
+  'b
+)
+ident(
+  int_ref e2 "src/strat.ml" 111 3433 3450 "src/strat.ml" 111 3433 3452
+)
+"src/strat.ml" 112 3463 3472 "src/strat.ml" 112 3463 3479
+type(
+  bool
+)
+"src/strat.ml" 113 3485 3496 "src/strat.ml" 113 3485 3498
+type(
+  'b
+)
+ident(
+  int_ref e1 "src/strat.ml" 111 3433 3439 "src/strat.ml" 111 3433 3441
+)
+"src/strat.ml" 113 3485 3499 "src/strat.ml" 113 3485 3500
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/strat.ml" 113 3485 3501 "src/strat.ml" 113 3485 3502
+type(
+  'b
+)
+ident(
+  int_ref i "src/strat.ml" 109 3358 3375 "src/strat.ml" 109 3358 3376
+)
+"src/strat.ml" 113 3485 3496 "src/strat.ml" 113 3485 3502
+type(
+  bool
+)
+"src/strat.ml" 113 3485 3509 "src/strat.ml" 113 3485 3511
+type(
+  'b list -> 'b list -> bool
+)
+ident(
+  int_ref eq "src/strat.ml" 103 3218 3228 "src/strat.ml" 103 3218 3230
+)
+"src/strat.ml" 113 3485 3512 "src/strat.ml" 113 3485 3515
+type(
+  'b list
+)
+ident(
+  int_ref l1' "src/strat.ml" 111 3433 3445 "src/strat.ml" 111 3433 3448
+)
+"src/strat.ml" 113 3485 3516 "src/strat.ml" 113 3485 3519
+type(
+  'b list
+)
+ident(
+  int_ref l2' "src/strat.ml" 111 3433 3456 "src/strat.ml" 111 3433 3459
+)
+"src/strat.ml" 113 3485 3509 "src/strat.ml" 113 3485 3519
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 113 3485 3521 "src/strat.ml" 113 3485 3525
+type(
+  bool
+)
+"src/strat.ml" 113 3485 3508 "src/strat.ml" 113 3485 3526
+type(
+  bool * bool
+)
+"src/strat.ml" 114 3527 3540 "src/strat.ml" 114 3527 3546
+type(
+  'b -> 'b list -> 'b list -> bool * bool
+)
+ident(
+  int_ref eq_mem "src/strat.ml" 109 3358 3368 "src/strat.ml" 109 3358 3374
+)
+"src/strat.ml" 114 3527 3547 "src/strat.ml" 114 3527 3548
+type(
+  'b
+)
+ident(
+  int_ref i "src/strat.ml" 109 3358 3375 "src/strat.ml" 109 3358 3376
+)
+"src/strat.ml" 114 3527 3549 "src/strat.ml" 114 3527 3552
+type(
+  'b list
+)
+ident(
+  int_ref l1' "src/strat.ml" 111 3433 3445 "src/strat.ml" 111 3433 3448
+)
+"src/strat.ml" 114 3527 3553 "src/strat.ml" 114 3527 3556
+type(
+  'b list
+)
+ident(
+  int_ref l2' "src/strat.ml" 111 3433 3456 "src/strat.ml" 111 3433 3459
+)
+"src/strat.ml" 114 3527 3540 "src/strat.ml" 114 3527 3556
+call(
+  tail
+)
+type(
+  bool * bool
+)
+"src/strat.ml" 113 3485 3493 "src/strat.ml" 114 3527 3556
+type(
+  bool * bool
+)
+"src/strat.ml" 115 3557 3569 "src/strat.ml" 115 3557 3574
+type(
+  bool
+)
+"src/strat.ml" 115 3557 3576 "src/strat.ml" 115 3557 3581
+type(
+  bool
+)
+"src/strat.ml" 115 3557 3568 "src/strat.ml" 115 3557 3582
+type(
+  bool * bool
+)
+"src/strat.ml" 112 3463 3469 "src/strat.ml" 115 3557 3582
+type(
+  bool * bool
+)
+"src/strat.ml" 116 3583 3589 "src/strat.ml" 116 3583 3590
+type(
+  'b list * 'b list
+)
+"src/strat.ml" 116 3583 3595 "src/strat.ml" 116 3583 3600
+type(
+  bool
+)
+"src/strat.ml" 116 3583 3602 "src/strat.ml" 116 3583 3607
+type(
+  bool
+)
+"src/strat.ml" 116 3583 3594 "src/strat.ml" 116 3583 3608
+type(
+  bool * bool
+)
+"src/strat.ml" 109 3358 3385 "src/strat.ml" 116 3583 3608
+type(
+  bool * bool
+)
+"src/strat.ml" 118 3610 3616 "src/strat.ml" 118 3610 3620
+type(
+  G.t -> G.vertex -> bool
+)
+ident(
+  def puit "src/strat.ml" 123 3685 3687 "src/strat.ml" 231 6151 6154
+)
+"src/strat.ml" 118 3610 3621 "src/strat.ml" 118 3610 3622
+type(
+  G.t
+)
+ident(
+  def g "src/strat.ml" 118 3610 3623 "src/strat.ml" 120 3666 3682
+)
+"src/strat.ml" 118 3610 3623 "src/strat.ml" 118 3610 3624
+type(
+  G.vertex
+)
+ident(
+  def v "src/strat.ml" 118 3610 3627 "src/strat.ml" 120 3666 3682
+)
+"src/strat.ml" 118 3610 3633 "src/strat.ml" 118 3610 3639
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  int_ref G.succ "src/strat.ml" 29 1383 1385 "src/strat.ml" 29 1383 1422
+)
+"src/strat.ml" 118 3610 3640 "src/strat.ml" 118 3610 3641
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 118 3610 3621 "src/strat.ml" 118 3610 3622
+)
+"src/strat.ml" 118 3610 3642 "src/strat.ml" 118 3610 3643
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 118 3610 3623 "src/strat.ml" 118 3610 3624
+)
+"src/strat.ml" 118 3610 3633 "src/strat.ml" 118 3610 3643
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"src/strat.ml" 119 3649 3655 "src/strat.ml" 119 3649 3657
+type(
+  G.vertex list
+)
+"src/strat.ml" 119 3649 3661 "src/strat.ml" 119 3649 3665
+type(
+  bool
+)
+"src/strat.ml" 120 3666 3672 "src/strat.ml" 120 3666 3673
+type(
+  G.vertex list
+)
+"src/strat.ml" 120 3666 3677 "src/strat.ml" 120 3666 3682
+type(
+  bool
+)
+"src/strat.ml" 118 3610 3627 "src/strat.ml" 120 3666 3682
+type(
+  bool
+)
+"src/strat.ml" 123 3685 3691 "src/strat.ml" 123 3685 3701
+type(
+  G.t -> P.t -> P.vertex list
+)
+ident(
+  def get_finals "src/strat.ml" 130 3803 3805 "src/strat.ml" 231 6151 6154
+)
+"src/strat.ml" 123 3685 3702 "src/strat.ml" 123 3685 3703
+type(
+  G.t
+)
+ident(
+  def g "src/strat.ml" 123 3685 3704 "src/strat.ml" 127 3773 3800
+)
+"src/strat.ml" 123 3685 3704 "src/strat.ml" 123 3685 3705
+type(
+  P.t
+)
+ident(
+  def p "src/strat.ml" 124 3708 3712 "src/strat.ml" 127 3773 3800
+)
+"src/strat.ml" 124 3708 3716 "src/strat.ml" 124 3708 3717
+type(
+  P.vertex -> P.vertex list -> P.vertex list
+)
+ident(
+  def f "src/strat.ml" 127 3773 3780 "src/strat.ml" 127 3773 3800
+)
+"src/strat.ml" 124 3708 3718 "src/strat.ml" 124 3708 3719
+type(
+  P.vertex
+)
+ident(
+  def a "src/strat.ml" 124 3708 3720 "src/strat.ml" 126 3760 3772
+)
+"src/strat.ml" 124 3708 3720 "src/strat.ml" 124 3708 3721
+type(
+  P.vertex list
+)
+ident(
+  def l "src/strat.ml" 125 3724 3730 "src/strat.ml" 126 3760 3772
+)
+"src/strat.ml" 125 3724 3733 "src/strat.ml" 125 3724 3743
+type(
+  P.t -> P.vertex -> bool
+)
+ident(
+  int_ref P.is_final "src/strat.ml" 45 1791 1793 "src/strat.ml" 45 1791 1827
+)
+"src/strat.ml" 125 3724 3744 "src/strat.ml" 125 3724 3745
+type(
+  P.t
+)
+ident(
+  int_ref p "src/strat.ml" 123 3685 3704 "src/strat.ml" 123 3685 3705
+)
+"src/strat.ml" 125 3724 3746 "src/strat.ml" 125 3724 3747
+type(
+  P.vertex
+)
+ident(
+  int_ref a "src/strat.ml" 124 3708 3718 "src/strat.ml" 124 3708 3719
+)
+"src/strat.ml" 125 3724 3733 "src/strat.ml" 125 3724 3747
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 125 3724 3753 "src/strat.ml" 125 3724 3754
+type(
+  P.vertex
+)
+ident(
+  int_ref a "src/strat.ml" 124 3708 3718 "src/strat.ml" 124 3708 3719
+)
+"src/strat.ml" 125 3724 3758 "src/strat.ml" 125 3724 3759
+type(
+  P.vertex list
+)
+ident(
+  int_ref l "src/strat.ml" 124 3708 3720 "src/strat.ml" 124 3708 3721
+)
+"src/strat.ml" 125 3724 3753 "src/strat.ml" 125 3724 3759
+type(
+  P.vertex list
+)
+"src/strat.ml" 126 3760 3771 "src/strat.ml" 126 3760 3772
+type(
+  P.vertex list
+)
+ident(
+  int_ref l "src/strat.ml" 124 3708 3720 "src/strat.ml" 124 3708 3721
+)
+"src/strat.ml" 125 3724 3730 "src/strat.ml" 126 3760 3772
+type(
+  P.vertex list
+)
+"src/strat.ml" 127 3773 3780 "src/strat.ml" 127 3773 3793
+type(
+  (G.vertex -> P.vertex list -> P.vertex list) ->
+  G.t -> P.vertex list -> P.vertex list
+)
+ident(
+  int_ref G.fold_vertex "src/strat.ml" 31 1424 1426 "src/strat.ml" 31 1424 1481
+)
+"src/strat.ml" 127 3773 3794 "src/strat.ml" 127 3773 3795
+type(
+  G.vertex -> P.vertex list -> P.vertex list
+)
+ident(
+  int_ref f "src/strat.ml" 124 3708 3716 "src/strat.ml" 124 3708 3717
+)
+"src/strat.ml" 127 3773 3796 "src/strat.ml" 127 3773 3797
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 123 3685 3702 "src/strat.ml" 123 3685 3703
+)
+"src/strat.ml" 127 3773 3798 "src/strat.ml" 127 3773 3800
+type(
+  P.vertex list
+)
+"src/strat.ml" 127 3773 3780 "src/strat.ml" 127 3773 3800
+call(
+  tail
+)
+type(
+  P.vertex list
+)
+"src/strat.ml" 124 3708 3712 "src/strat.ml" 127 3773 3800
+type(
+  P.vertex list
+)
+"src/strat.ml" 130 3803 3809 "src/strat.ml" 130 3803 3824
+type(
+  G.t -> P.t -> bool
+)
+ident(
+  def coherent_player "src/strat.ml" 134 3870 3872 "src/strat.ml" 231 6151 6154
+)
+"src/strat.ml" 130 3803 3825 "src/strat.ml" 130 3803 3826
+type(
+  G.t
+)
+ident(
+  def g "src/strat.ml" 130 3803 3827 "src/strat.ml" 131 3831 3867
+)
+"src/strat.ml" 130 3803 3827 "src/strat.ml" 130 3803 3828
+type(
+  P.t
+)
+ident(
+  def p "src/strat.ml" 131 3831 3835 "src/strat.ml" 131 3831 3867
+)
+"src/strat.ml" 131 3831 3835 "src/strat.ml" 131 3831 3847
+type(
+  G.t -> G.vertex -> bool
+)
+ident(
+  int_ref G.mem_vertex "src/strat.ml" 27 1343 1345 "src/strat.ml" 27 1343 1381
+)
+"src/strat.ml" 131 3831 3848 "src/strat.ml" 131 3831 3849
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 130 3803 3825 "src/strat.ml" 130 3803 3826
+)
+"src/strat.ml" 131 3831 3851 "src/strat.ml" 131 3831 3864
+type(
+  P.t -> P.vertex
+)
+ident(
+  int_ref P.get_initial "src/strat.ml" 44 1759 1761 "src/strat.ml" 44 1759 1790
+)
+"src/strat.ml" 131 3831 3865 "src/strat.ml" 131 3831 3866
+type(
+  P.t
+)
+ident(
+  int_ref p "src/strat.ml" 130 3803 3827 "src/strat.ml" 130 3803 3828
+)
+"src/strat.ml" 131 3831 3850 "src/strat.ml" 131 3831 3867
+call(
+  stack
+)
+type(
+  P.vertex
+)
+"src/strat.ml" 131 3831 3835 "src/strat.ml" 131 3831 3867
+call(
+  tail
+)
+type(
+  bool
+)
+"src/strat.ml" 134 3870 3876 "src/strat.ml" 134 3870 3890
+type(
+  G.t -> S.t -> bool
+)
+ident(
+  def coherent_strat "src/strat.ml" 144 4061 4063 "src/strat.ml" 231 6151 6154
+)
+"src/strat.ml" 134 3870 3891 "src/strat.ml" 134 3870 3892
+type(
+  G.t
+)
+ident(
+  def g "src/strat.ml" 134 3870 3893 "src/strat.ml" 141 4032 4058
+)
+"src/strat.ml" 134 3870 3893 "src/strat.ml" 134 3870 3894
+type(
+  S.t
+)
+ident(
+  def s "src/strat.ml" 135 3897 3901 "src/strat.ml" 141 4032 4058
+)
+"src/strat.ml" 135 3897 3905 "src/strat.ml" 135 3897 3906
+type(
+  S.vertex -> bool -> bool
+)
+ident(
+  def f "src/strat.ml" 141 4032 4036 "src/strat.ml" 141 4032 4058
+)
+"src/strat.ml" 135 3897 3907 "src/strat.ml" 135 3897 3908
+type(
+  S.vertex
+)
+ident(
+  def v "src/strat.ml" 135 3897 3909 "src/strat.ml" 139 3987 4024
+)
+"src/strat.ml" 135 3897 3909 "src/strat.ml" 135 3897 3910
+type(
+  bool
+)
+ident(
+  def b "src/strat.ml" 136 3913 3919 "src/strat.ml" 139 3987 4024
+)
+"src/strat.ml" 137 3923 3935 "src/strat.ml" 137 3923 3937
+type(
+  S.vertex
+)
+ident(
+  def v' "src/strat.ml" 138 3954 3962 "src/strat.ml" 138 3954 3986
+)
+"src/strat.ml" 137 3923 3940 "src/strat.ml" 137 3923 3946
+type(
+  S.t -> S.vertex -> S.vertex
+)
+ident(
+  int_ref S.next "src/strat.ml" 62 2069 2071 "src/strat.ml" 62 2069 2103
+)
+"src/strat.ml" 137 3923 3947 "src/strat.ml" 137 3923 3948
+type(
+  S.t
+)
+ident(
+  int_ref s "src/strat.ml" 134 3870 3893 "src/strat.ml" 134 3870 3894
+)
+"src/strat.ml" 137 3923 3949 "src/strat.ml" 137 3923 3950
+type(
+  S.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 135 3897 3907 "src/strat.ml" 135 3897 3908
+)
+"src/strat.ml" 137 3923 3940 "src/strat.ml" 137 3923 3950
+call(
+  stack
+)
+type(
+  S.vertex
+)
+"src/strat.ml" 138 3954 3962 "src/strat.ml" 138 3954 3963
+type(
+  bool
+)
+ident(
+  int_ref b "src/strat.ml" 135 3897 3909 "src/strat.ml" 135 3897 3910
+)
+"src/strat.ml" 138 3954 3964 "src/strat.ml" 138 3954 3966
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/strat.ml" 138 3954 3968 "src/strat.ml" 138 3954 3980
+type(
+  G.t -> G.vertex -> bool
+)
+ident(
+  int_ref G.mem_vertex "src/strat.ml" 27 1343 1345 "src/strat.ml" 27 1343 1381
+)
+"src/strat.ml" 138 3954 3981 "src/strat.ml" 138 3954 3982
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 134 3870 3891 "src/strat.ml" 134 3870 3892
+)
+"src/strat.ml" 138 3954 3983 "src/strat.ml" 138 3954 3985
+type(
+  S.vertex
+)
+ident(
+  int_ref v' "src/strat.ml" 137 3923 3935 "src/strat.ml" 137 3923 3937
+)
+"src/strat.ml" 138 3954 3967 "src/strat.ml" 138 3954 3986
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 138 3954 3962 "src/strat.ml" 138 3954 3986
+type(
+  bool
+)
+"src/strat.ml" 137 3923 3931 "src/strat.ml" 138 3954 3986
+type(
+  bool
+)
+"src/strat.ml" 139 3987 4015 "src/strat.ml" 139 3987 4016
+type(
+  string
+)
+"src/strat.ml" 139 3987 3998 "src/strat.ml" 139 3987 4016
+type(
+  exn
+)
+"src/strat.ml" 139 3987 4020 "src/strat.ml" 139 3987 4024
+type(
+  bool
+)
+"src/strat.ml" 136 3913 3919 "src/strat.ml" 139 3987 4024
+type(
+  bool
+)
+"src/strat.ml" 141 4032 4036 "src/strat.ml" 141 4032 4049
+type(
+  (G.vertex -> bool -> bool) -> G.t -> bool -> bool
+)
+ident(
+  int_ref G.fold_vertex "src/strat.ml" 31 1424 1426 "src/strat.ml" 31 1424 1481
+)
+"src/strat.ml" 141 4032 4050 "src/strat.ml" 141 4032 4051
+type(
+  G.vertex -> bool -> bool
+)
+ident(
+  int_ref f "src/strat.ml" 135 3897 3905 "src/strat.ml" 135 3897 3906
+)
+"src/strat.ml" 141 4032 4052 "src/strat.ml" 141 4032 4053
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 134 3870 3891 "src/strat.ml" 134 3870 3892
+)
+"src/strat.ml" 141 4032 4054 "src/strat.ml" 141 4032 4058
+type(
+  bool
+)
+"src/strat.ml" 141 4032 4036 "src/strat.ml" 141 4032 4058
+call(
+  tail
+)
+type(
+  bool
+)
+"src/strat.ml" 135 3897 3901 "src/strat.ml" 141 4032 4058
+type(
+  bool
+)
+"src/strat.ml" 144 4061 4067 "src/strat.ml" 144 4061 4071
+type(
+  'c -> P.t -> S.t -> S.t -> bool
+)
+ident(
+  def game "src/strat.ml" 162 4433 4435 "src/strat.ml" 231 6151 6154
+)
+"src/strat.ml" 144 4061 4072 "src/strat.ml" 144 4061 4073
+type(
+  'c
+)
+"src/strat.ml" 144 4061 4074 "src/strat.ml" 144 4061 4075
+type(
+  P.t
+)
+ident(
+  def p "src/strat.ml" 144 4061 4076 "src/strat.ml" 159 4389 4430
+)
+"src/strat.ml" 144 4061 4076 "src/strat.ml" 144 4061 4077
+type(
+  S.t
+)
+ident(
+  def a "src/strat.ml" 144 4061 4078 "src/strat.ml" 159 4389 4430
+)
+"src/strat.ml" 144 4061 4078 "src/strat.ml" 144 4061 4079
+type(
+  S.t
+)
+ident(
+  def b "src/strat.ml" 146 4083 4087 "src/strat.ml" 159 4389 4430
+)
+"src/strat.ml" 146 4083 4095 "src/strat.ml" 146 4083 4103
+type(
+  SetV.t -> SetV.elt -> bool
+)
+ident(
+  def game_aux "src/strat.ml" 146 4083 4087 "src/strat.ml" 159 4389 4430
+)
+"src/strat.ml" 146 4083 4104 "src/strat.ml" 146 4083 4105
+type(
+  SetV.t
+)
+ident(
+  def l "src/strat.ml" 146 4083 4106 "src/strat.ml" 156 4357 4380
+)
+"src/strat.ml" 146 4083 4106 "src/strat.ml" 146 4083 4108
+type(
+  SetV.elt
+)
+ident(
+  def pi "src/strat.ml" 147 4111 4117 "src/strat.ml" 156 4357 4380
+)
+"src/strat.ml" 147 4111 4121 "src/strat.ml" 147 4111 4129
+type(
+  S.t -> bool
+)
+ident(
+  def continue "src/strat.ml" 152 4245 4251 "src/strat.ml" 156 4357 4380
+)
+"src/strat.ml" 147 4111 4130 "src/strat.ml" 147 4111 4131
+type(
+  S.t
+)
+ident(
+  def x "src/strat.ml" 148 4134 4142 "src/strat.ml" 150 4195 4235
+)
+"src/strat.ml" 149 4146 4156 "src/strat.ml" 149 4146 4164
+type(
+  SetV.t -> SetV.elt -> bool
+)
+ident(
+  int_ref game_aux "src/strat.ml" 146 4083 4095 "src/strat.ml" 146 4083 4103
+)
+"src/strat.ml" 149 4146 4166 "src/strat.ml" 149 4146 4174
+type(
+  SetV.elt -> SetV.t -> SetV.t
+)
+ident(
+  ext_ref SetV.add
+)
+"src/strat.ml" 149 4146 4175 "src/strat.ml" 149 4146 4177
+type(
+  SetV.elt
+)
+ident(
+  int_ref pi "src/strat.ml" 146 4083 4106 "src/strat.ml" 146 4083 4108
+)
+"src/strat.ml" 149 4146 4178 "src/strat.ml" 149 4146 4179
+type(
+  SetV.t
+)
+ident(
+  int_ref l "src/strat.ml" 146 4083 4104 "src/strat.ml" 146 4083 4105
+)
+"src/strat.ml" 149 4146 4165 "src/strat.ml" 149 4146 4180
+call(
+  stack
+)
+type(
+  SetV.t
+)
+"src/strat.ml" 149 4146 4182 "src/strat.ml" 149 4146 4188
+type(
+  S.t -> S.vertex -> S.vertex
+)
+ident(
+  int_ref S.next "src/strat.ml" 62 2069 2071 "src/strat.ml" 62 2069 2103
+)
+"src/strat.ml" 149 4146 4189 "src/strat.ml" 149 4146 4190
+type(
+  S.t
+)
+ident(
+  int_ref x "src/strat.ml" 147 4111 4130 "src/strat.ml" 147 4111 4131
+)
+"src/strat.ml" 149 4146 4191 "src/strat.ml" 149 4146 4193
+type(
+  SetV.elt
+)
+ident(
+  int_ref pi "src/strat.ml" 146 4083 4106 "src/strat.ml" 146 4083 4108
+)
+"src/strat.ml" 149 4146 4181 "src/strat.ml" 149 4146 4194
+call(
+  stack
+)
+type(
+  S.vertex
+)
+"src/strat.ml" 149 4146 4156 "src/strat.ml" 149 4146 4194
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 150 4195 4225 "src/strat.ml" 150 4195 4226
+type(
+  string
+)
+"src/strat.ml" 150 4195 4208 "src/strat.ml" 150 4195 4226
+type(
+  exn
+)
+"src/strat.ml" 150 4195 4230 "src/strat.ml" 150 4195 4235
+type(
+  bool
+)
+"src/strat.ml" 148 4134 4142 "src/strat.ml" 150 4195 4235
+type(
+  bool
+)
+"src/strat.ml" 152 4245 4252 "src/strat.ml" 152 4245 4262
+type(
+  P.t -> P.vertex -> bool
+)
+ident(
+  int_ref P.is_final "src/strat.ml" 45 1791 1793 "src/strat.ml" 45 1791 1827
+)
+"src/strat.ml" 152 4245 4263 "src/strat.ml" 152 4245 4264
+type(
+  P.t
+)
+ident(
+  int_ref p "src/strat.ml" 144 4061 4074 "src/strat.ml" 144 4061 4075
+)
+"src/strat.ml" 152 4245 4265 "src/strat.ml" 152 4245 4267
+type(
+  SetV.elt
+)
+ident(
+  int_ref pi "src/strat.ml" 146 4083 4106 "src/strat.ml" 146 4083 4108
+)
+"src/strat.ml" 152 4245 4251 "src/strat.ml" 152 4245 4268
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 152 4245 4269 "src/strat.ml" 152 4245 4271
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/strat.ml" 153 4272 4282 "src/strat.ml" 153 4272 4290
+type(
+  SetV.elt -> SetV.t -> bool
+)
+ident(
+  ext_ref SetV.mem
+)
+"src/strat.ml" 153 4272 4291 "src/strat.ml" 153 4272 4293
+type(
+  SetV.elt
+)
+ident(
+  int_ref pi "src/strat.ml" 146 4083 4106 "src/strat.ml" 146 4083 4108
+)
+"src/strat.ml" 153 4272 4294 "src/strat.ml" 153 4272 4295
+type(
+  SetV.t
+)
+ident(
+  int_ref l "src/strat.ml" 146 4083 4104 "src/strat.ml" 146 4083 4105
+)
+"src/strat.ml" 153 4272 4282 "src/strat.ml" 153 4272 4295
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 153 4272 4301 "src/strat.ml" 153 4272 4306
+type(
+  bool
+)
+"src/strat.ml" 155 4319 4329 "src/strat.ml" 155 4319 4335
+type(
+  P.t -> P.vertex -> bool
+)
+ident(
+  int_ref P.turn "src/strat.ml" 47 1829 1831 "src/strat.ml" 47 1829 1861
+)
+"src/strat.ml" 155 4319 4336 "src/strat.ml" 155 4319 4337
+type(
+  P.t
+)
+ident(
+  int_ref p "src/strat.ml" 144 4061 4074 "src/strat.ml" 144 4061 4075
+)
+"src/strat.ml" 155 4319 4338 "src/strat.ml" 155 4319 4340
+type(
+  SetV.elt
+)
+ident(
+  int_ref pi "src/strat.ml" 146 4083 4106 "src/strat.ml" 146 4083 4108
+)
+"src/strat.ml" 155 4319 4329 "src/strat.ml" 155 4319 4340
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 155 4319 4346 "src/strat.ml" 155 4319 4354
+type(
+  S.t -> bool
+)
+ident(
+  int_ref continue "src/strat.ml" 147 4111 4121 "src/strat.ml" 147 4111 4129
+)
+"src/strat.ml" 155 4319 4355 "src/strat.ml" 155 4319 4356
+type(
+  S.t
+)
+ident(
+  int_ref a "src/strat.ml" 144 4061 4076 "src/strat.ml" 144 4061 4077
+)
+"src/strat.ml" 155 4319 4346 "src/strat.ml" 155 4319 4356
+call(
+  tail
+)
+type(
+  bool
+)
+"src/strat.ml" 156 4357 4369 "src/strat.ml" 156 4357 4377
+type(
+  S.t -> bool
+)
+ident(
+  int_ref continue "src/strat.ml" 147 4111 4121 "src/strat.ml" 147 4111 4129
+)
+"src/strat.ml" 156 4357 4378 "src/strat.ml" 156 4357 4379
+type(
+  S.t
+)
+ident(
+  int_ref b "src/strat.ml" 144 4061 4078 "src/strat.ml" 144 4061 4079
+)
+"src/strat.ml" 156 4357 4369 "src/strat.ml" 156 4357 4379
+call(
+  tail
+)
+type(
+  bool
+)
+"src/strat.ml" 155 4319 4326 "src/strat.ml" 156 4357 4379
+type(
+  bool
+)
+"src/strat.ml" 153 4272 4278 "src/strat.ml" 156 4357 4380
+type(
+  bool
+)
+"src/strat.ml" 152 4245 4251 "src/strat.ml" 156 4357 4380
+type(
+  bool
+)
+"src/strat.ml" 147 4111 4117 "src/strat.ml" 156 4357 4380
+type(
+  bool
+)
+"src/strat.ml" 159 4389 4393 "src/strat.ml" 159 4389 4401
+type(
+  SetV.t -> SetV.elt -> bool
+)
+ident(
+  int_ref game_aux "src/strat.ml" 146 4083 4095 "src/strat.ml" 146 4083 4103
+)
+"src/strat.ml" 159 4389 4402 "src/strat.ml" 159 4389 4412
+type(
+  SetV.t
+)
+ident(
+  ext_ref SetV.empty
+)
+"src/strat.ml" 159 4389 4414 "src/strat.ml" 159 4389 4427
+type(
+  P.t -> P.vertex
+)
+ident(
+  int_ref P.get_initial "src/strat.ml" 44 1759 1761 "src/strat.ml" 44 1759 1790
+)
+"src/strat.ml" 159 4389 4428 "src/strat.ml" 159 4389 4429
+type(
+  P.t
+)
+ident(
+  int_ref p "src/strat.ml" 144 4061 4074 "src/strat.ml" 144 4061 4075
+)
+"src/strat.ml" 159 4389 4413 "src/strat.ml" 159 4389 4430
+call(
+  stack
+)
+type(
+  P.vertex
+)
+"src/strat.ml" 159 4389 4393 "src/strat.ml" 159 4389 4430
+call(
+  tail
+)
+type(
+  bool
+)
+"src/strat.ml" 146 4083 4087 "src/strat.ml" 159 4389 4430
+type(
+  bool
+)
+"src/strat.ml" 162 4433 4439 "src/strat.ml" 162 4433 4447
+type(
+  G.t -> P.t -> S.t -> G.vertex list -> G.vertex list
+)
+ident(
+  def attract1 "src/strat.ml" 181 4869 4871 "src/strat.ml" 231 6151 6154
+)
+"src/strat.ml" 162 4433 4448 "src/strat.ml" 162 4433 4449
+type(
+  G.t
+)
+ident(
+  def g "src/strat.ml" 162 4433 4450 "src/strat.ml" 178 4843 4866
+)
+"src/strat.ml" 162 4433 4450 "src/strat.ml" 162 4433 4451
+type(
+  P.t
+)
+ident(
+  def p "src/strat.ml" 162 4433 4452 "src/strat.ml" 178 4843 4866
+)
+"src/strat.ml" 162 4433 4452 "src/strat.ml" 162 4433 4453
+type(
+  S.t
+)
+ident(
+  def s "src/strat.ml" 162 4433 4454 "src/strat.ml" 178 4843 4866
+)
+"src/strat.ml" 162 4433 4454 "src/strat.ml" 162 4433 4455
+type(
+  G.vertex list
+)
+ident(
+  def l "src/strat.ml" 163 4458 4462 "src/strat.ml" 178 4843 4866
+)
+"src/strat.ml" 163 4458 4466 "src/strat.ml" 163 4458 4467
+type(
+  P.vertex -> G.vertex list -> G.vertex list
+)
+ident(
+  def f "src/strat.ml" 178 4843 4847 "src/strat.ml" 178 4843 4866
+)
+"src/strat.ml" 163 4458 4468 "src/strat.ml" 163 4458 4469
+type(
+  P.vertex
+)
+ident(
+  def v "src/strat.ml" 163 4458 4470 "src/strat.ml" 176 4822 4835
+)
+"src/strat.ml" 163 4458 4470 "src/strat.ml" 163 4458 4472
+type(
+  G.vertex list
+)
+ident(
+  def l1 "src/strat.ml" 164 4475 4481 "src/strat.ml" 176 4822 4835
+)
+"src/strat.ml" 164 4475 4484 "src/strat.ml" 164 4475 4487
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/strat.ml" 164 4475 4489 "src/strat.ml" 164 4475 4497
+type(
+  P.vertex -> G.vertex list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"src/strat.ml" 164 4475 4498 "src/strat.ml" 164 4475 4499
+type(
+  P.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 163 4458 4468 "src/strat.ml" 163 4458 4469
+)
+"src/strat.ml" 164 4475 4500 "src/strat.ml" 164 4475 4502
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 163 4458 4470 "src/strat.ml" 163 4458 4472
+)
+"src/strat.ml" 164 4475 4488 "src/strat.ml" 164 4475 4503
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 164 4475 4484 "src/strat.ml" 164 4475 4503
+type(
+  bool
+)
+"src/strat.ml" 165 4509 4520 "src/strat.ml" 165 4509 4526
+type(
+  P.t -> P.vertex -> bool
+)
+ident(
+  int_ref P.turn "src/strat.ml" 47 1829 1831 "src/strat.ml" 47 1829 1861
+)
+"src/strat.ml" 165 4509 4527 "src/strat.ml" 165 4509 4528
+type(
+  P.t
+)
+ident(
+  int_ref p "src/strat.ml" 162 4433 4450 "src/strat.ml" 162 4433 4451
+)
+"src/strat.ml" 165 4509 4529 "src/strat.ml" 165 4509 4530
+type(
+  P.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 163 4458 4468 "src/strat.ml" 163 4458 4469
+)
+"src/strat.ml" 165 4509 4520 "src/strat.ml" 165 4509 4530
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 167 4550 4565 "src/strat.ml" 167 4550 4573
+type(
+  S.vertex -> G.vertex list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"src/strat.ml" 167 4550 4575 "src/strat.ml" 167 4550 4581
+type(
+  S.t -> S.vertex -> S.vertex
+)
+ident(
+  int_ref S.next "src/strat.ml" 62 2069 2071 "src/strat.ml" 62 2069 2103
+)
+"src/strat.ml" 167 4550 4582 "src/strat.ml" 167 4550 4583
+type(
+  S.t
+)
+ident(
+  int_ref s "src/strat.ml" 162 4433 4452 "src/strat.ml" 162 4433 4453
+)
+"src/strat.ml" 167 4550 4584 "src/strat.ml" 167 4550 4585
+type(
+  P.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 163 4458 4468 "src/strat.ml" 163 4458 4469
+)
+"src/strat.ml" 167 4550 4574 "src/strat.ml" 167 4550 4586
+call(
+  stack
+)
+type(
+  S.vertex
+)
+"src/strat.ml" 167 4550 4587 "src/strat.ml" 167 4550 4589
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 163 4458 4470 "src/strat.ml" 163 4458 4472
+)
+"src/strat.ml" 167 4550 4565 "src/strat.ml" 167 4550 4589
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 167 4550 4595 "src/strat.ml" 167 4550 4596
+type(
+  P.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 163 4458 4468 "src/strat.ml" 163 4458 4469
+)
+"src/strat.ml" 167 4550 4600 "src/strat.ml" 167 4550 4602
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 163 4458 4470 "src/strat.ml" 163 4458 4472
+)
+"src/strat.ml" 167 4550 4595 "src/strat.ml" 167 4550 4602
+type(
+  G.vertex list
+)
+"src/strat.ml" 168 4603 4620 "src/strat.ml" 168 4603 4622
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 163 4458 4470 "src/strat.ml" 163 4458 4472
+)
+"src/strat.ml" 167 4550 4562 "src/strat.ml" 168 4603 4622
+type(
+  G.vertex list
+)
+"src/strat.ml" 169 4623 4655 "src/strat.ml" 169 4623 4656
+type(
+  string
+)
+"src/strat.ml" 169 4623 4638 "src/strat.ml" 169 4623 4656
+type(
+  exn
+)
+"src/strat.ml" 169 4623 4660 "src/strat.ml" 169 4623 4662
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 163 4458 4470 "src/strat.ml" 163 4458 4472
+)
+"src/strat.ml" 166 4536 4546 "src/strat.ml" 169 4623 4662
+type(
+  G.vertex list
+)
+"src/strat.ml" 171 4676 4687 "src/strat.ml" 171 4676 4691
+type(
+  G.t -> G.vertex -> bool
+)
+ident(
+  int_ref puit "src/strat.ml" 118 3610 3616 "src/strat.ml" 118 3610 3620
+)
+"src/strat.ml" 171 4676 4692 "src/strat.ml" 171 4676 4693
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 162 4433 4448 "src/strat.ml" 162 4433 4449
+)
+"src/strat.ml" 171 4676 4694 "src/strat.ml" 171 4676 4695
+type(
+  P.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 163 4458 4468 "src/strat.ml" 163 4458 4469
+)
+"src/strat.ml" 171 4676 4687 "src/strat.ml" 171 4676 4695
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 171 4676 4701 "src/strat.ml" 171 4676 4703
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 163 4458 4470 "src/strat.ml" 163 4458 4472
+)
+"src/strat.ml" 173 4717 4728 "src/strat.ml" 173 4717 4739
+type(
+  (G.vertex -> bool -> bool) -> G.t -> G.vertex -> bool -> bool
+)
+ident(
+  int_ref G.fold_succ "src/strat.ml" 32 1482 1484 "src/strat.ml" 32 1482 1547
+)
+"src/strat.ml" 173 4717 4745 "src/strat.ml" 173 4717 4747
+type(
+  G.vertex
+)
+ident(
+  def v' "src/strat.ml" 173 4717 4748 "src/strat.ml" 173 4717 4774
+)
+"src/strat.ml" 173 4717 4748 "src/strat.ml" 173 4717 4749
+type(
+  bool
+)
+ident(
+  def b "src/strat.ml" 173 4717 4753 "src/strat.ml" 173 4717 4774
+)
+"src/strat.ml" 173 4717 4753 "src/strat.ml" 173 4717 4754
+type(
+  bool
+)
+ident(
+  int_ref b "src/strat.ml" 173 4717 4748 "src/strat.ml" 173 4717 4749
+)
+"src/strat.ml" 173 4717 4755 "src/strat.ml" 173 4717 4757
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/strat.ml" 173 4717 4759 "src/strat.ml" 173 4717 4767
+type(
+  G.vertex -> G.vertex list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"src/strat.ml" 173 4717 4768 "src/strat.ml" 173 4717 4770
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/strat.ml" 173 4717 4745 "src/strat.ml" 173 4717 4747
+)
+"src/strat.ml" 173 4717 4771 "src/strat.ml" 173 4717 4773
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 163 4458 4470 "src/strat.ml" 163 4458 4472
+)
+"src/strat.ml" 173 4717 4758 "src/strat.ml" 173 4717 4774
+call(
+  tail
+)
+type(
+  bool
+)
+"src/strat.ml" 173 4717 4753 "src/strat.ml" 173 4717 4774
+type(
+  bool
+)
+"src/strat.ml" 173 4717 4740 "src/strat.ml" 173 4717 4775
+type(
+  G.vertex -> bool -> bool
+)
+"src/strat.ml" 173 4717 4776 "src/strat.ml" 173 4717 4777
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 162 4433 4448 "src/strat.ml" 162 4433 4449
+)
+"src/strat.ml" 173 4717 4778 "src/strat.ml" 173 4717 4779
+type(
+  P.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 163 4458 4468 "src/strat.ml" 163 4458 4469
+)
+"src/strat.ml" 173 4717 4780 "src/strat.ml" 173 4717 4784
+type(
+  bool
+)
+"src/strat.ml" 173 4717 4728 "src/strat.ml" 173 4717 4784
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 174 4785 4798 "src/strat.ml" 174 4785 4799
+type(
+  P.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 163 4458 4468 "src/strat.ml" 163 4458 4469
+)
+"src/strat.ml" 174 4785 4803 "src/strat.ml" 174 4785 4805
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 163 4458 4470 "src/strat.ml" 163 4458 4472
+)
+"src/strat.ml" 174 4785 4798 "src/strat.ml" 174 4785 4805
+type(
+  G.vertex list
+)
+"src/strat.ml" 175 4806 4819 "src/strat.ml" 175 4806 4821
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 163 4458 4470 "src/strat.ml" 163 4458 4472
+)
+"src/strat.ml" 173 4717 4725 "src/strat.ml" 175 4806 4821
+type(
+  G.vertex list
+)
+"src/strat.ml" 171 4676 4684 "src/strat.ml" 175 4806 4821
+type(
+  G.vertex list
+)
+"src/strat.ml" 165 4509 4517 "src/strat.ml" 175 4806 4821
+type(
+  G.vertex list
+)
+"src/strat.ml" 176 4822 4833 "src/strat.ml" 176 4822 4835
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 163 4458 4470 "src/strat.ml" 163 4458 4472
+)
+"src/strat.ml" 164 4475 4481 "src/strat.ml" 176 4822 4835
+type(
+  G.vertex list
+)
+"src/strat.ml" 178 4843 4847 "src/strat.ml" 178 4843 4860
+type(
+  (G.vertex -> G.vertex list -> G.vertex list) ->
+  G.t -> G.vertex list -> G.vertex list
+)
+ident(
+  int_ref G.fold_vertex "src/strat.ml" 31 1424 1426 "src/strat.ml" 31 1424 1481
+)
+"src/strat.ml" 178 4843 4861 "src/strat.ml" 178 4843 4862
+type(
+  G.vertex -> G.vertex list -> G.vertex list
+)
+ident(
+  int_ref f "src/strat.ml" 163 4458 4466 "src/strat.ml" 163 4458 4467
+)
+"src/strat.ml" 178 4843 4863 "src/strat.ml" 178 4843 4864
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 162 4433 4448 "src/strat.ml" 162 4433 4449
+)
+"src/strat.ml" 178 4843 4865 "src/strat.ml" 178 4843 4866
+type(
+  G.vertex list
+)
+ident(
+  int_ref l "src/strat.ml" 162 4433 4454 "src/strat.ml" 162 4433 4455
+)
+"src/strat.ml" 178 4843 4847 "src/strat.ml" 178 4843 4866
+call(
+  tail
+)
+type(
+  G.vertex list
+)
+"src/strat.ml" 163 4458 4462 "src/strat.ml" 178 4843 4866
+type(
+  G.vertex list
+)
+"src/strat.ml" 181 4869 4875 "src/strat.ml" 181 4869 4883
+type(
+  G.t -> P.t -> S.t -> bool
+)
+ident(
+  def strategy "src/strat.ml" 193 5141 5143 "src/strat.ml" 231 6151 6154
+)
+"src/strat.ml" 181 4869 4884 "src/strat.ml" 181 4869 4885
+type(
+  G.t
+)
+ident(
+  def g "src/strat.ml" 181 4869 4886 "src/strat.ml" 190 5091 5138
+)
+"src/strat.ml" 181 4869 4886 "src/strat.ml" 181 4869 4887
+type(
+  P.t
+)
+ident(
+  def p "src/strat.ml" 181 4869 4888 "src/strat.ml" 190 5091 5138
+)
+"src/strat.ml" 181 4869 4888 "src/strat.ml" 181 4869 4889
+type(
+  S.t
+)
+ident(
+  def s "src/strat.ml" 183 4893 4897 "src/strat.ml" 190 5091 5138
+)
+"src/strat.ml" 183 4893 4905 "src/strat.ml" 183 4893 4917
+type(
+  P.vertex list -> P.vertex list -> bool
+)
+ident(
+  def strategy_aux "src/strat.ml" 183 4893 4897 "src/strat.ml" 190 5091 5138
+)
+"src/strat.ml" 183 4893 4918 "src/strat.ml" 183 4893 4920
+type(
+  P.vertex list
+)
+ident(
+  def l1 "src/strat.ml" 183 4893 4921 "src/strat.ml" 186 5001 5047
+)
+"src/strat.ml" 183 4893 4921 "src/strat.ml" 183 4893 4923
+type(
+  P.vertex list
+)
+ident(
+  def l2 "src/strat.ml" 184 4926 4932 "src/strat.ml" 186 5001 5047
+)
+"src/strat.ml" 184 4926 4937 "src/strat.ml" 184 4926 4939
+type(
+  bool
+)
+ident(
+  def b1 "src/strat.ml" 185 4981 4987 "src/strat.ml" 186 5001 5047
+)
+"src/strat.ml" 184 4926 4941 "src/strat.ml" 184 4926 4943
+type(
+  bool
+)
+ident(
+  def b2 "src/strat.ml" 185 4981 4987 "src/strat.ml" 186 5001 5047
+)
+"src/strat.ml" 184 4926 4936 "src/strat.ml" 184 4926 4944
+type(
+  bool * bool
+)
+"src/strat.ml" 184 4926 4947 "src/strat.ml" 184 4926 4953
+type(
+  P.vertex -> P.vertex list -> P.vertex list -> bool * bool
+)
+ident(
+  int_ref eq_mem "src/strat.ml" 109 3358 3368 "src/strat.ml" 109 3358 3374
+)
+"src/strat.ml" 184 4926 4955 "src/strat.ml" 184 4926 4968
+type(
+  P.t -> P.vertex
+)
+ident(
+  int_ref P.get_initial "src/strat.ml" 44 1759 1761 "src/strat.ml" 44 1759 1790
+)
+"src/strat.ml" 184 4926 4969 "src/strat.ml" 184 4926 4970
+type(
+  P.t
+)
+ident(
+  int_ref p "src/strat.ml" 181 4869 4886 "src/strat.ml" 181 4869 4887
+)
+"src/strat.ml" 184 4926 4954 "src/strat.ml" 184 4926 4971
+call(
+  stack
+)
+type(
+  P.vertex
+)
+"src/strat.ml" 184 4926 4972 "src/strat.ml" 184 4926 4974
+type(
+  P.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 183 4893 4918 "src/strat.ml" 183 4893 4920
+)
+"src/strat.ml" 184 4926 4975 "src/strat.ml" 184 4926 4977
+type(
+  P.vertex list
+)
+ident(
+  int_ref l2 "src/strat.ml" 183 4893 4921 "src/strat.ml" 183 4893 4923
+)
+"src/strat.ml" 184 4926 4947 "src/strat.ml" 184 4926 4977
+call(
+  stack
+)
+type(
+  bool * bool
+)
+"src/strat.ml" 185 4981 4990 "src/strat.ml" 185 4981 4992
+type(
+  bool
+)
+ident(
+  int_ref b1 "src/strat.ml" 184 4926 4937 "src/strat.ml" 184 4926 4939
+)
+"src/strat.ml" 185 4981 4998 "src/strat.ml" 185 4981 5000
+type(
+  bool
+)
+ident(
+  int_ref b2 "src/strat.ml" 184 4926 4941 "src/strat.ml" 184 4926 4943
+)
+"src/strat.ml" 186 5001 5012 "src/strat.ml" 186 5001 5024
+type(
+  P.vertex list -> P.vertex list -> bool
+)
+ident(
+  int_ref strategy_aux "src/strat.ml" 183 4893 4905 "src/strat.ml" 183 4893 4917
+)
+"src/strat.ml" 186 5001 5026 "src/strat.ml" 186 5001 5034
+type(
+  G.t -> P.t -> S.t -> P.vertex list -> P.vertex list
+)
+ident(
+  int_ref attract1 "src/strat.ml" 162 4433 4439 "src/strat.ml" 162 4433 4447
+)
+"src/strat.ml" 186 5001 5035 "src/strat.ml" 186 5001 5036
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 181 4869 4884 "src/strat.ml" 181 4869 4885
+)
+"src/strat.ml" 186 5001 5037 "src/strat.ml" 186 5001 5038
+type(
+  P.t
+)
+ident(
+  int_ref p "src/strat.ml" 181 4869 4886 "src/strat.ml" 181 4869 4887
+)
+"src/strat.ml" 186 5001 5039 "src/strat.ml" 186 5001 5040
+type(
+  S.t
+)
+ident(
+  int_ref s "src/strat.ml" 181 4869 4888 "src/strat.ml" 181 4869 4889
+)
+"src/strat.ml" 186 5001 5041 "src/strat.ml" 186 5001 5043
+type(
+  P.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 183 4893 4918 "src/strat.ml" 183 4893 4920
+)
+"src/strat.ml" 186 5001 5025 "src/strat.ml" 186 5001 5044
+call(
+  stack
+)
+type(
+  P.vertex list
+)
+"src/strat.ml" 186 5001 5045 "src/strat.ml" 186 5001 5047
+type(
+  P.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 183 4893 4918 "src/strat.ml" 183 4893 4920
+)
+"src/strat.ml" 186 5001 5012 "src/strat.ml" 186 5001 5047
+call(
+  tail
+)
+type(
+  bool
+)
+"src/strat.ml" 185 4981 4987 "src/strat.ml" 186 5001 5047
+type(
+  bool
+)
+"src/strat.ml" 184 4926 4932 "src/strat.ml" 186 5001 5047
+type(
+  bool
+)
+"src/strat.ml" 189 5056 5064 "src/strat.ml" 189 5056 5070
+type(
+  P.vertex list
+)
+ident(
+  def finaux "src/strat.ml" 190 5091 5095 "src/strat.ml" 190 5091 5138
+)
+"src/strat.ml" 189 5056 5073 "src/strat.ml" 189 5056 5083
+type(
+  G.t -> P.t -> P.vertex list
+)
+ident(
+  int_ref get_finals "src/strat.ml" 123 3685 3691 "src/strat.ml" 123 3685 3701
+)
+"src/strat.ml" 189 5056 5084 "src/strat.ml" 189 5056 5085
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 181 4869 4884 "src/strat.ml" 181 4869 4885
+)
+"src/strat.ml" 189 5056 5086 "src/strat.ml" 189 5056 5087
+type(
+  P.t
+)
+ident(
+  int_ref p "src/strat.ml" 181 4869 4886 "src/strat.ml" 181 4869 4887
+)
+"src/strat.ml" 189 5056 5073 "src/strat.ml" 189 5056 5087
+call(
+  stack
+)
+type(
+  P.vertex list
+)
+"src/strat.ml" 190 5091 5095 "src/strat.ml" 190 5091 5107
+type(
+  P.vertex list -> P.vertex list -> bool
+)
+ident(
+  int_ref strategy_aux "src/strat.ml" 183 4893 4905 "src/strat.ml" 183 4893 4917
+)
+"src/strat.ml" 190 5091 5109 "src/strat.ml" 190 5091 5117
+type(
+  G.t -> P.t -> S.t -> P.vertex list -> P.vertex list
+)
+ident(
+  int_ref attract1 "src/strat.ml" 162 4433 4439 "src/strat.ml" 162 4433 4447
+)
+"src/strat.ml" 190 5091 5118 "src/strat.ml" 190 5091 5119
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 181 4869 4884 "src/strat.ml" 181 4869 4885
+)
+"src/strat.ml" 190 5091 5120 "src/strat.ml" 190 5091 5121
+type(
+  P.t
+)
+ident(
+  int_ref p "src/strat.ml" 181 4869 4886 "src/strat.ml" 181 4869 4887
+)
+"src/strat.ml" 190 5091 5122 "src/strat.ml" 190 5091 5123
+type(
+  S.t
+)
+ident(
+  int_ref s "src/strat.ml" 181 4869 4888 "src/strat.ml" 181 4869 4889
+)
+"src/strat.ml" 190 5091 5124 "src/strat.ml" 190 5091 5130
+type(
+  P.vertex list
+)
+ident(
+  int_ref finaux "src/strat.ml" 189 5056 5064 "src/strat.ml" 189 5056 5070
+)
+"src/strat.ml" 190 5091 5108 "src/strat.ml" 190 5091 5131
+call(
+  stack
+)
+type(
+  P.vertex list
+)
+"src/strat.ml" 190 5091 5132 "src/strat.ml" 190 5091 5138
+type(
+  P.vertex list
+)
+ident(
+  int_ref finaux "src/strat.ml" 189 5056 5064 "src/strat.ml" 189 5056 5070
+)
+"src/strat.ml" 190 5091 5095 "src/strat.ml" 190 5091 5138
+call(
+  tail
+)
+type(
+  bool
+)
+"src/strat.ml" 189 5056 5060 "src/strat.ml" 190 5091 5138
+type(
+  bool
+)
+"src/strat.ml" 183 4893 4897 "src/strat.ml" 190 5091 5138
+type(
+  bool
+)
+"src/strat.ml" 193 5141 5147 "src/strat.ml" 193 5141 5154
+type(
+  G.t -> P.t -> G.vertex list * S.t -> G.vertex list * S.t
+)
+ident(
+  def attract "src/strat.ml" 217 5785 5787 "src/strat.ml" 231 6151 6154
+)
+"src/strat.ml" 193 5141 5155 "src/strat.ml" 193 5141 5156
+type(
+  G.t
+)
+ident(
+  def g "src/strat.ml" 193 5141 5157 "src/strat.ml" 214 5753 5782
+)
+"src/strat.ml" 193 5141 5157 "src/strat.ml" 193 5141 5158
+type(
+  P.t
+)
+ident(
+  def p "src/strat.ml" 193 5141 5159 "src/strat.ml" 214 5753 5782
+)
+"src/strat.ml" 193 5141 5160 "src/strat.ml" 193 5141 5161
+type(
+  G.vertex list
+)
+ident(
+  def l "src/strat.ml" 194 5169 5173 "src/strat.ml" 214 5753 5782
+)
+"src/strat.ml" 193 5141 5163 "src/strat.ml" 193 5141 5165
+type(
+  S.t
+)
+ident(
+  def l' "src/strat.ml" 194 5169 5173 "src/strat.ml" 214 5753 5782
+)
+"src/strat.ml" 193 5141 5159 "src/strat.ml" 193 5141 5166
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 194 5169 5177 "src/strat.ml" 194 5169 5178
+type(
+  P.vertex -> G.vertex list * S.t -> G.vertex list * S.t
+)
+ident(
+  def f "src/strat.ml" 214 5753 5757 "src/strat.ml" 214 5753 5782
+)
+"src/strat.ml" 194 5169 5179 "src/strat.ml" 194 5169 5180
+type(
+  P.vertex
+)
+ident(
+  def v "src/strat.ml" 194 5169 5181 "src/strat.ml" 212 5725 5745
+)
+"src/strat.ml" 194 5169 5182 "src/strat.ml" 194 5169 5184
+type(
+  G.vertex list
+)
+ident(
+  def l1 "src/strat.ml" 195 5193 5199 "src/strat.ml" 212 5725 5745
+)
+"src/strat.ml" 194 5169 5186 "src/strat.ml" 194 5169 5189
+type(
+  S.t
+)
+ident(
+  def l1' "src/strat.ml" 195 5193 5199 "src/strat.ml" 212 5725 5745
+)
+"src/strat.ml" 194 5169 5181 "src/strat.ml" 194 5169 5190
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 195 5193 5202 "src/strat.ml" 195 5193 5205
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/strat.ml" 195 5193 5207 "src/strat.ml" 195 5193 5215
+type(
+  P.vertex -> G.vertex list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"src/strat.ml" 195 5193 5216 "src/strat.ml" 195 5193 5217
+type(
+  P.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 194 5169 5179 "src/strat.ml" 194 5169 5180
+)
+"src/strat.ml" 195 5193 5218 "src/strat.ml" 195 5193 5220
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 194 5169 5182 "src/strat.ml" 194 5169 5184
+)
+"src/strat.ml" 195 5193 5206 "src/strat.ml" 195 5193 5221
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 195 5193 5202 "src/strat.ml" 195 5193 5221
+type(
+  bool
+)
+"src/strat.ml" 196 5227 5238 "src/strat.ml" 196 5227 5244
+type(
+  P.t -> P.vertex -> bool
+)
+ident(
+  int_ref P.turn "src/strat.ml" 47 1829 1831 "src/strat.ml" 47 1829 1861
+)
+"src/strat.ml" 196 5227 5245 "src/strat.ml" 196 5227 5246
+type(
+  P.t
+)
+ident(
+  int_ref p "src/strat.ml" 193 5141 5157 "src/strat.ml" 193 5141 5158
+)
+"src/strat.ml" 196 5227 5247 "src/strat.ml" 196 5227 5248
+type(
+  P.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 194 5169 5179 "src/strat.ml" 194 5169 5180
+)
+"src/strat.ml" 196 5227 5238 "src/strat.ml" 196 5227 5248
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 197 5254 5268 "src/strat.ml" 197 5254 5270
+type(
+  P.vertex -> P.vertex list -> P.vertex list
+)
+ident(
+  def f' "src/strat.ml" 203 5420 5430 "src/strat.ml" 205 5493 5544
+)
+"src/strat.ml" 197 5254 5271 "src/strat.ml" 197 5254 5273
+type(
+  P.vertex
+)
+ident(
+  def v' "src/strat.ml" 197 5254 5274 "src/strat.ml" 202 5393 5416
+)
+"src/strat.ml" 197 5254 5274 "src/strat.ml" 197 5254 5276
+type(
+  P.vertex list
+)
+ident(
+  def l2 "src/strat.ml" 198 5279 5291 "src/strat.ml" 202 5393 5416
+)
+"src/strat.ml" 198 5279 5298 "src/strat.ml" 198 5279 5300
+type(
+  P.vertex list
+)
+ident(
+  int_ref l2 "src/strat.ml" 197 5254 5274 "src/strat.ml" 197 5254 5276
+)
+"src/strat.ml" 199 5306 5321 "src/strat.ml" 199 5306 5323
+type(
+  P.vertex list
+)
+"src/strat.ml" 200 5327 5345 "src/strat.ml" 200 5327 5353
+type(
+  P.vertex -> G.vertex list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"src/strat.ml" 200 5327 5354 "src/strat.ml" 200 5327 5356
+type(
+  P.vertex
+)
+ident(
+  int_ref v' "src/strat.ml" 197 5254 5271 "src/strat.ml" 197 5254 5273
+)
+"src/strat.ml" 200 5327 5357 "src/strat.ml" 200 5327 5359
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 194 5169 5182 "src/strat.ml" 194 5169 5184
+)
+"src/strat.ml" 200 5327 5345 "src/strat.ml" 200 5327 5359
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 200 5327 5366 "src/strat.ml" 200 5327 5368
+type(
+  P.vertex
+)
+ident(
+  int_ref v' "src/strat.ml" 197 5254 5271 "src/strat.ml" 197 5254 5273
+)
+"src/strat.ml" 200 5327 5365 "src/strat.ml" 200 5327 5369
+type(
+  P.vertex list
+)
+"src/strat.ml" 201 5370 5390 "src/strat.ml" 201 5370 5392
+type(
+  P.vertex list
+)
+"src/strat.ml" 200 5327 5342 "src/strat.ml" 201 5370 5392
+type(
+  P.vertex list
+)
+"src/strat.ml" 202 5393 5408 "src/strat.ml" 202 5393 5409
+type(
+  P.vertex list
+)
+"src/strat.ml" 202 5393 5413 "src/strat.ml" 202 5393 5415
+type(
+  P.vertex list
+)
+ident(
+  int_ref l2 "src/strat.ml" 197 5254 5274 "src/strat.ml" 197 5254 5276
+)
+"src/strat.ml" 198 5279 5291 "src/strat.ml" 202 5393 5416
+type(
+  P.vertex list
+)
+"src/strat.ml" 203 5420 5437 "src/strat.ml" 203 5420 5448
+type(
+  (G.vertex -> P.vertex list -> P.vertex list) ->
+  G.t -> G.vertex -> P.vertex list -> P.vertex list
+)
+ident(
+  int_ref G.fold_succ "src/strat.ml" 32 1482 1484 "src/strat.ml" 32 1482 1547
+)
+"src/strat.ml" 203 5420 5449 "src/strat.ml" 203 5420 5451
+type(
+  G.vertex -> P.vertex list -> P.vertex list
+)
+ident(
+  int_ref f' "src/strat.ml" 197 5254 5268 "src/strat.ml" 197 5254 5270
+)
+"src/strat.ml" 203 5420 5452 "src/strat.ml" 203 5420 5453
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 193 5141 5155 "src/strat.ml" 193 5141 5156
+)
+"src/strat.ml" 203 5420 5454 "src/strat.ml" 203 5420 5455
+type(
+  P.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 194 5169 5179 "src/strat.ml" 194 5169 5180
+)
+"src/strat.ml" 203 5420 5456 "src/strat.ml" 203 5420 5458
+type(
+  P.vertex list
+)
+"src/strat.ml" 203 5420 5437 "src/strat.ml" 203 5420 5458
+call(
+  stack
+)
+type(
+  P.vertex list
+)
+"src/strat.ml" 204 5464 5477 "src/strat.ml" 204 5464 5479
+type(
+  P.vertex list
+)
+"src/strat.ml" 204 5464 5484 "src/strat.ml" 204 5464 5486
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 194 5169 5182 "src/strat.ml" 194 5169 5184
+)
+"src/strat.ml" 204 5464 5488 "src/strat.ml" 204 5464 5491
+type(
+  S.t
+)
+ident(
+  int_ref l1' "src/strat.ml" 194 5169 5186 "src/strat.ml" 194 5169 5189
+)
+"src/strat.ml" 204 5464 5483 "src/strat.ml" 204 5464 5492
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 205 5493 5506 "src/strat.ml" 205 5493 5508
+type(
+  P.vertex
+)
+ident(
+  def v' "src/strat.ml" 205 5493 5517 "src/strat.ml" 205 5493 5543
+)
+"src/strat.ml" 205 5493 5512 "src/strat.ml" 205 5493 5513
+type(
+  P.vertex list
+)
+"src/strat.ml" 205 5493 5506 "src/strat.ml" 205 5493 5513
+type(
+  P.vertex list
+)
+"src/strat.ml" 205 5493 5518 "src/strat.ml" 205 5493 5519
+type(
+  P.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 194 5169 5179 "src/strat.ml" 194 5169 5180
+)
+"src/strat.ml" 205 5493 5523 "src/strat.ml" 205 5493 5525
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 194 5169 5182 "src/strat.ml" 194 5169 5184
+)
+"src/strat.ml" 205 5493 5518 "src/strat.ml" 205 5493 5525
+type(
+  G.vertex list
+)
+"src/strat.ml" 205 5493 5527 "src/strat.ml" 205 5493 5532
+type(
+  S.t -> S.vertex -> S.vertex -> S.t
+)
+ident(
+  int_ref S.add "src/strat.ml" 60 2029 2031 "src/strat.ml" 60 2029 2067
+)
+"src/strat.ml" 205 5493 5533 "src/strat.ml" 205 5493 5536
+type(
+  S.t
+)
+ident(
+  int_ref l1' "src/strat.ml" 194 5169 5186 "src/strat.ml" 194 5169 5189
+)
+"src/strat.ml" 205 5493 5537 "src/strat.ml" 205 5493 5538
+type(
+  P.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 194 5169 5179 "src/strat.ml" 194 5169 5180
+)
+"src/strat.ml" 205 5493 5539 "src/strat.ml" 205 5493 5541
+type(
+  P.vertex
+)
+ident(
+  int_ref v' "src/strat.ml" 205 5493 5506 "src/strat.ml" 205 5493 5508
+)
+"src/strat.ml" 205 5493 5527 "src/strat.ml" 205 5493 5541
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/strat.ml" 205 5493 5517 "src/strat.ml" 205 5493 5543
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 203 5420 5430 "src/strat.ml" 205 5493 5544
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 197 5254 5264 "src/strat.ml" 205 5493 5544
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 207 5558 5569 "src/strat.ml" 207 5558 5573
+type(
+  G.t -> G.vertex -> bool
+)
+ident(
+  int_ref puit "src/strat.ml" 118 3610 3616 "src/strat.ml" 118 3610 3620
+)
+"src/strat.ml" 207 5558 5574 "src/strat.ml" 207 5558 5575
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 193 5141 5155 "src/strat.ml" 193 5141 5156
+)
+"src/strat.ml" 207 5558 5576 "src/strat.ml" 207 5558 5577
+type(
+  P.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 194 5169 5179 "src/strat.ml" 194 5169 5180
+)
+"src/strat.ml" 207 5558 5569 "src/strat.ml" 207 5558 5577
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 207 5558 5584 "src/strat.ml" 207 5558 5586
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 194 5169 5182 "src/strat.ml" 194 5169 5184
+)
+"src/strat.ml" 207 5558 5588 "src/strat.ml" 207 5558 5591
+type(
+  S.t
+)
+ident(
+  int_ref l1' "src/strat.ml" 194 5169 5186 "src/strat.ml" 194 5169 5189
+)
+"src/strat.ml" 207 5558 5583 "src/strat.ml" 207 5558 5592
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 209 5606 5617 "src/strat.ml" 209 5606 5628
+type(
+  (G.vertex -> bool -> bool) -> G.t -> G.vertex -> bool -> bool
+)
+ident(
+  int_ref G.fold_succ "src/strat.ml" 32 1482 1484 "src/strat.ml" 32 1482 1547
+)
+"src/strat.ml" 209 5606 5634 "src/strat.ml" 209 5606 5636
+type(
+  G.vertex
+)
+ident(
+  def v' "src/strat.ml" 209 5606 5637 "src/strat.ml" 209 5606 5663
+)
+"src/strat.ml" 209 5606 5637 "src/strat.ml" 209 5606 5638
+type(
+  bool
+)
+ident(
+  def b "src/strat.ml" 209 5606 5642 "src/strat.ml" 209 5606 5663
+)
+"src/strat.ml" 209 5606 5642 "src/strat.ml" 209 5606 5643
+type(
+  bool
+)
+ident(
+  int_ref b "src/strat.ml" 209 5606 5637 "src/strat.ml" 209 5606 5638
+)
+"src/strat.ml" 209 5606 5644 "src/strat.ml" 209 5606 5646
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/strat.ml" 209 5606 5648 "src/strat.ml" 209 5606 5656
+type(
+  G.vertex -> G.vertex list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"src/strat.ml" 209 5606 5657 "src/strat.ml" 209 5606 5659
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/strat.ml" 209 5606 5634 "src/strat.ml" 209 5606 5636
+)
+"src/strat.ml" 209 5606 5660 "src/strat.ml" 209 5606 5662
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 194 5169 5182 "src/strat.ml" 194 5169 5184
+)
+"src/strat.ml" 209 5606 5647 "src/strat.ml" 209 5606 5663
+call(
+  tail
+)
+type(
+  bool
+)
+"src/strat.ml" 209 5606 5642 "src/strat.ml" 209 5606 5663
+type(
+  bool
+)
+"src/strat.ml" 209 5606 5629 "src/strat.ml" 209 5606 5664
+type(
+  G.vertex -> bool -> bool
+)
+"src/strat.ml" 209 5606 5665 "src/strat.ml" 209 5606 5666
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 193 5141 5155 "src/strat.ml" 193 5141 5156
+)
+"src/strat.ml" 209 5606 5667 "src/strat.ml" 209 5606 5668
+type(
+  P.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 194 5169 5179 "src/strat.ml" 194 5169 5180
+)
+"src/strat.ml" 209 5606 5669 "src/strat.ml" 209 5606 5673
+type(
+  bool
+)
+"src/strat.ml" 209 5606 5617 "src/strat.ml" 209 5606 5673
+call(
+  stack
+)
+type(
+  bool
+)
+"src/strat.ml" 210 5674 5688 "src/strat.ml" 210 5674 5689
+type(
+  P.vertex
+)
+ident(
+  int_ref v "src/strat.ml" 194 5169 5179 "src/strat.ml" 194 5169 5180
+)
+"src/strat.ml" 210 5674 5693 "src/strat.ml" 210 5674 5695
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 194 5169 5182 "src/strat.ml" 194 5169 5184
+)
+"src/strat.ml" 210 5674 5688 "src/strat.ml" 210 5674 5695
+type(
+  G.vertex list
+)
+"src/strat.ml" 210 5674 5697 "src/strat.ml" 210 5674 5700
+type(
+  S.t
+)
+ident(
+  int_ref l1' "src/strat.ml" 194 5169 5186 "src/strat.ml" 194 5169 5189
+)
+"src/strat.ml" 210 5674 5687 "src/strat.ml" 210 5674 5701
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 211 5702 5716 "src/strat.ml" 211 5702 5718
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 194 5169 5182 "src/strat.ml" 194 5169 5184
+)
+"src/strat.ml" 211 5702 5720 "src/strat.ml" 211 5702 5723
+type(
+  S.t
+)
+ident(
+  int_ref l1' "src/strat.ml" 194 5169 5186 "src/strat.ml" 194 5169 5189
+)
+"src/strat.ml" 211 5702 5715 "src/strat.ml" 211 5702 5724
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 209 5606 5614 "src/strat.ml" 211 5702 5724
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 207 5558 5566 "src/strat.ml" 211 5702 5724
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 196 5227 5235 "src/strat.ml" 211 5702 5724
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 212 5725 5737 "src/strat.ml" 212 5725 5739
+type(
+  G.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 194 5169 5182 "src/strat.ml" 194 5169 5184
+)
+"src/strat.ml" 212 5725 5741 "src/strat.ml" 212 5725 5744
+type(
+  S.t
+)
+ident(
+  int_ref l1' "src/strat.ml" 194 5169 5186 "src/strat.ml" 194 5169 5189
+)
+"src/strat.ml" 212 5725 5736 "src/strat.ml" 212 5725 5745
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 195 5193 5199 "src/strat.ml" 212 5725 5745
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 214 5753 5757 "src/strat.ml" 214 5753 5770
+type(
+  (G.vertex -> G.vertex list * S.t -> G.vertex list * S.t) ->
+  G.t -> G.vertex list * S.t -> G.vertex list * S.t
+)
+ident(
+  int_ref G.fold_vertex "src/strat.ml" 31 1424 1426 "src/strat.ml" 31 1424 1481
+)
+"src/strat.ml" 214 5753 5771 "src/strat.ml" 214 5753 5772
+type(
+  G.vertex -> G.vertex list * S.t -> G.vertex list * S.t
+)
+ident(
+  int_ref f "src/strat.ml" 194 5169 5177 "src/strat.ml" 194 5169 5178
+)
+"src/strat.ml" 214 5753 5773 "src/strat.ml" 214 5753 5774
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 193 5141 5155 "src/strat.ml" 193 5141 5156
+)
+"src/strat.ml" 214 5753 5776 "src/strat.ml" 214 5753 5777
+type(
+  G.vertex list
+)
+ident(
+  int_ref l "src/strat.ml" 193 5141 5160 "src/strat.ml" 193 5141 5161
+)
+"src/strat.ml" 214 5753 5779 "src/strat.ml" 214 5753 5781
+type(
+  S.t
+)
+ident(
+  int_ref l' "src/strat.ml" 193 5141 5163 "src/strat.ml" 193 5141 5165
+)
+"src/strat.ml" 214 5753 5775 "src/strat.ml" 214 5753 5782
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 214 5753 5757 "src/strat.ml" 214 5753 5782
+call(
+  tail
+)
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 194 5169 5173 "src/strat.ml" 214 5753 5782
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 217 5785 5791 "src/strat.ml" 217 5785 5800
+type(
+  G.t -> P.t -> bool * S.t
+)
+ident(
+  def strategyA "src/strat.ml" 229 6119 6147 "src/strat.ml" 231 6151 6154
+)
+"src/strat.ml" 217 5785 5801 "src/strat.ml" 217 5785 5802
+type(
+  G.t
+)
+ident(
+  def g "src/strat.ml" 217 5785 5803 "src/strat.ml" 229 6119 6147
+)
+"src/strat.ml" 217 5785 5803 "src/strat.ml" 217 5785 5804
+type(
+  P.t
+)
+ident(
+  def p "src/strat.ml" 219 5808 5812 "src/strat.ml" 229 6119 6147
+)
+"src/strat.ml" 219 5808 5820 "src/strat.ml" 219 5808 5833
+type(
+  P.vertex list -> P.vertex list -> S.t -> bool * S.t
+)
+ident(
+  def strategyA_aux "src/strat.ml" 219 5808 5812 "src/strat.ml" 229 6119 6147
+)
+"src/strat.ml" 219 5808 5834 "src/strat.ml" 219 5808 5836
+type(
+  P.vertex list
+)
+ident(
+  def l1 "src/strat.ml" 219 5808 5837 "src/strat.ml" 224 5988 6025
+)
+"src/strat.ml" 219 5808 5837 "src/strat.ml" 219 5808 5839
+type(
+  P.vertex list
+)
+ident(
+  def l2 "src/strat.ml" 219 5808 5840 "src/strat.ml" 224 5988 6025
+)
+"src/strat.ml" 219 5808 5840 "src/strat.ml" 219 5808 5841
+type(
+  S.t
+)
+ident(
+  def f "src/strat.ml" 220 5844 5850 "src/strat.ml" 224 5988 6025
+)
+"src/strat.ml" 220 5844 5855 "src/strat.ml" 220 5844 5857
+type(
+  bool
+)
+ident(
+  def b1 "src/strat.ml" 221 5899 5905 "src/strat.ml" 224 5988 6025
+)
+"src/strat.ml" 220 5844 5859 "src/strat.ml" 220 5844 5861
+type(
+  bool
+)
+ident(
+  def b2 "src/strat.ml" 221 5899 5905 "src/strat.ml" 224 5988 6025
+)
+"src/strat.ml" 220 5844 5854 "src/strat.ml" 220 5844 5862
+type(
+  bool * bool
+)
+"src/strat.ml" 220 5844 5865 "src/strat.ml" 220 5844 5871
+type(
+  P.vertex -> P.vertex list -> P.vertex list -> bool * bool
+)
+ident(
+  int_ref eq_mem "src/strat.ml" 109 3358 3368 "src/strat.ml" 109 3358 3374
+)
+"src/strat.ml" 220 5844 5873 "src/strat.ml" 220 5844 5886
+type(
+  P.t -> P.vertex
+)
+ident(
+  int_ref P.get_initial "src/strat.ml" 44 1759 1761 "src/strat.ml" 44 1759 1790
+)
+"src/strat.ml" 220 5844 5887 "src/strat.ml" 220 5844 5888
+type(
+  P.t
+)
+ident(
+  int_ref p "src/strat.ml" 217 5785 5803 "src/strat.ml" 217 5785 5804
+)
+"src/strat.ml" 220 5844 5872 "src/strat.ml" 220 5844 5889
+call(
+  stack
+)
+type(
+  P.vertex
+)
+"src/strat.ml" 220 5844 5890 "src/strat.ml" 220 5844 5892
+type(
+  P.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 219 5808 5834 "src/strat.ml" 219 5808 5836
+)
+"src/strat.ml" 220 5844 5893 "src/strat.ml" 220 5844 5895
+type(
+  P.vertex list
+)
+ident(
+  int_ref l2 "src/strat.ml" 219 5808 5837 "src/strat.ml" 219 5808 5839
+)
+"src/strat.ml" 220 5844 5865 "src/strat.ml" 220 5844 5895
+call(
+  stack
+)
+type(
+  bool * bool
+)
+"src/strat.ml" 221 5899 5908 "src/strat.ml" 221 5899 5910
+type(
+  bool
+)
+ident(
+  int_ref b1 "src/strat.ml" 220 5844 5855 "src/strat.ml" 220 5844 5857
+)
+"src/strat.ml" 221 5899 5917 "src/strat.ml" 221 5899 5919
+type(
+  bool
+)
+ident(
+  int_ref b2 "src/strat.ml" 220 5844 5859 "src/strat.ml" 220 5844 5861
+)
+"src/strat.ml" 221 5899 5921 "src/strat.ml" 221 5899 5922
+type(
+  S.t
+)
+ident(
+  int_ref f "src/strat.ml" 219 5808 5840 "src/strat.ml" 219 5808 5841
+)
+"src/strat.ml" 221 5899 5916 "src/strat.ml" 221 5899 5923
+type(
+  bool * S.t
+)
+"src/strat.ml" 223 5935 5948 "src/strat.ml" 223 5935 5954
+type(
+  P.vertex list
+)
+ident(
+  def new_l1 "src/strat.ml" 224 5988 5996 "src/strat.ml" 224 5988 6025
+)
+"src/strat.ml" 223 5935 5956 "src/strat.ml" 223 5935 5961
+type(
+  S.t
+)
+ident(
+  def new_f "src/strat.ml" 224 5988 5996 "src/strat.ml" 224 5988 6025
+)
+"src/strat.ml" 223 5935 5947 "src/strat.ml" 223 5935 5962
+type(
+  P.vertex list * S.t
+)
+"src/strat.ml" 223 5935 5965 "src/strat.ml" 223 5935 5972
+type(
+  G.t -> P.t -> P.vertex list * S.t -> P.vertex list * S.t
+)
+ident(
+  int_ref attract "src/strat.ml" 193 5141 5147 "src/strat.ml" 193 5141 5154
+)
+"src/strat.ml" 223 5935 5973 "src/strat.ml" 223 5935 5974
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 217 5785 5801 "src/strat.ml" 217 5785 5802
+)
+"src/strat.ml" 223 5935 5975 "src/strat.ml" 223 5935 5976
+type(
+  P.t
+)
+ident(
+  int_ref p "src/strat.ml" 217 5785 5803 "src/strat.ml" 217 5785 5804
+)
+"src/strat.ml" 223 5935 5978 "src/strat.ml" 223 5935 5980
+type(
+  P.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 219 5808 5834 "src/strat.ml" 219 5808 5836
+)
+"src/strat.ml" 223 5935 5982 "src/strat.ml" 223 5935 5983
+type(
+  S.t
+)
+ident(
+  int_ref f "src/strat.ml" 219 5808 5840 "src/strat.ml" 219 5808 5841
+)
+"src/strat.ml" 223 5935 5977 "src/strat.ml" 223 5935 5984
+type(
+  P.vertex list * S.t
+)
+"src/strat.ml" 223 5935 5965 "src/strat.ml" 223 5935 5984
+call(
+  stack
+)
+type(
+  P.vertex list * S.t
+)
+"src/strat.ml" 224 5988 5996 "src/strat.ml" 224 5988 6009
+type(
+  P.vertex list -> P.vertex list -> S.t -> bool * S.t
+)
+ident(
+  int_ref strategyA_aux "src/strat.ml" 219 5808 5820 "src/strat.ml" 219 5808 5833
+)
+"src/strat.ml" 224 5988 6010 "src/strat.ml" 224 5988 6016
+type(
+  P.vertex list
+)
+ident(
+  int_ref new_l1 "src/strat.ml" 223 5935 5948 "src/strat.ml" 223 5935 5954
+)
+"src/strat.ml" 224 5988 6017 "src/strat.ml" 224 5988 6019
+type(
+  P.vertex list
+)
+ident(
+  int_ref l1 "src/strat.ml" 219 5808 5834 "src/strat.ml" 219 5808 5836
+)
+"src/strat.ml" 224 5988 6020 "src/strat.ml" 224 5988 6025
+type(
+  S.t
+)
+ident(
+  int_ref new_f "src/strat.ml" 223 5935 5956 "src/strat.ml" 223 5935 5961
+)
+"src/strat.ml" 224 5988 5996 "src/strat.ml" 224 5988 6025
+call(
+  tail
+)
+type(
+  bool * S.t
+)
+"src/strat.ml" 223 5935 5943 "src/strat.ml" 224 5988 6025
+type(
+  bool * S.t
+)
+"src/strat.ml" 221 5899 5905 "src/strat.ml" 224 5988 6025
+type(
+  bool * S.t
+)
+"src/strat.ml" 220 5844 5850 "src/strat.ml" 224 5988 6025
+type(
+  bool * S.t
+)
+"src/strat.ml" 227 6034 6042 "src/strat.ml" 227 6034 6048
+type(
+  P.vertex list
+)
+ident(
+  def finaux "src/strat.ml" 228 6069 6073 "src/strat.ml" 229 6119 6147
+)
+"src/strat.ml" 227 6034 6051 "src/strat.ml" 227 6034 6061
+type(
+  G.t -> P.t -> P.vertex list
+)
+ident(
+  int_ref get_finals "src/strat.ml" 123 3685 3691 "src/strat.ml" 123 3685 3701
+)
+"src/strat.ml" 227 6034 6062 "src/strat.ml" 227 6034 6063
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 217 5785 5801 "src/strat.ml" 217 5785 5802
+)
+"src/strat.ml" 227 6034 6064 "src/strat.ml" 227 6034 6065
+type(
+  P.t
+)
+ident(
+  int_ref p "src/strat.ml" 217 5785 5803 "src/strat.ml" 217 5785 5804
+)
+"src/strat.ml" 227 6034 6051 "src/strat.ml" 227 6034 6065
+call(
+  stack
+)
+type(
+  P.vertex list
+)
+"src/strat.ml" 228 6069 6078 "src/strat.ml" 228 6069 6079
+type(
+  G.vertex list
+)
+ident(
+  def l "src/strat.ml" 229 6119 6123 "src/strat.ml" 229 6119 6147
+)
+"src/strat.ml" 228 6069 6081 "src/strat.ml" 228 6069 6082
+type(
+  S.t
+)
+ident(
+  def r "src/strat.ml" 229 6119 6123 "src/strat.ml" 229 6119 6147
+)
+"src/strat.ml" 228 6069 6077 "src/strat.ml" 228 6069 6083
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 228 6069 6086 "src/strat.ml" 228 6069 6093
+type(
+  G.t -> P.t -> G.vertex list * S.t -> G.vertex list * S.t
+)
+ident(
+  int_ref attract "src/strat.ml" 193 5141 5147 "src/strat.ml" 193 5141 5154
+)
+"src/strat.ml" 228 6069 6094 "src/strat.ml" 228 6069 6095
+type(
+  G.t
+)
+ident(
+  int_ref g "src/strat.ml" 217 5785 5801 "src/strat.ml" 217 5785 5802
+)
+"src/strat.ml" 228 6069 6096 "src/strat.ml" 228 6069 6097
+type(
+  P.t
+)
+ident(
+  int_ref p "src/strat.ml" 217 5785 5803 "src/strat.ml" 217 5785 5804
+)
+"src/strat.ml" 228 6069 6099 "src/strat.ml" 228 6069 6105
+type(
+  G.vertex list
+)
+ident(
+  int_ref finaux "src/strat.ml" 227 6034 6042 "src/strat.ml" 227 6034 6048
+)
+"src/strat.ml" 228 6069 6107 "src/strat.ml" 228 6069 6114
+type(
+  S.t
+)
+ident(
+  int_ref S.empty "src/strat.ml" 59 2013 2015 "src/strat.ml" 59 2013 2028
+)
+"src/strat.ml" 228 6069 6098 "src/strat.ml" 228 6069 6115
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 228 6069 6086 "src/strat.ml" 228 6069 6115
+call(
+  stack
+)
+type(
+  G.vertex list * S.t
+)
+"src/strat.ml" 229 6119 6123 "src/strat.ml" 229 6119 6136
+type(
+  P.vertex list -> P.vertex list -> S.t -> bool * S.t
+)
+ident(
+  int_ref strategyA_aux "src/strat.ml" 219 5808 5820 "src/strat.ml" 219 5808 5833
+)
+"src/strat.ml" 229 6119 6137 "src/strat.ml" 229 6119 6138
+type(
+  P.vertex list
+)
+ident(
+  int_ref l "src/strat.ml" 228 6069 6078 "src/strat.ml" 228 6069 6079
+)
+"src/strat.ml" 229 6119 6139 "src/strat.ml" 229 6119 6145
+type(
+  P.vertex list
+)
+ident(
+  int_ref finaux "src/strat.ml" 227 6034 6042 "src/strat.ml" 227 6034 6048
+)
+"src/strat.ml" 229 6119 6146 "src/strat.ml" 229 6119 6147
+type(
+  S.t
+)
+ident(
+  int_ref r "src/strat.ml" 228 6069 6081 "src/strat.ml" 228 6069 6082
+)
+"src/strat.ml" 229 6119 6123 "src/strat.ml" 229 6119 6147
+call(
+  tail
+)
+type(
+  bool * S.t
+)
+"src/strat.ml" 228 6069 6073 "src/strat.ml" 229 6119 6147
+type(
+  bool * S.t
+)
+"src/strat.ml" 227 6034 6038 "src/strat.ml" 229 6119 6147
+type(
+  bool * S.t
+)
+"src/strat.ml" 219 5808 5812 "src/strat.ml" 229 6119 6147
+type(
+  bool * S.t
+)

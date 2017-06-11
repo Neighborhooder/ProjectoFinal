@@ -1,0 +1,2670 @@
+"src/components.ml" 27 1422 1435 "src/components.ml" 27 1422 1452
+call(
+  stack
+)
+"src/components.ml" 36 1618 1624 "src/components.ml" 36 1618 1627
+type(
+  G.t -> int * (H.key -> int)
+)
+ident(
+  def scc "src/components.ml" 87 2996 2998 "src/components.ml" 97 3241 3244
+)
+"src/components.ml" 36 1618 1628 "src/components.ml" 36 1618 1629
+type(
+  G.t
+)
+ident(
+  def g "src/components.ml" 37 1632 1636 "src/components.ml" 85 2952 2994
+)
+"src/components.ml" 37 1632 1640 "src/components.ml" 37 1632 1644
+type(
+  int H.t
+)
+ident(
+  def root "src/components.ml" 38 1663 1667 "src/components.ml" 85 2952 2994
+)
+"src/components.ml" 37 1632 1647 "src/components.ml" 37 1632 1655
+type(
+  int -> int H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/components.ml" 37 1632 1656 "src/components.ml" 37 1632 1659
+type(
+  int
+)
+"src/components.ml" 37 1632 1647 "src/components.ml" 37 1632 1659
+call(
+  stack
+)
+type(
+  int H.t
+)
+"src/components.ml" 38 1663 1671 "src/components.ml" 38 1663 1679
+type(
+  int H.t
+)
+ident(
+  def hashcomp "src/components.ml" 39 1698 1702 "src/components.ml" 85 2952 2994
+)
+"src/components.ml" 38 1663 1682 "src/components.ml" 38 1663 1690
+type(
+  int -> int H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/components.ml" 38 1663 1691 "src/components.ml" 38 1663 1694
+type(
+  int
+)
+"src/components.ml" 38 1663 1682 "src/components.ml" 38 1663 1694
+call(
+  stack
+)
+type(
+  int H.t
+)
+"src/components.ml" 39 1698 1706 "src/components.ml" 39 1698 1711
+type(
+  (int * H.key) list ref
+)
+ident(
+  def stack "src/components.ml" 40 1724 1728 "src/components.ml" 85 2952 2994
+)
+"src/components.ml" 39 1698 1714 "src/components.ml" 39 1698 1717
+type(
+  (int * H.key) list -> (int * H.key) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/components.ml" 39 1698 1718 "src/components.ml" 39 1698 1720
+type(
+  (int * H.key) list
+)
+"src/components.ml" 39 1698 1714 "src/components.ml" 39 1698 1720
+type(
+  (int * H.key) list ref
+)
+"src/components.ml" 40 1724 1732 "src/components.ml" 40 1724 1738
+type(
+  int ref
+)
+ident(
+  def numdfs "src/components.ml" 41 1750 1754 "src/components.ml" 85 2952 2994
+)
+"src/components.ml" 40 1724 1741 "src/components.ml" 40 1724 1744
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/components.ml" 40 1724 1745 "src/components.ml" 40 1724 1746
+type(
+  int
+)
+"src/components.ml" 40 1724 1741 "src/components.ml" 40 1724 1746
+type(
+  int ref
+)
+"src/components.ml" 41 1750 1758 "src/components.ml" 41 1750 1765
+type(
+  int ref
+)
+ident(
+  def numcomp "src/components.ml" 42 1777 1781 "src/components.ml" 85 2952 2994
+)
+"src/components.ml" 41 1750 1768 "src/components.ml" 41 1750 1771
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/components.ml" 41 1750 1772 "src/components.ml" 41 1750 1773
+type(
+  int
+)
+"src/components.ml" 41 1750 1768 "src/components.ml" 41 1750 1773
+type(
+  int ref
+)
+"src/components.ml" 42 1777 1789 "src/components.ml" 42 1777 1792
+type(
+  'a -> ('a * H.key) list -> ('a * H.key) list
+)
+ident(
+  def pop "src/components.ml" 42 1777 1781 "src/components.ml" 85 2952 2994
+)
+"src/components.ml" 42 1777 1793 "src/components.ml" 42 1777 1794
+type(
+  'a
+)
+ident(
+  def x "src/components.ml" 42 1777 1797 "src/components.ml" 46 1891 1905
+)
+"src/components.ml" 43 1806 1815 "src/components.ml" 43 1806 1816
+type(
+  'a
+)
+ident(
+  def y "src/components.ml" 43 1806 1831 "src/components.ml" 45 1875 1890
+)
+"src/components.ml" 43 1806 1818 "src/components.ml" 43 1806 1819
+type(
+  H.key
+)
+ident(
+  def w "src/components.ml" 43 1806 1831 "src/components.ml" 45 1875 1890
+)
+"src/components.ml" 43 1806 1814 "src/components.ml" 43 1806 1820
+type(
+  'a * H.key
+)
+"src/components.ml" 43 1806 1824 "src/components.ml" 43 1806 1825
+type(
+  ('a * H.key) list
+)
+ident(
+  def l "src/components.ml" 43 1806 1831 "src/components.ml" 45 1875 1890
+)
+"src/components.ml" 43 1806 1814 "src/components.ml" 43 1806 1825
+type(
+  ('a * H.key) list
+)
+"src/components.ml" 43 1806 1831 "src/components.ml" 43 1806 1832
+type(
+  'a
+)
+ident(
+  int_ref y "src/components.ml" 43 1806 1815 "src/components.ml" 43 1806 1816
+)
+"src/components.ml" 43 1806 1833 "src/components.ml" 43 1806 1834
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/components.ml" 43 1806 1835 "src/components.ml" 43 1806 1836
+type(
+  'a
+)
+ident(
+  int_ref x "src/components.ml" 42 1777 1793 "src/components.ml" 42 1777 1794
+)
+"src/components.ml" 43 1806 1831 "src/components.ml" 43 1806 1836
+type(
+  bool
+)
+"src/components.ml" 44 1840 1848 "src/components.ml" 44 1840 1853
+type(
+  int H.t -> H.key -> int -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/components.ml" 44 1840 1854 "src/components.ml" 44 1840 1862
+type(
+  int H.t
+)
+ident(
+  int_ref hashcomp "src/components.ml" 38 1663 1671 "src/components.ml" 38 1663 1679
+)
+"src/components.ml" 44 1840 1863 "src/components.ml" 44 1840 1864
+type(
+  H.key
+)
+ident(
+  int_ref w "src/components.ml" 43 1806 1818 "src/components.ml" 43 1806 1819
+)
+"src/components.ml" 44 1840 1865 "src/components.ml" 44 1840 1866
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/components.ml" 44 1840 1866 "src/components.ml" 44 1840 1873
+type(
+  int ref
+)
+ident(
+  int_ref numcomp "src/components.ml" 41 1750 1758 "src/components.ml" 41 1750 1765
+)
+"src/components.ml" 44 1840 1865 "src/components.ml" 44 1840 1873
+type(
+  int
+)
+"src/components.ml" 44 1840 1848 "src/components.ml" 44 1840 1873
+call(
+  stack
+)
+type(
+  unit
+)
+"src/components.ml" 45 1875 1883 "src/components.ml" 45 1875 1886
+type(
+  'a -> ('a * H.key) list -> ('a * H.key) list
+)
+ident(
+  int_ref pop "src/components.ml" 42 1777 1789 "src/components.ml" 42 1777 1792
+)
+"src/components.ml" 45 1875 1887 "src/components.ml" 45 1875 1888
+type(
+  'a
+)
+ident(
+  int_ref x "src/components.ml" 42 1777 1793 "src/components.ml" 42 1777 1794
+)
+"src/components.ml" 45 1875 1889 "src/components.ml" 45 1875 1890
+type(
+  ('a * H.key) list
+)
+ident(
+  int_ref l "src/components.ml" 43 1806 1824 "src/components.ml" 43 1806 1825
+)
+"src/components.ml" 45 1875 1883 "src/components.ml" 45 1875 1890
+call(
+  tail
+)
+type(
+  ('a * H.key) list
+)
+"src/components.ml" 44 1840 1848 "src/components.ml" 45 1875 1890
+type(
+  ('a * H.key) list
+)
+"src/components.ml" 46 1891 1899 "src/components.ml" 46 1891 1900
+type(
+  ('a * H.key) list
+)
+ident(
+  def l "src/components.ml" 46 1891 1904 "src/components.ml" 46 1891 1905
+)
+"src/components.ml" 46 1891 1904 "src/components.ml" 46 1891 1905
+type(
+  ('a * H.key) list
+)
+ident(
+  int_ref l "src/components.ml" 46 1891 1899 "src/components.ml" 46 1891 1900
+)
+"src/components.ml" 42 1777 1797 "src/components.ml" 46 1891 1905
+type(
+  ('a * H.key) list -> ('a * H.key) list
+)
+"src/components.ml" 48 1913 1921 "src/components.ml" 48 1913 1925
+type(
+  action list ref
+)
+ident(
+  def cont "src/components.ml" 49 1938 1942 "src/components.ml" 85 2952 2994
+)
+"src/components.ml" 48 1913 1928 "src/components.ml" 48 1913 1931
+type(
+  action list -> action list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/components.ml" 48 1913 1932 "src/components.ml" 48 1913 1934
+type(
+  action list
+)
+"src/components.ml" 48 1913 1928 "src/components.ml" 48 1913 1934
+type(
+  action list ref
+)
+"src/components.ml" 49 1938 1946 "src/components.ml" 49 1938 1951
+type(
+  H.key -> unit
+)
+ident(
+  def visit "src/components.ml" 60 2230 2234 "src/components.ml" 85 2952 2994
+)
+"src/components.ml" 49 1938 1952 "src/components.ml" 49 1938 1953
+type(
+  H.key
+)
+ident(
+  def v "src/components.ml" 50 1956 1962 "src/components.ml" 58 2213 2222
+)
+"src/components.ml" 50 1956 1965 "src/components.ml" 50 1956 1968
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/components.ml" 50 1956 1970 "src/components.ml" 50 1956 1975
+type(
+  int H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/components.ml" 50 1956 1976 "src/components.ml" 50 1956 1980
+type(
+  int H.t
+)
+ident(
+  int_ref root "src/components.ml" 37 1632 1640 "src/components.ml" 37 1632 1644
+)
+"src/components.ml" 50 1956 1981 "src/components.ml" 50 1956 1982
+type(
+  H.key
+)
+ident(
+  int_ref v "src/components.ml" 49 1938 1952 "src/components.ml" 49 1938 1953
+)
+"src/components.ml" 50 1956 1969 "src/components.ml" 50 1956 1983
+call(
+  stack
+)
+type(
+  bool
+)
+"src/components.ml" 50 1956 1965 "src/components.ml" 50 1956 1983
+type(
+  bool
+)
+"src/components.ml" 51 1995 2007 "src/components.ml" 51 1995 2008
+type(
+  int
+)
+ident(
+  def n "src/components.ml" 52 2035 2043 "src/components.ml" 57 2198 2212
+)
+"src/components.ml" 51 1995 2011 "src/components.ml" 51 1995 2015
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/components.ml" 51 1995 2016 "src/components.ml" 51 1995 2022
+type(
+  int ref
+)
+ident(
+  int_ref numdfs "src/components.ml" 40 1724 1732 "src/components.ml" 40 1724 1738
+)
+"src/components.ml" 51 1995 2011 "src/components.ml" 51 1995 2022
+type(
+  unit
+)
+"src/components.ml" 51 1995 2024 "src/components.ml" 51 1995 2025
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/components.ml" 51 1995 2025 "src/components.ml" 51 1995 2031
+type(
+  int ref
+)
+ident(
+  int_ref numdfs "src/components.ml" 40 1724 1732 "src/components.ml" 40 1724 1738
+)
+"src/components.ml" 51 1995 2024 "src/components.ml" 51 1995 2031
+type(
+  int
+)
+"src/components.ml" 51 1995 2011 "src/components.ml" 51 1995 2031
+type(
+  int
+)
+"src/components.ml" 52 2035 2043 "src/components.ml" 52 2035 2048
+type(
+  int H.t -> H.key -> int -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/components.ml" 52 2035 2049 "src/components.ml" 52 2035 2053
+type(
+  int H.t
+)
+ident(
+  int_ref root "src/components.ml" 37 1632 1640 "src/components.ml" 37 1632 1644
+)
+"src/components.ml" 52 2035 2054 "src/components.ml" 52 2035 2055
+type(
+  H.key
+)
+ident(
+  int_ref v "src/components.ml" 49 1938 1952 "src/components.ml" 49 1938 1953
+)
+"src/components.ml" 52 2035 2056 "src/components.ml" 52 2035 2057
+type(
+  int
+)
+ident(
+  int_ref n "src/components.ml" 51 1995 2007 "src/components.ml" 51 1995 2008
+)
+"src/components.ml" 52 2035 2043 "src/components.ml" 52 2035 2057
+call(
+  stack
+)
+type(
+  unit
+)
+"src/components.ml" 53 2059 2067 "src/components.ml" 53 2059 2071
+type(
+  action list ref
+)
+ident(
+  int_ref cont "src/components.ml" 48 1913 1921 "src/components.ml" 48 1913 1925
+)
+"src/components.ml" 53 2059 2072 "src/components.ml" 53 2059 2074
+type(
+  action list ref -> action list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/components.ml" 53 2059 2083 "src/components.ml" 53 2059 2084
+type(
+  H.key
+)
+ident(
+  int_ref v "src/components.ml" 49 1938 1952 "src/components.ml" 49 1938 1953
+)
+"src/components.ml" 53 2059 2086 "src/components.ml" 53 2059 2087
+type(
+  int
+)
+ident(
+  int_ref n "src/components.ml" 51 1995 2007 "src/components.ml" 51 1995 2008
+)
+"src/components.ml" 53 2059 2075 "src/components.ml" 53 2059 2088
+type(
+  action
+)
+"src/components.ml" 53 2059 2092 "src/components.ml" 53 2059 2093
+type(
+  action list ref -> action list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/components.ml" 53 2059 2093 "src/components.ml" 53 2059 2097
+type(
+  action list ref
+)
+ident(
+  int_ref cont "src/components.ml" 48 1913 1921 "src/components.ml" 48 1913 1925
+)
+"src/components.ml" 53 2059 2092 "src/components.ml" 53 2059 2097
+type(
+  action list
+)
+"src/components.ml" 53 2059 2075 "src/components.ml" 53 2059 2097
+type(
+  action list
+)
+"src/components.ml" 53 2059 2067 "src/components.ml" 53 2059 2097
+type(
+  unit
+)
+"src/components.ml" 54 2099 2107 "src/components.ml" 54 2099 2118
+type(
+  (G.V.t -> unit) -> G.t -> H.key -> unit
+)
+ident(
+  int_ref G.iter_succ "src/components.ml" 22 1337 1339 "src/components.ml" 22 1337 1388
+)
+"src/components.ml" 55 2119 2134 "src/components.ml" 55 2119 2135
+type(
+  G.V.t
+)
+ident(
+  def w "src/components.ml" 56 2139 2152 "src/components.ml" 56 2139 2196
+)
+"src/components.ml" 56 2139 2152 "src/components.ml" 56 2139 2156
+type(
+  action list ref
+)
+ident(
+  int_ref cont "src/components.ml" 48 1913 1921 "src/components.ml" 48 1913 1925
+)
+"src/components.ml" 56 2139 2157 "src/components.ml" 56 2139 2159
+type(
+  action list ref -> action list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/components.ml" 56 2139 2167 "src/components.ml" 56 2139 2168
+type(
+  H.key
+)
+ident(
+  int_ref v "src/components.ml" 49 1938 1952 "src/components.ml" 49 1938 1953
+)
+"src/components.ml" 56 2139 2170 "src/components.ml" 56 2139 2171
+type(
+  G.V.t
+)
+ident(
+  int_ref w "src/components.ml" 55 2119 2134 "src/components.ml" 55 2119 2135
+)
+"src/components.ml" 56 2139 2160 "src/components.ml" 56 2139 2172
+type(
+  action
+)
+"src/components.ml" 56 2139 2182 "src/components.ml" 56 2139 2183
+type(
+  H.key
+)
+ident(
+  int_ref v "src/components.ml" 49 1938 1952 "src/components.ml" 49 1938 1953
+)
+"src/components.ml" 56 2139 2185 "src/components.ml" 56 2139 2186
+type(
+  G.V.t
+)
+ident(
+  int_ref w "src/components.ml" 55 2119 2134 "src/components.ml" 55 2119 2135
+)
+"src/components.ml" 56 2139 2176 "src/components.ml" 56 2139 2187
+type(
+  action
+)
+"src/components.ml" 56 2139 2191 "src/components.ml" 56 2139 2192
+type(
+  action list ref -> action list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/components.ml" 56 2139 2192 "src/components.ml" 56 2139 2196
+type(
+  action list ref
+)
+ident(
+  int_ref cont "src/components.ml" 48 1913 1921 "src/components.ml" 48 1913 1925
+)
+"src/components.ml" 56 2139 2191 "src/components.ml" 56 2139 2196
+type(
+  action list
+)
+"src/components.ml" 56 2139 2176 "src/components.ml" 56 2139 2196
+type(
+  action list
+)
+"src/components.ml" 56 2139 2160 "src/components.ml" 56 2139 2196
+type(
+  action list
+)
+"src/components.ml" 56 2139 2152 "src/components.ml" 56 2139 2196
+type(
+  unit
+)
+"src/components.ml" 55 2119 2129 "src/components.ml" 56 2139 2197
+type(
+  G.V.t -> unit
+)
+"src/components.ml" 57 2198 2208 "src/components.ml" 57 2198 2209
+type(
+  G.t
+)
+ident(
+  int_ref g "src/components.ml" 36 1618 1628 "src/components.ml" 36 1618 1629
+)
+"src/components.ml" 57 2198 2210 "src/components.ml" 57 2198 2211
+type(
+  H.key
+)
+ident(
+  int_ref v "src/components.ml" 49 1938 1952 "src/components.ml" 49 1938 1953
+)
+"src/components.ml" 54 2099 2107 "src/components.ml" 57 2198 2212
+call(
+  tail
+)
+type(
+  unit
+)
+"src/components.ml" 53 2059 2067 "src/components.ml" 57 2198 2212
+type(
+  unit
+)
+"src/components.ml" 52 2035 2043 "src/components.ml" 57 2198 2212
+type(
+  unit
+)
+"src/components.ml" 50 1956 1989 "src/components.ml" 58 2213 2222
+type(
+  unit
+)
+"src/components.ml" 50 1956 1962 "src/components.ml" 58 2213 2222
+type(
+  unit
+)
+"src/components.ml" 60 2230 2242 "src/components.ml" 60 2230 2248
+type(
+  unit -> unit
+)
+ident(
+  def finish "src/components.ml" 60 2230 2234 "src/components.ml" 85 2952 2994
+)
+"src/components.ml" 60 2230 2249 "src/components.ml" 60 2230 2251
+type(
+  unit
+)
+"src/components.ml" 60 2230 2260 "src/components.ml" 60 2230 2261
+type(
+  action list ref -> action list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/components.ml" 60 2230 2261 "src/components.ml" 60 2230 2265
+type(
+  action list ref
+)
+ident(
+  int_ref cont "src/components.ml" 48 1913 1921 "src/components.ml" 48 1913 1925
+)
+"src/components.ml" 60 2230 2260 "src/components.ml" 60 2230 2265
+type(
+  action list
+)
+"src/components.ml" 61 2271 2279 "src/components.ml" 61 2271 2281
+type(
+  action list
+)
+"src/components.ml" 61 2271 2285 "src/components.ml" 61 2271 2287
+type(
+  unit
+)
+"src/components.ml" 62 2288 2296 "src/components.ml" 62 2288 2302
+type(
+  action
+)
+ident(
+  def action "src/components.ml" 63 2314 2322 "src/components.ml" 78 2822 2839
+)
+"src/components.ml" 62 2288 2306 "src/components.ml" 62 2288 2310
+type(
+  action list
+)
+ident(
+  def tail "src/components.ml" 63 2314 2322 "src/components.ml" 78 2822 2839
+)
+"src/components.ml" 62 2288 2296 "src/components.ml" 62 2288 2310
+type(
+  action list
+)
+"src/components.ml" 63 2314 2322 "src/components.ml" 63 2314 2326
+type(
+  action list ref
+)
+ident(
+  int_ref cont "src/components.ml" 48 1913 1921 "src/components.ml" 48 1913 1925
+)
+"src/components.ml" 63 2314 2327 "src/components.ml" 63 2314 2329
+type(
+  action list ref -> action list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/components.ml" 63 2314 2330 "src/components.ml" 63 2314 2334
+type(
+  action list
+)
+ident(
+  int_ref tail "src/components.ml" 62 2288 2306 "src/components.ml" 62 2288 2310
+)
+"src/components.ml" 63 2314 2322 "src/components.ml" 63 2314 2334
+type(
+  unit
+)
+"src/components.ml" 64 2336 2356 "src/components.ml" 64 2336 2362
+type(
+  action
+)
+ident(
+  int_ref action "src/components.ml" 62 2288 2296 "src/components.ml" 62 2288 2302
+)
+"src/components.ml" 65 2368 2388 "src/components.ml" 65 2368 2389
+type(
+  G.V.t
+)
+ident(
+  def v "src/components.ml" 66 2397 2409 "src/components.ml" 72 2593 2633
+)
+"src/components.ml" 65 2368 2391 "src/components.ml" 65 2368 2392
+type(
+  int
+)
+ident(
+  def n "src/components.ml" 66 2397 2409 "src/components.ml" 72 2593 2633
+)
+"src/components.ml" 65 2368 2380 "src/components.ml" 65 2368 2393
+type(
+  action
+)
+"src/components.ml" 66 2397 2412 "src/components.ml" 66 2397 2418
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/components.ml" 66 2397 2419 "src/components.ml" 66 2397 2423
+type(
+  int H.t
+)
+ident(
+  int_ref root "src/components.ml" 37 1632 1640 "src/components.ml" 37 1632 1644
+)
+"src/components.ml" 66 2397 2424 "src/components.ml" 66 2397 2425
+type(
+  H.key
+)
+ident(
+  int_ref v "src/components.ml" 65 2368 2388 "src/components.ml" 65 2368 2389
+)
+"src/components.ml" 66 2397 2412 "src/components.ml" 66 2397 2425
+call(
+  stack
+)
+type(
+  int
+)
+"src/components.ml" 66 2397 2426 "src/components.ml" 66 2397 2427
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/components.ml" 66 2397 2428 "src/components.ml" 66 2397 2429
+type(
+  int
+)
+ident(
+  int_ref n "src/components.ml" 65 2368 2391 "src/components.ml" 65 2368 2392
+)
+"src/components.ml" 66 2397 2412 "src/components.ml" 66 2397 2429
+type(
+  bool
+)
+"src/components.ml" 67 2441 2455 "src/components.ml" 67 2441 2460
+type(
+  int H.t -> H.key -> int -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/components.ml" 67 2441 2461 "src/components.ml" 67 2441 2469
+type(
+  int H.t
+)
+ident(
+  int_ref hashcomp "src/components.ml" 38 1663 1671 "src/components.ml" 38 1663 1679
+)
+"src/components.ml" 67 2441 2470 "src/components.ml" 67 2441 2471
+type(
+  H.key
+)
+ident(
+  int_ref v "src/components.ml" 65 2368 2388 "src/components.ml" 65 2368 2389
+)
+"src/components.ml" 67 2441 2472 "src/components.ml" 67 2441 2473
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/components.ml" 67 2441 2473 "src/components.ml" 67 2441 2480
+type(
+  int ref
+)
+ident(
+  int_ref numcomp "src/components.ml" 41 1750 1758 "src/components.ml" 41 1750 1765
+)
+"src/components.ml" 67 2441 2472 "src/components.ml" 67 2441 2480
+type(
+  int
+)
+"src/components.ml" 67 2441 2455 "src/components.ml" 67 2441 2480
+call(
+  stack
+)
+type(
+  unit
+)
+"src/components.ml" 68 2482 2500 "src/components.ml" 68 2482 2501
+type(
+  (int * H.key) list
+)
+ident(
+  def s "src/components.ml" 69 2520 2534 "src/components.ml" 70 2545 2571
+)
+"src/components.ml" 68 2482 2504 "src/components.ml" 68 2482 2507
+type(
+  int -> (int * H.key) list -> (int * H.key) list
+)
+ident(
+  int_ref pop "src/components.ml" 42 1777 1789 "src/components.ml" 42 1777 1792
+)
+"src/components.ml" 68 2482 2508 "src/components.ml" 68 2482 2509
+type(
+  int
+)
+ident(
+  int_ref n "src/components.ml" 65 2368 2391 "src/components.ml" 65 2368 2392
+)
+"src/components.ml" 68 2482 2510 "src/components.ml" 68 2482 2511
+type(
+  (int * H.key) list ref -> (int * H.key) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/components.ml" 68 2482 2511 "src/components.ml" 68 2482 2516
+type(
+  (int * H.key) list ref
+)
+ident(
+  int_ref stack "src/components.ml" 39 1698 1706 "src/components.ml" 39 1698 1711
+)
+"src/components.ml" 68 2482 2510 "src/components.ml" 68 2482 2516
+type(
+  (int * H.key) list
+)
+"src/components.ml" 68 2482 2504 "src/components.ml" 68 2482 2516
+call(
+  stack
+)
+type(
+  (int * H.key) list
+)
+"src/components.ml" 69 2520 2534 "src/components.ml" 69 2520 2539
+type(
+  (int * H.key) list ref
+)
+ident(
+  int_ref stack "src/components.ml" 39 1698 1706 "src/components.ml" 39 1698 1711
+)
+"src/components.ml" 69 2520 2539 "src/components.ml" 69 2520 2541
+type(
+  (int * H.key) list ref -> (int * H.key) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/components.ml" 69 2520 2542 "src/components.ml" 69 2520 2543
+type(
+  (int * H.key) list
+)
+ident(
+  int_ref s "src/components.ml" 68 2482 2500 "src/components.ml" 68 2482 2501
+)
+"src/components.ml" 69 2520 2534 "src/components.ml" 69 2520 2543
+type(
+  unit
+)
+"src/components.ml" 70 2545 2559 "src/components.ml" 70 2545 2563
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/components.ml" 70 2545 2564 "src/components.ml" 70 2545 2571
+type(
+  int ref
+)
+ident(
+  int_ref numcomp "src/components.ml" 41 1750 1758 "src/components.ml" 41 1750 1765
+)
+"src/components.ml" 70 2545 2559 "src/components.ml" 70 2545 2571
+type(
+  unit
+)
+"src/components.ml" 69 2520 2534 "src/components.ml" 70 2545 2571
+type(
+  unit
+)
+"src/components.ml" 68 2482 2496 "src/components.ml" 70 2545 2571
+type(
+  unit
+)
+"src/components.ml" 66 2397 2435 "src/components.ml" 71 2572 2587
+type(
+  unit
+)
+"src/components.ml" 72 2593 2607 "src/components.ml" 72 2593 2612
+type(
+  (int * H.key) list ref
+)
+ident(
+  int_ref stack "src/components.ml" 39 1698 1706 "src/components.ml" 39 1698 1711
+)
+"src/components.ml" 72 2593 2613 "src/components.ml" 72 2593 2615
+type(
+  (int * H.key) list ref -> (int * H.key) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/components.ml" 72 2593 2617 "src/components.ml" 72 2593 2618
+type(
+  int
+)
+ident(
+  int_ref n "src/components.ml" 65 2368 2391 "src/components.ml" 65 2368 2392
+)
+"src/components.ml" 72 2593 2620 "src/components.ml" 72 2593 2621
+type(
+  H.key
+)
+ident(
+  int_ref v "src/components.ml" 65 2368 2388 "src/components.ml" 65 2368 2389
+)
+"src/components.ml" 72 2593 2616 "src/components.ml" 72 2593 2622
+type(
+  int * H.key
+)
+"src/components.ml" 72 2593 2626 "src/components.ml" 72 2593 2627
+type(
+  (int * H.key) list ref -> (int * H.key) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/components.ml" 72 2593 2627 "src/components.ml" 72 2593 2632
+type(
+  (int * H.key) list ref
+)
+ident(
+  int_ref stack "src/components.ml" 39 1698 1706 "src/components.ml" 39 1698 1711
+)
+"src/components.ml" 72 2593 2626 "src/components.ml" 72 2593 2632
+type(
+  (int * H.key) list
+)
+"src/components.ml" 72 2593 2616 "src/components.ml" 72 2593 2632
+type(
+  (int * H.key) list
+)
+"src/components.ml" 72 2593 2607 "src/components.ml" 72 2593 2632
+type(
+  unit
+)
+"src/components.ml" 66 2397 2409 "src/components.ml" 72 2593 2633
+type(
+  unit
+)
+"src/components.ml" 73 2634 2653 "src/components.ml" 73 2634 2654
+type(
+  G.V.t
+)
+"src/components.ml" 73 2634 2656 "src/components.ml" 73 2634 2657
+type(
+  G.V.t
+)
+ident(
+  def w "src/components.ml" 73 2634 2662 "src/components.ml" 73 2634 2669
+)
+"src/components.ml" 73 2634 2646 "src/components.ml" 73 2634 2658
+type(
+  action
+)
+"src/components.ml" 73 2634 2662 "src/components.ml" 73 2634 2667
+type(
+  H.key -> unit
+)
+ident(
+  int_ref visit "src/components.ml" 49 1938 1946 "src/components.ml" 49 1938 1951
+)
+"src/components.ml" 73 2634 2668 "src/components.ml" 73 2634 2669
+type(
+  H.key
+)
+ident(
+  int_ref w "src/components.ml" 73 2634 2656 "src/components.ml" 73 2634 2657
+)
+"src/components.ml" 73 2634 2662 "src/components.ml" 73 2634 2669
+call(
+  stack
+)
+type(
+  unit
+)
+"src/components.ml" 74 2670 2688 "src/components.ml" 74 2670 2689
+type(
+  G.V.t
+)
+ident(
+  def v "src/components.ml" 75 2697 2709 "src/components.ml" 76 2740 2808
+)
+"src/components.ml" 74 2670 2691 "src/components.ml" 74 2670 2692
+type(
+  G.V.t
+)
+ident(
+  def w "src/components.ml" 75 2697 2709 "src/components.ml" 76 2740 2808
+)
+"src/components.ml" 74 2670 2682 "src/components.ml" 74 2670 2693
+type(
+  action
+)
+"src/components.ml" 75 2697 2712 "src/components.ml" 75 2697 2715
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/components.ml" 75 2697 2717 "src/components.ml" 75 2697 2722
+type(
+  int H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/components.ml" 75 2697 2723 "src/components.ml" 75 2697 2731
+type(
+  int H.t
+)
+ident(
+  int_ref hashcomp "src/components.ml" 38 1663 1671 "src/components.ml" 38 1663 1679
+)
+"src/components.ml" 75 2697 2732 "src/components.ml" 75 2697 2733
+type(
+  H.key
+)
+ident(
+  int_ref w "src/components.ml" 74 2670 2691 "src/components.ml" 74 2670 2692
+)
+"src/components.ml" 75 2697 2716 "src/components.ml" 75 2697 2734
+call(
+  stack
+)
+type(
+  bool
+)
+"src/components.ml" 75 2697 2712 "src/components.ml" 75 2697 2734
+type(
+  bool
+)
+"src/components.ml" 76 2740 2754 "src/components.ml" 76 2740 2763
+type(
+  int H.t -> H.key -> int -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"src/components.ml" 76 2740 2764 "src/components.ml" 76 2740 2768
+type(
+  int H.t
+)
+ident(
+  int_ref root "src/components.ml" 37 1632 1640 "src/components.ml" 37 1632 1644
+)
+"src/components.ml" 76 2740 2769 "src/components.ml" 76 2740 2770
+type(
+  H.key
+)
+ident(
+  int_ref v "src/components.ml" 74 2670 2688 "src/components.ml" 74 2670 2689
+)
+"src/components.ml" 76 2740 2772 "src/components.ml" 76 2740 2775
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"src/components.ml" 76 2740 2777 "src/components.ml" 76 2740 2783
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/components.ml" 76 2740 2784 "src/components.ml" 76 2740 2788
+type(
+  int H.t
+)
+ident(
+  int_ref root "src/components.ml" 37 1632 1640 "src/components.ml" 37 1632 1644
+)
+"src/components.ml" 76 2740 2789 "src/components.ml" 76 2740 2790
+type(
+  H.key
+)
+ident(
+  int_ref v "src/components.ml" 74 2670 2688 "src/components.ml" 74 2670 2689
+)
+"src/components.ml" 76 2740 2776 "src/components.ml" 76 2740 2791
+call(
+  stack
+)
+type(
+  int
+)
+"src/components.ml" 76 2740 2793 "src/components.ml" 76 2740 2799
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/components.ml" 76 2740 2800 "src/components.ml" 76 2740 2804
+type(
+  int H.t
+)
+ident(
+  int_ref root "src/components.ml" 37 1632 1640 "src/components.ml" 37 1632 1644
+)
+"src/components.ml" 76 2740 2805 "src/components.ml" 76 2740 2806
+type(
+  H.key
+)
+ident(
+  int_ref w "src/components.ml" 74 2670 2691 "src/components.ml" 74 2670 2692
+)
+"src/components.ml" 76 2740 2792 "src/components.ml" 76 2740 2807
+call(
+  stack
+)
+type(
+  int
+)
+"src/components.ml" 76 2740 2771 "src/components.ml" 76 2740 2808
+call(
+  stack
+)
+type(
+  int
+)
+"src/components.ml" 76 2740 2754 "src/components.ml" 76 2740 2808
+call(
+  stack
+)
+type(
+  unit
+)
+"src/components.ml" 75 2697 2709 "src/components.ml" 76 2740 2808
+type(
+  unit
+)
+"src/components.ml" 64 2336 2344 "src/components.ml" 77 2809 2820
+type(
+  unit
+)
+"src/components.ml" 78 2822 2830 "src/components.ml" 78 2822 2836
+type(
+  unit -> unit
+)
+ident(
+  int_ref finish "src/components.ml" 60 2230 2242 "src/components.ml" 60 2230 2248
+)
+"src/components.ml" 78 2822 2837 "src/components.ml" 78 2822 2839
+type(
+  unit
+)
+"src/components.ml" 78 2822 2830 "src/components.ml" 78 2822 2839
+call(
+  tail
+)
+type(
+  unit
+)
+"src/components.ml" 64 2336 2344 "src/components.ml" 78 2822 2839
+type(
+  unit
+)
+"src/components.ml" 63 2314 2322 "src/components.ml" 78 2822 2839
+type(
+  unit
+)
+"src/components.ml" 60 2230 2254 "src/components.ml" 78 2822 2839
+type(
+  unit
+)
+"src/components.ml" 80 2847 2855 "src/components.ml" 80 2847 2871
+type(
+  H.key -> unit
+)
+ident(
+  def visit_and_finish "src/components.ml" 84 2914 2918 "src/components.ml" 85 2952 2994
+)
+"src/components.ml" 80 2847 2872 "src/components.ml" 80 2847 2873
+type(
+  H.key
+)
+ident(
+  def v "src/components.ml" 81 2876 2882 "src/components.ml" 82 2891 2906
+)
+"src/components.ml" 81 2876 2882 "src/components.ml" 81 2876 2887
+type(
+  H.key -> unit
+)
+ident(
+  int_ref visit "src/components.ml" 49 1938 1946 "src/components.ml" 49 1938 1951
+)
+"src/components.ml" 81 2876 2888 "src/components.ml" 81 2876 2889
+type(
+  H.key
+)
+ident(
+  int_ref v "src/components.ml" 80 2847 2872 "src/components.ml" 80 2847 2873
+)
+"src/components.ml" 81 2876 2882 "src/components.ml" 81 2876 2889
+call(
+  stack
+)
+type(
+  unit
+)
+"src/components.ml" 82 2891 2897 "src/components.ml" 82 2891 2903
+type(
+  unit -> unit
+)
+ident(
+  int_ref finish "src/components.ml" 60 2230 2242 "src/components.ml" 60 2230 2248
+)
+"src/components.ml" 82 2891 2904 "src/components.ml" 82 2891 2906
+type(
+  unit
+)
+"src/components.ml" 82 2891 2897 "src/components.ml" 82 2891 2906
+call(
+  tail
+)
+type(
+  unit
+)
+"src/components.ml" 81 2876 2882 "src/components.ml" 82 2891 2906
+type(
+  unit
+)
+"src/components.ml" 84 2914 2918 "src/components.ml" 84 2914 2931
+type(
+  (H.key -> unit) -> G.t -> unit
+)
+ident(
+  int_ref G.iter_vertex "src/components.ml" 21 1290 1292 "src/components.ml" 21 1290 1336
+)
+"src/components.ml" 84 2914 2932 "src/components.ml" 84 2914 2948
+type(
+  H.key -> unit
+)
+ident(
+  int_ref visit_and_finish "src/components.ml" 80 2847 2855 "src/components.ml" 80 2847 2871
+)
+"src/components.ml" 84 2914 2949 "src/components.ml" 84 2914 2950
+type(
+  G.t
+)
+ident(
+  int_ref g "src/components.ml" 36 1618 1628 "src/components.ml" 36 1618 1629
+)
+"src/components.ml" 84 2914 2918 "src/components.ml" 84 2914 2950
+call(
+  stack
+)
+type(
+  unit
+)
+"src/components.ml" 85 2952 2956 "src/components.ml" 85 2952 2957
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/components.ml" 85 2952 2957 "src/components.ml" 85 2952 2964
+type(
+  int ref
+)
+ident(
+  int_ref numcomp "src/components.ml" 41 1750 1758 "src/components.ml" 41 1750 1765
+)
+"src/components.ml" 85 2952 2956 "src/components.ml" 85 2952 2964
+type(
+  int
+)
+"src/components.ml" 85 2952 2971 "src/components.ml" 85 2952 2972
+type(
+  H.key
+)
+ident(
+  def v "src/components.ml" 85 2952 2976 "src/components.ml" 85 2952 2993
+)
+"src/components.ml" 85 2952 2976 "src/components.ml" 85 2952 2982
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/components.ml" 85 2952 2983 "src/components.ml" 85 2952 2991
+type(
+  int H.t
+)
+ident(
+  int_ref hashcomp "src/components.ml" 38 1663 1671 "src/components.ml" 38 1663 1679
+)
+"src/components.ml" 85 2952 2992 "src/components.ml" 85 2952 2993
+type(
+  H.key
+)
+ident(
+  int_ref v "src/components.ml" 85 2952 2971 "src/components.ml" 85 2952 2972
+)
+"src/components.ml" 85 2952 2976 "src/components.ml" 85 2952 2993
+call(
+  tail
+)
+type(
+  int
+)
+"src/components.ml" 85 2952 2966 "src/components.ml" 85 2952 2994
+type(
+  H.key -> int
+)
+"src/components.ml" 85 2952 2956 "src/components.ml" 85 2952 2994
+type(
+  int * (H.key -> int)
+)
+"src/components.ml" 84 2914 2918 "src/components.ml" 85 2952 2994
+type(
+  int * (H.key -> int)
+)
+"src/components.ml" 80 2847 2851 "src/components.ml" 85 2952 2994
+type(
+  int * (H.key -> int)
+)
+"src/components.ml" 60 2230 2234 "src/components.ml" 85 2952 2994
+type(
+  int * (H.key -> int)
+)
+"src/components.ml" 49 1938 1942 "src/components.ml" 85 2952 2994
+type(
+  int * (H.key -> int)
+)
+"src/components.ml" 48 1913 1917 "src/components.ml" 85 2952 2994
+type(
+  int * (H.key -> int)
+)
+"src/components.ml" 42 1777 1781 "src/components.ml" 85 2952 2994
+type(
+  int * (H.key -> int)
+)
+"src/components.ml" 41 1750 1754 "src/components.ml" 85 2952 2994
+type(
+  int * (H.key -> int)
+)
+"src/components.ml" 40 1724 1728 "src/components.ml" 85 2952 2994
+type(
+  int * (H.key -> int)
+)
+"src/components.ml" 39 1698 1702 "src/components.ml" 85 2952 2994
+type(
+  int * (H.key -> int)
+)
+"src/components.ml" 38 1663 1667 "src/components.ml" 85 2952 2994
+type(
+  int * (H.key -> int)
+)
+"src/components.ml" 37 1632 1636 "src/components.ml" 85 2952 2994
+type(
+  int * (H.key -> int)
+)
+"src/components.ml" 87 2996 3002 "src/components.ml" 87 2996 3011
+type(
+  G.t -> H.key list array
+)
+ident(
+  def scc_array "src/components.ml" 93 3144 3146 "src/components.ml" 97 3241 3244
+)
+"src/components.ml" 87 2996 3012 "src/components.ml" 87 2996 3013
+type(
+  G.t
+)
+ident(
+  def g "src/components.ml" 88 3016 3020 "src/components.ml" 91 3137 3142
+)
+"src/components.ml" 88 3016 3024 "src/components.ml" 88 3016 3025
+type(
+  int
+)
+ident(
+  def n "src/components.ml" 89 3039 3043 "src/components.ml" 91 3137 3142
+)
+"src/components.ml" 88 3016 3026 "src/components.ml" 88 3016 3027
+type(
+  H.key -> int
+)
+ident(
+  def f "src/components.ml" 89 3039 3043 "src/components.ml" 91 3137 3142
+)
+"src/components.ml" 88 3016 3024 "src/components.ml" 88 3016 3027
+type(
+  int * (H.key -> int)
+)
+"src/components.ml" 88 3016 3030 "src/components.ml" 88 3016 3033
+type(
+  G.t -> int * (H.key -> int)
+)
+ident(
+  int_ref scc "src/components.ml" 36 1618 1624 "src/components.ml" 36 1618 1627
+)
+"src/components.ml" 88 3016 3034 "src/components.ml" 88 3016 3035
+type(
+  G.t
+)
+ident(
+  int_ref g "src/components.ml" 87 2996 3012 "src/components.ml" 87 2996 3013
+)
+"src/components.ml" 88 3016 3030 "src/components.ml" 88 3016 3035
+call(
+  stack
+)
+type(
+  int * (H.key -> int)
+)
+"src/components.ml" 89 3039 3047 "src/components.ml" 89 3039 3048
+type(
+  H.key list array
+)
+ident(
+  def t "src/components.ml" 90 3070 3074 "src/components.ml" 91 3137 3142
+)
+"src/components.ml" 89 3039 3051 "src/components.ml" 89 3039 3061
+type(
+  int -> H.key list -> H.key list array
+)
+ident(
+  ext_ref Array.make
+)
+"src/components.ml" 89 3039 3062 "src/components.ml" 89 3039 3063
+type(
+  int
+)
+ident(
+  int_ref n "src/components.ml" 88 3016 3024 "src/components.ml" 88 3016 3025
+)
+"src/components.ml" 89 3039 3064 "src/components.ml" 89 3039 3066
+type(
+  H.key list
+)
+"src/components.ml" 89 3039 3051 "src/components.ml" 89 3039 3066
+type(
+  H.key list array
+)
+"src/components.ml" 90 3070 3074 "src/components.ml" 90 3070 3087
+type(
+  (H.key -> unit) -> G.t -> unit
+)
+ident(
+  int_ref G.iter_vertex "src/components.ml" 21 1290 1292 "src/components.ml" 21 1290 1336
+)
+"src/components.ml" 90 3070 3093 "src/components.ml" 90 3070 3094
+type(
+  H.key
+)
+ident(
+  def v "src/components.ml" 90 3070 3098 "src/components.ml" 90 3070 3132
+)
+"src/components.ml" 90 3070 3102 "src/components.ml" 90 3070 3103
+type(
+  int
+)
+ident(
+  def i "src/components.ml" 90 3070 3113 "src/components.ml" 90 3070 3132
+)
+"src/components.ml" 90 3070 3106 "src/components.ml" 90 3070 3107
+type(
+  H.key -> int
+)
+ident(
+  int_ref f "src/components.ml" 88 3016 3026 "src/components.ml" 88 3016 3027
+)
+"src/components.ml" 90 3070 3108 "src/components.ml" 90 3070 3109
+type(
+  H.key
+)
+ident(
+  int_ref v "src/components.ml" 90 3070 3093 "src/components.ml" 90 3070 3094
+)
+"src/components.ml" 90 3070 3106 "src/components.ml" 90 3070 3109
+call(
+  stack
+)
+type(
+  int
+)
+"src/components.ml" 90 3070 3113 "src/components.ml" 90 3070 3114
+type(
+  H.key list array
+)
+ident(
+  int_ref t "src/components.ml" 89 3039 3047 "src/components.ml" 89 3039 3048
+)
+"src/components.ml" 90 3070 3116 "src/components.ml" 90 3070 3117
+type(
+  int
+)
+ident(
+  int_ref i "src/components.ml" 90 3070 3102 "src/components.ml" 90 3070 3103
+)
+"src/components.ml" 90 3070 3122 "src/components.ml" 90 3070 3123
+type(
+  H.key
+)
+ident(
+  int_ref v "src/components.ml" 90 3070 3093 "src/components.ml" 90 3070 3094
+)
+"src/components.ml" 90 3070 3127 "src/components.ml" 90 3070 3128
+type(
+  H.key list array
+)
+ident(
+  int_ref t "src/components.ml" 89 3039 3047 "src/components.ml" 89 3039 3048
+)
+"src/components.ml" 90 3070 3130 "src/components.ml" 90 3070 3131
+type(
+  int
+)
+ident(
+  int_ref i "src/components.ml" 90 3070 3102 "src/components.ml" 90 3070 3103
+)
+"src/components.ml" 90 3070 3127 "src/components.ml" 90 3070 3132
+type(
+  H.key list
+)
+"src/components.ml" 90 3070 3122 "src/components.ml" 90 3070 3132
+type(
+  H.key list
+)
+"src/components.ml" 90 3070 3113 "src/components.ml" 90 3070 3132
+type(
+  unit
+)
+"src/components.ml" 90 3070 3098 "src/components.ml" 90 3070 3132
+type(
+  unit
+)
+"src/components.ml" 90 3070 3088 "src/components.ml" 90 3070 3133
+type(
+  H.key -> unit
+)
+"src/components.ml" 90 3070 3134 "src/components.ml" 90 3070 3135
+type(
+  G.t
+)
+ident(
+  int_ref g "src/components.ml" 87 2996 3012 "src/components.ml" 87 2996 3013
+)
+"src/components.ml" 90 3070 3074 "src/components.ml" 90 3070 3135
+call(
+  stack
+)
+type(
+  unit
+)
+"src/components.ml" 91 3137 3141 "src/components.ml" 91 3137 3142
+type(
+  H.key list array
+)
+ident(
+  int_ref t "src/components.ml" 89 3039 3047 "src/components.ml" 89 3039 3048
+)
+"src/components.ml" 90 3070 3074 "src/components.ml" 91 3137 3142
+type(
+  H.key list array
+)
+"src/components.ml" 89 3039 3043 "src/components.ml" 91 3137 3142
+type(
+  H.key list array
+)
+"src/components.ml" 88 3016 3020 "src/components.ml" 91 3137 3142
+type(
+  H.key list array
+)
+"src/components.ml" 93 3144 3150 "src/components.ml" 93 3144 3158
+type(
+  G.t -> H.key list list
+)
+ident(
+  def scc_list "src/components.ml" 95 3190 3239 "src/components.ml" 97 3241 3244
+)
+"src/components.ml" 93 3144 3159 "src/components.ml" 93 3144 3160
+type(
+  G.t
+)
+ident(
+  def g "src/components.ml" 94 3163 3167 "src/components.ml" 95 3190 3239
+)
+"src/components.ml" 94 3163 3171 "src/components.ml" 94 3163 3172
+type(
+  H.key list array
+)
+ident(
+  def a "src/components.ml" 95 3190 3194 "src/components.ml" 95 3190 3239
+)
+"src/components.ml" 94 3163 3175 "src/components.ml" 94 3163 3184
+type(
+  G.t -> H.key list array
+)
+ident(
+  int_ref scc_array "src/components.ml" 87 2996 3002 "src/components.ml" 87 2996 3011
+)
+"src/components.ml" 94 3163 3185 "src/components.ml" 94 3163 3186
+type(
+  G.t
+)
+ident(
+  int_ref g "src/components.ml" 93 3144 3159 "src/components.ml" 93 3144 3160
+)
+"src/components.ml" 94 3163 3175 "src/components.ml" 94 3163 3186
+call(
+  stack
+)
+type(
+  H.key list array
+)
+"src/components.ml" 95 3190 3194 "src/components.ml" 95 3190 3210
+type(
+  (H.key list -> H.key list list -> H.key list list) ->
+  H.key list array -> H.key list list -> H.key list list
+)
+ident(
+  ext_ref Array.fold_right
+)
+"src/components.ml" 95 3190 3216 "src/components.ml" 95 3190 3217
+type(
+  H.key list
+)
+ident(
+  def l "src/components.ml" 95 3190 3218 "src/components.ml" 95 3190 3233
+)
+"src/components.ml" 95 3190 3218 "src/components.ml" 95 3190 3221
+type(
+  H.key list list
+)
+ident(
+  def acc "src/components.ml" 95 3190 3225 "src/components.ml" 95 3190 3233
+)
+"src/components.ml" 95 3190 3225 "src/components.ml" 95 3190 3226
+type(
+  H.key list
+)
+ident(
+  int_ref l "src/components.ml" 95 3190 3216 "src/components.ml" 95 3190 3217
+)
+"src/components.ml" 95 3190 3230 "src/components.ml" 95 3190 3233
+type(
+  H.key list list
+)
+ident(
+  int_ref acc "src/components.ml" 95 3190 3218 "src/components.ml" 95 3190 3221
+)
+"src/components.ml" 95 3190 3225 "src/components.ml" 95 3190 3233
+type(
+  H.key list list
+)
+"src/components.ml" 95 3190 3211 "src/components.ml" 95 3190 3234
+type(
+  H.key list -> H.key list list -> H.key list list
+)
+"src/components.ml" 95 3190 3235 "src/components.ml" 95 3190 3236
+type(
+  H.key list array
+)
+ident(
+  int_ref a "src/components.ml" 94 3163 3171 "src/components.ml" 94 3163 3172
+)
+"src/components.ml" 95 3190 3237 "src/components.ml" 95 3190 3239
+type(
+  H.key list list
+)
+"src/components.ml" 95 3190 3194 "src/components.ml" 95 3190 3239
+call(
+  tail
+)
+type(
+  H.key list list
+)
+"src/components.ml" 94 3163 3167 "src/components.ml" 95 3190 3239
+type(
+  H.key list list
+)
+"src/components.ml" 110 3495 3509 "src/components.ml" 110 3495 3528
+call(
+  stack
+)
+"src/components.ml" 111 3529 3542 "src/components.ml" 111 3529 3559
+call(
+  stack
+)
+"src/components.ml" 113 3561 3567 "src/components.ml" 113 3561 3577
+type(
+  G.t -> int * (UF.elt -> int)
+)
+ident(
+  def components "src/components.ml" 127 4030 4032 "src/components.ml" 137 4303 4306
+)
+"src/components.ml" 113 3561 3578 "src/components.ml" 113 3561 3579
+type(
+  G.t
+)
+ident(
+  def g "src/components.ml" 114 3582 3586 "src/components.ml" 125 3979 4028
+)
+"src/components.ml" 114 3582 3590 "src/components.ml" 114 3582 3598
+type(
+  UF.elt list ref
+)
+ident(
+  def vertices "src/components.ml" 115 3611 3615 "src/components.ml" 125 3979 4028
+)
+"src/components.ml" 114 3582 3601 "src/components.ml" 114 3582 3604
+type(
+  UF.elt list -> UF.elt list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/components.ml" 114 3582 3605 "src/components.ml" 114 3582 3607
+type(
+  UF.elt list
+)
+"src/components.ml" 114 3582 3601 "src/components.ml" 114 3582 3607
+type(
+  UF.elt list ref
+)
+"src/components.ml" 115 3611 3615 "src/components.ml" 115 3611 3628
+type(
+  (UF.elt -> unit) -> G.t -> unit
+)
+ident(
+  int_ref G.iter_vertex "src/components.ml" 104 3356 3358 "src/components.ml" 104 3356 3402
+)
+"src/components.ml" 115 3611 3634 "src/components.ml" 115 3611 3635
+type(
+  UF.elt
+)
+ident(
+  def v "src/components.ml" 115 3611 3639 "src/components.ml" 115 3611 3665
+)
+"src/components.ml" 115 3611 3639 "src/components.ml" 115 3611 3647
+type(
+  UF.elt list ref
+)
+ident(
+  int_ref vertices "src/components.ml" 114 3582 3590 "src/components.ml" 114 3582 3598
+)
+"src/components.ml" 115 3611 3648 "src/components.ml" 115 3611 3650
+type(
+  UF.elt list ref -> UF.elt list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/components.ml" 115 3611 3651 "src/components.ml" 115 3611 3652
+type(
+  UF.elt
+)
+ident(
+  int_ref v "src/components.ml" 115 3611 3634 "src/components.ml" 115 3611 3635
+)
+"src/components.ml" 115 3611 3656 "src/components.ml" 115 3611 3657
+type(
+  UF.elt list ref -> UF.elt list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/components.ml" 115 3611 3657 "src/components.ml" 115 3611 3665
+type(
+  UF.elt list ref
+)
+ident(
+  int_ref vertices "src/components.ml" 114 3582 3590 "src/components.ml" 114 3582 3598
+)
+"src/components.ml" 115 3611 3656 "src/components.ml" 115 3611 3665
+type(
+  UF.elt list
+)
+"src/components.ml" 115 3611 3651 "src/components.ml" 115 3611 3665
+type(
+  UF.elt list
+)
+"src/components.ml" 115 3611 3639 "src/components.ml" 115 3611 3665
+type(
+  unit
+)
+"src/components.ml" 115 3611 3629 "src/components.ml" 115 3611 3666
+type(
+  UF.elt -> unit
+)
+"src/components.ml" 115 3611 3667 "src/components.ml" 115 3611 3668
+type(
+  G.t
+)
+ident(
+  int_ref g "src/components.ml" 113 3561 3578 "src/components.ml" 113 3561 3579
+)
+"src/components.ml" 115 3611 3615 "src/components.ml" 115 3611 3668
+call(
+  stack
+)
+type(
+  unit
+)
+"src/components.ml" 116 3670 3678 "src/components.ml" 116 3670 3680
+type(
+  UF.t
+)
+ident(
+  def uf "src/components.ml" 117 3704 3708 "src/components.ml" 125 3979 4028
+)
+"src/components.ml" 116 3670 3683 "src/components.ml" 116 3670 3690
+type(
+  UF.elt list -> UF.t
+)
+ident(
+  ext_ref UF.init
+)
+"src/components.ml" 116 3670 3691 "src/components.ml" 116 3670 3692
+type(
+  UF.elt list ref -> UF.elt list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/components.ml" 116 3670 3692 "src/components.ml" 116 3670 3700
+type(
+  UF.elt list ref
+)
+ident(
+  int_ref vertices "src/components.ml" 114 3582 3590 "src/components.ml" 114 3582 3598
+)
+"src/components.ml" 116 3670 3691 "src/components.ml" 116 3670 3700
+type(
+  UF.elt list
+)
+"src/components.ml" 116 3670 3683 "src/components.ml" 116 3670 3700
+call(
+  stack
+)
+type(
+  UF.t
+)
+"src/components.ml" 117 3704 3712 "src/components.ml" 117 3704 3717
+type(
+  UF.elt -> UF.elt -> unit
+)
+ident(
+  def visit "src/components.ml" 118 3743 3747 "src/components.ml" 125 3979 4028
+)
+"src/components.ml" 117 3704 3718 "src/components.ml" 117 3704 3719
+type(
+  UF.elt
+)
+ident(
+  def u "src/components.ml" 117 3704 3720 "src/components.ml" 117 3704 3739
+)
+"src/components.ml" 117 3704 3720 "src/components.ml" 117 3704 3721
+type(
+  UF.elt
+)
+ident(
+  def v "src/components.ml" 117 3704 3724 "src/components.ml" 117 3704 3739
+)
+"src/components.ml" 117 3704 3724 "src/components.ml" 117 3704 3732
+type(
+  UF.elt -> UF.elt -> UF.t -> unit
+)
+ident(
+  ext_ref UF.union
+)
+"src/components.ml" 117 3704 3733 "src/components.ml" 117 3704 3734
+type(
+  UF.elt
+)
+ident(
+  int_ref u "src/components.ml" 117 3704 3718 "src/components.ml" 117 3704 3719
+)
+"src/components.ml" 117 3704 3735 "src/components.ml" 117 3704 3736
+type(
+  UF.elt
+)
+ident(
+  int_ref v "src/components.ml" 117 3704 3720 "src/components.ml" 117 3704 3721
+)
+"src/components.ml" 117 3704 3737 "src/components.ml" 117 3704 3739
+type(
+  UF.t
+)
+ident(
+  int_ref uf "src/components.ml" 116 3670 3678 "src/components.ml" 116 3670 3680
+)
+"src/components.ml" 117 3704 3724 "src/components.ml" 117 3704 3739
+call(
+  tail
+)
+type(
+  unit
+)
+"src/components.ml" 118 3743 3747 "src/components.ml" 118 3743 3759
+type(
+  (UF.elt -> UF.elt -> unit) -> G.t -> unit
+)
+ident(
+  int_ref G.iter_edges "src/components.ml" 105 3403 3405 "src/components.ml" 105 3403 3455
+)
+"src/components.ml" 118 3743 3760 "src/components.ml" 118 3743 3765
+type(
+  UF.elt -> UF.elt -> unit
+)
+ident(
+  int_ref visit "src/components.ml" 117 3704 3712 "src/components.ml" 117 3704 3717
+)
+"src/components.ml" 118 3743 3766 "src/components.ml" 118 3743 3767
+type(
+  G.t
+)
+ident(
+  int_ref g "src/components.ml" 113 3561 3578 "src/components.ml" 113 3561 3579
+)
+"src/components.ml" 118 3743 3747 "src/components.ml" 118 3743 3767
+call(
+  stack
+)
+type(
+  unit
+)
+"src/components.ml" 119 3769 3777 "src/components.ml" 119 3769 3782
+type(
+  int ref
+)
+ident(
+  def count "src/components.ml" 120 3794 3798 "src/components.ml" 125 3979 4028
+)
+"src/components.ml" 119 3769 3785 "src/components.ml" 119 3769 3788
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/components.ml" 119 3769 3789 "src/components.ml" 119 3769 3790
+type(
+  int
+)
+"src/components.ml" 119 3769 3785 "src/components.ml" 119 3769 3790
+type(
+  int ref
+)
+"src/components.ml" 120 3794 3802 "src/components.ml" 120 3794 3806
+type(
+  int H.t
+)
+ident(
+  def comp "src/components.ml" 121 3826 3830 "src/components.ml" 125 3979 4028
+)
+"src/components.ml" 120 3794 3809 "src/components.ml" 120 3794 3817
+type(
+  int -> int H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/components.ml" 120 3794 3818 "src/components.ml" 120 3794 3822
+type(
+  int
+)
+"src/components.ml" 120 3794 3809 "src/components.ml" 120 3794 3822
+call(
+  stack
+)
+type(
+  int H.t
+)
+"src/components.ml" 121 3826 3834 "src/components.ml" 121 3826 3839
+type(
+  UF.elt -> unit
+)
+ident(
+  def visit "src/components.ml" 124 3952 3956 "src/components.ml" 125 3979 4028
+)
+"src/components.ml" 121 3826 3840 "src/components.ml" 121 3826 3841
+type(
+  UF.elt
+)
+ident(
+  def v "src/components.ml" 122 3844 3850 "src/components.ml" 123 3874 3948
+)
+"src/components.ml" 122 3844 3854 "src/components.ml" 122 3844 3855
+type(
+  UF.elt
+)
+ident(
+  def v "src/components.ml" 123 3874 3880 "src/components.ml" 123 3874 3948
+)
+"src/components.ml" 122 3844 3858 "src/components.ml" 122 3844 3865
+type(
+  UF.elt -> UF.t -> UF.elt
+)
+ident(
+  ext_ref UF.find
+)
+"src/components.ml" 122 3844 3866 "src/components.ml" 122 3844 3867
+type(
+  UF.elt
+)
+ident(
+  int_ref v "src/components.ml" 121 3826 3840 "src/components.ml" 121 3826 3841
+)
+"src/components.ml" 122 3844 3868 "src/components.ml" 122 3844 3870
+type(
+  UF.t
+)
+ident(
+  int_ref uf "src/components.ml" 116 3670 3678 "src/components.ml" 116 3670 3680
+)
+"src/components.ml" 122 3844 3858 "src/components.ml" 122 3844 3870
+call(
+  stack
+)
+type(
+  UF.elt
+)
+"src/components.ml" 123 3874 3883 "src/components.ml" 123 3874 3886
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/components.ml" 123 3874 3888 "src/components.ml" 123 3874 3893
+type(
+  int H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/components.ml" 123 3874 3894 "src/components.ml" 123 3874 3898
+type(
+  int H.t
+)
+ident(
+  int_ref comp "src/components.ml" 120 3794 3802 "src/components.ml" 120 3794 3806
+)
+"src/components.ml" 123 3874 3899 "src/components.ml" 123 3874 3900
+type(
+  UF.elt
+)
+ident(
+  int_ref v "src/components.ml" 122 3844 3854 "src/components.ml" 122 3844 3855
+)
+"src/components.ml" 123 3874 3887 "src/components.ml" 123 3874 3901
+call(
+  stack
+)
+type(
+  bool
+)
+"src/components.ml" 123 3874 3883 "src/components.ml" 123 3874 3901
+type(
+  bool
+)
+"src/components.ml" 123 3874 3913 "src/components.ml" 123 3874 3918
+type(
+  int H.t -> H.key -> int -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/components.ml" 123 3874 3919 "src/components.ml" 123 3874 3923
+type(
+  int H.t
+)
+ident(
+  int_ref comp "src/components.ml" 120 3794 3802 "src/components.ml" 120 3794 3806
+)
+"src/components.ml" 123 3874 3924 "src/components.ml" 123 3874 3925
+type(
+  UF.elt
+)
+ident(
+  int_ref v "src/components.ml" 122 3844 3854 "src/components.ml" 122 3844 3855
+)
+"src/components.ml" 123 3874 3926 "src/components.ml" 123 3874 3927
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/components.ml" 123 3874 3927 "src/components.ml" 123 3874 3932
+type(
+  int ref
+)
+ident(
+  int_ref count "src/components.ml" 119 3769 3777 "src/components.ml" 119 3769 3782
+)
+"src/components.ml" 123 3874 3926 "src/components.ml" 123 3874 3932
+type(
+  int
+)
+"src/components.ml" 123 3874 3913 "src/components.ml" 123 3874 3932
+call(
+  stack
+)
+type(
+  unit
+)
+"src/components.ml" 123 3874 3934 "src/components.ml" 123 3874 3938
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/components.ml" 123 3874 3939 "src/components.ml" 123 3874 3944
+type(
+  int ref
+)
+ident(
+  int_ref count "src/components.ml" 119 3769 3777 "src/components.ml" 119 3769 3782
+)
+"src/components.ml" 123 3874 3934 "src/components.ml" 123 3874 3944
+type(
+  unit
+)
+"src/components.ml" 123 3874 3907 "src/components.ml" 123 3874 3948
+type(
+  unit
+)
+"src/components.ml" 123 3874 3880 "src/components.ml" 123 3874 3948
+type(
+  unit
+)
+"src/components.ml" 122 3844 3850 "src/components.ml" 123 3874 3948
+type(
+  unit
+)
+"src/components.ml" 124 3952 3956 "src/components.ml" 124 3952 3969
+type(
+  (UF.elt -> unit) -> G.t -> unit
+)
+ident(
+  int_ref G.iter_vertex "src/components.ml" 104 3356 3358 "src/components.ml" 104 3356 3402
+)
+"src/components.ml" 124 3952 3970 "src/components.ml" 124 3952 3975
+type(
+  UF.elt -> unit
+)
+ident(
+  int_ref visit "src/components.ml" 121 3826 3834 "src/components.ml" 121 3826 3839
+)
+"src/components.ml" 124 3952 3976 "src/components.ml" 124 3952 3977
+type(
+  G.t
+)
+ident(
+  int_ref g "src/components.ml" 113 3561 3578 "src/components.ml" 113 3561 3579
+)
+"src/components.ml" 124 3952 3956 "src/components.ml" 124 3952 3977
+call(
+  stack
+)
+type(
+  unit
+)
+"src/components.ml" 125 3979 3983 "src/components.ml" 125 3979 3984
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/components.ml" 125 3979 3984 "src/components.ml" 125 3979 3989
+type(
+  int ref
+)
+ident(
+  int_ref count "src/components.ml" 119 3769 3777 "src/components.ml" 119 3769 3782
+)
+"src/components.ml" 125 3979 3983 "src/components.ml" 125 3979 3989
+type(
+  int
+)
+"src/components.ml" 125 3979 3996 "src/components.ml" 125 3979 3997
+type(
+  UF.elt
+)
+ident(
+  def v "src/components.ml" 125 3979 4001 "src/components.ml" 125 3979 4027
+)
+"src/components.ml" 125 3979 4001 "src/components.ml" 125 3979 4007
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/components.ml" 125 3979 4008 "src/components.ml" 125 3979 4012
+type(
+  int H.t
+)
+ident(
+  int_ref comp "src/components.ml" 120 3794 3802 "src/components.ml" 120 3794 3806
+)
+"src/components.ml" 125 3979 4014 "src/components.ml" 125 3979 4021
+type(
+  UF.elt -> UF.t -> UF.elt
+)
+ident(
+  ext_ref UF.find
+)
+"src/components.ml" 125 3979 4022 "src/components.ml" 125 3979 4023
+type(
+  UF.elt
+)
+ident(
+  int_ref v "src/components.ml" 125 3979 3996 "src/components.ml" 125 3979 3997
+)
+"src/components.ml" 125 3979 4024 "src/components.ml" 125 3979 4026
+type(
+  UF.t
+)
+ident(
+  int_ref uf "src/components.ml" 116 3670 3678 "src/components.ml" 116 3670 3680
+)
+"src/components.ml" 125 3979 4013 "src/components.ml" 125 3979 4027
+call(
+  stack
+)
+type(
+  UF.elt
+)
+"src/components.ml" 125 3979 4001 "src/components.ml" 125 3979 4027
+call(
+  tail
+)
+type(
+  int
+)
+"src/components.ml" 125 3979 3991 "src/components.ml" 125 3979 4028
+type(
+  UF.elt -> int
+)
+"src/components.ml" 125 3979 3983 "src/components.ml" 125 3979 4028
+type(
+  int * (UF.elt -> int)
+)
+"src/components.ml" 124 3952 3956 "src/components.ml" 125 3979 4028
+type(
+  int * (UF.elt -> int)
+)
+"src/components.ml" 121 3826 3830 "src/components.ml" 125 3979 4028
+type(
+  int * (UF.elt -> int)
+)
+"src/components.ml" 120 3794 3798 "src/components.ml" 125 3979 4028
+type(
+  int * (UF.elt -> int)
+)
+"src/components.ml" 119 3769 3773 "src/components.ml" 125 3979 4028
+type(
+  int * (UF.elt -> int)
+)
+"src/components.ml" 118 3743 3747 "src/components.ml" 125 3979 4028
+type(
+  int * (UF.elt -> int)
+)
+"src/components.ml" 117 3704 3708 "src/components.ml" 125 3979 4028
+type(
+  int * (UF.elt -> int)
+)
+"src/components.ml" 116 3670 3674 "src/components.ml" 125 3979 4028
+type(
+  int * (UF.elt -> int)
+)
+"src/components.ml" 115 3611 3615 "src/components.ml" 125 3979 4028
+type(
+  int * (UF.elt -> int)
+)
+"src/components.ml" 114 3582 3586 "src/components.ml" 125 3979 4028
+type(
+  int * (UF.elt -> int)
+)
+"src/components.ml" 127 4030 4036 "src/components.ml" 127 4030 4052
+type(
+  G.t -> UF.elt list array
+)
+ident(
+  def components_array "src/components.ml" 133 4192 4194 "src/components.ml" 137 4303 4306
+)
+"src/components.ml" 127 4030 4053 "src/components.ml" 127 4030 4054
+type(
+  G.t
+)
+ident(
+  def g "src/components.ml" 128 4057 4061 "src/components.ml" 131 4185 4190
+)
+"src/components.ml" 128 4057 4065 "src/components.ml" 128 4057 4066
+type(
+  int
+)
+ident(
+  def n "src/components.ml" 129 4087 4091 "src/components.ml" 131 4185 4190
+)
+"src/components.ml" 128 4057 4067 "src/components.ml" 128 4057 4068
+type(
+  UF.elt -> int
+)
+ident(
+  def f "src/components.ml" 129 4087 4091 "src/components.ml" 131 4185 4190
+)
+"src/components.ml" 128 4057 4065 "src/components.ml" 128 4057 4068
+type(
+  int * (UF.elt -> int)
+)
+"src/components.ml" 128 4057 4071 "src/components.ml" 128 4057 4081
+type(
+  G.t -> int * (UF.elt -> int)
+)
+ident(
+  int_ref components "src/components.ml" 113 3561 3567 "src/components.ml" 113 3561 3577
+)
+"src/components.ml" 128 4057 4082 "src/components.ml" 128 4057 4083
+type(
+  G.t
+)
+ident(
+  int_ref g "src/components.ml" 127 4030 4053 "src/components.ml" 127 4030 4054
+)
+"src/components.ml" 128 4057 4071 "src/components.ml" 128 4057 4083
+call(
+  stack
+)
+type(
+  int * (UF.elt -> int)
+)
+"src/components.ml" 129 4087 4095 "src/components.ml" 129 4087 4096
+type(
+  UF.elt list array
+)
+ident(
+  def t "src/components.ml" 130 4118 4122 "src/components.ml" 131 4185 4190
+)
+"src/components.ml" 129 4087 4099 "src/components.ml" 129 4087 4109
+type(
+  int -> UF.elt list -> UF.elt list array
+)
+ident(
+  ext_ref Array.make
+)
+"src/components.ml" 129 4087 4110 "src/components.ml" 129 4087 4111
+type(
+  int
+)
+ident(
+  int_ref n "src/components.ml" 128 4057 4065 "src/components.ml" 128 4057 4066
+)
+"src/components.ml" 129 4087 4112 "src/components.ml" 129 4087 4114
+type(
+  UF.elt list
+)
+"src/components.ml" 129 4087 4099 "src/components.ml" 129 4087 4114
+type(
+  UF.elt list array
+)
+"src/components.ml" 130 4118 4122 "src/components.ml" 130 4118 4135
+type(
+  (UF.elt -> unit) -> G.t -> unit
+)
+ident(
+  int_ref G.iter_vertex "src/components.ml" 104 3356 3358 "src/components.ml" 104 3356 3402
+)
+"src/components.ml" 130 4118 4141 "src/components.ml" 130 4118 4142
+type(
+  UF.elt
+)
+ident(
+  def v "src/components.ml" 130 4118 4146 "src/components.ml" 130 4118 4180
+)
+"src/components.ml" 130 4118 4150 "src/components.ml" 130 4118 4151
+type(
+  int
+)
+ident(
+  def i "src/components.ml" 130 4118 4161 "src/components.ml" 130 4118 4180
+)
+"src/components.ml" 130 4118 4154 "src/components.ml" 130 4118 4155
+type(
+  UF.elt -> int
+)
+ident(
+  int_ref f "src/components.ml" 128 4057 4067 "src/components.ml" 128 4057 4068
+)
+"src/components.ml" 130 4118 4156 "src/components.ml" 130 4118 4157
+type(
+  UF.elt
+)
+ident(
+  int_ref v "src/components.ml" 130 4118 4141 "src/components.ml" 130 4118 4142
+)
+"src/components.ml" 130 4118 4154 "src/components.ml" 130 4118 4157
+call(
+  stack
+)
+type(
+  int
+)
+"src/components.ml" 130 4118 4161 "src/components.ml" 130 4118 4162
+type(
+  UF.elt list array
+)
+ident(
+  int_ref t "src/components.ml" 129 4087 4095 "src/components.ml" 129 4087 4096
+)
+"src/components.ml" 130 4118 4164 "src/components.ml" 130 4118 4165
+type(
+  int
+)
+ident(
+  int_ref i "src/components.ml" 130 4118 4150 "src/components.ml" 130 4118 4151
+)
+"src/components.ml" 130 4118 4170 "src/components.ml" 130 4118 4171
+type(
+  UF.elt
+)
+ident(
+  int_ref v "src/components.ml" 130 4118 4141 "src/components.ml" 130 4118 4142
+)
+"src/components.ml" 130 4118 4175 "src/components.ml" 130 4118 4176
+type(
+  UF.elt list array
+)
+ident(
+  int_ref t "src/components.ml" 129 4087 4095 "src/components.ml" 129 4087 4096
+)
+"src/components.ml" 130 4118 4178 "src/components.ml" 130 4118 4179
+type(
+  int
+)
+ident(
+  int_ref i "src/components.ml" 130 4118 4150 "src/components.ml" 130 4118 4151
+)
+"src/components.ml" 130 4118 4175 "src/components.ml" 130 4118 4180
+type(
+  UF.elt list
+)
+"src/components.ml" 130 4118 4170 "src/components.ml" 130 4118 4180
+type(
+  UF.elt list
+)
+"src/components.ml" 130 4118 4161 "src/components.ml" 130 4118 4180
+type(
+  unit
+)
+"src/components.ml" 130 4118 4146 "src/components.ml" 130 4118 4180
+type(
+  unit
+)
+"src/components.ml" 130 4118 4136 "src/components.ml" 130 4118 4181
+type(
+  UF.elt -> unit
+)
+"src/components.ml" 130 4118 4182 "src/components.ml" 130 4118 4183
+type(
+  G.t
+)
+ident(
+  int_ref g "src/components.ml" 127 4030 4053 "src/components.ml" 127 4030 4054
+)
+"src/components.ml" 130 4118 4122 "src/components.ml" 130 4118 4183
+call(
+  stack
+)
+type(
+  unit
+)
+"src/components.ml" 131 4185 4189 "src/components.ml" 131 4185 4190
+type(
+  UF.elt list array
+)
+ident(
+  int_ref t "src/components.ml" 129 4087 4095 "src/components.ml" 129 4087 4096
+)
+"src/components.ml" 130 4118 4122 "src/components.ml" 131 4185 4190
+type(
+  UF.elt list array
+)
+"src/components.ml" 129 4087 4091 "src/components.ml" 131 4185 4190
+type(
+  UF.elt list array
+)
+"src/components.ml" 128 4057 4061 "src/components.ml" 131 4185 4190
+type(
+  UF.elt list array
+)
+"src/components.ml" 133 4192 4198 "src/components.ml" 133 4192 4213
+type(
+  G.t -> UF.elt list list
+)
+ident(
+  def components_list "src/components.ml" 135 4252 4301 "src/components.ml" 137 4303 4306
+)
+"src/components.ml" 133 4192 4214 "src/components.ml" 133 4192 4215
+type(
+  G.t
+)
+ident(
+  def g "src/components.ml" 134 4218 4222 "src/components.ml" 135 4252 4301
+)
+"src/components.ml" 134 4218 4226 "src/components.ml" 134 4218 4227
+type(
+  UF.elt list array
+)
+ident(
+  def a "src/components.ml" 135 4252 4256 "src/components.ml" 135 4252 4301
+)
+"src/components.ml" 134 4218 4230 "src/components.ml" 134 4218 4246
+type(
+  G.t -> UF.elt list array
+)
+ident(
+  int_ref components_array "src/components.ml" 127 4030 4036 "src/components.ml" 127 4030 4052
+)
+"src/components.ml" 134 4218 4247 "src/components.ml" 134 4218 4248
+type(
+  G.t
+)
+ident(
+  int_ref g "src/components.ml" 133 4192 4214 "src/components.ml" 133 4192 4215
+)
+"src/components.ml" 134 4218 4230 "src/components.ml" 134 4218 4248
+call(
+  stack
+)
+type(
+  UF.elt list array
+)
+"src/components.ml" 135 4252 4256 "src/components.ml" 135 4252 4272
+type(
+  (UF.elt list -> UF.elt list list -> UF.elt list list) ->
+  UF.elt list array -> UF.elt list list -> UF.elt list list
+)
+ident(
+  ext_ref Array.fold_right
+)
+"src/components.ml" 135 4252 4278 "src/components.ml" 135 4252 4279
+type(
+  UF.elt list
+)
+ident(
+  def l "src/components.ml" 135 4252 4280 "src/components.ml" 135 4252 4295
+)
+"src/components.ml" 135 4252 4280 "src/components.ml" 135 4252 4283
+type(
+  UF.elt list list
+)
+ident(
+  def acc "src/components.ml" 135 4252 4287 "src/components.ml" 135 4252 4295
+)
+"src/components.ml" 135 4252 4287 "src/components.ml" 135 4252 4288
+type(
+  UF.elt list
+)
+ident(
+  int_ref l "src/components.ml" 135 4252 4278 "src/components.ml" 135 4252 4279
+)
+"src/components.ml" 135 4252 4292 "src/components.ml" 135 4252 4295
+type(
+  UF.elt list list
+)
+ident(
+  int_ref acc "src/components.ml" 135 4252 4280 "src/components.ml" 135 4252 4283
+)
+"src/components.ml" 135 4252 4287 "src/components.ml" 135 4252 4295
+type(
+  UF.elt list list
+)
+"src/components.ml" 135 4252 4273 "src/components.ml" 135 4252 4296
+type(
+  UF.elt list -> UF.elt list list -> UF.elt list list
+)
+"src/components.ml" 135 4252 4297 "src/components.ml" 135 4252 4298
+type(
+  UF.elt list array
+)
+ident(
+  int_ref a "src/components.ml" 134 4218 4226 "src/components.ml" 134 4218 4227
+)
+"src/components.ml" 135 4252 4299 "src/components.ml" 135 4252 4301
+type(
+  UF.elt list list
+)
+"src/components.ml" 135 4252 4256 "src/components.ml" 135 4252 4301
+call(
+  tail
+)
+type(
+  UF.elt list list
+)
+"src/components.ml" 134 4218 4222 "src/components.ml" 135 4252 4301
+type(
+  UF.elt list list
+)

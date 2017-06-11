@@ -1,0 +1,558 @@
+"src/builder.ml" 34 1675 1681 "src/builder.ml" 34 1675 1686
+type(
+  unit -> G.t
+)
+ident(
+  def empty "src/builder.ml" 35 1700 1702 "src/builder.ml" 42 1919 1922
+)
+"src/builder.ml" 34 1675 1687 "src/builder.ml" 34 1675 1689
+type(
+  unit
+)
+"src/builder.ml" 34 1675 1692 "src/builder.ml" 34 1675 1699
+type(
+  G.t
+)
+ident(
+  ext_ref G.empty
+)
+"src/builder.ml" 35 1700 1706 "src/builder.ml" 35 1700 1710
+type(
+  'a -> 'a
+)
+ident(
+  def copy "src/builder.ml" 36 1717 1719 "src/builder.ml" 42 1919 1922
+)
+"src/builder.ml" 35 1700 1711 "src/builder.ml" 35 1700 1712
+type(
+  'a
+)
+ident(
+  def g "src/builder.ml" 35 1700 1715 "src/builder.ml" 35 1700 1716
+)
+"src/builder.ml" 35 1700 1715 "src/builder.ml" 35 1700 1716
+type(
+  'a
+)
+ident(
+  int_ref g "src/builder.ml" 35 1700 1711 "src/builder.ml" 35 1700 1712
+)
+"src/builder.ml" 36 1717 1723 "src/builder.ml" 36 1717 1733
+type(
+  G.t -> G.vertex -> G.t
+)
+ident(
+  def add_vertex "src/builder.ml" 37 1749 1751 "src/builder.ml" 42 1919 1922
+)
+"src/builder.ml" 36 1717 1736 "src/builder.ml" 36 1717 1748
+type(
+  G.t -> G.vertex -> G.t
+)
+ident(
+  ext_ref G.add_vertex
+)
+"src/builder.ml" 37 1749 1755 "src/builder.ml" 37 1749 1763
+type(
+  G.t -> G.vertex -> G.vertex -> G.t
+)
+ident(
+  def add_edge "src/builder.ml" 38 1777 1779 "src/builder.ml" 42 1919 1922
+)
+"src/builder.ml" 37 1749 1766 "src/builder.ml" 37 1749 1776
+type(
+  G.t -> G.vertex -> G.vertex -> G.t
+)
+ident(
+  ext_ref G.add_edge
+)
+"src/builder.ml" 38 1777 1783 "src/builder.ml" 38 1777 1793
+type(
+  G.t -> G.edge -> G.t
+)
+ident(
+  def add_edge_e "src/builder.ml" 39 1809 1811 "src/builder.ml" 42 1919 1922
+)
+"src/builder.ml" 38 1777 1796 "src/builder.ml" 38 1777 1808
+type(
+  G.t -> G.edge -> G.t
+)
+ident(
+  ext_ref G.add_edge_e
+)
+"src/builder.ml" 39 1809 1815 "src/builder.ml" 39 1809 1828
+type(
+  G.t -> G.vertex -> G.t
+)
+ident(
+  def remove_vertex "src/builder.ml" 40 1847 1849 "src/builder.ml" 42 1919 1922
+)
+"src/builder.ml" 39 1809 1831 "src/builder.ml" 39 1809 1846
+type(
+  G.t -> G.vertex -> G.t
+)
+ident(
+  ext_ref G.remove_vertex
+)
+"src/builder.ml" 40 1847 1853 "src/builder.ml" 40 1847 1864
+type(
+  G.t -> G.vertex -> G.vertex -> G.t
+)
+ident(
+  def remove_edge "src/builder.ml" 41 1881 1883 "src/builder.ml" 42 1919 1922
+)
+"src/builder.ml" 40 1847 1867 "src/builder.ml" 40 1847 1880
+type(
+  G.t -> G.vertex -> G.vertex -> G.t
+)
+ident(
+  ext_ref G.remove_edge
+)
+"src/builder.ml" 41 1881 1887 "src/builder.ml" 41 1881 1900
+type(
+  G.t -> G.edge -> G.t
+)
+ident(
+  def remove_edge_e "src/builder.ml" 41 1881 1918 "src/builder.ml" 42 1919 1922
+)
+"src/builder.ml" 41 1881 1903 "src/builder.ml" 41 1881 1918
+type(
+  G.t -> G.edge -> G.t
+)
+ident(
+  ext_ref G.remove_edge_e
+)
+"src/builder.ml" 46 1968 1974 "src/builder.ml" 46 1968 1979
+type(
+  unit -> G.t
+)
+ident(
+  def empty "src/builder.ml" 47 2006 2008 "src/builder.ml" 54 2310 2313
+)
+"src/builder.ml" 46 1968 1980 "src/builder.ml" 46 1968 1982
+type(
+  unit
+)
+"src/builder.ml" 46 1968 1985 "src/builder.ml" 46 1968 1993
+type(
+  ?size:int -> unit -> G.t
+)
+ident(
+  ext_ref G.create
+)
+"src/builder.ml" 46 1968 2000 "src/builder.ml" 46 1968 2002
+type(
+  int
+)
+"src/builder.ml" 46 1968 2003 "src/builder.ml" 46 1968 2005
+type(
+  unit
+)
+"src/builder.ml" 46 1968 1985 "src/builder.ml" 46 1968 2005
+call(
+  tail
+)
+type(
+  G.t
+)
+"src/builder.ml" 47 2006 2012 "src/builder.ml" 47 2006 2016
+type(
+  G.t -> G.t
+)
+ident(
+  def copy "src/builder.ml" 48 2026 2028 "src/builder.ml" 54 2310 2313
+)
+"src/builder.ml" 47 2006 2019 "src/builder.ml" 47 2006 2025
+type(
+  G.t -> G.t
+)
+ident(
+  ext_ref G.copy
+)
+"src/builder.ml" 48 2026 2032 "src/builder.ml" 48 2026 2042
+type(
+  G.t -> G.vertex -> G.t
+)
+ident(
+  def add_vertex "src/builder.ml" 49 2069 2071 "src/builder.ml" 54 2310 2313
+)
+"src/builder.ml" 48 2026 2043 "src/builder.ml" 48 2026 2044
+type(
+  G.t
+)
+ident(
+  def g "src/builder.ml" 48 2026 2045 "src/builder.ml" 48 2026 2068
+)
+"src/builder.ml" 48 2026 2045 "src/builder.ml" 48 2026 2046
+type(
+  G.vertex
+)
+ident(
+  def v "src/builder.ml" 48 2026 2049 "src/builder.ml" 48 2026 2068
+)
+"src/builder.ml" 48 2026 2049 "src/builder.ml" 48 2026 2061
+type(
+  G.t -> G.vertex -> unit
+)
+ident(
+  ext_ref G.add_vertex
+)
+"src/builder.ml" 48 2026 2062 "src/builder.ml" 48 2026 2063
+type(
+  G.t
+)
+ident(
+  int_ref g "src/builder.ml" 48 2026 2043 "src/builder.ml" 48 2026 2044
+)
+"src/builder.ml" 48 2026 2064 "src/builder.ml" 48 2026 2065
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/builder.ml" 48 2026 2045 "src/builder.ml" 48 2026 2046
+)
+"src/builder.ml" 48 2026 2049 "src/builder.ml" 48 2026 2065
+call(
+  stack
+)
+type(
+  unit
+)
+"src/builder.ml" 48 2026 2067 "src/builder.ml" 48 2026 2068
+type(
+  G.t
+)
+ident(
+  int_ref g "src/builder.ml" 48 2026 2043 "src/builder.ml" 48 2026 2044
+)
+"src/builder.ml" 48 2026 2049 "src/builder.ml" 48 2026 2068
+type(
+  G.t
+)
+"src/builder.ml" 49 2069 2075 "src/builder.ml" 49 2069 2083
+type(
+  G.t -> G.vertex -> G.vertex -> G.t
+)
+ident(
+  def add_edge "src/builder.ml" 50 2116 2118 "src/builder.ml" 54 2310 2313
+)
+"src/builder.ml" 49 2069 2084 "src/builder.ml" 49 2069 2085
+type(
+  G.t
+)
+ident(
+  def g "src/builder.ml" 49 2069 2086 "src/builder.ml" 49 2069 2115
+)
+"src/builder.ml" 49 2069 2086 "src/builder.ml" 49 2069 2088
+type(
+  G.vertex
+)
+ident(
+  def v1 "src/builder.ml" 49 2069 2089 "src/builder.ml" 49 2069 2115
+)
+"src/builder.ml" 49 2069 2089 "src/builder.ml" 49 2069 2091
+type(
+  G.vertex
+)
+ident(
+  def v2 "src/builder.ml" 49 2069 2094 "src/builder.ml" 49 2069 2115
+)
+"src/builder.ml" 49 2069 2094 "src/builder.ml" 49 2069 2104
+type(
+  G.t -> G.vertex -> G.vertex -> unit
+)
+ident(
+  ext_ref G.add_edge
+)
+"src/builder.ml" 49 2069 2105 "src/builder.ml" 49 2069 2106
+type(
+  G.t
+)
+ident(
+  int_ref g "src/builder.ml" 49 2069 2084 "src/builder.ml" 49 2069 2085
+)
+"src/builder.ml" 49 2069 2107 "src/builder.ml" 49 2069 2109
+type(
+  G.vertex
+)
+ident(
+  int_ref v1 "src/builder.ml" 49 2069 2086 "src/builder.ml" 49 2069 2088
+)
+"src/builder.ml" 49 2069 2110 "src/builder.ml" 49 2069 2112
+type(
+  G.vertex
+)
+ident(
+  int_ref v2 "src/builder.ml" 49 2069 2089 "src/builder.ml" 49 2069 2091
+)
+"src/builder.ml" 49 2069 2094 "src/builder.ml" 49 2069 2112
+call(
+  stack
+)
+type(
+  unit
+)
+"src/builder.ml" 49 2069 2114 "src/builder.ml" 49 2069 2115
+type(
+  G.t
+)
+ident(
+  int_ref g "src/builder.ml" 49 2069 2084 "src/builder.ml" 49 2069 2085
+)
+"src/builder.ml" 49 2069 2094 "src/builder.ml" 49 2069 2115
+type(
+  G.t
+)
+"src/builder.ml" 50 2116 2122 "src/builder.ml" 50 2116 2132
+type(
+  G.t -> G.edge -> G.t
+)
+ident(
+  def add_edge_e "src/builder.ml" 51 2159 2161 "src/builder.ml" 54 2310 2313
+)
+"src/builder.ml" 50 2116 2133 "src/builder.ml" 50 2116 2134
+type(
+  G.t
+)
+ident(
+  def g "src/builder.ml" 50 2116 2135 "src/builder.ml" 50 2116 2158
+)
+"src/builder.ml" 50 2116 2135 "src/builder.ml" 50 2116 2136
+type(
+  G.edge
+)
+ident(
+  def e "src/builder.ml" 50 2116 2139 "src/builder.ml" 50 2116 2158
+)
+"src/builder.ml" 50 2116 2139 "src/builder.ml" 50 2116 2151
+type(
+  G.t -> G.edge -> unit
+)
+ident(
+  ext_ref G.add_edge_e
+)
+"src/builder.ml" 50 2116 2152 "src/builder.ml" 50 2116 2153
+type(
+  G.t
+)
+ident(
+  int_ref g "src/builder.ml" 50 2116 2133 "src/builder.ml" 50 2116 2134
+)
+"src/builder.ml" 50 2116 2154 "src/builder.ml" 50 2116 2155
+type(
+  G.edge
+)
+ident(
+  int_ref e "src/builder.ml" 50 2116 2135 "src/builder.ml" 50 2116 2136
+)
+"src/builder.ml" 50 2116 2139 "src/builder.ml" 50 2116 2155
+call(
+  stack
+)
+type(
+  unit
+)
+"src/builder.ml" 50 2116 2157 "src/builder.ml" 50 2116 2158
+type(
+  G.t
+)
+ident(
+  int_ref g "src/builder.ml" 50 2116 2133 "src/builder.ml" 50 2116 2134
+)
+"src/builder.ml" 50 2116 2139 "src/builder.ml" 50 2116 2158
+type(
+  G.t
+)
+"src/builder.ml" 51 2159 2165 "src/builder.ml" 51 2159 2178
+type(
+  G.t -> G.vertex -> G.t
+)
+ident(
+  def remove_vertex "src/builder.ml" 52 2208 2210 "src/builder.ml" 54 2310 2313
+)
+"src/builder.ml" 51 2159 2179 "src/builder.ml" 51 2159 2180
+type(
+  G.t
+)
+ident(
+  def g "src/builder.ml" 51 2159 2181 "src/builder.ml" 51 2159 2207
+)
+"src/builder.ml" 51 2159 2181 "src/builder.ml" 51 2159 2182
+type(
+  G.vertex
+)
+ident(
+  def v "src/builder.ml" 51 2159 2185 "src/builder.ml" 51 2159 2207
+)
+"src/builder.ml" 51 2159 2185 "src/builder.ml" 51 2159 2200
+type(
+  G.t -> G.vertex -> unit
+)
+ident(
+  ext_ref G.remove_vertex
+)
+"src/builder.ml" 51 2159 2201 "src/builder.ml" 51 2159 2202
+type(
+  G.t
+)
+ident(
+  int_ref g "src/builder.ml" 51 2159 2179 "src/builder.ml" 51 2159 2180
+)
+"src/builder.ml" 51 2159 2203 "src/builder.ml" 51 2159 2204
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/builder.ml" 51 2159 2181 "src/builder.ml" 51 2159 2182
+)
+"src/builder.ml" 51 2159 2185 "src/builder.ml" 51 2159 2204
+call(
+  stack
+)
+type(
+  unit
+)
+"src/builder.ml" 51 2159 2206 "src/builder.ml" 51 2159 2207
+type(
+  G.t
+)
+ident(
+  int_ref g "src/builder.ml" 51 2159 2179 "src/builder.ml" 51 2159 2180
+)
+"src/builder.ml" 51 2159 2185 "src/builder.ml" 51 2159 2207
+type(
+  G.t
+)
+"src/builder.ml" 52 2208 2214 "src/builder.ml" 52 2208 2225
+type(
+  G.t -> G.vertex -> G.vertex -> G.t
+)
+ident(
+  def remove_edge "src/builder.ml" 53 2261 2263 "src/builder.ml" 54 2310 2313
+)
+"src/builder.ml" 52 2208 2226 "src/builder.ml" 52 2208 2227
+type(
+  G.t
+)
+ident(
+  def g "src/builder.ml" 52 2208 2228 "src/builder.ml" 52 2208 2260
+)
+"src/builder.ml" 52 2208 2228 "src/builder.ml" 52 2208 2230
+type(
+  G.vertex
+)
+ident(
+  def v1 "src/builder.ml" 52 2208 2231 "src/builder.ml" 52 2208 2260
+)
+"src/builder.ml" 52 2208 2231 "src/builder.ml" 52 2208 2233
+type(
+  G.vertex
+)
+ident(
+  def v2 "src/builder.ml" 52 2208 2236 "src/builder.ml" 52 2208 2260
+)
+"src/builder.ml" 52 2208 2236 "src/builder.ml" 52 2208 2249
+type(
+  G.t -> G.vertex -> G.vertex -> unit
+)
+ident(
+  ext_ref G.remove_edge
+)
+"src/builder.ml" 52 2208 2250 "src/builder.ml" 52 2208 2251
+type(
+  G.t
+)
+ident(
+  int_ref g "src/builder.ml" 52 2208 2226 "src/builder.ml" 52 2208 2227
+)
+"src/builder.ml" 52 2208 2252 "src/builder.ml" 52 2208 2254
+type(
+  G.vertex
+)
+ident(
+  int_ref v1 "src/builder.ml" 52 2208 2228 "src/builder.ml" 52 2208 2230
+)
+"src/builder.ml" 52 2208 2255 "src/builder.ml" 52 2208 2257
+type(
+  G.vertex
+)
+ident(
+  int_ref v2 "src/builder.ml" 52 2208 2231 "src/builder.ml" 52 2208 2233
+)
+"src/builder.ml" 52 2208 2236 "src/builder.ml" 52 2208 2257
+call(
+  stack
+)
+type(
+  unit
+)
+"src/builder.ml" 52 2208 2259 "src/builder.ml" 52 2208 2260
+type(
+  G.t
+)
+ident(
+  int_ref g "src/builder.ml" 52 2208 2226 "src/builder.ml" 52 2208 2227
+)
+"src/builder.ml" 52 2208 2236 "src/builder.ml" 52 2208 2260
+type(
+  G.t
+)
+"src/builder.ml" 53 2261 2267 "src/builder.ml" 53 2261 2280
+type(
+  G.t -> G.edge -> G.t
+)
+ident(
+  def remove_edge_e "src/builder.ml" 53 2261 2309 "src/builder.ml" 54 2310 2313
+)
+"src/builder.ml" 53 2261 2281 "src/builder.ml" 53 2261 2282
+type(
+  G.t
+)
+ident(
+  def g "src/builder.ml" 53 2261 2283 "src/builder.ml" 53 2261 2309
+)
+"src/builder.ml" 53 2261 2283 "src/builder.ml" 53 2261 2284
+type(
+  G.edge
+)
+ident(
+  def e "src/builder.ml" 53 2261 2287 "src/builder.ml" 53 2261 2309
+)
+"src/builder.ml" 53 2261 2287 "src/builder.ml" 53 2261 2302
+type(
+  G.t -> G.edge -> unit
+)
+ident(
+  ext_ref G.remove_edge_e
+)
+"src/builder.ml" 53 2261 2303 "src/builder.ml" 53 2261 2304
+type(
+  G.t
+)
+ident(
+  int_ref g "src/builder.ml" 53 2261 2281 "src/builder.ml" 53 2261 2282
+)
+"src/builder.ml" 53 2261 2305 "src/builder.ml" 53 2261 2306
+type(
+  G.edge
+)
+ident(
+  int_ref e "src/builder.ml" 53 2261 2283 "src/builder.ml" 53 2261 2284
+)
+"src/builder.ml" 53 2261 2287 "src/builder.ml" 53 2261 2306
+call(
+  stack
+)
+type(
+  unit
+)
+"src/builder.ml" 53 2261 2308 "src/builder.ml" 53 2261 2309
+type(
+  G.t
+)
+ident(
+  int_ref g "src/builder.ml" 53 2261 2281 "src/builder.ml" 53 2261 2282
+)
+"src/builder.ml" 53 2261 2287 "src/builder.ml" 53 2261 2309
+type(
+  G.t
+)

@@ -1,0 +1,1102 @@
+"src/prim.ml" 39 1685 1698 "src/prim.ml" 39 1685 1715
+call(
+  stack
+)
+"src/prim.ml" 46 1854 1862 "src/prim.ml" 46 1854 1869
+type(
+  W.t * G.V.t -> W.t * G.V.t -> int
+)
+ident(
+  def compare "src/prim.ml" 48 1922 1969 "src/prim.ml" 49 1970 1975
+)
+"src/prim.ml" 46 1854 1871 "src/prim.ml" 46 1854 1873
+type(
+  W.t
+)
+ident(
+  def w1 "src/prim.ml" 46 1854 1878 "src/prim.ml" 48 1922 1969
+)
+"src/prim.ml" 46 1854 1874 "src/prim.ml" 46 1854 1876
+type(
+  G.V.t
+)
+ident(
+  def v1 "src/prim.ml" 46 1854 1878 "src/prim.ml" 48 1922 1969
+)
+"src/prim.ml" 46 1854 1870 "src/prim.ml" 46 1854 1877
+type(
+  W.t * G.V.t
+)
+"src/prim.ml" 46 1854 1879 "src/prim.ml" 46 1854 1881
+type(
+  W.t
+)
+ident(
+  def w2 "src/prim.ml" 47 1888 1894 "src/prim.ml" 48 1922 1969
+)
+"src/prim.ml" 46 1854 1882 "src/prim.ml" 46 1854 1884
+type(
+  G.V.t
+)
+ident(
+  def v2 "src/prim.ml" 47 1888 1894 "src/prim.ml" 48 1922 1969
+)
+"src/prim.ml" 46 1854 1878 "src/prim.ml" 46 1854 1885
+type(
+  W.t * G.V.t
+)
+"src/prim.ml" 47 1888 1898 "src/prim.ml" 47 1888 1900
+type(
+  int
+)
+ident(
+  def cw "src/prim.ml" 48 1922 1928 "src/prim.ml" 48 1922 1969
+)
+"src/prim.ml" 47 1888 1903 "src/prim.ml" 47 1888 1912
+type(
+  W.t -> W.t -> int
+)
+ident(
+  ext_ref W.compare
+)
+"src/prim.ml" 47 1888 1913 "src/prim.ml" 47 1888 1915
+type(
+  W.t
+)
+ident(
+  int_ref w2 "src/prim.ml" 46 1854 1879 "src/prim.ml" 46 1854 1881
+)
+"src/prim.ml" 47 1888 1916 "src/prim.ml" 47 1888 1918
+type(
+  W.t
+)
+ident(
+  int_ref w1 "src/prim.ml" 46 1854 1871 "src/prim.ml" 46 1854 1873
+)
+"src/prim.ml" 47 1888 1903 "src/prim.ml" 47 1888 1918
+call(
+  stack
+)
+type(
+  int
+)
+"src/prim.ml" 48 1922 1931 "src/prim.ml" 48 1922 1933
+type(
+  int
+)
+ident(
+  int_ref cw "src/prim.ml" 47 1888 1898 "src/prim.ml" 47 1888 1900
+)
+"src/prim.ml" 48 1922 1934 "src/prim.ml" 48 1922 1936
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/prim.ml" 48 1922 1937 "src/prim.ml" 48 1922 1938
+type(
+  int
+)
+"src/prim.ml" 48 1922 1931 "src/prim.ml" 48 1922 1938
+type(
+  bool
+)
+"src/prim.ml" 48 1922 1944 "src/prim.ml" 48 1922 1946
+type(
+  int
+)
+ident(
+  int_ref cw "src/prim.ml" 47 1888 1898 "src/prim.ml" 47 1888 1900
+)
+"src/prim.ml" 48 1922 1952 "src/prim.ml" 48 1922 1963
+type(
+  G.V.t -> G.V.t -> int
+)
+ident(
+  ext_ref G.V.compare
+)
+"src/prim.ml" 48 1922 1964 "src/prim.ml" 48 1922 1966
+type(
+  G.V.t
+)
+ident(
+  int_ref v1 "src/prim.ml" 46 1854 1874 "src/prim.ml" 46 1854 1876
+)
+"src/prim.ml" 48 1922 1967 "src/prim.ml" 48 1922 1969
+type(
+  G.V.t
+)
+ident(
+  int_ref v2 "src/prim.ml" 46 1854 1882 "src/prim.ml" 46 1854 1884
+)
+"src/prim.ml" 48 1922 1952 "src/prim.ml" 48 1922 1969
+call(
+  tail
+)
+type(
+  int
+)
+"src/prim.ml" 48 1922 1928 "src/prim.ml" 48 1922 1969
+type(
+  int
+)
+"src/prim.ml" 47 1888 1894 "src/prim.ml" 48 1922 1969
+type(
+  int
+)
+"src/prim.ml" 51 1977 1990 "src/prim.ml" 51 1977 2010
+call(
+  stack
+)
+"src/prim.ml" 53 2012 2018 "src/prim.ml" 53 2012 2035
+type(
+  G.t -> H.key -> W.edge list
+)
+ident(
+  def spanningtree_from "src/prim.ml" 78 2798 2800 "src/prim.ml" 88 3045 3048
+)
+"src/prim.ml" 53 2012 2036 "src/prim.ml" 53 2012 2037
+type(
+  G.t
+)
+ident(
+  def g "src/prim.ml" 53 2012 2038 "src/prim.ml" 76 2748 2796
+)
+"src/prim.ml" 53 2012 2038 "src/prim.ml" 53 2012 2039
+type(
+  H.key
+)
+ident(
+  def r "src/prim.ml" 54 2042 2046 "src/prim.ml" 76 2748 2796
+)
+"src/prim.ml" 54 2042 2050 "src/prim.ml" 54 2042 2057
+type(
+  unit H.t
+)
+ident(
+  def visited "src/prim.ml" 55 2075 2079 "src/prim.ml" 76 2748 2796
+)
+"src/prim.ml" 54 2042 2060 "src/prim.ml" 54 2042 2068
+type(
+  int -> unit H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/prim.ml" 54 2042 2069 "src/prim.ml" 54 2042 2071
+type(
+  int
+)
+"src/prim.ml" 54 2042 2060 "src/prim.ml" 54 2042 2071
+call(
+  stack
+)
+type(
+  unit H.t
+)
+"src/prim.ml" 55 2075 2083 "src/prim.ml" 55 2075 2086
+type(
+  (W.t * W.edge) H.t
+)
+ident(
+  def key "src/prim.ml" 56 2104 2108 "src/prim.ml" 76 2748 2796
+)
+"src/prim.ml" 55 2075 2089 "src/prim.ml" 55 2075 2097
+type(
+  int -> (W.t * W.edge) H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/prim.ml" 55 2075 2098 "src/prim.ml" 55 2075 2100
+type(
+  int
+)
+"src/prim.ml" 55 2075 2089 "src/prim.ml" 55 2075 2100
+call(
+  stack
+)
+type(
+  (W.t * W.edge) H.t
+)
+"src/prim.ml" 56 2104 2112 "src/prim.ml" 56 2104 2113
+type(
+  Q.t
+)
+ident(
+  def q "src/prim.ml" 57 2131 2135 "src/prim.ml" 76 2748 2796
+)
+"src/prim.ml" 56 2104 2116 "src/prim.ml" 56 2104 2124
+type(
+  int -> Q.t
+)
+ident(
+  ext_ref Q.create
+)
+"src/prim.ml" 56 2104 2125 "src/prim.ml" 56 2104 2127
+type(
+  int
+)
+"src/prim.ml" 56 2104 2116 "src/prim.ml" 56 2104 2127
+call(
+  stack
+)
+type(
+  Q.t
+)
+"src/prim.ml" 57 2131 2135 "src/prim.ml" 57 2131 2140
+type(
+  Q.t -> Elt.t -> unit
+)
+ident(
+  ext_ref Q.add
+)
+"src/prim.ml" 57 2131 2141 "src/prim.ml" 57 2131 2142
+type(
+  Q.t
+)
+ident(
+  int_ref q "src/prim.ml" 56 2104 2112 "src/prim.ml" 56 2104 2113
+)
+"src/prim.ml" 57 2131 2144 "src/prim.ml" 57 2131 2150
+type(
+  W.t
+)
+ident(
+  ext_ref W.zero
+)
+"src/prim.ml" 57 2131 2152 "src/prim.ml" 57 2131 2153
+type(
+  H.key
+)
+ident(
+  int_ref r "src/prim.ml" 53 2012 2038 "src/prim.ml" 53 2012 2039
+)
+"src/prim.ml" 57 2131 2143 "src/prim.ml" 57 2131 2154
+type(
+  Elt.t
+)
+"src/prim.ml" 57 2131 2135 "src/prim.ml" 57 2131 2154
+call(
+  stack
+)
+type(
+  unit
+)
+"src/prim.ml" 58 2156 2166 "src/prim.ml" 58 2156 2169
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/prim.ml" 58 2156 2171 "src/prim.ml" 58 2156 2181
+type(
+  Q.t -> bool
+)
+ident(
+  ext_ref Q.is_empty
+)
+"src/prim.ml" 58 2156 2182 "src/prim.ml" 58 2156 2183
+type(
+  Q.t
+)
+ident(
+  int_ref q "src/prim.ml" 56 2104 2112 "src/prim.ml" 56 2104 2113
+)
+"src/prim.ml" 58 2156 2170 "src/prim.ml" 58 2156 2184
+call(
+  stack
+)
+type(
+  bool
+)
+"src/prim.ml" 58 2156 2166 "src/prim.ml" 58 2156 2184
+type(
+  bool
+)
+"src/prim.ml" 59 2188 2199 "src/prim.ml" 59 2188 2200
+type(
+  W.t
+)
+"src/prim.ml" 59 2188 2201 "src/prim.ml" 59 2188 2202
+type(
+  H.key
+)
+ident(
+  def u "src/prim.ml" 60 2225 2231 "src/prim.ml" 74 2728 2737
+)
+"src/prim.ml" 59 2188 2198 "src/prim.ml" 59 2188 2203
+type(
+  Elt.t
+)
+"src/prim.ml" 59 2188 2206 "src/prim.ml" 59 2188 2219
+type(
+  Q.t -> Elt.t
+)
+ident(
+  ext_ref Q.pop_maximum
+)
+"src/prim.ml" 59 2188 2220 "src/prim.ml" 59 2188 2221
+type(
+  Q.t
+)
+ident(
+  int_ref q "src/prim.ml" 56 2104 2112 "src/prim.ml" 56 2104 2113
+)
+"src/prim.ml" 59 2188 2206 "src/prim.ml" 59 2188 2221
+call(
+  stack
+)
+type(
+  Elt.t
+)
+"src/prim.ml" 60 2225 2234 "src/prim.ml" 60 2225 2237
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/prim.ml" 60 2225 2239 "src/prim.ml" 60 2225 2244
+type(
+  unit H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/prim.ml" 60 2225 2245 "src/prim.ml" 60 2225 2252
+type(
+  unit H.t
+)
+ident(
+  int_ref visited "src/prim.ml" 54 2042 2050 "src/prim.ml" 54 2042 2057
+)
+"src/prim.ml" 60 2225 2253 "src/prim.ml" 60 2225 2254
+type(
+  H.key
+)
+ident(
+  int_ref u "src/prim.ml" 59 2188 2201 "src/prim.ml" 59 2188 2202
+)
+"src/prim.ml" 60 2225 2238 "src/prim.ml" 60 2225 2255
+call(
+  stack
+)
+type(
+  bool
+)
+"src/prim.ml" 60 2225 2234 "src/prim.ml" 60 2225 2255
+type(
+  bool
+)
+"src/prim.ml" 61 2267 2275 "src/prim.ml" 61 2267 2280
+type(
+  unit H.t -> H.key -> unit -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/prim.ml" 61 2267 2281 "src/prim.ml" 61 2267 2288
+type(
+  unit H.t
+)
+ident(
+  int_ref visited "src/prim.ml" 54 2042 2050 "src/prim.ml" 54 2042 2057
+)
+"src/prim.ml" 61 2267 2289 "src/prim.ml" 61 2267 2290
+type(
+  H.key
+)
+ident(
+  int_ref u "src/prim.ml" 59 2188 2201 "src/prim.ml" 59 2188 2202
+)
+"src/prim.ml" 61 2267 2291 "src/prim.ml" 61 2267 2293
+type(
+  unit
+)
+"src/prim.ml" 61 2267 2275 "src/prim.ml" 61 2267 2293
+call(
+  stack
+)
+type(
+  unit
+)
+"src/prim.ml" 62 2295 2303 "src/prim.ml" 62 2295 2316
+type(
+  (W.edge -> unit) -> G.t -> H.key -> unit
+)
+ident(
+  int_ref G.iter_succ_e "src/prim.ml" 31 1540 1542 "src/prim.ml" 31 1540 1593
+)
+"src/prim.ml" 62 2295 2322 "src/prim.ml" 62 2295 2323
+type(
+  W.edge
+)
+ident(
+  def e "src/prim.ml" 63 2327 2339 "src/prim.ml" 73 2707 2722
+)
+"src/prim.ml" 63 2327 2343 "src/prim.ml" 63 2327 2344
+type(
+  G.V.t
+)
+ident(
+  def v "src/prim.ml" 64 2356 2368 "src/prim.ml" 73 2707 2722
+)
+"src/prim.ml" 63 2327 2347 "src/prim.ml" 63 2327 2350
+type(
+  W.edge -> G.V.t
+)
+ident(
+  int_ref G.E.dst "src/prim.ml" 25 1360 1364 "src/prim.ml" 25 1360 1382
+)
+"src/prim.ml" 63 2327 2351 "src/prim.ml" 63 2327 2352
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/prim.ml" 62 2295 2322 "src/prim.ml" 62 2295 2323
+)
+"src/prim.ml" 63 2327 2347 "src/prim.ml" 63 2327 2352
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/prim.ml" 64 2356 2371 "src/prim.ml" 64 2356 2374
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/prim.ml" 64 2356 2376 "src/prim.ml" 64 2356 2381
+type(
+  unit H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/prim.ml" 64 2356 2382 "src/prim.ml" 64 2356 2389
+type(
+  unit H.t
+)
+ident(
+  int_ref visited "src/prim.ml" 54 2042 2050 "src/prim.ml" 54 2042 2057
+)
+"src/prim.ml" 64 2356 2390 "src/prim.ml" 64 2356 2391
+type(
+  H.key
+)
+ident(
+  int_ref v "src/prim.ml" 63 2327 2343 "src/prim.ml" 63 2327 2344
+)
+"src/prim.ml" 64 2356 2375 "src/prim.ml" 64 2356 2392
+call(
+  stack
+)
+type(
+  bool
+)
+"src/prim.ml" 64 2356 2371 "src/prim.ml" 64 2356 2392
+type(
+  bool
+)
+"src/prim.ml" 65 2404 2422 "src/prim.ml" 65 2404 2425
+type(
+  W.t
+)
+ident(
+  def wuv "src/prim.ml" 66 2442 2456 "src/prim.ml" 72 2688 2706
+)
+"src/prim.ml" 65 2404 2428 "src/prim.ml" 65 2404 2436
+type(
+  W.edge -> W.t
+)
+ident(
+  ext_ref W.weight
+)
+"src/prim.ml" 65 2404 2437 "src/prim.ml" 65 2404 2438
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/prim.ml" 62 2295 2322 "src/prim.ml" 62 2295 2323
+)
+"src/prim.ml" 65 2404 2428 "src/prim.ml" 65 2404 2438
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/prim.ml" 66 2442 2460 "src/prim.ml" 66 2442 2471
+type(
+  bool
+)
+ident(
+  def improvement "src/prim.ml" 69 2573 2587 "src/prim.ml" 72 2688 2706
+)
+"src/prim.ml" 67 2474 2494 "src/prim.ml" 67 2474 2503
+type(
+  W.t -> W.t -> int
+)
+ident(
+  ext_ref W.compare
+)
+"src/prim.ml" 67 2474 2504 "src/prim.ml" 67 2474 2507
+type(
+  W.t
+)
+ident(
+  int_ref wuv "src/prim.ml" 65 2404 2422 "src/prim.ml" 65 2404 2425
+)
+"src/prim.ml" 67 2474 2509 "src/prim.ml" 67 2474 2512
+type(
+  W.t * W.edge -> W.t
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"src/prim.ml" 67 2474 2514 "src/prim.ml" 67 2474 2520
+type(
+  (W.t * W.edge) H.t -> H.key -> W.t * W.edge
+)
+ident(
+  ext_ref H.find
+)
+"src/prim.ml" 67 2474 2521 "src/prim.ml" 67 2474 2524
+type(
+  (W.t * W.edge) H.t
+)
+ident(
+  int_ref key "src/prim.ml" 55 2075 2083 "src/prim.ml" 55 2075 2086
+)
+"src/prim.ml" 67 2474 2525 "src/prim.ml" 67 2474 2526
+type(
+  H.key
+)
+ident(
+  int_ref v "src/prim.ml" 63 2327 2343 "src/prim.ml" 63 2327 2344
+)
+"src/prim.ml" 67 2474 2513 "src/prim.ml" 67 2474 2527
+call(
+  stack
+)
+type(
+  W.t * W.edge
+)
+"src/prim.ml" 67 2474 2508 "src/prim.ml" 67 2474 2528
+type(
+  W.t
+)
+"src/prim.ml" 67 2474 2494 "src/prim.ml" 67 2474 2528
+call(
+  stack
+)
+type(
+  int
+)
+"src/prim.ml" 67 2474 2529 "src/prim.ml" 67 2474 2530
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/prim.ml" 67 2474 2531 "src/prim.ml" 67 2474 2532
+type(
+  int
+)
+"src/prim.ml" 67 2474 2494 "src/prim.ml" 67 2474 2532
+type(
+  bool
+)
+"src/prim.ml" 67 2474 2538 "src/prim.ml" 67 2474 2547
+type(
+  exn
+)
+"src/prim.ml" 67 2474 2551 "src/prim.ml" 67 2474 2555
+type(
+  bool
+)
+"src/prim.ml" 67 2474 2490 "src/prim.ml" 67 2474 2555
+type(
+  bool
+)
+"src/prim.ml" 69 2573 2590 "src/prim.ml" 69 2573 2601
+type(
+  bool
+)
+ident(
+  int_ref improvement "src/prim.ml" 66 2442 2460 "src/prim.ml" 66 2442 2471
+)
+"src/prim.ml" 70 2613 2629 "src/prim.ml" 70 2613 2638
+type(
+  (W.t * W.edge) H.t -> H.key -> W.t * W.edge -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"src/prim.ml" 70 2613 2639 "src/prim.ml" 70 2613 2642
+type(
+  (W.t * W.edge) H.t
+)
+ident(
+  int_ref key "src/prim.ml" 55 2075 2083 "src/prim.ml" 55 2075 2086
+)
+"src/prim.ml" 70 2613 2643 "src/prim.ml" 70 2613 2644
+type(
+  H.key
+)
+ident(
+  int_ref v "src/prim.ml" 63 2327 2343 "src/prim.ml" 63 2327 2344
+)
+"src/prim.ml" 70 2613 2646 "src/prim.ml" 70 2613 2649
+type(
+  W.t
+)
+ident(
+  int_ref wuv "src/prim.ml" 65 2404 2422 "src/prim.ml" 65 2404 2425
+)
+"src/prim.ml" 70 2613 2651 "src/prim.ml" 70 2613 2652
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/prim.ml" 62 2295 2322 "src/prim.ml" 62 2295 2323
+)
+"src/prim.ml" 70 2613 2645 "src/prim.ml" 70 2613 2653
+type(
+  W.t * W.edge
+)
+"src/prim.ml" 70 2613 2629 "src/prim.ml" 70 2613 2653
+call(
+  stack
+)
+type(
+  unit
+)
+"src/prim.ml" 71 2655 2671 "src/prim.ml" 71 2655 2676
+type(
+  Q.t -> Elt.t -> unit
+)
+ident(
+  ext_ref Q.add
+)
+"src/prim.ml" 71 2655 2677 "src/prim.ml" 71 2655 2678
+type(
+  Q.t
+)
+ident(
+  int_ref q "src/prim.ml" 56 2104 2112 "src/prim.ml" 56 2104 2113
+)
+"src/prim.ml" 71 2655 2680 "src/prim.ml" 71 2655 2683
+type(
+  W.t
+)
+ident(
+  int_ref wuv "src/prim.ml" 65 2404 2422 "src/prim.ml" 65 2404 2425
+)
+"src/prim.ml" 71 2655 2685 "src/prim.ml" 71 2655 2686
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/prim.ml" 63 2327 2343 "src/prim.ml" 63 2327 2344
+)
+"src/prim.ml" 71 2655 2679 "src/prim.ml" 71 2655 2687
+type(
+  Elt.t
+)
+"src/prim.ml" 71 2655 2671 "src/prim.ml" 71 2655 2687
+call(
+  tail
+)
+type(
+  unit
+)
+"src/prim.ml" 69 2573 2607 "src/prim.ml" 72 2688 2705
+type(
+  unit
+)
+"src/prim.ml" 69 2573 2587 "src/prim.ml" 72 2688 2706
+type(
+  unit
+)
+"src/prim.ml" 66 2442 2456 "src/prim.ml" 72 2688 2706
+type(
+  unit
+)
+"src/prim.ml" 64 2356 2398 "src/prim.ml" 73 2707 2722
+type(
+  unit
+)
+"src/prim.ml" 64 2356 2368 "src/prim.ml" 73 2707 2722
+type(
+  unit
+)
+"src/prim.ml" 63 2327 2339 "src/prim.ml" 73 2707 2722
+type(
+  unit
+)
+"src/prim.ml" 62 2295 2317 "src/prim.ml" 73 2707 2723
+type(
+  W.edge -> unit
+)
+"src/prim.ml" 73 2707 2724 "src/prim.ml" 73 2707 2725
+type(
+  G.t
+)
+ident(
+  int_ref g "src/prim.ml" 53 2012 2036 "src/prim.ml" 53 2012 2037
+)
+"src/prim.ml" 73 2707 2726 "src/prim.ml" 73 2707 2727
+type(
+  H.key
+)
+ident(
+  int_ref u "src/prim.ml" 59 2188 2201 "src/prim.ml" 59 2188 2202
+)
+"src/prim.ml" 62 2295 2303 "src/prim.ml" 73 2707 2727
+call(
+  stack
+)
+type(
+  unit
+)
+"src/prim.ml" 60 2225 2261 "src/prim.ml" 74 2728 2737
+type(
+  unit
+)
+"src/prim.ml" 60 2225 2231 "src/prim.ml" 74 2728 2737
+type(
+  unit
+)
+"src/prim.ml" 59 2188 2194 "src/prim.ml" 74 2728 2737
+type(
+  unit
+)
+"src/prim.ml" 58 2156 2160 "src/prim.ml" 75 2738 2746
+type(
+  unit
+)
+"src/prim.ml" 76 2748 2752 "src/prim.ml" 76 2748 2758
+type(
+  (H.key -> W.t * W.edge -> W.edge list -> W.edge list) ->
+  (W.t * W.edge) H.t -> W.edge list -> W.edge list
+)
+ident(
+  ext_ref H.fold
+)
+"src/prim.ml" 76 2748 2764 "src/prim.ml" 76 2748 2765
+type(
+  H.key
+)
+"src/prim.ml" 76 2748 2767 "src/prim.ml" 76 2748 2768
+type(
+  W.t
+)
+"src/prim.ml" 76 2748 2770 "src/prim.ml" 76 2748 2771
+type(
+  W.edge
+)
+ident(
+  def e "src/prim.ml" 76 2748 2773 "src/prim.ml" 76 2748 2788
+)
+"src/prim.ml" 76 2748 2766 "src/prim.ml" 76 2748 2772
+type(
+  W.t * W.edge
+)
+"src/prim.ml" 76 2748 2773 "src/prim.ml" 76 2748 2776
+type(
+  W.edge list
+)
+ident(
+  def acc "src/prim.ml" 76 2748 2780 "src/prim.ml" 76 2748 2788
+)
+"src/prim.ml" 76 2748 2780 "src/prim.ml" 76 2748 2781
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/prim.ml" 76 2748 2770 "src/prim.ml" 76 2748 2771
+)
+"src/prim.ml" 76 2748 2785 "src/prim.ml" 76 2748 2788
+type(
+  W.edge list
+)
+ident(
+  int_ref acc "src/prim.ml" 76 2748 2773 "src/prim.ml" 76 2748 2776
+)
+"src/prim.ml" 76 2748 2780 "src/prim.ml" 76 2748 2788
+type(
+  W.edge list
+)
+"src/prim.ml" 76 2748 2759 "src/prim.ml" 76 2748 2789
+type(
+  H.key -> W.t * W.edge -> W.edge list -> W.edge list
+)
+"src/prim.ml" 76 2748 2790 "src/prim.ml" 76 2748 2793
+type(
+  (W.t * W.edge) H.t
+)
+ident(
+  int_ref key "src/prim.ml" 55 2075 2083 "src/prim.ml" 55 2075 2086
+)
+"src/prim.ml" 76 2748 2794 "src/prim.ml" 76 2748 2796
+type(
+  W.edge list
+)
+"src/prim.ml" 76 2748 2752 "src/prim.ml" 76 2748 2796
+call(
+  tail
+)
+type(
+  W.edge list
+)
+"src/prim.ml" 58 2156 2160 "src/prim.ml" 76 2748 2796
+type(
+  W.edge list
+)
+"src/prim.ml" 57 2131 2135 "src/prim.ml" 76 2748 2796
+type(
+  W.edge list
+)
+"src/prim.ml" 56 2104 2108 "src/prim.ml" 76 2748 2796
+type(
+  W.edge list
+)
+"src/prim.ml" 55 2075 2079 "src/prim.ml" 76 2748 2796
+type(
+  W.edge list
+)
+"src/prim.ml" 54 2042 2046 "src/prim.ml" 76 2748 2796
+type(
+  W.edge list
+)
+"src/prim.ml" 78 2798 2804 "src/prim.ml" 78 2798 2816
+type(
+  G.t -> W.edge list
+)
+ident(
+  def spanningtree "src/prim.ml" 86 3006 3043 "src/prim.ml" 88 3045 3048
+)
+"src/prim.ml" 78 2798 2817 "src/prim.ml" 78 2798 2818
+type(
+  G.t
+)
+ident(
+  def g "src/prim.ml" 79 2821 2825 "src/prim.ml" 86 3006 3043
+)
+"src/prim.ml" 79 2821 2829 "src/prim.ml" 79 2821 2830
+type(
+  H.key option ref
+)
+ident(
+  def r "src/prim.ml" 80 2845 2849 "src/prim.ml" 86 3006 3043
+)
+"src/prim.ml" 79 2821 2833 "src/prim.ml" 79 2821 2836
+type(
+  H.key option -> H.key option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/prim.ml" 79 2821 2837 "src/prim.ml" 79 2821 2841
+type(
+  H.key option
+)
+"src/prim.ml" 79 2821 2833 "src/prim.ml" 79 2821 2841
+type(
+  H.key option ref
+)
+"src/prim.ml" 81 2853 2859 "src/prim.ml" 81 2853 2872
+type(
+  (H.key -> unit) -> G.t -> unit
+)
+ident(
+  int_ref G.iter_vertex "src/prim.ml" 29 1444 1446 "src/prim.ml" 29 1444 1490
+)
+"src/prim.ml" 81 2853 2878 "src/prim.ml" 81 2853 2879
+type(
+  H.key
+)
+ident(
+  def v "src/prim.ml" 81 2853 2883 "src/prim.ml" 81 2853 2906
+)
+"src/prim.ml" 81 2853 2883 "src/prim.ml" 81 2853 2884
+type(
+  H.key option ref
+)
+ident(
+  int_ref r "src/prim.ml" 79 2821 2829 "src/prim.ml" 79 2821 2830
+)
+"src/prim.ml" 81 2853 2885 "src/prim.ml" 81 2853 2887
+type(
+  H.key option ref -> H.key option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/prim.ml" 81 2853 2893 "src/prim.ml" 81 2853 2894
+type(
+  H.key
+)
+ident(
+  int_ref v "src/prim.ml" 81 2853 2878 "src/prim.ml" 81 2853 2879
+)
+"src/prim.ml" 81 2853 2888 "src/prim.ml" 81 2853 2894
+type(
+  H.key option
+)
+"src/prim.ml" 81 2853 2883 "src/prim.ml" 81 2853 2894
+type(
+  unit
+)
+"src/prim.ml" 81 2853 2896 "src/prim.ml" 81 2853 2901
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/prim.ml" 81 2853 2902 "src/prim.ml" 81 2853 2906
+type(
+  exn
+)
+"src/prim.ml" 81 2853 2896 "src/prim.ml" 81 2853 2906
+type(
+  unit
+)
+"src/prim.ml" 81 2853 2883 "src/prim.ml" 81 2853 2906
+type(
+  unit
+)
+"src/prim.ml" 81 2853 2873 "src/prim.ml" 81 2853 2907
+type(
+  H.key -> unit
+)
+"src/prim.ml" 81 2853 2908 "src/prim.ml" 81 2853 2909
+type(
+  G.t
+)
+ident(
+  int_ref g "src/prim.ml" 78 2798 2817 "src/prim.ml" 78 2798 2818
+)
+"src/prim.ml" 81 2853 2859 "src/prim.ml" 81 2853 2909
+call(
+  stack
+)
+type(
+  unit
+)
+"src/prim.ml" 82 2911 2917 "src/prim.ml" 82 2911 2928
+type(
+  string -> W.edge list
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/prim.ml" 82 2911 2929 "src/prim.ml" 82 2911 2943
+type(
+  string
+)
+"src/prim.ml" 82 2911 2917 "src/prim.ml" 82 2911 2943
+call(
+  stack
+)
+type(
+  W.edge list
+)
+"src/prim.ml" 81 2853 2859 "src/prim.ml" 82 2911 2943
+type(
+  W.edge list
+)
+"src/prim.ml" 83 2944 2953 "src/prim.ml" 83 2944 2957
+type(
+  exn
+)
+"src/prim.ml" 84 2961 2971 "src/prim.ml" 84 2961 2972
+type(
+  H.key option ref -> H.key option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/prim.ml" 84 2961 2972 "src/prim.ml" 84 2961 2973
+type(
+  H.key option ref
+)
+ident(
+  int_ref r "src/prim.ml" 79 2821 2829 "src/prim.ml" 79 2821 2830
+)
+"src/prim.ml" 84 2961 2971 "src/prim.ml" 84 2961 2973
+type(
+  H.key option
+)
+"src/prim.ml" 85 2979 2985 "src/prim.ml" 85 2979 2989
+type(
+  H.key option
+)
+"src/prim.ml" 85 2979 3000 "src/prim.ml" 85 2979 3005
+type(
+  bool
+)
+"src/prim.ml" 85 2979 2993 "src/prim.ml" 85 2979 3005
+type(
+  W.edge list
+)
+"src/prim.ml" 86 3006 3017 "src/prim.ml" 86 3006 3018
+type(
+  H.key
+)
+ident(
+  def r "src/prim.ml" 86 3006 3022 "src/prim.ml" 86 3006 3043
+)
+"src/prim.ml" 86 3006 3012 "src/prim.ml" 86 3006 3018
+type(
+  H.key option
+)
+"src/prim.ml" 86 3006 3022 "src/prim.ml" 86 3006 3039
+type(
+  G.t -> H.key -> W.edge list
+)
+ident(
+  int_ref spanningtree_from "src/prim.ml" 53 2012 2018 "src/prim.ml" 53 2012 2035
+)
+"src/prim.ml" 86 3006 3040 "src/prim.ml" 86 3006 3041
+type(
+  G.t
+)
+ident(
+  int_ref g "src/prim.ml" 78 2798 2817 "src/prim.ml" 78 2798 2818
+)
+"src/prim.ml" 86 3006 3042 "src/prim.ml" 86 3006 3043
+type(
+  H.key
+)
+ident(
+  int_ref r "src/prim.ml" 86 3006 3017 "src/prim.ml" 86 3006 3018
+)
+"src/prim.ml" 86 3006 3022 "src/prim.ml" 86 3006 3043
+call(
+  tail
+)
+type(
+  W.edge list
+)
+"src/prim.ml" 84 2961 2965 "src/prim.ml" 86 3006 3043
+type(
+  W.edge list
+)
+"src/prim.ml" 80 2845 2849 "src/prim.ml" 86 3006 3043
+type(
+  W.edge list
+)
+"src/prim.ml" 79 2821 2825 "src/prim.ml" 86 3006 3043
+type(
+  W.edge list
+)

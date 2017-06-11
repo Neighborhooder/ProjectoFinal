@@ -1,0 +1,4406 @@
+"src/cliquetree.ml" 21 1309 1326 "src/cliquetree.ml" 21 1309 1340
+call(
+  stack
+)
+"src/cliquetree.ml" 54 2063 2071 "src/cliquetree.ml" 54 2063 2078
+type(
+  t -> t -> int
+)
+ident(
+  def compare "src/cliquetree.ml" 55 2112 2116 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 54 2063 2079 "src/cliquetree.ml" 54 2063 2080
+type(
+  t
+)
+ident(
+  def x "src/cliquetree.ml" 54 2063 2081 "src/cliquetree.ml" 54 2063 2111
+)
+"src/cliquetree.ml" 54 2063 2081 "src/cliquetree.ml" 54 2063 2082
+type(
+  t
+)
+ident(
+  def y "src/cliquetree.ml" 54 2063 2085 "src/cliquetree.ml" 54 2063 2111
+)
+"src/cliquetree.ml" 54 2063 2085 "src/cliquetree.ml" 54 2063 2097
+type(
+  Gr.V.t -> Gr.V.t -> int
+)
+ident(
+  ext_ref Gr.V.compare
+)
+"src/cliquetree.ml" 54 2063 2098 "src/cliquetree.ml" 54 2063 2099
+type(
+  t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 54 2063 2079 "src/cliquetree.ml" 54 2063 2080
+)
+"src/cliquetree.ml" 54 2063 2098 "src/cliquetree.ml" 54 2063 2104
+type(
+  Gr.V.t
+)
+"src/cliquetree.ml" 54 2063 2105 "src/cliquetree.ml" 54 2063 2106
+type(
+  t
+)
+ident(
+  int_ref y "src/cliquetree.ml" 54 2063 2081 "src/cliquetree.ml" 54 2063 2082
+)
+"src/cliquetree.ml" 54 2063 2105 "src/cliquetree.ml" 54 2063 2111
+type(
+  Gr.V.t
+)
+"src/cliquetree.ml" 54 2063 2085 "src/cliquetree.ml" 54 2063 2111
+call(
+  tail
+)
+type(
+  int
+)
+"src/cliquetree.ml" 55 2112 2120 "src/cliquetree.ml" 55 2112 2124
+type(
+  t -> int
+)
+ident(
+  def hash "src/cliquetree.ml" 56 2146 2150 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 55 2112 2125 "src/cliquetree.ml" 55 2112 2126
+type(
+  t
+)
+ident(
+  def x "src/cliquetree.ml" 55 2112 2129 "src/cliquetree.ml" 55 2112 2145
+)
+"src/cliquetree.ml" 55 2112 2129 "src/cliquetree.ml" 55 2112 2138
+type(
+  Gr.V.t -> int
+)
+ident(
+  ext_ref Gr.V.hash
+)
+"src/cliquetree.ml" 55 2112 2139 "src/cliquetree.ml" 55 2112 2140
+type(
+  t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 55 2112 2125 "src/cliquetree.ml" 55 2112 2126
+)
+"src/cliquetree.ml" 55 2112 2139 "src/cliquetree.ml" 55 2112 2145
+type(
+  Gr.V.t
+)
+"src/cliquetree.ml" 55 2112 2129 "src/cliquetree.ml" 55 2112 2145
+call(
+  tail
+)
+type(
+  int
+)
+"src/cliquetree.ml" 56 2146 2154 "src/cliquetree.ml" 56 2146 2159
+type(
+  t -> t -> bool
+)
+ident(
+  def equal "src/cliquetree.ml" 58 2192 2196 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 56 2146 2160 "src/cliquetree.ml" 56 2146 2161
+type(
+  t
+)
+ident(
+  def x "src/cliquetree.ml" 56 2146 2162 "src/cliquetree.ml" 56 2146 2190
+)
+"src/cliquetree.ml" 56 2146 2162 "src/cliquetree.ml" 56 2146 2163
+type(
+  t
+)
+ident(
+  def y "src/cliquetree.ml" 56 2146 2166 "src/cliquetree.ml" 56 2146 2190
+)
+"src/cliquetree.ml" 56 2146 2166 "src/cliquetree.ml" 56 2146 2176
+type(
+  Gr.V.t -> Gr.V.t -> bool
+)
+ident(
+  ext_ref Gr.V.equal
+)
+"src/cliquetree.ml" 56 2146 2177 "src/cliquetree.ml" 56 2146 2178
+type(
+  t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 56 2146 2160 "src/cliquetree.ml" 56 2146 2161
+)
+"src/cliquetree.ml" 56 2146 2177 "src/cliquetree.ml" 56 2146 2183
+type(
+  Gr.V.t
+)
+"src/cliquetree.ml" 56 2146 2184 "src/cliquetree.ml" 56 2146 2185
+type(
+  t
+)
+ident(
+  int_ref y "src/cliquetree.ml" 56 2146 2162 "src/cliquetree.ml" 56 2146 2163
+)
+"src/cliquetree.ml" 56 2146 2184 "src/cliquetree.ml" 56 2146 2190
+type(
+  Gr.V.t
+)
+"src/cliquetree.ml" 56 2146 2166 "src/cliquetree.ml" 56 2146 2190
+call(
+  tail
+)
+type(
+  bool
+)
+"src/cliquetree.ml" 58 2192 2200 "src/cliquetree.ml" 58 2192 2205
+type(
+  'a -> 'a
+)
+ident(
+  def label "src/cliquetree.ml" 60 2213 2217 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 58 2192 2206 "src/cliquetree.ml" 58 2192 2207
+type(
+  'a
+)
+ident(
+  def x "src/cliquetree.ml" 58 2192 2210 "src/cliquetree.ml" 58 2192 2211
+)
+"src/cliquetree.ml" 58 2192 2210 "src/cliquetree.ml" 58 2192 2211
+type(
+  'a
+)
+ident(
+  int_ref x "src/cliquetree.ml" 58 2192 2206 "src/cliquetree.ml" 58 2192 2207
+)
+"src/cliquetree.ml" 60 2213 2221 "src/cliquetree.ml" 60 2213 2227
+type(
+  Gr.V.t -> t
+)
+ident(
+  def create "src/cliquetree.ml" 69 2350 2354 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 60 2213 2228 "src/cliquetree.ml" 60 2213 2229
+type(
+  Gr.V.t
+)
+ident(
+  def o "src/cliquetree.ml" 60 2213 2232 "src/cliquetree.ml" 67 2343 2348
+)
+"src/cliquetree.ml" 61 2234 2247 "src/cliquetree.ml" 61 2234 2248
+type(
+  int
+)
+"src/cliquetree.ml" 62 2250 2263 "src/cliquetree.ml" 62 2250 2264
+type(
+  Gr.V.t
+)
+ident(
+  int_ref o "src/cliquetree.ml" 60 2213 2228 "src/cliquetree.ml" 60 2213 2229
+)
+"src/cliquetree.ml" 63 2266 2276 "src/cliquetree.ml" 63 2266 2285
+type(
+  CVS.t
+)
+ident(
+  ext_ref CVS.empty
+)
+"src/cliquetree.ml" 64 2287 2300 "src/cliquetree.ml" 64 2287 2304
+type(
+  t option
+)
+"src/cliquetree.ml" 65 2306 2321 "src/cliquetree.ml" 65 2306 2322
+type(
+  int
+)
+"src/cliquetree.ml" 66 2324 2339 "src/cliquetree.ml" 66 2324 2341
+type(
+  int
+)
+"src/cliquetree.ml" 60 2213 2232 "src/cliquetree.ml" 67 2343 2348
+type(
+  t
+)
+"src/cliquetree.ml" 69 2350 2358 "src/cliquetree.ml" 69 2350 2364
+type(
+  t -> Gr.V.t
+)
+ident(
+  def vertex "src/cliquetree.ml" 71 2377 2381 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 69 2350 2365 "src/cliquetree.ml" 69 2350 2366
+type(
+  t
+)
+ident(
+  def x "src/cliquetree.ml" 69 2350 2369 "src/cliquetree.ml" 69 2350 2375
+)
+"src/cliquetree.ml" 69 2350 2369 "src/cliquetree.ml" 69 2350 2370
+type(
+  t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 69 2350 2365 "src/cliquetree.ml" 69 2350 2366
+)
+"src/cliquetree.ml" 69 2350 2369 "src/cliquetree.ml" 69 2350 2375
+type(
+  Gr.V.t
+)
+"src/cliquetree.ml" 71 2377 2385 "src/cliquetree.ml" 71 2377 2391
+type(
+  t -> int
+)
+ident(
+  def clique "src/cliquetree.ml" 72 2405 2409 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 71 2377 2392 "src/cliquetree.ml" 71 2377 2393
+type(
+  t
+)
+ident(
+  def x "src/cliquetree.ml" 71 2377 2396 "src/cliquetree.ml" 71 2377 2404
+)
+"src/cliquetree.ml" 71 2377 2396 "src/cliquetree.ml" 71 2377 2397
+type(
+  t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 71 2377 2392 "src/cliquetree.ml" 71 2377 2393
+)
+"src/cliquetree.ml" 71 2377 2396 "src/cliquetree.ml" 71 2377 2404
+type(
+  int
+)
+"src/cliquetree.ml" 72 2405 2413 "src/cliquetree.ml" 72 2405 2423
+type(
+  t -> int -> unit
+)
+ident(
+  def set_clique "src/cliquetree.ml" 74 2445 2449 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 72 2405 2424 "src/cliquetree.ml" 72 2405 2425
+type(
+  t
+)
+ident(
+  def x "src/cliquetree.ml" 72 2405 2426 "src/cliquetree.ml" 72 2405 2443
+)
+"src/cliquetree.ml" 72 2405 2426 "src/cliquetree.ml" 72 2405 2427
+type(
+  int
+)
+ident(
+  def v "src/cliquetree.ml" 72 2405 2430 "src/cliquetree.ml" 72 2405 2443
+)
+"src/cliquetree.ml" 72 2405 2430 "src/cliquetree.ml" 72 2405 2431
+type(
+  t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 72 2405 2424 "src/cliquetree.ml" 72 2405 2425
+)
+"src/cliquetree.ml" 72 2405 2442 "src/cliquetree.ml" 72 2405 2443
+type(
+  int
+)
+ident(
+  int_ref v "src/cliquetree.ml" 72 2405 2426 "src/cliquetree.ml" 72 2405 2427
+)
+"src/cliquetree.ml" 72 2405 2430 "src/cliquetree.ml" 72 2405 2443
+type(
+  unit
+)
+"src/cliquetree.ml" 74 2445 2453 "src/cliquetree.ml" 74 2445 2459
+type(
+  t -> int
+)
+ident(
+  def number "src/cliquetree.ml" 75 2473 2477 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 74 2445 2460 "src/cliquetree.ml" 74 2445 2461
+type(
+  t
+)
+ident(
+  def x "src/cliquetree.ml" 74 2445 2464 "src/cliquetree.ml" 74 2445 2472
+)
+"src/cliquetree.ml" 74 2445 2464 "src/cliquetree.ml" 74 2445 2465
+type(
+  t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 74 2445 2460 "src/cliquetree.ml" 74 2445 2461
+)
+"src/cliquetree.ml" 74 2445 2464 "src/cliquetree.ml" 74 2445 2472
+type(
+  int
+)
+"src/cliquetree.ml" 75 2473 2481 "src/cliquetree.ml" 75 2473 2491
+type(
+  t -> int -> unit
+)
+ident(
+  def set_number "src/cliquetree.ml" 77 2513 2517 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 75 2473 2492 "src/cliquetree.ml" 75 2473 2493
+type(
+  t
+)
+ident(
+  def x "src/cliquetree.ml" 75 2473 2494 "src/cliquetree.ml" 75 2473 2511
+)
+"src/cliquetree.ml" 75 2473 2494 "src/cliquetree.ml" 75 2473 2495
+type(
+  int
+)
+ident(
+  def v "src/cliquetree.ml" 75 2473 2498 "src/cliquetree.ml" 75 2473 2511
+)
+"src/cliquetree.ml" 75 2473 2498 "src/cliquetree.ml" 75 2473 2499
+type(
+  t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 75 2473 2492 "src/cliquetree.ml" 75 2473 2493
+)
+"src/cliquetree.ml" 75 2473 2510 "src/cliquetree.ml" 75 2473 2511
+type(
+  int
+)
+ident(
+  int_ref v "src/cliquetree.ml" 75 2473 2494 "src/cliquetree.ml" 75 2473 2495
+)
+"src/cliquetree.ml" 75 2473 2498 "src/cliquetree.ml" 75 2473 2511
+type(
+  unit
+)
+"src/cliquetree.ml" 77 2513 2521 "src/cliquetree.ml" 77 2513 2525
+type(
+  t -> int
+)
+ident(
+  def mark "src/cliquetree.ml" 78 2537 2541 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 77 2513 2526 "src/cliquetree.ml" 77 2513 2527
+type(
+  t
+)
+ident(
+  def x "src/cliquetree.ml" 77 2513 2530 "src/cliquetree.ml" 77 2513 2536
+)
+"src/cliquetree.ml" 77 2513 2530 "src/cliquetree.ml" 77 2513 2531
+type(
+  t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 77 2513 2526 "src/cliquetree.ml" 77 2513 2527
+)
+"src/cliquetree.ml" 77 2513 2530 "src/cliquetree.ml" 77 2513 2536
+type(
+  int
+)
+"src/cliquetree.ml" 78 2537 2545 "src/cliquetree.ml" 78 2537 2554
+type(
+  t -> unit
+)
+ident(
+  def incr_mark "src/cliquetree.ml" 83 2693 2697 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 78 2537 2555 "src/cliquetree.ml" 78 2537 2556
+type(
+  t
+)
+ident(
+  def x "src/cliquetree.ml" 81 2664 2670 "src/cliquetree.ml" 81 2664 2691
+)
+"src/cliquetree.ml" 81 2664 2670 "src/cliquetree.ml" 81 2664 2671
+type(
+  t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 78 2537 2555 "src/cliquetree.ml" 78 2537 2556
+)
+"src/cliquetree.ml" 81 2664 2680 "src/cliquetree.ml" 81 2664 2684
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"src/cliquetree.ml" 81 2664 2685 "src/cliquetree.ml" 81 2664 2686
+type(
+  t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 78 2537 2555 "src/cliquetree.ml" 78 2537 2556
+)
+"src/cliquetree.ml" 81 2664 2685 "src/cliquetree.ml" 81 2664 2691
+type(
+  int
+)
+"src/cliquetree.ml" 81 2664 2680 "src/cliquetree.ml" 81 2664 2691
+type(
+  int
+)
+"src/cliquetree.ml" 81 2664 2670 "src/cliquetree.ml" 81 2664 2691
+type(
+  unit
+)
+"src/cliquetree.ml" 83 2693 2701 "src/cliquetree.ml" 83 2693 2702
+type(
+  t -> CVS.t
+)
+ident(
+  def m "src/cliquetree.ml" 84 2711 2715 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 83 2693 2703 "src/cliquetree.ml" 83 2693 2704
+type(
+  t
+)
+ident(
+  def x "src/cliquetree.ml" 83 2693 2707 "src/cliquetree.ml" 83 2693 2710
+)
+"src/cliquetree.ml" 83 2693 2707 "src/cliquetree.ml" 83 2693 2708
+type(
+  t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 83 2693 2703 "src/cliquetree.ml" 83 2693 2704
+)
+"src/cliquetree.ml" 83 2693 2707 "src/cliquetree.ml" 83 2693 2710
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 84 2711 2719 "src/cliquetree.ml" 84 2711 2724
+type(
+  t -> CVS.t -> unit
+)
+ident(
+  def set_m "src/cliquetree.ml" 86 2741 2745 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 84 2711 2725 "src/cliquetree.ml" 84 2711 2726
+type(
+  t
+)
+ident(
+  def x "src/cliquetree.ml" 84 2711 2727 "src/cliquetree.ml" 84 2711 2739
+)
+"src/cliquetree.ml" 84 2711 2727 "src/cliquetree.ml" 84 2711 2728
+type(
+  CVS.t
+)
+ident(
+  def v "src/cliquetree.ml" 84 2711 2731 "src/cliquetree.ml" 84 2711 2739
+)
+"src/cliquetree.ml" 84 2711 2731 "src/cliquetree.ml" 84 2711 2732
+type(
+  t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 84 2711 2725 "src/cliquetree.ml" 84 2711 2726
+)
+"src/cliquetree.ml" 84 2711 2738 "src/cliquetree.ml" 84 2711 2739
+type(
+  CVS.t
+)
+ident(
+  int_ref v "src/cliquetree.ml" 84 2711 2727 "src/cliquetree.ml" 84 2711 2728
+)
+"src/cliquetree.ml" 84 2711 2731 "src/cliquetree.ml" 84 2711 2739
+type(
+  unit
+)
+"src/cliquetree.ml" 86 2741 2749 "src/cliquetree.ml" 86 2741 2753
+type(
+  t -> t
+)
+ident(
+  def last "src/cliquetree.ml" 91 2843 2847 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 86 2741 2754 "src/cliquetree.ml" 86 2741 2755
+type(
+  t
+)
+ident(
+  def x "src/cliquetree.ml" 87 2758 2764 "src/cliquetree.ml" 89 2802 2841
+)
+"src/cliquetree.ml" 87 2758 2770 "src/cliquetree.ml" 87 2758 2771
+type(
+  t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 86 2741 2754 "src/cliquetree.ml" 86 2741 2755
+)
+"src/cliquetree.ml" 87 2758 2770 "src/cliquetree.ml" 87 2758 2776
+type(
+  t option
+)
+"src/cliquetree.ml" 88 2782 2795 "src/cliquetree.ml" 88 2782 2796
+type(
+  t
+)
+ident(
+  def v "src/cliquetree.ml" 88 2782 2800 "src/cliquetree.ml" 88 2782 2801
+)
+"src/cliquetree.ml" 88 2782 2790 "src/cliquetree.ml" 88 2782 2796
+type(
+  t option
+)
+"src/cliquetree.ml" 88 2782 2800 "src/cliquetree.ml" 88 2782 2801
+type(
+  t
+)
+ident(
+  int_ref v "src/cliquetree.ml" 88 2782 2795 "src/cliquetree.ml" 88 2782 2796
+)
+"src/cliquetree.ml" 89 2802 2810 "src/cliquetree.ml" 89 2802 2814
+type(
+  t option
+)
+"src/cliquetree.ml" 89 2802 2818 "src/cliquetree.ml" 89 2802 2826
+type(
+  string -> t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/cliquetree.ml" 89 2802 2827 "src/cliquetree.ml" 89 2802 2841
+type(
+  string
+)
+"src/cliquetree.ml" 89 2802 2818 "src/cliquetree.ml" 89 2802 2841
+call(
+  tail
+)
+type(
+  t
+)
+"src/cliquetree.ml" 87 2758 2764 "src/cliquetree.ml" 89 2802 2841
+type(
+  t
+)
+"src/cliquetree.ml" 91 2843 2851 "src/cliquetree.ml" 91 2843 2859
+type(
+  t -> t -> unit
+)
+ident(
+  def set_last "src/cliquetree.ml" 91 2843 2882 "src/cliquetree.ml" 93 2884 2889
+)
+"src/cliquetree.ml" 91 2843 2860 "src/cliquetree.ml" 91 2843 2861
+type(
+  t
+)
+ident(
+  def x "src/cliquetree.ml" 91 2843 2862 "src/cliquetree.ml" 91 2843 2882
+)
+"src/cliquetree.ml" 91 2843 2862 "src/cliquetree.ml" 91 2843 2863
+type(
+  t
+)
+ident(
+  def v "src/cliquetree.ml" 91 2843 2866 "src/cliquetree.ml" 91 2843 2882
+)
+"src/cliquetree.ml" 91 2843 2866 "src/cliquetree.ml" 91 2843 2867
+type(
+  t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 91 2843 2860 "src/cliquetree.ml" 91 2843 2861
+)
+"src/cliquetree.ml" 91 2843 2881 "src/cliquetree.ml" 91 2843 2882
+type(
+  t
+)
+ident(
+  int_ref v "src/cliquetree.ml" 91 2843 2862 "src/cliquetree.ml" 91 2843 2863
+)
+"src/cliquetree.ml" 91 2843 2876 "src/cliquetree.ml" 91 2843 2882
+type(
+  t option
+)
+"src/cliquetree.ml" 91 2843 2866 "src/cliquetree.ml" 91 2843 2882
+type(
+  unit
+)
+"src/cliquetree.ml" 95 2921 2967 "src/cliquetree.ml" 95 2921 2984
+call(
+  stack
+)
+"src/cliquetree.ml" 102 3125 3129 "src/cliquetree.ml" 103 3140 3190
+call(
+  stack
+)
+"src/cliquetree.ml" 106 3226 3238 "src/cliquetree.ml" 106 3226 3245
+type(
+  t -> t -> int
+)
+ident(
+  def compare "src/cliquetree.ml" 107 3283 3291 "src/cliquetree.ml" 109 3345 3354
+)
+"src/cliquetree.ml" 106 3226 3264 "src/cliquetree.ml" 106 3226 3282
+type(
+  t -> t -> int
+)
+type(
+  t -> t -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/cliquetree.ml" 107 3283 3295 "src/cliquetree.ml" 107 3283 3299
+type(
+  'b -> int
+)
+ident(
+  def hash "src/cliquetree.ml" 108 3315 3323 "src/cliquetree.ml" 109 3345 3354
+)
+"src/cliquetree.ml" 107 3283 3302 "src/cliquetree.ml" 107 3283 3314
+type(
+  'b -> int
+)
+ident(
+  ext_ref Hashtbl.hash
+)
+"src/cliquetree.ml" 108 3315 3327 "src/cliquetree.ml" 108 3315 3332
+type(
+  'c -> 'c -> bool
+)
+ident(
+  def equal "src/cliquetree.ml" 108 3315 3344 "src/cliquetree.ml" 109 3345 3354
+)
+"src/cliquetree.ml" 108 3315 3333 "src/cliquetree.ml" 108 3315 3334
+type(
+  'c
+)
+ident(
+  def x "src/cliquetree.ml" 108 3315 3335 "src/cliquetree.ml" 108 3315 3344
+)
+"src/cliquetree.ml" 108 3315 3335 "src/cliquetree.ml" 108 3315 3336
+type(
+  'c
+)
+ident(
+  def y "src/cliquetree.ml" 108 3315 3339 "src/cliquetree.ml" 108 3315 3344
+)
+"src/cliquetree.ml" 108 3315 3339 "src/cliquetree.ml" 108 3315 3340
+type(
+  'c
+)
+ident(
+  int_ref x "src/cliquetree.ml" 108 3315 3333 "src/cliquetree.ml" 108 3315 3334
+)
+"src/cliquetree.ml" 108 3315 3341 "src/cliquetree.ml" 108 3315 3342
+type(
+  'c -> 'c -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/cliquetree.ml" 108 3315 3343 "src/cliquetree.ml" 108 3315 3344
+type(
+  'c
+)
+ident(
+  int_ref y "src/cliquetree.ml" 108 3315 3335 "src/cliquetree.ml" 108 3315 3336
+)
+"src/cliquetree.ml" 108 3315 3339 "src/cliquetree.ml" 108 3315 3344
+type(
+  bool
+)
+"src/cliquetree.ml" 102 3125 3129 "src/cliquetree.ml" 109 3345 3355
+call(
+  stack
+)
+"src/cliquetree.ml" 114 3413 3421 "src/cliquetree.ml" 114 3413 3428
+type(
+  t -> t -> int
+)
+ident(
+  def compare "src/cliquetree.ml" 116 3477 3481 "src/cliquetree.ml" 139 4060 4065
+)
+"src/cliquetree.ml" 114 3413 3430 "src/cliquetree.ml" 114 3413 3431
+type(
+  int
+)
+ident(
+  def x "src/cliquetree.ml" 114 3413 3440 "src/cliquetree.ml" 114 3413 3475
+)
+"src/cliquetree.ml" 114 3413 3433 "src/cliquetree.ml" 114 3413 3434
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 114 3413 3430 "src/cliquetree.ml" 114 3413 3434
+type(
+  t
+)
+"src/cliquetree.ml" 114 3413 3441 "src/cliquetree.ml" 114 3413 3442
+type(
+  int
+)
+ident(
+  def y "src/cliquetree.ml" 114 3413 3453 "src/cliquetree.ml" 114 3413 3475
+)
+"src/cliquetree.ml" 114 3413 3444 "src/cliquetree.ml" 114 3413 3445
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 114 3413 3441 "src/cliquetree.ml" 114 3413 3445
+type(
+  t
+)
+"src/cliquetree.ml" 114 3413 3453 "src/cliquetree.ml" 114 3413 3471
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/cliquetree.ml" 114 3413 3472 "src/cliquetree.ml" 114 3413 3473
+type(
+  int
+)
+ident(
+  int_ref x "src/cliquetree.ml" 114 3413 3430 "src/cliquetree.ml" 114 3413 3431
+)
+"src/cliquetree.ml" 114 3413 3474 "src/cliquetree.ml" 114 3413 3475
+type(
+  int
+)
+ident(
+  int_ref y "src/cliquetree.ml" 114 3413 3441 "src/cliquetree.ml" 114 3413 3442
+)
+"src/cliquetree.ml" 114 3413 3453 "src/cliquetree.ml" 114 3413 3475
+type(
+  int
+)
+"src/cliquetree.ml" 116 3477 3485 "src/cliquetree.ml" 116 3477 3492
+type(
+  int * CVS.t
+)
+ident(
+  def default "src/cliquetree.ml" 118 3511 3515 "src/cliquetree.ml" 139 4060 4065
+)
+"src/cliquetree.ml" 116 3477 3496 "src/cliquetree.ml" 116 3477 3497
+type(
+  int
+)
+"src/cliquetree.ml" 116 3477 3499 "src/cliquetree.ml" 116 3477 3508
+type(
+  CVS.t
+)
+ident(
+  ext_ref CVS.empty
+)
+"src/cliquetree.ml" 116 3477 3495 "src/cliquetree.ml" 116 3477 3509
+type(
+  int * CVS.t
+)
+"src/cliquetree.ml" 118 3511 3519 "src/cliquetree.ml" 118 3511 3525
+type(
+  'd -> 'e -> 'd * 'e
+)
+ident(
+  def create "src/cliquetree.ml" 120 3540 3544 "src/cliquetree.ml" 139 4060 4065
+)
+"src/cliquetree.ml" 118 3511 3526 "src/cliquetree.ml" 118 3511 3527
+type(
+  'd
+)
+ident(
+  def n "src/cliquetree.ml" 118 3511 3528 "src/cliquetree.ml" 118 3511 3538
+)
+"src/cliquetree.ml" 118 3511 3528 "src/cliquetree.ml" 118 3511 3529
+type(
+  'e
+)
+ident(
+  def s "src/cliquetree.ml" 118 3511 3532 "src/cliquetree.ml" 118 3511 3538
+)
+"src/cliquetree.ml" 118 3511 3533 "src/cliquetree.ml" 118 3511 3534
+type(
+  'd
+)
+ident(
+  int_ref n "src/cliquetree.ml" 118 3511 3526 "src/cliquetree.ml" 118 3511 3527
+)
+"src/cliquetree.ml" 118 3511 3536 "src/cliquetree.ml" 118 3511 3537
+type(
+  'e
+)
+ident(
+  int_ref s "src/cliquetree.ml" 118 3511 3528 "src/cliquetree.ml" 118 3511 3529
+)
+"src/cliquetree.ml" 118 3511 3532 "src/cliquetree.ml" 118 3511 3538
+type(
+  'd * 'e
+)
+"src/cliquetree.ml" 120 3540 3548 "src/cliquetree.ml" 120 3540 3556
+type(
+  'f * 'g -> 'g
+)
+ident(
+  def vertices "src/cliquetree.ml" 122 3564 3568 "src/cliquetree.ml" 139 4060 4065
+)
+"src/cliquetree.ml" 120 3540 3559 "src/cliquetree.ml" 120 3540 3562
+type(
+  'f * 'g -> 'g
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"src/cliquetree.ml" 122 3564 3572 "src/cliquetree.ml" 122 3564 3577
+type(
+  Gr.t -> Gr.t -> 'h * CVS.t -> int
+)
+ident(
+  def width "src/cliquetree.ml" 138 4048 4059 "src/cliquetree.ml" 139 4060 4065
+)
+"src/cliquetree.ml" 122 3564 3578 "src/cliquetree.ml" 122 3564 3579
+type(
+  Gr.t
+)
+ident(
+  def g "src/cliquetree.ml" 122 3564 3580 "src/cliquetree.ml" 138 4048 4059
+)
+"src/cliquetree.ml" 122 3564 3580 "src/cliquetree.ml" 122 3564 3583
+type(
+  Gr.t
+)
+ident(
+  def tri "src/cliquetree.ml" 122 3564 3584 "src/cliquetree.ml" 138 4048 4059
+)
+"src/cliquetree.ml" 122 3564 3585 "src/cliquetree.ml" 122 3564 3586
+type(
+  'h
+)
+"src/cliquetree.ml" 122 3564 3588 "src/cliquetree.ml" 122 3564 3589
+type(
+  CVS.t
+)
+ident(
+  def x "src/cliquetree.ml" 123 3593 3599 "src/cliquetree.ml" 138 4048 4059
+)
+"src/cliquetree.ml" 122 3564 3584 "src/cliquetree.ml" 122 3564 3590
+type(
+  'h * CVS.t
+)
+"src/cliquetree.ml" 123 3593 3603 "src/cliquetree.ml" 123 3593 3611
+type(
+  Gr.V.t list
+)
+ident(
+  def vertices "src/cliquetree.ml" 124 3658 3664 "src/cliquetree.ml" 138 4048 4059
+)
+"src/cliquetree.ml" 123 3593 3614 "src/cliquetree.ml" 123 3593 3622
+type(
+  (CVS.elt -> Gr.V.t) -> CVS.elt list -> Gr.V.t list
+)
+ident(
+  ext_ref List.map
+)
+"src/cliquetree.ml" 123 3593 3623 "src/cliquetree.ml" 123 3593 3637
+type(
+  CVS.elt -> Gr.V.t
+)
+ident(
+  int_ref CliqueV.vertex "src/cliquetree.ml" 32 1546 1550 "src/cliquetree.ml" 32 1546 1574
+)
+"src/cliquetree.ml" 123 3593 3639 "src/cliquetree.ml" 123 3593 3651
+type(
+  CVS.t -> CVS.elt list
+)
+ident(
+  ext_ref CVS.elements
+)
+"src/cliquetree.ml" 123 3593 3652 "src/cliquetree.ml" 123 3593 3653
+type(
+  CVS.t
+)
+ident(
+  int_ref x "src/cliquetree.ml" 122 3564 3588 "src/cliquetree.ml" 122 3564 3589
+)
+"src/cliquetree.ml" 123 3593 3638 "src/cliquetree.ml" 123 3593 3654
+call(
+  stack
+)
+type(
+  CVS.elt list
+)
+"src/cliquetree.ml" 123 3593 3614 "src/cliquetree.ml" 123 3593 3654
+call(
+  stack
+)
+type(
+  Gr.V.t list
+)
+"src/cliquetree.ml" 124 3658 3668 "src/cliquetree.ml" 124 3658 3669
+type(
+  int
+)
+ident(
+  def w "src/cliquetree.ml" 137 4021 4027 "src/cliquetree.ml" 138 4048 4059
+)
+"src/cliquetree.ml" 125 3672 3680 "src/cliquetree.ml" 125 3672 3694
+type(
+  (int -> Gr.vertex -> int) -> int -> Gr.vertex list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/cliquetree.ml" 126 3695 3710 "src/cliquetree.ml" 126 3695 3711
+type(
+  int
+)
+ident(
+  def w "src/cliquetree.ml" 126 3695 3712 "src/cliquetree.ml" 134 3964 3989
+)
+"src/cliquetree.ml" 126 3695 3712 "src/cliquetree.ml" 126 3695 3713
+type(
+  Gr.vertex
+)
+ident(
+  def v "src/cliquetree.ml" 127 3717 3730 "src/cliquetree.ml" 134 3964 3989
+)
+"src/cliquetree.ml" 127 3717 3730 "src/cliquetree.ml" 127 3717 3744
+type(
+  (int -> Gr.vertex -> int) -> int -> Gr.vertex list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/cliquetree.ml" 128 3745 3765 "src/cliquetree.ml" 128 3745 3766
+type(
+  int
+)
+ident(
+  def w "src/cliquetree.ml" 128 3745 3767 "src/cliquetree.ml" 133 3938 3962
+)
+"src/cliquetree.ml" 128 3745 3767 "src/cliquetree.ml" 128 3745 3769
+type(
+  Gr.vertex
+)
+ident(
+  def v' "src/cliquetree.ml" 129 3773 3791 "src/cliquetree.ml" 133 3938 3962
+)
+"src/cliquetree.ml" 129 3773 3794 "src/cliquetree.ml" 129 3773 3795
+type(
+  Gr.vertex
+)
+ident(
+  int_ref v "src/cliquetree.ml" 126 3695 3712 "src/cliquetree.ml" 126 3695 3713
+)
+"src/cliquetree.ml" 129 3773 3796 "src/cliquetree.ml" 129 3773 3798
+type(
+  Gr.vertex -> Gr.vertex -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/cliquetree.ml" 129 3773 3799 "src/cliquetree.ml" 129 3773 3801
+type(
+  Gr.vertex
+)
+ident(
+  int_ref v' "src/cliquetree.ml" 128 3745 3767 "src/cliquetree.ml" 128 3745 3769
+)
+"src/cliquetree.ml" 129 3773 3794 "src/cliquetree.ml" 129 3773 3801
+type(
+  bool
+)
+"src/cliquetree.ml" 130 3807 3830 "src/cliquetree.ml" 130 3807 3833
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/cliquetree.ml" 130 3807 3835 "src/cliquetree.ml" 130 3807 3846
+type(
+  Gr.t -> Gr.vertex -> Gr.vertex -> bool
+)
+ident(
+  ext_ref Gr.mem_edge
+)
+"src/cliquetree.ml" 130 3807 3847 "src/cliquetree.ml" 130 3807 3848
+type(
+  Gr.t
+)
+ident(
+  int_ref g "src/cliquetree.ml" 122 3564 3578 "src/cliquetree.ml" 122 3564 3579
+)
+"src/cliquetree.ml" 130 3807 3849 "src/cliquetree.ml" 130 3807 3850
+type(
+  Gr.vertex
+)
+ident(
+  int_ref v "src/cliquetree.ml" 126 3695 3712 "src/cliquetree.ml" 126 3695 3713
+)
+"src/cliquetree.ml" 130 3807 3851 "src/cliquetree.ml" 130 3807 3853
+type(
+  Gr.vertex
+)
+ident(
+  int_ref v' "src/cliquetree.ml" 128 3745 3767 "src/cliquetree.ml" 128 3745 3769
+)
+"src/cliquetree.ml" 130 3807 3834 "src/cliquetree.ml" 130 3807 3854
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cliquetree.ml" 130 3807 3830 "src/cliquetree.ml" 130 3807 3854
+type(
+  bool
+)
+"src/cliquetree.ml" 130 3807 3855 "src/cliquetree.ml" 130 3807 3857
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/cliquetree.ml" 130 3807 3858 "src/cliquetree.ml" 130 3807 3869
+type(
+  Gr.t -> Gr.vertex -> Gr.vertex -> bool
+)
+ident(
+  ext_ref Gr.mem_edge
+)
+"src/cliquetree.ml" 130 3807 3870 "src/cliquetree.ml" 130 3807 3873
+type(
+  Gr.t
+)
+ident(
+  int_ref tri "src/cliquetree.ml" 122 3564 3580 "src/cliquetree.ml" 122 3564 3583
+)
+"src/cliquetree.ml" 130 3807 3874 "src/cliquetree.ml" 130 3807 3875
+type(
+  Gr.vertex
+)
+ident(
+  int_ref v "src/cliquetree.ml" 126 3695 3712 "src/cliquetree.ml" 126 3695 3713
+)
+"src/cliquetree.ml" 130 3807 3876 "src/cliquetree.ml" 130 3807 3878
+type(
+  Gr.vertex
+)
+ident(
+  int_ref v' "src/cliquetree.ml" 128 3745 3767 "src/cliquetree.ml" 128 3745 3769
+)
+"src/cliquetree.ml" 130 3807 3858 "src/cliquetree.ml" 130 3807 3878
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cliquetree.ml" 130 3807 3830 "src/cliquetree.ml" 130 3807 3878
+type(
+  bool
+)
+"src/cliquetree.ml" 131 3879 3904 "src/cliquetree.ml" 131 3879 3908
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"src/cliquetree.ml" 131 3879 3909 "src/cliquetree.ml" 131 3879 3910
+type(
+  int
+)
+ident(
+  int_ref w "src/cliquetree.ml" 128 3745 3765 "src/cliquetree.ml" 128 3745 3766
+)
+"src/cliquetree.ml" 131 3879 3904 "src/cliquetree.ml" 131 3879 3910
+type(
+  int
+)
+"src/cliquetree.ml" 132 3911 3936 "src/cliquetree.ml" 132 3911 3937
+type(
+  int
+)
+ident(
+  int_ref w "src/cliquetree.ml" 128 3745 3765 "src/cliquetree.ml" 128 3745 3766
+)
+"src/cliquetree.ml" 130 3807 3827 "src/cliquetree.ml" 132 3911 3937
+type(
+  int
+)
+"src/cliquetree.ml" 133 3938 3961 "src/cliquetree.ml" 133 3938 3962
+type(
+  int
+)
+ident(
+  int_ref w "src/cliquetree.ml" 128 3745 3765 "src/cliquetree.ml" 128 3745 3766
+)
+"src/cliquetree.ml" 129 3773 3791 "src/cliquetree.ml" 133 3938 3962
+type(
+  int
+)
+"src/cliquetree.ml" 128 3745 3760 "src/cliquetree.ml" 133 3938 3963
+type(
+  int -> Gr.vertex -> int
+)
+"src/cliquetree.ml" 134 3964 3979 "src/cliquetree.ml" 134 3964 3980
+type(
+  int
+)
+ident(
+  int_ref w "src/cliquetree.ml" 126 3695 3710 "src/cliquetree.ml" 126 3695 3711
+)
+"src/cliquetree.ml" 134 3964 3981 "src/cliquetree.ml" 134 3964 3989
+type(
+  Gr.vertex list
+)
+ident(
+  int_ref vertices "src/cliquetree.ml" 123 3593 3603 "src/cliquetree.ml" 123 3593 3611
+)
+"src/cliquetree.ml" 127 3717 3730 "src/cliquetree.ml" 134 3964 3989
+call(
+  tail
+)
+type(
+  int
+)
+"src/cliquetree.ml" 126 3695 3705 "src/cliquetree.ml" 134 3964 3990
+type(
+  int -> Gr.vertex -> int
+)
+"src/cliquetree.ml" 135 3991 4001 "src/cliquetree.ml" 135 3991 4002
+type(
+  int
+)
+"src/cliquetree.ml" 135 3991 4003 "src/cliquetree.ml" 135 3991 4011
+type(
+  Gr.vertex list
+)
+ident(
+  int_ref vertices "src/cliquetree.ml" 123 3593 3603 "src/cliquetree.ml" 123 3593 3611
+)
+"src/cliquetree.ml" 125 3672 3680 "src/cliquetree.ml" 135 3991 4011
+call(
+  stack
+)
+type(
+  int
+)
+"src/cliquetree.ml" 137 4021 4034 "src/cliquetree.ml" 137 4021 4035
+type(
+  int
+)
+ident(
+  int_ref w "src/cliquetree.ml" 124 3658 3668 "src/cliquetree.ml" 124 3658 3669
+)
+"src/cliquetree.ml" 137 4021 4036 "src/cliquetree.ml" 137 4021 4039
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/cliquetree.ml" 137 4021 4040 "src/cliquetree.ml" 137 4021 4041
+type(
+  int
+)
+"src/cliquetree.ml" 137 4021 4034 "src/cliquetree.ml" 137 4021 4041
+type(
+  int
+)
+"src/cliquetree.ml" 137 4021 4042 "src/cliquetree.ml" 137 4021 4043
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/cliquetree.ml" 137 4021 4044 "src/cliquetree.ml" 137 4021 4045
+type(
+  int
+)
+"src/cliquetree.ml" 137 4021 4033 "src/cliquetree.ml" 137 4021 4046
+type(
+  bool
+)
+"src/cliquetree.ml" 137 4021 4027 "src/cliquetree.ml" 137 4021 4046
+type(
+  unit
+)
+"src/cliquetree.ml" 138 4048 4054 "src/cliquetree.ml" 138 4048 4055
+type(
+  int
+)
+ident(
+  int_ref w "src/cliquetree.ml" 124 3658 3668 "src/cliquetree.ml" 124 3658 3669
+)
+"src/cliquetree.ml" 138 4048 4056 "src/cliquetree.ml" 138 4048 4057
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"src/cliquetree.ml" 138 4048 4058 "src/cliquetree.ml" 138 4048 4059
+type(
+  int
+)
+"src/cliquetree.ml" 138 4048 4054 "src/cliquetree.ml" 138 4048 4059
+type(
+  int
+)
+"src/cliquetree.ml" 137 4021 4027 "src/cliquetree.ml" 138 4048 4059
+type(
+  int
+)
+"src/cliquetree.ml" 124 3658 3664 "src/cliquetree.ml" 138 4048 4059
+type(
+  int
+)
+"src/cliquetree.ml" 123 3593 3599 "src/cliquetree.ml" 138 4048 4059
+type(
+  int
+)
+"src/cliquetree.ml" 143 4115 4119 "src/cliquetree.ml" 143 4115 4166
+call(
+  stack
+)
+"src/cliquetree.ml" 143 4115 4119 "src/cliquetree.ml" 143 4115 4179
+call(
+  stack
+)
+"src/cliquetree.ml" 146 4208 4221 "src/cliquetree.ml" 146 4208 4255
+call(
+  stack
+)
+"src/cliquetree.ml" 149 4282 4301 "src/cliquetree.ml" 149 4282 4314
+call(
+  stack
+)
+"src/cliquetree.ml" 150 4315 4328 "src/cliquetree.ml" 150 4315 4349
+call(
+  stack
+)
+"src/cliquetree.ml" 153 4412 4430 "src/cliquetree.ml" 153 4412 4444
+call(
+  stack
+)
+"src/cliquetree.ml" 156 4503 4519 "src/cliquetree.ml" 156 4503 4534
+call(
+  stack
+)
+"src/cliquetree.ml" 156 4503 4560 "src/cliquetree.ml" 156 4503 4572
+call(
+  stack
+)
+"src/cliquetree.ml" 156 4503 4519 "src/cliquetree.ml" 156 4503 4577
+call(
+  stack
+)
+"src/cliquetree.ml" 160 4595 4601 "src/cliquetree.ml" 160 4595 4611
+type(
+  Gr.t -> Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+ident(
+  def mcs_clique "src/cliquetree.ml" 234 7033 7035 "src/cliquetree.ml" 286 8428 8431
+)
+"src/cliquetree.ml" 160 4595 4612 "src/cliquetree.ml" 160 4595 4613
+type(
+  Gr.t
+)
+ident(
+  def g "src/cliquetree.ml" 162 4642 4646 "src/cliquetree.ml" 232 6978 7031
+)
+"src/cliquetree.ml" 162 4642 4650 "src/cliquetree.ml" 162 4642 4651
+type(
+  int
+)
+ident(
+  def n "src/cliquetree.ml" 163 4672 4676 "src/cliquetree.ml" 232 6978 7031
+)
+"src/cliquetree.ml" 162 4642 4654 "src/cliquetree.ml" 162 4642 4666
+type(
+  Gr.t -> int
+)
+ident(
+  ext_ref Gr.nb_vertex
+)
+"src/cliquetree.ml" 162 4642 4667 "src/cliquetree.ml" 162 4642 4668
+type(
+  Gr.t
+)
+ident(
+  int_ref g "src/cliquetree.ml" 160 4595 4612 "src/cliquetree.ml" 160 4595 4613
+)
+"src/cliquetree.ml" 162 4642 4654 "src/cliquetree.ml" 162 4642 4668
+call(
+  stack
+)
+type(
+  int
+)
+"src/cliquetree.ml" 163 4672 4680 "src/cliquetree.ml" 163 4672 4682
+type(
+  Persistent.Graph.Concrete(CliqueV).t
+)
+ident(
+  def g' "src/cliquetree.ml" 164 4714 4718 "src/cliquetree.ml" 232 6978 7031
+)
+"src/cliquetree.ml" 163 4672 4685 "src/cliquetree.ml" 163 4672 4693
+type(
+  (Gr.V.t -> CliqueV.t) -> Gr.t -> Persistent.Graph.Concrete(CliqueV).t
+)
+ident(
+  ext_ref Copy.map
+)
+"src/cliquetree.ml" 163 4672 4694 "src/cliquetree.ml" 163 4672 4708
+type(
+  Gr.V.t -> CliqueV.t
+)
+ident(
+  int_ref CliqueV.create "src/cliquetree.ml" 31 1517 1521 "src/cliquetree.ml" 31 1517 1545
+)
+"src/cliquetree.ml" 163 4672 4709 "src/cliquetree.ml" 163 4672 4710
+type(
+  Gr.t
+)
+ident(
+  int_ref g "src/cliquetree.ml" 160 4595 4612 "src/cliquetree.ml" 160 4595 4613
+)
+"src/cliquetree.ml" 163 4672 4685 "src/cliquetree.ml" 163 4672 4710
+call(
+  stack
+)
+type(
+  Persistent.Graph.Concrete(CliqueV).t
+)
+"src/cliquetree.ml" 164 4714 4722 "src/cliquetree.ml" 164 4714 4732
+type(
+  CVS.t ref
+)
+ident(
+  def unnumbered "src/cliquetree.ml" 165 4779 4783 "src/cliquetree.ml" 232 6978 7031
+)
+"src/cliquetree.ml" 164 4714 4735 "src/cliquetree.ml" 164 4714 4738
+type(
+  CVS.t -> CVS.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/cliquetree.ml" 164 4714 4740 "src/cliquetree.ml" 164 4714 4753
+type(
+  (G.vertex -> CVS.t -> CVS.t) -> G.t -> CVS.t -> CVS.t
+)
+ident(
+  ext_ref G.fold_vertex
+)
+"src/cliquetree.ml" 164 4714 4754 "src/cliquetree.ml" 164 4714 4761
+type(
+  G.vertex -> CVS.t -> CVS.t
+)
+ident(
+  ext_ref CVS.add
+)
+"src/cliquetree.ml" 164 4714 4762 "src/cliquetree.ml" 164 4714 4764
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/cliquetree.ml" 163 4672 4680 "src/cliquetree.ml" 163 4672 4682
+)
+"src/cliquetree.ml" 164 4714 4765 "src/cliquetree.ml" 164 4714 4774
+type(
+  CVS.t
+)
+ident(
+  ext_ref CVS.empty
+)
+"src/cliquetree.ml" 164 4714 4739 "src/cliquetree.ml" 164 4714 4775
+call(
+  stack
+)
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 164 4714 4735 "src/cliquetree.ml" 164 4714 4775
+type(
+  CVS.t ref
+)
+"src/cliquetree.ml" 165 4779 4787 "src/cliquetree.ml" 165 4779 4792
+type(
+  int ref
+)
+ident(
+  def pmark "src/cliquetree.ml" 166 4807 4811 "src/cliquetree.ml" 232 6978 7031
+)
+"src/cliquetree.ml" 165 4779 4795 "src/cliquetree.ml" 165 4779 4798
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/cliquetree.ml" 165 4779 4799 "src/cliquetree.ml" 165 4779 4803
+type(
+  int
+)
+"src/cliquetree.ml" 165 4779 4795 "src/cliquetree.ml" 165 4779 4803
+type(
+  int ref
+)
+"src/cliquetree.ml" 166 4807 4815 "src/cliquetree.ml" 166 4807 4820
+type(
+  CVS.elt list ref
+)
+ident(
+  def order "src/cliquetree.ml" 167 4833 4837 "src/cliquetree.ml" 232 6978 7031
+)
+"src/cliquetree.ml" 166 4807 4823 "src/cliquetree.ml" 166 4807 4826
+type(
+  CVS.elt list -> CVS.elt list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/cliquetree.ml" 166 4807 4827 "src/cliquetree.ml" 166 4807 4829
+type(
+  CVS.elt list
+)
+"src/cliquetree.ml" 166 4807 4823 "src/cliquetree.ml" 166 4807 4829
+type(
+  CVS.elt list ref
+)
+"src/cliquetree.ml" 167 4833 4841 "src/cliquetree.ml" 167 4833 4848
+type(
+  (CVS.elt list * CVS.t) array
+)
+ident(
+  def cliques "src/cliquetree.ml" 168 4883 4887 "src/cliquetree.ml" 232 6978 7031
+)
+"src/cliquetree.ml" 167 4833 4851 "src/cliquetree.ml" 167 4833 4861
+type(
+  int -> CVS.elt list * CVS.t -> (CVS.elt list * CVS.t) array
+)
+ident(
+  ext_ref Array.make
+)
+"src/cliquetree.ml" 167 4833 4862 "src/cliquetree.ml" 167 4833 4863
+type(
+  int
+)
+ident(
+  int_ref n "src/cliquetree.ml" 162 4642 4650 "src/cliquetree.ml" 162 4642 4651
+)
+"src/cliquetree.ml" 167 4833 4865 "src/cliquetree.ml" 167 4833 4867
+type(
+  CVS.elt list
+)
+"src/cliquetree.ml" 167 4833 4869 "src/cliquetree.ml" 167 4833 4878
+type(
+  CVS.t
+)
+ident(
+  ext_ref CVS.empty
+)
+"src/cliquetree.ml" 167 4833 4864 "src/cliquetree.ml" 167 4833 4879
+type(
+  CVS.elt list * CVS.t
+)
+"src/cliquetree.ml" 167 4833 4851 "src/cliquetree.ml" 167 4833 4879
+type(
+  (CVS.elt list * CVS.t) array
+)
+"src/cliquetree.ml" 168 4883 4891 "src/cliquetree.ml" 168 4883 4895
+type(
+  (int * CVS.t * int) list ref
+)
+ident(
+  def ties "src/cliquetree.ml" 169 4908 4912 "src/cliquetree.ml" 232 6978 7031
+)
+"src/cliquetree.ml" 168 4883 4898 "src/cliquetree.ml" 168 4883 4901
+type(
+  (int * CVS.t * int) list -> (int * CVS.t * int) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/cliquetree.ml" 168 4883 4902 "src/cliquetree.ml" 168 4883 4904
+type(
+  (int * CVS.t * int) list
+)
+"src/cliquetree.ml" 168 4883 4898 "src/cliquetree.ml" 168 4883 4904
+type(
+  (int * CVS.t * int) list ref
+)
+"src/cliquetree.ml" 169 4908 4916 "src/cliquetree.ml" 169 4908 4917
+type(
+  int ref
+)
+ident(
+  def j "src/cliquetree.ml" 171 4983 4987 "src/cliquetree.ml" 232 6978 7031
+)
+"src/cliquetree.ml" 169 4908 4920 "src/cliquetree.ml" 169 4908 4923
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/cliquetree.ml" 169 4908 4924 "src/cliquetree.ml" 169 4908 4925
+type(
+  int
+)
+"src/cliquetree.ml" 169 4908 4920 "src/cliquetree.ml" 169 4908 4925
+type(
+  int ref
+)
+"src/cliquetree.ml" 171 4983 4995 "src/cliquetree.ml" 171 4983 4996
+type(
+  int
+)
+ident(
+  int_ref n "src/cliquetree.ml" 162 4642 4650 "src/cliquetree.ml" 162 4642 4651
+)
+"src/cliquetree.ml" 171 4983 5004 "src/cliquetree.ml" 171 4983 5005
+type(
+  int
+)
+"src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5282
+type(
+  CVS.elt
+)
+ident(
+  def x "src/cliquetree.ml" 188 5561 5567 "src/cliquetree.ml" 214 6423 6445
+)
+"src/cliquetree.ml" 179 5271 5284 "src/cliquetree.ml" 179 5271 5288
+type(
+  int
+)
+ident(
+  def mark "src/cliquetree.ml" 188 5561 5567 "src/cliquetree.ml" 214 6423 6445
+)
+"src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5288
+type(
+  CVS.elt * int
+)
+"src/cliquetree.ml" 180 5291 5303 "src/cliquetree.ml" 180 5291 5310
+type(
+  CVS.elt
+)
+ident(
+  def choosed "src/cliquetree.ml" 181 5339 5347 "src/cliquetree.ml" 185 5477 5522
+)
+"src/cliquetree.ml" 180 5291 5313 "src/cliquetree.ml" 180 5291 5323
+type(
+  CVS.t -> CVS.elt
+)
+ident(
+  ext_ref CVS.choose
+)
+"src/cliquetree.ml" 180 5291 5324 "src/cliquetree.ml" 180 5291 5325
+type(
+  CVS.t ref -> CVS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/cliquetree.ml" 180 5291 5325 "src/cliquetree.ml" 180 5291 5335
+type(
+  CVS.t ref
+)
+ident(
+  int_ref unnumbered "src/cliquetree.ml" 164 4714 4722 "src/cliquetree.ml" 164 4714 4732
+)
+"src/cliquetree.ml" 180 5291 5324 "src/cliquetree.ml" 180 5291 5335
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 180 5291 5313 "src/cliquetree.ml" 180 5291 5335
+call(
+  stack
+)
+type(
+  CVS.elt
+)
+"src/cliquetree.ml" 181 5339 5347 "src/cliquetree.ml" 181 5339 5355
+type(
+  (CVS.elt -> CVS.elt * int -> CVS.elt * int) ->
+  CVS.t -> CVS.elt * int -> CVS.elt * int
+)
+ident(
+  ext_ref CVS.fold
+)
+"src/cliquetree.ml" 182 5356 5371 "src/cliquetree.ml" 182 5356 5372
+type(
+  CVS.elt
+)
+ident(
+  def x "src/cliquetree.ml" 182 5356 5373 "src/cliquetree.ml" 184 5430 5475
+)
+"src/cliquetree.ml" 182 5356 5375 "src/cliquetree.ml" 182 5356 5380
+type(
+  CVS.elt
+)
+ident(
+  def _maxx "src/cliquetree.ml" 183 5399 5412 "src/cliquetree.ml" 184 5430 5475
+)
+"src/cliquetree.ml" 182 5356 5382 "src/cliquetree.ml" 182 5356 5386
+type(
+  int
+)
+ident(
+  def maxv "src/cliquetree.ml" 183 5399 5412 "src/cliquetree.ml" 184 5430 5475
+)
+"src/cliquetree.ml" 182 5356 5374 "src/cliquetree.ml" 182 5356 5387
+type(
+  CVS.elt * int
+)
+"src/cliquetree.ml" 182 5356 5391 "src/cliquetree.ml" 182 5356 5394
+ident(
+  def max "src/cliquetree.ml" 183 5399 5412 "src/cliquetree.ml" 184 5430 5475
+)
+"src/cliquetree.ml" 182 5356 5373 "src/cliquetree.ml" 182 5356 5395
+type(
+  CVS.elt * int
+)
+"src/cliquetree.ml" 183 5399 5416 "src/cliquetree.ml" 183 5399 5417
+type(
+  int
+)
+ident(
+  def v "src/cliquetree.ml" 184 5430 5443 "src/cliquetree.ml" 184 5430 5475
+)
+"src/cliquetree.ml" 183 5399 5420 "src/cliquetree.ml" 183 5399 5424
+type(
+  CVS.elt -> int
+)
+ident(
+  int_ref CliqueV.mark "src/cliquetree.ml" 37 1703 1707 "src/cliquetree.ml" 37 1703 1726
+)
+"src/cliquetree.ml" 183 5399 5425 "src/cliquetree.ml" 183 5399 5426
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 182 5356 5371 "src/cliquetree.ml" 182 5356 5372
+)
+"src/cliquetree.ml" 183 5399 5420 "src/cliquetree.ml" 183 5399 5426
+call(
+  stack
+)
+type(
+  int
+)
+"src/cliquetree.ml" 184 5430 5446 "src/cliquetree.ml" 184 5430 5447
+type(
+  int
+)
+ident(
+  int_ref v "src/cliquetree.ml" 183 5399 5416 "src/cliquetree.ml" 183 5399 5417
+)
+"src/cliquetree.ml" 184 5430 5448 "src/cliquetree.ml" 184 5430 5449
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/cliquetree.ml" 184 5430 5450 "src/cliquetree.ml" 184 5430 5454
+type(
+  int
+)
+ident(
+  int_ref maxv "src/cliquetree.ml" 182 5356 5382 "src/cliquetree.ml" 182 5356 5386
+)
+"src/cliquetree.ml" 184 5430 5446 "src/cliquetree.ml" 184 5430 5454
+type(
+  bool
+)
+"src/cliquetree.ml" 184 5430 5461 "src/cliquetree.ml" 184 5430 5462
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 182 5356 5371 "src/cliquetree.ml" 182 5356 5372
+)
+"src/cliquetree.ml" 184 5430 5464 "src/cliquetree.ml" 184 5430 5465
+type(
+  int
+)
+ident(
+  int_ref v "src/cliquetree.ml" 183 5399 5416 "src/cliquetree.ml" 183 5399 5417
+)
+"src/cliquetree.ml" 184 5430 5460 "src/cliquetree.ml" 184 5430 5466
+type(
+  CVS.elt * int
+)
+"src/cliquetree.ml" 184 5430 5472 "src/cliquetree.ml" 184 5430 5475
+type(
+  CVS.elt * int
+)
+ident(
+  int_ref max "src/cliquetree.ml" 182 5356 5373 "src/cliquetree.ml" 182 5356 5395
+)
+"src/cliquetree.ml" 184 5430 5443 "src/cliquetree.ml" 184 5430 5475
+type(
+  CVS.elt * int
+)
+"src/cliquetree.ml" 183 5399 5412 "src/cliquetree.ml" 184 5430 5475
+type(
+  CVS.elt * int
+)
+"src/cliquetree.ml" 182 5356 5366 "src/cliquetree.ml" 184 5430 5476
+type(
+  CVS.elt -> CVS.elt * int -> CVS.elt * int
+)
+"src/cliquetree.ml" 185 5477 5487 "src/cliquetree.ml" 185 5477 5488
+type(
+  CVS.t ref -> CVS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/cliquetree.ml" 185 5477 5488 "src/cliquetree.ml" 185 5477 5498
+type(
+  CVS.t ref
+)
+ident(
+  int_ref unnumbered "src/cliquetree.ml" 164 4714 4722 "src/cliquetree.ml" 164 4714 4732
+)
+"src/cliquetree.ml" 185 5477 5487 "src/cliquetree.ml" 185 5477 5498
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 185 5477 5500 "src/cliquetree.ml" 185 5477 5507
+type(
+  CVS.elt
+)
+ident(
+  int_ref choosed "src/cliquetree.ml" 180 5291 5303 "src/cliquetree.ml" 180 5291 5310
+)
+"src/cliquetree.ml" 185 5477 5509 "src/cliquetree.ml" 185 5477 5513
+type(
+  CVS.elt -> int
+)
+ident(
+  int_ref CliqueV.mark "src/cliquetree.ml" 37 1703 1707 "src/cliquetree.ml" 37 1703 1726
+)
+"src/cliquetree.ml" 185 5477 5514 "src/cliquetree.ml" 185 5477 5521
+type(
+  CVS.elt
+)
+ident(
+  int_ref choosed "src/cliquetree.ml" 180 5291 5303 "src/cliquetree.ml" 180 5291 5310
+)
+"src/cliquetree.ml" 185 5477 5509 "src/cliquetree.ml" 185 5477 5521
+call(
+  stack
+)
+type(
+  int
+)
+"src/cliquetree.ml" 185 5477 5499 "src/cliquetree.ml" 185 5477 5522
+type(
+  CVS.elt * int
+)
+"src/cliquetree.ml" 181 5339 5347 "src/cliquetree.ml" 185 5477 5522
+call(
+  stack
+)
+type(
+  CVS.elt * int
+)
+"src/cliquetree.ml" 180 5291 5299 "src/cliquetree.ml" 185 5477 5522
+type(
+  CVS.elt * int
+)
+"src/cliquetree.ml" 188 5561 5567 "src/cliquetree.ml" 188 5561 5572
+type(
+  CVS.elt list ref
+)
+ident(
+  int_ref order "src/cliquetree.ml" 166 4807 4815 "src/cliquetree.ml" 166 4807 4820
+)
+"src/cliquetree.ml" 188 5561 5573 "src/cliquetree.ml" 188 5561 5575
+type(
+  CVS.elt list ref -> CVS.elt list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/cliquetree.ml" 188 5561 5576 "src/cliquetree.ml" 188 5561 5577
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5282
+)
+"src/cliquetree.ml" 188 5561 5581 "src/cliquetree.ml" 188 5561 5582
+type(
+  CVS.elt list ref -> CVS.elt list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/cliquetree.ml" 188 5561 5582 "src/cliquetree.ml" 188 5561 5587
+type(
+  CVS.elt list ref
+)
+ident(
+  int_ref order "src/cliquetree.ml" 166 4807 4815 "src/cliquetree.ml" 166 4807 4820
+)
+"src/cliquetree.ml" 188 5561 5581 "src/cliquetree.ml" 188 5561 5587
+type(
+  CVS.elt list
+)
+"src/cliquetree.ml" 188 5561 5576 "src/cliquetree.ml" 188 5561 5587
+type(
+  CVS.elt list
+)
+"src/cliquetree.ml" 188 5561 5567 "src/cliquetree.ml" 188 5561 5587
+type(
+  unit
+)
+"src/cliquetree.ml" 190 5614 5620 "src/cliquetree.ml" 190 5614 5630
+type(
+  CVS.t ref
+)
+ident(
+  int_ref unnumbered "src/cliquetree.ml" 164 4714 4722 "src/cliquetree.ml" 164 4714 4732
+)
+"src/cliquetree.ml" 190 5614 5631 "src/cliquetree.ml" 190 5614 5633
+type(
+  CVS.t ref -> CVS.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/cliquetree.ml" 190 5614 5634 "src/cliquetree.ml" 190 5614 5644
+type(
+  CVS.elt -> CVS.t -> CVS.t
+)
+ident(
+  ext_ref CVS.remove
+)
+"src/cliquetree.ml" 190 5614 5645 "src/cliquetree.ml" 190 5614 5646
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5282
+)
+"src/cliquetree.ml" 190 5614 5647 "src/cliquetree.ml" 190 5614 5648
+type(
+  CVS.t ref -> CVS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/cliquetree.ml" 190 5614 5648 "src/cliquetree.ml" 190 5614 5658
+type(
+  CVS.t ref
+)
+ident(
+  int_ref unnumbered "src/cliquetree.ml" 164 4714 4722 "src/cliquetree.ml" 164 4714 4732
+)
+"src/cliquetree.ml" 190 5614 5647 "src/cliquetree.ml" 190 5614 5658
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 190 5614 5634 "src/cliquetree.ml" 190 5614 5658
+call(
+  stack
+)
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 190 5614 5620 "src/cliquetree.ml" 190 5614 5658
+type(
+  unit
+)
+"src/cliquetree.ml" 191 5660 5669 "src/cliquetree.ml" 191 5660 5673
+type(
+  int
+)
+ident(
+  int_ref mark "src/cliquetree.ml" 179 5271 5284 "src/cliquetree.ml" 179 5271 5288
+)
+"src/cliquetree.ml" 191 5660 5674 "src/cliquetree.ml" 191 5660 5676
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/cliquetree.ml" 191 5660 5677 "src/cliquetree.ml" 191 5660 5678
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/cliquetree.ml" 191 5660 5678 "src/cliquetree.ml" 191 5660 5683
+type(
+  int ref
+)
+ident(
+  int_ref pmark "src/cliquetree.ml" 165 4779 4787 "src/cliquetree.ml" 165 4779 4792
+)
+"src/cliquetree.ml" 191 5660 5677 "src/cliquetree.ml" 191 5660 5683
+type(
+  int
+)
+"src/cliquetree.ml" 191 5660 5669 "src/cliquetree.ml" 191 5660 5683
+type(
+  bool
+)
+"src/cliquetree.ml" 193 5739 5747 "src/cliquetree.ml" 193 5739 5751
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/cliquetree.ml" 193 5739 5752 "src/cliquetree.ml" 193 5739 5753
+type(
+  int ref
+)
+ident(
+  int_ref j "src/cliquetree.ml" 169 4908 4916 "src/cliquetree.ml" 169 4908 4917
+)
+"src/cliquetree.ml" 193 5739 5747 "src/cliquetree.ml" 193 5739 5753
+type(
+  unit
+)
+"src/cliquetree.ml" 195 5821 5829 "src/cliquetree.ml" 195 5821 5836
+type(
+  (CVS.elt list * CVS.t) array
+)
+ident(
+  int_ref cliques "src/cliquetree.ml" 167 4833 4841 "src/cliquetree.ml" 167 4833 4848
+)
+"src/cliquetree.ml" 195 5821 5838 "src/cliquetree.ml" 195 5821 5839
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/cliquetree.ml" 195 5821 5839 "src/cliquetree.ml" 195 5821 5840
+type(
+  int ref
+)
+ident(
+  int_ref j "src/cliquetree.ml" 169 4908 4916 "src/cliquetree.ml" 169 4908 4917
+)
+"src/cliquetree.ml" 195 5821 5838 "src/cliquetree.ml" 195 5821 5840
+type(
+  int
+)
+"src/cliquetree.ml" 195 5821 5847 "src/cliquetree.ml" 195 5821 5848
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5282
+)
+"src/cliquetree.ml" 195 5821 5846 "src/cliquetree.ml" 195 5821 5849
+type(
+  CVS.elt list
+)
+"src/cliquetree.ml" 195 5821 5851 "src/cliquetree.ml" 195 5821 5858
+type(
+  CVS.elt -> CVS.t -> CVS.t
+)
+ident(
+  ext_ref CVS.add
+)
+"src/cliquetree.ml" 195 5821 5859 "src/cliquetree.ml" 195 5821 5860
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5282
+)
+"src/cliquetree.ml" 195 5821 5862 "src/cliquetree.ml" 195 5821 5863
+type(
+  CVS.elt -> CVS.t
+)
+ident(
+  int_ref CliqueV.m "src/cliquetree.ml" 39 1757 1761 "src/cliquetree.ml" 39 1757 1779
+)
+"src/cliquetree.ml" 195 5821 5864 "src/cliquetree.ml" 195 5821 5865
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5282
+)
+"src/cliquetree.ml" 195 5821 5861 "src/cliquetree.ml" 195 5821 5866
+call(
+  stack
+)
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 195 5821 5851 "src/cliquetree.ml" 195 5821 5866
+call(
+  stack
+)
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 195 5821 5845 "src/cliquetree.ml" 195 5821 5867
+type(
+  CVS.elt list * CVS.t
+)
+"src/cliquetree.ml" 195 5821 5829 "src/cliquetree.ml" 195 5821 5867
+type(
+  unit
+)
+"src/cliquetree.ml" 198 5990 6002 "src/cliquetree.ml" 198 5990 6007
+type(
+  int
+)
+ident(
+  def clast "src/cliquetree.ml" 199 6029 6037 "src/cliquetree.ml" 199 6029 6071
+)
+"src/cliquetree.ml" 198 5990 6010 "src/cliquetree.ml" 198 5990 6016
+type(
+  CliqueV.t -> int
+)
+ident(
+  int_ref CliqueV.clique "src/cliquetree.ml" 35 1639 1643 "src/cliquetree.ml" 35 1639 1664
+)
+"src/cliquetree.ml" 198 5990 6018 "src/cliquetree.ml" 198 5990 6022
+type(
+  CVS.elt -> CliqueV.t
+)
+ident(
+  int_ref CliqueV.last "src/cliquetree.ml" 41 1815 1819 "src/cliquetree.ml" 41 1815 1836
+)
+"src/cliquetree.ml" 198 5990 6023 "src/cliquetree.ml" 198 5990 6024
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5282
+)
+"src/cliquetree.ml" 198 5990 6017 "src/cliquetree.ml" 198 5990 6025
+call(
+  stack
+)
+type(
+  CliqueV.t
+)
+"src/cliquetree.ml" 198 5990 6010 "src/cliquetree.ml" 198 5990 6025
+call(
+  stack
+)
+type(
+  int
+)
+"src/cliquetree.ml" 199 6029 6037 "src/cliquetree.ml" 199 6029 6041
+type(
+  (int * CVS.t * int) list ref
+)
+ident(
+  int_ref ties "src/cliquetree.ml" 168 4883 4891 "src/cliquetree.ml" 168 4883 4895
+)
+"src/cliquetree.ml" 199 6029 6042 "src/cliquetree.ml" 199 6029 6044
+type(
+  (int * CVS.t * int) list ref -> (int * CVS.t * int) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/cliquetree.ml" 199 6029 6046 "src/cliquetree.ml" 199 6029 6051
+type(
+  int
+)
+ident(
+  int_ref clast "src/cliquetree.ml" 198 5990 6002 "src/cliquetree.ml" 198 5990 6007
+)
+"src/cliquetree.ml" 199 6029 6053 "src/cliquetree.ml" 199 6029 6054
+type(
+  CVS.elt -> CVS.t
+)
+ident(
+  int_ref CliqueV.m "src/cliquetree.ml" 39 1757 1761 "src/cliquetree.ml" 39 1757 1779
+)
+"src/cliquetree.ml" 199 6029 6055 "src/cliquetree.ml" 199 6029 6056
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5282
+)
+"src/cliquetree.ml" 199 6029 6053 "src/cliquetree.ml" 199 6029 6056
+call(
+  stack
+)
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 199 6029 6058 "src/cliquetree.ml" 199 6029 6059
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/cliquetree.ml" 199 6029 6059 "src/cliquetree.ml" 199 6029 6060
+type(
+  int ref
+)
+ident(
+  int_ref j "src/cliquetree.ml" 169 4908 4916 "src/cliquetree.ml" 169 4908 4917
+)
+"src/cliquetree.ml" 199 6029 6058 "src/cliquetree.ml" 199 6029 6060
+type(
+  int
+)
+"src/cliquetree.ml" 199 6029 6045 "src/cliquetree.ml" 199 6029 6061
+type(
+  int * CVS.t * int
+)
+"src/cliquetree.ml" 199 6029 6065 "src/cliquetree.ml" 199 6029 6066
+type(
+  (int * CVS.t * int) list ref -> (int * CVS.t * int) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/cliquetree.ml" 199 6029 6066 "src/cliquetree.ml" 199 6029 6070
+type(
+  (int * CVS.t * int) list ref
+)
+ident(
+  int_ref ties "src/cliquetree.ml" 168 4883 4891 "src/cliquetree.ml" 168 4883 4895
+)
+"src/cliquetree.ml" 199 6029 6065 "src/cliquetree.ml" 199 6029 6070
+type(
+  (int * CVS.t * int) list
+)
+"src/cliquetree.ml" 199 6029 6045 "src/cliquetree.ml" 199 6029 6070
+type(
+  (int * CVS.t * int) list
+)
+"src/cliquetree.ml" 199 6029 6037 "src/cliquetree.ml" 199 6029 6071
+type(
+  unit
+)
+"src/cliquetree.ml" 198 5990 5998 "src/cliquetree.ml" 199 6029 6071
+type(
+  unit
+)
+"src/cliquetree.ml" 195 5821 5829 "src/cliquetree.ml" 199 6029 6071
+type(
+  unit
+)
+"src/cliquetree.ml" 191 5660 5689 "src/cliquetree.ml" 200 6072 6081
+type(
+  unit
+)
+"src/cliquetree.ml" 201 6093 6105 "src/cliquetree.ml" 201 6093 6106
+type(
+  CVS.elt list
+)
+ident(
+  def l "src/cliquetree.ml" 202 6128 6136 "src/cliquetree.ml" 202 6128 6172
+)
+"src/cliquetree.ml" 201 6093 6108 "src/cliquetree.ml" 201 6093 6109
+type(
+  CVS.t
+)
+ident(
+  def c "src/cliquetree.ml" 202 6128 6136 "src/cliquetree.ml" 202 6128 6172
+)
+"src/cliquetree.ml" 201 6093 6105 "src/cliquetree.ml" 201 6093 6109
+type(
+  CVS.elt list * CVS.t
+)
+"src/cliquetree.ml" 201 6093 6112 "src/cliquetree.ml" 201 6093 6119
+type(
+  (CVS.elt list * CVS.t) array
+)
+ident(
+  int_ref cliques "src/cliquetree.ml" 167 4833 4841 "src/cliquetree.ml" 167 4833 4848
+)
+"src/cliquetree.ml" 201 6093 6121 "src/cliquetree.ml" 201 6093 6122
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/cliquetree.ml" 201 6093 6122 "src/cliquetree.ml" 201 6093 6123
+type(
+  int ref
+)
+ident(
+  int_ref j "src/cliquetree.ml" 169 4908 4916 "src/cliquetree.ml" 169 4908 4917
+)
+"src/cliquetree.ml" 201 6093 6121 "src/cliquetree.ml" 201 6093 6123
+type(
+  int
+)
+"src/cliquetree.ml" 201 6093 6112 "src/cliquetree.ml" 201 6093 6124
+type(
+  CVS.elt list * CVS.t
+)
+"src/cliquetree.ml" 202 6128 6136 "src/cliquetree.ml" 202 6128 6143
+type(
+  (CVS.elt list * CVS.t) array
+)
+ident(
+  int_ref cliques "src/cliquetree.ml" 167 4833 4841 "src/cliquetree.ml" 167 4833 4848
+)
+"src/cliquetree.ml" 202 6128 6145 "src/cliquetree.ml" 202 6128 6146
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/cliquetree.ml" 202 6128 6146 "src/cliquetree.ml" 202 6128 6147
+type(
+  int ref
+)
+ident(
+  int_ref j "src/cliquetree.ml" 169 4908 4916 "src/cliquetree.ml" 169 4908 4917
+)
+"src/cliquetree.ml" 202 6128 6145 "src/cliquetree.ml" 202 6128 6147
+type(
+  int
+)
+"src/cliquetree.ml" 202 6128 6153 "src/cliquetree.ml" 202 6128 6154
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5282
+)
+"src/cliquetree.ml" 202 6128 6156 "src/cliquetree.ml" 202 6128 6157
+type(
+  CVS.elt list
+)
+ident(
+  int_ref l "src/cliquetree.ml" 201 6093 6105 "src/cliquetree.ml" 201 6093 6106
+)
+"src/cliquetree.ml" 202 6128 6153 "src/cliquetree.ml" 202 6128 6157
+type(
+  CVS.elt list
+)
+"src/cliquetree.ml" 202 6128 6159 "src/cliquetree.ml" 202 6128 6166
+type(
+  CVS.elt -> CVS.t -> CVS.t
+)
+ident(
+  ext_ref CVS.add
+)
+"src/cliquetree.ml" 202 6128 6167 "src/cliquetree.ml" 202 6128 6168
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5282
+)
+"src/cliquetree.ml" 202 6128 6169 "src/cliquetree.ml" 202 6128 6170
+type(
+  CVS.t
+)
+ident(
+  int_ref c "src/cliquetree.ml" 201 6093 6108 "src/cliquetree.ml" 201 6093 6109
+)
+"src/cliquetree.ml" 202 6128 6159 "src/cliquetree.ml" 202 6128 6170
+call(
+  stack
+)
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 202 6128 6152 "src/cliquetree.ml" 202 6128 6171
+type(
+  CVS.elt list * CVS.t
+)
+"src/cliquetree.ml" 202 6128 6136 "src/cliquetree.ml" 202 6128 6172
+type(
+  unit
+)
+"src/cliquetree.ml" 200 6072 6087 "src/cliquetree.ml" 203 6173 6182
+type(
+  unit
+)
+"src/cliquetree.ml" 191 5660 5666 "src/cliquetree.ml" 203 6173 6182
+type(
+  unit
+)
+"src/cliquetree.ml" 204 6184 6190 "src/cliquetree.ml" 204 6184 6201
+type(
+  (G.vertex -> unit) -> G.t -> G.vertex -> unit
+)
+ident(
+  ext_ref G.iter_succ
+)
+"src/cliquetree.ml" 205 6202 6215 "src/cliquetree.ml" 205 6202 6216
+type(
+  G.vertex
+)
+ident(
+  def y "src/cliquetree.ml" 206 6220 6231 "src/cliquetree.ml" 210 6341 6364
+)
+"src/cliquetree.ml" 206 6220 6234 "src/cliquetree.ml" 206 6220 6240
+type(
+  G.vertex -> int
+)
+ident(
+  int_ref CliqueV.number "src/cliquetree.ml" 33 1575 1579 "src/cliquetree.ml" 33 1575 1600
+)
+"src/cliquetree.ml" 206 6220 6241 "src/cliquetree.ml" 206 6220 6242
+type(
+  G.vertex
+)
+ident(
+  int_ref y "src/cliquetree.ml" 205 6202 6215 "src/cliquetree.ml" 205 6202 6216
+)
+"src/cliquetree.ml" 206 6220 6234 "src/cliquetree.ml" 206 6220 6242
+call(
+  stack
+)
+type(
+  int
+)
+"src/cliquetree.ml" 206 6220 6243 "src/cliquetree.ml" 206 6220 6245
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/cliquetree.ml" 206 6220 6246 "src/cliquetree.ml" 206 6220 6247
+type(
+  int
+)
+"src/cliquetree.ml" 206 6220 6234 "src/cliquetree.ml" 206 6220 6247
+type(
+  bool
+)
+"src/cliquetree.ml" 207 6259 6272 "src/cliquetree.ml" 207 6259 6281
+type(
+  G.vertex -> unit
+)
+ident(
+  int_ref CliqueV.incr_mark "src/cliquetree.ml" 38 1727 1731 "src/cliquetree.ml" 38 1727 1756
+)
+"src/cliquetree.ml" 207 6259 6282 "src/cliquetree.ml" 207 6259 6283
+type(
+  G.vertex
+)
+ident(
+  int_ref y "src/cliquetree.ml" 205 6202 6215 "src/cliquetree.ml" 205 6202 6216
+)
+"src/cliquetree.ml" 207 6259 6272 "src/cliquetree.ml" 207 6259 6283
+call(
+  stack
+)
+type(
+  unit
+)
+"src/cliquetree.ml" 208 6285 6298 "src/cliquetree.ml" 208 6285 6303
+type(
+  G.vertex -> CVS.t -> unit
+)
+ident(
+  int_ref CliqueV.set_m "src/cliquetree.ml" 40 1780 1784 "src/cliquetree.ml" 40 1780 1814
+)
+"src/cliquetree.ml" 208 6285 6304 "src/cliquetree.ml" 208 6285 6305
+type(
+  G.vertex
+)
+ident(
+  int_ref y "src/cliquetree.ml" 205 6202 6215 "src/cliquetree.ml" 205 6202 6216
+)
+"src/cliquetree.ml" 208 6285 6307 "src/cliquetree.ml" 208 6285 6314
+type(
+  CVS.elt -> CVS.t -> CVS.t
+)
+ident(
+  ext_ref CVS.add
+)
+"src/cliquetree.ml" 208 6285 6315 "src/cliquetree.ml" 208 6285 6316
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5282
+)
+"src/cliquetree.ml" 208 6285 6318 "src/cliquetree.ml" 208 6285 6319
+type(
+  G.vertex -> CVS.t
+)
+ident(
+  int_ref CliqueV.m "src/cliquetree.ml" 39 1757 1761 "src/cliquetree.ml" 39 1757 1779
+)
+"src/cliquetree.ml" 208 6285 6320 "src/cliquetree.ml" 208 6285 6321
+type(
+  G.vertex
+)
+ident(
+  int_ref y "src/cliquetree.ml" 205 6202 6215 "src/cliquetree.ml" 205 6202 6216
+)
+"src/cliquetree.ml" 208 6285 6317 "src/cliquetree.ml" 208 6285 6322
+call(
+  stack
+)
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 208 6285 6306 "src/cliquetree.ml" 208 6285 6323
+call(
+  stack
+)
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 208 6285 6298 "src/cliquetree.ml" 208 6285 6324
+call(
+  stack
+)
+type(
+  unit
+)
+"src/cliquetree.ml" 206 6220 6253 "src/cliquetree.ml" 209 6325 6339
+type(
+  unit
+)
+"src/cliquetree.ml" 206 6220 6231 "src/cliquetree.ml" 209 6325 6339
+type(
+  unit
+)
+"src/cliquetree.ml" 210 6341 6352 "src/cliquetree.ml" 210 6341 6360
+type(
+  G.vertex -> CVS.elt -> unit
+)
+ident(
+  int_ref CliqueV.set_last "src/cliquetree.ml" 42 1837 1841 "src/cliquetree.ml" 42 1837 1870
+)
+"src/cliquetree.ml" 210 6341 6361 "src/cliquetree.ml" 210 6341 6362
+type(
+  G.vertex
+)
+ident(
+  int_ref y "src/cliquetree.ml" 205 6202 6215 "src/cliquetree.ml" 205 6202 6216
+)
+"src/cliquetree.ml" 210 6341 6363 "src/cliquetree.ml" 210 6341 6364
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5282
+)
+"src/cliquetree.ml" 210 6341 6352 "src/cliquetree.ml" 210 6341 6364
+call(
+  tail
+)
+type(
+  unit
+)
+"src/cliquetree.ml" 206 6220 6231 "src/cliquetree.ml" 210 6341 6364
+type(
+  unit
+)
+"src/cliquetree.ml" 205 6202 6210 "src/cliquetree.ml" 210 6341 6365
+type(
+  G.vertex -> unit
+)
+"src/cliquetree.ml" 211 6366 6374 "src/cliquetree.ml" 211 6366 6376
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/cliquetree.ml" 163 4672 4680 "src/cliquetree.ml" 163 4672 4682
+)
+"src/cliquetree.ml" 211 6366 6377 "src/cliquetree.ml" 211 6366 6378
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5282
+)
+"src/cliquetree.ml" 204 6184 6190 "src/cliquetree.ml" 211 6366 6378
+call(
+  stack
+)
+type(
+  unit
+)
+"src/cliquetree.ml" 212 6380 6386 "src/cliquetree.ml" 212 6380 6391
+type(
+  int ref
+)
+ident(
+  int_ref pmark "src/cliquetree.ml" 165 4779 4787 "src/cliquetree.ml" 165 4779 4792
+)
+"src/cliquetree.ml" 212 6380 6392 "src/cliquetree.ml" 212 6380 6394
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/cliquetree.ml" 212 6380 6395 "src/cliquetree.ml" 212 6380 6399
+type(
+  int
+)
+ident(
+  int_ref mark "src/cliquetree.ml" 179 5271 5284 "src/cliquetree.ml" 179 5271 5288
+)
+"src/cliquetree.ml" 212 6380 6386 "src/cliquetree.ml" 212 6380 6399
+type(
+  unit
+)
+"src/cliquetree.ml" 213 6401 6407 "src/cliquetree.ml" 213 6401 6417
+type(
+  CVS.elt -> int -> unit
+)
+ident(
+  int_ref CliqueV.set_number "src/cliquetree.ml" 34 1601 1605 "src/cliquetree.ml" 34 1601 1638
+)
+"src/cliquetree.ml" 213 6401 6418 "src/cliquetree.ml" 213 6401 6419
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5282
+)
+"src/cliquetree.ml" 213 6401 6420 "src/cliquetree.ml" 213 6401 6421
+type(
+  int
+)
+ident(
+  int_ref i "src/cliquetree.ml" 171 4983 4987 "src/cliquetree.ml" 215 6446 6454
+)
+"src/cliquetree.ml" 213 6401 6407 "src/cliquetree.ml" 213 6401 6421
+call(
+  stack
+)
+type(
+  unit
+)
+"src/cliquetree.ml" 214 6423 6429 "src/cliquetree.ml" 214 6423 6439
+type(
+  CVS.elt -> int -> unit
+)
+ident(
+  int_ref CliqueV.set_clique "src/cliquetree.ml" 36 1665 1669 "src/cliquetree.ml" 36 1665 1702
+)
+"src/cliquetree.ml" 214 6423 6440 "src/cliquetree.ml" 214 6423 6441
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 179 5271 5281 "src/cliquetree.ml" 179 5271 5282
+)
+"src/cliquetree.ml" 214 6423 6442 "src/cliquetree.ml" 214 6423 6443
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/cliquetree.ml" 214 6423 6443 "src/cliquetree.ml" 214 6423 6444
+type(
+  int ref
+)
+ident(
+  int_ref j "src/cliquetree.ml" 169 4908 4916 "src/cliquetree.ml" 169 4908 4917
+)
+"src/cliquetree.ml" 214 6423 6442 "src/cliquetree.ml" 214 6423 6444
+type(
+  int
+)
+"src/cliquetree.ml" 214 6423 6429 "src/cliquetree.ml" 214 6423 6445
+call(
+  stack
+)
+type(
+  unit
+)
+"src/cliquetree.ml" 213 6401 6407 "src/cliquetree.ml" 214 6423 6445
+type(
+  unit
+)
+"src/cliquetree.ml" 212 6380 6386 "src/cliquetree.ml" 214 6423 6445
+type(
+  unit
+)
+"src/cliquetree.ml" 204 6184 6190 "src/cliquetree.ml" 214 6423 6445
+type(
+  unit
+)
+"src/cliquetree.ml" 191 5660 5666 "src/cliquetree.ml" 214 6423 6445
+type(
+  unit
+)
+"src/cliquetree.ml" 190 5614 5620 "src/cliquetree.ml" 214 6423 6445
+type(
+  unit
+)
+"src/cliquetree.ml" 188 5561 5567 "src/cliquetree.ml" 214 6423 6445
+type(
+  unit
+)
+"src/cliquetree.ml" 179 5271 5277 "src/cliquetree.ml" 214 6423 6445
+type(
+  unit
+)
+"src/cliquetree.ml" 171 4983 4987 "src/cliquetree.ml" 215 6446 6454
+type(
+  unit
+)
+"src/cliquetree.ml" 216 6456 6464 "src/cliquetree.ml" 216 6456 6471
+type(
+  CliqueTreeV.t array
+)
+ident(
+  def cliques "src/cliquetree.ml" 221 6601 6605 "src/cliquetree.ml" 232 6978 7031
+)
+"src/cliquetree.ml" 217 6474 6480 "src/cliquetree.ml" 217 6474 6490
+type(
+  (int -> CVS.elt list * CVS.t -> CliqueTreeV.t) ->
+  (CVS.elt list * CVS.t) array -> CliqueTreeV.t array
+)
+ident(
+  ext_ref Array.mapi
+)
+"src/cliquetree.ml" 218 6491 6504 "src/cliquetree.ml" 218 6491 6505
+type(
+  int
+)
+ident(
+  def i "src/cliquetree.ml" 218 6491 6506 "src/cliquetree.ml" 218 6491 6552
+)
+"src/cliquetree.ml" 218 6491 6507 "src/cliquetree.ml" 218 6491 6508
+type(
+  CVS.elt list
+)
+ident(
+  def l "src/cliquetree.ml" 218 6491 6516 "src/cliquetree.ml" 218 6491 6552
+)
+"src/cliquetree.ml" 218 6491 6510 "src/cliquetree.ml" 218 6491 6511
+type(
+  CVS.t
+)
+ident(
+  def c "src/cliquetree.ml" 218 6491 6516 "src/cliquetree.ml" 218 6491 6552
+)
+"src/cliquetree.ml" 218 6491 6506 "src/cliquetree.ml" 218 6491 6512
+type(
+  CVS.elt list * CVS.t
+)
+"src/cliquetree.ml" 218 6491 6516 "src/cliquetree.ml" 218 6491 6534
+type(
+  CliqueTreeV.data -> int -> CliqueTreeV.t
+)
+ident(
+  ext_ref CliqueTreeV.create
+)
+"src/cliquetree.ml" 218 6491 6536 "src/cliquetree.ml" 218 6491 6544
+type(
+  CVS.elt list -> CVS.elt list
+)
+ident(
+  ext_ref List.rev
+)
+"src/cliquetree.ml" 218 6491 6545 "src/cliquetree.ml" 218 6491 6546
+type(
+  CVS.elt list
+)
+ident(
+  int_ref l "src/cliquetree.ml" 218 6491 6507 "src/cliquetree.ml" 218 6491 6508
+)
+"src/cliquetree.ml" 218 6491 6536 "src/cliquetree.ml" 218 6491 6546
+call(
+  stack
+)
+type(
+  CVS.elt list
+)
+"src/cliquetree.ml" 218 6491 6548 "src/cliquetree.ml" 218 6491 6549
+type(
+  CVS.t
+)
+ident(
+  int_ref c "src/cliquetree.ml" 218 6491 6510 "src/cliquetree.ml" 218 6491 6511
+)
+"src/cliquetree.ml" 218 6491 6535 "src/cliquetree.ml" 218 6491 6550
+type(
+  CliqueTreeV.data
+)
+"src/cliquetree.ml" 218 6491 6551 "src/cliquetree.ml" 218 6491 6552
+type(
+  int
+)
+ident(
+  int_ref i "src/cliquetree.ml" 218 6491 6504 "src/cliquetree.ml" 218 6491 6505
+)
+"src/cliquetree.ml" 218 6491 6516 "src/cliquetree.ml" 218 6491 6552
+call(
+  tail
+)
+type(
+  CliqueTreeV.t
+)
+"src/cliquetree.ml" 218 6491 6499 "src/cliquetree.ml" 218 6491 6553
+type(
+  int -> CVS.elt list * CVS.t -> CliqueTreeV.t
+)
+"src/cliquetree.ml" 219 6554 6563 "src/cliquetree.ml" 219 6554 6572
+type(
+  (CVS.elt list * CVS.t) array -> int -> int -> (CVS.elt list * CVS.t) array
+)
+ident(
+  ext_ref Array.sub
+)
+"src/cliquetree.ml" 219 6554 6573 "src/cliquetree.ml" 219 6554 6580
+type(
+  (CVS.elt list * CVS.t) array
+)
+ident(
+  int_ref cliques "src/cliquetree.ml" 167 4833 4841 "src/cliquetree.ml" 167 4833 4848
+)
+"src/cliquetree.ml" 219 6554 6581 "src/cliquetree.ml" 219 6554 6582
+type(
+  int
+)
+"src/cliquetree.ml" 219 6554 6584 "src/cliquetree.ml" 219 6554 6588
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"src/cliquetree.ml" 219 6554 6589 "src/cliquetree.ml" 219 6554 6590
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/cliquetree.ml" 219 6554 6590 "src/cliquetree.ml" 219 6554 6591
+type(
+  int ref
+)
+ident(
+  int_ref j "src/cliquetree.ml" 169 4908 4916 "src/cliquetree.ml" 169 4908 4917
+)
+"src/cliquetree.ml" 219 6554 6589 "src/cliquetree.ml" 219 6554 6591
+type(
+  int
+)
+"src/cliquetree.ml" 219 6554 6583 "src/cliquetree.ml" 219 6554 6592
+type(
+  int
+)
+"src/cliquetree.ml" 219 6554 6562 "src/cliquetree.ml" 219 6554 6593
+call(
+  stack
+)
+type(
+  (CVS.elt list * CVS.t) array
+)
+"src/cliquetree.ml" 217 6474 6480 "src/cliquetree.ml" 219 6554 6593
+call(
+  stack
+)
+type(
+  CliqueTreeV.t array
+)
+"src/cliquetree.ml" 221 6601 6609 "src/cliquetree.ml" 221 6601 6613
+type(
+  CliqueTree.t
+)
+ident(
+  def tree "src/cliquetree.ml" 224 6692 6696 "src/cliquetree.ml" 232 6978 7031
+)
+"src/cliquetree.ml" 222 6616 6622 "src/cliquetree.ml" 222 6616 6637
+type(
+  (CliqueTree.t -> CliqueTree.vertex -> CliqueTree.t) ->
+  CliqueTree.t -> CliqueTree.vertex array -> CliqueTree.t
+)
+ident(
+  ext_ref Array.fold_left
+)
+"src/cliquetree.ml" 222 6616 6638 "src/cliquetree.ml" 222 6616 6659
+type(
+  CliqueTree.t -> CliqueTree.vertex -> CliqueTree.t
+)
+ident(
+  ext_ref CliqueTree.add_vertex
+)
+"src/cliquetree.ml" 222 6616 6660 "src/cliquetree.ml" 222 6616 6676
+type(
+  CliqueTree.t
+)
+ident(
+  ext_ref CliqueTree.empty
+)
+"src/cliquetree.ml" 222 6616 6677 "src/cliquetree.ml" 222 6616 6684
+type(
+  CliqueTree.vertex array
+)
+ident(
+  int_ref cliques "src/cliquetree.ml" 216 6456 6464 "src/cliquetree.ml" 216 6456 6471
+)
+"src/cliquetree.ml" 222 6616 6622 "src/cliquetree.ml" 222 6616 6684
+call(
+  stack
+)
+type(
+  CliqueTree.t
+)
+"src/cliquetree.ml" 224 6692 6700 "src/cliquetree.ml" 224 6692 6704
+type(
+  CliqueTree.t
+)
+ident(
+  def tree "src/cliquetree.ml" 232 6978 6982 "src/cliquetree.ml" 232 6978 7031
+)
+"src/cliquetree.ml" 224 6692 6706 "src/cliquetree.ml" 224 6692 6707
+type(
+  int
+)
+"src/cliquetree.ml" 224 6692 6700 "src/cliquetree.ml" 224 6692 6707
+type(
+  CliqueTree.t * int
+)
+"src/cliquetree.ml" 225 6710 6716 "src/cliquetree.ml" 225 6710 6730
+type(
+  (CliqueTree.t * int -> int * CVS.t * int -> CliqueTree.t * int) ->
+  CliqueTree.t * int -> (int * CVS.t * int) list -> CliqueTree.t * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/cliquetree.ml" 226 6731 6745 "src/cliquetree.ml" 226 6731 6746
+type(
+  CliqueTree.t
+)
+ident(
+  def g "src/cliquetree.ml" 226 6731 6751 "src/cliquetree.ml" 229 6896 6945
+)
+"src/cliquetree.ml" 226 6731 6748 "src/cliquetree.ml" 226 6731 6749
+type(
+  int
+)
+ident(
+  def n "src/cliquetree.ml" 226 6731 6751 "src/cliquetree.ml" 229 6896 6945
+)
+"src/cliquetree.ml" 226 6731 6744 "src/cliquetree.ml" 226 6731 6750
+type(
+  CliqueTree.t * int
+)
+"src/cliquetree.ml" 226 6731 6752 "src/cliquetree.ml" 226 6731 6753
+type(
+  int
+)
+ident(
+  def i "src/cliquetree.ml" 227 6768 6779 "src/cliquetree.ml" 229 6896 6945
+)
+"src/cliquetree.ml" 226 6731 6755 "src/cliquetree.ml" 226 6731 6760
+type(
+  CVS.t
+)
+ident(
+  def verts "src/cliquetree.ml" 227 6768 6779 "src/cliquetree.ml" 229 6896 6945
+)
+"src/cliquetree.ml" 226 6731 6762 "src/cliquetree.ml" 226 6731 6763
+type(
+  int
+)
+ident(
+  def j "src/cliquetree.ml" 227 6768 6779 "src/cliquetree.ml" 229 6896 6945
+)
+"src/cliquetree.ml" 226 6731 6751 "src/cliquetree.ml" 226 6731 6764
+type(
+  int * CVS.t * int
+)
+"src/cliquetree.ml" 227 6768 6783 "src/cliquetree.ml" 227 6768 6788
+type(
+  int * CVS.t
+)
+ident(
+  def label "src/cliquetree.ml" 228 6821 6832 "src/cliquetree.ml" 229 6896 6945
+)
+"src/cliquetree.ml" 227 6768 6791 "src/cliquetree.ml" 227 6768 6809
+type(
+  int -> CVS.t -> int * CVS.t
+)
+ident(
+  int_ref CliqueTreeE.create "src/cliquetree.ml" 118 3511 3519 "src/cliquetree.ml" 118 3511 3525
+)
+"src/cliquetree.ml" 227 6768 6810 "src/cliquetree.ml" 227 6768 6811
+type(
+  int
+)
+ident(
+  int_ref n "src/cliquetree.ml" 226 6731 6748 "src/cliquetree.ml" 226 6731 6749
+)
+"src/cliquetree.ml" 227 6768 6812 "src/cliquetree.ml" 227 6768 6817
+type(
+  CVS.t
+)
+ident(
+  int_ref verts "src/cliquetree.ml" 226 6731 6755 "src/cliquetree.ml" 226 6731 6760
+)
+"src/cliquetree.ml" 227 6768 6791 "src/cliquetree.ml" 227 6768 6817
+call(
+  stack
+)
+type(
+  int * CVS.t
+)
+"src/cliquetree.ml" 228 6821 6836 "src/cliquetree.ml" 228 6821 6840
+type(
+  CliqueTree.E.t
+)
+ident(
+  def edge "src/cliquetree.ml" 229 6896 6907 "src/cliquetree.ml" 229 6896 6945
+)
+"src/cliquetree.ml" 228 6821 6843 "src/cliquetree.ml" 228 6821 6862
+type(
+  CliqueTree.E.vertex ->
+  CliqueTree.E.label -> CliqueTree.E.vertex -> CliqueTree.E.t
+)
+ident(
+  ext_ref CliqueTree.E.create
+)
+"src/cliquetree.ml" 228 6821 6863 "src/cliquetree.ml" 228 6821 6870
+type(
+  CliqueTreeV.t array
+)
+ident(
+  int_ref cliques "src/cliquetree.ml" 216 6456 6464 "src/cliquetree.ml" 216 6456 6471
+)
+"src/cliquetree.ml" 228 6821 6872 "src/cliquetree.ml" 228 6821 6873
+type(
+  int
+)
+ident(
+  int_ref i "src/cliquetree.ml" 226 6731 6752 "src/cliquetree.ml" 226 6731 6753
+)
+"src/cliquetree.ml" 228 6821 6863 "src/cliquetree.ml" 228 6821 6874
+type(
+  CliqueTreeV.t
+)
+"src/cliquetree.ml" 228 6821 6875 "src/cliquetree.ml" 228 6821 6880
+type(
+  CliqueTree.E.label
+)
+ident(
+  int_ref label "src/cliquetree.ml" 227 6768 6783 "src/cliquetree.ml" 227 6768 6788
+)
+"src/cliquetree.ml" 228 6821 6881 "src/cliquetree.ml" 228 6821 6888
+type(
+  CliqueTreeV.t array
+)
+ident(
+  int_ref cliques "src/cliquetree.ml" 216 6456 6464 "src/cliquetree.ml" 216 6456 6471
+)
+"src/cliquetree.ml" 228 6821 6890 "src/cliquetree.ml" 228 6821 6891
+type(
+  int
+)
+ident(
+  int_ref j "src/cliquetree.ml" 226 6731 6762 "src/cliquetree.ml" 226 6731 6763
+)
+"src/cliquetree.ml" 228 6821 6881 "src/cliquetree.ml" 228 6821 6892
+type(
+  CliqueTreeV.t
+)
+"src/cliquetree.ml" 228 6821 6843 "src/cliquetree.ml" 228 6821 6892
+call(
+  stack
+)
+type(
+  CliqueTree.E.t
+)
+"src/cliquetree.ml" 229 6896 6908 "src/cliquetree.ml" 229 6896 6929
+type(
+  CliqueTree.t -> CliqueTree.edge -> CliqueTree.t
+)
+ident(
+  ext_ref CliqueTree.add_edge_e
+)
+"src/cliquetree.ml" 229 6896 6930 "src/cliquetree.ml" 229 6896 6931
+type(
+  CliqueTree.t
+)
+ident(
+  int_ref g "src/cliquetree.ml" 226 6731 6745 "src/cliquetree.ml" 226 6731 6746
+)
+"src/cliquetree.ml" 229 6896 6932 "src/cliquetree.ml" 229 6896 6936
+type(
+  CliqueTree.E.t
+)
+ident(
+  int_ref edge "src/cliquetree.ml" 228 6821 6836 "src/cliquetree.ml" 228 6821 6840
+)
+"src/cliquetree.ml" 229 6896 6908 "src/cliquetree.ml" 229 6896 6936
+call(
+  stack
+)
+type(
+  CliqueTree.t
+)
+"src/cliquetree.ml" 229 6896 6938 "src/cliquetree.ml" 229 6896 6942
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"src/cliquetree.ml" 229 6896 6943 "src/cliquetree.ml" 229 6896 6944
+type(
+  int
+)
+ident(
+  int_ref n "src/cliquetree.ml" 226 6731 6748 "src/cliquetree.ml" 226 6731 6749
+)
+"src/cliquetree.ml" 229 6896 6938 "src/cliquetree.ml" 229 6896 6944
+type(
+  int
+)
+"src/cliquetree.ml" 229 6896 6907 "src/cliquetree.ml" 229 6896 6945
+type(
+  CliqueTree.t * int
+)
+"src/cliquetree.ml" 228 6821 6832 "src/cliquetree.ml" 229 6896 6945
+type(
+  CliqueTree.t * int
+)
+"src/cliquetree.ml" 227 6768 6779 "src/cliquetree.ml" 229 6896 6945
+type(
+  CliqueTree.t * int
+)
+"src/cliquetree.ml" 226 6731 6739 "src/cliquetree.ml" 229 6896 6946
+type(
+  CliqueTree.t * int -> int * CVS.t * int -> CliqueTree.t * int
+)
+"src/cliquetree.ml" 230 6947 6956 "src/cliquetree.ml" 230 6947 6960
+type(
+  CliqueTree.t
+)
+ident(
+  int_ref tree "src/cliquetree.ml" 221 6601 6609 "src/cliquetree.ml" 221 6601 6613
+)
+"src/cliquetree.ml" 230 6947 6962 "src/cliquetree.ml" 230 6947 6963
+type(
+  int
+)
+"src/cliquetree.ml" 230 6947 6955 "src/cliquetree.ml" 230 6947 6964
+type(
+  CliqueTree.t * int
+)
+"src/cliquetree.ml" 230 6947 6965 "src/cliquetree.ml" 230 6947 6966
+type(
+  (int * CVS.t * int) list ref -> (int * CVS.t * int) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/cliquetree.ml" 230 6947 6966 "src/cliquetree.ml" 230 6947 6970
+type(
+  (int * CVS.t * int) list ref
+)
+ident(
+  int_ref ties "src/cliquetree.ml" 168 4883 4891 "src/cliquetree.ml" 168 4883 4895
+)
+"src/cliquetree.ml" 230 6947 6965 "src/cliquetree.ml" 230 6947 6970
+type(
+  (int * CVS.t * int) list
+)
+"src/cliquetree.ml" 225 6710 6716 "src/cliquetree.ml" 230 6947 6970
+call(
+  stack
+)
+type(
+  CliqueTree.t * int
+)
+"src/cliquetree.ml" 232 6978 6982 "src/cliquetree.ml" 232 6978 6990
+type(
+  (CVS.elt -> Gr.V.t) -> CVS.elt list -> Gr.V.t list
+)
+ident(
+  ext_ref List.map
+)
+"src/cliquetree.ml" 232 6978 6991 "src/cliquetree.ml" 232 6978 7005
+type(
+  CVS.elt -> Gr.V.t
+)
+ident(
+  int_ref CliqueV.vertex "src/cliquetree.ml" 32 1546 1550 "src/cliquetree.ml" 32 1546 1574
+)
+"src/cliquetree.ml" 232 6978 7006 "src/cliquetree.ml" 232 6978 7007
+type(
+  CVS.elt list ref -> CVS.elt list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/cliquetree.ml" 232 6978 7007 "src/cliquetree.ml" 232 6978 7012
+type(
+  CVS.elt list ref
+)
+ident(
+  int_ref order "src/cliquetree.ml" 166 4807 4815 "src/cliquetree.ml" 166 4807 4820
+)
+"src/cliquetree.ml" 232 6978 7006 "src/cliquetree.ml" 232 6978 7012
+type(
+  CVS.elt list
+)
+"src/cliquetree.ml" 232 6978 6982 "src/cliquetree.ml" 232 6978 7012
+call(
+  stack
+)
+type(
+  Gr.V.t list
+)
+"src/cliquetree.ml" 232 6978 7014 "src/cliquetree.ml" 232 6978 7018
+type(
+  CliqueTree.t
+)
+ident(
+  int_ref tree "src/cliquetree.ml" 224 6692 6700 "src/cliquetree.ml" 224 6692 6704
+)
+"src/cliquetree.ml" 232 6978 7020 "src/cliquetree.ml" 232 6978 7027
+type(
+  CliqueTreeV.t array
+)
+ident(
+  int_ref cliques "src/cliquetree.ml" 216 6456 6464 "src/cliquetree.ml" 216 6456 6471
+)
+"src/cliquetree.ml" 232 6978 7029 "src/cliquetree.ml" 232 6978 7030
+type(
+  int
+)
+"src/cliquetree.ml" 232 6978 7020 "src/cliquetree.ml" 232 6978 7031
+type(
+  CliqueTreeV.t
+)
+"src/cliquetree.ml" 232 6978 6982 "src/cliquetree.ml" 232 6978 7031
+type(
+  Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+"src/cliquetree.ml" 224 6692 6696 "src/cliquetree.ml" 232 6978 7031
+type(
+  Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+"src/cliquetree.ml" 221 6601 6605 "src/cliquetree.ml" 232 6978 7031
+type(
+  Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+"src/cliquetree.ml" 216 6456 6460 "src/cliquetree.ml" 232 6978 7031
+type(
+  Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+"src/cliquetree.ml" 171 4983 4987 "src/cliquetree.ml" 232 6978 7031
+type(
+  Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+"src/cliquetree.ml" 169 4908 4912 "src/cliquetree.ml" 232 6978 7031
+type(
+  Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+"src/cliquetree.ml" 168 4883 4887 "src/cliquetree.ml" 232 6978 7031
+type(
+  Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+"src/cliquetree.ml" 167 4833 4837 "src/cliquetree.ml" 232 6978 7031
+type(
+  Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+"src/cliquetree.ml" 166 4807 4811 "src/cliquetree.ml" 232 6978 7031
+type(
+  Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+"src/cliquetree.ml" 165 4779 4783 "src/cliquetree.ml" 232 6978 7031
+type(
+  Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+"src/cliquetree.ml" 164 4714 4718 "src/cliquetree.ml" 232 6978 7031
+type(
+  Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+"src/cliquetree.ml" 163 4672 4676 "src/cliquetree.ml" 232 6978 7031
+type(
+  Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+"src/cliquetree.ml" 162 4642 4646 "src/cliquetree.ml" 232 6978 7031
+type(
+  Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+"src/cliquetree.ml" 234 7033 7039 "src/cliquetree.ml" 234 7033 7043
+type(
+  CliqueTree.t -> CliqueTree.vertex -> CliqueTree.vertex list
+)
+ident(
+  def sons "src/cliquetree.ml" 236 7099 7101 "src/cliquetree.ml" 286 8428 8431
+)
+"src/cliquetree.ml" 234 7033 7044 "src/cliquetree.ml" 234 7033 7045
+type(
+  CliqueTree.t
+)
+ident(
+  def g "src/cliquetree.ml" 234 7033 7046 "src/cliquetree.ml" 234 7033 7097
+)
+"src/cliquetree.ml" 234 7033 7046 "src/cliquetree.ml" 234 7033 7047
+type(
+  CliqueTree.vertex
+)
+ident(
+  def x "src/cliquetree.ml" 234 7033 7050 "src/cliquetree.ml" 234 7033 7097
+)
+"src/cliquetree.ml" 234 7033 7050 "src/cliquetree.ml" 234 7033 7070
+type(
+  (CliqueTree.vertex -> CliqueTree.vertex list -> CliqueTree.vertex list) ->
+  CliqueTree.t ->
+  CliqueTree.vertex -> CliqueTree.vertex list -> CliqueTree.vertex list
+)
+ident(
+  ext_ref CliqueTree.fold_succ
+)
+"src/cliquetree.ml" 234 7033 7076 "src/cliquetree.ml" 234 7033 7077
+type(
+  CliqueTree.vertex
+)
+ident(
+  def x "src/cliquetree.ml" 234 7033 7078 "src/cliquetree.ml" 234 7033 7089
+)
+"src/cliquetree.ml" 234 7033 7078 "src/cliquetree.ml" 234 7033 7079
+type(
+  CliqueTree.vertex list
+)
+ident(
+  def y "src/cliquetree.ml" 234 7033 7083 "src/cliquetree.ml" 234 7033 7089
+)
+"src/cliquetree.ml" 234 7033 7083 "src/cliquetree.ml" 234 7033 7084
+type(
+  CliqueTree.vertex
+)
+ident(
+  int_ref x "src/cliquetree.ml" 234 7033 7076 "src/cliquetree.ml" 234 7033 7077
+)
+"src/cliquetree.ml" 234 7033 7088 "src/cliquetree.ml" 234 7033 7089
+type(
+  CliqueTree.vertex list
+)
+ident(
+  int_ref y "src/cliquetree.ml" 234 7033 7078 "src/cliquetree.ml" 234 7033 7079
+)
+"src/cliquetree.ml" 234 7033 7083 "src/cliquetree.ml" 234 7033 7089
+type(
+  CliqueTree.vertex list
+)
+"src/cliquetree.ml" 234 7033 7071 "src/cliquetree.ml" 234 7033 7090
+type(
+  CliqueTree.vertex -> CliqueTree.vertex list -> CliqueTree.vertex list
+)
+"src/cliquetree.ml" 234 7033 7091 "src/cliquetree.ml" 234 7033 7092
+type(
+  CliqueTree.t
+)
+ident(
+  int_ref g "src/cliquetree.ml" 234 7033 7044 "src/cliquetree.ml" 234 7033 7045
+)
+"src/cliquetree.ml" 234 7033 7093 "src/cliquetree.ml" 234 7033 7094
+type(
+  CliqueTree.vertex
+)
+ident(
+  int_ref x "src/cliquetree.ml" 234 7033 7046 "src/cliquetree.ml" 234 7033 7047
+)
+"src/cliquetree.ml" 234 7033 7095 "src/cliquetree.ml" 234 7033 7097
+type(
+  CliqueTree.vertex list
+)
+"src/cliquetree.ml" 234 7033 7050 "src/cliquetree.ml" 234 7033 7097
+call(
+  tail
+)
+type(
+  CliqueTree.vertex list
+)
+"src/cliquetree.ml" 238 7122 7128 "src/cliquetree.ml" 238 7122 7153
+type(
+  CVS.t -> CliqueV.t list ref list -> bool
+)
+ident(
+  def test_simpliciality_first' "src/cliquetree.ml" 248 7342 7344 "src/cliquetree.ml" 286 8428 8431
+)
+"src/cliquetree.ml" 238 7122 7154 "src/cliquetree.ml" 238 7122 7155
+type(
+  CVS.t
+)
+ident(
+  def l "src/cliquetree.ml" 238 7122 7156 "src/cliquetree.ml" 246 7330 7340
+)
+"src/cliquetree.ml" 238 7122 7156 "src/cliquetree.ml" 238 7122 7160
+type(
+  CliqueV.t list ref list
+)
+ident(
+  def sons "src/cliquetree.ml" 239 7163 7167 "src/cliquetree.ml" 246 7330 7340
+)
+"src/cliquetree.ml" 239 7163 7167 "src/cliquetree.ml" 239 7163 7179
+type(
+  (CliqueV.t list ref -> bool) -> CliqueV.t list ref list -> bool
+)
+ident(
+  ext_ref List.for_all
+)
+"src/cliquetree.ml" 240 7180 7191 "src/cliquetree.ml" 240 7180 7194
+type(
+  CliqueV.t list ref
+)
+ident(
+  def son "src/cliquetree.ml" 241 7198 7207 "src/cliquetree.ml" 245 7299 7328
+)
+"src/cliquetree.ml" 241 7198 7213 "src/cliquetree.ml" 241 7198 7214
+type(
+  CliqueV.t list ref -> CliqueV.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/cliquetree.ml" 241 7198 7214 "src/cliquetree.ml" 241 7198 7217
+type(
+  CliqueV.t list ref
+)
+ident(
+  int_ref son "src/cliquetree.ml" 240 7180 7191 "src/cliquetree.ml" 240 7180 7194
+)
+"src/cliquetree.ml" 241 7198 7213 "src/cliquetree.ml" 241 7198 7217
+type(
+  CliqueV.t list
+)
+"src/cliquetree.ml" 242 7223 7234 "src/cliquetree.ml" 242 7223 7236
+type(
+  CliqueV.t list
+)
+"src/cliquetree.ml" 242 7223 7240 "src/cliquetree.ml" 242 7223 7245
+type(
+  bool
+)
+"src/cliquetree.ml" 243 7246 7257 "src/cliquetree.ml" 243 7246 7259
+type(
+  CliqueV.t
+)
+ident(
+  def xi "src/cliquetree.ml" 244 7268 7279 "src/cliquetree.ml" 245 7299 7328
+)
+"src/cliquetree.ml" 243 7246 7263 "src/cliquetree.ml" 243 7246 7264
+type(
+  CliqueV.t list
+)
+"src/cliquetree.ml" 243 7246 7257 "src/cliquetree.ml" 243 7246 7264
+type(
+  CliqueV.t list
+)
+"src/cliquetree.ml" 244 7268 7283 "src/cliquetree.ml" 244 7268 7288
+type(
+  CVS.t
+)
+ident(
+  def other "src/cliquetree.ml" 245 7299 7310 "src/cliquetree.ml" 245 7299 7328
+)
+"src/cliquetree.ml" 244 7268 7291 "src/cliquetree.ml" 244 7268 7292
+type(
+  CliqueV.t -> CVS.t
+)
+ident(
+  int_ref CliqueV.m "src/cliquetree.ml" 39 1757 1761 "src/cliquetree.ml" 39 1757 1779
+)
+"src/cliquetree.ml" 244 7268 7293 "src/cliquetree.ml" 244 7268 7295
+type(
+  CliqueV.t
+)
+ident(
+  int_ref xi "src/cliquetree.ml" 243 7246 7257 "src/cliquetree.ml" 243 7246 7259
+)
+"src/cliquetree.ml" 244 7268 7291 "src/cliquetree.ml" 244 7268 7295
+call(
+  stack
+)
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 245 7299 7310 "src/cliquetree.ml" 245 7299 7320
+type(
+  CVS.t -> CVS.t -> bool
+)
+ident(
+  ext_ref CVS.subset
+)
+"src/cliquetree.ml" 245 7299 7321 "src/cliquetree.ml" 245 7299 7326
+type(
+  CVS.t
+)
+ident(
+  int_ref other "src/cliquetree.ml" 244 7268 7283 "src/cliquetree.ml" 244 7268 7288
+)
+"src/cliquetree.ml" 245 7299 7327 "src/cliquetree.ml" 245 7299 7328
+type(
+  CVS.t
+)
+ident(
+  int_ref l "src/cliquetree.ml" 238 7122 7154 "src/cliquetree.ml" 238 7122 7155
+)
+"src/cliquetree.ml" 245 7299 7310 "src/cliquetree.ml" 245 7299 7328
+call(
+  tail
+)
+type(
+  bool
+)
+"src/cliquetree.ml" 244 7268 7279 "src/cliquetree.ml" 245 7299 7328
+type(
+  bool
+)
+"src/cliquetree.ml" 241 7198 7207 "src/cliquetree.ml" 245 7299 7328
+type(
+  bool
+)
+"src/cliquetree.ml" 240 7180 7186 "src/cliquetree.ml" 245 7299 7329
+type(
+  CliqueV.t list ref -> bool
+)
+"src/cliquetree.ml" 246 7330 7336 "src/cliquetree.ml" 246 7330 7340
+type(
+  CliqueV.t list ref list
+)
+ident(
+  int_ref sons "src/cliquetree.ml" 238 7122 7156 "src/cliquetree.ml" 238 7122 7160
+)
+"src/cliquetree.ml" 239 7163 7167 "src/cliquetree.ml" 246 7330 7340
+call(
+  tail
+)
+type(
+  bool
+)
+"src/cliquetree.ml" 248 7342 7348 "src/cliquetree.ml" 248 7342 7371
+type(
+  CVS.elt list -> 'i -> bool
+)
+ident(
+  def test_simpliciality_next "src/cliquetree.ml" 266 7796 7798 "src/cliquetree.ml" 286 8428 8431
+)
+"src/cliquetree.ml" 248 7342 7372 "src/cliquetree.ml" 248 7342 7380
+type(
+  CVS.elt list
+)
+ident(
+  def vertices "src/cliquetree.ml" 248 7342 7381 "src/cliquetree.ml" 264 7779 7794
+)
+"src/cliquetree.ml" 248 7342 7381 "src/cliquetree.ml" 248 7342 7386
+type(
+  'i
+)
+ident(
+  def _sons "src/cliquetree.ml" 249 7389 7393 "src/cliquetree.ml" 264 7779 7794
+)
+"src/cliquetree.ml" 249 7389 7399 "src/cliquetree.ml" 249 7389 7407
+type(
+  CVS.elt list
+)
+ident(
+  int_ref vertices "src/cliquetree.ml" 248 7342 7372 "src/cliquetree.ml" 248 7342 7380
+)
+"src/cliquetree.ml" 250 7413 7419 "src/cliquetree.ml" 250 7413 7420
+type(
+  CVS.elt
+)
+ident(
+  def x "src/cliquetree.ml" 251 7430 7436 "src/cliquetree.ml" 263 7769 7778
+)
+"src/cliquetree.ml" 250 7413 7424 "src/cliquetree.ml" 250 7413 7426
+type(
+  CVS.elt list
+)
+ident(
+  def tl "src/cliquetree.ml" 251 7430 7436 "src/cliquetree.ml" 263 7769 7778
+)
+"src/cliquetree.ml" 250 7413 7419 "src/cliquetree.ml" 250 7413 7426
+type(
+  CVS.elt list
+)
+"src/cliquetree.ml" 253 7454 7464 "src/cliquetree.ml" 253 7454 7470
+type(
+  CVS.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/cliquetree.ml" 254 7472 7484 "src/cliquetree.ml" 254 7472 7498
+type(
+  (CVS.t -> CVS.elt -> CVS.t) -> CVS.t -> CVS.elt list -> CVS.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/cliquetree.ml" 255 7499 7518 "src/cliquetree.ml" 255 7499 7520
+type(
+  CVS.t
+)
+ident(
+  def vm "src/cliquetree.ml" 255 7499 7521 "src/cliquetree.ml" 259 7646 7683
+)
+"src/cliquetree.ml" 255 7499 7521 "src/cliquetree.ml" 255 7499 7523
+type(
+  CVS.elt
+)
+ident(
+  def v' "src/cliquetree.ml" 256 7527 7544 "src/cliquetree.ml" 259 7646 7683
+)
+"src/cliquetree.ml" 256 7527 7548 "src/cliquetree.ml" 256 7527 7551
+type(
+  CVS.t
+)
+ident(
+  def vm' "src/cliquetree.ml" 257 7570 7587 "src/cliquetree.ml" 259 7646 7683
+)
+"src/cliquetree.ml" 256 7527 7554 "src/cliquetree.ml" 256 7527 7563
+type(
+  CVS.elt -> CVS.t
+)
+ident(
+  int_ref CliqueV.m "src/cliquetree.ml" 39 1757 1761 "src/cliquetree.ml" 39 1757 1779
+)
+"src/cliquetree.ml" 256 7527 7564 "src/cliquetree.ml" 256 7527 7566
+type(
+  CVS.elt
+)
+ident(
+  int_ref v' "src/cliquetree.ml" 255 7499 7521 "src/cliquetree.ml" 255 7499 7523
+)
+"src/cliquetree.ml" 256 7527 7554 "src/cliquetree.ml" 256 7527 7566
+call(
+  stack
+)
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 257 7570 7590 "src/cliquetree.ml" 257 7570 7599
+type(
+  CVS.t -> CVS.t -> bool
+)
+ident(
+  ext_ref CVS.equal
+)
+"src/cliquetree.ml" 257 7570 7600 "src/cliquetree.ml" 257 7570 7603
+type(
+  CVS.t
+)
+ident(
+  int_ref vm' "src/cliquetree.ml" 256 7527 7548 "src/cliquetree.ml" 256 7527 7551
+)
+"src/cliquetree.ml" 257 7570 7604 "src/cliquetree.ml" 257 7570 7606
+type(
+  CVS.t
+)
+ident(
+  int_ref vm "src/cliquetree.ml" 255 7499 7518 "src/cliquetree.ml" 255 7499 7520
+)
+"src/cliquetree.ml" 257 7570 7590 "src/cliquetree.ml" 257 7570 7606
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cliquetree.ml" 258 7612 7631 "src/cliquetree.ml" 258 7612 7638
+type(
+  CVS.elt -> CVS.t -> CVS.t
+)
+ident(
+  ext_ref CVS.add
+)
+"src/cliquetree.ml" 258 7612 7639 "src/cliquetree.ml" 258 7612 7641
+type(
+  CVS.elt
+)
+ident(
+  int_ref v' "src/cliquetree.ml" 255 7499 7521 "src/cliquetree.ml" 255 7499 7523
+)
+"src/cliquetree.ml" 258 7612 7642 "src/cliquetree.ml" 258 7612 7645
+type(
+  CVS.t
+)
+ident(
+  int_ref vm' "src/cliquetree.ml" 256 7527 7548 "src/cliquetree.ml" 256 7527 7551
+)
+"src/cliquetree.ml" 258 7612 7631 "src/cliquetree.ml" 258 7612 7645
+call(
+  tail
+)
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 259 7646 7668 "src/cliquetree.ml" 259 7646 7673
+type(
+  exn -> CVS.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/cliquetree.ml" 259 7646 7674 "src/cliquetree.ml" 259 7646 7683
+type(
+  exn
+)
+"src/cliquetree.ml" 259 7646 7668 "src/cliquetree.ml" 259 7646 7683
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 257 7570 7587 "src/cliquetree.ml" 259 7646 7683
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 256 7527 7544 "src/cliquetree.ml" 259 7646 7683
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 255 7499 7513 "src/cliquetree.ml" 259 7646 7684
+type(
+  CVS.t -> CVS.elt -> CVS.t
+)
+"src/cliquetree.ml" 260 7685 7700 "src/cliquetree.ml" 260 7685 7707
+type(
+  CVS.elt -> CVS.t -> CVS.t
+)
+ident(
+  ext_ref CVS.add
+)
+"src/cliquetree.ml" 260 7685 7708 "src/cliquetree.ml" 260 7685 7709
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 250 7413 7419 "src/cliquetree.ml" 250 7413 7420
+)
+"src/cliquetree.ml" 260 7685 7711 "src/cliquetree.ml" 260 7685 7712
+type(
+  CVS.elt -> CVS.t
+)
+ident(
+  int_ref CliqueV.m "src/cliquetree.ml" 39 1757 1761 "src/cliquetree.ml" 39 1757 1779
+)
+"src/cliquetree.ml" 260 7685 7713 "src/cliquetree.ml" 260 7685 7714
+type(
+  CVS.elt
+)
+ident(
+  int_ref x "src/cliquetree.ml" 250 7413 7419 "src/cliquetree.ml" 250 7413 7420
+)
+"src/cliquetree.ml" 260 7685 7710 "src/cliquetree.ml" 260 7685 7715
+call(
+  stack
+)
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 260 7685 7699 "src/cliquetree.ml" 260 7685 7716
+call(
+  stack
+)
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 260 7685 7717 "src/cliquetree.ml" 260 7685 7719
+type(
+  CVS.elt list
+)
+ident(
+  int_ref tl "src/cliquetree.ml" 250 7413 7424 "src/cliquetree.ml" 250 7413 7426
+)
+"src/cliquetree.ml" 253 7454 7470 "src/cliquetree.ml" 260 7685 7720
+call(
+  stack
+)
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 253 7454 7464 "src/cliquetree.ml" 260 7685 7720
+type(
+  unit
+)
+"src/cliquetree.ml" 261 7722 7732 "src/cliquetree.ml" 261 7722 7736
+type(
+  bool
+)
+"src/cliquetree.ml" 253 7454 7464 "src/cliquetree.ml" 261 7722 7736
+type(
+  bool
+)
+"src/cliquetree.ml" 262 7737 7750 "src/cliquetree.ml" 262 7737 7759
+type(
+  exn
+)
+"src/cliquetree.ml" 262 7737 7763 "src/cliquetree.ml" 262 7737 7768
+type(
+  bool
+)
+"src/cliquetree.ml" 251 7430 7436 "src/cliquetree.ml" 263 7769 7778
+type(
+  bool
+)
+"src/cliquetree.ml" 264 7779 7785 "src/cliquetree.ml" 264 7779 7786
+type(
+  CVS.elt list
+)
+"src/cliquetree.ml" 264 7779 7790 "src/cliquetree.ml" 264 7779 7794
+type(
+  bool
+)
+"src/cliquetree.ml" 249 7389 7393 "src/cliquetree.ml" 264 7779 7794
+type(
+  bool
+)
+"src/cliquetree.ml" 266 7796 7802 "src/cliquetree.ml" 266 7796 7812
+type(
+  Gr.t -> bool
+)
+ident(
+  def is_chordal "src/cliquetree.ml" 279 8251 8253 "src/cliquetree.ml" 286 8428 8431
+)
+"src/cliquetree.ml" 266 7796 7813 "src/cliquetree.ml" 266 7796 7814
+type(
+  Gr.t
+)
+ident(
+  def g "src/cliquetree.ml" 267 7817 7821 "src/cliquetree.ml" 277 8237 8249
+)
+"src/cliquetree.ml" 267 7817 7825 "src/cliquetree.ml" 267 7817 7831
+type(
+  Gr.V.t list
+)
+ident(
+  def _order "src/cliquetree.ml" 268 7862 7866 "src/cliquetree.ml" 277 8237 8249
+)
+"src/cliquetree.ml" 267 7817 7833 "src/cliquetree.ml" 267 7817 7837
+type(
+  CliqueTree.t
+)
+ident(
+  def tree "src/cliquetree.ml" 268 7862 7866 "src/cliquetree.ml" 277 8237 8249
+)
+"src/cliquetree.ml" 267 7817 7839 "src/cliquetree.ml" 267 7817 7843
+type(
+  CliqueTreeV.t
+)
+ident(
+  def root "src/cliquetree.ml" 268 7862 7866 "src/cliquetree.ml" 277 8237 8249
+)
+"src/cliquetree.ml" 267 7817 7825 "src/cliquetree.ml" 267 7817 7843
+type(
+  Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+"src/cliquetree.ml" 267 7817 7846 "src/cliquetree.ml" 267 7817 7856
+type(
+  Gr.t -> Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+ident(
+  int_ref mcs_clique "src/cliquetree.ml" 160 4595 4601 "src/cliquetree.ml" 160 4595 4611
+)
+"src/cliquetree.ml" 267 7817 7857 "src/cliquetree.ml" 267 7817 7858
+type(
+  Gr.t
+)
+ident(
+  int_ref g "src/cliquetree.ml" 266 7796 7813 "src/cliquetree.ml" 266 7796 7814
+)
+"src/cliquetree.ml" 267 7817 7846 "src/cliquetree.ml" 267 7817 7858
+call(
+  stack
+)
+type(
+  Gr.V.t list * CliqueTree.t * CliqueTreeV.t
+)
+"src/cliquetree.ml" 268 7862 7874 "src/cliquetree.ml" 268 7862 7877
+type(
+  CliqueTree.vertex -> bool
+)
+ident(
+  def aux "src/cliquetree.ml" 268 7862 7866 "src/cliquetree.ml" 277 8237 8249
+)
+"src/cliquetree.ml" 268 7862 7878 "src/cliquetree.ml" 268 7862 7879
+type(
+  CliqueTree.vertex
+)
+ident(
+  def c "src/cliquetree.ml" 269 7882 7888 "src/cliquetree.ml" 275 8182 8229
+)
+"src/cliquetree.ml" 269 7882 7892 "src/cliquetree.ml" 269 7882 7897
+type(
+  CliqueTree.vertex list
+)
+ident(
+  def csons "src/cliquetree.ml" 270 7915 7921 "src/cliquetree.ml" 275 8182 8229
+)
+"src/cliquetree.ml" 269 7882 7900 "src/cliquetree.ml" 269 7882 7904
+type(
+  CliqueTree.t -> CliqueTree.vertex -> CliqueTree.vertex list
+)
+ident(
+  int_ref sons "src/cliquetree.ml" 234 7033 7039 "src/cliquetree.ml" 234 7033 7043
+)
+"src/cliquetree.ml" 269 7882 7905 "src/cliquetree.ml" 269 7882 7909
+type(
+  CliqueTree.t
+)
+ident(
+  int_ref tree "src/cliquetree.ml" 267 7817 7833 "src/cliquetree.ml" 267 7817 7837
+)
+"src/cliquetree.ml" 269 7882 7910 "src/cliquetree.ml" 269 7882 7911
+type(
+  CliqueTree.vertex
+)
+ident(
+  int_ref c "src/cliquetree.ml" 268 7862 7878 "src/cliquetree.ml" 268 7862 7879
+)
+"src/cliquetree.ml" 269 7882 7900 "src/cliquetree.ml" 269 7882 7911
+call(
+  stack
+)
+type(
+  CliqueTree.vertex list
+)
+"src/cliquetree.ml" 270 7915 7925 "src/cliquetree.ml" 270 7915 7926
+type(
+  CliqueTreeV.data list
+)
+ident(
+  def s "src/cliquetree.ml" 271 7964 7970 "src/cliquetree.ml" 275 8182 8229
+)
+"src/cliquetree.ml" 270 7915 7929 "src/cliquetree.ml" 270 7915 7937
+type(
+  (CliqueTreeV.t -> CliqueTreeV.data) ->
+  CliqueTreeV.t list -> CliqueTreeV.data list
+)
+ident(
+  ext_ref List.map
+)
+"src/cliquetree.ml" 270 7915 7938 "src/cliquetree.ml" 270 7915 7954
+type(
+  CliqueTreeV.t -> CliqueTreeV.data
+)
+ident(
+  ext_ref CliqueTreeV.data
+)
+"src/cliquetree.ml" 270 7915 7955 "src/cliquetree.ml" 270 7915 7960
+type(
+  CliqueTreeV.t list
+)
+ident(
+  int_ref csons "src/cliquetree.ml" 269 7882 7892 "src/cliquetree.ml" 269 7882 7897
+)
+"src/cliquetree.ml" 270 7915 7929 "src/cliquetree.ml" 270 7915 7960
+call(
+  stack
+)
+type(
+  CliqueTreeV.data list
+)
+"src/cliquetree.ml" 271 7964 7974 "src/cliquetree.ml" 271 7964 7975
+type(
+  CliqueTreeV.data
+)
+ident(
+  def l "src/cliquetree.ml" 272 8000 8006 "src/cliquetree.ml" 275 8182 8229
+)
+"src/cliquetree.ml" 271 7964 7978 "src/cliquetree.ml" 271 7964 7994
+type(
+  CliqueTreeV.t -> CliqueTreeV.data
+)
+ident(
+  ext_ref CliqueTreeV.data
+)
+"src/cliquetree.ml" 271 7964 7995 "src/cliquetree.ml" 271 7964 7996
+type(
+  CliqueTree.vertex
+)
+ident(
+  int_ref c "src/cliquetree.ml" 268 7862 7878 "src/cliquetree.ml" 268 7862 7879
+)
+"src/cliquetree.ml" 271 7964 7978 "src/cliquetree.ml" 271 7964 7996
+call(
+  stack
+)
+type(
+  CliqueTreeV.data
+)
+"src/cliquetree.ml" 272 8000 8010 "src/cliquetree.ml" 272 8000 8014
+type(
+  unit -> CliqueV.t list ref list
+)
+ident(
+  def sons "src/cliquetree.ml" 273 8055 8061 "src/cliquetree.ml" 275 8182 8229
+)
+"src/cliquetree.ml" 272 8000 8015 "src/cliquetree.ml" 272 8000 8017
+type(
+  unit
+)
+"src/cliquetree.ml" 272 8000 8020 "src/cliquetree.ml" 272 8000 8028
+type(
+  (CliqueTreeV.data -> CliqueV.t list ref) ->
+  CliqueTreeV.data list -> CliqueV.t list ref list
+)
+ident(
+  ext_ref List.map
+)
+"src/cliquetree.ml" 272 8000 8035 "src/cliquetree.ml" 272 8000 8036
+type(
+  CliqueV.t list
+)
+ident(
+  def x "src/cliquetree.ml" 272 8000 8043 "src/cliquetree.ml" 272 8000 8048
+)
+"src/cliquetree.ml" 272 8000 8037 "src/cliquetree.ml" 272 8000 8038
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 272 8000 8034 "src/cliquetree.ml" 272 8000 8039
+type(
+  CliqueTreeV.data
+)
+"src/cliquetree.ml" 272 8000 8043 "src/cliquetree.ml" 272 8000 8046
+type(
+  CliqueV.t list -> CliqueV.t list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/cliquetree.ml" 272 8000 8047 "src/cliquetree.ml" 272 8000 8048
+type(
+  CliqueV.t list
+)
+ident(
+  int_ref x "src/cliquetree.ml" 272 8000 8035 "src/cliquetree.ml" 272 8000 8036
+)
+"src/cliquetree.ml" 272 8000 8043 "src/cliquetree.ml" 272 8000 8048
+type(
+  CliqueV.t list ref
+)
+"src/cliquetree.ml" 272 8000 8029 "src/cliquetree.ml" 272 8000 8049
+type(
+  CliqueTreeV.data -> CliqueV.t list ref
+)
+"src/cliquetree.ml" 272 8000 8050 "src/cliquetree.ml" 272 8000 8051
+type(
+  CliqueTreeV.data list
+)
+ident(
+  int_ref s "src/cliquetree.ml" 270 7915 7925 "src/cliquetree.ml" 270 7915 7926
+)
+"src/cliquetree.ml" 272 8000 8020 "src/cliquetree.ml" 272 8000 8051
+call(
+  tail
+)
+type(
+  CliqueV.t list ref list
+)
+"src/cliquetree.ml" 273 8055 8065 "src/cliquetree.ml" 273 8055 8070
+type(
+  bool
+)
+ident(
+  def first "src/cliquetree.ml" 274 8120 8126 "src/cliquetree.ml" 275 8182 8229
+)
+"src/cliquetree.ml" 273 8055 8073 "src/cliquetree.ml" 273 8055 8098
+type(
+  CVS.t -> CliqueV.t list ref list -> bool
+)
+ident(
+  int_ref test_simpliciality_first' "src/cliquetree.ml" 238 7122 7128 "src/cliquetree.ml" 238 7122 7153
+)
+"src/cliquetree.ml" 273 8055 8100 "src/cliquetree.ml" 273 8055 8103
+type(
+  CliqueTreeV.data -> CVS.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"src/cliquetree.ml" 273 8055 8104 "src/cliquetree.ml" 273 8055 8105
+type(
+  CliqueTreeV.data
+)
+ident(
+  int_ref l "src/cliquetree.ml" 271 7964 7974 "src/cliquetree.ml" 271 7964 7975
+)
+"src/cliquetree.ml" 273 8055 8099 "src/cliquetree.ml" 273 8055 8106
+type(
+  CVS.t
+)
+"src/cliquetree.ml" 273 8055 8108 "src/cliquetree.ml" 273 8055 8112
+type(
+  unit -> CliqueV.t list ref list
+)
+ident(
+  int_ref sons "src/cliquetree.ml" 272 8000 8010 "src/cliquetree.ml" 272 8000 8014
+)
+"src/cliquetree.ml" 273 8055 8113 "src/cliquetree.ml" 273 8055 8115
+type(
+  unit
+)
+"src/cliquetree.ml" 273 8055 8107 "src/cliquetree.ml" 273 8055 8116
+call(
+  stack
+)
+type(
+  CliqueV.t list ref list
+)
+"src/cliquetree.ml" 273 8055 8073 "src/cliquetree.ml" 273 8055 8116
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cliquetree.ml" 274 8120 8130 "src/cliquetree.ml" 274 8120 8134
+type(
+  bool
+)
+ident(
+  def next "src/cliquetree.ml" 275 8182 8188 "src/cliquetree.ml" 275 8182 8229
+)
+"src/cliquetree.ml" 274 8120 8137 "src/cliquetree.ml" 274 8120 8160
+type(
+  CVS.elt list -> CliqueV.t list ref list -> bool
+)
+ident(
+  int_ref test_simpliciality_next "src/cliquetree.ml" 248 7342 7348 "src/cliquetree.ml" 248 7342 7371
+)
+"src/cliquetree.ml" 274 8120 8162 "src/cliquetree.ml" 274 8120 8165
+type(
+  CliqueTreeV.data -> CVS.elt list
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"src/cliquetree.ml" 274 8120 8166 "src/cliquetree.ml" 274 8120 8167
+type(
+  CliqueTreeV.data
+)
+ident(
+  int_ref l "src/cliquetree.ml" 271 7964 7974 "src/cliquetree.ml" 271 7964 7975
+)
+"src/cliquetree.ml" 274 8120 8161 "src/cliquetree.ml" 274 8120 8168
+type(
+  CVS.elt list
+)
+"src/cliquetree.ml" 274 8120 8170 "src/cliquetree.ml" 274 8120 8174
+type(
+  unit -> CliqueV.t list ref list
+)
+ident(
+  int_ref sons "src/cliquetree.ml" 272 8000 8010 "src/cliquetree.ml" 272 8000 8014
+)
+"src/cliquetree.ml" 274 8120 8175 "src/cliquetree.ml" 274 8120 8177
+type(
+  unit
+)
+"src/cliquetree.ml" 274 8120 8169 "src/cliquetree.ml" 274 8120 8178
+call(
+  stack
+)
+type(
+  CliqueV.t list ref list
+)
+"src/cliquetree.ml" 274 8120 8137 "src/cliquetree.ml" 274 8120 8178
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cliquetree.ml" 275 8182 8188 "src/cliquetree.ml" 275 8182 8193
+type(
+  bool
+)
+ident(
+  int_ref first "src/cliquetree.ml" 273 8055 8065 "src/cliquetree.ml" 273 8055 8070
+)
+"src/cliquetree.ml" 275 8182 8194 "src/cliquetree.ml" 275 8182 8196
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/cliquetree.ml" 275 8182 8197 "src/cliquetree.ml" 275 8182 8201
+type(
+  bool
+)
+ident(
+  int_ref next "src/cliquetree.ml" 274 8120 8130 "src/cliquetree.ml" 274 8120 8134
+)
+"src/cliquetree.ml" 275 8182 8202 "src/cliquetree.ml" 275 8182 8204
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/cliquetree.ml" 275 8182 8206 "src/cliquetree.ml" 275 8182 8218
+type(
+  (CliqueTree.vertex -> bool) -> CliqueTree.vertex list -> bool
+)
+ident(
+  ext_ref List.for_all
+)
+"src/cliquetree.ml" 275 8182 8219 "src/cliquetree.ml" 275 8182 8222
+type(
+  CliqueTree.vertex -> bool
+)
+ident(
+  int_ref aux "src/cliquetree.ml" 268 7862 7874 "src/cliquetree.ml" 268 7862 7877
+)
+"src/cliquetree.ml" 275 8182 8223 "src/cliquetree.ml" 275 8182 8228
+type(
+  CliqueTree.vertex list
+)
+ident(
+  int_ref csons "src/cliquetree.ml" 269 7882 7892 "src/cliquetree.ml" 269 7882 7897
+)
+"src/cliquetree.ml" 275 8182 8205 "src/cliquetree.ml" 275 8182 8229
+call(
+  tail
+)
+type(
+  bool
+)
+"src/cliquetree.ml" 275 8182 8197 "src/cliquetree.ml" 275 8182 8229
+type(
+  bool
+)
+"src/cliquetree.ml" 275 8182 8188 "src/cliquetree.ml" 275 8182 8229
+type(
+  bool
+)
+"src/cliquetree.ml" 274 8120 8126 "src/cliquetree.ml" 275 8182 8229
+type(
+  bool
+)
+"src/cliquetree.ml" 273 8055 8061 "src/cliquetree.ml" 275 8182 8229
+type(
+  bool
+)
+"src/cliquetree.ml" 272 8000 8006 "src/cliquetree.ml" 275 8182 8229
+type(
+  bool
+)
+"src/cliquetree.ml" 271 7964 7970 "src/cliquetree.ml" 275 8182 8229
+type(
+  bool
+)
+"src/cliquetree.ml" 270 7915 7921 "src/cliquetree.ml" 275 8182 8229
+type(
+  bool
+)
+"src/cliquetree.ml" 269 7882 7888 "src/cliquetree.ml" 275 8182 8229
+type(
+  bool
+)
+"src/cliquetree.ml" 277 8237 8241 "src/cliquetree.ml" 277 8237 8244
+type(
+  CliqueTree.vertex -> bool
+)
+ident(
+  int_ref aux "src/cliquetree.ml" 268 7862 7874 "src/cliquetree.ml" 268 7862 7877
+)
+"src/cliquetree.ml" 277 8237 8245 "src/cliquetree.ml" 277 8237 8249
+type(
+  CliqueTreeV.t
+)
+ident(
+  int_ref root "src/cliquetree.ml" 267 7817 7839 "src/cliquetree.ml" 267 7817 7843
+)
+"src/cliquetree.ml" 277 8237 8241 "src/cliquetree.ml" 277 8237 8249
+call(
+  tail
+)
+type(
+  bool
+)
+"src/cliquetree.ml" 268 7862 7866 "src/cliquetree.ml" 277 8237 8249
+type(
+  bool
+)
+"src/cliquetree.ml" 267 7817 7821 "src/cliquetree.ml" 277 8237 8249
+type(
+  bool
+)
+"src/cliquetree.ml" 279 8251 8257 "src/cliquetree.ml" 279 8251 8265
+type(
+  Gr.t -> Gr.t -> CliqueTree.t -> int
+)
+ident(
+  def maxwidth "src/cliquetree.ml" 284 8414 8426 "src/cliquetree.ml" 286 8428 8431
+)
+"src/cliquetree.ml" 279 8251 8266 "src/cliquetree.ml" 279 8251 8267
+type(
+  Gr.t
+)
+ident(
+  def g "src/cliquetree.ml" 279 8251 8268 "src/cliquetree.ml" 284 8414 8426
+)
+"src/cliquetree.ml" 279 8251 8268 "src/cliquetree.ml" 279 8251 8271
+type(
+  Gr.t
+)
+ident(
+  def tri "src/cliquetree.ml" 279 8251 8272 "src/cliquetree.ml" 284 8414 8426
+)
+"src/cliquetree.ml" 279 8251 8272 "src/cliquetree.ml" 279 8251 8276
+type(
+  CliqueTree.t
+)
+ident(
+  def tree "src/cliquetree.ml" 280 8279 8283 "src/cliquetree.ml" 284 8414 8426
+)
+"src/cliquetree.ml" 280 8279 8283 "src/cliquetree.ml" 280 8279 8306
+type(
+  (CliqueTree.edge -> int -> int) -> CliqueTree.t -> int -> int
+)
+ident(
+  ext_ref CliqueTree.fold_edges_e
+)
+"src/cliquetree.ml" 281 8307 8318 "src/cliquetree.ml" 281 8307 8319
+type(
+  CliqueTree.edge
+)
+ident(
+  def e "src/cliquetree.ml" 281 8307 8320 "src/cliquetree.ml" 283 8394 8412
+)
+"src/cliquetree.ml" 281 8307 8320 "src/cliquetree.ml" 281 8307 8323
+type(
+  int
+)
+ident(
+  def res "src/cliquetree.ml" 282 8327 8336 "src/cliquetree.ml" 283 8394 8412
+)
+"src/cliquetree.ml" 282 8327 8340 "src/cliquetree.ml" 282 8327 8341
+type(
+  int
+)
+ident(
+  def w "src/cliquetree.ml" 283 8394 8403 "src/cliquetree.ml" 283 8394 8412
+)
+"src/cliquetree.ml" 282 8327 8344 "src/cliquetree.ml" 282 8327 8361
+type(
+  Gr.t -> Gr.t -> CliqueTree.E.label -> int
+)
+ident(
+  int_ref CliqueTreeE.width "src/cliquetree.ml" 122 3564 3572 "src/cliquetree.ml" 122 3564 3577
+)
+"src/cliquetree.ml" 282 8327 8362 "src/cliquetree.ml" 282 8327 8363
+type(
+  Gr.t
+)
+ident(
+  int_ref g "src/cliquetree.ml" 279 8251 8266 "src/cliquetree.ml" 279 8251 8267
+)
+"src/cliquetree.ml" 282 8327 8364 "src/cliquetree.ml" 282 8327 8367
+type(
+  Gr.t
+)
+ident(
+  int_ref tri "src/cliquetree.ml" 279 8251 8268 "src/cliquetree.ml" 279 8251 8271
+)
+"src/cliquetree.ml" 282 8327 8369 "src/cliquetree.ml" 282 8327 8387
+type(
+  CliqueTree.E.t -> CliqueTree.E.label
+)
+ident(
+  ext_ref CliqueTree.E.label
+)
+"src/cliquetree.ml" 282 8327 8388 "src/cliquetree.ml" 282 8327 8389
+type(
+  CliqueTree.edge
+)
+ident(
+  int_ref e "src/cliquetree.ml" 281 8307 8318 "src/cliquetree.ml" 281 8307 8319
+)
+"src/cliquetree.ml" 282 8327 8368 "src/cliquetree.ml" 282 8327 8390
+call(
+  stack
+)
+type(
+  CliqueTree.E.label
+)
+"src/cliquetree.ml" 282 8327 8344 "src/cliquetree.ml" 282 8327 8390
+call(
+  stack
+)
+type(
+  int
+)
+"src/cliquetree.ml" 283 8394 8403 "src/cliquetree.ml" 283 8394 8406
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/cliquetree.ml" 283 8394 8407 "src/cliquetree.ml" 283 8394 8410
+type(
+  int
+)
+ident(
+  int_ref res "src/cliquetree.ml" 281 8307 8320 "src/cliquetree.ml" 281 8307 8323
+)
+"src/cliquetree.ml" 283 8394 8411 "src/cliquetree.ml" 283 8394 8412
+type(
+  int
+)
+ident(
+  int_ref w "src/cliquetree.ml" 282 8327 8340 "src/cliquetree.ml" 282 8327 8341
+)
+"src/cliquetree.ml" 283 8394 8403 "src/cliquetree.ml" 283 8394 8412
+call(
+  tail
+)
+type(
+  int
+)
+"src/cliquetree.ml" 282 8327 8336 "src/cliquetree.ml" 283 8394 8412
+type(
+  int
+)
+"src/cliquetree.ml" 281 8307 8313 "src/cliquetree.ml" 283 8394 8413
+type(
+  CliqueTree.edge -> int -> int
+)
+"src/cliquetree.ml" 284 8414 8420 "src/cliquetree.ml" 284 8414 8424
+type(
+  CliqueTree.t
+)
+ident(
+  int_ref tree "src/cliquetree.ml" 279 8251 8272 "src/cliquetree.ml" 279 8251 8276
+)
+"src/cliquetree.ml" 284 8414 8425 "src/cliquetree.ml" 284 8414 8426
+type(
+  int
+)
+"src/cliquetree.ml" 280 8279 8283 "src/cliquetree.ml" 284 8414 8426
+call(
+  tail
+)
+type(
+  int
+)

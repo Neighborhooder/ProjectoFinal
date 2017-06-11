@@ -1,0 +1,1381 @@
+"src/weakTopological.ml" 42 1854 1858 "src/weakTopological.ml" 42 1854 1867
+type(
+  ('a -> 'b -> 'a) -> 'a -> 'b list -> 'a
+)
+ident(
+  def fold_left "src/weakTopological.ml" 44 1886 1886 "src/weakTopological.ml" 1 0 -1
+)
+"src/weakTopological.ml" 42 1854 1870 "src/weakTopological.ml" 42 1854 1884
+type(
+  ('a -> 'b -> 'a) -> 'a -> 'b list -> 'a
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/weakTopological.ml" 46 1916 1922 "src/weakTopological.ml" 46 1916 1935
+type(
+  G.t -> G.V.t -> G.V.t element list
+)
+ident(
+  def recursive_scc "src/weakTopological.ml" 101 3538 3552 "src/weakTopological.ml" 103 3554 3557
+)
+"src/weakTopological.ml" 46 1916 1936 "src/weakTopological.ml" 46 1916 1937
+type(
+  G.t
+)
+ident(
+  def g "src/weakTopological.ml" 46 1916 1938 "src/weakTopological.ml" 101 3538 3552
+)
+"src/weakTopological.ml" 46 1916 1938 "src/weakTopological.ml" 46 1916 1944
+type(
+  G.V.t
+)
+ident(
+  def root_g "src/weakTopological.ml" 49 2053 2057 "src/weakTopological.ml" 101 3538 3552
+)
+"src/weakTopological.ml" 49 2053 2061 "src/weakTopological.ml" 49 2053 2066
+type(
+  G.V.t Stack.t
+)
+ident(
+  def stack "src/weakTopological.ml" 50 2088 2092 "src/weakTopological.ml" 101 3538 3552
+)
+"src/weakTopological.ml" 49 2053 2069 "src/weakTopological.ml" 49 2053 2081
+type(
+  unit -> G.V.t Stack.t
+)
+ident(
+  ext_ref Stack.create
+)
+"src/weakTopological.ml" 49 2053 2082 "src/weakTopological.ml" 49 2053 2084
+type(
+  unit
+)
+"src/weakTopological.ml" 49 2053 2069 "src/weakTopological.ml" 49 2053 2084
+call(
+  stack
+)
+type(
+  G.V.t Stack.t
+)
+"src/weakTopological.ml" 50 2088 2096 "src/weakTopological.ml" 50 2088 2099
+type(
+  (G.V.t, int) Hashtbl.t
+)
+ident(
+  def dfn "src/weakTopological.ml" 51 2125 2129 "src/weakTopological.ml" 101 3538 3552
+)
+"src/weakTopological.ml" 50 2088 2102 "src/weakTopological.ml" 50 2088 2116
+type(
+  ?random:bool -> int -> (G.V.t, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"src/weakTopological.ml" 50 2088 2117 "src/weakTopological.ml" 50 2088 2121
+type(
+  int
+)
+"src/weakTopological.ml" 50 2088 2102 "src/weakTopological.ml" 50 2088 2121
+call(
+  stack
+)
+type(
+  (G.V.t, int) Hashtbl.t
+)
+"src/weakTopological.ml" 51 2125 2133 "src/weakTopological.ml" 51 2125 2136
+type(
+  int ref
+)
+ident(
+  def num "src/weakTopological.ml" 52 2148 2152 "src/weakTopological.ml" 101 3538 3552
+)
+"src/weakTopological.ml" 51 2125 2139 "src/weakTopological.ml" 51 2125 2142
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/weakTopological.ml" 51 2125 2143 "src/weakTopological.ml" 51 2125 2144
+type(
+  int
+)
+"src/weakTopological.ml" 51 2125 2139 "src/weakTopological.ml" 51 2125 2144
+type(
+  int ref
+)
+"src/weakTopological.ml" 52 2148 2156 "src/weakTopological.ml" 52 2148 2165
+type(
+  G.V.t element list ref
+)
+ident(
+  def partition "src/weakTopological.ml" 54 2179 2183 "src/weakTopological.ml" 101 3538 3552
+)
+"src/weakTopological.ml" 52 2148 2168 "src/weakTopological.ml" 52 2148 2171
+type(
+  G.V.t element list -> G.V.t element list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/weakTopological.ml" 52 2148 2172 "src/weakTopological.ml" 52 2148 2174
+type(
+  G.V.t element list
+)
+"src/weakTopological.ml" 52 2148 2168 "src/weakTopological.ml" 52 2148 2174
+type(
+  G.V.t element list ref
+)
+"src/weakTopological.ml" 54 2179 2183 "src/weakTopological.ml" 54 2179 2196
+type(
+  (G.V.t -> unit) -> G.t -> unit
+)
+ident(
+  int_ref G.iter_vertex "src/weakTopological.ml" 32 1659 1661 "src/weakTopological.ml" 32 1659 1705
+)
+"src/weakTopological.ml" 54 2179 2202 "src/weakTopological.ml" 54 2179 2203
+type(
+  G.V.t
+)
+ident(
+  def v "src/weakTopological.ml" 54 2179 2207 "src/weakTopological.ml" 54 2179 2226
+)
+"src/weakTopological.ml" 54 2179 2207 "src/weakTopological.ml" 54 2179 2218
+type(
+  (G.V.t, int) Hashtbl.t -> G.V.t -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"src/weakTopological.ml" 54 2179 2219 "src/weakTopological.ml" 54 2179 2222
+type(
+  (G.V.t, int) Hashtbl.t
+)
+ident(
+  int_ref dfn "src/weakTopological.ml" 50 2088 2096 "src/weakTopological.ml" 50 2088 2099
+)
+"src/weakTopological.ml" 54 2179 2223 "src/weakTopological.ml" 54 2179 2224
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/weakTopological.ml" 54 2179 2202 "src/weakTopological.ml" 54 2179 2203
+)
+"src/weakTopological.ml" 54 2179 2225 "src/weakTopological.ml" 54 2179 2226
+type(
+  int
+)
+"src/weakTopological.ml" 54 2179 2207 "src/weakTopological.ml" 54 2179 2226
+call(
+  tail
+)
+type(
+  unit
+)
+"src/weakTopological.ml" 54 2179 2197 "src/weakTopological.ml" 54 2179 2227
+type(
+  G.V.t -> unit
+)
+"src/weakTopological.ml" 54 2179 2228 "src/weakTopological.ml" 54 2179 2229
+type(
+  G.t
+)
+ident(
+  int_ref g "src/weakTopological.ml" 46 1916 1936 "src/weakTopological.ml" 46 1916 1937
+)
+"src/weakTopological.ml" 54 2179 2183 "src/weakTopological.ml" 54 2179 2229
+call(
+  stack
+)
+type(
+  unit
+)
+"src/weakTopological.ml" 56 2232 2244 "src/weakTopological.ml" 56 2232 2249
+type(
+  G.V.t -> G.V.t element list ref -> int
+)
+ident(
+  def visit "src/weakTopological.ml" 56 2232 2236 "src/weakTopological.ml" 101 3538 3552
+)
+"src/weakTopological.ml" 56 2232 2250 "src/weakTopological.ml" 56 2232 2256
+type(
+  G.V.t
+)
+ident(
+  def vertex "src/weakTopological.ml" 56 2232 2257 "src/weakTopological.ml" 88 3225 3236
+)
+"src/weakTopological.ml" 56 2232 2257 "src/weakTopological.ml" 56 2232 2266
+type(
+  G.V.t element list ref
+)
+ident(
+  def partition "src/weakTopological.ml" 57 2269 2275 "src/weakTopological.ml" 88 3225 3236
+)
+"src/weakTopological.ml" 57 2269 2279 "src/weakTopological.ml" 57 2269 2283
+type(
+  int ref
+)
+ident(
+  def head "src/weakTopological.ml" 58 2295 2301 "src/weakTopological.ml" 88 3225 3236
+)
+"src/weakTopological.ml" 57 2269 2286 "src/weakTopological.ml" 57 2269 2289
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/weakTopological.ml" 57 2269 2290 "src/weakTopological.ml" 57 2269 2291
+type(
+  int
+)
+"src/weakTopological.ml" 57 2269 2286 "src/weakTopological.ml" 57 2269 2291
+type(
+  int ref
+)
+"src/weakTopological.ml" 58 2295 2305 "src/weakTopological.ml" 58 2295 2309
+type(
+  bool ref
+)
+ident(
+  def loop "src/weakTopological.ml" 59 2325 2331 "src/weakTopological.ml" 88 3225 3236
+)
+"src/weakTopological.ml" 58 2295 2312 "src/weakTopological.ml" 58 2295 2315
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/weakTopological.ml" 58 2295 2316 "src/weakTopological.ml" 58 2295 2321
+type(
+  bool
+)
+"src/weakTopological.ml" 58 2295 2312 "src/weakTopological.ml" 58 2295 2321
+type(
+  bool ref
+)
+"src/weakTopological.ml" 59 2325 2331 "src/weakTopological.ml" 59 2325 2341
+type(
+  G.V.t -> G.V.t Stack.t -> unit
+)
+ident(
+  ext_ref Stack.push
+)
+"src/weakTopological.ml" 59 2325 2342 "src/weakTopological.ml" 59 2325 2348
+type(
+  G.V.t
+)
+ident(
+  int_ref vertex "src/weakTopological.ml" 56 2232 2250 "src/weakTopological.ml" 56 2232 2256
+)
+"src/weakTopological.ml" 59 2325 2349 "src/weakTopological.ml" 59 2325 2354
+type(
+  G.V.t Stack.t
+)
+ident(
+  int_ref stack "src/weakTopological.ml" 49 2053 2061 "src/weakTopological.ml" 49 2053 2066
+)
+"src/weakTopological.ml" 59 2325 2331 "src/weakTopological.ml" 59 2325 2354
+call(
+  stack
+)
+type(
+  unit
+)
+"src/weakTopological.ml" 60 2356 2362 "src/weakTopological.ml" 60 2356 2366
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/weakTopological.ml" 60 2356 2367 "src/weakTopological.ml" 60 2356 2370
+type(
+  int ref
+)
+ident(
+  int_ref num "src/weakTopological.ml" 51 2125 2133 "src/weakTopological.ml" 51 2125 2136
+)
+"src/weakTopological.ml" 60 2356 2362 "src/weakTopological.ml" 60 2356 2370
+type(
+  unit
+)
+"src/weakTopological.ml" 61 2372 2378 "src/weakTopological.ml" 61 2372 2393
+type(
+  (G.V.t, int) Hashtbl.t -> G.V.t -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"src/weakTopological.ml" 61 2372 2394 "src/weakTopological.ml" 61 2372 2397
+type(
+  (G.V.t, int) Hashtbl.t
+)
+ident(
+  int_ref dfn "src/weakTopological.ml" 50 2088 2096 "src/weakTopological.ml" 50 2088 2099
+)
+"src/weakTopological.ml" 61 2372 2398 "src/weakTopological.ml" 61 2372 2404
+type(
+  G.V.t
+)
+ident(
+  int_ref vertex "src/weakTopological.ml" 56 2232 2250 "src/weakTopological.ml" 56 2232 2256
+)
+"src/weakTopological.ml" 61 2372 2405 "src/weakTopological.ml" 61 2372 2406
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/weakTopological.ml" 61 2372 2406 "src/weakTopological.ml" 61 2372 2409
+type(
+  int ref
+)
+ident(
+  int_ref num "src/weakTopological.ml" 51 2125 2133 "src/weakTopological.ml" 51 2125 2136
+)
+"src/weakTopological.ml" 61 2372 2405 "src/weakTopological.ml" 61 2372 2409
+type(
+  int
+)
+"src/weakTopological.ml" 61 2372 2378 "src/weakTopological.ml" 61 2372 2409
+call(
+  stack
+)
+type(
+  unit
+)
+"src/weakTopological.ml" 62 2411 2417 "src/weakTopological.ml" 62 2411 2421
+type(
+  int ref
+)
+ident(
+  int_ref head "src/weakTopological.ml" 57 2269 2279 "src/weakTopological.ml" 57 2269 2283
+)
+"src/weakTopological.ml" 62 2411 2422 "src/weakTopological.ml" 62 2411 2424
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/weakTopological.ml" 62 2411 2425 "src/weakTopological.ml" 62 2411 2426
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/weakTopological.ml" 62 2411 2426 "src/weakTopological.ml" 62 2411 2429
+type(
+  int ref
+)
+ident(
+  int_ref num "src/weakTopological.ml" 51 2125 2133 "src/weakTopological.ml" 51 2125 2136
+)
+"src/weakTopological.ml" 62 2411 2425 "src/weakTopological.ml" 62 2411 2429
+type(
+  int
+)
+"src/weakTopological.ml" 62 2411 2417 "src/weakTopological.ml" 62 2411 2429
+type(
+  unit
+)
+"src/weakTopological.ml" 63 2431 2437 "src/weakTopological.ml" 63 2431 2448
+type(
+  (G.V.t -> unit) -> G.t -> G.V.t -> unit
+)
+ident(
+  int_ref G.iter_succ "src/weakTopological.ml" 33 1706 1708 "src/weakTopological.ml" 33 1706 1757
+)
+"src/weakTopological.ml" 64 2449 2462 "src/weakTopological.ml" 64 2449 2466
+type(
+  G.V.t
+)
+ident(
+  def succ "src/weakTopological.ml" 65 2470 2481 "src/weakTopological.ml" 73 2730 2744
+)
+"src/weakTopological.ml" 65 2470 2485 "src/weakTopological.ml" 65 2470 2493
+type(
+  int
+)
+ident(
+  def dfn_succ "src/weakTopological.ml" 66 2521 2532 "src/weakTopological.ml" 73 2730 2744
+)
+"src/weakTopological.ml" 65 2470 2496 "src/weakTopological.ml" 65 2470 2508
+type(
+  (G.V.t, int) Hashtbl.t -> G.V.t -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/weakTopological.ml" 65 2470 2509 "src/weakTopological.ml" 65 2470 2512
+type(
+  (G.V.t, int) Hashtbl.t
+)
+ident(
+  int_ref dfn "src/weakTopological.ml" 50 2088 2096 "src/weakTopological.ml" 50 2088 2099
+)
+"src/weakTopological.ml" 65 2470 2513 "src/weakTopological.ml" 65 2470 2517
+type(
+  G.V.t
+)
+ident(
+  int_ref succ "src/weakTopological.ml" 64 2449 2462 "src/weakTopological.ml" 64 2449 2466
+)
+"src/weakTopological.ml" 65 2470 2496 "src/weakTopological.ml" 65 2470 2517
+call(
+  stack
+)
+type(
+  int
+)
+"src/weakTopological.ml" 66 2521 2536 "src/weakTopological.ml" 66 2521 2539
+type(
+  int
+)
+ident(
+  def min "src/weakTopological.ml" 70 2640 2651 "src/weakTopological.ml" 73 2730 2744
+)
+"src/weakTopological.ml" 67 2542 2558 "src/weakTopological.ml" 67 2542 2566
+type(
+  int
+)
+ident(
+  int_ref dfn_succ "src/weakTopological.ml" 65 2470 2485 "src/weakTopological.ml" 65 2470 2493
+)
+"src/weakTopological.ml" 67 2542 2567 "src/weakTopological.ml" 67 2542 2568
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/weakTopological.ml" 67 2542 2569 "src/weakTopological.ml" 67 2542 2570
+type(
+  int
+)
+"src/weakTopological.ml" 67 2542 2558 "src/weakTopological.ml" 67 2542 2570
+type(
+  bool
+)
+"src/weakTopological.ml" 68 2571 2589 "src/weakTopological.ml" 68 2571 2594
+type(
+  G.V.t -> G.V.t element list ref -> int
+)
+ident(
+  int_ref visit "src/weakTopological.ml" 56 2232 2244 "src/weakTopological.ml" 56 2232 2249
+)
+"src/weakTopological.ml" 68 2571 2595 "src/weakTopological.ml" 68 2571 2599
+type(
+  G.V.t
+)
+ident(
+  int_ref succ "src/weakTopological.ml" 64 2449 2462 "src/weakTopological.ml" 64 2449 2466
+)
+"src/weakTopological.ml" 68 2571 2600 "src/weakTopological.ml" 68 2571 2609
+type(
+  G.V.t element list ref
+)
+ident(
+  int_ref partition "src/weakTopological.ml" 56 2232 2257 "src/weakTopological.ml" 56 2232 2266
+)
+"src/weakTopological.ml" 68 2571 2589 "src/weakTopological.ml" 68 2571 2609
+call(
+  stack
+)
+type(
+  int
+)
+"src/weakTopological.ml" 69 2610 2628 "src/weakTopological.ml" 69 2610 2636
+type(
+  int
+)
+ident(
+  int_ref dfn_succ "src/weakTopological.ml" 65 2470 2485 "src/weakTopological.ml" 65 2470 2493
+)
+"src/weakTopological.ml" 67 2542 2555 "src/weakTopological.ml" 69 2610 2636
+type(
+  int
+)
+"src/weakTopological.ml" 70 2640 2654 "src/weakTopological.ml" 70 2640 2657
+type(
+  int
+)
+ident(
+  int_ref min "src/weakTopological.ml" 66 2521 2536 "src/weakTopological.ml" 66 2521 2539
+)
+"src/weakTopological.ml" 70 2640 2658 "src/weakTopological.ml" 70 2640 2660
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/weakTopological.ml" 70 2640 2661 "src/weakTopological.ml" 70 2640 2662
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/weakTopological.ml" 70 2640 2662 "src/weakTopological.ml" 70 2640 2666
+type(
+  int ref
+)
+ident(
+  int_ref head "src/weakTopological.ml" 57 2269 2279 "src/weakTopological.ml" 57 2269 2283
+)
+"src/weakTopological.ml" 70 2640 2661 "src/weakTopological.ml" 70 2640 2666
+type(
+  int
+)
+"src/weakTopological.ml" 70 2640 2654 "src/weakTopological.ml" 70 2640 2666
+type(
+  bool
+)
+"src/weakTopological.ml" 71 2678 2691 "src/weakTopological.ml" 71 2678 2695
+type(
+  int ref
+)
+ident(
+  int_ref head "src/weakTopological.ml" 57 2269 2279 "src/weakTopological.ml" 57 2269 2283
+)
+"src/weakTopological.ml" 71 2678 2696 "src/weakTopological.ml" 71 2678 2698
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/weakTopological.ml" 71 2678 2699 "src/weakTopological.ml" 71 2678 2702
+type(
+  int
+)
+ident(
+  int_ref min "src/weakTopological.ml" 66 2521 2536 "src/weakTopological.ml" 66 2521 2539
+)
+"src/weakTopological.ml" 71 2678 2691 "src/weakTopological.ml" 71 2678 2702
+type(
+  unit
+)
+"src/weakTopological.ml" 72 2704 2717 "src/weakTopological.ml" 72 2704 2721
+type(
+  bool ref
+)
+ident(
+  int_ref loop "src/weakTopological.ml" 58 2295 2305 "src/weakTopological.ml" 58 2295 2309
+)
+"src/weakTopological.ml" 72 2704 2722 "src/weakTopological.ml" 72 2704 2724
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/weakTopological.ml" 72 2704 2725 "src/weakTopological.ml" 72 2704 2729
+type(
+  bool
+)
+"src/weakTopological.ml" 72 2704 2717 "src/weakTopological.ml" 72 2704 2729
+type(
+  unit
+)
+"src/weakTopological.ml" 70 2640 2672 "src/weakTopological.ml" 73 2730 2744
+type(
+  unit
+)
+"src/weakTopological.ml" 70 2640 2651 "src/weakTopological.ml" 73 2730 2744
+type(
+  unit
+)
+"src/weakTopological.ml" 66 2521 2532 "src/weakTopological.ml" 73 2730 2744
+type(
+  unit
+)
+"src/weakTopological.ml" 65 2470 2481 "src/weakTopological.ml" 73 2730 2744
+type(
+  unit
+)
+"src/weakTopological.ml" 64 2449 2457 "src/weakTopological.ml" 73 2730 2745
+type(
+  G.V.t -> unit
+)
+"src/weakTopological.ml" 74 2746 2754 "src/weakTopological.ml" 74 2746 2755
+type(
+  G.t
+)
+ident(
+  int_ref g "src/weakTopological.ml" 46 1916 1936 "src/weakTopological.ml" 46 1916 1937
+)
+"src/weakTopological.ml" 74 2746 2756 "src/weakTopological.ml" 74 2746 2762
+type(
+  G.V.t
+)
+ident(
+  int_ref vertex "src/weakTopological.ml" 56 2232 2250 "src/weakTopological.ml" 56 2232 2256
+)
+"src/weakTopological.ml" 63 2431 2437 "src/weakTopological.ml" 74 2746 2762
+call(
+  stack
+)
+type(
+  unit
+)
+"src/weakTopological.ml" 75 2764 2773 "src/weakTopological.ml" 75 2764 2774
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/weakTopological.ml" 75 2764 2774 "src/weakTopological.ml" 75 2764 2778
+type(
+  int ref
+)
+ident(
+  int_ref head "src/weakTopological.ml" 57 2269 2279 "src/weakTopological.ml" 57 2269 2283
+)
+"src/weakTopological.ml" 75 2764 2773 "src/weakTopological.ml" 75 2764 2778
+type(
+  int
+)
+"src/weakTopological.ml" 75 2764 2779 "src/weakTopological.ml" 75 2764 2780
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/weakTopological.ml" 75 2764 2781 "src/weakTopological.ml" 75 2764 2793
+type(
+  (G.V.t, int) Hashtbl.t -> G.V.t -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/weakTopological.ml" 75 2764 2794 "src/weakTopological.ml" 75 2764 2797
+type(
+  (G.V.t, int) Hashtbl.t
+)
+ident(
+  int_ref dfn "src/weakTopological.ml" 50 2088 2096 "src/weakTopological.ml" 50 2088 2099
+)
+"src/weakTopological.ml" 75 2764 2798 "src/weakTopological.ml" 75 2764 2804
+type(
+  G.V.t
+)
+ident(
+  int_ref vertex "src/weakTopological.ml" 56 2232 2250 "src/weakTopological.ml" 56 2232 2256
+)
+"src/weakTopological.ml" 75 2764 2781 "src/weakTopological.ml" 75 2764 2804
+call(
+  stack
+)
+type(
+  int
+)
+"src/weakTopological.ml" 75 2764 2773 "src/weakTopological.ml" 75 2764 2804
+type(
+  bool
+)
+"src/weakTopological.ml" 77 2822 2830 "src/weakTopological.ml" 77 2822 2845
+type(
+  (G.V.t, int) Hashtbl.t -> G.V.t -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"src/weakTopological.ml" 77 2822 2846 "src/weakTopological.ml" 77 2822 2849
+type(
+  (G.V.t, int) Hashtbl.t
+)
+ident(
+  int_ref dfn "src/weakTopological.ml" 50 2088 2096 "src/weakTopological.ml" 50 2088 2099
+)
+"src/weakTopological.ml" 77 2822 2850 "src/weakTopological.ml" 77 2822 2856
+type(
+  G.V.t
+)
+ident(
+  int_ref vertex "src/weakTopological.ml" 56 2232 2250 "src/weakTopological.ml" 56 2232 2256
+)
+"src/weakTopological.ml" 77 2822 2857 "src/weakTopological.ml" 77 2822 2864
+type(
+  int
+)
+ident(
+  ext_ref Pervasives.max_int
+)
+"src/weakTopological.ml" 77 2822 2830 "src/weakTopological.ml" 77 2822 2864
+call(
+  stack
+)
+type(
+  unit
+)
+"src/weakTopological.ml" 78 2866 2878 "src/weakTopological.ml" 78 2866 2885
+type(
+  G.V.t ref
+)
+ident(
+  def element "src/weakTopological.ml" 79 2913 2921 "src/weakTopological.ml" 86 3160 3213
+)
+"src/weakTopological.ml" 78 2866 2888 "src/weakTopological.ml" 78 2866 2891
+type(
+  G.V.t -> G.V.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/weakTopological.ml" 78 2866 2893 "src/weakTopological.ml" 78 2866 2902
+type(
+  G.V.t Stack.t -> G.V.t
+)
+ident(
+  ext_ref Stack.pop
+)
+"src/weakTopological.ml" 78 2866 2903 "src/weakTopological.ml" 78 2866 2908
+type(
+  G.V.t Stack.t
+)
+ident(
+  int_ref stack "src/weakTopological.ml" 49 2053 2061 "src/weakTopological.ml" 49 2053 2066
+)
+"src/weakTopological.ml" 78 2866 2892 "src/weakTopological.ml" 78 2866 2909
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/weakTopological.ml" 78 2866 2888 "src/weakTopological.ml" 78 2866 2909
+type(
+  G.V.t ref
+)
+"src/weakTopological.ml" 79 2913 2924 "src/weakTopological.ml" 79 2913 2925
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/weakTopological.ml" 79 2913 2925 "src/weakTopological.ml" 79 2913 2929
+type(
+  bool ref
+)
+ident(
+  int_ref loop "src/weakTopological.ml" 58 2295 2305 "src/weakTopological.ml" 58 2295 2309
+)
+"src/weakTopological.ml" 79 2913 2924 "src/weakTopological.ml" 79 2913 2929
+type(
+  bool
+)
+"src/weakTopological.ml" 80 2941 2957 "src/weakTopological.ml" 80 2941 2968
+type(
+  G.V.t -> G.V.t -> int
+)
+ident(
+  ext_ref G.V.compare
+)
+"src/weakTopological.ml" 80 2941 2969 "src/weakTopological.ml" 80 2941 2970
+type(
+  G.V.t ref -> G.V.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/weakTopological.ml" 80 2941 2970 "src/weakTopological.ml" 80 2941 2977
+type(
+  G.V.t ref
+)
+ident(
+  int_ref element "src/weakTopological.ml" 78 2866 2878 "src/weakTopological.ml" 78 2866 2885
+)
+"src/weakTopological.ml" 80 2941 2969 "src/weakTopological.ml" 80 2941 2977
+type(
+  G.V.t
+)
+"src/weakTopological.ml" 80 2941 2978 "src/weakTopological.ml" 80 2941 2984
+type(
+  G.V.t
+)
+ident(
+  int_ref vertex "src/weakTopological.ml" 56 2232 2250 "src/weakTopological.ml" 56 2232 2256
+)
+"src/weakTopological.ml" 80 2941 2957 "src/weakTopological.ml" 80 2941 2984
+call(
+  stack
+)
+type(
+  int
+)
+"src/weakTopological.ml" 80 2941 2985 "src/weakTopological.ml" 80 2941 2987
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/weakTopological.ml" 80 2941 2988 "src/weakTopological.ml" 80 2941 2989
+type(
+  int
+)
+"src/weakTopological.ml" 80 2941 2957 "src/weakTopological.ml" 80 2941 2989
+type(
+  bool
+)
+"src/weakTopological.ml" 81 2993 3005 "src/weakTopological.ml" 81 2993 3020
+type(
+  (G.V.t, int) Hashtbl.t -> G.V.t -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"src/weakTopological.ml" 81 2993 3021 "src/weakTopological.ml" 81 2993 3024
+type(
+  (G.V.t, int) Hashtbl.t
+)
+ident(
+  int_ref dfn "src/weakTopological.ml" 50 2088 2096 "src/weakTopological.ml" 50 2088 2099
+)
+"src/weakTopological.ml" 81 2993 3025 "src/weakTopological.ml" 81 2993 3026
+type(
+  G.V.t ref -> G.V.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/weakTopological.ml" 81 2993 3026 "src/weakTopological.ml" 81 2993 3033
+type(
+  G.V.t ref
+)
+ident(
+  int_ref element "src/weakTopological.ml" 78 2866 2878 "src/weakTopological.ml" 78 2866 2885
+)
+"src/weakTopological.ml" 81 2993 3025 "src/weakTopological.ml" 81 2993 3033
+type(
+  G.V.t
+)
+"src/weakTopological.ml" 81 2993 3034 "src/weakTopological.ml" 81 2993 3035
+type(
+  int
+)
+"src/weakTopological.ml" 81 2993 3005 "src/weakTopological.ml" 81 2993 3035
+call(
+  stack
+)
+type(
+  unit
+)
+"src/weakTopological.ml" 82 3037 3049 "src/weakTopological.ml" 82 3037 3056
+type(
+  G.V.t ref
+)
+ident(
+  int_ref element "src/weakTopological.ml" 78 2866 2878 "src/weakTopological.ml" 78 2866 2885
+)
+"src/weakTopological.ml" 82 3037 3057 "src/weakTopological.ml" 82 3037 3059
+type(
+  G.V.t ref -> G.V.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/weakTopological.ml" 82 3037 3060 "src/weakTopological.ml" 82 3037 3069
+type(
+  G.V.t Stack.t -> G.V.t
+)
+ident(
+  ext_ref Stack.pop
+)
+"src/weakTopological.ml" 82 3037 3070 "src/weakTopological.ml" 82 3037 3075
+type(
+  G.V.t Stack.t
+)
+ident(
+  int_ref stack "src/weakTopological.ml" 49 2053 2061 "src/weakTopological.ml" 49 2053 2066
+)
+"src/weakTopological.ml" 82 3037 3060 "src/weakTopological.ml" 82 3037 3075
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/weakTopological.ml" 82 3037 3049 "src/weakTopological.ml" 82 3037 3076
+type(
+  unit
+)
+"src/weakTopological.ml" 81 2993 3005 "src/weakTopological.ml" 82 3037 3076
+type(
+  unit
+)
+"src/weakTopological.ml" 80 2941 2951 "src/weakTopological.ml" 83 3077 3091
+type(
+  unit
+)
+"src/weakTopological.ml" 84 3093 3103 "src/weakTopological.ml" 84 3093 3112
+type(
+  G.V.t element list ref
+)
+ident(
+  int_ref partition "src/weakTopological.ml" 56 2232 2257 "src/weakTopological.ml" 56 2232 2266
+)
+"src/weakTopological.ml" 84 3093 3113 "src/weakTopological.ml" 84 3093 3115
+type(
+  G.V.t element list ref -> G.V.t element list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/weakTopological.ml" 84 3093 3116 "src/weakTopological.ml" 84 3093 3125
+type(
+  G.V.t -> G.V.t element
+)
+ident(
+  int_ref component "src/weakTopological.ml" 90 3238 3246 "src/weakTopological.ml" 90 3238 3255
+)
+"src/weakTopological.ml" 84 3093 3126 "src/weakTopological.ml" 84 3093 3132
+type(
+  G.V.t
+)
+ident(
+  int_ref vertex "src/weakTopological.ml" 56 2232 2250 "src/weakTopological.ml" 56 2232 2256
+)
+"src/weakTopological.ml" 84 3093 3116 "src/weakTopological.ml" 84 3093 3132
+call(
+  stack
+)
+type(
+  G.V.t element
+)
+"src/weakTopological.ml" 84 3093 3136 "src/weakTopological.ml" 84 3093 3137
+type(
+  G.V.t element list ref -> G.V.t element list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/weakTopological.ml" 84 3093 3137 "src/weakTopological.ml" 84 3093 3146
+type(
+  G.V.t element list ref
+)
+ident(
+  int_ref partition "src/weakTopological.ml" 56 2232 2257 "src/weakTopological.ml" 56 2232 2266
+)
+"src/weakTopological.ml" 84 3093 3136 "src/weakTopological.ml" 84 3093 3146
+type(
+  G.V.t element list
+)
+"src/weakTopological.ml" 84 3093 3116 "src/weakTopological.ml" 84 3093 3146
+type(
+  G.V.t element list
+)
+"src/weakTopological.ml" 84 3093 3103 "src/weakTopological.ml" 84 3093 3147
+type(
+  unit
+)
+"src/weakTopological.ml" 79 2913 2935 "src/weakTopological.ml" 85 3148 3159
+type(
+  unit
+)
+"src/weakTopological.ml" 86 3160 3173 "src/weakTopological.ml" 86 3160 3182
+type(
+  G.V.t element list ref
+)
+ident(
+  int_ref partition "src/weakTopological.ml" 56 2232 2257 "src/weakTopological.ml" 56 2232 2266
+)
+"src/weakTopological.ml" 86 3160 3183 "src/weakTopological.ml" 86 3160 3185
+type(
+  G.V.t element list ref -> G.V.t element list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/weakTopological.ml" 86 3160 3193 "src/weakTopological.ml" 86 3160 3199
+type(
+  G.V.t
+)
+ident(
+  int_ref vertex "src/weakTopological.ml" 56 2232 2250 "src/weakTopological.ml" 56 2232 2256
+)
+"src/weakTopological.ml" 86 3160 3186 "src/weakTopological.ml" 86 3160 3199
+type(
+  G.V.t element
+)
+"src/weakTopological.ml" 86 3160 3203 "src/weakTopological.ml" 86 3160 3204
+type(
+  G.V.t element list ref -> G.V.t element list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/weakTopological.ml" 86 3160 3204 "src/weakTopological.ml" 86 3160 3213
+type(
+  G.V.t element list ref
+)
+ident(
+  int_ref partition "src/weakTopological.ml" 56 2232 2257 "src/weakTopological.ml" 56 2232 2266
+)
+"src/weakTopological.ml" 86 3160 3203 "src/weakTopological.ml" 86 3160 3213
+type(
+  G.V.t element list
+)
+"src/weakTopological.ml" 86 3160 3186 "src/weakTopological.ml" 86 3160 3213
+type(
+  G.V.t element list
+)
+"src/weakTopological.ml" 86 3160 3173 "src/weakTopological.ml" 86 3160 3213
+type(
+  unit
+)
+"src/weakTopological.ml" 79 2913 2921 "src/weakTopological.ml" 86 3160 3213
+type(
+  unit
+)
+"src/weakTopological.ml" 78 2866 2874 "src/weakTopological.ml" 86 3160 3213
+type(
+  unit
+)
+"src/weakTopological.ml" 76 2805 2816 "src/weakTopological.ml" 87 3214 3223
+type(
+  unit
+)
+"src/weakTopological.ml" 75 2764 2770 "src/weakTopological.ml" 87 3214 3223
+type(
+  unit
+)
+"src/weakTopological.ml" 88 3225 3231 "src/weakTopological.ml" 88 3225 3232
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/weakTopological.ml" 88 3225 3232 "src/weakTopological.ml" 88 3225 3236
+type(
+  int ref
+)
+ident(
+  int_ref head "src/weakTopological.ml" 57 2269 2279 "src/weakTopological.ml" 57 2269 2283
+)
+"src/weakTopological.ml" 88 3225 3231 "src/weakTopological.ml" 88 3225 3236
+type(
+  int
+)
+"src/weakTopological.ml" 75 2764 2770 "src/weakTopological.ml" 88 3225 3236
+type(
+  int
+)
+"src/weakTopological.ml" 63 2431 2437 "src/weakTopological.ml" 88 3225 3236
+type(
+  int
+)
+"src/weakTopological.ml" 62 2411 2417 "src/weakTopological.ml" 88 3225 3236
+type(
+  int
+)
+"src/weakTopological.ml" 61 2372 2378 "src/weakTopological.ml" 88 3225 3236
+type(
+  int
+)
+"src/weakTopological.ml" 60 2356 2362 "src/weakTopological.ml" 88 3225 3236
+type(
+  int
+)
+"src/weakTopological.ml" 59 2325 2331 "src/weakTopological.ml" 88 3225 3236
+type(
+  int
+)
+"src/weakTopological.ml" 58 2295 2301 "src/weakTopological.ml" 88 3225 3236
+type(
+  int
+)
+"src/weakTopological.ml" 57 2269 2275 "src/weakTopological.ml" 88 3225 3236
+type(
+  int
+)
+"src/weakTopological.ml" 90 3238 3246 "src/weakTopological.ml" 90 3238 3255
+type(
+  G.V.t -> G.V.t element
+)
+ident(
+  def component "src/weakTopological.ml" 56 2232 2236 "src/weakTopological.ml" 101 3538 3552
+)
+"src/weakTopological.ml" 90 3238 3256 "src/weakTopological.ml" 90 3238 3262
+type(
+  G.V.t
+)
+ident(
+  def vertex "src/weakTopological.ml" 91 3265 3271 "src/weakTopological.ml" 97 3447 3483
+)
+"src/weakTopological.ml" 91 3265 3275 "src/weakTopological.ml" 91 3265 3284
+type(
+  G.V.t element list ref
+)
+ident(
+  def partition "src/weakTopological.ml" 92 3297 3303 "src/weakTopological.ml" 97 3447 3483
+)
+"src/weakTopological.ml" 91 3265 3287 "src/weakTopological.ml" 91 3265 3290
+type(
+  G.V.t element list -> G.V.t element list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/weakTopological.ml" 91 3265 3291 "src/weakTopological.ml" 91 3265 3293
+type(
+  G.V.t element list
+)
+"src/weakTopological.ml" 91 3265 3287 "src/weakTopological.ml" 91 3265 3293
+type(
+  G.V.t element list ref
+)
+"src/weakTopological.ml" 92 3297 3303 "src/weakTopological.ml" 92 3297 3314
+type(
+  (G.V.t -> unit) -> G.t -> G.V.t -> unit
+)
+ident(
+  int_ref G.iter_succ "src/weakTopological.ml" 33 1706 1708 "src/weakTopological.ml" 33 1706 1757
+)
+"src/weakTopological.ml" 93 3315 3328 "src/weakTopological.ml" 93 3315 3332
+type(
+  G.V.t
+)
+ident(
+  def succ "src/weakTopological.ml" 94 3336 3347 "src/weakTopological.ml" 95 3376 3427
+)
+"src/weakTopological.ml" 94 3336 3350 "src/weakTopological.ml" 94 3336 3362
+type(
+  (G.V.t, int) Hashtbl.t -> G.V.t -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/weakTopological.ml" 94 3336 3363 "src/weakTopological.ml" 94 3336 3366
+type(
+  (G.V.t, int) Hashtbl.t
+)
+ident(
+  int_ref dfn "src/weakTopological.ml" 50 2088 2096 "src/weakTopological.ml" 50 2088 2099
+)
+"src/weakTopological.ml" 94 3336 3367 "src/weakTopological.ml" 94 3336 3371
+type(
+  G.V.t
+)
+ident(
+  int_ref succ "src/weakTopological.ml" 93 3315 3328 "src/weakTopological.ml" 93 3315 3332
+)
+"src/weakTopological.ml" 94 3336 3350 "src/weakTopological.ml" 94 3336 3371
+call(
+  stack
+)
+type(
+  int
+)
+"src/weakTopological.ml" 94 3336 3372 "src/weakTopological.ml" 94 3336 3373
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/weakTopological.ml" 94 3336 3374 "src/weakTopological.ml" 94 3336 3375
+type(
+  int
+)
+"src/weakTopological.ml" 94 3336 3350 "src/weakTopological.ml" 94 3336 3375
+type(
+  bool
+)
+"src/weakTopological.ml" 95 3376 3392 "src/weakTopological.ml" 95 3376 3398
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/weakTopological.ml" 95 3376 3400 "src/weakTopological.ml" 95 3376 3405
+type(
+  G.V.t -> G.V.t element list ref -> int
+)
+ident(
+  int_ref visit "src/weakTopological.ml" 56 2232 2244 "src/weakTopological.ml" 56 2232 2249
+)
+"src/weakTopological.ml" 95 3376 3406 "src/weakTopological.ml" 95 3376 3410
+type(
+  G.V.t
+)
+ident(
+  int_ref succ "src/weakTopological.ml" 93 3315 3328 "src/weakTopological.ml" 93 3315 3332
+)
+"src/weakTopological.ml" 95 3376 3411 "src/weakTopological.ml" 95 3376 3420
+type(
+  G.V.t element list ref
+)
+ident(
+  int_ref partition "src/weakTopological.ml" 91 3265 3275 "src/weakTopological.ml" 91 3265 3284
+)
+"src/weakTopological.ml" 95 3376 3400 "src/weakTopological.ml" 95 3376 3420
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+"src/weakTopological.ml" 95 3376 3392 "src/weakTopological.ml" 95 3376 3427
+type(
+  unit
+)
+"src/weakTopological.ml" 94 3336 3347 "src/weakTopological.ml" 95 3376 3427
+type(
+  unit
+)
+"src/weakTopological.ml" 93 3315 3323 "src/weakTopological.ml" 95 3376 3428
+type(
+  G.V.t -> unit
+)
+"src/weakTopological.ml" 96 3429 3437 "src/weakTopological.ml" 96 3429 3438
+type(
+  G.t
+)
+ident(
+  int_ref g "src/weakTopological.ml" 46 1916 1936 "src/weakTopological.ml" 46 1916 1937
+)
+"src/weakTopological.ml" 96 3429 3439 "src/weakTopological.ml" 96 3429 3445
+type(
+  G.V.t
+)
+ident(
+  int_ref vertex "src/weakTopological.ml" 90 3238 3256 "src/weakTopological.ml" 90 3238 3262
+)
+"src/weakTopological.ml" 92 3297 3303 "src/weakTopological.ml" 96 3429 3445
+call(
+  stack
+)
+type(
+  unit
+)
+"src/weakTopological.ml" 97 3447 3464 "src/weakTopological.ml" 97 3447 3470
+type(
+  G.V.t
+)
+ident(
+  int_ref vertex "src/weakTopological.ml" 90 3238 3256 "src/weakTopological.ml" 90 3238 3262
+)
+"src/weakTopological.ml" 97 3447 3472 "src/weakTopological.ml" 97 3447 3473
+type(
+  G.V.t t ref -> G.V.t t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/weakTopological.ml" 97 3447 3473 "src/weakTopological.ml" 97 3447 3482
+type(
+  G.V.t t ref
+)
+ident(
+  int_ref partition "src/weakTopological.ml" 91 3265 3275 "src/weakTopological.ml" 91 3265 3284
+)
+"src/weakTopological.ml" 97 3447 3472 "src/weakTopological.ml" 97 3447 3482
+type(
+  G.V.t t
+)
+"src/weakTopological.ml" 97 3447 3453 "src/weakTopological.ml" 97 3447 3483
+type(
+  G.V.t element
+)
+"src/weakTopological.ml" 92 3297 3303 "src/weakTopological.ml" 97 3447 3483
+type(
+  G.V.t element
+)
+"src/weakTopological.ml" 91 3265 3271 "src/weakTopological.ml" 97 3447 3483
+type(
+  G.V.t element
+)
+"src/weakTopological.ml" 100 3492 3501 "src/weakTopological.ml" 100 3492 3502
+type(
+  int
+)
+"src/weakTopological.ml" 100 3492 3512 "src/weakTopological.ml" 100 3492 3517
+type(
+  G.V.t -> G.V.t element list ref -> int
+)
+ident(
+  int_ref visit "src/weakTopological.ml" 56 2232 2244 "src/weakTopological.ml" 56 2232 2249
+)
+"src/weakTopological.ml" 100 3492 3518 "src/weakTopological.ml" 100 3492 3524
+type(
+  G.V.t
+)
+ident(
+  int_ref root_g "src/weakTopological.ml" 46 1916 1938 "src/weakTopological.ml" 46 1916 1944
+)
+"src/weakTopological.ml" 100 3492 3525 "src/weakTopological.ml" 100 3492 3534
+type(
+  G.V.t element list ref
+)
+ident(
+  int_ref partition "src/weakTopological.ml" 52 2148 2156 "src/weakTopological.ml" 52 2148 2165
+)
+"src/weakTopological.ml" 100 3492 3512 "src/weakTopological.ml" 100 3492 3534
+call(
+  stack
+)
+type(
+  int
+)
+"src/weakTopological.ml" 101 3538 3542 "src/weakTopological.ml" 101 3538 3543
+type(
+  G.V.t element list ref -> G.V.t element list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/weakTopological.ml" 101 3538 3543 "src/weakTopological.ml" 101 3538 3552
+type(
+  G.V.t element list ref
+)
+ident(
+  int_ref partition "src/weakTopological.ml" 52 2148 2156 "src/weakTopological.ml" 52 2148 2165
+)
+"src/weakTopological.ml" 101 3538 3542 "src/weakTopological.ml" 101 3538 3552
+type(
+  G.V.t element list
+)
+"src/weakTopological.ml" 100 3492 3496 "src/weakTopological.ml" 101 3538 3552
+type(
+  G.V.t element list
+)
+"src/weakTopological.ml" 56 2232 2236 "src/weakTopological.ml" 101 3538 3552
+type(
+  G.V.t element list
+)
+"src/weakTopological.ml" 54 2179 2183 "src/weakTopological.ml" 101 3538 3552
+type(
+  G.V.t element list
+)
+"src/weakTopological.ml" 52 2148 2152 "src/weakTopological.ml" 101 3538 3552
+type(
+  G.V.t element list
+)
+"src/weakTopological.ml" 51 2125 2129 "src/weakTopological.ml" 101 3538 3552
+type(
+  G.V.t element list
+)
+"src/weakTopological.ml" 50 2088 2092 "src/weakTopological.ml" 101 3538 3552
+type(
+  G.V.t element list
+)
+"src/weakTopological.ml" 49 2053 2057 "src/weakTopological.ml" 101 3538 3552
+type(
+  G.V.t element list
+)

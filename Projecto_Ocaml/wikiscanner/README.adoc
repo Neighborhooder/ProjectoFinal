@@ -1,0 +1,44 @@
+= Wikiscanner
+
+Wikiscanner is a small prototype that reads a wikipedia dump information and
+uses the OCamlGraph library to search a path between two given pages' titles.
+
+== How to compile
+
+A Makefile is included in the distribution.
+
+for ocamlbuild and ocamlfind user::
+
+    `make`
+
+for a classical compilation procedure::
+
+    `make classic`
+
+== How to use
+
+Once you get an executable file you should download the following wkipedia
+dump files:
+XXXwiki-<YYYYMMDD>-page.sql.gz
+XXXwiki-<YYYYMMDD>-pagelinks.sql.gz
++
+where XXX is the nature of the dump (language, wikimedia, etc).
++
+For first experiences it is recommended to use `simplewiki` dumps.
++
+To use `wikiscanner` we should type in your terminal:
+
+   `wikiscanner XXXwiki-<YYYYMMDD>-page.sql XXXwiki-<YYYYMMDD>-pagelinks.sql`
+
+== Documentation
+
+To generate documentation for Wikiscanner::
+
+   `make wikiscanner.pdf`
++
+This will generate the `wikiscanner.pdf` file. You need `ocamlweb` installed in
+your machine.
+
+== Authors
+
+  Mário Pereira <mpereira@lri.fr>

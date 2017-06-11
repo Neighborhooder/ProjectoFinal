@@ -1,0 +1,2010 @@
+"src/fixpoint.ml" 65 2418 2431 "src/fixpoint.ml" 65 2418 2444
+call(
+  stack
+)
+"src/fixpoint.ml" 66 2445 2458 "src/fixpoint.ml" 66 2445 2471
+call(
+  stack
+)
+"src/fixpoint.ml" 68 2473 2479 "src/fixpoint.ml" 68 2473 2486
+type(
+  (N.elt -> A.data) -> G.t -> M.key -> A.data
+)
+ident(
+  def analyze "src/fixpoint.ml" 171 6295 6323 "src/fixpoint.ml" 172 6324 6327
+)
+"src/fixpoint.ml" 68 2473 2487 "src/fixpoint.ml" 68 2473 2494
+type(
+  N.elt -> A.data
+)
+ident(
+  def initial "src/fixpoint.ml" 68 2473 2495 "src/fixpoint.ml" 171 6295 6323
+)
+"src/fixpoint.ml" 68 2473 2495 "src/fixpoint.ml" 68 2473 2496
+type(
+  G.t
+)
+ident(
+  def g "src/fixpoint.ml" 69 2499 2503 "src/fixpoint.ml" 171 6295 6323
+)
+"src/fixpoint.ml" 69 2499 2508 "src/fixpoint.ml" 69 2499 2513
+type(
+  N.t
+)
+ident(
+  def nodes "src/fixpoint.ml" 79 2896 2900 "src/fixpoint.ml" 171 6295 6323
+)
+"src/fixpoint.ml" 69 2499 2515 "src/fixpoint.ml" 69 2499 2519
+type(
+  A.data M.t
+)
+ident(
+  def data "src/fixpoint.ml" 79 2896 2900 "src/fixpoint.ml" 171 6295 6323
+)
+"src/fixpoint.ml" 69 2499 2507 "src/fixpoint.ml" 69 2499 2520
+type(
+  N.t * A.data M.t
+)
+"src/fixpoint.ml" 70 2523 2529 "src/fixpoint.ml" 70 2523 2542
+type(
+  (N.elt -> N.t * A.data M.t -> N.t * A.data M.t) ->
+  G.t -> N.t * A.data M.t -> N.t * A.data M.t
+)
+ident(
+  int_ref G.fold_vertex "src/fixpoint.ml" 51 2093 2095 "src/fixpoint.ml" 51 2093 2147
+)
+"src/fixpoint.ml" 71 2543 2556 "src/fixpoint.ml" 71 2543 2562
+type(
+  N.elt
+)
+ident(
+  def vertex "src/fixpoint.ml" 71 2543 2563 "src/fixpoint.ml" 72 2573 2633
+)
+"src/fixpoint.ml" 71 2543 2564 "src/fixpoint.ml" 71 2543 2565
+type(
+  N.t
+)
+ident(
+  def n "src/fixpoint.ml" 72 2573 2584 "src/fixpoint.ml" 72 2573 2633
+)
+"src/fixpoint.ml" 71 2543 2567 "src/fixpoint.ml" 71 2543 2568
+type(
+  A.data M.t
+)
+ident(
+  def m "src/fixpoint.ml" 72 2573 2584 "src/fixpoint.ml" 72 2573 2633
+)
+"src/fixpoint.ml" 71 2543 2563 "src/fixpoint.ml" 71 2543 2569
+type(
+  N.t * A.data M.t
+)
+"src/fixpoint.ml" 72 2573 2585 "src/fixpoint.ml" 72 2573 2590
+type(
+  N.elt -> N.t -> N.t
+)
+ident(
+  ext_ref N.add
+)
+"src/fixpoint.ml" 72 2573 2591 "src/fixpoint.ml" 72 2573 2597
+type(
+  N.elt
+)
+ident(
+  int_ref vertex "src/fixpoint.ml" 71 2543 2556 "src/fixpoint.ml" 71 2543 2562
+)
+"src/fixpoint.ml" 72 2573 2598 "src/fixpoint.ml" 72 2573 2599
+type(
+  N.t
+)
+ident(
+  int_ref n "src/fixpoint.ml" 71 2543 2564 "src/fixpoint.ml" 71 2543 2565
+)
+"src/fixpoint.ml" 72 2573 2585 "src/fixpoint.ml" 72 2573 2599
+call(
+  stack
+)
+type(
+  N.t
+)
+"src/fixpoint.ml" 72 2573 2601 "src/fixpoint.ml" 72 2573 2606
+type(
+  M.key -> A.data -> A.data M.t -> A.data M.t
+)
+ident(
+  ext_ref M.add
+)
+"src/fixpoint.ml" 72 2573 2607 "src/fixpoint.ml" 72 2573 2613
+type(
+  N.elt
+)
+ident(
+  int_ref vertex "src/fixpoint.ml" 71 2543 2556 "src/fixpoint.ml" 71 2543 2562
+)
+"src/fixpoint.ml" 72 2573 2615 "src/fixpoint.ml" 72 2573 2622
+type(
+  N.elt -> A.data
+)
+ident(
+  int_ref initial "src/fixpoint.ml" 68 2473 2487 "src/fixpoint.ml" 68 2473 2494
+)
+"src/fixpoint.ml" 72 2573 2623 "src/fixpoint.ml" 72 2573 2629
+type(
+  N.elt
+)
+ident(
+  int_ref vertex "src/fixpoint.ml" 71 2543 2556 "src/fixpoint.ml" 71 2543 2562
+)
+"src/fixpoint.ml" 72 2573 2614 "src/fixpoint.ml" 72 2573 2630
+call(
+  stack
+)
+type(
+  A.data
+)
+"src/fixpoint.ml" 72 2573 2631 "src/fixpoint.ml" 72 2573 2632
+type(
+  A.data M.t
+)
+ident(
+  int_ref m "src/fixpoint.ml" 71 2543 2567 "src/fixpoint.ml" 71 2543 2568
+)
+"src/fixpoint.ml" 72 2573 2601 "src/fixpoint.ml" 72 2573 2632
+call(
+  stack
+)
+type(
+  A.data M.t
+)
+"src/fixpoint.ml" 72 2573 2584 "src/fixpoint.ml" 72 2573 2633
+type(
+  N.t * A.data M.t
+)
+"src/fixpoint.ml" 71 2543 2551 "src/fixpoint.ml" 72 2573 2634
+type(
+  N.elt -> N.t * A.data M.t -> N.t * A.data M.t
+)
+"src/fixpoint.ml" 73 2635 2643 "src/fixpoint.ml" 73 2635 2644
+type(
+  G.t
+)
+ident(
+  int_ref g "src/fixpoint.ml" 68 2473 2495 "src/fixpoint.ml" 68 2473 2496
+)
+"src/fixpoint.ml" 73 2635 2646 "src/fixpoint.ml" 73 2635 2653
+type(
+  N.t
+)
+ident(
+  ext_ref N.empty
+)
+"src/fixpoint.ml" 73 2635 2655 "src/fixpoint.ml" 73 2635 2662
+type(
+  A.data M.t
+)
+ident(
+  ext_ref M.empty
+)
+"src/fixpoint.ml" 73 2635 2645 "src/fixpoint.ml" 73 2635 2663
+type(
+  N.t * A.data M.t
+)
+"src/fixpoint.ml" 70 2523 2529 "src/fixpoint.ml" 73 2635 2663
+call(
+  stack
+)
+type(
+  N.t * A.data M.t
+)
+"src/fixpoint.ml" 79 2896 2904 "src/fixpoint.ml" 79 2896 2911
+type(
+  ((A.data -> A.data) * G.V.t) list M.t
+)
+ident(
+  def nodemap "src/fixpoint.ml" 97 3459 3463 "src/fixpoint.ml" 171 6295 6323
+)
+"src/fixpoint.ml" 80 2954 2964 "src/fixpoint.ml" 80 2954 2967
+type(
+  G.V.t -> ((A.data -> A.data) * G.V.t) list
+)
+ident(
+  def add "src/fixpoint.ml" 94 3375 3381 "src/fixpoint.ml" 94 3375 3450
+)
+"src/fixpoint.ml" 80 2954 2976 "src/fixpoint.ml" 80 2954 2987
+type(
+  direction
+)
+ident(
+  int_ref A.direction "src/fixpoint.ml" 36 1762 1764 "src/fixpoint.ml" 36 1762 1789
+)
+"src/fixpoint.ml" 81 2993 3003 "src/fixpoint.ml" 81 2993 3010
+type(
+  direction
+)
+"src/fixpoint.ml" 82 3014 3029 "src/fixpoint.ml" 82 3014 3030
+type(
+  G.V.t
+)
+ident(
+  def n "src/fixpoint.ml" 83 3034 3047 "src/fixpoint.ml" 86 3157 3177
+)
+"src/fixpoint.ml" 83 3034 3051 "src/fixpoint.ml" 83 3034 3056
+type(
+  G.E.t list
+)
+ident(
+  def preds "src/fixpoint.ml" 84 3075 3088 "src/fixpoint.ml" 86 3157 3177
+)
+"src/fixpoint.ml" 83 3034 3059 "src/fixpoint.ml" 83 3034 3067
+type(
+  G.t -> G.V.t -> G.E.t list
+)
+ident(
+  int_ref G.pred_e "src/fixpoint.ml" 53 2184 2186 "src/fixpoint.ml" 53 2184 2219
+)
+"src/fixpoint.ml" 83 3034 3068 "src/fixpoint.ml" 83 3034 3069
+type(
+  G.t
+)
+ident(
+  int_ref g "src/fixpoint.ml" 68 2473 2495 "src/fixpoint.ml" 68 2473 2496
+)
+"src/fixpoint.ml" 83 3034 3070 "src/fixpoint.ml" 83 3034 3071
+type(
+  G.V.t
+)
+ident(
+  int_ref n "src/fixpoint.ml" 82 3014 3029 "src/fixpoint.ml" 82 3014 3030
+)
+"src/fixpoint.ml" 83 3034 3059 "src/fixpoint.ml" 83 3034 3071
+call(
+  stack
+)
+type(
+  G.E.t list
+)
+"src/fixpoint.ml" 84 3075 3088 "src/fixpoint.ml" 84 3075 3096
+type(
+  (A.edge -> (A.data -> A.data) * G.V.t) ->
+  A.edge list -> ((A.data -> A.data) * G.V.t) list
+)
+ident(
+  ext_ref List.map
+)
+"src/fixpoint.ml" 85 3097 3117 "src/fixpoint.ml" 85 3097 3121
+type(
+  A.edge
+)
+ident(
+  def edge "src/fixpoint.ml" 85 3097 3125 "src/fixpoint.ml" 85 3097 3155
+)
+"src/fixpoint.ml" 85 3097 3126 "src/fixpoint.ml" 85 3097 3135
+type(
+  A.edge -> A.data -> A.data
+)
+ident(
+  int_ref A.analyze "src/fixpoint.ml" 39 1859 1861 "src/fixpoint.ml" 39 1859 1895
+)
+"src/fixpoint.ml" 85 3097 3136 "src/fixpoint.ml" 85 3097 3140
+type(
+  A.edge
+)
+ident(
+  int_ref edge "src/fixpoint.ml" 85 3097 3117 "src/fixpoint.ml" 85 3097 3121
+)
+"src/fixpoint.ml" 85 3097 3126 "src/fixpoint.ml" 85 3097 3140
+call(
+  stack
+)
+type(
+  A.data -> A.data
+)
+"src/fixpoint.ml" 85 3097 3142 "src/fixpoint.ml" 85 3097 3149
+type(
+  A.edge -> G.V.t
+)
+ident(
+  int_ref G.E.src "src/fixpoint.ml" 49 2064 2068 "src/fixpoint.ml" 49 2064 2086
+)
+"src/fixpoint.ml" 85 3097 3150 "src/fixpoint.ml" 85 3097 3154
+type(
+  A.edge
+)
+ident(
+  int_ref edge "src/fixpoint.ml" 85 3097 3117 "src/fixpoint.ml" 85 3097 3121
+)
+"src/fixpoint.ml" 85 3097 3142 "src/fixpoint.ml" 85 3097 3154
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/fixpoint.ml" 85 3097 3125 "src/fixpoint.ml" 85 3097 3155
+type(
+  (A.data -> A.data) * G.V.t
+)
+"src/fixpoint.ml" 85 3097 3112 "src/fixpoint.ml" 85 3097 3156
+type(
+  A.edge -> (A.data -> A.data) * G.V.t
+)
+"src/fixpoint.ml" 86 3157 3172 "src/fixpoint.ml" 86 3157 3177
+type(
+  A.edge list
+)
+ident(
+  int_ref preds "src/fixpoint.ml" 83 3034 3051 "src/fixpoint.ml" 83 3034 3056
+)
+"src/fixpoint.ml" 84 3075 3088 "src/fixpoint.ml" 86 3157 3177
+call(
+  tail
+)
+type(
+  ((A.data -> A.data) * G.V.t) list
+)
+"src/fixpoint.ml" 83 3034 3047 "src/fixpoint.ml" 86 3157 3177
+type(
+  ((A.data -> A.data) * G.V.t) list
+)
+"src/fixpoint.ml" 82 3014 3024 "src/fixpoint.ml" 86 3157 3178
+type(
+  G.V.t -> ((A.data -> A.data) * G.V.t) list
+)
+"src/fixpoint.ml" 87 3179 3189 "src/fixpoint.ml" 87 3179 3197
+type(
+  direction
+)
+"src/fixpoint.ml" 88 3201 3216 "src/fixpoint.ml" 88 3201 3217
+type(
+  G.V.t
+)
+ident(
+  def n "src/fixpoint.ml" 89 3221 3234 "src/fixpoint.ml" 92 3344 3364
+)
+"src/fixpoint.ml" 89 3221 3238 "src/fixpoint.ml" 89 3221 3243
+type(
+  G.E.t list
+)
+ident(
+  def succs "src/fixpoint.ml" 90 3262 3275 "src/fixpoint.ml" 92 3344 3364
+)
+"src/fixpoint.ml" 89 3221 3246 "src/fixpoint.ml" 89 3221 3254
+type(
+  G.t -> G.V.t -> G.E.t list
+)
+ident(
+  int_ref G.succ_e "src/fixpoint.ml" 52 2148 2150 "src/fixpoint.ml" 52 2148 2183
+)
+"src/fixpoint.ml" 89 3221 3255 "src/fixpoint.ml" 89 3221 3256
+type(
+  G.t
+)
+ident(
+  int_ref g "src/fixpoint.ml" 68 2473 2495 "src/fixpoint.ml" 68 2473 2496
+)
+"src/fixpoint.ml" 89 3221 3257 "src/fixpoint.ml" 89 3221 3258
+type(
+  G.V.t
+)
+ident(
+  int_ref n "src/fixpoint.ml" 88 3201 3216 "src/fixpoint.ml" 88 3201 3217
+)
+"src/fixpoint.ml" 89 3221 3246 "src/fixpoint.ml" 89 3221 3258
+call(
+  stack
+)
+type(
+  G.E.t list
+)
+"src/fixpoint.ml" 90 3262 3275 "src/fixpoint.ml" 90 3262 3283
+type(
+  (A.edge -> (A.data -> A.data) * G.V.t) ->
+  A.edge list -> ((A.data -> A.data) * G.V.t) list
+)
+ident(
+  ext_ref List.map
+)
+"src/fixpoint.ml" 91 3284 3304 "src/fixpoint.ml" 91 3284 3308
+type(
+  A.edge
+)
+ident(
+  def edge "src/fixpoint.ml" 91 3284 3312 "src/fixpoint.ml" 91 3284 3342
+)
+"src/fixpoint.ml" 91 3284 3313 "src/fixpoint.ml" 91 3284 3322
+type(
+  A.edge -> A.data -> A.data
+)
+ident(
+  int_ref A.analyze "src/fixpoint.ml" 39 1859 1861 "src/fixpoint.ml" 39 1859 1895
+)
+"src/fixpoint.ml" 91 3284 3323 "src/fixpoint.ml" 91 3284 3327
+type(
+  A.edge
+)
+ident(
+  int_ref edge "src/fixpoint.ml" 91 3284 3304 "src/fixpoint.ml" 91 3284 3308
+)
+"src/fixpoint.ml" 91 3284 3313 "src/fixpoint.ml" 91 3284 3327
+call(
+  stack
+)
+type(
+  A.data -> A.data
+)
+"src/fixpoint.ml" 91 3284 3329 "src/fixpoint.ml" 91 3284 3336
+type(
+  A.edge -> G.V.t
+)
+ident(
+  int_ref G.E.dst "src/fixpoint.ml" 48 2041 2045 "src/fixpoint.ml" 48 2041 2063
+)
+"src/fixpoint.ml" 91 3284 3337 "src/fixpoint.ml" 91 3284 3341
+type(
+  A.edge
+)
+ident(
+  int_ref edge "src/fixpoint.ml" 91 3284 3304 "src/fixpoint.ml" 91 3284 3308
+)
+"src/fixpoint.ml" 91 3284 3329 "src/fixpoint.ml" 91 3284 3341
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/fixpoint.ml" 91 3284 3312 "src/fixpoint.ml" 91 3284 3342
+type(
+  (A.data -> A.data) * G.V.t
+)
+"src/fixpoint.ml" 91 3284 3299 "src/fixpoint.ml" 91 3284 3343
+type(
+  A.edge -> (A.data -> A.data) * G.V.t
+)
+"src/fixpoint.ml" 92 3344 3359 "src/fixpoint.ml" 92 3344 3364
+type(
+  A.edge list
+)
+ident(
+  int_ref succs "src/fixpoint.ml" 89 3221 3238 "src/fixpoint.ml" 89 3221 3243
+)
+"src/fixpoint.ml" 90 3262 3275 "src/fixpoint.ml" 92 3344 3364
+call(
+  tail
+)
+type(
+  ((A.data -> A.data) * G.V.t) list
+)
+"src/fixpoint.ml" 89 3221 3234 "src/fixpoint.ml" 92 3344 3364
+type(
+  ((A.data -> A.data) * G.V.t) list
+)
+"src/fixpoint.ml" 88 3201 3211 "src/fixpoint.ml" 92 3344 3365
+type(
+  G.V.t -> ((A.data -> A.data) * G.V.t) list
+)
+"src/fixpoint.ml" 80 2954 2970 "src/fixpoint.ml" 92 3344 3365
+type(
+  G.V.t -> ((A.data -> A.data) * G.V.t) list
+)
+"src/fixpoint.ml" 94 3375 3381 "src/fixpoint.ml" 94 3375 3394
+type(
+  (M.key ->
+   ((A.data -> A.data) * G.V.t) list M.t ->
+   ((A.data -> A.data) * G.V.t) list M.t) ->
+  G.t ->
+  ((A.data -> A.data) * G.V.t) list M.t ->
+  ((A.data -> A.data) * G.V.t) list M.t
+)
+ident(
+  int_ref G.fold_vertex "src/fixpoint.ml" 51 2093 2095 "src/fixpoint.ml" 51 2093 2147
+)
+"src/fixpoint.ml" 94 3375 3400 "src/fixpoint.ml" 94 3375 3406
+type(
+  M.key
+)
+ident(
+  def vertex "src/fixpoint.ml" 94 3375 3407 "src/fixpoint.ml" 94 3375 3439
+)
+"src/fixpoint.ml" 94 3375 3407 "src/fixpoint.ml" 94 3375 3408
+type(
+  ((A.data -> A.data) * G.V.t) list M.t
+)
+ident(
+  def m "src/fixpoint.ml" 94 3375 3412 "src/fixpoint.ml" 94 3375 3439
+)
+"src/fixpoint.ml" 94 3375 3412 "src/fixpoint.ml" 94 3375 3417
+type(
+  M.key ->
+  ((A.data -> A.data) * G.V.t) list ->
+  ((A.data -> A.data) * G.V.t) list M.t ->
+  ((A.data -> A.data) * G.V.t) list M.t
+)
+ident(
+  ext_ref M.add
+)
+"src/fixpoint.ml" 94 3375 3418 "src/fixpoint.ml" 94 3375 3424
+type(
+  M.key
+)
+ident(
+  int_ref vertex "src/fixpoint.ml" 94 3375 3400 "src/fixpoint.ml" 94 3375 3406
+)
+"src/fixpoint.ml" 94 3375 3426 "src/fixpoint.ml" 94 3375 3429
+type(
+  M.key -> ((A.data -> A.data) * G.V.t) list
+)
+ident(
+  int_ref add "src/fixpoint.ml" 80 2954 2964 "src/fixpoint.ml" 80 2954 2967
+)
+"src/fixpoint.ml" 94 3375 3430 "src/fixpoint.ml" 94 3375 3436
+type(
+  M.key
+)
+ident(
+  int_ref vertex "src/fixpoint.ml" 94 3375 3400 "src/fixpoint.ml" 94 3375 3406
+)
+"src/fixpoint.ml" 94 3375 3425 "src/fixpoint.ml" 94 3375 3437
+call(
+  stack
+)
+type(
+  ((A.data -> A.data) * G.V.t) list
+)
+"src/fixpoint.ml" 94 3375 3438 "src/fixpoint.ml" 94 3375 3439
+type(
+  ((A.data -> A.data) * G.V.t) list M.t
+)
+ident(
+  int_ref m "src/fixpoint.ml" 94 3375 3407 "src/fixpoint.ml" 94 3375 3408
+)
+"src/fixpoint.ml" 94 3375 3412 "src/fixpoint.ml" 94 3375 3439
+call(
+  tail
+)
+type(
+  ((A.data -> A.data) * G.V.t) list M.t
+)
+"src/fixpoint.ml" 94 3375 3395 "src/fixpoint.ml" 94 3375 3440
+type(
+  M.key ->
+  ((A.data -> A.data) * G.V.t) list M.t ->
+  ((A.data -> A.data) * G.V.t) list M.t
+)
+"src/fixpoint.ml" 94 3375 3441 "src/fixpoint.ml" 94 3375 3442
+type(
+  G.t
+)
+ident(
+  int_ref g "src/fixpoint.ml" 68 2473 2495 "src/fixpoint.ml" 68 2473 2496
+)
+"src/fixpoint.ml" 94 3375 3443 "src/fixpoint.ml" 94 3375 3450
+type(
+  ((A.data -> A.data) * G.V.t) list M.t
+)
+ident(
+  ext_ref M.empty
+)
+"src/fixpoint.ml" 94 3375 3381 "src/fixpoint.ml" 94 3375 3450
+call(
+  stack
+)
+type(
+  ((A.data -> A.data) * G.V.t) list M.t
+)
+"src/fixpoint.ml" 80 2954 2960 "src/fixpoint.ml" 94 3375 3450
+type(
+  ((A.data -> A.data) * G.V.t) list M.t
+)
+type(
+  ((A.data -> A.data) * G.V.t) list M.t
+)
+"src/fixpoint.ml" 97 3459 3471 "src/fixpoint.ml" 97 3459 3479
+type(
+  A.data M.t -> N.t -> A.data M.t
+)
+ident(
+  def worklist "src/fixpoint.ml" 97 3459 3463 "src/fixpoint.ml" 171 6295 6323
+)
+"src/fixpoint.ml" 97 3459 3481 "src/fixpoint.ml" 97 3459 3485
+type(
+  A.data M.t
+)
+ident(
+  def data "src/fixpoint.ml" 97 3459 3500 "src/fixpoint.ml" 168 6225 6249
+)
+"src/fixpoint.ml" 97 3459 3501 "src/fixpoint.ml" 97 3459 3503
+type(
+  N.t
+)
+ident(
+  def wl "src/fixpoint.ml" 99 3565 3571 "src/fixpoint.ml" 168 6225 6249
+)
+"src/fixpoint.ml" 99 3565 3575 "src/fixpoint.ml" 99 3565 3579
+type(
+  default:A.data -> A.data list -> A.data
+)
+ident(
+  def meet "src/fixpoint.ml" 107 3810 3816 "src/fixpoint.ml" 168 6225 6249
+)
+"src/fixpoint.ml" 99 3565 3581 "src/fixpoint.ml" 99 3565 3588
+type(
+  A.data
+)
+ident(
+  def default "src/fixpoint.ml" 99 3565 3591 "src/fixpoint.ml" 102 3643 3705
+)
+"src/fixpoint.ml" 100 3600 3610 "src/fixpoint.ml" 100 3600 3612
+type(
+  A.data list
+)
+"src/fixpoint.ml" 100 3600 3616 "src/fixpoint.ml" 100 3600 3623
+type(
+  A.data
+)
+ident(
+  int_ref default "src/fixpoint.ml" 99 3565 3581 "src/fixpoint.ml" 99 3565 3588
+)
+"src/fixpoint.ml" 101 3624 3635 "src/fixpoint.ml" 101 3624 3636
+type(
+  A.data
+)
+ident(
+  def x "src/fixpoint.ml" 101 3624 3641 "src/fixpoint.ml" 101 3624 3642
+)
+"src/fixpoint.ml" 101 3624 3634 "src/fixpoint.ml" 101 3624 3637
+type(
+  A.data list
+)
+"src/fixpoint.ml" 101 3624 3641 "src/fixpoint.ml" 101 3624 3642
+type(
+  A.data
+)
+ident(
+  int_ref x "src/fixpoint.ml" 101 3624 3635 "src/fixpoint.ml" 101 3624 3636
+)
+"src/fixpoint.ml" 102 3643 3653 "src/fixpoint.ml" 102 3643 3654
+type(
+  A.data
+)
+ident(
+  def x "src/fixpoint.ml" 102 3643 3662 "src/fixpoint.ml" 102 3643 3705
+)
+"src/fixpoint.ml" 102 3643 3656 "src/fixpoint.ml" 102 3643 3658
+type(
+  A.data list
+)
+ident(
+  def xs "src/fixpoint.ml" 102 3643 3662 "src/fixpoint.ml" 102 3643 3705
+)
+"src/fixpoint.ml" 102 3643 3653 "src/fixpoint.ml" 102 3643 3658
+type(
+  A.data list
+)
+"src/fixpoint.ml" 102 3643 3662 "src/fixpoint.ml" 102 3643 3676
+type(
+  (A.data -> A.data -> A.data) -> A.data -> A.data list -> A.data
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/fixpoint.ml" 102 3643 3682 "src/fixpoint.ml" 102 3643 3683
+type(
+  A.data
+)
+ident(
+  def a "src/fixpoint.ml" 102 3643 3684 "src/fixpoint.ml" 102 3643 3699
+)
+"src/fixpoint.ml" 102 3643 3684 "src/fixpoint.ml" 102 3643 3685
+type(
+  A.data
+)
+ident(
+  def b "src/fixpoint.ml" 102 3643 3689 "src/fixpoint.ml" 102 3643 3699
+)
+"src/fixpoint.ml" 102 3643 3689 "src/fixpoint.ml" 102 3643 3695
+type(
+  A.data -> A.data -> A.data
+)
+ident(
+  int_ref A.join "src/fixpoint.ml" 37 1790 1792 "src/fixpoint.ml" 37 1790 1823
+)
+"src/fixpoint.ml" 102 3643 3696 "src/fixpoint.ml" 102 3643 3697
+type(
+  A.data
+)
+ident(
+  int_ref a "src/fixpoint.ml" 102 3643 3682 "src/fixpoint.ml" 102 3643 3683
+)
+"src/fixpoint.ml" 102 3643 3698 "src/fixpoint.ml" 102 3643 3699
+type(
+  A.data
+)
+ident(
+  int_ref b "src/fixpoint.ml" 102 3643 3684 "src/fixpoint.ml" 102 3643 3685
+)
+"src/fixpoint.ml" 102 3643 3689 "src/fixpoint.ml" 102 3643 3699
+call(
+  tail
+)
+type(
+  A.data
+)
+"src/fixpoint.ml" 102 3643 3677 "src/fixpoint.ml" 102 3643 3700
+type(
+  A.data -> A.data -> A.data
+)
+"src/fixpoint.ml" 102 3643 3701 "src/fixpoint.ml" 102 3643 3702
+type(
+  A.data
+)
+ident(
+  int_ref x "src/fixpoint.ml" 102 3643 3653 "src/fixpoint.ml" 102 3643 3654
+)
+"src/fixpoint.ml" 102 3643 3703 "src/fixpoint.ml" 102 3643 3705
+type(
+  A.data list
+)
+ident(
+  int_ref xs "src/fixpoint.ml" 102 3643 3656 "src/fixpoint.ml" 102 3643 3658
+)
+"src/fixpoint.ml" 102 3643 3662 "src/fixpoint.ml" 102 3643 3705
+call(
+  tail
+)
+type(
+  A.data
+)
+"src/fixpoint.ml" 99 3565 3591 "src/fixpoint.ml" 102 3643 3705
+type(
+  A.data list -> A.data
+)
+"src/fixpoint.ml" 107 3810 3820 "src/fixpoint.ml" 107 3810 3832
+type(
+  ('a -> N.elt -> 'a option) -> N.elt -> 'a -> N.t -> 'a * N.t
+)
+ident(
+  def analyze_node "src/fixpoint.ml" 115 4057 4063 "src/fixpoint.ml" 168 6225 6249
+)
+"src/fixpoint.ml" 107 3810 3833 "src/fixpoint.ml" 107 3810 3841
+type(
+  'a -> N.elt -> 'a option
+)
+ident(
+  def analysis "src/fixpoint.ml" 107 3810 3842 "src/fixpoint.ml" 110 3909 3946
+)
+"src/fixpoint.ml" 107 3810 3842 "src/fixpoint.ml" 107 3810 3843
+type(
+  N.elt
+)
+ident(
+  def n "src/fixpoint.ml" 107 3810 3844 "src/fixpoint.ml" 110 3909 3946
+)
+"src/fixpoint.ml" 107 3810 3844 "src/fixpoint.ml" 107 3810 3845
+type(
+  'a
+)
+ident(
+  def d "src/fixpoint.ml" 107 3810 3846 "src/fixpoint.ml" 110 3909 3946
+)
+"src/fixpoint.ml" 107 3810 3846 "src/fixpoint.ml" 107 3810 3848
+type(
+  N.t
+)
+ident(
+  def wl "src/fixpoint.ml" 108 3851 3859 "src/fixpoint.ml" 110 3909 3946
+)
+"src/fixpoint.ml" 108 3851 3865 "src/fixpoint.ml" 108 3851 3873
+type(
+  'a -> N.elt -> 'a option
+)
+ident(
+  int_ref analysis "src/fixpoint.ml" 107 3810 3833 "src/fixpoint.ml" 107 3810 3841
+)
+"src/fixpoint.ml" 108 3851 3874 "src/fixpoint.ml" 108 3851 3875
+type(
+  'a
+)
+ident(
+  int_ref d "src/fixpoint.ml" 107 3810 3844 "src/fixpoint.ml" 107 3810 3845
+)
+"src/fixpoint.ml" 108 3851 3876 "src/fixpoint.ml" 108 3851 3877
+type(
+  N.elt
+)
+ident(
+  int_ref n "src/fixpoint.ml" 107 3810 3842 "src/fixpoint.ml" 107 3810 3843
+)
+"src/fixpoint.ml" 108 3851 3865 "src/fixpoint.ml" 108 3851 3877
+call(
+  stack
+)
+type(
+  'a option
+)
+"src/fixpoint.ml" 109 3883 3893 "src/fixpoint.ml" 109 3883 3897
+type(
+  'a option
+)
+"src/fixpoint.ml" 109 3883 3902 "src/fixpoint.ml" 109 3883 3903
+type(
+  'a
+)
+ident(
+  int_ref d "src/fixpoint.ml" 107 3810 3844 "src/fixpoint.ml" 107 3810 3845
+)
+"src/fixpoint.ml" 109 3883 3905 "src/fixpoint.ml" 109 3883 3907
+type(
+  N.t
+)
+ident(
+  int_ref wl "src/fixpoint.ml" 107 3810 3846 "src/fixpoint.ml" 107 3810 3848
+)
+"src/fixpoint.ml" 109 3883 3901 "src/fixpoint.ml" 109 3883 3908
+type(
+  'a * N.t
+)
+"src/fixpoint.ml" 110 3909 3924 "src/fixpoint.ml" 110 3909 3926
+type(
+  'a
+)
+ident(
+  def d' "src/fixpoint.ml" 110 3909 3930 "src/fixpoint.ml" 110 3909 3946
+)
+"src/fixpoint.ml" 110 3909 3919 "src/fixpoint.ml" 110 3909 3926
+type(
+  'a option
+)
+"src/fixpoint.ml" 110 3909 3931 "src/fixpoint.ml" 110 3909 3933
+type(
+  'a
+)
+ident(
+  int_ref d' "src/fixpoint.ml" 110 3909 3924 "src/fixpoint.ml" 110 3909 3926
+)
+"src/fixpoint.ml" 110 3909 3935 "src/fixpoint.ml" 110 3909 3940
+type(
+  N.elt -> N.t -> N.t
+)
+ident(
+  ext_ref N.add
+)
+"src/fixpoint.ml" 110 3909 3941 "src/fixpoint.ml" 110 3909 3942
+type(
+  N.elt
+)
+ident(
+  int_ref n "src/fixpoint.ml" 107 3810 3842 "src/fixpoint.ml" 107 3810 3843
+)
+"src/fixpoint.ml" 110 3909 3943 "src/fixpoint.ml" 110 3909 3945
+type(
+  N.t
+)
+ident(
+  int_ref wl "src/fixpoint.ml" 107 3810 3846 "src/fixpoint.ml" 107 3810 3848
+)
+"src/fixpoint.ml" 110 3909 3935 "src/fixpoint.ml" 110 3909 3945
+call(
+  stack
+)
+type(
+  N.t
+)
+"src/fixpoint.ml" 110 3909 3930 "src/fixpoint.ml" 110 3909 3946
+type(
+  'a * N.t
+)
+"src/fixpoint.ml" 108 3851 3859 "src/fixpoint.ml" 110 3909 3946
+type(
+  'a * N.t
+)
+"src/fixpoint.ml" 115 4057 4080 "src/fixpoint.ml" 115 4057 4088
+type(
+  N.t -> N.elt
+)
+ident(
+  ext_ref N.choose
+)
+"src/fixpoint.ml" 115 4057 4089 "src/fixpoint.ml" 115 4057 4091
+type(
+  N.t
+)
+ident(
+  int_ref wl "src/fixpoint.ml" 97 3459 3501 "src/fixpoint.ml" 97 3459 3503
+)
+"src/fixpoint.ml" 115 4057 4079 "src/fixpoint.ml" 115 4057 4092
+call(
+  stack
+)
+type(
+  N.elt
+)
+"src/fixpoint.ml" 115 4057 4074 "src/fixpoint.ml" 115 4057 4092
+type(
+  N.elt option
+)
+"src/fixpoint.ml" 115 4057 4098 "src/fixpoint.ml" 115 4057 4107
+type(
+  exn
+)
+"src/fixpoint.ml" 115 4057 4111 "src/fixpoint.ml" 115 4057 4115
+type(
+  N.elt option
+)
+"src/fixpoint.ml" 115 4057 4069 "src/fixpoint.ml" 115 4057 4116
+type(
+  N.elt option
+)
+"src/fixpoint.ml" 116 4122 4130 "src/fixpoint.ml" 116 4122 4134
+type(
+  N.elt option
+)
+"src/fixpoint.ml" 116 4122 4138 "src/fixpoint.ml" 116 4122 4142
+type(
+  A.data M.t
+)
+ident(
+  int_ref data "src/fixpoint.ml" 97 3459 3481 "src/fixpoint.ml" 97 3459 3485
+)
+"src/fixpoint.ml" 117 4143 4156 "src/fixpoint.ml" 117 4143 4157
+type(
+  N.elt
+)
+ident(
+  def n "src/fixpoint.ml" 119 4211 4219 "src/fixpoint.ml" 168 6225 6249
+)
+"src/fixpoint.ml" 117 4143 4151 "src/fixpoint.ml" 117 4143 4157
+type(
+  N.elt option
+)
+"src/fixpoint.ml" 119 4211 4223 "src/fixpoint.ml" 119 4211 4225
+type(
+  N.t
+)
+ident(
+  def wl "src/fixpoint.ml" 121 4246 4254 "src/fixpoint.ml" 168 6225 6249
+)
+"src/fixpoint.ml" 119 4211 4228 "src/fixpoint.ml" 119 4211 4236
+type(
+  N.elt -> N.t -> N.t
+)
+ident(
+  ext_ref N.remove
+)
+"src/fixpoint.ml" 119 4211 4237 "src/fixpoint.ml" 119 4211 4238
+type(
+  N.elt
+)
+ident(
+  int_ref n "src/fixpoint.ml" 117 4143 4156 "src/fixpoint.ml" 117 4143 4157
+)
+"src/fixpoint.ml" 119 4211 4239 "src/fixpoint.ml" 119 4211 4241
+type(
+  N.t
+)
+ident(
+  int_ref wl "src/fixpoint.ml" 97 3459 3501 "src/fixpoint.ml" 97 3459 3503
+)
+"src/fixpoint.ml" 119 4211 4228 "src/fixpoint.ml" 119 4211 4241
+call(
+  stack
+)
+type(
+  N.t
+)
+"src/fixpoint.ml" 121 4246 4259 "src/fixpoint.ml" 121 4246 4260
+type(
+  A.data M.t -> M.key -> A.data M.t option
+)
+ident(
+  def f "src/fixpoint.ml" 161 5949 5957 "src/fixpoint.ml" 168 6225 6249
+)
+"src/fixpoint.ml" 121 4246 4262 "src/fixpoint.ml" 121 4246 4264
+type(
+  G.V.t list
+)
+ident(
+  def ns "src/fixpoint.ml" 161 5949 5957 "src/fixpoint.ml" 168 6225 6249
+)
+"src/fixpoint.ml" 121 4246 4258 "src/fixpoint.ml" 121 4246 4265
+type(
+  (A.data M.t -> M.key -> A.data M.t option) * G.V.t list
+)
+"src/fixpoint.ml" 121 4246 4274 "src/fixpoint.ml" 121 4246 4285
+type(
+  direction
+)
+ident(
+  int_ref A.direction "src/fixpoint.ml" 36 1762 1764 "src/fixpoint.ml" 36 1762 1789
+)
+"src/fixpoint.ml" 124 4398 4410 "src/fixpoint.ml" 124 4398 4417
+type(
+  direction
+)
+"src/fixpoint.ml" 129 4666 4682 "src/fixpoint.ml" 129 4666 4695
+type(
+  A.data M.t -> M.key -> A.data M.t option
+)
+ident(
+  def new_node_data "src/fixpoint.ml" 141 5147 5159 "src/fixpoint.ml" 141 5147 5186
+)
+"src/fixpoint.ml" 129 4666 4697 "src/fixpoint.ml" 129 4666 4701
+type(
+  A.data M.t
+)
+ident(
+  def data "src/fixpoint.ml" 129 4666 4716 "src/fixpoint.ml" 138 5078 5130
+)
+"src/fixpoint.ml" 129 4666 4716 "src/fixpoint.ml" 129 4666 4720
+type(
+  M.key
+)
+ident(
+  def node "src/fixpoint.ml" 130 4723 4737 "src/fixpoint.ml" 138 5078 5130
+)
+"src/fixpoint.ml" 130 4723 4741 "src/fixpoint.ml" 130 4723 4746
+type(
+  ((A.data -> A.data) * G.V.t) list
+)
+ident(
+  def edges "src/fixpoint.ml" 131 4772 4786 "src/fixpoint.ml" 138 5078 5130
+)
+"src/fixpoint.ml" 130 4723 4749 "src/fixpoint.ml" 130 4723 4755
+type(
+  M.key ->
+  ((A.data -> A.data) * G.V.t) list M.t -> ((A.data -> A.data) * G.V.t) list
+)
+ident(
+  ext_ref M.find
+)
+"src/fixpoint.ml" 130 4723 4756 "src/fixpoint.ml" 130 4723 4760
+type(
+  M.key
+)
+ident(
+  int_ref node "src/fixpoint.ml" 129 4666 4716 "src/fixpoint.ml" 129 4666 4720
+)
+"src/fixpoint.ml" 130 4723 4761 "src/fixpoint.ml" 130 4723 4768
+type(
+  ((A.data -> A.data) * G.V.t) list M.t
+)
+ident(
+  int_ref nodemap "src/fixpoint.ml" 79 2896 2904 "src/fixpoint.ml" 79 2896 2911
+)
+"src/fixpoint.ml" 130 4723 4749 "src/fixpoint.ml" 130 4723 4768
+call(
+  stack
+)
+type(
+  ((A.data -> A.data) * G.V.t) list
+)
+"src/fixpoint.ml" 131 4772 4790 "src/fixpoint.ml" 131 4772 4798
+type(
+  A.data list
+)
+ident(
+  def analysis "src/fixpoint.ml" 135 4905 4919 "src/fixpoint.ml" 138 5078 5130
+)
+"src/fixpoint.ml" 132 4801 4817 "src/fixpoint.ml" 132 4801 4825
+type(
+  ((A.data -> A.data) * M.key -> A.data) ->
+  ((A.data -> A.data) * M.key) list -> A.data list
+)
+ident(
+  ext_ref List.map
+)
+"src/fixpoint.ml" 133 4826 4850 "src/fixpoint.ml" 133 4826 4851
+type(
+  A.data -> A.data
+)
+ident(
+  def f "src/fixpoint.ml" 133 4826 4861 "src/fixpoint.ml" 133 4826 4880
+)
+"src/fixpoint.ml" 133 4826 4853 "src/fixpoint.ml" 133 4826 4856
+type(
+  M.key
+)
+ident(
+  def src "src/fixpoint.ml" 133 4826 4861 "src/fixpoint.ml" 133 4826 4880
+)
+"src/fixpoint.ml" 133 4826 4849 "src/fixpoint.ml" 133 4826 4857
+type(
+  (A.data -> A.data) * M.key
+)
+"src/fixpoint.ml" 133 4826 4861 "src/fixpoint.ml" 133 4826 4862
+type(
+  A.data -> A.data
+)
+ident(
+  int_ref f "src/fixpoint.ml" 133 4826 4850 "src/fixpoint.ml" 133 4826 4851
+)
+"src/fixpoint.ml" 133 4826 4864 "src/fixpoint.ml" 133 4826 4870
+type(
+  M.key -> A.data M.t -> A.data
+)
+ident(
+  ext_ref M.find
+)
+"src/fixpoint.ml" 133 4826 4871 "src/fixpoint.ml" 133 4826 4874
+type(
+  M.key
+)
+ident(
+  int_ref src "src/fixpoint.ml" 133 4826 4853 "src/fixpoint.ml" 133 4826 4856
+)
+"src/fixpoint.ml" 133 4826 4875 "src/fixpoint.ml" 133 4826 4879
+type(
+  A.data M.t
+)
+ident(
+  int_ref data "src/fixpoint.ml" 129 4666 4697 "src/fixpoint.ml" 129 4666 4701
+)
+"src/fixpoint.ml" 133 4826 4863 "src/fixpoint.ml" 133 4826 4880
+call(
+  stack
+)
+type(
+  A.data
+)
+"src/fixpoint.ml" 133 4826 4861 "src/fixpoint.ml" 133 4826 4880
+call(
+  tail
+)
+type(
+  A.data
+)
+"src/fixpoint.ml" 133 4826 4844 "src/fixpoint.ml" 133 4826 4881
+type(
+  (A.data -> A.data) * M.key -> A.data
+)
+"src/fixpoint.ml" 133 4826 4882 "src/fixpoint.ml" 133 4826 4887
+type(
+  ((A.data -> A.data) * M.key) list
+)
+ident(
+  int_ref edges "src/fixpoint.ml" 130 4723 4741 "src/fixpoint.ml" 130 4723 4746
+)
+"src/fixpoint.ml" 132 4801 4817 "src/fixpoint.ml" 133 4826 4887
+call(
+  stack
+)
+type(
+  A.data list
+)
+"src/fixpoint.ml" 135 4905 4923 "src/fixpoint.ml" 135 4905 4932
+type(
+  A.data
+)
+ident(
+  def node_data "src/fixpoint.ml" 136 4955 4969 "src/fixpoint.ml" 138 5078 5130
+)
+"src/fixpoint.ml" 135 4905 4935 "src/fixpoint.ml" 135 4905 4941
+type(
+  M.key -> A.data M.t -> A.data
+)
+ident(
+  ext_ref M.find
+)
+"src/fixpoint.ml" 135 4905 4942 "src/fixpoint.ml" 135 4905 4946
+type(
+  M.key
+)
+ident(
+  int_ref node "src/fixpoint.ml" 129 4666 4716 "src/fixpoint.ml" 129 4666 4720
+)
+"src/fixpoint.ml" 135 4905 4947 "src/fixpoint.ml" 135 4905 4951
+type(
+  A.data M.t
+)
+ident(
+  int_ref data "src/fixpoint.ml" 129 4666 4697 "src/fixpoint.ml" 129 4666 4701
+)
+"src/fixpoint.ml" 135 4905 4935 "src/fixpoint.ml" 135 4905 4951
+call(
+  stack
+)
+type(
+  A.data
+)
+"src/fixpoint.ml" 136 4955 4973 "src/fixpoint.ml" 136 4955 4983
+type(
+  A.data
+)
+ident(
+  def node_data' "src/fixpoint.ml" 137 5022 5036 "src/fixpoint.ml" 138 5078 5130
+)
+"src/fixpoint.ml" 136 4955 4986 "src/fixpoint.ml" 136 4955 4990
+type(
+  default:A.data -> A.data list -> A.data
+)
+ident(
+  int_ref meet "src/fixpoint.ml" 99 3565 3575 "src/fixpoint.ml" 99 3565 3579
+)
+"src/fixpoint.ml" 136 4955 5000 "src/fixpoint.ml" 136 4955 5009
+type(
+  A.data
+)
+ident(
+  int_ref node_data "src/fixpoint.ml" 135 4905 4923 "src/fixpoint.ml" 135 4905 4932
+)
+"src/fixpoint.ml" 136 4955 5010 "src/fixpoint.ml" 136 4955 5018
+type(
+  A.data list
+)
+ident(
+  int_ref analysis "src/fixpoint.ml" 131 4772 4790 "src/fixpoint.ml" 131 4772 4798
+)
+"src/fixpoint.ml" 136 4955 4986 "src/fixpoint.ml" 136 4955 5018
+call(
+  stack
+)
+type(
+  A.data
+)
+"src/fixpoint.ml" 137 5022 5039 "src/fixpoint.ml" 137 5022 5046
+type(
+  A.data -> A.data -> bool
+)
+ident(
+  int_ref A.equal "src/fixpoint.ml" 38 1824 1826 "src/fixpoint.ml" 38 1824 1858
+)
+"src/fixpoint.ml" 137 5022 5047 "src/fixpoint.ml" 137 5022 5056
+type(
+  A.data
+)
+ident(
+  int_ref node_data "src/fixpoint.ml" 135 4905 4923 "src/fixpoint.ml" 135 4905 4932
+)
+"src/fixpoint.ml" 137 5022 5057 "src/fixpoint.ml" 137 5022 5067
+type(
+  A.data
+)
+ident(
+  int_ref node_data' "src/fixpoint.ml" 136 4955 4973 "src/fixpoint.ml" 136 4955 4983
+)
+"src/fixpoint.ml" 137 5022 5039 "src/fixpoint.ml" 137 5022 5067
+call(
+  stack
+)
+type(
+  bool
+)
+"src/fixpoint.ml" 137 5022 5073 "src/fixpoint.ml" 137 5022 5077
+type(
+  A.data M.t option
+)
+"src/fixpoint.ml" 138 5078 5103 "src/fixpoint.ml" 138 5078 5108
+type(
+  M.key -> A.data -> A.data M.t -> A.data M.t
+)
+ident(
+  ext_ref M.add
+)
+"src/fixpoint.ml" 138 5078 5109 "src/fixpoint.ml" 138 5078 5113
+type(
+  M.key
+)
+ident(
+  int_ref node "src/fixpoint.ml" 129 4666 4716 "src/fixpoint.ml" 129 4666 4720
+)
+"src/fixpoint.ml" 138 5078 5114 "src/fixpoint.ml" 138 5078 5124
+type(
+  A.data
+)
+ident(
+  int_ref node_data' "src/fixpoint.ml" 136 4955 4973 "src/fixpoint.ml" 136 4955 4983
+)
+"src/fixpoint.ml" 138 5078 5125 "src/fixpoint.ml" 138 5078 5129
+type(
+  A.data M.t
+)
+ident(
+  int_ref data "src/fixpoint.ml" 129 4666 4697 "src/fixpoint.ml" 129 4666 4701
+)
+"src/fixpoint.ml" 138 5078 5102 "src/fixpoint.ml" 138 5078 5130
+call(
+  stack
+)
+type(
+  A.data M.t
+)
+"src/fixpoint.ml" 138 5078 5097 "src/fixpoint.ml" 138 5078 5130
+type(
+  A.data M.t option
+)
+"src/fixpoint.ml" 137 5022 5036 "src/fixpoint.ml" 138 5078 5130
+type(
+  A.data M.t option
+)
+"src/fixpoint.ml" 136 4955 4969 "src/fixpoint.ml" 138 5078 5130
+type(
+  A.data M.t option
+)
+"src/fixpoint.ml" 135 4905 4919 "src/fixpoint.ml" 138 5078 5130
+type(
+  A.data M.t option
+)
+"src/fixpoint.ml" 131 4772 4786 "src/fixpoint.ml" 138 5078 5130
+type(
+  A.data M.t option
+)
+"src/fixpoint.ml" 130 4723 4737 "src/fixpoint.ml" 138 5078 5130
+type(
+  A.data M.t option
+)
+"src/fixpoint.ml" 141 5147 5160 "src/fixpoint.ml" 141 5147 5173
+type(
+  A.data M.t -> M.key -> A.data M.t option
+)
+ident(
+  int_ref new_node_data "src/fixpoint.ml" 129 4666 4682 "src/fixpoint.ml" 129 4666 4695
+)
+"src/fixpoint.ml" 141 5147 5175 "src/fixpoint.ml" 141 5147 5181
+type(
+  G.t -> N.elt -> G.V.t list
+)
+ident(
+  int_ref G.succ "src/fixpoint.ml" 54 2220 2222 "src/fixpoint.ml" 54 2220 2253
+)
+"src/fixpoint.ml" 141 5147 5182 "src/fixpoint.ml" 141 5147 5183
+type(
+  G.t
+)
+ident(
+  int_ref g "src/fixpoint.ml" 68 2473 2495 "src/fixpoint.ml" 68 2473 2496
+)
+"src/fixpoint.ml" 141 5147 5184 "src/fixpoint.ml" 141 5147 5185
+type(
+  N.elt
+)
+ident(
+  int_ref n "src/fixpoint.ml" 117 4143 4156 "src/fixpoint.ml" 117 4143 4157
+)
+"src/fixpoint.ml" 141 5147 5175 "src/fixpoint.ml" 141 5147 5185
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/fixpoint.ml" 141 5147 5159 "src/fixpoint.ml" 141 5147 5186
+type(
+  (A.data M.t -> M.key -> A.data M.t option) * G.V.t list
+)
+"src/fixpoint.ml" 129 4666 4678 "src/fixpoint.ml" 141 5147 5186
+type(
+  (A.data M.t -> M.key -> A.data M.t option) * G.V.t list
+)
+"src/fixpoint.ml" 144 5296 5308 "src/fixpoint.ml" 144 5296 5316
+type(
+  direction
+)
+"src/fixpoint.ml" 145 5320 5336 "src/fixpoint.ml" 145 5320 5349
+type(
+  A.data M.t -> M.key -> A.data M.t option
+)
+ident(
+  def new_node_data "src/fixpoint.ml" 157 5801 5813 "src/fixpoint.ml" 157 5801 5840
+)
+"src/fixpoint.ml" 145 5320 5351 "src/fixpoint.ml" 145 5320 5355
+type(
+  A.data M.t
+)
+ident(
+  def data "src/fixpoint.ml" 145 5320 5370 "src/fixpoint.ml" 154 5732 5784
+)
+"src/fixpoint.ml" 145 5320 5370 "src/fixpoint.ml" 145 5320 5374
+type(
+  M.key
+)
+ident(
+  def node "src/fixpoint.ml" 146 5377 5391 "src/fixpoint.ml" 154 5732 5784
+)
+"src/fixpoint.ml" 146 5377 5395 "src/fixpoint.ml" 146 5377 5400
+type(
+  ((A.data -> A.data) * G.V.t) list
+)
+ident(
+  def edges "src/fixpoint.ml" 147 5426 5440 "src/fixpoint.ml" 154 5732 5784
+)
+"src/fixpoint.ml" 146 5377 5403 "src/fixpoint.ml" 146 5377 5409
+type(
+  M.key ->
+  ((A.data -> A.data) * G.V.t) list M.t -> ((A.data -> A.data) * G.V.t) list
+)
+ident(
+  ext_ref M.find
+)
+"src/fixpoint.ml" 146 5377 5410 "src/fixpoint.ml" 146 5377 5414
+type(
+  M.key
+)
+ident(
+  int_ref node "src/fixpoint.ml" 145 5320 5370 "src/fixpoint.ml" 145 5320 5374
+)
+"src/fixpoint.ml" 146 5377 5415 "src/fixpoint.ml" 146 5377 5422
+type(
+  ((A.data -> A.data) * G.V.t) list M.t
+)
+ident(
+  int_ref nodemap "src/fixpoint.ml" 79 2896 2904 "src/fixpoint.ml" 79 2896 2911
+)
+"src/fixpoint.ml" 146 5377 5403 "src/fixpoint.ml" 146 5377 5422
+call(
+  stack
+)
+type(
+  ((A.data -> A.data) * G.V.t) list
+)
+"src/fixpoint.ml" 147 5426 5444 "src/fixpoint.ml" 147 5426 5452
+type(
+  A.data list
+)
+ident(
+  def analysis "src/fixpoint.ml" 151 5559 5573 "src/fixpoint.ml" 154 5732 5784
+)
+"src/fixpoint.ml" 148 5455 5471 "src/fixpoint.ml" 148 5455 5479
+type(
+  ((A.data -> A.data) * M.key -> A.data) ->
+  ((A.data -> A.data) * M.key) list -> A.data list
+)
+ident(
+  ext_ref List.map
+)
+"src/fixpoint.ml" 149 5480 5504 "src/fixpoint.ml" 149 5480 5505
+type(
+  A.data -> A.data
+)
+ident(
+  def f "src/fixpoint.ml" 149 5480 5515 "src/fixpoint.ml" 149 5480 5534
+)
+"src/fixpoint.ml" 149 5480 5507 "src/fixpoint.ml" 149 5480 5510
+type(
+  M.key
+)
+ident(
+  def dst "src/fixpoint.ml" 149 5480 5515 "src/fixpoint.ml" 149 5480 5534
+)
+"src/fixpoint.ml" 149 5480 5503 "src/fixpoint.ml" 149 5480 5511
+type(
+  (A.data -> A.data) * M.key
+)
+"src/fixpoint.ml" 149 5480 5515 "src/fixpoint.ml" 149 5480 5516
+type(
+  A.data -> A.data
+)
+ident(
+  int_ref f "src/fixpoint.ml" 149 5480 5504 "src/fixpoint.ml" 149 5480 5505
+)
+"src/fixpoint.ml" 149 5480 5518 "src/fixpoint.ml" 149 5480 5524
+type(
+  M.key -> A.data M.t -> A.data
+)
+ident(
+  ext_ref M.find
+)
+"src/fixpoint.ml" 149 5480 5525 "src/fixpoint.ml" 149 5480 5528
+type(
+  M.key
+)
+ident(
+  int_ref dst "src/fixpoint.ml" 149 5480 5507 "src/fixpoint.ml" 149 5480 5510
+)
+"src/fixpoint.ml" 149 5480 5529 "src/fixpoint.ml" 149 5480 5533
+type(
+  A.data M.t
+)
+ident(
+  int_ref data "src/fixpoint.ml" 145 5320 5351 "src/fixpoint.ml" 145 5320 5355
+)
+"src/fixpoint.ml" 149 5480 5517 "src/fixpoint.ml" 149 5480 5534
+call(
+  stack
+)
+type(
+  A.data
+)
+"src/fixpoint.ml" 149 5480 5515 "src/fixpoint.ml" 149 5480 5534
+call(
+  tail
+)
+type(
+  A.data
+)
+"src/fixpoint.ml" 149 5480 5498 "src/fixpoint.ml" 149 5480 5535
+type(
+  (A.data -> A.data) * M.key -> A.data
+)
+"src/fixpoint.ml" 149 5480 5536 "src/fixpoint.ml" 149 5480 5541
+type(
+  ((A.data -> A.data) * M.key) list
+)
+ident(
+  int_ref edges "src/fixpoint.ml" 146 5377 5395 "src/fixpoint.ml" 146 5377 5400
+)
+"src/fixpoint.ml" 148 5455 5471 "src/fixpoint.ml" 149 5480 5541
+call(
+  stack
+)
+type(
+  A.data list
+)
+"src/fixpoint.ml" 151 5559 5577 "src/fixpoint.ml" 151 5559 5586
+type(
+  A.data
+)
+ident(
+  def node_data "src/fixpoint.ml" 152 5609 5623 "src/fixpoint.ml" 154 5732 5784
+)
+"src/fixpoint.ml" 151 5559 5589 "src/fixpoint.ml" 151 5559 5595
+type(
+  M.key -> A.data M.t -> A.data
+)
+ident(
+  ext_ref M.find
+)
+"src/fixpoint.ml" 151 5559 5596 "src/fixpoint.ml" 151 5559 5600
+type(
+  M.key
+)
+ident(
+  int_ref node "src/fixpoint.ml" 145 5320 5370 "src/fixpoint.ml" 145 5320 5374
+)
+"src/fixpoint.ml" 151 5559 5601 "src/fixpoint.ml" 151 5559 5605
+type(
+  A.data M.t
+)
+ident(
+  int_ref data "src/fixpoint.ml" 145 5320 5351 "src/fixpoint.ml" 145 5320 5355
+)
+"src/fixpoint.ml" 151 5559 5589 "src/fixpoint.ml" 151 5559 5605
+call(
+  stack
+)
+type(
+  A.data
+)
+"src/fixpoint.ml" 152 5609 5627 "src/fixpoint.ml" 152 5609 5637
+type(
+  A.data
+)
+ident(
+  def node_data' "src/fixpoint.ml" 153 5676 5690 "src/fixpoint.ml" 154 5732 5784
+)
+"src/fixpoint.ml" 152 5609 5640 "src/fixpoint.ml" 152 5609 5644
+type(
+  default:A.data -> A.data list -> A.data
+)
+ident(
+  int_ref meet "src/fixpoint.ml" 99 3565 3575 "src/fixpoint.ml" 99 3565 3579
+)
+"src/fixpoint.ml" 152 5609 5654 "src/fixpoint.ml" 152 5609 5663
+type(
+  A.data
+)
+ident(
+  int_ref node_data "src/fixpoint.ml" 151 5559 5577 "src/fixpoint.ml" 151 5559 5586
+)
+"src/fixpoint.ml" 152 5609 5664 "src/fixpoint.ml" 152 5609 5672
+type(
+  A.data list
+)
+ident(
+  int_ref analysis "src/fixpoint.ml" 147 5426 5444 "src/fixpoint.ml" 147 5426 5452
+)
+"src/fixpoint.ml" 152 5609 5640 "src/fixpoint.ml" 152 5609 5672
+call(
+  stack
+)
+type(
+  A.data
+)
+"src/fixpoint.ml" 153 5676 5693 "src/fixpoint.ml" 153 5676 5700
+type(
+  A.data -> A.data -> bool
+)
+ident(
+  int_ref A.equal "src/fixpoint.ml" 38 1824 1826 "src/fixpoint.ml" 38 1824 1858
+)
+"src/fixpoint.ml" 153 5676 5701 "src/fixpoint.ml" 153 5676 5710
+type(
+  A.data
+)
+ident(
+  int_ref node_data "src/fixpoint.ml" 151 5559 5577 "src/fixpoint.ml" 151 5559 5586
+)
+"src/fixpoint.ml" 153 5676 5711 "src/fixpoint.ml" 153 5676 5721
+type(
+  A.data
+)
+ident(
+  int_ref node_data' "src/fixpoint.ml" 152 5609 5627 "src/fixpoint.ml" 152 5609 5637
+)
+"src/fixpoint.ml" 153 5676 5693 "src/fixpoint.ml" 153 5676 5721
+call(
+  stack
+)
+type(
+  bool
+)
+"src/fixpoint.ml" 153 5676 5727 "src/fixpoint.ml" 153 5676 5731
+type(
+  A.data M.t option
+)
+"src/fixpoint.ml" 154 5732 5757 "src/fixpoint.ml" 154 5732 5762
+type(
+  M.key -> A.data -> A.data M.t -> A.data M.t
+)
+ident(
+  ext_ref M.add
+)
+"src/fixpoint.ml" 154 5732 5763 "src/fixpoint.ml" 154 5732 5767
+type(
+  M.key
+)
+ident(
+  int_ref node "src/fixpoint.ml" 145 5320 5370 "src/fixpoint.ml" 145 5320 5374
+)
+"src/fixpoint.ml" 154 5732 5768 "src/fixpoint.ml" 154 5732 5778
+type(
+  A.data
+)
+ident(
+  int_ref node_data' "src/fixpoint.ml" 152 5609 5627 "src/fixpoint.ml" 152 5609 5637
+)
+"src/fixpoint.ml" 154 5732 5779 "src/fixpoint.ml" 154 5732 5783
+type(
+  A.data M.t
+)
+ident(
+  int_ref data "src/fixpoint.ml" 145 5320 5351 "src/fixpoint.ml" 145 5320 5355
+)
+"src/fixpoint.ml" 154 5732 5756 "src/fixpoint.ml" 154 5732 5784
+call(
+  stack
+)
+type(
+  A.data M.t
+)
+"src/fixpoint.ml" 154 5732 5751 "src/fixpoint.ml" 154 5732 5784
+type(
+  A.data M.t option
+)
+"src/fixpoint.ml" 153 5676 5690 "src/fixpoint.ml" 154 5732 5784
+type(
+  A.data M.t option
+)
+"src/fixpoint.ml" 152 5609 5623 "src/fixpoint.ml" 154 5732 5784
+type(
+  A.data M.t option
+)
+"src/fixpoint.ml" 151 5559 5573 "src/fixpoint.ml" 154 5732 5784
+type(
+  A.data M.t option
+)
+"src/fixpoint.ml" 147 5426 5440 "src/fixpoint.ml" 154 5732 5784
+type(
+  A.data M.t option
+)
+"src/fixpoint.ml" 146 5377 5391 "src/fixpoint.ml" 154 5732 5784
+type(
+  A.data M.t option
+)
+"src/fixpoint.ml" 157 5801 5814 "src/fixpoint.ml" 157 5801 5827
+type(
+  A.data M.t -> M.key -> A.data M.t option
+)
+ident(
+  int_ref new_node_data "src/fixpoint.ml" 145 5320 5336 "src/fixpoint.ml" 145 5320 5349
+)
+"src/fixpoint.ml" 157 5801 5829 "src/fixpoint.ml" 157 5801 5835
+type(
+  G.t -> N.elt -> G.V.t list
+)
+ident(
+  int_ref G.pred "src/fixpoint.ml" 55 2254 2256 "src/fixpoint.ml" 55 2254 2287
+)
+"src/fixpoint.ml" 157 5801 5836 "src/fixpoint.ml" 157 5801 5837
+type(
+  G.t
+)
+ident(
+  int_ref g "src/fixpoint.ml" 68 2473 2495 "src/fixpoint.ml" 68 2473 2496
+)
+"src/fixpoint.ml" 157 5801 5838 "src/fixpoint.ml" 157 5801 5839
+type(
+  N.elt
+)
+ident(
+  int_ref n "src/fixpoint.ml" 117 4143 4156 "src/fixpoint.ml" 117 4143 4157
+)
+"src/fixpoint.ml" 157 5801 5829 "src/fixpoint.ml" 157 5801 5839
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/fixpoint.ml" 157 5801 5813 "src/fixpoint.ml" 157 5801 5840
+type(
+  (A.data M.t -> M.key -> A.data M.t option) * G.V.t list
+)
+"src/fixpoint.ml" 145 5320 5332 "src/fixpoint.ml" 157 5801 5840
+type(
+  (A.data M.t -> M.key -> A.data M.t option) * G.V.t list
+)
+"src/fixpoint.ml" 121 4246 4268 "src/fixpoint.ml" 157 5801 5840
+type(
+  (A.data M.t -> M.key -> A.data M.t option) * G.V.t list
+)
+"src/fixpoint.ml" 161 5949 5962 "src/fixpoint.ml" 161 5949 5966
+type(
+  A.data M.t
+)
+ident(
+  def data "src/fixpoint.ml" 168 6225 6233 "src/fixpoint.ml" 168 6225 6249
+)
+"src/fixpoint.ml" 161 5949 5968 "src/fixpoint.ml" 161 5949 5970
+type(
+  N.t
+)
+ident(
+  def wl "src/fixpoint.ml" 168 6225 6233 "src/fixpoint.ml" 168 6225 6249
+)
+"src/fixpoint.ml" 161 5949 5961 "src/fixpoint.ml" 161 5949 5971
+type(
+  A.data M.t * N.t
+)
+"src/fixpoint.ml" 162 5974 5984 "src/fixpoint.ml" 162 5974 5998
+type(
+  (A.data M.t * N.t -> N.elt -> A.data M.t * N.t) ->
+  A.data M.t * N.t -> N.elt list -> A.data M.t * N.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/fixpoint.ml" 162 5974 6005 "src/fixpoint.ml" 162 5974 6006
+type(
+  A.data M.t
+)
+ident(
+  def d "src/fixpoint.ml" 162 5974 6012 "src/fixpoint.ml" 162 5974 6038
+)
+"src/fixpoint.ml" 162 5974 6008 "src/fixpoint.ml" 162 5974 6010
+type(
+  N.t
+)
+ident(
+  def wl "src/fixpoint.ml" 162 5974 6012 "src/fixpoint.ml" 162 5974 6038
+)
+"src/fixpoint.ml" 162 5974 6004 "src/fixpoint.ml" 162 5974 6011
+type(
+  A.data M.t * N.t
+)
+"src/fixpoint.ml" 162 5974 6012 "src/fixpoint.ml" 162 5974 6013
+type(
+  N.elt
+)
+ident(
+  def n "src/fixpoint.ml" 162 5974 6017 "src/fixpoint.ml" 162 5974 6038
+)
+"src/fixpoint.ml" 162 5974 6017 "src/fixpoint.ml" 162 5974 6029
+type(
+  (A.data M.t -> N.elt -> A.data M.t option) ->
+  N.elt -> A.data M.t -> N.t -> A.data M.t * N.t
+)
+ident(
+  int_ref analyze_node "src/fixpoint.ml" 107 3810 3820 "src/fixpoint.ml" 107 3810 3832
+)
+"src/fixpoint.ml" 162 5974 6030 "src/fixpoint.ml" 162 5974 6031
+type(
+  A.data M.t -> N.elt -> A.data M.t option
+)
+ident(
+  int_ref f "src/fixpoint.ml" 121 4246 4259 "src/fixpoint.ml" 121 4246 4260
+)
+"src/fixpoint.ml" 162 5974 6032 "src/fixpoint.ml" 162 5974 6033
+type(
+  N.elt
+)
+ident(
+  int_ref n "src/fixpoint.ml" 162 5974 6012 "src/fixpoint.ml" 162 5974 6013
+)
+"src/fixpoint.ml" 162 5974 6034 "src/fixpoint.ml" 162 5974 6035
+type(
+  A.data M.t
+)
+ident(
+  int_ref d "src/fixpoint.ml" 162 5974 6005 "src/fixpoint.ml" 162 5974 6006
+)
+"src/fixpoint.ml" 162 5974 6036 "src/fixpoint.ml" 162 5974 6038
+type(
+  N.t
+)
+ident(
+  int_ref wl "src/fixpoint.ml" 162 5974 6008 "src/fixpoint.ml" 162 5974 6010
+)
+"src/fixpoint.ml" 162 5974 6017 "src/fixpoint.ml" 162 5974 6038
+call(
+  tail
+)
+type(
+  A.data M.t * N.t
+)
+"src/fixpoint.ml" 162 5974 5999 "src/fixpoint.ml" 162 5974 6039
+type(
+  A.data M.t * N.t -> N.elt -> A.data M.t * N.t
+)
+"src/fixpoint.ml" 163 6040 6053 "src/fixpoint.ml" 163 6040 6057
+type(
+  A.data M.t
+)
+ident(
+  int_ref data "src/fixpoint.ml" 97 3459 3481 "src/fixpoint.ml" 97 3459 3485
+)
+"src/fixpoint.ml" 163 6040 6059 "src/fixpoint.ml" 163 6040 6061
+type(
+  N.t
+)
+ident(
+  int_ref wl "src/fixpoint.ml" 119 4211 4223 "src/fixpoint.ml" 119 4211 4225
+)
+"src/fixpoint.ml" 163 6040 6052 "src/fixpoint.ml" 163 6040 6062
+type(
+  A.data M.t * N.t
+)
+"src/fixpoint.ml" 163 6040 6063 "src/fixpoint.ml" 163 6040 6065
+type(
+  N.elt list
+)
+ident(
+  int_ref ns "src/fixpoint.ml" 121 4246 4262 "src/fixpoint.ml" 121 4246 4264
+)
+"src/fixpoint.ml" 162 5974 5984 "src/fixpoint.ml" 163 6040 6065
+call(
+  stack
+)
+type(
+  A.data M.t * N.t
+)
+"src/fixpoint.ml" 168 6225 6233 "src/fixpoint.ml" 168 6225 6241
+type(
+  A.data M.t -> N.t -> A.data M.t
+)
+ident(
+  int_ref worklist "src/fixpoint.ml" 97 3459 3471 "src/fixpoint.ml" 97 3459 3479
+)
+"src/fixpoint.ml" 168 6225 6242 "src/fixpoint.ml" 168 6225 6246
+type(
+  A.data M.t
+)
+ident(
+  int_ref data "src/fixpoint.ml" 161 5949 5962 "src/fixpoint.ml" 161 5949 5966
+)
+"src/fixpoint.ml" 168 6225 6247 "src/fixpoint.ml" 168 6225 6249
+type(
+  N.t
+)
+ident(
+  int_ref wl "src/fixpoint.ml" 161 5949 5968 "src/fixpoint.ml" 161 5949 5970
+)
+"src/fixpoint.ml" 168 6225 6233 "src/fixpoint.ml" 168 6225 6249
+call(
+  tail
+)
+type(
+  A.data M.t
+)
+"src/fixpoint.ml" 161 5949 5957 "src/fixpoint.ml" 168 6225 6249
+type(
+  A.data M.t
+)
+"src/fixpoint.ml" 121 4246 4254 "src/fixpoint.ml" 168 6225 6249
+type(
+  A.data M.t
+)
+"src/fixpoint.ml" 119 4211 4219 "src/fixpoint.ml" 168 6225 6249
+type(
+  A.data M.t
+)
+"src/fixpoint.ml" 115 4057 4063 "src/fixpoint.ml" 168 6225 6249
+type(
+  A.data M.t
+)
+"src/fixpoint.ml" 107 3810 3816 "src/fixpoint.ml" 168 6225 6249
+type(
+  A.data M.t
+)
+"src/fixpoint.ml" 99 3565 3571 "src/fixpoint.ml" 168 6225 6249
+type(
+  A.data M.t
+)
+"src/fixpoint.ml" 170 6257 6265 "src/fixpoint.ml" 170 6257 6269
+type(
+  A.data M.t
+)
+ident(
+  def data "src/fixpoint.ml" 171 6295 6299 "src/fixpoint.ml" 171 6295 6323
+)
+"src/fixpoint.ml" 170 6257 6272 "src/fixpoint.ml" 170 6257 6280
+type(
+  A.data M.t -> N.t -> A.data M.t
+)
+ident(
+  int_ref worklist "src/fixpoint.ml" 97 3459 3471 "src/fixpoint.ml" 97 3459 3479
+)
+"src/fixpoint.ml" 170 6257 6281 "src/fixpoint.ml" 170 6257 6285
+type(
+  A.data M.t
+)
+ident(
+  int_ref data "src/fixpoint.ml" 69 2499 2515 "src/fixpoint.ml" 69 2499 2519
+)
+"src/fixpoint.ml" 170 6257 6286 "src/fixpoint.ml" 170 6257 6291
+type(
+  N.t
+)
+ident(
+  int_ref nodes "src/fixpoint.ml" 69 2499 2508 "src/fixpoint.ml" 69 2499 2513
+)
+"src/fixpoint.ml" 170 6257 6272 "src/fixpoint.ml" 170 6257 6291
+call(
+  stack
+)
+type(
+  A.data M.t
+)
+"src/fixpoint.ml" 171 6295 6304 "src/fixpoint.ml" 171 6295 6305
+type(
+  M.key
+)
+ident(
+  def n "src/fixpoint.ml" 171 6295 6309 "src/fixpoint.ml" 171 6295 6322
+)
+"src/fixpoint.ml" 171 6295 6309 "src/fixpoint.ml" 171 6295 6315
+type(
+  M.key -> A.data M.t -> A.data
+)
+ident(
+  ext_ref M.find
+)
+"src/fixpoint.ml" 171 6295 6316 "src/fixpoint.ml" 171 6295 6317
+type(
+  M.key
+)
+ident(
+  int_ref n "src/fixpoint.ml" 171 6295 6304 "src/fixpoint.ml" 171 6295 6305
+)
+"src/fixpoint.ml" 171 6295 6318 "src/fixpoint.ml" 171 6295 6322
+type(
+  A.data M.t
+)
+ident(
+  int_ref data "src/fixpoint.ml" 170 6257 6265 "src/fixpoint.ml" 170 6257 6269
+)
+"src/fixpoint.ml" 171 6295 6309 "src/fixpoint.ml" 171 6295 6322
+call(
+  tail
+)
+type(
+  A.data
+)
+"src/fixpoint.ml" 171 6295 6299 "src/fixpoint.ml" 171 6295 6323
+type(
+  M.key -> A.data
+)
+"src/fixpoint.ml" 170 6257 6261 "src/fixpoint.ml" 171 6295 6323
+type(
+  M.key -> A.data
+)
+"src/fixpoint.ml" 97 3459 3463 "src/fixpoint.ml" 171 6295 6323
+type(
+  M.key -> A.data
+)
+"src/fixpoint.ml" 79 2896 2900 "src/fixpoint.ml" 171 6295 6323
+type(
+  M.key -> A.data
+)
+"src/fixpoint.ml" 69 2499 2503 "src/fixpoint.ml" 171 6295 6323
+type(
+  M.key -> A.data
+)

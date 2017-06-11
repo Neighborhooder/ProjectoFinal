@@ -1,0 +1,11 @@
+viewGraph_core.cmo : viewGraph_core.cmi
+viewGraph_core.cmx : viewGraph_core.cmi
+viewGraph_core.cmi :
+viewGraph_select.cmo : viewGraph_core.cmi viewGraph_select.cmi
+viewGraph_select.cmx : viewGraph_core.cmx viewGraph_select.cmi
+viewGraph_select.cmi : viewGraph_core.cmi
+viewGraph_test.cmo : viewGraph_utils.cmi viewGraph_select.cmi
+viewGraph_test.cmx : viewGraph_utils.cmx viewGraph_select.cmx
+viewGraph_utils.cmo : viewGraph_select.cmi viewGraph_utils.cmi
+viewGraph_utils.cmx : viewGraph_select.cmx viewGraph_utils.cmi
+viewGraph_utils.cmi : viewGraph_select.cmi

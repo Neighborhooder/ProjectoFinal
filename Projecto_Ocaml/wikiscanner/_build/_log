@@ -1,0 +1,12 @@
+### Starting build.
+# Target: wikiscanner.mll, tags: { package(ocamlgraph), extension:mll, file:wikiscanner.mll, lexer, ocaml, ocamllex, quiet, traverse }
+/home/roberto/.opam/4.04.0/bin/ocamllex.opt -q wikiscanner.mll
+# Target: wikiscanner.ml.depends, tags: { package(ocamlgraph), extension:ml, file:wikiscanner.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ocamlgraph -modules wikiscanner.ml > wikiscanner.ml.depends
+# Target: wikiscanner.cmo, tags: { package(ocamlgraph), byte, compile, extension:cmo, extension:ml, file:wikiscanner.cmo, file:wikiscanner.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package ocamlgraph -o wikiscanner.cmo wikiscanner.ml
+# Target: wikiscanner.cmx, tags: { package(ocamlgraph), compile, extension:cmx, extension:ml, file:wikiscanner.cmx, file:wikiscanner.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -package ocamlgraph -o wikiscanner.cmx wikiscanner.ml
+# Target: wikiscanner.native, tags: { package(ocamlgraph), dont_link_with, extension:native, file:wikiscanner.native, link, native, ocaml, program, quiet, traverse }
+ocamlfind ocamlopt -linkpkg -package ocamlgraph wikiscanner.cmx -o wikiscanner.native
+# Compilation successful.

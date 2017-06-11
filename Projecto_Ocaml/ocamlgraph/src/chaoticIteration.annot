@@ -1,0 +1,1316 @@
+"src/chaoticIteration.ml" 29 1602 1606 "src/chaoticIteration.ml" 29 1602 1612
+type(
+  'a -> ('a -> 'b) -> 'b
+)
+ident(
+  def |> "src/chaoticIteration.ml" 31 1624 1624 "src/chaoticIteration.ml" 1 0 -1
+)
+"src/chaoticIteration.ml" 29 1602 1613 "src/chaoticIteration.ml" 29 1602 1614
+type(
+  'a
+)
+ident(
+  def x "src/chaoticIteration.ml" 29 1602 1615 "src/chaoticIteration.ml" 29 1602 1622
+)
+"src/chaoticIteration.ml" 29 1602 1615 "src/chaoticIteration.ml" 29 1602 1616
+type(
+  'a -> 'b
+)
+ident(
+  def f "src/chaoticIteration.ml" 29 1602 1619 "src/chaoticIteration.ml" 29 1602 1622
+)
+"src/chaoticIteration.ml" 29 1602 1619 "src/chaoticIteration.ml" 29 1602 1620
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "src/chaoticIteration.ml" 29 1602 1615 "src/chaoticIteration.ml" 29 1602 1616
+)
+"src/chaoticIteration.ml" 29 1602 1621 "src/chaoticIteration.ml" 29 1602 1622
+type(
+  'a
+)
+ident(
+  int_ref x "src/chaoticIteration.ml" 29 1602 1613 "src/chaoticIteration.ml" 29 1602 1614
+)
+"src/chaoticIteration.ml" 29 1602 1619 "src/chaoticIteration.ml" 29 1602 1622
+call(
+  tail
+)
+type(
+  'b
+)
+"src/chaoticIteration.ml" 66 2112 2125 "src/chaoticIteration.ml" 66 2112 2139
+call(
+  stack
+)
+"src/chaoticIteration.ml" 68 2141 2147 "src/chaoticIteration.ml" 68 2141 2154
+type(
+  G.t ->
+  M.key WeakTopological.t ->
+  (M.key -> D.t) -> M.key widening_set -> int -> D.t M.t
+)
+ident(
+  def recurse "src/chaoticIteration.ml" 134 4546 4593 "src/chaoticIteration.ml" 135 4594 4597
+)
+"src/chaoticIteration.ml" 68 2141 2155 "src/chaoticIteration.ml" 68 2141 2156
+type(
+  G.t
+)
+ident(
+  def g "src/chaoticIteration.ml" 68 2141 2157 "src/chaoticIteration.ml" 134 4546 4593
+)
+"src/chaoticIteration.ml" 68 2141 2157 "src/chaoticIteration.ml" 68 2141 2160
+type(
+  M.key WeakTopological.t
+)
+ident(
+  def wto "src/chaoticIteration.ml" 68 2141 2161 "src/chaoticIteration.ml" 134 4546 4593
+)
+"src/chaoticIteration.ml" 68 2141 2161 "src/chaoticIteration.ml" 68 2141 2165
+type(
+  M.key -> D.t
+)
+ident(
+  def init "src/chaoticIteration.ml" 68 2141 2166 "src/chaoticIteration.ml" 134 4546 4593
+)
+"src/chaoticIteration.ml" 68 2141 2166 "src/chaoticIteration.ml" 68 2141 2178
+type(
+  M.key widening_set
+)
+ident(
+  def widening_set "src/chaoticIteration.ml" 68 2141 2179 "src/chaoticIteration.ml" 134 4546 4593
+)
+"src/chaoticIteration.ml" 68 2141 2179 "src/chaoticIteration.ml" 68 2141 2193
+type(
+  int
+)
+ident(
+  def widening_delay "src/chaoticIteration.ml" 75 2487 2491 "src/chaoticIteration.ml" 134 4546 4593
+)
+"src/chaoticIteration.ml" 75 2487 2495 "src/chaoticIteration.ml" 75 2487 2511
+type(
+  M.key -> bool
+)
+ident(
+  def do_nonhead_widen "src/chaoticIteration.ml" 80 2600 2604 "src/chaoticIteration.ml" 134 4546 4593
+)
+"src/chaoticIteration.ml" 75 2487 2512 "src/chaoticIteration.ml" 75 2487 2513
+type(
+  M.key
+)
+ident(
+  def v "src/chaoticIteration.ml" 75 2487 2516 "src/chaoticIteration.ml" 77 2565 2591
+)
+"src/chaoticIteration.ml" 75 2487 2522 "src/chaoticIteration.ml" 75 2487 2534
+type(
+  M.key widening_set
+)
+ident(
+  int_ref widening_set "src/chaoticIteration.ml" 68 2141 2166 "src/chaoticIteration.ml" 68 2141 2178
+)
+"src/chaoticIteration.ml" 76 2540 2548 "src/chaoticIteration.ml" 76 2540 2555
+type(
+  M.key widening_set
+)
+"src/chaoticIteration.ml" 76 2540 2559 "src/chaoticIteration.ml" 76 2540 2564
+type(
+  bool
+)
+"src/chaoticIteration.ml" 77 2565 2583 "src/chaoticIteration.ml" 77 2565 2584
+type(
+  M.key -> bool
+)
+ident(
+  def f "src/chaoticIteration.ml" 77 2565 2588 "src/chaoticIteration.ml" 77 2565 2591
+)
+"src/chaoticIteration.ml" 77 2565 2573 "src/chaoticIteration.ml" 77 2565 2584
+type(
+  M.key widening_set
+)
+"src/chaoticIteration.ml" 77 2565 2588 "src/chaoticIteration.ml" 77 2565 2589
+type(
+  M.key -> bool
+)
+ident(
+  int_ref f "src/chaoticIteration.ml" 77 2565 2583 "src/chaoticIteration.ml" 77 2565 2584
+)
+"src/chaoticIteration.ml" 77 2565 2590 "src/chaoticIteration.ml" 77 2565 2591
+type(
+  M.key
+)
+ident(
+  int_ref v "src/chaoticIteration.ml" 75 2487 2512 "src/chaoticIteration.ml" 75 2487 2513
+)
+"src/chaoticIteration.ml" 77 2565 2588 "src/chaoticIteration.ml" 77 2565 2591
+call(
+  tail
+)
+type(
+  bool
+)
+"src/chaoticIteration.ml" 75 2487 2516 "src/chaoticIteration.ml" 77 2565 2591
+type(
+  bool
+)
+"src/chaoticIteration.ml" 80 2600 2608 "src/chaoticIteration.ml" 80 2600 2621
+type(
+  M.key -> bool
+)
+ident(
+  def do_head_widen "src/chaoticIteration.ml" 85 2709 2713 "src/chaoticIteration.ml" 134 4546 4593
+)
+"src/chaoticIteration.ml" 80 2600 2622 "src/chaoticIteration.ml" 80 2600 2623
+type(
+  M.key
+)
+ident(
+  def v "src/chaoticIteration.ml" 80 2600 2626 "src/chaoticIteration.ml" 82 2674 2700
+)
+"src/chaoticIteration.ml" 80 2600 2632 "src/chaoticIteration.ml" 80 2600 2644
+type(
+  M.key widening_set
+)
+ident(
+  int_ref widening_set "src/chaoticIteration.ml" 68 2141 2166 "src/chaoticIteration.ml" 68 2141 2178
+)
+"src/chaoticIteration.ml" 81 2650 2658 "src/chaoticIteration.ml" 81 2650 2665
+type(
+  M.key widening_set
+)
+"src/chaoticIteration.ml" 81 2650 2669 "src/chaoticIteration.ml" 81 2650 2673
+type(
+  bool
+)
+"src/chaoticIteration.ml" 82 2674 2692 "src/chaoticIteration.ml" 82 2674 2693
+type(
+  M.key -> bool
+)
+ident(
+  def f "src/chaoticIteration.ml" 82 2674 2697 "src/chaoticIteration.ml" 82 2674 2700
+)
+"src/chaoticIteration.ml" 82 2674 2682 "src/chaoticIteration.ml" 82 2674 2693
+type(
+  M.key widening_set
+)
+"src/chaoticIteration.ml" 82 2674 2697 "src/chaoticIteration.ml" 82 2674 2698
+type(
+  M.key -> bool
+)
+ident(
+  int_ref f "src/chaoticIteration.ml" 82 2674 2692 "src/chaoticIteration.ml" 82 2674 2693
+)
+"src/chaoticIteration.ml" 82 2674 2699 "src/chaoticIteration.ml" 82 2674 2700
+type(
+  M.key
+)
+ident(
+  int_ref v "src/chaoticIteration.ml" 80 2600 2622 "src/chaoticIteration.ml" 80 2600 2623
+)
+"src/chaoticIteration.ml" 82 2674 2697 "src/chaoticIteration.ml" 82 2674 2700
+call(
+  tail
+)
+type(
+  bool
+)
+"src/chaoticIteration.ml" 80 2600 2626 "src/chaoticIteration.ml" 82 2674 2700
+type(
+  bool
+)
+"src/chaoticIteration.ml" 85 2709 2717 "src/chaoticIteration.ml" 85 2709 2721
+type(
+  M.key -> D.t M.t -> D.t
+)
+ident(
+  def find "src/chaoticIteration.ml" 90 2809 2813 "src/chaoticIteration.ml" 134 4546 4593
+)
+"src/chaoticIteration.ml" 85 2709 2722 "src/chaoticIteration.ml" 85 2709 2728
+type(
+  M.key
+)
+ident(
+  def vertex "src/chaoticIteration.ml" 85 2709 2729 "src/chaoticIteration.ml" 87 2765 2800
+)
+"src/chaoticIteration.ml" 85 2709 2729 "src/chaoticIteration.ml" 85 2709 2733
+type(
+  D.t M.t
+)
+ident(
+  def data "src/chaoticIteration.ml" 86 2736 2742 "src/chaoticIteration.ml" 87 2765 2800
+)
+"src/chaoticIteration.ml" 86 2736 2746 "src/chaoticIteration.ml" 86 2736 2752
+type(
+  M.key -> D.t M.t -> D.t
+)
+ident(
+  ext_ref M.find
+)
+"src/chaoticIteration.ml" 86 2736 2753 "src/chaoticIteration.ml" 86 2736 2759
+type(
+  M.key
+)
+ident(
+  int_ref vertex "src/chaoticIteration.ml" 85 2709 2722 "src/chaoticIteration.ml" 85 2709 2728
+)
+"src/chaoticIteration.ml" 86 2736 2760 "src/chaoticIteration.ml" 86 2736 2764
+type(
+  D.t M.t
+)
+ident(
+  int_ref data "src/chaoticIteration.ml" 85 2709 2729 "src/chaoticIteration.ml" 85 2709 2733
+)
+"src/chaoticIteration.ml" 86 2736 2746 "src/chaoticIteration.ml" 86 2736 2764
+call(
+  stack
+)
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 87 2765 2776 "src/chaoticIteration.ml" 87 2765 2785
+type(
+  exn
+)
+"src/chaoticIteration.ml" 87 2765 2789 "src/chaoticIteration.ml" 87 2765 2793
+type(
+  M.key -> D.t
+)
+ident(
+  int_ref init "src/chaoticIteration.ml" 68 2141 2161 "src/chaoticIteration.ml" 68 2141 2165
+)
+"src/chaoticIteration.ml" 87 2765 2794 "src/chaoticIteration.ml" 87 2765 2800
+type(
+  M.key
+)
+ident(
+  int_ref vertex "src/chaoticIteration.ml" 85 2709 2722 "src/chaoticIteration.ml" 85 2709 2728
+)
+"src/chaoticIteration.ml" 87 2765 2789 "src/chaoticIteration.ml" 87 2765 2800
+call(
+  tail
+)
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 86 2736 2742 "src/chaoticIteration.ml" 87 2765 2800
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 90 2809 2817 "src/chaoticIteration.ml" 90 2809 2831
+type(
+  int -> (M.key -> bool) -> M.key -> D.t M.t -> D.t
+)
+ident(
+  def analyze_vertex "src/chaoticIteration.ml" 104 3299 3303 "src/chaoticIteration.ml" 134 4546 4593
+)
+"src/chaoticIteration.ml" 90 2809 2832 "src/chaoticIteration.ml" 90 2809 2846
+type(
+  int
+)
+ident(
+  def widening_steps "src/chaoticIteration.ml" 90 2809 2847 "src/chaoticIteration.ml" 101 3273 3290
+)
+"src/chaoticIteration.ml" 90 2809 2847 "src/chaoticIteration.ml" 90 2809 2855
+type(
+  M.key -> bool
+)
+ident(
+  def do_widen "src/chaoticIteration.ml" 90 2809 2856 "src/chaoticIteration.ml" 101 3273 3290
+)
+"src/chaoticIteration.ml" 90 2809 2856 "src/chaoticIteration.ml" 90 2809 2857
+type(
+  M.key
+)
+ident(
+  def v "src/chaoticIteration.ml" 90 2809 2858 "src/chaoticIteration.ml" 101 3273 3290
+)
+"src/chaoticIteration.ml" 90 2809 2858 "src/chaoticIteration.ml" 90 2809 2862
+type(
+  D.t M.t
+)
+ident(
+  def data "src/chaoticIteration.ml" 92 2928 2934 "src/chaoticIteration.ml" 101 3273 3290
+)
+"src/chaoticIteration.ml" 92 2928 2938 "src/chaoticIteration.ml" 92 2928 2944
+type(
+  D.t
+)
+ident(
+  def result "src/chaoticIteration.ml" 99 3187 3193 "src/chaoticIteration.ml" 101 3273 3290
+)
+"src/chaoticIteration.ml" 92 2928 2947 "src/chaoticIteration.ml" 92 2928 2960
+type(
+  (D.edge -> D.t -> D.t) -> G.t -> M.key -> D.t -> D.t
+)
+ident(
+  int_ref G.fold_pred_e "src/chaoticIteration.ml" 45 1807 1809 "src/chaoticIteration.ml" 45 1807 1868
+)
+"src/chaoticIteration.ml" 93 2961 2976 "src/chaoticIteration.ml" 93 2961 2980
+type(
+  D.edge
+)
+ident(
+  def edge "src/chaoticIteration.ml" 93 2961 2981 "src/chaoticIteration.ml" 97 3127 3159
+)
+"src/chaoticIteration.ml" 93 2961 2981 "src/chaoticIteration.ml" 93 2961 2984
+type(
+  D.t
+)
+ident(
+  def acc "src/chaoticIteration.ml" 94 2988 3001 "src/chaoticIteration.ml" 97 3127 3159
+)
+"src/chaoticIteration.ml" 94 2988 3005 "src/chaoticIteration.ml" 94 2988 3008
+type(
+  G.V.t
+)
+ident(
+  def src "src/chaoticIteration.ml" 95 3027 3040 "src/chaoticIteration.ml" 97 3127 3159
+)
+"src/chaoticIteration.ml" 94 2988 3011 "src/chaoticIteration.ml" 94 2988 3018
+type(
+  D.edge -> G.V.t
+)
+ident(
+  int_ref G.E.src "src/chaoticIteration.ml" 42 1777 1781 "src/chaoticIteration.ml" 42 1777 1799
+)
+"src/chaoticIteration.ml" 94 2988 3019 "src/chaoticIteration.ml" 94 2988 3023
+type(
+  D.edge
+)
+ident(
+  int_ref edge "src/chaoticIteration.ml" 93 2961 2976 "src/chaoticIteration.ml" 93 2961 2980
+)
+"src/chaoticIteration.ml" 94 2988 3011 "src/chaoticIteration.ml" 94 2988 3023
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/chaoticIteration.ml" 95 3027 3044 "src/chaoticIteration.ml" 95 3027 3052
+type(
+  D.t
+)
+ident(
+  def data_src "src/chaoticIteration.ml" 96 3072 3085 "src/chaoticIteration.ml" 97 3127 3159
+)
+"src/chaoticIteration.ml" 95 3027 3055 "src/chaoticIteration.ml" 95 3027 3059
+type(
+  M.key -> D.t M.t -> D.t
+)
+ident(
+  int_ref find "src/chaoticIteration.ml" 85 2709 2717 "src/chaoticIteration.ml" 85 2709 2721
+)
+"src/chaoticIteration.ml" 95 3027 3060 "src/chaoticIteration.ml" 95 3027 3063
+type(
+  M.key
+)
+ident(
+  int_ref src "src/chaoticIteration.ml" 94 2988 3005 "src/chaoticIteration.ml" 94 2988 3008
+)
+"src/chaoticIteration.ml" 95 3027 3064 "src/chaoticIteration.ml" 95 3027 3068
+type(
+  D.t M.t
+)
+ident(
+  int_ref data "src/chaoticIteration.ml" 90 2809 2858 "src/chaoticIteration.ml" 90 2809 2862
+)
+"src/chaoticIteration.ml" 95 3027 3055 "src/chaoticIteration.ml" 95 3027 3068
+call(
+  stack
+)
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 96 3072 3089 "src/chaoticIteration.ml" 96 3072 3097
+type(
+  D.t
+)
+ident(
+  def data_dst "src/chaoticIteration.ml" 97 3127 3140 "src/chaoticIteration.ml" 97 3127 3159
+)
+"src/chaoticIteration.ml" 96 3072 3100 "src/chaoticIteration.ml" 96 3072 3109
+type(
+  D.edge -> D.t -> D.t
+)
+ident(
+  int_ref D.analyze "src/chaoticIteration.ml" 56 1975 1977 "src/chaoticIteration.ml" 56 1975 2005
+)
+"src/chaoticIteration.ml" 96 3072 3110 "src/chaoticIteration.ml" 96 3072 3114
+type(
+  D.edge
+)
+ident(
+  int_ref edge "src/chaoticIteration.ml" 93 2961 2976 "src/chaoticIteration.ml" 93 2961 2980
+)
+"src/chaoticIteration.ml" 96 3072 3115 "src/chaoticIteration.ml" 96 3072 3123
+type(
+  D.t
+)
+ident(
+  int_ref data_src "src/chaoticIteration.ml" 95 3027 3044 "src/chaoticIteration.ml" 95 3027 3052
+)
+"src/chaoticIteration.ml" 96 3072 3100 "src/chaoticIteration.ml" 96 3072 3123
+call(
+  stack
+)
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 97 3127 3140 "src/chaoticIteration.ml" 97 3127 3146
+type(
+  D.t -> D.t -> D.t
+)
+ident(
+  int_ref D.join "src/chaoticIteration.ml" 53 1920 1922 "src/chaoticIteration.ml" 53 1920 1944
+)
+"src/chaoticIteration.ml" 97 3127 3147 "src/chaoticIteration.ml" 97 3127 3155
+type(
+  D.t
+)
+ident(
+  int_ref data_dst "src/chaoticIteration.ml" 96 3072 3089 "src/chaoticIteration.ml" 96 3072 3097
+)
+"src/chaoticIteration.ml" 97 3127 3156 "src/chaoticIteration.ml" 97 3127 3159
+type(
+  D.t
+)
+ident(
+  int_ref acc "src/chaoticIteration.ml" 93 2961 2981 "src/chaoticIteration.ml" 93 2961 2984
+)
+"src/chaoticIteration.ml" 97 3127 3140 "src/chaoticIteration.ml" 97 3127 3159
+call(
+  tail
+)
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 96 3072 3085 "src/chaoticIteration.ml" 97 3127 3159
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 95 3027 3040 "src/chaoticIteration.ml" 97 3127 3159
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 94 2988 3001 "src/chaoticIteration.ml" 97 3127 3159
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 93 2961 2971 "src/chaoticIteration.ml" 97 3127 3160
+type(
+  D.edge -> D.t -> D.t
+)
+"src/chaoticIteration.ml" 98 3161 3171 "src/chaoticIteration.ml" 98 3161 3172
+type(
+  G.t
+)
+ident(
+  int_ref g "src/chaoticIteration.ml" 68 2141 2155 "src/chaoticIteration.ml" 68 2141 2156
+)
+"src/chaoticIteration.ml" 98 3161 3173 "src/chaoticIteration.ml" 98 3161 3174
+type(
+  M.key
+)
+ident(
+  int_ref v "src/chaoticIteration.ml" 90 2809 2856 "src/chaoticIteration.ml" 90 2809 2857
+)
+"src/chaoticIteration.ml" 98 3161 3176 "src/chaoticIteration.ml" 98 3161 3180
+type(
+  M.key -> D.t
+)
+ident(
+  int_ref init "src/chaoticIteration.ml" 68 2141 2161 "src/chaoticIteration.ml" 68 2141 2165
+)
+"src/chaoticIteration.ml" 98 3161 3181 "src/chaoticIteration.ml" 98 3161 3182
+type(
+  M.key
+)
+ident(
+  int_ref v "src/chaoticIteration.ml" 90 2809 2856 "src/chaoticIteration.ml" 90 2809 2857
+)
+"src/chaoticIteration.ml" 98 3161 3175 "src/chaoticIteration.ml" 98 3161 3183
+call(
+  stack
+)
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 92 2928 2947 "src/chaoticIteration.ml" 98 3161 3183
+call(
+  stack
+)
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 99 3187 3196 "src/chaoticIteration.ml" 99 3187 3210
+type(
+  int
+)
+ident(
+  int_ref widening_steps "src/chaoticIteration.ml" 90 2809 2832 "src/chaoticIteration.ml" 90 2809 2846
+)
+"src/chaoticIteration.ml" 99 3187 3211 "src/chaoticIteration.ml" 99 3187 3213
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/chaoticIteration.ml" 99 3187 3214 "src/chaoticIteration.ml" 99 3187 3215
+type(
+  int
+)
+"src/chaoticIteration.ml" 99 3187 3196 "src/chaoticIteration.ml" 99 3187 3215
+type(
+  bool
+)
+"src/chaoticIteration.ml" 99 3187 3216 "src/chaoticIteration.ml" 99 3187 3218
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/chaoticIteration.ml" 99 3187 3219 "src/chaoticIteration.ml" 99 3187 3227
+type(
+  M.key -> bool
+)
+ident(
+  int_ref do_widen "src/chaoticIteration.ml" 90 2809 2847 "src/chaoticIteration.ml" 90 2809 2855
+)
+"src/chaoticIteration.ml" 99 3187 3228 "src/chaoticIteration.ml" 99 3187 3229
+type(
+  M.key
+)
+ident(
+  int_ref v "src/chaoticIteration.ml" 90 2809 2856 "src/chaoticIteration.ml" 90 2809 2857
+)
+"src/chaoticIteration.ml" 99 3187 3219 "src/chaoticIteration.ml" 99 3187 3229
+call(
+  stack
+)
+type(
+  bool
+)
+"src/chaoticIteration.ml" 99 3187 3196 "src/chaoticIteration.ml" 99 3187 3229
+type(
+  bool
+)
+"src/chaoticIteration.ml" 100 3230 3241 "src/chaoticIteration.ml" 100 3230 3251
+type(
+  D.t -> D.t -> D.t
+)
+ident(
+  int_ref D.widening "src/chaoticIteration.ml" 58 2007 2009 "src/chaoticIteration.ml" 58 2007 2035
+)
+"src/chaoticIteration.ml" 100 3230 3253 "src/chaoticIteration.ml" 100 3230 3257
+type(
+  M.key -> D.t M.t -> D.t
+)
+ident(
+  int_ref find "src/chaoticIteration.ml" 85 2709 2717 "src/chaoticIteration.ml" 85 2709 2721
+)
+"src/chaoticIteration.ml" 100 3230 3258 "src/chaoticIteration.ml" 100 3230 3259
+type(
+  M.key
+)
+ident(
+  int_ref v "src/chaoticIteration.ml" 90 2809 2856 "src/chaoticIteration.ml" 90 2809 2857
+)
+"src/chaoticIteration.ml" 100 3230 3260 "src/chaoticIteration.ml" 100 3230 3264
+type(
+  D.t M.t
+)
+ident(
+  int_ref data "src/chaoticIteration.ml" 90 2809 2858 "src/chaoticIteration.ml" 90 2809 2862
+)
+"src/chaoticIteration.ml" 100 3230 3252 "src/chaoticIteration.ml" 100 3230 3265
+call(
+  stack
+)
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 100 3230 3266 "src/chaoticIteration.ml" 100 3230 3272
+type(
+  D.t
+)
+ident(
+  int_ref result "src/chaoticIteration.ml" 92 2928 2938 "src/chaoticIteration.ml" 92 2928 2944
+)
+"src/chaoticIteration.ml" 100 3230 3241 "src/chaoticIteration.ml" 100 3230 3272
+call(
+  tail
+)
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 101 3273 3284 "src/chaoticIteration.ml" 101 3273 3290
+type(
+  D.t
+)
+ident(
+  int_ref result "src/chaoticIteration.ml" 92 2928 2938 "src/chaoticIteration.ml" 92 2928 2944
+)
+"src/chaoticIteration.ml" 99 3187 3193 "src/chaoticIteration.ml" 101 3273 3290
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 92 2928 2934 "src/chaoticIteration.ml" 101 3273 3290
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 104 3299 3311 "src/chaoticIteration.ml" 104 3299 3327
+type(
+  int -> M.key WeakTopological.t -> D.t M.t -> D.t M.t
+)
+ident(
+  def analyze_elements "src/chaoticIteration.ml" 104 3299 3303 "src/chaoticIteration.ml" 134 4546 4593
+)
+"src/chaoticIteration.ml" 104 3299 3328 "src/chaoticIteration.ml" 104 3299 3342
+type(
+  int
+)
+ident(
+  def widening_steps "src/chaoticIteration.ml" 104 3299 3343 "src/chaoticIteration.ml" 107 3461 3535
+)
+"src/chaoticIteration.ml" 104 3299 3343 "src/chaoticIteration.ml" 104 3299 3347
+type(
+  M.key WeakTopological.t
+)
+ident(
+  def comp "src/chaoticIteration.ml" 104 3299 3348 "src/chaoticIteration.ml" 107 3461 3535
+)
+"src/chaoticIteration.ml" 104 3299 3348 "src/chaoticIteration.ml" 104 3299 3352
+type(
+  D.t M.t
+)
+ident(
+  def data "src/chaoticIteration.ml" 107 3461 3467 "src/chaoticIteration.ml" 107 3461 3535
+)
+"src/chaoticIteration.ml" 107 3461 3467 "src/chaoticIteration.ml" 107 3461 3492
+type(
+  (D.t M.t -> M.key WeakTopological.element -> D.t M.t) ->
+  D.t M.t -> M.key WeakTopological.t -> D.t M.t
+)
+ident(
+  ext_ref WeakTopological.fold_left
+)
+"src/chaoticIteration.ml" 107 3461 3494 "src/chaoticIteration.ml" 107 3461 3509
+type(
+  int -> D.t M.t -> M.key WeakTopological.element -> D.t M.t
+)
+ident(
+  int_ref analyze_element "src/chaoticIteration.ml" 126 4201 4209 "src/chaoticIteration.ml" 126 4201 4224
+)
+"src/chaoticIteration.ml" 107 3461 3510 "src/chaoticIteration.ml" 107 3461 3524
+type(
+  int
+)
+ident(
+  int_ref widening_steps "src/chaoticIteration.ml" 104 3299 3328 "src/chaoticIteration.ml" 104 3299 3342
+)
+"src/chaoticIteration.ml" 107 3461 3493 "src/chaoticIteration.ml" 107 3461 3525
+call(
+  stack
+)
+type(
+  D.t M.t -> M.key WeakTopological.element -> D.t M.t
+)
+"src/chaoticIteration.ml" 107 3461 3526 "src/chaoticIteration.ml" 107 3461 3530
+type(
+  D.t M.t
+)
+ident(
+  int_ref data "src/chaoticIteration.ml" 104 3299 3348 "src/chaoticIteration.ml" 104 3299 3352
+)
+"src/chaoticIteration.ml" 107 3461 3531 "src/chaoticIteration.ml" 107 3461 3535
+type(
+  M.key WeakTopological.t
+)
+ident(
+  int_ref comp "src/chaoticIteration.ml" 104 3299 3343 "src/chaoticIteration.ml" 104 3299 3347
+)
+"src/chaoticIteration.ml" 107 3461 3467 "src/chaoticIteration.ml" 107 3461 3535
+call(
+  tail
+)
+type(
+  D.t M.t
+)
+"src/chaoticIteration.ml" 109 3537 3545 "src/chaoticIteration.ml" 109 3537 3554
+type(
+  bool -> int -> M.key -> M.key WeakTopological.t -> D.t M.t -> D.t M.t
+)
+ident(
+  def stabilize "src/chaoticIteration.ml" 104 3299 3303 "src/chaoticIteration.ml" 134 4546 4593
+)
+"src/chaoticIteration.ml" 109 3537 3555 "src/chaoticIteration.ml" 109 3537 3563
+type(
+  bool
+)
+ident(
+  def can_stop "src/chaoticIteration.ml" 109 3537 3564 "src/chaoticIteration.ml" 124 4142 4199
+)
+"src/chaoticIteration.ml" 109 3537 3564 "src/chaoticIteration.ml" 109 3537 3578
+type(
+  int
+)
+ident(
+  def widening_steps "src/chaoticIteration.ml" 109 3537 3579 "src/chaoticIteration.ml" 124 4142 4199
+)
+"src/chaoticIteration.ml" 109 3537 3579 "src/chaoticIteration.ml" 109 3537 3583
+type(
+  M.key
+)
+ident(
+  def head "src/chaoticIteration.ml" 109 3537 3584 "src/chaoticIteration.ml" 124 4142 4199
+)
+"src/chaoticIteration.ml" 109 3537 3584 "src/chaoticIteration.ml" 109 3537 3589
+type(
+  M.key WeakTopological.t
+)
+ident(
+  def comps "src/chaoticIteration.ml" 109 3537 3590 "src/chaoticIteration.ml" 124 4142 4199
+)
+"src/chaoticIteration.ml" 109 3537 3590 "src/chaoticIteration.ml" 109 3537 3594
+type(
+  D.t M.t
+)
+ident(
+  def data "src/chaoticIteration.ml" 114 3817 3823 "src/chaoticIteration.ml" 124 4142 4199
+)
+"src/chaoticIteration.ml" 114 3817 3827 "src/chaoticIteration.ml" 114 3817 3840
+type(
+  D.t
+)
+ident(
+  def old_data_head "src/chaoticIteration.ml" 116 3869 3875 "src/chaoticIteration.ml" 124 4142 4199
+)
+"src/chaoticIteration.ml" 115 3843 3851 "src/chaoticIteration.ml" 115 3843 3855
+type(
+  M.key -> D.t M.t -> D.t
+)
+ident(
+  int_ref find "src/chaoticIteration.ml" 85 2709 2717 "src/chaoticIteration.ml" 85 2709 2721
+)
+"src/chaoticIteration.ml" 115 3843 3856 "src/chaoticIteration.ml" 115 3843 3860
+type(
+  M.key
+)
+ident(
+  int_ref head "src/chaoticIteration.ml" 109 3537 3579 "src/chaoticIteration.ml" 109 3537 3583
+)
+"src/chaoticIteration.ml" 115 3843 3861 "src/chaoticIteration.ml" 115 3843 3865
+type(
+  D.t M.t
+)
+ident(
+  int_ref data "src/chaoticIteration.ml" 109 3537 3590 "src/chaoticIteration.ml" 109 3537 3594
+)
+"src/chaoticIteration.ml" 115 3843 3851 "src/chaoticIteration.ml" 115 3843 3865
+call(
+  stack
+)
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 116 3869 3879 "src/chaoticIteration.ml" 116 3869 3892
+type(
+  D.t
+)
+ident(
+  def new_data_head "src/chaoticIteration.ml" 118 3960 3966 "src/chaoticIteration.ml" 124 4142 4199
+)
+"src/chaoticIteration.ml" 117 3895 3903 "src/chaoticIteration.ml" 117 3895 3917
+type(
+  int -> (M.key -> bool) -> M.key -> D.t M.t -> D.t
+)
+ident(
+  int_ref analyze_vertex "src/chaoticIteration.ml" 90 2809 2817 "src/chaoticIteration.ml" 90 2809 2831
+)
+"src/chaoticIteration.ml" 117 3895 3918 "src/chaoticIteration.ml" 117 3895 3932
+type(
+  int
+)
+ident(
+  int_ref widening_steps "src/chaoticIteration.ml" 109 3537 3564 "src/chaoticIteration.ml" 109 3537 3578
+)
+"src/chaoticIteration.ml" 117 3895 3933 "src/chaoticIteration.ml" 117 3895 3946
+type(
+  M.key -> bool
+)
+ident(
+  int_ref do_head_widen "src/chaoticIteration.ml" 80 2600 2608 "src/chaoticIteration.ml" 80 2600 2621
+)
+"src/chaoticIteration.ml" 117 3895 3947 "src/chaoticIteration.ml" 117 3895 3951
+type(
+  M.key
+)
+ident(
+  int_ref head "src/chaoticIteration.ml" 109 3537 3579 "src/chaoticIteration.ml" 109 3537 3583
+)
+"src/chaoticIteration.ml" 117 3895 3952 "src/chaoticIteration.ml" 117 3895 3956
+type(
+  D.t M.t
+)
+ident(
+  int_ref data "src/chaoticIteration.ml" 109 3537 3590 "src/chaoticIteration.ml" 109 3537 3594
+)
+"src/chaoticIteration.ml" 117 3895 3903 "src/chaoticIteration.ml" 117 3895 3956
+call(
+  stack
+)
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 118 3960 3969 "src/chaoticIteration.ml" 118 3960 3977
+type(
+  bool
+)
+ident(
+  int_ref can_stop "src/chaoticIteration.ml" 109 3537 3555 "src/chaoticIteration.ml" 109 3537 3563
+)
+"src/chaoticIteration.ml" 118 3960 3978 "src/chaoticIteration.ml" 118 3960 3980
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/chaoticIteration.ml" 118 3960 3981 "src/chaoticIteration.ml" 118 3960 3988
+type(
+  D.t -> D.t -> bool
+)
+ident(
+  int_ref D.equal "src/chaoticIteration.ml" 54 1945 1947 "src/chaoticIteration.ml" 54 1945 1973
+)
+"src/chaoticIteration.ml" 118 3960 3989 "src/chaoticIteration.ml" 118 3960 4002
+type(
+  D.t
+)
+ident(
+  int_ref old_data_head "src/chaoticIteration.ml" 114 3817 3827 "src/chaoticIteration.ml" 114 3817 3840
+)
+"src/chaoticIteration.ml" 118 3960 4003 "src/chaoticIteration.ml" 118 3960 4016
+type(
+  D.t
+)
+ident(
+  int_ref new_data_head "src/chaoticIteration.ml" 116 3869 3879 "src/chaoticIteration.ml" 116 3869 3892
+)
+"src/chaoticIteration.ml" 118 3960 3981 "src/chaoticIteration.ml" 118 3960 4016
+call(
+  stack
+)
+type(
+  bool
+)
+"src/chaoticIteration.ml" 118 3960 3969 "src/chaoticIteration.ml" 118 3960 4016
+type(
+  bool
+)
+"src/chaoticIteration.ml" 119 4017 4028 "src/chaoticIteration.ml" 119 4017 4032
+type(
+  D.t M.t
+)
+ident(
+  int_ref data "src/chaoticIteration.ml" 109 3537 3590 "src/chaoticIteration.ml" 109 3537 3594
+)
+"src/chaoticIteration.ml" 121 4044 4052 "src/chaoticIteration.ml" 121 4044 4056
+type(
+  D.t M.t
+)
+ident(
+  int_ref data "src/chaoticIteration.ml" 109 3537 3590 "src/chaoticIteration.ml" 109 3537 3594
+)
+"src/chaoticIteration.ml" 122 4057 4065 "src/chaoticIteration.ml" 122 4057 4067
+type(
+  D.t M.t -> (D.t M.t -> D.t M.t) -> D.t M.t
+)
+ident(
+  int_ref |> "src/chaoticIteration.ml" 29 1602 1606 "src/chaoticIteration.ml" 29 1602 1612
+)
+"src/chaoticIteration.ml" 122 4057 4068 "src/chaoticIteration.ml" 122 4057 4073
+type(
+  M.key -> D.t -> D.t M.t -> D.t M.t
+)
+ident(
+  ext_ref M.add
+)
+"src/chaoticIteration.ml" 122 4057 4074 "src/chaoticIteration.ml" 122 4057 4078
+type(
+  M.key
+)
+ident(
+  int_ref head "src/chaoticIteration.ml" 109 3537 3579 "src/chaoticIteration.ml" 109 3537 3583
+)
+"src/chaoticIteration.ml" 122 4057 4079 "src/chaoticIteration.ml" 122 4057 4092
+type(
+  D.t
+)
+ident(
+  int_ref new_data_head "src/chaoticIteration.ml" 116 3869 3879 "src/chaoticIteration.ml" 116 3869 3892
+)
+"src/chaoticIteration.ml" 122 4057 4068 "src/chaoticIteration.ml" 122 4057 4092
+call(
+  stack
+)
+type(
+  D.t M.t -> D.t M.t
+)
+"src/chaoticIteration.ml" 121 4044 4052 "src/chaoticIteration.ml" 122 4057 4092
+call(
+  stack
+)
+type(
+  D.t M.t
+)
+"src/chaoticIteration.ml" 123 4093 4101 "src/chaoticIteration.ml" 123 4093 4103
+type(
+  D.t M.t -> (D.t M.t -> D.t M.t) -> D.t M.t
+)
+ident(
+  int_ref |> "src/chaoticIteration.ml" 29 1602 1606 "src/chaoticIteration.ml" 29 1602 1612
+)
+"src/chaoticIteration.ml" 123 4093 4104 "src/chaoticIteration.ml" 123 4093 4120
+type(
+  int -> M.key WeakTopological.t -> D.t M.t -> D.t M.t
+)
+ident(
+  int_ref analyze_elements "src/chaoticIteration.ml" 104 3299 3311 "src/chaoticIteration.ml" 104 3299 3327
+)
+"src/chaoticIteration.ml" 123 4093 4121 "src/chaoticIteration.ml" 123 4093 4135
+type(
+  int
+)
+ident(
+  int_ref widening_steps "src/chaoticIteration.ml" 109 3537 3564 "src/chaoticIteration.ml" 109 3537 3578
+)
+"src/chaoticIteration.ml" 123 4093 4136 "src/chaoticIteration.ml" 123 4093 4141
+type(
+  M.key WeakTopological.t
+)
+ident(
+  int_ref comps "src/chaoticIteration.ml" 109 3537 3584 "src/chaoticIteration.ml" 109 3537 3589
+)
+"src/chaoticIteration.ml" 123 4093 4104 "src/chaoticIteration.ml" 123 4093 4141
+call(
+  stack
+)
+type(
+  D.t M.t -> D.t M.t
+)
+"src/chaoticIteration.ml" 121 4044 4052 "src/chaoticIteration.ml" 123 4093 4141
+call(
+  stack
+)
+type(
+  D.t M.t
+)
+"src/chaoticIteration.ml" 124 4142 4150 "src/chaoticIteration.ml" 124 4142 4152
+type(
+  D.t M.t -> (D.t M.t -> D.t M.t) -> D.t M.t
+)
+ident(
+  int_ref |> "src/chaoticIteration.ml" 29 1602 1606 "src/chaoticIteration.ml" 29 1602 1612
+)
+"src/chaoticIteration.ml" 124 4142 4153 "src/chaoticIteration.ml" 124 4142 4162
+type(
+  bool -> int -> M.key -> M.key WeakTopological.t -> D.t M.t -> D.t M.t
+)
+ident(
+  int_ref stabilize "src/chaoticIteration.ml" 109 3537 3545 "src/chaoticIteration.ml" 109 3537 3554
+)
+"src/chaoticIteration.ml" 124 4142 4163 "src/chaoticIteration.ml" 124 4142 4167
+type(
+  bool
+)
+"src/chaoticIteration.ml" 124 4142 4169 "src/chaoticIteration.ml" 124 4142 4183
+type(
+  int
+)
+ident(
+  int_ref widening_steps "src/chaoticIteration.ml" 109 3537 3564 "src/chaoticIteration.ml" 109 3537 3578
+)
+"src/chaoticIteration.ml" 124 4142 4184 "src/chaoticIteration.ml" 124 4142 4185
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/chaoticIteration.ml" 124 4142 4186 "src/chaoticIteration.ml" 124 4142 4187
+type(
+  int
+)
+"src/chaoticIteration.ml" 124 4142 4168 "src/chaoticIteration.ml" 124 4142 4188
+type(
+  int
+)
+"src/chaoticIteration.ml" 124 4142 4189 "src/chaoticIteration.ml" 124 4142 4193
+type(
+  M.key
+)
+ident(
+  int_ref head "src/chaoticIteration.ml" 109 3537 3579 "src/chaoticIteration.ml" 109 3537 3583
+)
+"src/chaoticIteration.ml" 124 4142 4194 "src/chaoticIteration.ml" 124 4142 4199
+type(
+  M.key WeakTopological.t
+)
+ident(
+  int_ref comps "src/chaoticIteration.ml" 109 3537 3584 "src/chaoticIteration.ml" 109 3537 3589
+)
+"src/chaoticIteration.ml" 124 4142 4153 "src/chaoticIteration.ml" 124 4142 4199
+call(
+  stack
+)
+type(
+  D.t M.t -> D.t M.t
+)
+"src/chaoticIteration.ml" 121 4044 4052 "src/chaoticIteration.ml" 124 4142 4199
+call(
+  tail
+)
+type(
+  D.t M.t
+)
+"src/chaoticIteration.ml" 118 3960 3966 "src/chaoticIteration.ml" 124 4142 4199
+type(
+  D.t M.t
+)
+"src/chaoticIteration.ml" 116 3869 3875 "src/chaoticIteration.ml" 124 4142 4199
+type(
+  D.t M.t
+)
+"src/chaoticIteration.ml" 114 3817 3823 "src/chaoticIteration.ml" 124 4142 4199
+type(
+  D.t M.t
+)
+"src/chaoticIteration.ml" 126 4201 4209 "src/chaoticIteration.ml" 126 4201 4224
+type(
+  int -> D.t M.t -> M.key WeakTopological.element -> D.t M.t
+)
+ident(
+  def analyze_element "src/chaoticIteration.ml" 104 3299 3303 "src/chaoticIteration.ml" 134 4546 4593
+)
+"src/chaoticIteration.ml" 126 4201 4225 "src/chaoticIteration.ml" 126 4201 4239
+type(
+  int
+)
+ident(
+  def widening_steps "src/chaoticIteration.ml" 126 4201 4240 "src/chaoticIteration.ml" 131 4483 4537
+)
+"src/chaoticIteration.ml" 126 4201 4240 "src/chaoticIteration.ml" 126 4201 4244
+type(
+  D.t M.t
+)
+ident(
+  def data "src/chaoticIteration.ml" 126 4201 4247 "src/chaoticIteration.ml" 131 4483 4537
+)
+"src/chaoticIteration.ml" 128 4319 4350 "src/chaoticIteration.ml" 128 4319 4351
+type(
+  M.key
+)
+ident(
+  def v "src/chaoticIteration.ml" 129 4355 4363 "src/chaoticIteration.ml" 129 4355 4431
+)
+"src/chaoticIteration.ml" 128 4319 4327 "src/chaoticIteration.ml" 128 4319 4351
+type(
+  M.key WeakTopological.element
+)
+"src/chaoticIteration.ml" 129 4355 4363 "src/chaoticIteration.ml" 129 4355 4368
+type(
+  M.key -> D.t -> D.t M.t -> D.t M.t
+)
+ident(
+  ext_ref M.add
+)
+"src/chaoticIteration.ml" 129 4355 4369 "src/chaoticIteration.ml" 129 4355 4370
+type(
+  M.key
+)
+ident(
+  int_ref v "src/chaoticIteration.ml" 128 4319 4350 "src/chaoticIteration.ml" 128 4319 4351
+)
+"src/chaoticIteration.ml" 129 4355 4372 "src/chaoticIteration.ml" 129 4355 4386
+type(
+  int -> (M.key -> bool) -> M.key -> D.t M.t -> D.t
+)
+ident(
+  int_ref analyze_vertex "src/chaoticIteration.ml" 90 2809 2817 "src/chaoticIteration.ml" 90 2809 2831
+)
+"src/chaoticIteration.ml" 129 4355 4387 "src/chaoticIteration.ml" 129 4355 4401
+type(
+  int
+)
+ident(
+  int_ref widening_steps "src/chaoticIteration.ml" 126 4201 4225 "src/chaoticIteration.ml" 126 4201 4239
+)
+"src/chaoticIteration.ml" 129 4355 4402 "src/chaoticIteration.ml" 129 4355 4418
+type(
+  M.key -> bool
+)
+ident(
+  int_ref do_nonhead_widen "src/chaoticIteration.ml" 75 2487 2495 "src/chaoticIteration.ml" 75 2487 2511
+)
+"src/chaoticIteration.ml" 129 4355 4419 "src/chaoticIteration.ml" 129 4355 4420
+type(
+  M.key
+)
+ident(
+  int_ref v "src/chaoticIteration.ml" 128 4319 4350 "src/chaoticIteration.ml" 128 4319 4351
+)
+"src/chaoticIteration.ml" 129 4355 4421 "src/chaoticIteration.ml" 129 4355 4425
+type(
+  D.t M.t
+)
+ident(
+  int_ref data "src/chaoticIteration.ml" 126 4201 4240 "src/chaoticIteration.ml" 126 4201 4244
+)
+"src/chaoticIteration.ml" 129 4355 4371 "src/chaoticIteration.ml" 129 4355 4426
+call(
+  stack
+)
+type(
+  D.t
+)
+"src/chaoticIteration.ml" 129 4355 4427 "src/chaoticIteration.ml" 129 4355 4431
+type(
+  D.t M.t
+)
+ident(
+  int_ref data "src/chaoticIteration.ml" 126 4201 4240 "src/chaoticIteration.ml" 126 4201 4244
+)
+"src/chaoticIteration.ml" 129 4355 4363 "src/chaoticIteration.ml" 129 4355 4431
+call(
+  tail
+)
+type(
+  D.t M.t
+)
+"src/chaoticIteration.ml" 130 4432 4467 "src/chaoticIteration.ml" 130 4432 4471
+type(
+  M.key
+)
+ident(
+  def head "src/chaoticIteration.ml" 131 4483 4491 "src/chaoticIteration.ml" 131 4483 4537
+)
+"src/chaoticIteration.ml" 130 4432 4473 "src/chaoticIteration.ml" 130 4432 4478
+type(
+  M.key WeakTopological.t
+)
+ident(
+  def comps "src/chaoticIteration.ml" 131 4483 4491 "src/chaoticIteration.ml" 131 4483 4537
+)
+"src/chaoticIteration.ml" 130 4432 4440 "src/chaoticIteration.ml" 130 4432 4479
+type(
+  M.key WeakTopological.element
+)
+"src/chaoticIteration.ml" 131 4483 4491 "src/chaoticIteration.ml" 131 4483 4500
+type(
+  bool -> int -> M.key -> M.key WeakTopological.t -> D.t M.t -> D.t M.t
+)
+ident(
+  int_ref stabilize "src/chaoticIteration.ml" 109 3537 3545 "src/chaoticIteration.ml" 109 3537 3554
+)
+"src/chaoticIteration.ml" 131 4483 4501 "src/chaoticIteration.ml" 131 4483 4506
+type(
+  bool
+)
+"src/chaoticIteration.ml" 131 4483 4507 "src/chaoticIteration.ml" 131 4483 4521
+type(
+  int
+)
+ident(
+  int_ref widening_delay "src/chaoticIteration.ml" 68 2141 2179 "src/chaoticIteration.ml" 68 2141 2193
+)
+"src/chaoticIteration.ml" 131 4483 4522 "src/chaoticIteration.ml" 131 4483 4526
+type(
+  M.key
+)
+ident(
+  int_ref head "src/chaoticIteration.ml" 130 4432 4467 "src/chaoticIteration.ml" 130 4432 4471
+)
+"src/chaoticIteration.ml" 131 4483 4527 "src/chaoticIteration.ml" 131 4483 4532
+type(
+  M.key WeakTopological.t
+)
+ident(
+  int_ref comps "src/chaoticIteration.ml" 130 4432 4473 "src/chaoticIteration.ml" 130 4432 4478
+)
+"src/chaoticIteration.ml" 131 4483 4533 "src/chaoticIteration.ml" 131 4483 4537
+type(
+  D.t M.t
+)
+ident(
+  int_ref data "src/chaoticIteration.ml" 126 4201 4240 "src/chaoticIteration.ml" 126 4201 4244
+)
+"src/chaoticIteration.ml" 131 4483 4491 "src/chaoticIteration.ml" 131 4483 4537
+call(
+  tail
+)
+type(
+  D.t M.t
+)
+"src/chaoticIteration.ml" 126 4201 4247 "src/chaoticIteration.ml" 131 4483 4537
+type(
+  M.key WeakTopological.element -> D.t M.t
+)
+"src/chaoticIteration.ml" 134 4546 4550 "src/chaoticIteration.ml" 134 4546 4566
+type(
+  int -> M.key WeakTopological.t -> D.t M.t -> D.t M.t
+)
+ident(
+  int_ref analyze_elements "src/chaoticIteration.ml" 104 3299 3311 "src/chaoticIteration.ml" 104 3299 3327
+)
+"src/chaoticIteration.ml" 134 4546 4567 "src/chaoticIteration.ml" 134 4546 4581
+type(
+  int
+)
+ident(
+  int_ref widening_delay "src/chaoticIteration.ml" 68 2141 2179 "src/chaoticIteration.ml" 68 2141 2193
+)
+"src/chaoticIteration.ml" 134 4546 4582 "src/chaoticIteration.ml" 134 4546 4585
+type(
+  M.key WeakTopological.t
+)
+ident(
+  int_ref wto "src/chaoticIteration.ml" 68 2141 2157 "src/chaoticIteration.ml" 68 2141 2160
+)
+"src/chaoticIteration.ml" 134 4546 4586 "src/chaoticIteration.ml" 134 4546 4593
+type(
+  D.t M.t
+)
+ident(
+  ext_ref M.empty
+)
+"src/chaoticIteration.ml" 134 4546 4550 "src/chaoticIteration.ml" 134 4546 4593
+call(
+  tail
+)
+type(
+  D.t M.t
+)
+"src/chaoticIteration.ml" 104 3299 3303 "src/chaoticIteration.ml" 134 4546 4593
+type(
+  D.t M.t
+)
+"src/chaoticIteration.ml" 90 2809 2813 "src/chaoticIteration.ml" 134 4546 4593
+type(
+  D.t M.t
+)
+"src/chaoticIteration.ml" 85 2709 2713 "src/chaoticIteration.ml" 134 4546 4593
+type(
+  D.t M.t
+)
+"src/chaoticIteration.ml" 80 2600 2604 "src/chaoticIteration.ml" 134 4546 4593
+type(
+  D.t M.t
+)
+"src/chaoticIteration.ml" 75 2487 2491 "src/chaoticIteration.ml" 134 4546 4593
+type(
+  D.t M.t
+)

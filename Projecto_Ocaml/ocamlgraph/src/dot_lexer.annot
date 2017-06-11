@@ -1,0 +1,2103 @@
+"src/dot_lexer.mll" 24 61 67 "src/dot_lexer.mll" 24 61 77
+type(
+  Buffer.t
+)
+ident(
+  def string_buf "src/dot_lexer.mll" 26 100 102 "src/dot_lexer.ml" 1 0 -1
+)
+"src/dot_lexer.mll" 24 61 80 "src/dot_lexer.mll" 24 61 93
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"src/dot_lexer.mll" 24 61 94 "src/dot_lexer.mll" 24 61 98
+type(
+  int
+)
+"src/dot_lexer.mll" 24 61 80 "src/dot_lexer.mll" 24 61 98
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"src/dot_lexer.mll" 26 100 106 "src/dot_lexer.mll" 26 100 113
+type(
+  string -> Dot_parser.token
+)
+ident(
+  def keyword "src/dot_lexer.ml" 24 416 416 "src/dot_lexer.ml" 1 0 -1
+)
+"src/dot_lexer.mll" 27 116 124 "src/dot_lexer.mll" 27 116 125
+type(
+  (string, Dot_parser.token) Hashtbl.t
+)
+ident(
+  def h "src/dot_lexer.mll" 28 149 153 "src/dot_lexer.mll" 38 330 389
+)
+"src/dot_lexer.mll" 27 116 128 "src/dot_lexer.mll" 27 116 142
+type(
+  ?random:bool -> int -> (string, Dot_parser.token) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"src/dot_lexer.mll" 27 116 143 "src/dot_lexer.mll" 27 116 145
+type(
+  int
+)
+"src/dot_lexer.mll" 27 116 128 "src/dot_lexer.mll" 27 116 145
+call(
+  stack
+)
+type(
+  (string, Dot_parser.token) Hashtbl.t
+)
+"src/dot_lexer.mll" 28 149 153 "src/dot_lexer.mll" 28 149 162
+type(
+  (string * Dot_parser.token -> unit) ->
+  (string * Dot_parser.token) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/dot_lexer.mll" 29 164 176 "src/dot_lexer.mll" 29 164 177
+type(
+  string
+)
+ident(
+  def s "src/dot_lexer.mll" 29 164 184 "src/dot_lexer.mll" 29 164 201
+)
+"src/dot_lexer.mll" 29 164 178 "src/dot_lexer.mll" 29 164 179
+type(
+  Dot_parser.token
+)
+ident(
+  def k "src/dot_lexer.mll" 29 164 184 "src/dot_lexer.mll" 29 164 201
+)
+"src/dot_lexer.mll" 29 164 175 "src/dot_lexer.mll" 29 164 180
+type(
+  string * Dot_parser.token
+)
+"src/dot_lexer.mll" 29 164 184 "src/dot_lexer.mll" 29 164 195
+type(
+  (string, Dot_parser.token) Hashtbl.t -> string -> Dot_parser.token -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"src/dot_lexer.mll" 29 164 196 "src/dot_lexer.mll" 29 164 197
+type(
+  (string, Dot_parser.token) Hashtbl.t
+)
+ident(
+  int_ref h "src/dot_lexer.mll" 27 116 124 "src/dot_lexer.mll" 27 116 125
+)
+"src/dot_lexer.mll" 29 164 198 "src/dot_lexer.mll" 29 164 199
+type(
+  string
+)
+ident(
+  int_ref s "src/dot_lexer.mll" 29 164 176 "src/dot_lexer.mll" 29 164 177
+)
+"src/dot_lexer.mll" 29 164 200 "src/dot_lexer.mll" 29 164 201
+type(
+  Dot_parser.token
+)
+ident(
+  int_ref k "src/dot_lexer.mll" 29 164 178 "src/dot_lexer.mll" 29 164 179
+)
+"src/dot_lexer.mll" 29 164 184 "src/dot_lexer.mll" 29 164 201
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot_lexer.mll" 29 164 170 "src/dot_lexer.mll" 29 164 202
+type(
+  string * Dot_parser.token -> unit
+)
+"src/dot_lexer.mll" 31 211 212 "src/dot_lexer.mll" 31 211 220
+type(
+  string
+)
+"src/dot_lexer.mll" 31 211 222 "src/dot_lexer.mll" 31 211 228
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.mll" 31 211 212 "src/dot_lexer.mll" 31 211 228
+type(
+  string * Dot_parser.token
+)
+"src/dot_lexer.mll" 32 230 231 "src/dot_lexer.mll" 32 230 238
+type(
+  string
+)
+"src/dot_lexer.mll" 32 230 240 "src/dot_lexer.mll" 32 230 245
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.mll" 32 230 231 "src/dot_lexer.mll" 32 230 245
+type(
+  string * Dot_parser.token
+)
+"src/dot_lexer.mll" 33 247 248 "src/dot_lexer.mll" 33 247 257
+type(
+  string
+)
+"src/dot_lexer.mll" 33 247 259 "src/dot_lexer.mll" 33 247 266
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.mll" 33 247 248 "src/dot_lexer.mll" 33 247 266
+type(
+  string * Dot_parser.token
+)
+"src/dot_lexer.mll" 34 268 269 "src/dot_lexer.mll" 34 268 279
+type(
+  string
+)
+"src/dot_lexer.mll" 34 268 281 "src/dot_lexer.mll" 34 268 289
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.mll" 34 268 269 "src/dot_lexer.mll" 34 268 289
+type(
+  string * Dot_parser.token
+)
+"src/dot_lexer.mll" 35 291 292 "src/dot_lexer.mll" 35 291 298
+type(
+  string
+)
+"src/dot_lexer.mll" 35 291 300 "src/dot_lexer.mll" 35 291 304
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.mll" 35 291 292 "src/dot_lexer.mll" 35 291 304
+type(
+  string * Dot_parser.token
+)
+"src/dot_lexer.mll" 36 306 307 "src/dot_lexer.mll" 36 306 313
+type(
+  string
+)
+"src/dot_lexer.mll" 36 306 315 "src/dot_lexer.mll" 36 306 319
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.mll" 36 306 307 "src/dot_lexer.mll" 36 306 319
+type(
+  string * Dot_parser.token
+)
+"src/dot_lexer.mll" 30 203 209 "src/dot_lexer.mll" 37 321 328
+type(
+  (string * Dot_parser.token) list
+)
+"src/dot_lexer.mll" 28 149 153 "src/dot_lexer.mll" 37 321 328
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot_lexer.mll" 38 330 338 "src/dot_lexer.mll" 38 330 339
+type(
+  string
+)
+ident(
+  def s "src/dot_lexer.mll" 38 330 343 "src/dot_lexer.mll" 38 330 389
+)
+"src/dot_lexer.mll" 38 330 347 "src/dot_lexer.mll" 38 330 348
+type(
+  string
+)
+ident(
+  def s "src/dot_lexer.mll" 38 330 373 "src/dot_lexer.mll" 38 330 389
+)
+"src/dot_lexer.mll" 38 330 351 "src/dot_lexer.mll" 38 330 367
+type(
+  string -> string
+)
+ident(
+  ext_ref String.lowercase
+)
+"src/dot_lexer.mll" 38 330 368 "src/dot_lexer.mll" 38 330 369
+type(
+  string
+)
+ident(
+  int_ref s "src/dot_lexer.mll" 38 330 338 "src/dot_lexer.mll" 38 330 339
+)
+"src/dot_lexer.mll" 38 330 351 "src/dot_lexer.mll" 38 330 369
+call(
+  stack
+)
+type(
+  string
+)
+"src/dot_lexer.mll" 38 330 373 "src/dot_lexer.mll" 38 330 385
+type(
+  (string, Dot_parser.token) Hashtbl.t -> string -> Dot_parser.token
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/dot_lexer.mll" 38 330 386 "src/dot_lexer.mll" 38 330 387
+type(
+  (string, Dot_parser.token) Hashtbl.t
+)
+ident(
+  int_ref h "src/dot_lexer.mll" 27 116 124 "src/dot_lexer.mll" 27 116 125
+)
+"src/dot_lexer.mll" 38 330 388 "src/dot_lexer.mll" 38 330 389
+type(
+  string
+)
+ident(
+  int_ref s "src/dot_lexer.mll" 38 330 347 "src/dot_lexer.mll" 38 330 348
+)
+"src/dot_lexer.mll" 38 330 373 "src/dot_lexer.mll" 38 330 389
+call(
+  tail
+)
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.mll" 38 330 343 "src/dot_lexer.mll" 38 330 389
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.mll" 38 330 334 "src/dot_lexer.mll" 38 330 389
+type(
+  string -> Dot_parser.token
+)
+"src/dot_lexer.mll" 28 149 153 "src/dot_lexer.mll" 38 330 389
+type(
+  string -> Dot_parser.token
+)
+"src/dot_lexer.mll" 27 116 120 "src/dot_lexer.mll" 38 330 389
+type(
+  string -> Dot_parser.token
+)
+"src/dot_lexer.ml" 24 416 420 "src/dot_lexer.ml" 24 416 438
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "src/dot_lexer.ml" 182 10273 10273 "src/dot_lexer.ml" 1 0 -1
+)
+"src/dot_lexer.ml" 26 464 467 "src/dot_lexer.ml" 31 814 843
+type(
+  string
+)
+"src/dot_lexer.ml" 33 869 872 "src/dot_lexer.ml" 38 1219 1248
+type(
+  string
+)
+"src/dot_lexer.ml" 40 1274 1277 "src/dot_lexer.ml" 45 1624 1653
+type(
+  string
+)
+"src/dot_lexer.ml" 47 1677 1680 "src/dot_lexer.ml" 106 5807 5860
+type(
+  string
+)
+"src/dot_lexer.ml" 108 5884 5887 "src/dot_lexer.ml" 167 10014 10067
+type(
+  string
+)
+"src/dot_lexer.ml" 169 10095 10098 "src/dot_lexer.ml" 169 10095 10100
+type(
+  string
+)
+"src/dot_lexer.ml" 171 10131 10134 "src/dot_lexer.ml" 171 10131 10136
+type(
+  string
+)
+"src/dot_lexer.ml" 173 10167 10170 "src/dot_lexer.ml" 173 10167 10172
+type(
+  string
+)
+"src/dot_lexer.ml" 175 10201 10204 "src/dot_lexer.ml" 175 10201 10206
+type(
+  string
+)
+"src/dot_lexer.ml" 177 10235 10238 "src/dot_lexer.ml" 177 10235 10240
+type(
+  string
+)
+"src/dot_lexer.ml" 179 10263 10266 "src/dot_lexer.ml" 179 10263 10268
+type(
+  string
+)
+"src/dot_lexer.ml" 24 416 441 "src/dot_lexer.ml" 180 10270 10271
+type(
+  Lexing.lex_tables
+)
+"src/dot_lexer.ml" 182 10273 10281 "src/dot_lexer.ml" 182 10273 10286
+type(
+  Lexing.lexbuf -> Dot_parser.token
+)
+ident(
+  def token "src/dot_lexer.ml" 182 10273 10273 "src/dot_lexer.ml" 1 0 -1
+)
+"src/dot_lexer.ml" 182 10273 10287 "src/dot_lexer.ml" 182 10273 10293
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/dot_lexer.ml" 183 10296 10300 "src/dot_lexer.ml" 183 10296 10330
+)
+"src/dot_lexer.ml" 183 10296 10300 "src/dot_lexer.ml" 183 10296 10321
+type(
+  Lexing.lexbuf -> int -> Dot_parser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "src/dot_lexer.ml" 184 10331 10335 "src/dot_lexer.ml" 184 10331 10356
+)
+"src/dot_lexer.ml" 183 10296 10322 "src/dot_lexer.ml" 183 10296 10328
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 182 10273 10287 "src/dot_lexer.ml" 182 10273 10293
+)
+"src/dot_lexer.ml" 183 10296 10329 "src/dot_lexer.ml" 183 10296 10330
+type(
+  int
+)
+"src/dot_lexer.ml" 183 10296 10300 "src/dot_lexer.ml" 183 10296 10330
+call(
+  tail
+)
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 184 10331 10335 "src/dot_lexer.ml" 184 10331 10356
+type(
+  Lexing.lexbuf -> int -> Dot_parser.token
+)
+ident(
+  def __ocaml_lex_token_rec "src/dot_lexer.ml" 182 10273 10273 "src/dot_lexer.ml" 1 0 -1
+)
+"src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/dot_lexer.ml" 184 10331 10364 "src/dot_lexer.ml" 296 12604 12656
+)
+"src/dot_lexer.ml" 184 10331 10364 "src/dot_lexer.ml" 184 10331 10381
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/dot_lexer.ml" 185 10384 10386 "src/dot_lexer.ml" 296 12604 12656
+)
+"src/dot_lexer.ml" 185 10384 10392 "src/dot_lexer.ml" 185 10384 10405
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/dot_lexer.ml" 185 10384 10406 "src/dot_lexer.ml" 185 10384 10424
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/dot_lexer.ml" 24 416 420 "src/dot_lexer.ml" 24 416 438
+)
+"src/dot_lexer.ml" 185 10384 10425 "src/dot_lexer.ml" 185 10384 10442
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/dot_lexer.ml" 184 10331 10364 "src/dot_lexer.ml" 184 10331 10381
+)
+"src/dot_lexer.ml" 185 10384 10443 "src/dot_lexer.ml" 185 10384 10449
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.ml" 185 10384 10392 "src/dot_lexer.ml" 185 10384 10449
+call(
+  stack
+)
+type(
+  int
+)
+"src/dot_lexer.ml" 186 10455 10463 "src/dot_lexer.ml" 186 10455 10464
+type(
+  int
+)
+"src/dot_lexer.mll" 51 10493 10501 "src/dot_lexer.mll" 51 10493 10506
+type(
+  Lexing.lexbuf -> Dot_parser.token
+)
+ident(
+  int_ref token "src/dot_lexer.ml" 182 10273 10281 "src/dot_lexer.ml" 182 10273 10286
+)
+"src/dot_lexer.mll" 51 10493 10507 "src/dot_lexer.mll" 51 10493 10513
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.mll" 51 10493 10499 "src/dot_lexer.mll" 51 10493 10515
+call(
+  tail
+)
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 191 10542 10546 "src/dot_lexer.ml" 191 10542 10547
+type(
+  int
+)
+"src/dot_lexer.mll" 53 10576 10584 "src/dot_lexer.mll" 53 10576 10589
+type(
+  Lexing.lexbuf -> Dot_parser.token
+)
+ident(
+  int_ref token "src/dot_lexer.ml" 182 10273 10281 "src/dot_lexer.ml" 182 10273 10286
+)
+"src/dot_lexer.mll" 53 10576 10590 "src/dot_lexer.mll" 53 10576 10596
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.mll" 53 10576 10582 "src/dot_lexer.mll" 53 10576 10598
+call(
+  tail
+)
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 196 10625 10629 "src/dot_lexer.ml" 196 10625 10630
+type(
+  int
+)
+"src/dot_lexer.mll" 55 10659 10667 "src/dot_lexer.mll" 55 10659 10674
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "src/dot_lexer.ml" 366 14431 14435 "src/dot_lexer.ml" 366 14431 14442
+)
+"src/dot_lexer.mll" 55 10659 10675 "src/dot_lexer.mll" 55 10659 10681
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.mll" 55 10659 10667 "src/dot_lexer.mll" 55 10659 10681
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot_lexer.mll" 55 10659 10683 "src/dot_lexer.mll" 55 10659 10688
+type(
+  Lexing.lexbuf -> Dot_parser.token
+)
+ident(
+  int_ref token "src/dot_lexer.ml" 182 10273 10281 "src/dot_lexer.ml" 182 10273 10286
+)
+"src/dot_lexer.mll" 55 10659 10689 "src/dot_lexer.mll" 55 10659 10695
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.mll" 55 10659 10683 "src/dot_lexer.mll" 55 10659 10695
+call(
+  tail
+)
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.mll" 55 10659 10665 "src/dot_lexer.mll" 55 10659 10697
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 201 10724 10728 "src/dot_lexer.ml" 201 10724 10729
+type(
+  int
+)
+"src/dot_lexer.mll" 57 10758 10764 "src/dot_lexer.mll" 57 10758 10773
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 206 10800 10804 "src/dot_lexer.ml" 206 10800 10805
+type(
+  int
+)
+"src/dot_lexer.mll" 59 10834 10840 "src/dot_lexer.mll" 59 10834 10849
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 211 10876 10880 "src/dot_lexer.ml" 211 10876 10881
+type(
+  int
+)
+"src/dot_lexer.mll" 61 10910 10916 "src/dot_lexer.mll" 61 10910 10929
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 216 10956 10960 "src/dot_lexer.ml" 216 10956 10961
+type(
+  int
+)
+"src/dot_lexer.mll" 63 10990 10996 "src/dot_lexer.mll" 63 10990 11005
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 221 11032 11036 "src/dot_lexer.ml" 221 11032 11037
+type(
+  int
+)
+"src/dot_lexer.mll" 65 11066 11072 "src/dot_lexer.mll" 65 11066 11080
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 226 11107 11111 "src/dot_lexer.ml" 226 11107 11112
+type(
+  int
+)
+"src/dot_lexer.mll" 67 11141 11147 "src/dot_lexer.mll" 67 11141 11155
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 231 11182 11186 "src/dot_lexer.ml" 231 11182 11187
+type(
+  int
+)
+"src/dot_lexer.mll" 69 11216 11222 "src/dot_lexer.mll" 69 11216 11229
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 236 11256 11260 "src/dot_lexer.ml" 236 11256 11262
+type(
+  int
+)
+"src/dot_lexer.mll" 71 11291 11297 "src/dot_lexer.mll" 71 11291 11304
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 241 11331 11335 "src/dot_lexer.ml" 241 11331 11337
+type(
+  int
+)
+"src/dot_lexer.mll" 73 11366 11372 "src/dot_lexer.mll" 73 11366 11382
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 246 11409 11413 "src/dot_lexer.ml" 246 11409 11415
+type(
+  int
+)
+"src/dot_lexer.mll" 74 11448 11461 "src/dot_lexer.mll" 74 11448 11462
+type(
+  string
+)
+ident(
+  def s "src/dot_lexer.mll" 75 11598 11604 "src/dot_lexer.mll" 75 11598 11652
+)
+"src/dot_lexer.ml" 251 11488 11490 "src/dot_lexer.ml" 251 11488 11507
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/dot_lexer.ml" 251 11488 11508 "src/dot_lexer.ml" 251 11488 11514
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.ml" 251 11488 11515 "src/dot_lexer.ml" 251 11488 11521
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.ml" 251 11488 11515 "src/dot_lexer.ml" 251 11488 11542
+type(
+  int
+)
+"src/dot_lexer.ml" 251 11488 11543 "src/dot_lexer.ml" 251 11488 11549
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.ml" 251 11488 11543 "src/dot_lexer.ml" 251 11488 11569
+type(
+  int
+)
+"src/dot_lexer.ml" 251 11488 11490 "src/dot_lexer.ml" 251 11488 11569
+call(
+  stack
+)
+type(
+  string
+)
+"src/dot_lexer.mll" 75 11598 11610 "src/dot_lexer.mll" 75 11598 11617
+type(
+  string -> Dot_parser.token
+)
+ident(
+  int_ref keyword "src/dot_lexer.mll" 26 100 106 "src/dot_lexer.mll" 26 100 113
+)
+"src/dot_lexer.mll" 75 11598 11618 "src/dot_lexer.mll" 75 11598 11619
+type(
+  string
+)
+ident(
+  int_ref s "src/dot_lexer.mll" 74 11448 11461 "src/dot_lexer.mll" 74 11448 11462
+)
+"src/dot_lexer.mll" 75 11598 11610 "src/dot_lexer.mll" 75 11598 11619
+call(
+  stack
+)
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.mll" 75 11598 11625 "src/dot_lexer.mll" 75 11598 11634
+type(
+  exn
+)
+"src/dot_lexer.mll" 75 11598 11648 "src/dot_lexer.mll" 75 11598 11649
+type(
+  string
+)
+ident(
+  int_ref s "src/dot_lexer.mll" 74 11448 11461 "src/dot_lexer.mll" 74 11448 11462
+)
+"src/dot_lexer.mll" 75 11598 11641 "src/dot_lexer.mll" 75 11598 11650
+type(
+  Dot_ast.id
+)
+"src/dot_lexer.mll" 75 11598 11638 "src/dot_lexer.mll" 75 11598 11650
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.mll" 75 11598 11604 "src/dot_lexer.mll" 75 11598 11652
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 247 11419 11419 "src/dot_lexer.mll" 75 11598 11652
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 256 11679 11683 "src/dot_lexer.ml" 256 11679 11685
+type(
+  int
+)
+"src/dot_lexer.mll" 76 11718 11732 "src/dot_lexer.mll" 76 11718 11733
+type(
+  string
+)
+ident(
+  def s "src/dot_lexer.mll" 77 11869 11875 "src/dot_lexer.mll" 77 11869 11892
+)
+"src/dot_lexer.ml" 261 11759 11761 "src/dot_lexer.ml" 261 11759 11778
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/dot_lexer.ml" 261 11759 11779 "src/dot_lexer.ml" 261 11759 11785
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.ml" 261 11759 11786 "src/dot_lexer.ml" 261 11759 11792
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.ml" 261 11759 11786 "src/dot_lexer.ml" 261 11759 11813
+type(
+  int
+)
+"src/dot_lexer.ml" 261 11759 11814 "src/dot_lexer.ml" 261 11759 11820
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.ml" 261 11759 11814 "src/dot_lexer.ml" 261 11759 11840
+type(
+  int
+)
+"src/dot_lexer.ml" 261 11759 11761 "src/dot_lexer.ml" 261 11759 11840
+call(
+  stack
+)
+type(
+  string
+)
+"src/dot_lexer.mll" 77 11869 11888 "src/dot_lexer.mll" 77 11869 11889
+type(
+  string
+)
+ident(
+  int_ref s "src/dot_lexer.mll" 76 11718 11732 "src/dot_lexer.mll" 76 11718 11733
+)
+"src/dot_lexer.mll" 77 11869 11880 "src/dot_lexer.mll" 77 11869 11890
+type(
+  Dot_ast.id
+)
+"src/dot_lexer.mll" 77 11869 11875 "src/dot_lexer.mll" 77 11869 11892
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 257 11689 11689 "src/dot_lexer.mll" 77 11869 11892
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 266 11919 11923 "src/dot_lexer.ml" 266 11919 11925
+type(
+  int
+)
+"src/dot_lexer.mll" 79 11954 11962 "src/dot_lexer.mll" 79 11954 11974
+type(
+  Buffer.t -> unit
+)
+ident(
+  ext_ref Buffer.clear
+)
+"src/dot_lexer.mll" 79 11954 11975 "src/dot_lexer.mll" 79 11954 11985
+type(
+  Buffer.t
+)
+ident(
+  int_ref string_buf "src/dot_lexer.mll" 24 61 67 "src/dot_lexer.mll" 24 61 77
+)
+"src/dot_lexer.mll" 79 11954 11962 "src/dot_lexer.mll" 79 11954 11985
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot_lexer.mll" 80 11988 11993 "src/dot_lexer.mll" 80 11988 11994
+type(
+  string
+)
+ident(
+  def s "src/dot_lexer.mll" 81 12014 12015 "src/dot_lexer.mll" 81 12014 12028
+)
+"src/dot_lexer.mll" 80 11988 11997 "src/dot_lexer.mll" 80 11988 12003
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref string "src/dot_lexer.ml" 298 12658 12662 "src/dot_lexer.ml" 298 12658 12668
+)
+"src/dot_lexer.mll" 80 11988 12004 "src/dot_lexer.mll" 80 11988 12010
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.mll" 80 11988 11997 "src/dot_lexer.mll" 80 11988 12010
+call(
+  stack
+)
+type(
+  string
+)
+"src/dot_lexer.mll" 81 12014 12026 "src/dot_lexer.mll" 81 12014 12027
+type(
+  string
+)
+ident(
+  int_ref s "src/dot_lexer.mll" 80 11988 11993 "src/dot_lexer.mll" 80 11988 11994
+)
+"src/dot_lexer.mll" 81 12014 12018 "src/dot_lexer.mll" 81 12014 12028
+type(
+  Dot_ast.id
+)
+"src/dot_lexer.mll" 81 12014 12015 "src/dot_lexer.mll" 81 12014 12028
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.mll" 80 11988 11989 "src/dot_lexer.mll" 81 12014 12028
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.mll" 79 11954 11960 "src/dot_lexer.mll" 81 12014 12030
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 273 12057 12061 "src/dot_lexer.ml" 273 12057 12063
+type(
+  int
+)
+"src/dot_lexer.mll" 83 12092 12100 "src/dot_lexer.mll" 83 12092 12112
+type(
+  Buffer.t -> unit
+)
+ident(
+  ext_ref Buffer.clear
+)
+"src/dot_lexer.mll" 83 12092 12113 "src/dot_lexer.mll" 83 12092 12123
+type(
+  Buffer.t
+)
+ident(
+  int_ref string_buf "src/dot_lexer.mll" 24 61 67 "src/dot_lexer.mll" 24 61 77
+)
+"src/dot_lexer.mll" 83 12092 12100 "src/dot_lexer.mll" 83 12092 12123
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot_lexer.mll" 84 12126 12127 "src/dot_lexer.mll" 84 12126 12131
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref html "src/dot_lexer.ml" 332 13539 13543 "src/dot_lexer.ml" 332 13539 13547
+)
+"src/dot_lexer.mll" 84 12126 12132 "src/dot_lexer.mll" 84 12126 12138
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.mll" 84 12126 12127 "src/dot_lexer.mll" 84 12126 12138
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot_lexer.mll" 85 12141 12152 "src/dot_lexer.mll" 85 12141 12167
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/dot_lexer.mll" 85 12141 12168 "src/dot_lexer.mll" 85 12141 12178
+type(
+  Buffer.t
+)
+ident(
+  int_ref string_buf "src/dot_lexer.mll" 24 61 67 "src/dot_lexer.mll" 24 61 77
+)
+"src/dot_lexer.mll" 85 12141 12151 "src/dot_lexer.mll" 85 12141 12179
+call(
+  stack
+)
+type(
+  string
+)
+"src/dot_lexer.mll" 85 12141 12145 "src/dot_lexer.mll" 85 12141 12180
+type(
+  Dot_ast.id
+)
+"src/dot_lexer.mll" 85 12141 12142 "src/dot_lexer.mll" 85 12141 12180
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.mll" 84 12126 12127 "src/dot_lexer.mll" 85 12141 12180
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.mll" 83 12092 12098 "src/dot_lexer.mll" 85 12141 12182
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 280 12209 12213 "src/dot_lexer.ml" 280 12209 12215
+type(
+  int
+)
+"src/dot_lexer.mll" 87 12244 12250 "src/dot_lexer.mll" 87 12244 12257
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 285 12284 12288 "src/dot_lexer.ml" 285 12284 12290
+type(
+  int
+)
+"src/dot_lexer.mll" 88 12323 12332 "src/dot_lexer.mll" 88 12323 12333
+type(
+  char
+)
+ident(
+  def c "src/dot_lexer.mll" 89 12447 12453 "src/dot_lexer.mll" 89 12447 12517
+)
+"src/dot_lexer.ml" 290 12359 12361 "src/dot_lexer.ml" 290 12359 12383
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/dot_lexer.ml" 290 12359 12384 "src/dot_lexer.ml" 290 12359 12390
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.ml" 290 12359 12391 "src/dot_lexer.ml" 290 12359 12397
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.ml" 290 12359 12391 "src/dot_lexer.ml" 290 12359 12418
+type(
+  int
+)
+"src/dot_lexer.ml" 290 12359 12361 "src/dot_lexer.ml" 290 12359 12418
+call(
+  stack
+)
+type(
+  char
+)
+"src/dot_lexer.mll" 89 12447 12455 "src/dot_lexer.mll" 89 12447 12463
+type(
+  string -> Dot_parser.token
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/dot_lexer.mll" 89 12447 12465 "src/dot_lexer.mll" 89 12447 12496
+type(
+  string
+)
+"src/dot_lexer.mll" 89 12447 12497 "src/dot_lexer.mll" 89 12447 12498
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/dot_lexer.mll" 89 12447 12499 "src/dot_lexer.mll" 89 12447 12510
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/dot_lexer.mll" 89 12447 12511 "src/dot_lexer.mll" 89 12447 12512
+type(
+  int
+)
+"src/dot_lexer.mll" 89 12447 12513 "src/dot_lexer.mll" 89 12447 12514
+type(
+  char
+)
+ident(
+  int_ref c "src/dot_lexer.mll" 88 12323 12332 "src/dot_lexer.mll" 88 12323 12333
+)
+"src/dot_lexer.mll" 89 12447 12499 "src/dot_lexer.mll" 89 12447 12514
+call(
+  stack
+)
+type(
+  string
+)
+"src/dot_lexer.mll" 89 12447 12464 "src/dot_lexer.mll" 89 12447 12515
+call(
+  stack
+)
+type(
+  string
+)
+"src/dot_lexer.mll" 89 12447 12453 "src/dot_lexer.mll" 89 12447 12517
+call(
+  tail
+)
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 286 12294 12294 "src/dot_lexer.mll" 89 12447 12517
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 295 12544 12548 "src/dot_lexer.ml" 295 12544 12565
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/dot_lexer.ml" 295 12544 12569 "src/dot_lexer.ml" 296 12604 12656
+)
+"src/dot_lexer.ml" 295 12544 12569 "src/dot_lexer.ml" 295 12544 12575
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.ml" 295 12544 12569 "src/dot_lexer.ml" 295 12544 12594
+type(
+  Lexing.lexbuf -> unit
+)
+"src/dot_lexer.ml" 295 12544 12595 "src/dot_lexer.ml" 295 12544 12601
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.ml" 295 12544 12569 "src/dot_lexer.ml" 295 12544 12601
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot_lexer.ml" 296 12604 12610 "src/dot_lexer.ml" 296 12604 12631
+type(
+  Lexing.lexbuf -> int -> Dot_parser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "src/dot_lexer.ml" 184 10331 10335 "src/dot_lexer.ml" 184 10331 10356
+)
+"src/dot_lexer.ml" 296 12604 12632 "src/dot_lexer.ml" 296 12604 12638
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 184 10331 10357 "src/dot_lexer.ml" 184 10331 10363
+)
+"src/dot_lexer.ml" 296 12604 12639 "src/dot_lexer.ml" 296 12604 12656
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/dot_lexer.ml" 295 12544 12548 "src/dot_lexer.ml" 295 12544 12565
+)
+"src/dot_lexer.ml" 296 12604 12610 "src/dot_lexer.ml" 296 12604 12656
+call(
+  tail
+)
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 295 12544 12569 "src/dot_lexer.ml" 296 12604 12656
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 185 10384 10386 "src/dot_lexer.ml" 296 12604 12656
+type(
+  Dot_parser.token
+)
+"src/dot_lexer.ml" 298 12658 12662 "src/dot_lexer.ml" 298 12658 12668
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  def string "src/dot_lexer.ml" 182 10273 10273 "src/dot_lexer.ml" 1 0 -1
+)
+"src/dot_lexer.ml" 298 12658 12669 "src/dot_lexer.ml" 298 12658 12675
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/dot_lexer.ml" 299 12678 12682 "src/dot_lexer.ml" 299 12678 12714
+)
+"src/dot_lexer.ml" 299 12678 12682 "src/dot_lexer.ml" 299 12678 12704
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref __ocaml_lex_string_rec "src/dot_lexer.ml" 300 12715 12719 "src/dot_lexer.ml" 300 12715 12741
+)
+"src/dot_lexer.ml" 299 12678 12705 "src/dot_lexer.ml" 299 12678 12711
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 298 12658 12669 "src/dot_lexer.ml" 298 12658 12675
+)
+"src/dot_lexer.ml" 299 12678 12712 "src/dot_lexer.ml" 299 12678 12714
+type(
+  int
+)
+"src/dot_lexer.ml" 299 12678 12682 "src/dot_lexer.ml" 299 12678 12714
+call(
+  tail
+)
+type(
+  string
+)
+"src/dot_lexer.ml" 300 12715 12719 "src/dot_lexer.ml" 300 12715 12741
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  def __ocaml_lex_string_rec "src/dot_lexer.ml" 182 10273 10273 "src/dot_lexer.ml" 1 0 -1
+)
+"src/dot_lexer.ml" 300 12715 12742 "src/dot_lexer.ml" 300 12715 12748
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/dot_lexer.ml" 300 12715 12749 "src/dot_lexer.ml" 330 13484 13537
+)
+"src/dot_lexer.ml" 300 12715 12749 "src/dot_lexer.ml" 300 12715 12766
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/dot_lexer.ml" 301 12769 12771 "src/dot_lexer.ml" 330 13484 13537
+)
+"src/dot_lexer.ml" 301 12769 12777 "src/dot_lexer.ml" 301 12769 12790
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/dot_lexer.ml" 301 12769 12791 "src/dot_lexer.ml" 301 12769 12809
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/dot_lexer.ml" 24 416 420 "src/dot_lexer.ml" 24 416 438
+)
+"src/dot_lexer.ml" 301 12769 12810 "src/dot_lexer.ml" 301 12769 12827
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/dot_lexer.ml" 300 12715 12749 "src/dot_lexer.ml" 300 12715 12766
+)
+"src/dot_lexer.ml" 301 12769 12828 "src/dot_lexer.ml" 301 12769 12834
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 300 12715 12742 "src/dot_lexer.ml" 300 12715 12748
+)
+"src/dot_lexer.ml" 301 12769 12777 "src/dot_lexer.ml" 301 12769 12834
+call(
+  stack
+)
+type(
+  int
+)
+"src/dot_lexer.ml" 302 12840 12848 "src/dot_lexer.ml" 302 12840 12849
+type(
+  int
+)
+"src/dot_lexer.mll" 93 12878 12886 "src/dot_lexer.mll" 93 12878 12901
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/dot_lexer.mll" 93 12878 12902 "src/dot_lexer.mll" 93 12878 12912
+type(
+  Buffer.t
+)
+ident(
+  int_ref string_buf "src/dot_lexer.mll" 24 61 67 "src/dot_lexer.mll" 24 61 77
+)
+"src/dot_lexer.mll" 93 12878 12884 "src/dot_lexer.mll" 93 12878 12914
+call(
+  tail
+)
+type(
+  string
+)
+"src/dot_lexer.ml" 307 12941 12945 "src/dot_lexer.ml" 307 12941 12946
+type(
+  int
+)
+"src/dot_lexer.mll" 95 12975 12983 "src/dot_lexer.mll" 95 12975 12998
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/dot_lexer.mll" 95 12975 12999 "src/dot_lexer.mll" 95 12975 13009
+type(
+  Buffer.t
+)
+ident(
+  int_ref string_buf "src/dot_lexer.mll" 24 61 67 "src/dot_lexer.mll" 24 61 77
+)
+"src/dot_lexer.mll" 95 12975 13010 "src/dot_lexer.mll" 95 12975 13013
+type(
+  char
+)
+"src/dot_lexer.mll" 95 12975 12983 "src/dot_lexer.mll" 95 12975 13013
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot_lexer.mll" 96 13015 13016 "src/dot_lexer.mll" 96 13015 13022
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref string "src/dot_lexer.ml" 298 12658 12662 "src/dot_lexer.ml" 298 12658 12668
+)
+"src/dot_lexer.mll" 96 13015 13023 "src/dot_lexer.mll" 96 13015 13029
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 300 12715 12742 "src/dot_lexer.ml" 300 12715 12748
+)
+"src/dot_lexer.mll" 96 13015 13016 "src/dot_lexer.mll" 96 13015 13029
+call(
+  tail
+)
+type(
+  string
+)
+"src/dot_lexer.mll" 95 12975 12981 "src/dot_lexer.mll" 96 13015 13031
+type(
+  string
+)
+"src/dot_lexer.ml" 313 13058 13062 "src/dot_lexer.ml" 313 13058 13063
+type(
+  int
+)
+"src/dot_lexer.mll" 97 13096 13105 "src/dot_lexer.mll" 97 13096 13106
+type(
+  char
+)
+ident(
+  def c "src/dot_lexer.mll" 98 13220 13226 "src/dot_lexer.mll" 99 13258 13274
+)
+"src/dot_lexer.ml" 318 13132 13134 "src/dot_lexer.ml" 318 13132 13156
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/dot_lexer.ml" 318 13132 13157 "src/dot_lexer.ml" 318 13132 13163
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 300 12715 12742 "src/dot_lexer.ml" 300 12715 12748
+)
+"src/dot_lexer.ml" 318 13132 13164 "src/dot_lexer.ml" 318 13132 13170
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 300 12715 12742 "src/dot_lexer.ml" 300 12715 12748
+)
+"src/dot_lexer.ml" 318 13132 13164 "src/dot_lexer.ml" 318 13132 13191
+type(
+  int
+)
+"src/dot_lexer.ml" 318 13132 13134 "src/dot_lexer.ml" 318 13132 13191
+call(
+  stack
+)
+type(
+  char
+)
+"src/dot_lexer.mll" 98 13220 13228 "src/dot_lexer.mll" 98 13220 13243
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/dot_lexer.mll" 98 13220 13244 "src/dot_lexer.mll" 98 13220 13254
+type(
+  Buffer.t
+)
+ident(
+  int_ref string_buf "src/dot_lexer.mll" 24 61 67 "src/dot_lexer.mll" 24 61 77
+)
+"src/dot_lexer.mll" 98 13220 13255 "src/dot_lexer.mll" 98 13220 13256
+type(
+  char
+)
+ident(
+  int_ref c "src/dot_lexer.mll" 97 13096 13105 "src/dot_lexer.mll" 97 13096 13106
+)
+"src/dot_lexer.mll" 98 13220 13228 "src/dot_lexer.mll" 98 13220 13256
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot_lexer.mll" 99 13258 13259 "src/dot_lexer.mll" 99 13258 13265
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref string "src/dot_lexer.ml" 298 12658 12662 "src/dot_lexer.ml" 298 12658 12668
+)
+"src/dot_lexer.mll" 99 13258 13266 "src/dot_lexer.mll" 99 13258 13272
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 300 12715 12742 "src/dot_lexer.ml" 300 12715 12748
+)
+"src/dot_lexer.mll" 99 13258 13259 "src/dot_lexer.mll" 99 13258 13272
+call(
+  tail
+)
+type(
+  string
+)
+"src/dot_lexer.mll" 98 13220 13226 "src/dot_lexer.mll" 99 13258 13274
+type(
+  string
+)
+"src/dot_lexer.ml" 314 13067 13067 "src/dot_lexer.mll" 99 13258 13274
+type(
+  string
+)
+"src/dot_lexer.ml" 324 13301 13305 "src/dot_lexer.ml" 324 13301 13306
+type(
+  int
+)
+"src/dot_lexer.mll" 101 13336 13344 "src/dot_lexer.mll" 101 13336 13352
+type(
+  string -> string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/dot_lexer.mll" 101 13336 13353 "src/dot_lexer.mll" 101 13336 13395
+type(
+  string
+)
+"src/dot_lexer.mll" 101 13336 13342 "src/dot_lexer.mll" 101 13336 13397
+call(
+  tail
+)
+type(
+  string
+)
+"src/dot_lexer.ml" 329 13424 13428 "src/dot_lexer.ml" 329 13424 13445
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/dot_lexer.ml" 329 13424 13449 "src/dot_lexer.ml" 330 13484 13537
+)
+"src/dot_lexer.ml" 329 13424 13449 "src/dot_lexer.ml" 329 13424 13455
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 300 12715 12742 "src/dot_lexer.ml" 300 12715 12748
+)
+"src/dot_lexer.ml" 329 13424 13449 "src/dot_lexer.ml" 329 13424 13474
+type(
+  Lexing.lexbuf -> unit
+)
+"src/dot_lexer.ml" 329 13424 13475 "src/dot_lexer.ml" 329 13424 13481
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 300 12715 12742 "src/dot_lexer.ml" 300 12715 12748
+)
+"src/dot_lexer.ml" 329 13424 13449 "src/dot_lexer.ml" 329 13424 13481
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot_lexer.ml" 330 13484 13490 "src/dot_lexer.ml" 330 13484 13512
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref __ocaml_lex_string_rec "src/dot_lexer.ml" 300 12715 12719 "src/dot_lexer.ml" 300 12715 12741
+)
+"src/dot_lexer.ml" 330 13484 13513 "src/dot_lexer.ml" 330 13484 13519
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 300 12715 12742 "src/dot_lexer.ml" 300 12715 12748
+)
+"src/dot_lexer.ml" 330 13484 13520 "src/dot_lexer.ml" 330 13484 13537
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/dot_lexer.ml" 329 13424 13428 "src/dot_lexer.ml" 329 13424 13445
+)
+"src/dot_lexer.ml" 330 13484 13490 "src/dot_lexer.ml" 330 13484 13537
+call(
+  tail
+)
+type(
+  string
+)
+"src/dot_lexer.ml" 329 13424 13449 "src/dot_lexer.ml" 330 13484 13537
+type(
+  string
+)
+"src/dot_lexer.ml" 301 12769 12771 "src/dot_lexer.ml" 330 13484 13537
+type(
+  string
+)
+"src/dot_lexer.ml" 332 13539 13543 "src/dot_lexer.ml" 332 13539 13547
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def html "src/dot_lexer.ml" 182 10273 10273 "src/dot_lexer.ml" 1 0 -1
+)
+"src/dot_lexer.ml" 332 13539 13548 "src/dot_lexer.ml" 332 13539 13554
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/dot_lexer.ml" 333 13557 13561 "src/dot_lexer.ml" 333 13557 13591
+)
+"src/dot_lexer.ml" 333 13557 13561 "src/dot_lexer.ml" 333 13557 13581
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_html_rec "src/dot_lexer.ml" 334 13592 13596 "src/dot_lexer.ml" 334 13592 13616
+)
+"src/dot_lexer.ml" 333 13557 13582 "src/dot_lexer.ml" 333 13557 13588
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 332 13539 13548 "src/dot_lexer.ml" 332 13539 13554
+)
+"src/dot_lexer.ml" 333 13557 13589 "src/dot_lexer.ml" 333 13557 13591
+type(
+  int
+)
+"src/dot_lexer.ml" 333 13557 13561 "src/dot_lexer.ml" 333 13557 13591
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot_lexer.ml" 334 13592 13596 "src/dot_lexer.ml" 334 13592 13616
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_html_rec "src/dot_lexer.ml" 182 10273 10273 "src/dot_lexer.ml" 1 0 -1
+)
+"src/dot_lexer.ml" 334 13592 13617 "src/dot_lexer.ml" 334 13592 13623
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/dot_lexer.ml" 334 13592 13624 "src/dot_lexer.ml" 364 14378 14429
+)
+"src/dot_lexer.ml" 334 13592 13624 "src/dot_lexer.ml" 334 13592 13641
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/dot_lexer.ml" 335 13644 13646 "src/dot_lexer.ml" 364 14378 14429
+)
+"src/dot_lexer.ml" 335 13644 13652 "src/dot_lexer.ml" 335 13644 13665
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/dot_lexer.ml" 335 13644 13666 "src/dot_lexer.ml" 335 13644 13684
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/dot_lexer.ml" 24 416 420 "src/dot_lexer.ml" 24 416 438
+)
+"src/dot_lexer.ml" 335 13644 13685 "src/dot_lexer.ml" 335 13644 13702
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/dot_lexer.ml" 334 13592 13624 "src/dot_lexer.ml" 334 13592 13641
+)
+"src/dot_lexer.ml" 335 13644 13703 "src/dot_lexer.ml" 335 13644 13709
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 334 13592 13617 "src/dot_lexer.ml" 334 13592 13623
+)
+"src/dot_lexer.ml" 335 13644 13652 "src/dot_lexer.ml" 335 13644 13709
+call(
+  stack
+)
+type(
+  int
+)
+"src/dot_lexer.ml" 336 13715 13723 "src/dot_lexer.ml" 336 13715 13724
+type(
+  int
+)
+"src/dot_lexer.mll" 105 13754 13760 "src/dot_lexer.mll" 105 13754 13766
+type(
+  unit
+)
+"src/dot_lexer.ml" 341 13793 13797 "src/dot_lexer.ml" 341 13793 13798
+type(
+  int
+)
+"src/dot_lexer.mll" 107 13828 13836 "src/dot_lexer.mll" 107 13828 13851
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/dot_lexer.mll" 107 13828 13852 "src/dot_lexer.mll" 107 13828 13862
+type(
+  Buffer.t
+)
+ident(
+  int_ref string_buf "src/dot_lexer.mll" 24 61 67 "src/dot_lexer.mll" 24 61 77
+)
+"src/dot_lexer.mll" 107 13828 13863 "src/dot_lexer.mll" 107 13828 13866
+type(
+  char
+)
+"src/dot_lexer.mll" 107 13828 13836 "src/dot_lexer.mll" 107 13828 13866
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot_lexer.mll" 107 13828 13868 "src/dot_lexer.mll" 107 13828 13872
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref html "src/dot_lexer.ml" 332 13539 13543 "src/dot_lexer.ml" 332 13539 13547
+)
+"src/dot_lexer.mll" 107 13828 13873 "src/dot_lexer.mll" 107 13828 13879
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 334 13592 13617 "src/dot_lexer.ml" 334 13592 13623
+)
+"src/dot_lexer.mll" 107 13828 13868 "src/dot_lexer.mll" 107 13828 13879
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot_lexer.mll" 108 13881 13882 "src/dot_lexer.mll" 108 13881 13897
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/dot_lexer.mll" 108 13881 13898 "src/dot_lexer.mll" 108 13881 13908
+type(
+  Buffer.t
+)
+ident(
+  int_ref string_buf "src/dot_lexer.mll" 24 61 67 "src/dot_lexer.mll" 24 61 77
+)
+"src/dot_lexer.mll" 108 13881 13909 "src/dot_lexer.mll" 108 13881 13912
+type(
+  char
+)
+"src/dot_lexer.mll" 108 13881 13882 "src/dot_lexer.mll" 108 13881 13912
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot_lexer.mll" 108 13881 13914 "src/dot_lexer.mll" 108 13881 13918
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref html "src/dot_lexer.ml" 332 13539 13543 "src/dot_lexer.ml" 332 13539 13547
+)
+"src/dot_lexer.mll" 108 13881 13919 "src/dot_lexer.mll" 108 13881 13925
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 334 13592 13617 "src/dot_lexer.ml" 334 13592 13623
+)
+"src/dot_lexer.mll" 108 13881 13914 "src/dot_lexer.mll" 108 13881 13925
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot_lexer.mll" 108 13881 13882 "src/dot_lexer.mll" 108 13881 13925
+type(
+  unit
+)
+"src/dot_lexer.mll" 107 13828 13868 "src/dot_lexer.mll" 108 13881 13925
+type(
+  unit
+)
+"src/dot_lexer.mll" 107 13828 13834 "src/dot_lexer.mll" 108 13881 13927
+type(
+  unit
+)
+"src/dot_lexer.ml" 347 13954 13958 "src/dot_lexer.ml" 347 13954 13959
+type(
+  int
+)
+"src/dot_lexer.mll" 109 13993 14002 "src/dot_lexer.mll" 109 13993 14003
+type(
+  char
+)
+ident(
+  def c "src/dot_lexer.mll" 110 14118 14124 "src/dot_lexer.mll" 111 14156 14170
+)
+"src/dot_lexer.ml" 352 14029 14031 "src/dot_lexer.ml" 352 14029 14053
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/dot_lexer.ml" 352 14029 14054 "src/dot_lexer.ml" 352 14029 14060
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 334 13592 13617 "src/dot_lexer.ml" 334 13592 13623
+)
+"src/dot_lexer.ml" 352 14029 14061 "src/dot_lexer.ml" 352 14029 14067
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 334 13592 13617 "src/dot_lexer.ml" 334 13592 13623
+)
+"src/dot_lexer.ml" 352 14029 14061 "src/dot_lexer.ml" 352 14029 14088
+type(
+  int
+)
+"src/dot_lexer.ml" 352 14029 14031 "src/dot_lexer.ml" 352 14029 14088
+call(
+  stack
+)
+type(
+  char
+)
+"src/dot_lexer.mll" 110 14118 14126 "src/dot_lexer.mll" 110 14118 14141
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/dot_lexer.mll" 110 14118 14142 "src/dot_lexer.mll" 110 14118 14152
+type(
+  Buffer.t
+)
+ident(
+  int_ref string_buf "src/dot_lexer.mll" 24 61 67 "src/dot_lexer.mll" 24 61 77
+)
+"src/dot_lexer.mll" 110 14118 14153 "src/dot_lexer.mll" 110 14118 14154
+type(
+  char
+)
+ident(
+  int_ref c "src/dot_lexer.mll" 109 13993 14002 "src/dot_lexer.mll" 109 13993 14003
+)
+"src/dot_lexer.mll" 110 14118 14126 "src/dot_lexer.mll" 110 14118 14154
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot_lexer.mll" 111 14156 14157 "src/dot_lexer.mll" 111 14156 14161
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref html "src/dot_lexer.ml" 332 13539 13543 "src/dot_lexer.ml" 332 13539 13547
+)
+"src/dot_lexer.mll" 111 14156 14162 "src/dot_lexer.mll" 111 14156 14168
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 334 13592 13617 "src/dot_lexer.ml" 334 13592 13623
+)
+"src/dot_lexer.mll" 111 14156 14157 "src/dot_lexer.mll" 111 14156 14168
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot_lexer.mll" 110 14118 14124 "src/dot_lexer.mll" 111 14156 14170
+type(
+  unit
+)
+"src/dot_lexer.ml" 348 13963 13963 "src/dot_lexer.mll" 111 14156 14170
+type(
+  unit
+)
+"src/dot_lexer.ml" 358 14197 14201 "src/dot_lexer.ml" 358 14197 14202
+type(
+  int
+)
+"src/dot_lexer.mll" 113 14232 14240 "src/dot_lexer.mll" 113 14232 14248
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/dot_lexer.mll" 113 14232 14249 "src/dot_lexer.mll" 113 14232 14289
+type(
+  string
+)
+"src/dot_lexer.mll" 113 14232 14238 "src/dot_lexer.mll" 113 14232 14291
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot_lexer.ml" 363 14318 14322 "src/dot_lexer.ml" 363 14318 14339
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/dot_lexer.ml" 363 14318 14343 "src/dot_lexer.ml" 364 14378 14429
+)
+"src/dot_lexer.ml" 363 14318 14343 "src/dot_lexer.ml" 363 14318 14349
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 334 13592 13617 "src/dot_lexer.ml" 334 13592 13623
+)
+"src/dot_lexer.ml" 363 14318 14343 "src/dot_lexer.ml" 363 14318 14368
+type(
+  Lexing.lexbuf -> unit
+)
+"src/dot_lexer.ml" 363 14318 14369 "src/dot_lexer.ml" 363 14318 14375
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 334 13592 13617 "src/dot_lexer.ml" 334 13592 13623
+)
+"src/dot_lexer.ml" 363 14318 14343 "src/dot_lexer.ml" 363 14318 14375
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot_lexer.ml" 364 14378 14384 "src/dot_lexer.ml" 364 14378 14404
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_html_rec "src/dot_lexer.ml" 334 13592 13596 "src/dot_lexer.ml" 334 13592 13616
+)
+"src/dot_lexer.ml" 364 14378 14405 "src/dot_lexer.ml" 364 14378 14411
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 334 13592 13617 "src/dot_lexer.ml" 334 13592 13623
+)
+"src/dot_lexer.ml" 364 14378 14412 "src/dot_lexer.ml" 364 14378 14429
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/dot_lexer.ml" 363 14318 14322 "src/dot_lexer.ml" 363 14318 14339
+)
+"src/dot_lexer.ml" 364 14378 14384 "src/dot_lexer.ml" 364 14378 14429
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot_lexer.ml" 363 14318 14343 "src/dot_lexer.ml" 364 14378 14429
+type(
+  unit
+)
+"src/dot_lexer.ml" 335 13644 13646 "src/dot_lexer.ml" 364 14378 14429
+type(
+  unit
+)
+"src/dot_lexer.ml" 366 14431 14435 "src/dot_lexer.ml" 366 14431 14442
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def comment "src/dot_lexer.ml" 182 10273 10273 "src/dot_lexer.ml" 1 0 -1
+)
+"src/dot_lexer.ml" 366 14431 14443 "src/dot_lexer.ml" 366 14431 14449
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/dot_lexer.ml" 367 14452 14456 "src/dot_lexer.ml" 367 14452 14489
+)
+"src/dot_lexer.ml" 367 14452 14456 "src/dot_lexer.ml" 367 14452 14479
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "src/dot_lexer.ml" 368 14490 14494 "src/dot_lexer.ml" 368 14490 14517
+)
+"src/dot_lexer.ml" 367 14452 14480 "src/dot_lexer.ml" 367 14452 14486
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 366 14431 14443 "src/dot_lexer.ml" 366 14431 14449
+)
+"src/dot_lexer.ml" 367 14452 14487 "src/dot_lexer.ml" 367 14452 14489
+type(
+  int
+)
+"src/dot_lexer.ml" 367 14452 14456 "src/dot_lexer.ml" 367 14452 14489
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot_lexer.ml" 368 14490 14494 "src/dot_lexer.ml" 368 14490 14517
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_comment_rec "src/dot_lexer.ml" 182 10273 10273 "src/dot_lexer.ml" 1 0 -1
+)
+"src/dot_lexer.ml" 368 14490 14518 "src/dot_lexer.ml" 368 14490 14524
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/dot_lexer.ml" 368 14490 14525 "src/dot_lexer.ml" 386 14954 15008
+)
+"src/dot_lexer.ml" 368 14490 14525 "src/dot_lexer.ml" 368 14490 14542
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/dot_lexer.ml" 369 14545 14547 "src/dot_lexer.ml" 386 14954 15008
+)
+"src/dot_lexer.ml" 369 14545 14553 "src/dot_lexer.ml" 369 14545 14566
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/dot_lexer.ml" 369 14545 14567 "src/dot_lexer.ml" 369 14545 14585
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/dot_lexer.ml" 24 416 420 "src/dot_lexer.ml" 24 416 438
+)
+"src/dot_lexer.ml" 369 14545 14586 "src/dot_lexer.ml" 369 14545 14603
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/dot_lexer.ml" 368 14490 14525 "src/dot_lexer.ml" 368 14490 14542
+)
+"src/dot_lexer.ml" 369 14545 14604 "src/dot_lexer.ml" 369 14545 14610
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 368 14490 14518 "src/dot_lexer.ml" 368 14490 14524
+)
+"src/dot_lexer.ml" 369 14545 14553 "src/dot_lexer.ml" 369 14545 14610
+call(
+  stack
+)
+type(
+  int
+)
+"src/dot_lexer.ml" 370 14616 14624 "src/dot_lexer.ml" 370 14616 14625
+type(
+  int
+)
+"src/dot_lexer.mll" 117 14655 14661 "src/dot_lexer.mll" 117 14655 14667
+type(
+  unit
+)
+"src/dot_lexer.ml" 375 14694 14698 "src/dot_lexer.ml" 375 14694 14699
+type(
+  int
+)
+"src/dot_lexer.mll" 119 14729 14737 "src/dot_lexer.mll" 119 14729 14744
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "src/dot_lexer.ml" 366 14431 14435 "src/dot_lexer.ml" 366 14431 14442
+)
+"src/dot_lexer.mll" 119 14729 14745 "src/dot_lexer.mll" 119 14729 14751
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 368 14490 14518 "src/dot_lexer.ml" 368 14490 14524
+)
+"src/dot_lexer.mll" 119 14729 14735 "src/dot_lexer.mll" 119 14729 14753
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot_lexer.ml" 380 14780 14784 "src/dot_lexer.ml" 380 14780 14785
+type(
+  int
+)
+"src/dot_lexer.mll" 121 14815 14823 "src/dot_lexer.mll" 121 14815 14831
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/dot_lexer.mll" 121 14815 14832 "src/dot_lexer.mll" 121 14815 14865
+type(
+  string
+)
+"src/dot_lexer.mll" 121 14815 14821 "src/dot_lexer.mll" 121 14815 14867
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot_lexer.ml" 385 14894 14898 "src/dot_lexer.ml" 385 14894 14915
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/dot_lexer.ml" 385 14894 14919 "src/dot_lexer.ml" 386 14954 15008
+)
+"src/dot_lexer.ml" 385 14894 14919 "src/dot_lexer.ml" 385 14894 14925
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 368 14490 14518 "src/dot_lexer.ml" 368 14490 14524
+)
+"src/dot_lexer.ml" 385 14894 14919 "src/dot_lexer.ml" 385 14894 14944
+type(
+  Lexing.lexbuf -> unit
+)
+"src/dot_lexer.ml" 385 14894 14945 "src/dot_lexer.ml" 385 14894 14951
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 368 14490 14518 "src/dot_lexer.ml" 368 14490 14524
+)
+"src/dot_lexer.ml" 385 14894 14919 "src/dot_lexer.ml" 385 14894 14951
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot_lexer.ml" 386 14954 14960 "src/dot_lexer.ml" 386 14954 14983
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "src/dot_lexer.ml" 368 14490 14494 "src/dot_lexer.ml" 368 14490 14517
+)
+"src/dot_lexer.ml" 386 14954 14984 "src/dot_lexer.ml" 386 14954 14990
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_lexer.ml" 368 14490 14518 "src/dot_lexer.ml" 368 14490 14524
+)
+"src/dot_lexer.ml" 386 14954 14991 "src/dot_lexer.ml" 386 14954 15008
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/dot_lexer.ml" 385 14894 14898 "src/dot_lexer.ml" 385 14894 14915
+)
+"src/dot_lexer.ml" 386 14954 14960 "src/dot_lexer.ml" 386 14954 15008
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot_lexer.ml" 385 14894 14919 "src/dot_lexer.ml" 386 14954 15008
+type(
+  unit
+)
+"src/dot_lexer.ml" 369 14545 14547 "src/dot_lexer.ml" 386 14954 15008
+type(
+  unit
+)

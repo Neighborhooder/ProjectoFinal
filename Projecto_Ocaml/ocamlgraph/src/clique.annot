@@ -1,0 +1,874 @@
+"src/clique.ml" 27 1063 1073 "src/clique.ml" 27 1063 1086
+type(
+  G.V.t list list ->
+  G.t -> G.V.t list -> G.V.t list -> G.V.t list -> G.V.t list list
+)
+ident(
+  def bron_kerbosch "src/clique.ml" 27 1063 1065 "src/clique.ml" 46 1955 1958
+)
+"src/clique.ml" 27 1063 1087 "src/clique.ml" 27 1063 1096
+type(
+  G.V.t list list
+)
+ident(
+  def cliquelst "src/clique.ml" 27 1063 1097 "src/clique.ml" 40 1799 1824
+)
+"src/clique.ml" 27 1063 1097 "src/clique.ml" 27 1063 1102
+type(
+  G.t
+)
+ident(
+  def graph "src/clique.ml" 27 1063 1103 "src/clique.ml" 40 1799 1824
+)
+"src/clique.ml" 27 1063 1103 "src/clique.ml" 27 1063 1109
+type(
+  G.V.t list
+)
+ident(
+  def clique "src/clique.ml" 27 1063 1110 "src/clique.ml" 40 1799 1824
+)
+"src/clique.ml" 27 1063 1110 "src/clique.ml" 27 1063 1120
+type(
+  G.V.t list
+)
+ident(
+  def candidates "src/clique.ml" 27 1063 1121 "src/clique.ml" 40 1799 1824
+)
+"src/clique.ml" 27 1063 1121 "src/clique.ml" 27 1063 1125
+type(
+  G.V.t list
+)
+ident(
+  def used "src/clique.ml" 27 1063 1128 "src/clique.ml" 40 1799 1824
+)
+"src/clique.ml" 27 1063 1135 "src/clique.ml" 27 1063 1145
+type(
+  G.V.t list
+)
+ident(
+  int_ref candidates "src/clique.ml" 27 1063 1110 "src/clique.ml" 27 1063 1120
+)
+"src/clique.ml" 27 1063 1147 "src/clique.ml" 27 1063 1151
+type(
+  G.V.t list
+)
+ident(
+  int_ref used "src/clique.ml" 27 1063 1121 "src/clique.ml" 27 1063 1125
+)
+"src/clique.ml" 27 1063 1134 "src/clique.ml" 27 1063 1152
+type(
+  G.V.t list * G.V.t list
+)
+"src/clique.ml" 28 1158 1165 "src/clique.ml" 28 1158 1167
+type(
+  G.V.t list
+)
+"src/clique.ml" 28 1158 1169 "src/clique.ml" 28 1158 1171
+type(
+  G.V.t list
+)
+"src/clique.ml" 28 1158 1164 "src/clique.ml" 28 1158 1172
+type(
+  G.V.t list * G.V.t list
+)
+"src/clique.ml" 28 1158 1176 "src/clique.ml" 28 1158 1182
+type(
+  G.V.t list
+)
+ident(
+  int_ref clique "src/clique.ml" 27 1063 1103 "src/clique.ml" 27 1063 1109
+)
+"src/clique.ml" 28 1158 1186 "src/clique.ml" 28 1158 1195
+type(
+  G.V.t list list
+)
+ident(
+  int_ref cliquelst "src/clique.ml" 27 1063 1087 "src/clique.ml" 27 1063 1096
+)
+"src/clique.ml" 28 1158 1176 "src/clique.ml" 28 1158 1195
+type(
+  G.V.t list list
+)
+"src/clique.ml" 29 1196 1203 "src/clique.ml" 29 1196 1205
+type(
+  G.V.t list
+)
+"src/clique.ml" 29 1196 1207 "src/clique.ml" 29 1196 1208
+type(
+  G.V.t list
+)
+"src/clique.ml" 29 1196 1202 "src/clique.ml" 29 1196 1209
+type(
+  G.V.t list * G.V.t list
+)
+"src/clique.ml" 29 1196 1213 "src/clique.ml" 29 1196 1222
+type(
+  G.V.t list list
+)
+ident(
+  int_ref cliquelst "src/clique.ml" 27 1063 1087 "src/clique.ml" 27 1063 1096
+)
+"src/clique.ml" 30 1223 1230 "src/clique.ml" 30 1223 1231
+type(
+  G.V.t list
+)
+ident(
+  def c "src/clique.ml" 31 1239 1245 "src/clique.ml" 40 1799 1824
+)
+"src/clique.ml" 30 1223 1233 "src/clique.ml" 30 1223 1234
+type(
+  G.V.t list
+)
+ident(
+  def u "src/clique.ml" 31 1239 1245 "src/clique.ml" 40 1799 1824
+)
+"src/clique.ml" 30 1223 1229 "src/clique.ml" 30 1223 1235
+type(
+  G.V.t list * G.V.t list
+)
+"src/clique.ml" 31 1239 1250 "src/clique.ml" 31 1239 1251
+type(
+  G.V.t list
+)
+"src/clique.ml" 31 1239 1253 "src/clique.ml" 31 1239 1254
+type(
+  G.V.t list
+)
+"src/clique.ml" 31 1239 1256 "src/clique.ml" 31 1239 1263
+type(
+  G.V.t list list
+)
+ident(
+  def cliques "src/clique.ml" 40 1799 1805 "src/clique.ml" 40 1799 1824
+)
+"src/clique.ml" 31 1239 1249 "src/clique.ml" 31 1239 1264
+type(
+  G.V.t list * G.V.t list * G.V.t list list
+)
+"src/clique.ml" 31 1239 1267 "src/clique.ml" 31 1239 1281
+type(
+  (G.V.t list * G.V.t list * G.V.t list list ->
+   G.V.t -> G.V.t list * G.V.t list * G.V.t list list) ->
+  G.V.t list * G.V.t list * G.V.t list list ->
+  G.V.t list -> G.V.t list * G.V.t list * G.V.t list list
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/clique.ml" 31 1239 1289 "src/clique.ml" 31 1239 1290
+type(
+  G.V.t list
+)
+ident(
+  def c "src/clique.ml" 31 1239 1300 "src/clique.ml" 38 1695 1772
+)
+"src/clique.ml" 31 1239 1292 "src/clique.ml" 31 1239 1293
+type(
+  G.V.t list
+)
+ident(
+  def u "src/clique.ml" 31 1239 1300 "src/clique.ml" 38 1695 1772
+)
+"src/clique.ml" 31 1239 1295 "src/clique.ml" 31 1239 1298
+type(
+  G.V.t list list
+)
+ident(
+  def acc "src/clique.ml" 31 1239 1300 "src/clique.ml" 38 1695 1772
+)
+"src/clique.ml" 31 1239 1288 "src/clique.ml" 31 1239 1299
+type(
+  G.V.t list * G.V.t list * G.V.t list list
+)
+"src/clique.ml" 31 1239 1300 "src/clique.ml" 31 1239 1301
+type(
+  G.V.t
+)
+ident(
+  def v "src/clique.ml" 33 1359 1369 "src/clique.ml" 38 1695 1772
+)
+"src/clique.ml" 33 1359 1373 "src/clique.ml" 33 1359 1374
+type(
+  G.V.t list
+)
+ident(
+  def n "src/clique.ml" 34 1442 1452 "src/clique.ml" 38 1695 1772
+)
+"src/clique.ml" 33 1359 1377 "src/clique.ml" 33 1359 1388
+type(
+  (G.V.t -> bool) -> G.V.t list -> G.V.t list
+)
+ident(
+  ext_ref List.filter
+)
+"src/clique.ml" 33 1359 1394 "src/clique.ml" 33 1359 1396
+type(
+  G.V.t
+)
+ident(
+  def nb "src/clique.ml" 33 1359 1400 "src/clique.ml" 33 1359 1420
+)
+"src/clique.ml" 33 1359 1400 "src/clique.ml" 33 1359 1403
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/clique.ml" 33 1359 1405 "src/clique.ml" 33 1359 1414
+type(
+  G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref G.V.equal
+)
+"src/clique.ml" 33 1359 1415 "src/clique.ml" 33 1359 1417
+type(
+  G.V.t
+)
+ident(
+  int_ref nb "src/clique.ml" 33 1359 1394 "src/clique.ml" 33 1359 1396
+)
+"src/clique.ml" 33 1359 1418 "src/clique.ml" 33 1359 1419
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/clique.ml" 31 1239 1300 "src/clique.ml" 31 1239 1301
+)
+"src/clique.ml" 33 1359 1404 "src/clique.ml" 33 1359 1420
+call(
+  stack
+)
+type(
+  bool
+)
+"src/clique.ml" 33 1359 1400 "src/clique.ml" 33 1359 1420
+type(
+  bool
+)
+"src/clique.ml" 33 1359 1389 "src/clique.ml" 33 1359 1421
+type(
+  G.V.t -> bool
+)
+"src/clique.ml" 33 1359 1423 "src/clique.ml" 33 1359 1429
+type(
+  G.t -> G.V.t -> G.V.t list
+)
+ident(
+  int_ref G.succ "src/clique.ml" 21 931 933 "src/clique.ml" 21 931 964
+)
+"src/clique.ml" 33 1359 1430 "src/clique.ml" 33 1359 1435
+type(
+  G.t
+)
+ident(
+  int_ref graph "src/clique.ml" 27 1063 1097 "src/clique.ml" 27 1063 1102
+)
+"src/clique.ml" 33 1359 1436 "src/clique.ml" 33 1359 1437
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/clique.ml" 31 1239 1300 "src/clique.ml" 31 1239 1301
+)
+"src/clique.ml" 33 1359 1422 "src/clique.ml" 33 1359 1438
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/clique.ml" 33 1359 1377 "src/clique.ml" 33 1359 1438
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/clique.ml" 34 1442 1456 "src/clique.ml" 34 1442 1458
+type(
+  G.V.t list
+)
+ident(
+  def c' "src/clique.ml" 35 1530 1540 "src/clique.ml" 38 1695 1772
+)
+"src/clique.ml" 34 1442 1461 "src/clique.ml" 34 1442 1472
+type(
+  (G.V.t -> bool) -> G.V.t list -> G.V.t list
+)
+ident(
+  ext_ref List.filter
+)
+"src/clique.ml" 34 1442 1478 "src/clique.ml" 34 1442 1480
+type(
+  G.V.t
+)
+ident(
+  def cv "src/clique.ml" 34 1442 1484 "src/clique.ml" 34 1442 1523
+)
+"src/clique.ml" 34 1442 1484 "src/clique.ml" 34 1442 1495
+type(
+  (G.V.t -> bool) -> G.V.t list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"src/clique.ml" 34 1442 1501 "src/clique.ml" 34 1442 1502
+type(
+  G.V.t
+)
+ident(
+  def v "src/clique.ml" 34 1442 1506 "src/clique.ml" 34 1442 1520
+)
+"src/clique.ml" 34 1442 1506 "src/clique.ml" 34 1442 1515
+type(
+  G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref G.V.equal
+)
+"src/clique.ml" 34 1442 1516 "src/clique.ml" 34 1442 1517
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/clique.ml" 34 1442 1501 "src/clique.ml" 34 1442 1502
+)
+"src/clique.ml" 34 1442 1518 "src/clique.ml" 34 1442 1520
+type(
+  G.V.t
+)
+ident(
+  int_ref cv "src/clique.ml" 34 1442 1478 "src/clique.ml" 34 1442 1480
+)
+"src/clique.ml" 34 1442 1506 "src/clique.ml" 34 1442 1520
+call(
+  tail
+)
+type(
+  bool
+)
+"src/clique.ml" 34 1442 1496 "src/clique.ml" 34 1442 1521
+type(
+  G.V.t -> bool
+)
+"src/clique.ml" 34 1442 1522 "src/clique.ml" 34 1442 1523
+type(
+  G.V.t list
+)
+ident(
+  int_ref n "src/clique.ml" 33 1359 1373 "src/clique.ml" 33 1359 1374
+)
+"src/clique.ml" 34 1442 1484 "src/clique.ml" 34 1442 1523
+call(
+  tail
+)
+type(
+  bool
+)
+"src/clique.ml" 34 1442 1473 "src/clique.ml" 34 1442 1524
+type(
+  G.V.t -> bool
+)
+"src/clique.ml" 34 1442 1525 "src/clique.ml" 34 1442 1526
+type(
+  G.V.t list
+)
+ident(
+  int_ref c "src/clique.ml" 31 1239 1289 "src/clique.ml" 31 1239 1290
+)
+"src/clique.ml" 34 1442 1461 "src/clique.ml" 34 1442 1526
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/clique.ml" 35 1530 1544 "src/clique.ml" 35 1530 1546
+type(
+  G.V.t list
+)
+ident(
+  def u' "src/clique.ml" 36 1618 1628 "src/clique.ml" 38 1695 1772
+)
+"src/clique.ml" 35 1530 1549 "src/clique.ml" 35 1530 1560
+type(
+  (G.V.t -> bool) -> G.V.t list -> G.V.t list
+)
+ident(
+  ext_ref List.filter
+)
+"src/clique.ml" 35 1530 1566 "src/clique.ml" 35 1530 1568
+type(
+  G.V.t
+)
+ident(
+  def cv "src/clique.ml" 35 1530 1572 "src/clique.ml" 35 1530 1611
+)
+"src/clique.ml" 35 1530 1572 "src/clique.ml" 35 1530 1583
+type(
+  (G.V.t -> bool) -> G.V.t list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"src/clique.ml" 35 1530 1589 "src/clique.ml" 35 1530 1590
+type(
+  G.V.t
+)
+ident(
+  def v "src/clique.ml" 35 1530 1594 "src/clique.ml" 35 1530 1608
+)
+"src/clique.ml" 35 1530 1594 "src/clique.ml" 35 1530 1603
+type(
+  G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref G.V.equal
+)
+"src/clique.ml" 35 1530 1604 "src/clique.ml" 35 1530 1605
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/clique.ml" 35 1530 1589 "src/clique.ml" 35 1530 1590
+)
+"src/clique.ml" 35 1530 1606 "src/clique.ml" 35 1530 1608
+type(
+  G.V.t
+)
+ident(
+  int_ref cv "src/clique.ml" 35 1530 1566 "src/clique.ml" 35 1530 1568
+)
+"src/clique.ml" 35 1530 1594 "src/clique.ml" 35 1530 1608
+call(
+  tail
+)
+type(
+  bool
+)
+"src/clique.ml" 35 1530 1584 "src/clique.ml" 35 1530 1609
+type(
+  G.V.t -> bool
+)
+"src/clique.ml" 35 1530 1610 "src/clique.ml" 35 1530 1611
+type(
+  G.V.t list
+)
+ident(
+  int_ref n "src/clique.ml" 33 1359 1373 "src/clique.ml" 33 1359 1374
+)
+"src/clique.ml" 35 1530 1572 "src/clique.ml" 35 1530 1611
+call(
+  tail
+)
+type(
+  bool
+)
+"src/clique.ml" 35 1530 1561 "src/clique.ml" 35 1530 1612
+type(
+  G.V.t -> bool
+)
+"src/clique.ml" 35 1530 1613 "src/clique.ml" 35 1530 1614
+type(
+  G.V.t list
+)
+ident(
+  int_ref u "src/clique.ml" 31 1239 1292 "src/clique.ml" 31 1239 1293
+)
+"src/clique.ml" 35 1530 1549 "src/clique.ml" 35 1530 1614
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/clique.ml" 36 1618 1632 "src/clique.ml" 36 1618 1641
+type(
+  G.V.t list
+)
+ident(
+  def c_minus_v "src/clique.ml" 38 1695 1705 "src/clique.ml" 38 1695 1772
+)
+"src/clique.ml" 36 1618 1644 "src/clique.ml" 36 1618 1655
+type(
+  (G.V.t -> bool) -> G.V.t list -> G.V.t list
+)
+ident(
+  ext_ref List.filter
+)
+"src/clique.ml" 36 1618 1661 "src/clique.ml" 36 1618 1663
+type(
+  G.V.t
+)
+ident(
+  def cv "src/clique.ml" 36 1618 1667 "src/clique.ml" 36 1618 1687
+)
+"src/clique.ml" 36 1618 1667 "src/clique.ml" 36 1618 1670
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/clique.ml" 36 1618 1672 "src/clique.ml" 36 1618 1681
+type(
+  G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref G.V.equal
+)
+"src/clique.ml" 36 1618 1682 "src/clique.ml" 36 1618 1684
+type(
+  G.V.t
+)
+ident(
+  int_ref cv "src/clique.ml" 36 1618 1661 "src/clique.ml" 36 1618 1663
+)
+"src/clique.ml" 36 1618 1685 "src/clique.ml" 36 1618 1686
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/clique.ml" 31 1239 1300 "src/clique.ml" 31 1239 1301
+)
+"src/clique.ml" 36 1618 1671 "src/clique.ml" 36 1618 1687
+call(
+  stack
+)
+type(
+  bool
+)
+"src/clique.ml" 36 1618 1667 "src/clique.ml" 36 1618 1687
+type(
+  bool
+)
+"src/clique.ml" 36 1618 1656 "src/clique.ml" 36 1618 1688
+type(
+  G.V.t -> bool
+)
+"src/clique.ml" 36 1618 1689 "src/clique.ml" 36 1618 1690
+type(
+  G.V.t list
+)
+ident(
+  int_ref c "src/clique.ml" 31 1239 1289 "src/clique.ml" 31 1239 1290
+)
+"src/clique.ml" 36 1618 1644 "src/clique.ml" 36 1618 1690
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/clique.ml" 38 1695 1707 "src/clique.ml" 38 1695 1716
+type(
+  G.V.t list
+)
+ident(
+  int_ref c_minus_v "src/clique.ml" 36 1618 1632 "src/clique.ml" 36 1618 1641
+)
+"src/clique.ml" 38 1695 1719 "src/clique.ml" 38 1695 1720
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/clique.ml" 31 1239 1300 "src/clique.ml" 31 1239 1301
+)
+"src/clique.ml" 38 1695 1724 "src/clique.ml" 38 1695 1725
+type(
+  G.V.t list
+)
+ident(
+  int_ref u "src/clique.ml" 31 1239 1292 "src/clique.ml" 31 1239 1293
+)
+"src/clique.ml" 38 1695 1718 "src/clique.ml" 38 1695 1726
+type(
+  G.V.t list
+)
+"src/clique.ml" 38 1695 1728 "src/clique.ml" 38 1695 1741
+type(
+  G.V.t list list ->
+  G.t -> G.V.t list -> G.V.t list -> G.V.t list -> G.V.t list list
+)
+ident(
+  int_ref bron_kerbosch "src/clique.ml" 27 1063 1073 "src/clique.ml" 27 1063 1086
+)
+"src/clique.ml" 38 1695 1742 "src/clique.ml" 38 1695 1745
+type(
+  G.V.t list list
+)
+ident(
+  int_ref acc "src/clique.ml" 31 1239 1295 "src/clique.ml" 31 1239 1298
+)
+"src/clique.ml" 38 1695 1746 "src/clique.ml" 38 1695 1751
+type(
+  G.t
+)
+ident(
+  int_ref graph "src/clique.ml" 27 1063 1097 "src/clique.ml" 27 1063 1102
+)
+"src/clique.ml" 38 1695 1753 "src/clique.ml" 38 1695 1754
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/clique.ml" 31 1239 1300 "src/clique.ml" 31 1239 1301
+)
+"src/clique.ml" 38 1695 1758 "src/clique.ml" 38 1695 1764
+type(
+  G.V.t list
+)
+ident(
+  int_ref clique "src/clique.ml" 27 1063 1103 "src/clique.ml" 27 1063 1109
+)
+"src/clique.ml" 38 1695 1752 "src/clique.ml" 38 1695 1765
+type(
+  G.V.t list
+)
+"src/clique.ml" 38 1695 1766 "src/clique.ml" 38 1695 1768
+type(
+  G.V.t list
+)
+ident(
+  int_ref c' "src/clique.ml" 34 1442 1456 "src/clique.ml" 34 1442 1458
+)
+"src/clique.ml" 38 1695 1769 "src/clique.ml" 38 1695 1771
+type(
+  G.V.t list
+)
+ident(
+  int_ref u' "src/clique.ml" 35 1530 1544 "src/clique.ml" 35 1530 1546
+)
+"src/clique.ml" 38 1695 1728 "src/clique.ml" 38 1695 1771
+call(
+  stack
+)
+type(
+  G.V.t list list
+)
+"src/clique.ml" 38 1695 1705 "src/clique.ml" 38 1695 1772
+type(
+  G.V.t list * G.V.t list * G.V.t list list
+)
+"src/clique.ml" 36 1618 1628 "src/clique.ml" 38 1695 1772
+type(
+  G.V.t list * G.V.t list * G.V.t list list
+)
+"src/clique.ml" 35 1530 1540 "src/clique.ml" 38 1695 1772
+type(
+  G.V.t list * G.V.t list * G.V.t list list
+)
+"src/clique.ml" 34 1442 1452 "src/clique.ml" 38 1695 1772
+type(
+  G.V.t list * G.V.t list * G.V.t list list
+)
+"src/clique.ml" 33 1359 1369 "src/clique.ml" 38 1695 1772
+type(
+  G.V.t list * G.V.t list * G.V.t list list
+)
+"src/clique.ml" 31 1239 1282 "src/clique.ml" 39 1773 1782
+type(
+  G.V.t list * G.V.t list * G.V.t list list ->
+  G.V.t -> G.V.t list * G.V.t list * G.V.t list list
+)
+"src/clique.ml" 39 1773 1784 "src/clique.ml" 39 1773 1785
+type(
+  G.V.t list
+)
+ident(
+  int_ref c "src/clique.ml" 30 1223 1230 "src/clique.ml" 30 1223 1231
+)
+"src/clique.ml" 39 1773 1787 "src/clique.ml" 39 1773 1788
+type(
+  G.V.t list
+)
+ident(
+  int_ref u "src/clique.ml" 30 1223 1233 "src/clique.ml" 30 1223 1234
+)
+"src/clique.ml" 39 1773 1790 "src/clique.ml" 39 1773 1792
+type(
+  G.V.t list list
+)
+"src/clique.ml" 39 1773 1783 "src/clique.ml" 39 1773 1793
+type(
+  G.V.t list * G.V.t list * G.V.t list list
+)
+"src/clique.ml" 39 1773 1794 "src/clique.ml" 39 1773 1795
+type(
+  G.V.t list
+)
+ident(
+  int_ref c "src/clique.ml" 30 1223 1230 "src/clique.ml" 30 1223 1231
+)
+"src/clique.ml" 31 1239 1267 "src/clique.ml" 39 1773 1795
+call(
+  stack
+)
+type(
+  G.V.t list * G.V.t list * G.V.t list list
+)
+"src/clique.ml" 40 1799 1805 "src/clique.ml" 40 1799 1812
+type(
+  G.V.t list list
+)
+ident(
+  int_ref cliques "src/clique.ml" 31 1239 1256 "src/clique.ml" 31 1239 1263
+)
+"src/clique.ml" 40 1799 1813 "src/clique.ml" 40 1799 1814
+type(
+  G.V.t list list -> G.V.t list list -> G.V.t list list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/clique.ml" 40 1799 1815 "src/clique.ml" 40 1799 1824
+type(
+  G.V.t list list
+)
+ident(
+  int_ref cliquelst "src/clique.ml" 27 1063 1087 "src/clique.ml" 27 1063 1096
+)
+"src/clique.ml" 40 1799 1805 "src/clique.ml" 40 1799 1824
+call(
+  tail
+)
+type(
+  G.V.t list list
+)
+"src/clique.ml" 31 1239 1245 "src/clique.ml" 40 1799 1824
+type(
+  G.V.t list list
+)
+"src/clique.ml" 27 1063 1128 "src/clique.ml" 40 1799 1824
+type(
+  G.V.t list list
+)
+"src/clique.ml" 42 1826 1832 "src/clique.ml" 42 1826 1846
+type(
+  G.t -> G.V.t list list
+)
+ident(
+  def maximalcliques "src/clique.ml" 44 1916 1953 "src/clique.ml" 46 1955 1958
+)
+"src/clique.ml" 42 1826 1847 "src/clique.ml" 42 1826 1848
+type(
+  G.t
+)
+ident(
+  def g "src/clique.ml" 43 1851 1855 "src/clique.ml" 44 1916 1953
+)
+"src/clique.ml" 43 1851 1859 "src/clique.ml" 43 1851 1867
+type(
+  G.V.t list
+)
+ident(
+  def vertices "src/clique.ml" 44 1916 1920 "src/clique.ml" 44 1916 1953
+)
+"src/clique.ml" 43 1851 1870 "src/clique.ml" 43 1851 1883
+type(
+  (G.V.t -> G.V.t list -> G.V.t list) -> G.t -> G.V.t list -> G.V.t list
+)
+ident(
+  int_ref G.fold_vertex "src/clique.ml" 22 965 967 "src/clique.ml" 22 965 1019
+)
+"src/clique.ml" 43 1851 1889 "src/clique.ml" 43 1851 1890
+type(
+  G.V.t
+)
+ident(
+  def v "src/clique.ml" 43 1851 1891 "src/clique.ml" 43 1851 1906
+)
+"src/clique.ml" 43 1851 1891 "src/clique.ml" 43 1851 1894
+type(
+  G.V.t list
+)
+ident(
+  def acc "src/clique.ml" 43 1851 1898 "src/clique.ml" 43 1851 1906
+)
+"src/clique.ml" 43 1851 1898 "src/clique.ml" 43 1851 1899
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/clique.ml" 43 1851 1889 "src/clique.ml" 43 1851 1890
+)
+"src/clique.ml" 43 1851 1903 "src/clique.ml" 43 1851 1906
+type(
+  G.V.t list
+)
+ident(
+  int_ref acc "src/clique.ml" 43 1851 1891 "src/clique.ml" 43 1851 1894
+)
+"src/clique.ml" 43 1851 1898 "src/clique.ml" 43 1851 1906
+type(
+  G.V.t list
+)
+"src/clique.ml" 43 1851 1884 "src/clique.ml" 43 1851 1907
+type(
+  G.V.t -> G.V.t list -> G.V.t list
+)
+"src/clique.ml" 43 1851 1908 "src/clique.ml" 43 1851 1909
+type(
+  G.t
+)
+ident(
+  int_ref g "src/clique.ml" 42 1826 1847 "src/clique.ml" 42 1826 1848
+)
+"src/clique.ml" 43 1851 1910 "src/clique.ml" 43 1851 1912
+type(
+  G.V.t list
+)
+"src/clique.ml" 43 1851 1870 "src/clique.ml" 43 1851 1912
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/clique.ml" 44 1916 1920 "src/clique.ml" 44 1916 1933
+type(
+  G.V.t list list ->
+  G.t -> G.V.t list -> G.V.t list -> G.V.t list -> G.V.t list list
+)
+ident(
+  int_ref bron_kerbosch "src/clique.ml" 27 1063 1073 "src/clique.ml" 27 1063 1086
+)
+"src/clique.ml" 44 1916 1934 "src/clique.ml" 44 1916 1936
+type(
+  G.V.t list list
+)
+"src/clique.ml" 44 1916 1937 "src/clique.ml" 44 1916 1938
+type(
+  G.t
+)
+ident(
+  int_ref g "src/clique.ml" 42 1826 1847 "src/clique.ml" 42 1826 1848
+)
+"src/clique.ml" 44 1916 1939 "src/clique.ml" 44 1916 1941
+type(
+  G.V.t list
+)
+"src/clique.ml" 44 1916 1942 "src/clique.ml" 44 1916 1950
+type(
+  G.V.t list
+)
+ident(
+  int_ref vertices "src/clique.ml" 43 1851 1859 "src/clique.ml" 43 1851 1867
+)
+"src/clique.ml" 44 1916 1951 "src/clique.ml" 44 1916 1953
+type(
+  G.V.t list
+)
+"src/clique.ml" 44 1916 1920 "src/clique.ml" 44 1916 1953
+call(
+  tail
+)
+type(
+  G.V.t list list
+)
+"src/clique.ml" 43 1851 1855 "src/clique.ml" 44 1916 1953
+type(
+  G.V.t list list
+)

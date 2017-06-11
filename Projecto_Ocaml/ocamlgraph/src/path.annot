@@ -1,0 +1,5638 @@
+"src/path.ml" 53 2057 2071 "src/path.ml" 53 2057 2088
+call(
+  stack
+)
+"src/path.ml" 60 2240 2248 "src/path.ml" 60 2240 2255
+type(
+  W.t * G.V.t * 'a -> W.t * G.V.t * 'b -> int
+)
+ident(
+  def compare "src/path.ml" 62 2312 2359 "src/path.ml" 63 2360 2365
+)
+"src/path.ml" 60 2240 2257 "src/path.ml" 60 2240 2259
+type(
+  W.t
+)
+ident(
+  def w1 "src/path.ml" 60 2240 2266 "src/path.ml" 62 2312 2359
+)
+"src/path.ml" 60 2240 2260 "src/path.ml" 60 2240 2262
+type(
+  G.V.t
+)
+ident(
+  def v1 "src/path.ml" 60 2240 2266 "src/path.ml" 62 2312 2359
+)
+"src/path.ml" 60 2240 2263 "src/path.ml" 60 2240 2264
+type(
+  'a
+)
+"src/path.ml" 60 2240 2256 "src/path.ml" 60 2240 2265
+type(
+  W.t * G.V.t * 'a
+)
+"src/path.ml" 60 2240 2267 "src/path.ml" 60 2240 2269
+type(
+  W.t
+)
+ident(
+  def w2 "src/path.ml" 61 2278 2284 "src/path.ml" 62 2312 2359
+)
+"src/path.ml" 60 2240 2270 "src/path.ml" 60 2240 2272
+type(
+  G.V.t
+)
+ident(
+  def v2 "src/path.ml" 61 2278 2284 "src/path.ml" 62 2312 2359
+)
+"src/path.ml" 60 2240 2273 "src/path.ml" 60 2240 2274
+type(
+  'b
+)
+"src/path.ml" 60 2240 2266 "src/path.ml" 60 2240 2275
+type(
+  W.t * G.V.t * 'b
+)
+"src/path.ml" 61 2278 2288 "src/path.ml" 61 2278 2290
+type(
+  int
+)
+ident(
+  def cw "src/path.ml" 62 2312 2318 "src/path.ml" 62 2312 2359
+)
+"src/path.ml" 61 2278 2293 "src/path.ml" 61 2278 2302
+type(
+  W.t -> W.t -> int
+)
+ident(
+  ext_ref W.compare
+)
+"src/path.ml" 61 2278 2303 "src/path.ml" 61 2278 2305
+type(
+  W.t
+)
+ident(
+  int_ref w2 "src/path.ml" 60 2240 2267 "src/path.ml" 60 2240 2269
+)
+"src/path.ml" 61 2278 2306 "src/path.ml" 61 2278 2308
+type(
+  W.t
+)
+ident(
+  int_ref w1 "src/path.ml" 60 2240 2257 "src/path.ml" 60 2240 2259
+)
+"src/path.ml" 61 2278 2293 "src/path.ml" 61 2278 2308
+call(
+  stack
+)
+type(
+  int
+)
+"src/path.ml" 62 2312 2321 "src/path.ml" 62 2312 2323
+type(
+  int
+)
+ident(
+  int_ref cw "src/path.ml" 61 2278 2288 "src/path.ml" 61 2278 2290
+)
+"src/path.ml" 62 2312 2324 "src/path.ml" 62 2312 2326
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/path.ml" 62 2312 2327 "src/path.ml" 62 2312 2328
+type(
+  int
+)
+"src/path.ml" 62 2312 2321 "src/path.ml" 62 2312 2328
+type(
+  bool
+)
+"src/path.ml" 62 2312 2334 "src/path.ml" 62 2312 2336
+type(
+  int
+)
+ident(
+  int_ref cw "src/path.ml" 61 2278 2288 "src/path.ml" 61 2278 2290
+)
+"src/path.ml" 62 2312 2342 "src/path.ml" 62 2312 2353
+type(
+  G.V.t -> G.V.t -> int
+)
+ident(
+  ext_ref G.V.compare
+)
+"src/path.ml" 62 2312 2354 "src/path.ml" 62 2312 2356
+type(
+  G.V.t
+)
+ident(
+  int_ref v1 "src/path.ml" 60 2240 2260 "src/path.ml" 60 2240 2262
+)
+"src/path.ml" 62 2312 2357 "src/path.ml" 62 2312 2359
+type(
+  G.V.t
+)
+ident(
+  int_ref v2 "src/path.ml" 60 2240 2270 "src/path.ml" 60 2240 2272
+)
+"src/path.ml" 62 2312 2342 "src/path.ml" 62 2312 2359
+call(
+  tail
+)
+type(
+  int
+)
+"src/path.ml" 62 2312 2318 "src/path.ml" 62 2312 2359
+type(
+  int
+)
+"src/path.ml" 61 2278 2284 "src/path.ml" 62 2312 2359
+type(
+  int
+)
+"src/path.ml" 65 2367 2381 "src/path.ml" 65 2367 2401
+call(
+  stack
+)
+"src/path.ml" 67 2403 2409 "src/path.ml" 67 2403 2422
+type(
+  G.t -> H.key -> G.V.t -> G.E.t list * W.t
+)
+ident(
+  def shortest_path "src/path.ml" 99 3388 3399 "src/path.ml" 101 3401 3404
+)
+"src/path.ml" 67 2403 2423 "src/path.ml" 67 2403 2424
+type(
+  G.t
+)
+ident(
+  def g "src/path.ml" 67 2403 2425 "src/path.ml" 99 3388 3399
+)
+"src/path.ml" 67 2403 2425 "src/path.ml" 67 2403 2427
+type(
+  H.key
+)
+ident(
+  def v1 "src/path.ml" 67 2403 2428 "src/path.ml" 99 3388 3399
+)
+"src/path.ml" 67 2403 2428 "src/path.ml" 67 2403 2430
+type(
+  G.V.t
+)
+ident(
+  def v2 "src/path.ml" 68 2433 2437 "src/path.ml" 99 3388 3399
+)
+"src/path.ml" 68 2433 2441 "src/path.ml" 68 2433 2448
+type(
+  unit H.t
+)
+ident(
+  def visited "src/path.ml" 69 2466 2470 "src/path.ml" 99 3388 3399
+)
+"src/path.ml" 68 2433 2451 "src/path.ml" 68 2433 2459
+type(
+  int -> unit H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/path.ml" 68 2433 2460 "src/path.ml" 68 2433 2462
+type(
+  int
+)
+"src/path.ml" 68 2433 2451 "src/path.ml" 68 2433 2462
+call(
+  stack
+)
+type(
+  unit H.t
+)
+"src/path.ml" 69 2466 2474 "src/path.ml" 69 2466 2478
+type(
+  W.t H.t
+)
+ident(
+  def dist "src/path.ml" 70 2496 2500 "src/path.ml" 99 3388 3399
+)
+"src/path.ml" 69 2466 2481 "src/path.ml" 69 2466 2489
+type(
+  int -> W.t H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/path.ml" 69 2466 2490 "src/path.ml" 69 2466 2492
+type(
+  int
+)
+"src/path.ml" 69 2466 2481 "src/path.ml" 69 2466 2492
+call(
+  stack
+)
+type(
+  W.t H.t
+)
+"src/path.ml" 70 2496 2504 "src/path.ml" 70 2496 2505
+type(
+  PQ.t
+)
+ident(
+  def q "src/path.ml" 71 2524 2528 "src/path.ml" 99 3388 3399
+)
+"src/path.ml" 70 2496 2508 "src/path.ml" 70 2496 2517
+type(
+  int -> PQ.t
+)
+ident(
+  ext_ref PQ.create
+)
+"src/path.ml" 70 2496 2518 "src/path.ml" 70 2496 2520
+type(
+  int
+)
+"src/path.ml" 70 2496 2508 "src/path.ml" 70 2496 2520
+call(
+  stack
+)
+type(
+  PQ.t
+)
+"src/path.ml" 71 2524 2536 "src/path.ml" 71 2524 2540
+type(
+  unit -> G.E.t list * W.t
+)
+ident(
+  def loop "src/path.ml" 71 2524 2528 "src/path.ml" 99 3388 3399
+)
+"src/path.ml" 71 2524 2541 "src/path.ml" 71 2524 2543
+type(
+  unit
+)
+"src/path.ml" 72 2546 2555 "src/path.ml" 72 2546 2566
+type(
+  PQ.t -> bool
+)
+ident(
+  ext_ref PQ.is_empty
+)
+"src/path.ml" 72 2546 2567 "src/path.ml" 72 2546 2568
+type(
+  PQ.t
+)
+ident(
+  int_ref q "src/path.ml" 70 2496 2504 "src/path.ml" 70 2496 2505
+)
+"src/path.ml" 72 2546 2555 "src/path.ml" 72 2546 2568
+call(
+  stack
+)
+type(
+  bool
+)
+"src/path.ml" 72 2546 2574 "src/path.ml" 72 2546 2579
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/path.ml" 72 2546 2580 "src/path.ml" 72 2546 2589
+type(
+  exn
+)
+"src/path.ml" 72 2546 2574 "src/path.ml" 72 2546 2589
+type(
+  unit
+)
+"src/path.ml" 72 2546 2552 "src/path.ml" 72 2546 2589
+type(
+  unit
+)
+"src/path.ml" 73 2591 2602 "src/path.ml" 73 2591 2603
+type(
+  W.t
+)
+ident(
+  def w "src/path.ml" 74 2631 2637 "src/path.ml" 95 3314 3323
+)
+"src/path.ml" 73 2591 2604 "src/path.ml" 73 2591 2605
+type(
+  G.V.t
+)
+ident(
+  def v "src/path.ml" 74 2631 2637 "src/path.ml" 95 3314 3323
+)
+"src/path.ml" 73 2591 2606 "src/path.ml" 73 2591 2607
+type(
+  G.E.t list
+)
+ident(
+  def p "src/path.ml" 74 2631 2637 "src/path.ml" 95 3314 3323
+)
+"src/path.ml" 73 2591 2601 "src/path.ml" 73 2591 2608
+type(
+  Elt.t
+)
+"src/path.ml" 73 2591 2611 "src/path.ml" 73 2591 2625
+type(
+  PQ.t -> Elt.t
+)
+ident(
+  ext_ref PQ.pop_maximum
+)
+"src/path.ml" 73 2591 2626 "src/path.ml" 73 2591 2627
+type(
+  PQ.t
+)
+ident(
+  int_ref q "src/path.ml" 70 2496 2504 "src/path.ml" 70 2496 2505
+)
+"src/path.ml" 73 2591 2611 "src/path.ml" 73 2591 2627
+call(
+  stack
+)
+type(
+  Elt.t
+)
+"src/path.ml" 74 2631 2640 "src/path.ml" 74 2631 2651
+type(
+  G.V.t -> G.V.t -> int
+)
+ident(
+  ext_ref G.V.compare
+)
+"src/path.ml" 74 2631 2652 "src/path.ml" 74 2631 2653
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/path.ml" 73 2591 2604 "src/path.ml" 73 2591 2605
+)
+"src/path.ml" 74 2631 2654 "src/path.ml" 74 2631 2656
+type(
+  G.V.t
+)
+ident(
+  int_ref v2 "src/path.ml" 67 2403 2428 "src/path.ml" 67 2403 2430
+)
+"src/path.ml" 74 2631 2640 "src/path.ml" 74 2631 2656
+call(
+  stack
+)
+type(
+  int
+)
+"src/path.ml" 74 2631 2657 "src/path.ml" 74 2631 2658
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/path.ml" 74 2631 2659 "src/path.ml" 74 2631 2660
+type(
+  int
+)
+"src/path.ml" 74 2631 2640 "src/path.ml" 74 2631 2660
+type(
+  bool
+)
+"src/path.ml" 75 2666 2674 "src/path.ml" 75 2666 2682
+type(
+  G.E.t list -> G.E.t list
+)
+ident(
+  ext_ref List.rev
+)
+"src/path.ml" 75 2666 2683 "src/path.ml" 75 2666 2684
+type(
+  G.E.t list
+)
+ident(
+  int_ref p "src/path.ml" 73 2591 2606 "src/path.ml" 73 2591 2607
+)
+"src/path.ml" 75 2666 2674 "src/path.ml" 75 2666 2684
+call(
+  stack
+)
+type(
+  G.E.t list
+)
+"src/path.ml" 75 2666 2686 "src/path.ml" 75 2666 2687
+type(
+  W.t
+)
+ident(
+  int_ref w "src/path.ml" 73 2591 2602 "src/path.ml" 73 2591 2603
+)
+"src/path.ml" 75 2666 2674 "src/path.ml" 75 2666 2687
+type(
+  G.E.t list * W.t
+)
+"src/path.ml" 77 2705 2716 "src/path.ml" 77 2705 2719
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/path.ml" 77 2705 2721 "src/path.ml" 77 2705 2726
+type(
+  unit H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/path.ml" 77 2705 2727 "src/path.ml" 77 2705 2734
+type(
+  unit H.t
+)
+ident(
+  int_ref visited "src/path.ml" 68 2433 2441 "src/path.ml" 68 2433 2448
+)
+"src/path.ml" 77 2705 2735 "src/path.ml" 77 2705 2736
+type(
+  H.key
+)
+ident(
+  int_ref v "src/path.ml" 73 2591 2604 "src/path.ml" 73 2591 2605
+)
+"src/path.ml" 77 2705 2720 "src/path.ml" 77 2705 2737
+call(
+  stack
+)
+type(
+  bool
+)
+"src/path.ml" 77 2705 2716 "src/path.ml" 77 2705 2737
+type(
+  bool
+)
+"src/path.ml" 78 2749 2759 "src/path.ml" 78 2749 2764
+type(
+  unit H.t -> H.key -> unit -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/path.ml" 78 2749 2765 "src/path.ml" 78 2749 2772
+type(
+  unit H.t
+)
+ident(
+  int_ref visited "src/path.ml" 68 2433 2441 "src/path.ml" 68 2433 2448
+)
+"src/path.ml" 78 2749 2773 "src/path.ml" 78 2749 2774
+type(
+  H.key
+)
+ident(
+  int_ref v "src/path.ml" 73 2591 2604 "src/path.ml" 73 2591 2605
+)
+"src/path.ml" 78 2749 2775 "src/path.ml" 78 2749 2777
+type(
+  unit
+)
+"src/path.ml" 78 2749 2759 "src/path.ml" 78 2749 2777
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 79 2779 2789 "src/path.ml" 79 2779 2802
+type(
+  (W.edge -> unit) -> G.t -> G.V.t -> unit
+)
+ident(
+  int_ref G.iter_succ_e "src/path.ml" 34 1670 1672 "src/path.ml" 34 1670 1723
+)
+"src/path.ml" 80 2803 2820 "src/path.ml" 80 2803 2821
+type(
+  W.edge
+)
+ident(
+  def e "src/path.ml" 81 2825 2840 "src/path.ml" 91 3249 3267
+)
+"src/path.ml" 81 2825 2844 "src/path.ml" 81 2825 2846
+type(
+  G.V.t
+)
+ident(
+  def ev "src/path.ml" 82 2858 2873 "src/path.ml" 91 3249 3267
+)
+"src/path.ml" 81 2825 2849 "src/path.ml" 81 2825 2852
+type(
+  W.edge -> G.V.t
+)
+ident(
+  int_ref G.E.dst "src/path.ml" 28 1444 1448 "src/path.ml" 28 1444 1466
+)
+"src/path.ml" 81 2825 2853 "src/path.ml" 81 2825 2854
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/path.ml" 80 2803 2820 "src/path.ml" 80 2803 2821
+)
+"src/path.ml" 81 2825 2849 "src/path.ml" 81 2825 2854
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/path.ml" 82 2858 2876 "src/path.ml" 82 2858 2879
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/path.ml" 82 2858 2881 "src/path.ml" 82 2858 2886
+type(
+  unit H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/path.ml" 82 2858 2887 "src/path.ml" 82 2858 2894
+type(
+  unit H.t
+)
+ident(
+  int_ref visited "src/path.ml" 68 2433 2441 "src/path.ml" 68 2433 2448
+)
+"src/path.ml" 82 2858 2895 "src/path.ml" 82 2858 2897
+type(
+  H.key
+)
+ident(
+  int_ref ev "src/path.ml" 81 2825 2844 "src/path.ml" 81 2825 2846
+)
+"src/path.ml" 82 2858 2880 "src/path.ml" 82 2858 2898
+call(
+  stack
+)
+type(
+  bool
+)
+"src/path.ml" 82 2858 2876 "src/path.ml" 82 2858 2898
+type(
+  bool
+)
+"src/path.ml" 83 2910 2931 "src/path.ml" 83 2910 2934
+type(
+  W.t
+)
+ident(
+  def dev "src/path.ml" 84 2961 2978 "src/path.ml" 90 3228 3248
+)
+"src/path.ml" 83 2910 2937 "src/path.ml" 83 2910 2942
+type(
+  W.t -> W.t -> W.t
+)
+ident(
+  ext_ref W.add
+)
+"src/path.ml" 83 2910 2943 "src/path.ml" 83 2910 2944
+type(
+  W.t
+)
+ident(
+  int_ref w "src/path.ml" 73 2591 2602 "src/path.ml" 73 2591 2603
+)
+"src/path.ml" 83 2910 2946 "src/path.ml" 83 2910 2954
+type(
+  W.edge -> W.t
+)
+ident(
+  ext_ref W.weight
+)
+"src/path.ml" 83 2910 2955 "src/path.ml" 83 2910 2956
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/path.ml" 80 2803 2820 "src/path.ml" 80 2803 2821
+)
+"src/path.ml" 83 2910 2945 "src/path.ml" 83 2910 2957
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/path.ml" 83 2910 2937 "src/path.ml" 83 2910 2957
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/path.ml" 84 2961 2982 "src/path.ml" 84 2961 2993
+type(
+  bool
+)
+ident(
+  def improvement "src/path.ml" 87 3097 3114 "src/path.ml" 90 3228 3248
+)
+"src/path.ml" 85 2996 3019 "src/path.ml" 85 2996 3028
+type(
+  W.t -> W.t -> int
+)
+ident(
+  ext_ref W.compare
+)
+"src/path.ml" 85 2996 3029 "src/path.ml" 85 2996 3032
+type(
+  W.t
+)
+ident(
+  int_ref dev "src/path.ml" 83 2910 2931 "src/path.ml" 83 2910 2934
+)
+"src/path.ml" 85 2996 3034 "src/path.ml" 85 2996 3040
+type(
+  W.t H.t -> H.key -> W.t
+)
+ident(
+  ext_ref H.find
+)
+"src/path.ml" 85 2996 3041 "src/path.ml" 85 2996 3045
+type(
+  W.t H.t
+)
+ident(
+  int_ref dist "src/path.ml" 69 2466 2474 "src/path.ml" 69 2466 2478
+)
+"src/path.ml" 85 2996 3046 "src/path.ml" 85 2996 3048
+type(
+  H.key
+)
+ident(
+  int_ref ev "src/path.ml" 81 2825 2844 "src/path.ml" 81 2825 2846
+)
+"src/path.ml" 85 2996 3033 "src/path.ml" 85 2996 3049
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/path.ml" 85 2996 3019 "src/path.ml" 85 2996 3049
+call(
+  stack
+)
+type(
+  int
+)
+"src/path.ml" 85 2996 3050 "src/path.ml" 85 2996 3051
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/path.ml" 85 2996 3052 "src/path.ml" 85 2996 3053
+type(
+  int
+)
+"src/path.ml" 85 2996 3019 "src/path.ml" 85 2996 3053
+type(
+  bool
+)
+"src/path.ml" 85 2996 3059 "src/path.ml" 85 2996 3068
+type(
+  exn
+)
+"src/path.ml" 85 2996 3072 "src/path.ml" 85 2996 3076
+type(
+  bool
+)
+"src/path.ml" 85 2996 3015 "src/path.ml" 85 2996 3076
+type(
+  bool
+)
+"src/path.ml" 87 3097 3117 "src/path.ml" 87 3097 3128
+type(
+  bool
+)
+ident(
+  int_ref improvement "src/path.ml" 84 2961 2982 "src/path.ml" 84 2961 2993
+)
+"src/path.ml" 88 3140 3159 "src/path.ml" 88 3140 3168
+type(
+  W.t H.t -> H.key -> W.t -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"src/path.ml" 88 3140 3169 "src/path.ml" 88 3140 3173
+type(
+  W.t H.t
+)
+ident(
+  int_ref dist "src/path.ml" 69 2466 2474 "src/path.ml" 69 2466 2478
+)
+"src/path.ml" 88 3140 3174 "src/path.ml" 88 3140 3176
+type(
+  H.key
+)
+ident(
+  int_ref ev "src/path.ml" 81 2825 2844 "src/path.ml" 81 2825 2846
+)
+"src/path.ml" 88 3140 3177 "src/path.ml" 88 3140 3180
+type(
+  W.t
+)
+ident(
+  int_ref dev "src/path.ml" 83 2910 2931 "src/path.ml" 83 2910 2934
+)
+"src/path.ml" 88 3140 3159 "src/path.ml" 88 3140 3180
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 89 3182 3201 "src/path.ml" 89 3182 3207
+type(
+  PQ.t -> Elt.t -> unit
+)
+ident(
+  ext_ref PQ.add
+)
+"src/path.ml" 89 3182 3208 "src/path.ml" 89 3182 3209
+type(
+  PQ.t
+)
+ident(
+  int_ref q "src/path.ml" 70 2496 2504 "src/path.ml" 70 2496 2505
+)
+"src/path.ml" 89 3182 3211 "src/path.ml" 89 3182 3214
+type(
+  W.t
+)
+ident(
+  int_ref dev "src/path.ml" 83 2910 2931 "src/path.ml" 83 2910 2934
+)
+"src/path.ml" 89 3182 3216 "src/path.ml" 89 3182 3218
+type(
+  G.V.t
+)
+ident(
+  int_ref ev "src/path.ml" 81 2825 2844 "src/path.ml" 81 2825 2846
+)
+"src/path.ml" 89 3182 3220 "src/path.ml" 89 3182 3221
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/path.ml" 80 2803 2820 "src/path.ml" 80 2803 2821
+)
+"src/path.ml" 89 3182 3225 "src/path.ml" 89 3182 3226
+type(
+  W.edge list
+)
+ident(
+  int_ref p "src/path.ml" 73 2591 2606 "src/path.ml" 73 2591 2607
+)
+"src/path.ml" 89 3182 3220 "src/path.ml" 89 3182 3226
+type(
+  W.edge list
+)
+"src/path.ml" 89 3182 3210 "src/path.ml" 89 3182 3227
+type(
+  Elt.t
+)
+"src/path.ml" 89 3182 3201 "src/path.ml" 89 3182 3227
+call(
+  tail
+)
+type(
+  unit
+)
+"src/path.ml" 87 3097 3134 "src/path.ml" 90 3228 3248
+type(
+  unit
+)
+"src/path.ml" 87 3097 3114 "src/path.ml" 90 3228 3248
+type(
+  unit
+)
+"src/path.ml" 84 2961 2978 "src/path.ml" 90 3228 3248
+type(
+  unit
+)
+"src/path.ml" 82 2858 2904 "src/path.ml" 91 3249 3267
+type(
+  unit
+)
+"src/path.ml" 82 2858 2873 "src/path.ml" 91 3249 3267
+type(
+  unit
+)
+"src/path.ml" 81 2825 2840 "src/path.ml" 91 3249 3267
+type(
+  unit
+)
+"src/path.ml" 80 2803 2815 "src/path.ml" 91 3249 3268
+type(
+  W.edge -> unit
+)
+"src/path.ml" 92 3269 3281 "src/path.ml" 92 3269 3282
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 67 2403 2423 "src/path.ml" 67 2403 2424
+)
+"src/path.ml" 92 3269 3283 "src/path.ml" 92 3269 3284
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/path.ml" 73 2591 2604 "src/path.ml" 73 2591 2605
+)
+"src/path.ml" 79 2779 2789 "src/path.ml" 92 3269 3284
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 77 2705 2743 "src/path.ml" 93 3285 3296
+type(
+  unit
+)
+"src/path.ml" 77 2705 2713 "src/path.ml" 93 3285 3296
+type(
+  unit
+)
+"src/path.ml" 94 3298 3306 "src/path.ml" 94 3298 3310
+type(
+  unit -> G.E.t list * W.t
+)
+ident(
+  int_ref loop "src/path.ml" 71 2524 2536 "src/path.ml" 71 2524 2540
+)
+"src/path.ml" 94 3298 3311 "src/path.ml" 94 3298 3313
+type(
+  unit
+)
+"src/path.ml" 94 3298 3306 "src/path.ml" 94 3298 3313
+call(
+  tail
+)
+type(
+  G.E.t list * W.t
+)
+"src/path.ml" 76 2688 2699 "src/path.ml" 95 3314 3323
+type(
+  G.E.t list * W.t
+)
+"src/path.ml" 74 2631 2637 "src/path.ml" 95 3314 3323
+type(
+  G.E.t list * W.t
+)
+"src/path.ml" 73 2591 2597 "src/path.ml" 95 3314 3323
+type(
+  G.E.t list * W.t
+)
+"src/path.ml" 72 2546 2552 "src/path.ml" 95 3314 3323
+type(
+  G.E.t list * W.t
+)
+"src/path.ml" 97 3331 3335 "src/path.ml" 97 3331 3341
+type(
+  PQ.t -> Elt.t -> unit
+)
+ident(
+  ext_ref PQ.add
+)
+"src/path.ml" 97 3331 3342 "src/path.ml" 97 3331 3343
+type(
+  PQ.t
+)
+ident(
+  int_ref q "src/path.ml" 70 2496 2504 "src/path.ml" 70 2496 2505
+)
+"src/path.ml" 97 3331 3345 "src/path.ml" 97 3331 3351
+type(
+  W.t
+)
+ident(
+  ext_ref W.zero
+)
+"src/path.ml" 97 3331 3353 "src/path.ml" 97 3331 3355
+type(
+  H.key
+)
+ident(
+  int_ref v1 "src/path.ml" 67 2403 2425 "src/path.ml" 67 2403 2427
+)
+"src/path.ml" 97 3331 3357 "src/path.ml" 97 3331 3359
+type(
+  G.E.t list
+)
+"src/path.ml" 97 3331 3344 "src/path.ml" 97 3331 3360
+type(
+  Elt.t
+)
+"src/path.ml" 97 3331 3335 "src/path.ml" 97 3331 3360
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 98 3362 3366 "src/path.ml" 98 3362 3371
+type(
+  W.t H.t -> H.key -> W.t -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/path.ml" 98 3362 3372 "src/path.ml" 98 3362 3376
+type(
+  W.t H.t
+)
+ident(
+  int_ref dist "src/path.ml" 69 2466 2474 "src/path.ml" 69 2466 2478
+)
+"src/path.ml" 98 3362 3377 "src/path.ml" 98 3362 3379
+type(
+  H.key
+)
+ident(
+  int_ref v1 "src/path.ml" 67 2403 2425 "src/path.ml" 67 2403 2427
+)
+"src/path.ml" 98 3362 3380 "src/path.ml" 98 3362 3386
+type(
+  W.t
+)
+ident(
+  ext_ref W.zero
+)
+"src/path.ml" 98 3362 3366 "src/path.ml" 98 3362 3386
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 99 3388 3392 "src/path.ml" 99 3388 3396
+type(
+  unit -> G.E.t list * W.t
+)
+ident(
+  int_ref loop "src/path.ml" 71 2524 2536 "src/path.ml" 71 2524 2540
+)
+"src/path.ml" 99 3388 3397 "src/path.ml" 99 3388 3399
+type(
+  unit
+)
+"src/path.ml" 99 3388 3392 "src/path.ml" 99 3388 3399
+call(
+  tail
+)
+type(
+  G.E.t list * W.t
+)
+"src/path.ml" 98 3362 3366 "src/path.ml" 99 3388 3399
+type(
+  G.E.t list * W.t
+)
+"src/path.ml" 97 3331 3335 "src/path.ml" 99 3388 3399
+type(
+  G.E.t list * W.t
+)
+"src/path.ml" 71 2524 2528 "src/path.ml" 99 3388 3399
+type(
+  G.E.t list * W.t
+)
+"src/path.ml" 70 2496 2500 "src/path.ml" 99 3388 3399
+type(
+  G.E.t list * W.t
+)
+"src/path.ml" 69 2466 2470 "src/path.ml" 99 3388 3399
+type(
+  G.E.t list * W.t
+)
+"src/path.ml" 68 2433 2437 "src/path.ml" 99 3388 3399
+type(
+  G.E.t list * W.t
+)
+"src/path.ml" 112 3583 3596 "src/path.ml" 112 3583 3613
+call(
+  stack
+)
+"src/path.ml" 116 3656 3662 "src/path.ml" 116 3656 3680
+type(
+  G.t -> H.key -> W.t H.t
+)
+ident(
+  def all_shortest_paths "src/path.ml" 167 5153 5155 "src/path.ml" 190 5916 5919
+)
+"src/path.ml" 116 3656 3681 "src/path.ml" 116 3656 3682
+type(
+  G.t
+)
+ident(
+  def g "src/path.ml" 116 3656 3683 "src/path.ml" 165 5140 5151
+)
+"src/path.ml" 116 3656 3683 "src/path.ml" 116 3656 3685
+type(
+  H.key
+)
+ident(
+  def vs "src/path.ml" 117 3688 3692 "src/path.ml" 165 5140 5151
+)
+"src/path.ml" 117 3688 3696 "src/path.ml" 117 3688 3700
+type(
+  W.t H.t
+)
+ident(
+  def dist "src/path.ml" 118 3718 3722 "src/path.ml" 165 5140 5151
+)
+"src/path.ml" 117 3688 3703 "src/path.ml" 117 3688 3711
+type(
+  int -> W.t H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/path.ml" 117 3688 3712 "src/path.ml" 117 3688 3714
+type(
+  int
+)
+"src/path.ml" 117 3688 3703 "src/path.ml" 117 3688 3714
+call(
+  stack
+)
+type(
+  W.t H.t
+)
+"src/path.ml" 118 3718 3722 "src/path.ml" 118 3718 3727
+type(
+  W.t H.t -> H.key -> W.t -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/path.ml" 118 3718 3728 "src/path.ml" 118 3718 3732
+type(
+  W.t H.t
+)
+ident(
+  int_ref dist "src/path.ml" 117 3688 3696 "src/path.ml" 117 3688 3700
+)
+"src/path.ml" 118 3718 3733 "src/path.ml" 118 3718 3735
+type(
+  H.key
+)
+ident(
+  int_ref vs "src/path.ml" 116 3656 3683 "src/path.ml" 116 3656 3685
+)
+"src/path.ml" 118 3718 3736 "src/path.ml" 118 3718 3742
+type(
+  W.t
+)
+ident(
+  ext_ref W.zero
+)
+"src/path.ml" 118 3718 3722 "src/path.ml" 118 3718 3742
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 119 3744 3752 "src/path.ml" 119 3744 3762
+type(
+  W.edge H.t
+)
+ident(
+  def admissible "src/path.ml" 120 3780 3784 "src/path.ml" 165 5140 5151
+)
+"src/path.ml" 119 3744 3765 "src/path.ml" 119 3744 3773
+type(
+  int -> W.edge H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/path.ml" 119 3744 3774 "src/path.ml" 119 3744 3776
+type(
+  int
+)
+"src/path.ml" 119 3744 3765 "src/path.ml" 119 3744 3776
+call(
+  stack
+)
+type(
+  W.edge H.t
+)
+"src/path.ml" 120 3780 3788 "src/path.ml" 120 3780 3804
+type(
+  H.key -> W.edge list
+)
+ident(
+  def build_cycle_from "src/path.ml" 128 4030 4034 "src/path.ml" 165 5140 5151
+)
+"src/path.ml" 120 3780 3805 "src/path.ml" 120 3780 3807
+type(
+  H.key
+)
+ident(
+  def x0 "src/path.ml" 121 3810 3816 "src/path.ml" 126 3995 4022
+)
+"src/path.ml" 121 3810 3824 "src/path.ml" 121 3810 3839
+type(
+  H.key -> W.edge list -> W.edge list
+)
+ident(
+  def traverse_parent "src/path.ml" 121 3810 3816 "src/path.ml" 126 3995 4022
+)
+"src/path.ml" 121 3810 3840 "src/path.ml" 121 3810 3841
+type(
+  H.key
+)
+ident(
+  def x "src/path.ml" 121 3810 3842 "src/path.ml" 124 3912 3985
+)
+"src/path.ml" 121 3810 3842 "src/path.ml" 121 3810 3845
+type(
+  W.edge list
+)
+ident(
+  def ret "src/path.ml" 122 3848 3856 "src/path.ml" 124 3912 3985
+)
+"src/path.ml" 122 3848 3860 "src/path.ml" 122 3848 3861
+type(
+  W.edge
+)
+ident(
+  def e "src/path.ml" 123 3887 3895 "src/path.ml" 124 3912 3985
+)
+"src/path.ml" 122 3848 3864 "src/path.ml" 122 3848 3870
+type(
+  W.edge H.t -> H.key -> W.edge
+)
+ident(
+  ext_ref H.find
+)
+"src/path.ml" 122 3848 3871 "src/path.ml" 122 3848 3881
+type(
+  W.edge H.t
+)
+ident(
+  int_ref admissible "src/path.ml" 119 3744 3752 "src/path.ml" 119 3744 3762
+)
+"src/path.ml" 122 3848 3882 "src/path.ml" 122 3848 3883
+type(
+  H.key
+)
+ident(
+  int_ref x "src/path.ml" 121 3810 3840 "src/path.ml" 121 3810 3841
+)
+"src/path.ml" 122 3848 3864 "src/path.ml" 122 3848 3883
+call(
+  stack
+)
+type(
+  W.edge
+)
+"src/path.ml" 123 3887 3899 "src/path.ml" 123 3887 3900
+type(
+  G.V.t
+)
+ident(
+  def s "src/path.ml" 124 3912 3920 "src/path.ml" 124 3912 3985
+)
+"src/path.ml" 123 3887 3903 "src/path.ml" 123 3887 3906
+type(
+  W.edge -> G.V.t
+)
+ident(
+  int_ref G.E.src "src/path.ml" 27 1421 1425 "src/path.ml" 27 1421 1443
+)
+"src/path.ml" 123 3887 3907 "src/path.ml" 123 3887 3908
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/path.ml" 122 3848 3860 "src/path.ml" 122 3848 3861
+)
+"src/path.ml" 123 3887 3903 "src/path.ml" 123 3887 3908
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/path.ml" 124 3912 3923 "src/path.ml" 124 3912 3932
+type(
+  G.V.t -> H.key -> bool
+)
+ident(
+  ext_ref G.V.equal
+)
+"src/path.ml" 124 3912 3933 "src/path.ml" 124 3912 3934
+type(
+  G.V.t
+)
+ident(
+  int_ref s "src/path.ml" 123 3887 3899 "src/path.ml" 123 3887 3900
+)
+"src/path.ml" 124 3912 3935 "src/path.ml" 124 3912 3937
+type(
+  H.key
+)
+ident(
+  int_ref x0 "src/path.ml" 120 3780 3805 "src/path.ml" 120 3780 3807
+)
+"src/path.ml" 124 3912 3923 "src/path.ml" 124 3912 3937
+call(
+  stack
+)
+type(
+  bool
+)
+"src/path.ml" 124 3912 3943 "src/path.ml" 124 3912 3944
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/path.ml" 122 3848 3860 "src/path.ml" 122 3848 3861
+)
+"src/path.ml" 124 3912 3948 "src/path.ml" 124 3912 3951
+type(
+  W.edge list
+)
+ident(
+  int_ref ret "src/path.ml" 121 3810 3842 "src/path.ml" 121 3810 3845
+)
+"src/path.ml" 124 3912 3943 "src/path.ml" 124 3912 3951
+type(
+  W.edge list
+)
+"src/path.ml" 124 3912 3957 "src/path.ml" 124 3912 3972
+type(
+  H.key -> W.edge list -> W.edge list
+)
+ident(
+  int_ref traverse_parent "src/path.ml" 121 3810 3824 "src/path.ml" 121 3810 3839
+)
+"src/path.ml" 124 3912 3973 "src/path.ml" 124 3912 3974
+type(
+  H.key
+)
+ident(
+  int_ref s "src/path.ml" 123 3887 3899 "src/path.ml" 123 3887 3900
+)
+"src/path.ml" 124 3912 3976 "src/path.ml" 124 3912 3977
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/path.ml" 122 3848 3860 "src/path.ml" 122 3848 3861
+)
+"src/path.ml" 124 3912 3981 "src/path.ml" 124 3912 3984
+type(
+  W.edge list
+)
+ident(
+  int_ref ret "src/path.ml" 121 3810 3842 "src/path.ml" 121 3810 3845
+)
+"src/path.ml" 124 3912 3975 "src/path.ml" 124 3912 3985
+type(
+  W.edge list
+)
+"src/path.ml" 124 3912 3957 "src/path.ml" 124 3912 3985
+call(
+  tail
+)
+type(
+  W.edge list
+)
+"src/path.ml" 124 3912 3920 "src/path.ml" 124 3912 3985
+type(
+  W.edge list
+)
+"src/path.ml" 123 3887 3895 "src/path.ml" 124 3912 3985
+type(
+  W.edge list
+)
+"src/path.ml" 122 3848 3856 "src/path.ml" 124 3912 3985
+type(
+  W.edge list
+)
+"src/path.ml" 126 3995 4001 "src/path.ml" 126 3995 4016
+type(
+  H.key -> W.edge list -> W.edge list
+)
+ident(
+  int_ref traverse_parent "src/path.ml" 121 3810 3824 "src/path.ml" 121 3810 3839
+)
+"src/path.ml" 126 3995 4017 "src/path.ml" 126 3995 4019
+type(
+  H.key
+)
+ident(
+  int_ref x0 "src/path.ml" 120 3780 3805 "src/path.ml" 120 3780 3807
+)
+"src/path.ml" 126 3995 4020 "src/path.ml" 126 3995 4022
+type(
+  W.edge list
+)
+"src/path.ml" 126 3995 4001 "src/path.ml" 126 3995 4022
+call(
+  tail
+)
+type(
+  W.edge list
+)
+"src/path.ml" 121 3810 3816 "src/path.ml" 126 3995 4022
+type(
+  W.edge list
+)
+"src/path.ml" 128 4030 4038 "src/path.ml" 128 4030 4048
+type(
+  H.key -> W.edge list
+)
+ident(
+  def find_cycle "src/path.ml" 141 4331 4335 "src/path.ml" 165 5140 5151
+)
+"src/path.ml" 128 4030 4049 "src/path.ml" 128 4030 4051
+type(
+  H.key
+)
+ident(
+  def x0 "src/path.ml" 129 4054 4060 "src/path.ml" 139 4309 4323
+)
+"src/path.ml" 129 4054 4064 "src/path.ml" 129 4054 4071
+type(
+  unit H.t
+)
+ident(
+  def visited "src/path.ml" 130 4089 4095 "src/path.ml" 139 4309 4323
+)
+"src/path.ml" 129 4054 4074 "src/path.ml" 129 4054 4082
+type(
+  int -> unit H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/path.ml" 129 4054 4083 "src/path.ml" 129 4054 4085
+type(
+  int
+)
+"src/path.ml" 129 4054 4074 "src/path.ml" 129 4054 4085
+call(
+  stack
+)
+type(
+  unit H.t
+)
+"src/path.ml" 130 4089 4103 "src/path.ml" 130 4089 4108
+type(
+  H.key -> W.edge list
+)
+ident(
+  def visit "src/path.ml" 130 4089 4095 "src/path.ml" 139 4309 4323
+)
+"src/path.ml" 130 4089 4109 "src/path.ml" 130 4089 4110
+type(
+  H.key
+)
+ident(
+  def x "src/path.ml" 131 4113 4121 "src/path.ml" 137 4288 4299
+)
+"src/path.ml" 131 4113 4124 "src/path.ml" 131 4113 4129
+type(
+  unit H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/path.ml" 131 4113 4130 "src/path.ml" 131 4113 4137
+type(
+  unit H.t
+)
+ident(
+  int_ref visited "src/path.ml" 129 4054 4064 "src/path.ml" 129 4054 4071
+)
+"src/path.ml" 131 4113 4138 "src/path.ml" 131 4113 4139
+type(
+  H.key
+)
+ident(
+  int_ref x "src/path.ml" 130 4089 4109 "src/path.ml" 130 4089 4110
+)
+"src/path.ml" 131 4113 4124 "src/path.ml" 131 4113 4139
+call(
+  stack
+)
+type(
+  bool
+)
+"src/path.ml" 132 4145 4155 "src/path.ml" 132 4145 4171
+type(
+  H.key -> W.edge list
+)
+ident(
+  int_ref build_cycle_from "src/path.ml" 120 3780 3788 "src/path.ml" 120 3780 3804
+)
+"src/path.ml" 132 4145 4172 "src/path.ml" 132 4145 4173
+type(
+  H.key
+)
+ident(
+  int_ref x "src/path.ml" 130 4089 4109 "src/path.ml" 130 4089 4110
+)
+"src/path.ml" 132 4145 4155 "src/path.ml" 132 4145 4173
+call(
+  tail
+)
+type(
+  W.edge list
+)
+"src/path.ml" 134 4193 4203 "src/path.ml" 134 4193 4208
+type(
+  unit H.t -> H.key -> unit -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/path.ml" 134 4193 4209 "src/path.ml" 134 4193 4216
+type(
+  unit H.t
+)
+ident(
+  int_ref visited "src/path.ml" 129 4054 4064 "src/path.ml" 129 4054 4071
+)
+"src/path.ml" 134 4193 4217 "src/path.ml" 134 4193 4218
+type(
+  H.key
+)
+ident(
+  int_ref x "src/path.ml" 130 4089 4109 "src/path.ml" 130 4089 4110
+)
+"src/path.ml" 134 4193 4219 "src/path.ml" 134 4193 4221
+type(
+  unit
+)
+"src/path.ml" 134 4193 4203 "src/path.ml" 134 4193 4221
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 135 4223 4237 "src/path.ml" 135 4223 4238
+type(
+  W.edge
+)
+ident(
+  def e "src/path.ml" 136 4264 4274 "src/path.ml" 136 4264 4287
+)
+"src/path.ml" 135 4223 4241 "src/path.ml" 135 4223 4247
+type(
+  W.edge H.t -> H.key -> W.edge
+)
+ident(
+  ext_ref H.find
+)
+"src/path.ml" 135 4223 4248 "src/path.ml" 135 4223 4258
+type(
+  W.edge H.t
+)
+ident(
+  int_ref admissible "src/path.ml" 119 3744 3752 "src/path.ml" 119 3744 3762
+)
+"src/path.ml" 135 4223 4259 "src/path.ml" 135 4223 4260
+type(
+  H.key
+)
+ident(
+  int_ref x "src/path.ml" 130 4089 4109 "src/path.ml" 130 4089 4110
+)
+"src/path.ml" 135 4223 4241 "src/path.ml" 135 4223 4260
+call(
+  stack
+)
+type(
+  W.edge
+)
+"src/path.ml" 136 4264 4274 "src/path.ml" 136 4264 4279
+type(
+  H.key -> W.edge list
+)
+ident(
+  int_ref visit "src/path.ml" 130 4089 4103 "src/path.ml" 130 4089 4108
+)
+"src/path.ml" 136 4264 4281 "src/path.ml" 136 4264 4284
+type(
+  W.edge -> H.key
+)
+ident(
+  int_ref G.E.src "src/path.ml" 27 1421 1425 "src/path.ml" 27 1421 1443
+)
+"src/path.ml" 136 4264 4285 "src/path.ml" 136 4264 4286
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/path.ml" 135 4223 4237 "src/path.ml" 135 4223 4238
+)
+"src/path.ml" 136 4264 4280 "src/path.ml" 136 4264 4287
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/path.ml" 136 4264 4274 "src/path.ml" 136 4264 4287
+call(
+  tail
+)
+type(
+  W.edge list
+)
+"src/path.ml" 135 4223 4233 "src/path.ml" 136 4264 4287
+type(
+  W.edge list
+)
+"src/path.ml" 133 4174 4187 "src/path.ml" 137 4288 4299
+type(
+  W.edge list
+)
+"src/path.ml" 131 4113 4121 "src/path.ml" 137 4288 4299
+type(
+  W.edge list
+)
+"src/path.ml" 139 4309 4315 "src/path.ml" 139 4309 4320
+type(
+  H.key -> W.edge list
+)
+ident(
+  int_ref visit "src/path.ml" 130 4089 4103 "src/path.ml" 130 4089 4108
+)
+"src/path.ml" 139 4309 4321 "src/path.ml" 139 4309 4323
+type(
+  H.key
+)
+ident(
+  int_ref x0 "src/path.ml" 128 4030 4049 "src/path.ml" 128 4030 4051
+)
+"src/path.ml" 139 4309 4315 "src/path.ml" 139 4309 4323
+call(
+  tail
+)
+type(
+  W.edge list
+)
+"src/path.ml" 130 4089 4095 "src/path.ml" 139 4309 4323
+type(
+  W.edge list
+)
+"src/path.ml" 129 4054 4060 "src/path.ml" 139 4309 4323
+type(
+  W.edge list
+)
+"src/path.ml" 141 4331 4343 "src/path.ml" 141 4331 4348
+type(
+  int -> W.t H.t
+)
+ident(
+  def relax "src/path.ml" 141 4331 4335 "src/path.ml" 165 5140 5151
+)
+"src/path.ml" 141 4331 4349 "src/path.ml" 141 4331 4350
+type(
+  int
+)
+ident(
+  def i "src/path.ml" 142 4353 4359 "src/path.ml" 163 5112 5132
+)
+"src/path.ml" 142 4353 4363 "src/path.ml" 142 4353 4369
+type(
+  G.V.t option
+)
+ident(
+  def update "src/path.ml" 159 4971 4977 "src/path.ml" 163 5112 5132
+)
+"src/path.ml" 142 4353 4372 "src/path.ml" 142 4353 4386
+type(
+  (W.edge -> G.V.t option -> G.V.t option) ->
+  G.t -> G.V.t option -> G.V.t option
+)
+ident(
+  int_ref G.fold_edges_e "src/path.ml" 35 1724 1726 "src/path.ml" 35 1724 1779
+)
+"src/path.ml" 143 4387 4402 "src/path.ml" 143 4387 4403
+type(
+  W.edge
+)
+ident(
+  def e "src/path.ml" 143 4387 4404 "src/path.ml" 158 4923 4959
+)
+"src/path.ml" 143 4387 4404 "src/path.ml" 143 4387 4405
+type(
+  G.V.t option
+)
+ident(
+  def x "src/path.ml" 144 4409 4422 "src/path.ml" 158 4923 4959
+)
+"src/path.ml" 144 4409 4426 "src/path.ml" 144 4409 4429
+type(
+  G.V.t
+)
+ident(
+  def ev1 "src/path.ml" 145 4441 4454 "src/path.ml" 158 4923 4959
+)
+"src/path.ml" 144 4409 4432 "src/path.ml" 144 4409 4435
+type(
+  W.edge -> G.V.t
+)
+ident(
+  int_ref G.E.src "src/path.ml" 27 1421 1425 "src/path.ml" 27 1421 1443
+)
+"src/path.ml" 144 4409 4436 "src/path.ml" 144 4409 4437
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/path.ml" 143 4387 4402 "src/path.ml" 143 4387 4403
+)
+"src/path.ml" 144 4409 4432 "src/path.ml" 144 4409 4437
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/path.ml" 145 4441 4458 "src/path.ml" 145 4441 4461
+type(
+  G.V.t
+)
+ident(
+  def ev2 "src/path.ml" 146 4473 4486 "src/path.ml" 158 4923 4959
+)
+"src/path.ml" 145 4441 4464 "src/path.ml" 145 4441 4467
+type(
+  W.edge -> G.V.t
+)
+ident(
+  int_ref G.E.dst "src/path.ml" 28 1444 1448 "src/path.ml" 28 1444 1466
+)
+"src/path.ml" 145 4441 4468 "src/path.ml" 145 4441 4469
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/path.ml" 143 4387 4402 "src/path.ml" 143 4387 4403
+)
+"src/path.ml" 145 4441 4464 "src/path.ml" 145 4441 4469
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/path.ml" 147 4496 4515 "src/path.ml" 147 4496 4519
+type(
+  W.t
+)
+ident(
+  def dev1 "src/path.ml" 148 4541 4556 "src/path.ml" 157 4897 4922
+)
+"src/path.ml" 147 4496 4522 "src/path.ml" 147 4496 4528
+type(
+  W.t H.t -> H.key -> W.t
+)
+ident(
+  ext_ref H.find
+)
+"src/path.ml" 147 4496 4529 "src/path.ml" 147 4496 4533
+type(
+  W.t H.t
+)
+ident(
+  int_ref dist "src/path.ml" 117 3688 3696 "src/path.ml" 117 3688 3700
+)
+"src/path.ml" 147 4496 4534 "src/path.ml" 147 4496 4537
+type(
+  H.key
+)
+ident(
+  int_ref ev1 "src/path.ml" 144 4409 4426 "src/path.ml" 144 4409 4429
+)
+"src/path.ml" 147 4496 4522 "src/path.ml" 147 4496 4537
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/path.ml" 148 4541 4560 "src/path.ml" 148 4541 4564
+type(
+  W.t
+)
+ident(
+  def dev2 "src/path.ml" 149 4594 4609 "src/path.ml" 157 4897 4922
+)
+"src/path.ml" 148 4541 4567 "src/path.ml" 148 4541 4572
+type(
+  W.t -> W.t -> W.t
+)
+ident(
+  ext_ref W.add
+)
+"src/path.ml" 148 4541 4573 "src/path.ml" 148 4541 4577
+type(
+  W.t
+)
+ident(
+  int_ref dev1 "src/path.ml" 147 4496 4515 "src/path.ml" 147 4496 4519
+)
+"src/path.ml" 148 4541 4579 "src/path.ml" 148 4541 4587
+type(
+  W.edge -> W.t
+)
+ident(
+  ext_ref W.weight
+)
+"src/path.ml" 148 4541 4588 "src/path.ml" 148 4541 4589
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/path.ml" 143 4387 4402 "src/path.ml" 143 4387 4403
+)
+"src/path.ml" 148 4541 4578 "src/path.ml" 148 4541 4590
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/path.ml" 148 4541 4567 "src/path.ml" 148 4541 4590
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/path.ml" 149 4594 4613 "src/path.ml" 149 4594 4624
+type(
+  bool
+)
+ident(
+  def improvement "src/path.ml" 153 4743 4758 "src/path.ml" 157 4897 4922
+)
+"src/path.ml" 150 4627 4648 "src/path.ml" 150 4627 4657
+type(
+  W.t -> W.t -> int
+)
+ident(
+  ext_ref W.compare
+)
+"src/path.ml" 150 4627 4658 "src/path.ml" 150 4627 4662
+type(
+  W.t
+)
+ident(
+  int_ref dev2 "src/path.ml" 148 4541 4560 "src/path.ml" 148 4541 4564
+)
+"src/path.ml" 150 4627 4664 "src/path.ml" 150 4627 4670
+type(
+  W.t H.t -> H.key -> W.t
+)
+ident(
+  ext_ref H.find
+)
+"src/path.ml" 150 4627 4671 "src/path.ml" 150 4627 4675
+type(
+  W.t H.t
+)
+ident(
+  int_ref dist "src/path.ml" 117 3688 3696 "src/path.ml" 117 3688 3700
+)
+"src/path.ml" 150 4627 4676 "src/path.ml" 150 4627 4679
+type(
+  H.key
+)
+ident(
+  int_ref ev2 "src/path.ml" 145 4441 4458 "src/path.ml" 145 4441 4461
+)
+"src/path.ml" 150 4627 4663 "src/path.ml" 150 4627 4680
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/path.ml" 150 4627 4648 "src/path.ml" 150 4627 4680
+call(
+  stack
+)
+type(
+  int
+)
+"src/path.ml" 150 4627 4681 "src/path.ml" 150 4627 4682
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/path.ml" 150 4627 4683 "src/path.ml" 150 4627 4684
+type(
+  int
+)
+"src/path.ml" 150 4627 4648 "src/path.ml" 150 4627 4684
+type(
+  bool
+)
+"src/path.ml" 151 4685 4707 "src/path.ml" 151 4685 4716
+type(
+  exn
+)
+"src/path.ml" 151 4685 4720 "src/path.ml" 151 4685 4724
+type(
+  bool
+)
+"src/path.ml" 150 4627 4644 "src/path.ml" 151 4685 4724
+type(
+  bool
+)
+"src/path.ml" 153 4743 4761 "src/path.ml" 153 4743 4772
+type(
+  bool
+)
+ident(
+  int_ref improvement "src/path.ml" 149 4594 4613 "src/path.ml" 149 4594 4624
+)
+"src/path.ml" 154 4784 4801 "src/path.ml" 154 4784 4810
+type(
+  W.t H.t -> H.key -> W.t -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"src/path.ml" 154 4784 4811 "src/path.ml" 154 4784 4815
+type(
+  W.t H.t
+)
+ident(
+  int_ref dist "src/path.ml" 117 3688 3696 "src/path.ml" 117 3688 3700
+)
+"src/path.ml" 154 4784 4816 "src/path.ml" 154 4784 4819
+type(
+  H.key
+)
+ident(
+  int_ref ev2 "src/path.ml" 145 4441 4458 "src/path.ml" 145 4441 4461
+)
+"src/path.ml" 154 4784 4820 "src/path.ml" 154 4784 4824
+type(
+  W.t
+)
+ident(
+  int_ref dev2 "src/path.ml" 148 4541 4560 "src/path.ml" 148 4541 4564
+)
+"src/path.ml" 154 4784 4801 "src/path.ml" 154 4784 4824
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 155 4826 4843 "src/path.ml" 155 4826 4852
+type(
+  W.edge H.t -> H.key -> W.edge -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"src/path.ml" 155 4826 4853 "src/path.ml" 155 4826 4863
+type(
+  W.edge H.t
+)
+ident(
+  int_ref admissible "src/path.ml" 119 3744 3752 "src/path.ml" 119 3744 3762
+)
+"src/path.ml" 155 4826 4864 "src/path.ml" 155 4826 4867
+type(
+  H.key
+)
+ident(
+  int_ref ev2 "src/path.ml" 145 4441 4458 "src/path.ml" 145 4441 4461
+)
+"src/path.ml" 155 4826 4868 "src/path.ml" 155 4826 4869
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/path.ml" 143 4387 4402 "src/path.ml" 143 4387 4403
+)
+"src/path.ml" 155 4826 4843 "src/path.ml" 155 4826 4869
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 156 4871 4893 "src/path.ml" 156 4871 4896
+type(
+  G.V.t
+)
+ident(
+  int_ref ev2 "src/path.ml" 145 4441 4458 "src/path.ml" 145 4441 4461
+)
+"src/path.ml" 156 4871 4888 "src/path.ml" 156 4871 4896
+type(
+  G.V.t option
+)
+"src/path.ml" 155 4826 4843 "src/path.ml" 156 4871 4896
+type(
+  G.V.t option
+)
+"src/path.ml" 153 4743 4778 "src/path.ml" 157 4897 4915
+type(
+  G.V.t option
+)
+"src/path.ml" 157 4897 4921 "src/path.ml" 157 4897 4922
+type(
+  G.V.t option
+)
+ident(
+  int_ref x "src/path.ml" 143 4387 4404 "src/path.ml" 143 4387 4405
+)
+"src/path.ml" 153 4743 4758 "src/path.ml" 157 4897 4922
+type(
+  G.V.t option
+)
+"src/path.ml" 149 4594 4609 "src/path.ml" 157 4897 4922
+type(
+  G.V.t option
+)
+"src/path.ml" 148 4541 4556 "src/path.ml" 157 4897 4922
+type(
+  G.V.t option
+)
+"src/path.ml" 146 4473 4490 "src/path.ml" 158 4923 4939
+type(
+  G.V.t option
+)
+"src/path.ml" 158 4923 4945 "src/path.ml" 158 4923 4954
+type(
+  exn
+)
+"src/path.ml" 158 4923 4958 "src/path.ml" 158 4923 4959
+type(
+  G.V.t option
+)
+ident(
+  int_ref x "src/path.ml" 143 4387 4404 "src/path.ml" 143 4387 4405
+)
+"src/path.ml" 146 4473 4486 "src/path.ml" 158 4923 4959
+type(
+  G.V.t option
+)
+"src/path.ml" 145 4441 4454 "src/path.ml" 158 4923 4959
+type(
+  G.V.t option
+)
+"src/path.ml" 144 4409 4422 "src/path.ml" 158 4923 4959
+type(
+  G.V.t option
+)
+"src/path.ml" 143 4387 4397 "src/path.ml" 158 4923 4960
+type(
+  W.edge -> G.V.t option -> G.V.t option
+)
+"src/path.ml" 158 4923 4961 "src/path.ml" 158 4923 4962
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 116 3656 3681 "src/path.ml" 116 3656 3682
+)
+"src/path.ml" 158 4923 4963 "src/path.ml" 158 4923 4967
+type(
+  G.V.t option
+)
+"src/path.ml" 142 4353 4372 "src/path.ml" 158 4923 4967
+call(
+  stack
+)
+type(
+  G.V.t option
+)
+"src/path.ml" 159 4971 4983 "src/path.ml" 159 4971 4989
+type(
+  G.V.t option
+)
+ident(
+  int_ref update "src/path.ml" 142 4353 4363 "src/path.ml" 142 4353 4369
+)
+"src/path.ml" 160 4995 5008 "src/path.ml" 160 4995 5009
+type(
+  G.V.t
+)
+ident(
+  def x "src/path.ml" 161 5013 5021 "src/path.ml" 162 5085 5111
+)
+"src/path.ml" 160 4995 5003 "src/path.ml" 160 4995 5009
+type(
+  G.V.t option
+)
+"src/path.ml" 161 5013 5024 "src/path.ml" 161 5013 5025
+type(
+  int
+)
+ident(
+  int_ref i "src/path.ml" 141 4331 4349 "src/path.ml" 141 4331 4350
+)
+"src/path.ml" 161 5013 5026 "src/path.ml" 161 5013 5028
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/path.ml" 161 5013 5029 "src/path.ml" 161 5013 5040
+type(
+  G.t -> int
+)
+ident(
+  int_ref G.nb_vertex "src/path.ml" 36 1780 1782 "src/path.ml" 36 1780 1806
+)
+"src/path.ml" 161 5013 5041 "src/path.ml" 161 5013 5042
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 116 3656 3681 "src/path.ml" 116 3656 3682
+)
+"src/path.ml" 161 5013 5029 "src/path.ml" 161 5013 5042
+call(
+  stack
+)
+type(
+  int
+)
+"src/path.ml" 161 5013 5024 "src/path.ml" 161 5013 5042
+type(
+  bool
+)
+"src/path.ml" 161 5013 5048 "src/path.ml" 161 5013 5053
+type(
+  exn -> W.t H.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/path.ml" 161 5013 5070 "src/path.ml" 161 5013 5080
+type(
+  H.key -> W.edge list
+)
+ident(
+  int_ref find_cycle "src/path.ml" 128 4030 4038 "src/path.ml" 128 4030 4048
+)
+"src/path.ml" 161 5013 5081 "src/path.ml" 161 5013 5082
+type(
+  H.key
+)
+ident(
+  int_ref x "src/path.ml" 160 4995 5008 "src/path.ml" 160 4995 5009
+)
+"src/path.ml" 161 5013 5069 "src/path.ml" 161 5013 5083
+call(
+  stack
+)
+type(
+  W.edge list
+)
+"src/path.ml" 161 5013 5054 "src/path.ml" 161 5013 5084
+type(
+  exn
+)
+"src/path.ml" 161 5013 5048 "src/path.ml" 161 5013 5084
+type(
+  W.t H.t
+)
+"src/path.ml" 162 5085 5098 "src/path.ml" 162 5085 5103
+type(
+  int -> W.t H.t
+)
+ident(
+  int_ref relax "src/path.ml" 141 4331 4343 "src/path.ml" 141 4331 4348
+)
+"src/path.ml" 162 5085 5105 "src/path.ml" 162 5085 5106
+type(
+  int
+)
+ident(
+  int_ref i "src/path.ml" 141 4331 4349 "src/path.ml" 141 4331 4350
+)
+"src/path.ml" 162 5085 5107 "src/path.ml" 162 5085 5108
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/path.ml" 162 5085 5109 "src/path.ml" 162 5085 5110
+type(
+  int
+)
+"src/path.ml" 162 5085 5104 "src/path.ml" 162 5085 5111
+type(
+  int
+)
+"src/path.ml" 162 5085 5098 "src/path.ml" 162 5085 5111
+call(
+  tail
+)
+type(
+  W.t H.t
+)
+"src/path.ml" 161 5013 5021 "src/path.ml" 162 5085 5111
+type(
+  W.t H.t
+)
+"src/path.ml" 163 5112 5120 "src/path.ml" 163 5112 5124
+type(
+  G.V.t option
+)
+"src/path.ml" 163 5112 5128 "src/path.ml" 163 5112 5132
+type(
+  W.t H.t
+)
+ident(
+  int_ref dist "src/path.ml" 117 3688 3696 "src/path.ml" 117 3688 3700
+)
+"src/path.ml" 159 4971 4977 "src/path.ml" 163 5112 5132
+type(
+  W.t H.t
+)
+"src/path.ml" 142 4353 4359 "src/path.ml" 163 5112 5132
+type(
+  W.t H.t
+)
+"src/path.ml" 165 5140 5144 "src/path.ml" 165 5140 5149
+type(
+  int -> W.t H.t
+)
+ident(
+  int_ref relax "src/path.ml" 141 4331 4343 "src/path.ml" 141 4331 4348
+)
+"src/path.ml" 165 5140 5150 "src/path.ml" 165 5140 5151
+type(
+  int
+)
+"src/path.ml" 165 5140 5144 "src/path.ml" 165 5140 5151
+call(
+  tail
+)
+type(
+  W.t H.t
+)
+"src/path.ml" 141 4331 4335 "src/path.ml" 165 5140 5151
+type(
+  W.t H.t
+)
+"src/path.ml" 128 4030 4034 "src/path.ml" 165 5140 5151
+type(
+  W.t H.t
+)
+"src/path.ml" 120 3780 3784 "src/path.ml" 165 5140 5151
+type(
+  W.t H.t
+)
+"src/path.ml" 119 3744 3748 "src/path.ml" 165 5140 5151
+type(
+  W.t H.t
+)
+"src/path.ml" 118 3718 3722 "src/path.ml" 165 5140 5151
+type(
+  W.t H.t
+)
+"src/path.ml" 117 3688 3692 "src/path.ml" 165 5140 5151
+type(
+  W.t H.t
+)
+"src/path.ml" 167 5153 5159 "src/path.ml" 167 5153 5183
+type(
+  G.t -> H.key -> G.E.t list
+)
+ident(
+  def find_negative_cycle_from "src/path.ml" 172 5282 5284 "src/path.ml" 190 5916 5919
+)
+"src/path.ml" 167 5153 5184 "src/path.ml" 167 5153 5185
+type(
+  G.t
+)
+ident(
+  def g "src/path.ml" 167 5153 5186 "src/path.ml" 169 5250 5279
+)
+"src/path.ml" 167 5153 5186 "src/path.ml" 167 5153 5188
+type(
+  H.key
+)
+ident(
+  def vs "src/path.ml" 168 5191 5195 "src/path.ml" 169 5250 5279
+)
+"src/path.ml" 168 5191 5203 "src/path.ml" 168 5191 5204
+type(
+  W.t H.t
+)
+"src/path.ml" 168 5191 5207 "src/path.ml" 168 5191 5225
+type(
+  G.t -> H.key -> W.t H.t
+)
+ident(
+  int_ref all_shortest_paths "src/path.ml" 116 3656 3662 "src/path.ml" 116 3656 3680
+)
+"src/path.ml" 168 5191 5226 "src/path.ml" 168 5191 5227
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 167 5153 5184 "src/path.ml" 167 5153 5185
+)
+"src/path.ml" 168 5191 5228 "src/path.ml" 168 5191 5230
+type(
+  H.key
+)
+ident(
+  int_ref vs "src/path.ml" 167 5153 5186 "src/path.ml" 167 5153 5188
+)
+"src/path.ml" 168 5191 5207 "src/path.ml" 168 5191 5230
+call(
+  stack
+)
+type(
+  W.t H.t
+)
+"src/path.ml" 168 5191 5234 "src/path.ml" 168 5191 5239
+type(
+  exn -> G.E.t list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/path.ml" 168 5191 5240 "src/path.ml" 168 5191 5249
+type(
+  exn
+)
+"src/path.ml" 168 5191 5234 "src/path.ml" 168 5191 5249
+type(
+  G.E.t list
+)
+"src/path.ml" 168 5191 5199 "src/path.ml" 168 5191 5249
+type(
+  G.E.t list
+)
+"src/path.ml" 169 5250 5273 "src/path.ml" 169 5250 5274
+type(
+  G.E.t list
+)
+ident(
+  def l "src/path.ml" 169 5250 5278 "src/path.ml" 169 5250 5279
+)
+"src/path.ml" 169 5250 5259 "src/path.ml" 169 5250 5274
+type(
+  exn
+)
+"src/path.ml" 169 5250 5278 "src/path.ml" 169 5250 5279
+type(
+  G.E.t list
+)
+ident(
+  int_ref l "src/path.ml" 169 5250 5273 "src/path.ml" 169 5250 5274
+)
+"src/path.ml" 168 5191 5195 "src/path.ml" 169 5250 5279
+type(
+  G.E.t list
+)
+"src/path.ml" 172 5282 5298 "src/path.ml" 172 5282 5316
+call(
+  stack
+)
+"src/path.ml" 179 5611 5617 "src/path.ml" 179 5611 5636
+type(
+  G.t -> G.E.t list
+)
+ident(
+  def find_negative_cycle "src/path.ml" 188 5888 5914 "src/path.ml" 190 5916 5919
+)
+"src/path.ml" 179 5611 5637 "src/path.ml" 179 5611 5638
+type(
+  G.t
+)
+ident(
+  def g "src/path.ml" 180 5641 5645 "src/path.ml" 188 5888 5914
+)
+"src/path.ml" 180 5641 5653 "src/path.ml" 180 5641 5657
+type(
+  H.key list list -> G.E.t list
+)
+ident(
+  def iter "src/path.ml" 180 5641 5645 "src/path.ml" 188 5888 5914
+)
+"src/path.ml" 181 5669 5677 "src/path.ml" 181 5669 5679
+type(
+  H.key list list
+)
+"src/path.ml" 182 5683 5691 "src/path.ml" 182 5683 5696
+type(
+  exn -> G.E.t list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/path.ml" 182 5683 5697 "src/path.ml" 182 5683 5706
+type(
+  exn
+)
+"src/path.ml" 182 5683 5691 "src/path.ml" 182 5683 5706
+type(
+  G.E.t list
+)
+"src/path.ml" 183 5707 5716 "src/path.ml" 183 5707 5717
+type(
+  H.key
+)
+ident(
+  def x "src/path.ml" 184 5733 5741 "src/path.ml" 184 5733 5809
+)
+"src/path.ml" 183 5707 5721 "src/path.ml" 183 5707 5722
+type(
+  H.key list
+)
+"src/path.ml" 183 5707 5715 "src/path.ml" 183 5707 5723
+type(
+  H.key list
+)
+"src/path.ml" 183 5707 5727 "src/path.ml" 183 5707 5729
+type(
+  H.key list list
+)
+ident(
+  def cl "src/path.ml" 184 5733 5741 "src/path.ml" 184 5733 5809
+)
+"src/path.ml" 183 5707 5715 "src/path.ml" 183 5707 5729
+type(
+  H.key list list
+)
+"src/path.ml" 184 5733 5751 "src/path.ml" 184 5733 5775
+type(
+  G.t -> H.key -> G.E.t list
+)
+ident(
+  int_ref find_negative_cycle_from "src/path.ml" 167 5153 5159 "src/path.ml" 167 5153 5183
+)
+"src/path.ml" 184 5733 5776 "src/path.ml" 184 5733 5777
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 179 5611 5637 "src/path.ml" 179 5611 5638
+)
+"src/path.ml" 184 5733 5778 "src/path.ml" 184 5733 5779
+type(
+  H.key
+)
+ident(
+  int_ref x "src/path.ml" 183 5707 5716 "src/path.ml" 183 5707 5717
+)
+"src/path.ml" 184 5733 5751 "src/path.ml" 184 5733 5779
+call(
+  stack
+)
+type(
+  G.E.t list
+)
+"src/path.ml" 184 5733 5785 "src/path.ml" 184 5733 5794
+type(
+  exn
+)
+"src/path.ml" 184 5733 5798 "src/path.ml" 184 5733 5802
+type(
+  H.key list list -> G.E.t list
+)
+ident(
+  int_ref iter "src/path.ml" 180 5641 5653 "src/path.ml" 180 5641 5657
+)
+"src/path.ml" 184 5733 5803 "src/path.ml" 184 5733 5805
+type(
+  H.key list list
+)
+ident(
+  int_ref cl "src/path.ml" 183 5707 5727 "src/path.ml" 183 5707 5729
+)
+"src/path.ml" 184 5733 5798 "src/path.ml" 184 5733 5805
+call(
+  tail
+)
+type(
+  G.E.t list
+)
+"src/path.ml" 184 5733 5741 "src/path.ml" 184 5733 5809
+type(
+  G.E.t list
+)
+"src/path.ml" 185 5810 5818 "src/path.ml" 185 5810 5820
+type(
+  H.key list
+)
+"src/path.ml" 185 5810 5824 "src/path.ml" 185 5810 5825
+type(
+  H.key list list
+)
+"src/path.ml" 185 5810 5818 "src/path.ml" 185 5810 5825
+type(
+  H.key list list
+)
+"src/path.ml" 186 5829 5844 "src/path.ml" 186 5829 5849
+type(
+  bool
+)
+"src/path.ml" 186 5829 5837 "src/path.ml" 186 5829 5849
+type(
+  G.E.t list
+)
+"src/path.ml" 180 5641 5660 "src/path.ml" 186 5829 5849
+type(
+  H.key list list -> G.E.t list
+)
+"src/path.ml" 188 5888 5892 "src/path.ml" 188 5888 5896
+type(
+  H.key list list -> G.E.t list
+)
+ident(
+  int_ref iter "src/path.ml" 180 5641 5653 "src/path.ml" 180 5641 5657
+)
+"src/path.ml" 188 5888 5898 "src/path.ml" 188 5888 5911
+type(
+  G.t -> H.key list list
+)
+ident(
+  ext_ref Comp.scc_list
+)
+"src/path.ml" 188 5888 5912 "src/path.ml" 188 5888 5913
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 179 5611 5637 "src/path.ml" 179 5611 5638
+)
+"src/path.ml" 188 5888 5897 "src/path.ml" 188 5888 5914
+call(
+  stack
+)
+type(
+  H.key list list
+)
+"src/path.ml" 188 5888 5892 "src/path.ml" 188 5888 5914
+call(
+  tail
+)
+type(
+  G.E.t list
+)
+"src/path.ml" 180 5641 5645 "src/path.ml" 188 5888 5914
+type(
+  G.E.t list
+)
+"src/path.ml" 197 5992 6020 "src/path.ml" 197 5992 6039
+call(
+  stack
+)
+"src/path.ml" 197 5992 6020 "src/path.ml" 197 5992 6044
+call(
+  stack
+)
+"src/path.ml" 197 5992 6007 "src/path.ml" 197 5992 6045
+call(
+  stack
+)
+"src/path.ml" 203 6141 6151 "src/path.ml" 203 6141 6158
+type(
+  t -> t -> int
+)
+ident(
+  def compare "src/path.ml" 208 6300 6306 "src/path.ml" 215 6530 6537
+)
+"src/path.ml" 203 6141 6159 "src/path.ml" 203 6141 6160
+type(
+  t
+)
+ident(
+  def v "src/path.ml" 203 6141 6161 "src/path.ml" 207 6258 6299
+)
+"src/path.ml" 203 6141 6161 "src/path.ml" 203 6141 6162
+type(
+  t
+)
+ident(
+  def u "src/path.ml" 203 6141 6165 "src/path.ml" 207 6258 6299
+)
+"src/path.ml" 203 6141 6171 "src/path.ml" 203 6141 6172
+type(
+  t
+)
+ident(
+  int_ref v "src/path.ml" 203 6141 6159 "src/path.ml" 203 6141 6160
+)
+"src/path.ml" 203 6141 6174 "src/path.ml" 203 6141 6175
+type(
+  t
+)
+ident(
+  int_ref u "src/path.ml" 203 6141 6161 "src/path.ml" 203 6141 6162
+)
+"src/path.ml" 203 6141 6171 "src/path.ml" 203 6141 6175
+type(
+  t * t
+)
+"src/path.ml" 204 6181 6191 "src/path.ml" 204 6181 6194
+type(
+  t
+)
+"src/path.ml" 204 6181 6196 "src/path.ml" 204 6181 6199
+type(
+  t
+)
+"src/path.ml" 204 6181 6191 "src/path.ml" 204 6181 6199
+type(
+  t * t
+)
+"src/path.ml" 204 6181 6203 "src/path.ml" 204 6181 6204
+type(
+  int
+)
+"src/path.ml" 205 6205 6215 "src/path.ml" 205 6205 6218
+type(
+  t
+)
+"src/path.ml" 205 6205 6224 "src/path.ml" 205 6205 6225
+type(
+  G.V.t
+)
+"src/path.ml" 205 6205 6220 "src/path.ml" 205 6205 6225
+type(
+  t
+)
+"src/path.ml" 205 6205 6215 "src/path.ml" 205 6205 6225
+type(
+  t * t
+)
+"src/path.ml" 205 6205 6229 "src/path.ml" 205 6205 6231
+type(
+  int
+)
+"src/path.ml" 206 6232 6246 "src/path.ml" 206 6232 6247
+type(
+  G.V.t
+)
+"src/path.ml" 206 6232 6242 "src/path.ml" 206 6232 6247
+type(
+  t
+)
+"src/path.ml" 206 6232 6249 "src/path.ml" 206 6232 6252
+type(
+  t
+)
+"src/path.ml" 206 6232 6242 "src/path.ml" 206 6232 6252
+type(
+  t * t
+)
+"src/path.ml" 206 6232 6256 "src/path.ml" 206 6232 6257
+type(
+  int
+)
+"src/path.ml" 207 6258 6272 "src/path.ml" 207 6258 6273
+type(
+  G.V.t
+)
+ident(
+  def v "src/path.ml" 207 6258 6284 "src/path.ml" 207 6258 6299
+)
+"src/path.ml" 207 6258 6268 "src/path.ml" 207 6258 6273
+type(
+  t
+)
+"src/path.ml" 207 6258 6279 "src/path.ml" 207 6258 6280
+type(
+  G.V.t
+)
+ident(
+  def u "src/path.ml" 207 6258 6284 "src/path.ml" 207 6258 6299
+)
+"src/path.ml" 207 6258 6275 "src/path.ml" 207 6258 6280
+type(
+  t
+)
+"src/path.ml" 207 6258 6268 "src/path.ml" 207 6258 6280
+type(
+  t * t
+)
+"src/path.ml" 207 6258 6284 "src/path.ml" 207 6258 6295
+type(
+  G.V.t -> G.V.t -> int
+)
+ident(
+  ext_ref G.V.compare
+)
+"src/path.ml" 207 6258 6296 "src/path.ml" 207 6258 6297
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/path.ml" 207 6258 6272 "src/path.ml" 207 6258 6273
+)
+"src/path.ml" 207 6258 6298 "src/path.ml" 207 6258 6299
+type(
+  G.V.t
+)
+ident(
+  int_ref u "src/path.ml" 207 6258 6279 "src/path.ml" 207 6258 6280
+)
+"src/path.ml" 207 6258 6284 "src/path.ml" 207 6258 6299
+call(
+  tail
+)
+type(
+  int
+)
+"src/path.ml" 203 6141 6165 "src/path.ml" 207 6258 6299
+type(
+  int
+)
+"src/path.ml" 208 6300 6310 "src/path.ml" 208 6300 6314
+type(
+  t -> int
+)
+ident(
+  def hash "src/path.ml" 211 6382 6388 "src/path.ml" 215 6530 6537
+)
+"src/path.ml" 208 6300 6315 "src/path.ml" 208 6300 6316
+type(
+  t
+)
+ident(
+  def v "src/path.ml" 208 6300 6319 "src/path.ml" 210 6362 6381
+)
+"src/path.ml" 208 6300 6325 "src/path.ml" 208 6300 6326
+type(
+  t
+)
+ident(
+  int_ref v "src/path.ml" 208 6300 6315 "src/path.ml" 208 6300 6316
+)
+"src/path.ml" 209 6332 6346 "src/path.ml" 209 6332 6347
+type(
+  G.V.t
+)
+ident(
+  def v "src/path.ml" 209 6332 6351 "src/path.ml" 209 6332 6361
+)
+"src/path.ml" 209 6332 6342 "src/path.ml" 209 6332 6347
+type(
+  t
+)
+"src/path.ml" 209 6332 6351 "src/path.ml" 209 6332 6359
+type(
+  G.V.t -> int
+)
+ident(
+  ext_ref G.V.hash
+)
+"src/path.ml" 209 6332 6360 "src/path.ml" 209 6332 6361
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/path.ml" 209 6332 6346 "src/path.ml" 209 6332 6347
+)
+"src/path.ml" 209 6332 6351 "src/path.ml" 209 6332 6361
+call(
+  tail
+)
+type(
+  int
+)
+"src/path.ml" 210 6362 6372 "src/path.ml" 210 6362 6375
+type(
+  t
+)
+"src/path.ml" 210 6362 6379 "src/path.ml" 210 6362 6381
+type(
+  int
+)
+"src/path.ml" 208 6300 6319 "src/path.ml" 210 6362 6381
+type(
+  int
+)
+"src/path.ml" 211 6382 6392 "src/path.ml" 211 6382 6397
+type(
+  t -> t -> bool
+)
+ident(
+  def equal "src/path.ml" 214 6490 6529 "src/path.ml" 215 6530 6537
+)
+"src/path.ml" 211 6382 6398 "src/path.ml" 211 6382 6399
+type(
+  t
+)
+ident(
+  def v "src/path.ml" 211 6382 6400 "src/path.ml" 214 6490 6529
+)
+"src/path.ml" 211 6382 6400 "src/path.ml" 211 6382 6401
+type(
+  t
+)
+ident(
+  def u "src/path.ml" 211 6382 6404 "src/path.ml" 214 6490 6529
+)
+"src/path.ml" 211 6382 6410 "src/path.ml" 211 6382 6411
+type(
+  t
+)
+ident(
+  int_ref v "src/path.ml" 211 6382 6398 "src/path.ml" 211 6382 6399
+)
+"src/path.ml" 211 6382 6413 "src/path.ml" 211 6382 6414
+type(
+  t
+)
+ident(
+  int_ref u "src/path.ml" 211 6382 6400 "src/path.ml" 211 6382 6401
+)
+"src/path.ml" 211 6382 6410 "src/path.ml" 211 6382 6414
+type(
+  t * t
+)
+"src/path.ml" 212 6420 6430 "src/path.ml" 212 6420 6433
+type(
+  t
+)
+"src/path.ml" 212 6420 6435 "src/path.ml" 212 6420 6438
+type(
+  t
+)
+"src/path.ml" 212 6420 6430 "src/path.ml" 212 6420 6438
+type(
+  t * t
+)
+"src/path.ml" 212 6420 6442 "src/path.ml" 212 6420 6446
+type(
+  bool
+)
+"src/path.ml" 213 6447 6457 "src/path.ml" 213 6447 6460
+type(
+  t
+)
+"src/path.ml" 213 6447 6466 "src/path.ml" 213 6447 6467
+type(
+  G.V.t
+)
+"src/path.ml" 213 6447 6462 "src/path.ml" 213 6447 6467
+type(
+  t
+)
+"src/path.ml" 213 6447 6457 "src/path.ml" 213 6447 6467
+type(
+  t * t
+)
+"src/path.ml" 213 6447 6474 "src/path.ml" 213 6447 6475
+type(
+  G.V.t
+)
+"src/path.ml" 213 6447 6470 "src/path.ml" 213 6447 6475
+type(
+  t
+)
+"src/path.ml" 213 6447 6477 "src/path.ml" 213 6447 6480
+type(
+  t
+)
+"src/path.ml" 213 6447 6470 "src/path.ml" 213 6447 6480
+type(
+  t * t
+)
+"src/path.ml" 213 6447 6457 "src/path.ml" 213 6447 6480
+type(
+  t * t
+)
+"src/path.ml" 213 6447 6484 "src/path.ml" 213 6447 6489
+type(
+  bool
+)
+"src/path.ml" 214 6490 6504 "src/path.ml" 214 6490 6505
+type(
+  G.V.t
+)
+ident(
+  def v "src/path.ml" 214 6490 6516 "src/path.ml" 214 6490 6529
+)
+"src/path.ml" 214 6490 6500 "src/path.ml" 214 6490 6505
+type(
+  t
+)
+"src/path.ml" 214 6490 6511 "src/path.ml" 214 6490 6512
+type(
+  G.V.t
+)
+ident(
+  def u "src/path.ml" 214 6490 6516 "src/path.ml" 214 6490 6529
+)
+"src/path.ml" 214 6490 6507 "src/path.ml" 214 6490 6512
+type(
+  t
+)
+"src/path.ml" 214 6490 6500 "src/path.ml" 214 6490 6512
+type(
+  t * t
+)
+"src/path.ml" 214 6490 6516 "src/path.ml" 214 6490 6525
+type(
+  G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref G.V.equal
+)
+"src/path.ml" 214 6490 6526 "src/path.ml" 214 6490 6527
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/path.ml" 214 6490 6504 "src/path.ml" 214 6490 6505
+)
+"src/path.ml" 214 6490 6528 "src/path.ml" 214 6490 6529
+type(
+  G.V.t
+)
+ident(
+  int_ref u "src/path.ml" 214 6490 6511 "src/path.ml" 214 6490 6512
+)
+"src/path.ml" 214 6490 6516 "src/path.ml" 214 6490 6529
+call(
+  tail
+)
+type(
+  bool
+)
+"src/path.ml" 211 6382 6404 "src/path.ml" 214 6490 6529
+type(
+  bool
+)
+"src/path.ml" 219 6632 6642 "src/path.ml" 219 6632 6645
+type(
+  t -> V.t
+)
+ident(
+  def src "src/path.ml" 222 6727 6733 "src/path.ml" 232 7085 7092
+)
+"src/path.ml" 219 6632 6646 "src/path.ml" 219 6632 6647
+type(
+  t
+)
+ident(
+  def e "src/path.ml" 219 6632 6650 "src/path.ml" 221 6689 6726
+)
+"src/path.ml" 219 6632 6656 "src/path.ml" 219 6632 6657
+type(
+  t
+)
+ident(
+  int_ref e "src/path.ml" 219 6632 6646 "src/path.ml" 219 6632 6647
+)
+"src/path.ml" 220 6663 6678 "src/path.ml" 220 6663 6679
+type(
+  V.t
+)
+"src/path.ml" 220 6663 6673 "src/path.ml" 220 6663 6679
+type(
+  t
+)
+"src/path.ml" 220 6663 6683 "src/path.ml" 220 6663 6688
+type(
+  V.t
+)
+"src/path.ml" 221 6689 6704 "src/path.ml" 221 6689 6705
+type(
+  G.E.t
+)
+ident(
+  def e "src/path.ml" 221 6689 6709 "src/path.ml" 221 6689 6726
+)
+"src/path.ml" 221 6689 6699 "src/path.ml" 221 6689 6705
+type(
+  t
+)
+"src/path.ml" 221 6689 6716 "src/path.ml" 221 6689 6723
+type(
+  G.E.t -> G.V.t
+)
+ident(
+  int_ref G.E.src "src/path.ml" 27 1421 1425 "src/path.ml" 27 1421 1443
+)
+"src/path.ml" 221 6689 6724 "src/path.ml" 221 6689 6725
+type(
+  G.E.t
+)
+ident(
+  int_ref e "src/path.ml" 221 6689 6704 "src/path.ml" 221 6689 6705
+)
+"src/path.ml" 221 6689 6715 "src/path.ml" 221 6689 6726
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/path.ml" 221 6689 6709 "src/path.ml" 221 6689 6726
+type(
+  V.t
+)
+"src/path.ml" 219 6632 6650 "src/path.ml" 221 6689 6726
+type(
+  V.t
+)
+"src/path.ml" 222 6727 6737 "src/path.ml" 222 6727 6740
+type(
+  t -> V.t
+)
+ident(
+  def dst "src/path.ml" 225 6818 6824 "src/path.ml" 232 7085 7092
+)
+"src/path.ml" 222 6727 6741 "src/path.ml" 222 6727 6742
+type(
+  t
+)
+ident(
+  def e "src/path.ml" 222 6727 6745 "src/path.ml" 224 6780 6817
+)
+"src/path.ml" 222 6727 6751 "src/path.ml" 222 6727 6752
+type(
+  t
+)
+ident(
+  int_ref e "src/path.ml" 222 6727 6741 "src/path.ml" 222 6727 6742
+)
+"src/path.ml" 223 6758 6773 "src/path.ml" 223 6758 6774
+type(
+  V.t
+)
+ident(
+  def v "src/path.ml" 223 6758 6778 "src/path.ml" 223 6758 6779
+)
+"src/path.ml" 223 6758 6768 "src/path.ml" 223 6758 6774
+type(
+  t
+)
+"src/path.ml" 223 6758 6778 "src/path.ml" 223 6758 6779
+type(
+  V.t
+)
+ident(
+  int_ref v "src/path.ml" 223 6758 6773 "src/path.ml" 223 6758 6774
+)
+"src/path.ml" 224 6780 6795 "src/path.ml" 224 6780 6796
+type(
+  G.E.t
+)
+ident(
+  def e "src/path.ml" 224 6780 6800 "src/path.ml" 224 6780 6817
+)
+"src/path.ml" 224 6780 6790 "src/path.ml" 224 6780 6796
+type(
+  t
+)
+"src/path.ml" 224 6780 6807 "src/path.ml" 224 6780 6814
+type(
+  G.E.t -> G.V.t
+)
+ident(
+  int_ref G.E.dst "src/path.ml" 28 1444 1448 "src/path.ml" 28 1444 1466
+)
+"src/path.ml" 224 6780 6815 "src/path.ml" 224 6780 6816
+type(
+  G.E.t
+)
+ident(
+  int_ref e "src/path.ml" 224 6780 6795 "src/path.ml" 224 6780 6796
+)
+"src/path.ml" 224 6780 6806 "src/path.ml" 224 6780 6817
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/path.ml" 224 6780 6800 "src/path.ml" 224 6780 6817
+type(
+  V.t
+)
+"src/path.ml" 222 6727 6745 "src/path.ml" 224 6780 6817
+type(
+  V.t
+)
+"src/path.ml" 225 6818 6828 "src/path.ml" 225 6818 6833
+type(
+  t -> G.E.label
+)
+ident(
+  def label "src/path.ml" 228 6916 6922 "src/path.ml" 232 7085 7092
+)
+"src/path.ml" 225 6818 6834 "src/path.ml" 225 6818 6835
+type(
+  t
+)
+ident(
+  def e "src/path.ml" 225 6818 6838 "src/path.ml" 227 6884 6915
+)
+"src/path.ml" 225 6818 6844 "src/path.ml" 225 6818 6845
+type(
+  t
+)
+ident(
+  int_ref e "src/path.ml" 225 6818 6834 "src/path.ml" 225 6818 6835
+)
+"src/path.ml" 226 6851 6866 "src/path.ml" 226 6851 6867
+type(
+  V.t
+)
+"src/path.ml" 226 6851 6861 "src/path.ml" 226 6851 6867
+type(
+  t
+)
+"src/path.ml" 226 6851 6878 "src/path.ml" 226 6851 6883
+type(
+  bool
+)
+"src/path.ml" 226 6851 6871 "src/path.ml" 226 6851 6883
+type(
+  G.E.label
+)
+"src/path.ml" 227 6884 6899 "src/path.ml" 227 6884 6900
+type(
+  G.E.t
+)
+ident(
+  def e "src/path.ml" 227 6884 6904 "src/path.ml" 227 6884 6915
+)
+"src/path.ml" 227 6884 6894 "src/path.ml" 227 6884 6900
+type(
+  t
+)
+"src/path.ml" 227 6884 6904 "src/path.ml" 227 6884 6913
+type(
+  G.E.t -> G.E.label
+)
+ident(
+  int_ref G.E.label "src/path.ml" 26 1394 1398 "src/path.ml" 26 1394 1420
+)
+"src/path.ml" 227 6884 6914 "src/path.ml" 227 6884 6915
+type(
+  G.E.t
+)
+ident(
+  int_ref e "src/path.ml" 227 6884 6899 "src/path.ml" 227 6884 6900
+)
+"src/path.ml" 227 6884 6904 "src/path.ml" 227 6884 6915
+call(
+  tail
+)
+type(
+  G.E.label
+)
+"src/path.ml" 225 6818 6838 "src/path.ml" 227 6884 6915
+type(
+  G.E.label
+)
+"src/path.ml" 228 6916 6926 "src/path.ml" 228 6916 6932
+type(
+  V.t -> G.E.label -> V.t -> t
+)
+ident(
+  def create "src/path.ml" 231 7054 7084 "src/path.ml" 232 7085 7092
+)
+"src/path.ml" 228 6916 6933 "src/path.ml" 228 6916 6934
+type(
+  V.t
+)
+ident(
+  def v "src/path.ml" 228 6916 6935 "src/path.ml" 231 7054 7084
+)
+"src/path.ml" 228 6916 6935 "src/path.ml" 228 6916 6936
+type(
+  G.E.label
+)
+ident(
+  def l "src/path.ml" 228 6916 6937 "src/path.ml" 231 7054 7084
+)
+"src/path.ml" 228 6916 6937 "src/path.ml" 228 6916 6938
+type(
+  V.t
+)
+ident(
+  def u "src/path.ml" 228 6916 6941 "src/path.ml" 231 7054 7084
+)
+"src/path.ml" 228 6916 6947 "src/path.ml" 228 6916 6948
+type(
+  V.t
+)
+ident(
+  int_ref v "src/path.ml" 228 6916 6933 "src/path.ml" 228 6916 6934
+)
+"src/path.ml" 228 6916 6950 "src/path.ml" 228 6916 6951
+type(
+  V.t
+)
+ident(
+  int_ref u "src/path.ml" 228 6916 6937 "src/path.ml" 228 6916 6938
+)
+"src/path.ml" 228 6916 6947 "src/path.ml" 228 6916 6951
+type(
+  V.t * V.t
+)
+"src/path.ml" 229 6957 6967 "src/path.ml" 229 6957 6972
+type(
+  V.t
+)
+"src/path.ml" 229 6957 6980 "src/path.ml" 229 6957 6981
+type(
+  G.V.t
+)
+ident(
+  def u "src/path.ml" 229 6957 6985 "src/path.ml" 229 6957 6999
+)
+"src/path.ml" 229 6957 6974 "src/path.ml" 229 6957 6981
+type(
+  V.t
+)
+"src/path.ml" 229 6957 6967 "src/path.ml" 229 6957 6981
+type(
+  V.t * V.t
+)
+"src/path.ml" 229 6957 6997 "src/path.ml" 229 6957 6998
+type(
+  G.V.t
+)
+ident(
+  int_ref u "src/path.ml" 229 6957 6980 "src/path.ml" 229 6957 6981
+)
+"src/path.ml" 229 6957 6990 "src/path.ml" 229 6957 6999
+type(
+  V.t
+)
+"src/path.ml" 229 6957 6985 "src/path.ml" 229 6957 6999
+type(
+  t
+)
+"src/path.ml" 230 7000 7016 "src/path.ml" 230 7000 7017
+type(
+  G.V.t
+)
+ident(
+  def v "src/path.ml" 230 7000 7030 "src/path.ml" 230 7000 7053
+)
+"src/path.ml" 230 7000 7010 "src/path.ml" 230 7000 7017
+type(
+  V.t
+)
+"src/path.ml" 230 7000 7025 "src/path.ml" 230 7000 7026
+type(
+  G.V.t
+)
+ident(
+  def u "src/path.ml" 230 7000 7030 "src/path.ml" 230 7000 7053
+)
+"src/path.ml" 230 7000 7019 "src/path.ml" 230 7000 7026
+type(
+  V.t
+)
+"src/path.ml" 230 7000 7010 "src/path.ml" 230 7000 7026
+type(
+  V.t * V.t
+)
+"src/path.ml" 230 7000 7036 "src/path.ml" 230 7000 7046
+type(
+  G.V.t -> G.E.label -> G.V.t -> G.E.t
+)
+ident(
+  int_ref G.E.create "src/path.ml" 29 1467 1471 "src/path.ml" 29 1467 1508
+)
+"src/path.ml" 230 7000 7047 "src/path.ml" 230 7000 7048
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/path.ml" 230 7000 7016 "src/path.ml" 230 7000 7017
+)
+"src/path.ml" 230 7000 7049 "src/path.ml" 230 7000 7050
+type(
+  G.E.label
+)
+ident(
+  int_ref l "src/path.ml" 228 6916 6935 "src/path.ml" 228 6916 6936
+)
+"src/path.ml" 230 7000 7051 "src/path.ml" 230 7000 7052
+type(
+  G.V.t
+)
+ident(
+  int_ref u "src/path.ml" 230 7000 7025 "src/path.ml" 230 7000 7026
+)
+"src/path.ml" 230 7000 7035 "src/path.ml" 230 7000 7053
+call(
+  stack
+)
+type(
+  G.E.t
+)
+"src/path.ml" 230 7000 7030 "src/path.ml" 230 7000 7053
+type(
+  t
+)
+"src/path.ml" 231 7054 7064 "src/path.ml" 231 7054 7065
+type(
+  V.t
+)
+"src/path.ml" 231 7054 7067 "src/path.ml" 231 7054 7068
+type(
+  V.t
+)
+"src/path.ml" 231 7054 7064 "src/path.ml" 231 7054 7068
+type(
+  V.t * V.t
+)
+"src/path.ml" 231 7054 7079 "src/path.ml" 231 7054 7084
+type(
+  bool
+)
+"src/path.ml" 231 7054 7072 "src/path.ml" 231 7054 7084
+type(
+  t
+)
+"src/path.ml" 228 6916 6941 "src/path.ml" 231 7054 7084
+type(
+  t
+)
+"src/path.ml" 233 7093 7101 "src/path.ml" 233 7093 7112
+type(
+  (V.t -> unit) -> G.t -> unit
+)
+ident(
+  def iter_vertex "src/path.ml" 234 7167 7171 "src/path.ml" 254 7965 7970
+)
+"src/path.ml" 233 7093 7113 "src/path.ml" 233 7093 7114
+type(
+  V.t -> unit
+)
+ident(
+  def f "src/path.ml" 233 7093 7115 "src/path.ml" 233 7093 7166
+)
+"src/path.ml" 233 7093 7115 "src/path.ml" 233 7093 7116
+type(
+  G.t
+)
+ident(
+  def g "src/path.ml" 233 7093 7119 "src/path.ml" 233 7093 7166
+)
+"src/path.ml" 233 7093 7119 "src/path.ml" 233 7093 7120
+type(
+  V.t -> unit
+)
+ident(
+  int_ref f "src/path.ml" 233 7093 7113 "src/path.ml" 233 7093 7114
+)
+"src/path.ml" 233 7093 7121 "src/path.ml" 233 7093 7126
+type(
+  V.t
+)
+"src/path.ml" 233 7093 7119 "src/path.ml" 233 7093 7126
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 233 7093 7128 "src/path.ml" 233 7093 7141
+type(
+  (G.V.t -> unit) -> G.t -> unit
+)
+ident(
+  int_ref G.iter_vertex "src/path.ml" 31 1515 1517 "src/path.ml" 31 1515 1561
+)
+"src/path.ml" 233 7093 7147 "src/path.ml" 233 7093 7148
+type(
+  G.V.t
+)
+ident(
+  def v "src/path.ml" 233 7093 7152 "src/path.ml" 233 7093 7163
+)
+"src/path.ml" 233 7093 7152 "src/path.ml" 233 7093 7153
+type(
+  V.t -> unit
+)
+ident(
+  int_ref f "src/path.ml" 233 7093 7113 "src/path.ml" 233 7093 7114
+)
+"src/path.ml" 233 7093 7161 "src/path.ml" 233 7093 7162
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/path.ml" 233 7093 7147 "src/path.ml" 233 7093 7148
+)
+"src/path.ml" 233 7093 7154 "src/path.ml" 233 7093 7163
+type(
+  V.t
+)
+"src/path.ml" 233 7093 7152 "src/path.ml" 233 7093 7163
+call(
+  tail
+)
+type(
+  unit
+)
+"src/path.ml" 233 7093 7142 "src/path.ml" 233 7093 7164
+type(
+  G.V.t -> unit
+)
+"src/path.ml" 233 7093 7165 "src/path.ml" 233 7093 7166
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 233 7093 7115 "src/path.ml" 233 7093 7116
+)
+"src/path.ml" 233 7093 7128 "src/path.ml" 233 7093 7166
+call(
+  tail
+)
+type(
+  unit
+)
+"src/path.ml" 233 7093 7119 "src/path.ml" 233 7093 7166
+type(
+  unit
+)
+"src/path.ml" 234 7167 7175 "src/path.ml" 234 7167 7186
+type(
+  (V.t -> 'a -> 'a) -> G.t -> 'a -> 'a
+)
+ident(
+  def fold_vertex "src/path.ml" 237 7283 7287 "src/path.ml" 254 7965 7970
+)
+"src/path.ml" 234 7167 7187 "src/path.ml" 234 7167 7188
+type(
+  V.t -> 'a -> 'a
+)
+ident(
+  def f "src/path.ml" 234 7167 7189 "src/path.ml" 236 7229 7282
+)
+"src/path.ml" 234 7167 7189 "src/path.ml" 234 7167 7190
+type(
+  G.t
+)
+ident(
+  def g "src/path.ml" 234 7167 7191 "src/path.ml" 236 7229 7282
+)
+"src/path.ml" 234 7167 7191 "src/path.ml" 234 7167 7194
+type(
+  'a
+)
+ident(
+  def acc "src/path.ml" 235 7197 7203 "src/path.ml" 236 7229 7282
+)
+"src/path.ml" 235 7197 7207 "src/path.ml" 235 7197 7211
+type(
+  'a
+)
+ident(
+  def acc' "src/path.ml" 236 7229 7235 "src/path.ml" 236 7229 7282
+)
+"src/path.ml" 235 7197 7214 "src/path.ml" 235 7197 7215
+type(
+  V.t -> 'a -> 'a
+)
+ident(
+  int_ref f "src/path.ml" 234 7167 7187 "src/path.ml" 234 7167 7188
+)
+"src/path.ml" 235 7197 7216 "src/path.ml" 235 7197 7221
+type(
+  V.t
+)
+"src/path.ml" 235 7197 7222 "src/path.ml" 235 7197 7225
+type(
+  'a
+)
+ident(
+  int_ref acc "src/path.ml" 234 7167 7191 "src/path.ml" 234 7167 7194
+)
+"src/path.ml" 235 7197 7214 "src/path.ml" 235 7197 7225
+call(
+  stack
+)
+type(
+  'a
+)
+"src/path.ml" 236 7229 7235 "src/path.ml" 236 7229 7248
+type(
+  (G.V.t -> 'a -> 'a) -> G.t -> 'a -> 'a
+)
+ident(
+  int_ref G.fold_vertex "src/path.ml" 32 1562 1564 "src/path.ml" 32 1562 1617
+)
+"src/path.ml" 236 7229 7254 "src/path.ml" 236 7229 7255
+type(
+  G.V.t
+)
+ident(
+  def v "src/path.ml" 236 7229 7256 "src/path.ml" 236 7229 7274
+)
+"src/path.ml" 236 7229 7256 "src/path.ml" 236 7229 7257
+type(
+  'a
+)
+ident(
+  def a "src/path.ml" 236 7229 7261 "src/path.ml" 236 7229 7274
+)
+"src/path.ml" 236 7229 7261 "src/path.ml" 236 7229 7262
+type(
+  V.t -> 'a -> 'a
+)
+ident(
+  int_ref f "src/path.ml" 234 7167 7187 "src/path.ml" 234 7167 7188
+)
+"src/path.ml" 236 7229 7270 "src/path.ml" 236 7229 7271
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/path.ml" 236 7229 7254 "src/path.ml" 236 7229 7255
+)
+"src/path.ml" 236 7229 7263 "src/path.ml" 236 7229 7272
+type(
+  V.t
+)
+"src/path.ml" 236 7229 7273 "src/path.ml" 236 7229 7274
+type(
+  'a
+)
+ident(
+  int_ref a "src/path.ml" 236 7229 7256 "src/path.ml" 236 7229 7257
+)
+"src/path.ml" 236 7229 7261 "src/path.ml" 236 7229 7274
+call(
+  tail
+)
+type(
+  'a
+)
+"src/path.ml" 236 7229 7249 "src/path.ml" 236 7229 7275
+type(
+  G.V.t -> 'a -> 'a
+)
+"src/path.ml" 236 7229 7276 "src/path.ml" 236 7229 7277
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 234 7167 7189 "src/path.ml" 234 7167 7190
+)
+"src/path.ml" 236 7229 7278 "src/path.ml" 236 7229 7282
+type(
+  'a
+)
+ident(
+  int_ref acc' "src/path.ml" 235 7197 7207 "src/path.ml" 235 7197 7211
+)
+"src/path.ml" 236 7229 7235 "src/path.ml" 236 7229 7282
+call(
+  tail
+)
+type(
+  'a
+)
+"src/path.ml" 235 7197 7203 "src/path.ml" 236 7229 7282
+type(
+  'a
+)
+"src/path.ml" 237 7283 7291 "src/path.ml" 237 7283 7300
+type(
+  (V.t -> unit) -> G.t -> V.t -> unit
+)
+ident(
+  def iter_succ "src/path.ml" 240 7436 7440 "src/path.ml" 254 7965 7970
+)
+"src/path.ml" 237 7283 7301 "src/path.ml" 237 7283 7302
+type(
+  V.t -> unit
+)
+ident(
+  def f "src/path.ml" 237 7283 7303 "src/path.ml" 239 7378 7435
+)
+"src/path.ml" 237 7283 7303 "src/path.ml" 237 7283 7304
+type(
+  G.t
+)
+ident(
+  def g "src/path.ml" 237 7283 7305 "src/path.ml" 239 7378 7435
+)
+"src/path.ml" 237 7283 7305 "src/path.ml" 237 7283 7306
+type(
+  V.t
+)
+ident(
+  def v "src/path.ml" 237 7283 7309 "src/path.ml" 239 7378 7435
+)
+"src/path.ml" 237 7283 7315 "src/path.ml" 237 7283 7316
+type(
+  V.t
+)
+ident(
+  int_ref v "src/path.ml" 237 7283 7305 "src/path.ml" 237 7283 7306
+)
+"src/path.ml" 238 7322 7330 "src/path.ml" 238 7322 7335
+type(
+  V.t
+)
+"src/path.ml" 238 7322 7339 "src/path.ml" 238 7322 7352
+type(
+  (G.V.t -> unit) -> G.t -> unit
+)
+ident(
+  int_ref G.iter_vertex "src/path.ml" 31 1515 1517 "src/path.ml" 31 1515 1561
+)
+"src/path.ml" 238 7322 7358 "src/path.ml" 238 7322 7359
+type(
+  G.V.t
+)
+ident(
+  def u "src/path.ml" 238 7322 7363 "src/path.ml" 238 7322 7374
+)
+"src/path.ml" 238 7322 7363 "src/path.ml" 238 7322 7364
+type(
+  V.t -> unit
+)
+ident(
+  int_ref f "src/path.ml" 237 7283 7301 "src/path.ml" 237 7283 7302
+)
+"src/path.ml" 238 7322 7372 "src/path.ml" 238 7322 7373
+type(
+  G.V.t
+)
+ident(
+  int_ref u "src/path.ml" 238 7322 7358 "src/path.ml" 238 7322 7359
+)
+"src/path.ml" 238 7322 7365 "src/path.ml" 238 7322 7374
+type(
+  V.t
+)
+"src/path.ml" 238 7322 7363 "src/path.ml" 238 7322 7374
+call(
+  tail
+)
+type(
+  unit
+)
+"src/path.ml" 238 7322 7353 "src/path.ml" 238 7322 7375
+type(
+  G.V.t -> unit
+)
+"src/path.ml" 238 7322 7376 "src/path.ml" 238 7322 7377
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 237 7283 7303 "src/path.ml" 237 7283 7304
+)
+"src/path.ml" 238 7322 7339 "src/path.ml" 238 7322 7377
+call(
+  tail
+)
+type(
+  unit
+)
+"src/path.ml" 239 7378 7392 "src/path.ml" 239 7378 7393
+type(
+  G.V.t
+)
+ident(
+  def v "src/path.ml" 239 7378 7397 "src/path.ml" 239 7378 7435
+)
+"src/path.ml" 239 7378 7386 "src/path.ml" 239 7378 7393
+type(
+  V.t
+)
+"src/path.ml" 239 7378 7397 "src/path.ml" 239 7378 7408
+type(
+  (G.V.t -> unit) -> G.t -> G.V.t -> unit
+)
+ident(
+  int_ref G.iter_succ "src/path.ml" 33 1618 1620 "src/path.ml" 33 1618 1669
+)
+"src/path.ml" 239 7378 7414 "src/path.ml" 239 7378 7415
+type(
+  G.V.t
+)
+ident(
+  def u "src/path.ml" 239 7378 7419 "src/path.ml" 239 7378 7430
+)
+"src/path.ml" 239 7378 7419 "src/path.ml" 239 7378 7420
+type(
+  V.t -> unit
+)
+ident(
+  int_ref f "src/path.ml" 237 7283 7301 "src/path.ml" 237 7283 7302
+)
+"src/path.ml" 239 7378 7428 "src/path.ml" 239 7378 7429
+type(
+  G.V.t
+)
+ident(
+  int_ref u "src/path.ml" 239 7378 7414 "src/path.ml" 239 7378 7415
+)
+"src/path.ml" 239 7378 7421 "src/path.ml" 239 7378 7430
+type(
+  V.t
+)
+"src/path.ml" 239 7378 7419 "src/path.ml" 239 7378 7430
+call(
+  tail
+)
+type(
+  unit
+)
+"src/path.ml" 239 7378 7409 "src/path.ml" 239 7378 7431
+type(
+  G.V.t -> unit
+)
+"src/path.ml" 239 7378 7432 "src/path.ml" 239 7378 7433
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 237 7283 7303 "src/path.ml" 237 7283 7304
+)
+"src/path.ml" 239 7378 7434 "src/path.ml" 239 7378 7435
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/path.ml" 239 7378 7392 "src/path.ml" 239 7378 7393
+)
+"src/path.ml" 239 7378 7397 "src/path.ml" 239 7378 7435
+call(
+  tail
+)
+type(
+  unit
+)
+"src/path.ml" 237 7283 7309 "src/path.ml" 239 7378 7435
+type(
+  unit
+)
+"src/path.ml" 240 7436 7444 "src/path.ml" 240 7436 7455
+type(
+  (E.t -> unit) -> G.t -> V.t -> unit
+)
+ident(
+  def iter_succ_e "src/path.ml" 244 7611 7615 "src/path.ml" 254 7965 7970
+)
+"src/path.ml" 240 7436 7456 "src/path.ml" 240 7436 7457
+type(
+  E.t -> unit
+)
+ident(
+  def f "src/path.ml" 240 7436 7458 "src/path.ml" 243 7550 7610
+)
+"src/path.ml" 240 7436 7458 "src/path.ml" 240 7436 7459
+type(
+  G.t
+)
+ident(
+  def g "src/path.ml" 240 7436 7460 "src/path.ml" 243 7550 7610
+)
+"src/path.ml" 240 7436 7460 "src/path.ml" 240 7436 7461
+type(
+  V.t
+)
+ident(
+  def v "src/path.ml" 240 7436 7464 "src/path.ml" 243 7550 7610
+)
+"src/path.ml" 240 7436 7470 "src/path.ml" 240 7436 7471
+type(
+  V.t
+)
+ident(
+  int_ref v "src/path.ml" 240 7436 7460 "src/path.ml" 240 7436 7461
+)
+"src/path.ml" 241 7477 7485 "src/path.ml" 241 7477 7490
+type(
+  V.t
+)
+"src/path.ml" 242 7494 7502 "src/path.ml" 242 7494 7515
+type(
+  (G.V.t -> unit) -> G.t -> unit
+)
+ident(
+  int_ref G.iter_vertex "src/path.ml" 31 1515 1517 "src/path.ml" 31 1515 1561
+)
+"src/path.ml" 242 7494 7521 "src/path.ml" 242 7494 7522
+type(
+  G.V.t
+)
+ident(
+  def u "src/path.ml" 242 7494 7526 "src/path.ml" 242 7494 7546
+)
+"src/path.ml" 242 7494 7526 "src/path.ml" 242 7494 7527
+type(
+  E.t -> unit
+)
+ident(
+  int_ref f "src/path.ml" 240 7436 7456 "src/path.ml" 240 7436 7457
+)
+"src/path.ml" 242 7494 7543 "src/path.ml" 242 7494 7544
+type(
+  G.V.t
+)
+ident(
+  int_ref u "src/path.ml" 242 7494 7521 "src/path.ml" 242 7494 7522
+)
+"src/path.ml" 242 7494 7536 "src/path.ml" 242 7494 7545
+type(
+  V.t
+)
+"src/path.ml" 242 7494 7528 "src/path.ml" 242 7494 7546
+type(
+  E.t
+)
+"src/path.ml" 242 7494 7526 "src/path.ml" 242 7494 7546
+call(
+  tail
+)
+type(
+  unit
+)
+"src/path.ml" 242 7494 7516 "src/path.ml" 242 7494 7547
+type(
+  G.V.t -> unit
+)
+"src/path.ml" 242 7494 7548 "src/path.ml" 242 7494 7549
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 240 7436 7458 "src/path.ml" 240 7436 7459
+)
+"src/path.ml" 242 7494 7502 "src/path.ml" 242 7494 7549
+call(
+  tail
+)
+type(
+  unit
+)
+"src/path.ml" 243 7550 7564 "src/path.ml" 243 7550 7565
+type(
+  G.V.t
+)
+ident(
+  def v "src/path.ml" 243 7550 7569 "src/path.ml" 243 7550 7610
+)
+"src/path.ml" 243 7550 7558 "src/path.ml" 243 7550 7565
+type(
+  V.t
+)
+"src/path.ml" 243 7550 7569 "src/path.ml" 243 7550 7582
+type(
+  (G.E.t -> unit) -> G.t -> G.V.t -> unit
+)
+ident(
+  int_ref G.iter_succ_e "src/path.ml" 34 1670 1672 "src/path.ml" 34 1670 1723
+)
+"src/path.ml" 243 7550 7588 "src/path.ml" 243 7550 7589
+type(
+  G.E.t
+)
+ident(
+  def e "src/path.ml" 243 7550 7593 "src/path.ml" 243 7550 7605
+)
+"src/path.ml" 243 7550 7593 "src/path.ml" 243 7550 7594
+type(
+  E.t -> unit
+)
+ident(
+  int_ref f "src/path.ml" 240 7436 7456 "src/path.ml" 240 7436 7457
+)
+"src/path.ml" 243 7550 7603 "src/path.ml" 243 7550 7604
+type(
+  G.E.t
+)
+ident(
+  int_ref e "src/path.ml" 243 7550 7588 "src/path.ml" 243 7550 7589
+)
+"src/path.ml" 243 7550 7595 "src/path.ml" 243 7550 7605
+type(
+  E.t
+)
+"src/path.ml" 243 7550 7593 "src/path.ml" 243 7550 7605
+call(
+  tail
+)
+type(
+  unit
+)
+"src/path.ml" 243 7550 7583 "src/path.ml" 243 7550 7606
+type(
+  G.E.t -> unit
+)
+"src/path.ml" 243 7550 7607 "src/path.ml" 243 7550 7608
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 240 7436 7458 "src/path.ml" 240 7436 7459
+)
+"src/path.ml" 243 7550 7609 "src/path.ml" 243 7550 7610
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/path.ml" 243 7550 7564 "src/path.ml" 243 7550 7565
+)
+"src/path.ml" 243 7550 7569 "src/path.ml" 243 7550 7610
+call(
+  tail
+)
+type(
+  unit
+)
+"src/path.ml" 240 7436 7464 "src/path.ml" 243 7550 7610
+type(
+  unit
+)
+"src/path.ml" 244 7611 7619 "src/path.ml" 244 7611 7631
+type(
+  (E.t -> 'b -> 'b) -> G.t -> 'b -> 'b
+)
+ident(
+  def fold_edges_e "src/path.ml" 253 7925 7929 "src/path.ml" 254 7965 7970
+)
+"src/path.ml" 244 7611 7632 "src/path.ml" 244 7611 7633
+type(
+  E.t -> 'b -> 'b
+)
+ident(
+  def f "src/path.ml" 244 7611 7634 "src/path.ml" 252 7870 7924
+)
+"src/path.ml" 244 7611 7634 "src/path.ml" 244 7611 7635
+type(
+  G.t
+)
+ident(
+  def g "src/path.ml" 244 7611 7636 "src/path.ml" 252 7870 7924
+)
+"src/path.ml" 244 7611 7636 "src/path.ml" 244 7611 7639
+type(
+  'b
+)
+ident(
+  def acc "src/path.ml" 245 7642 7648 "src/path.ml" 252 7870 7924
+)
+"src/path.ml" 245 7642 7652 "src/path.ml" 245 7642 7656
+type(
+  'b
+)
+ident(
+  def acc' "src/path.ml" 248 7734 7740 "src/path.ml" 252 7870 7924
+)
+"src/path.ml" 246 7659 7667 "src/path.ml" 246 7659 7680
+type(
+  (G.V.t -> 'b -> 'b) -> G.t -> 'b -> 'b
+)
+ident(
+  int_ref G.fold_vertex "src/path.ml" 32 1562 1564 "src/path.ml" 32 1562 1617
+)
+"src/path.ml" 246 7659 7686 "src/path.ml" 246 7659 7687
+type(
+  G.V.t
+)
+ident(
+  def x "src/path.ml" 246 7659 7688 "src/path.ml" 246 7659 7717
+)
+"src/path.ml" 246 7659 7688 "src/path.ml" 246 7659 7689
+type(
+  'b
+)
+"src/path.ml" 246 7659 7693 "src/path.ml" 246 7659 7694
+type(
+  E.t -> 'b -> 'b
+)
+ident(
+  int_ref f "src/path.ml" 244 7611 7632 "src/path.ml" 244 7611 7633
+)
+"src/path.ml" 246 7659 7710 "src/path.ml" 246 7659 7711
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/path.ml" 246 7659 7686 "src/path.ml" 246 7659 7687
+)
+"src/path.ml" 246 7659 7703 "src/path.ml" 246 7659 7712
+type(
+  V.t
+)
+"src/path.ml" 246 7659 7695 "src/path.ml" 246 7659 7713
+type(
+  E.t
+)
+"src/path.ml" 246 7659 7714 "src/path.ml" 246 7659 7717
+type(
+  'b
+)
+ident(
+  int_ref acc "src/path.ml" 244 7611 7636 "src/path.ml" 244 7611 7639
+)
+"src/path.ml" 246 7659 7693 "src/path.ml" 246 7659 7717
+call(
+  tail
+)
+type(
+  'b
+)
+"src/path.ml" 246 7659 7681 "src/path.ml" 246 7659 7718
+type(
+  G.V.t -> 'b -> 'b
+)
+"src/path.ml" 246 7659 7719 "src/path.ml" 246 7659 7720
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 244 7611 7634 "src/path.ml" 244 7611 7635
+)
+"src/path.ml" 246 7659 7721 "src/path.ml" 246 7659 7724
+type(
+  'b
+)
+ident(
+  int_ref acc "src/path.ml" 244 7611 7636 "src/path.ml" 244 7611 7639
+)
+"src/path.ml" 246 7659 7667 "src/path.ml" 246 7659 7724
+call(
+  stack
+)
+type(
+  'b
+)
+"src/path.ml" 248 7734 7740 "src/path.ml" 248 7734 7754
+type(
+  (G.E.t -> 'b -> 'b) -> G.t -> 'b -> 'b
+)
+ident(
+  int_ref G.fold_edges_e "src/path.ml" 35 1724 1726 "src/path.ml" 35 1724 1779
+)
+"src/path.ml" 248 7734 7760 "src/path.ml" 248 7734 7763
+type(
+  G.E.t
+)
+ident(
+  def edg "src/path.ml" 249 7767 7777 "src/path.ml" 252 7870 7916
+)
+"src/path.ml" 249 7767 7781 "src/path.ml" 249 7767 7783
+type(
+  G.V.t
+)
+ident(
+  def v1 "src/path.ml" 250 7801 7811 "src/path.ml" 252 7870 7916
+)
+"src/path.ml" 249 7767 7786 "src/path.ml" 249 7767 7793
+type(
+  G.E.t -> G.V.t
+)
+ident(
+  int_ref G.E.src "src/path.ml" 27 1421 1425 "src/path.ml" 27 1421 1443
+)
+"src/path.ml" 249 7767 7794 "src/path.ml" 249 7767 7797
+type(
+  G.E.t
+)
+ident(
+  int_ref edg "src/path.ml" 248 7734 7760 "src/path.ml" 248 7734 7763
+)
+"src/path.ml" 249 7767 7786 "src/path.ml" 249 7767 7797
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/path.ml" 250 7801 7815 "src/path.ml" 250 7801 7817
+type(
+  G.V.t
+)
+ident(
+  def v2 "src/path.ml" 251 7835 7845 "src/path.ml" 252 7870 7916
+)
+"src/path.ml" 250 7801 7820 "src/path.ml" 250 7801 7827
+type(
+  G.E.t -> G.V.t
+)
+ident(
+  int_ref G.E.dst "src/path.ml" 28 1444 1448 "src/path.ml" 28 1444 1466
+)
+"src/path.ml" 250 7801 7828 "src/path.ml" 250 7801 7831
+type(
+  G.E.t
+)
+ident(
+  int_ref edg "src/path.ml" 248 7734 7760 "src/path.ml" 248 7734 7763
+)
+"src/path.ml" 250 7801 7820 "src/path.ml" 250 7801 7831
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/path.ml" 251 7835 7849 "src/path.ml" 251 7835 7850
+type(
+  G.E.label
+)
+ident(
+  def l "src/path.ml" 252 7870 7880 "src/path.ml" 252 7870 7916
+)
+"src/path.ml" 251 7835 7853 "src/path.ml" 251 7835 7862
+type(
+  G.E.t -> G.E.label
+)
+ident(
+  int_ref G.E.label "src/path.ml" 26 1394 1398 "src/path.ml" 26 1394 1420
+)
+"src/path.ml" 251 7835 7863 "src/path.ml" 251 7835 7866
+type(
+  G.E.t
+)
+ident(
+  int_ref edg "src/path.ml" 248 7734 7760 "src/path.ml" 248 7734 7763
+)
+"src/path.ml" 251 7835 7853 "src/path.ml" 251 7835 7866
+call(
+  stack
+)
+type(
+  G.E.label
+)
+"src/path.ml" 252 7870 7880 "src/path.ml" 252 7870 7881
+type(
+  E.t -> 'b -> 'b
+)
+ident(
+  int_ref f "src/path.ml" 244 7611 7632 "src/path.ml" 244 7611 7633
+)
+"src/path.ml" 252 7870 7883 "src/path.ml" 252 7870 7891
+type(
+  V.t -> G.E.label -> V.t -> E.t
+)
+ident(
+  int_ref E.create "src/path.ml" 228 6916 6926 "src/path.ml" 228 6916 6932
+)
+"src/path.ml" 252 7870 7899 "src/path.ml" 252 7870 7901
+type(
+  G.V.t
+)
+ident(
+  int_ref v1 "src/path.ml" 249 7767 7781 "src/path.ml" 249 7767 7783
+)
+"src/path.ml" 252 7870 7892 "src/path.ml" 252 7870 7902
+type(
+  V.t
+)
+"src/path.ml" 252 7870 7903 "src/path.ml" 252 7870 7904
+type(
+  G.E.label
+)
+ident(
+  int_ref l "src/path.ml" 251 7835 7849 "src/path.ml" 251 7835 7850
+)
+"src/path.ml" 252 7870 7912 "src/path.ml" 252 7870 7914
+type(
+  G.V.t
+)
+ident(
+  int_ref v2 "src/path.ml" 250 7801 7815 "src/path.ml" 250 7801 7817
+)
+"src/path.ml" 252 7870 7905 "src/path.ml" 252 7870 7915
+type(
+  V.t
+)
+"src/path.ml" 252 7870 7882 "src/path.ml" 252 7870 7916
+call(
+  stack
+)
+type(
+  E.t
+)
+"src/path.ml" 252 7870 7880 "src/path.ml" 252 7870 7916
+call(
+  tail
+)
+type(
+  'b -> 'b
+)
+"src/path.ml" 251 7835 7845 "src/path.ml" 252 7870 7916
+type(
+  'b -> 'b
+)
+"src/path.ml" 250 7801 7811 "src/path.ml" 252 7870 7916
+type(
+  'b -> 'b
+)
+"src/path.ml" 249 7767 7777 "src/path.ml" 252 7870 7916
+type(
+  'b -> 'b
+)
+"src/path.ml" 248 7734 7755 "src/path.ml" 252 7870 7917
+type(
+  G.E.t -> 'b -> 'b
+)
+"src/path.ml" 252 7870 7918 "src/path.ml" 252 7870 7919
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 244 7611 7634 "src/path.ml" 244 7611 7635
+)
+"src/path.ml" 252 7870 7920 "src/path.ml" 252 7870 7924
+type(
+  'b
+)
+ident(
+  int_ref acc' "src/path.ml" 245 7642 7652 "src/path.ml" 245 7642 7656
+)
+"src/path.ml" 248 7734 7740 "src/path.ml" 252 7870 7924
+call(
+  tail
+)
+type(
+  'b
+)
+"src/path.ml" 245 7642 7648 "src/path.ml" 252 7870 7924
+type(
+  'b
+)
+"src/path.ml" 253 7925 7933 "src/path.ml" 253 7925 7942
+type(
+  G.t -> int
+)
+ident(
+  def nb_vertex "src/path.ml" 253 7925 7964 "src/path.ml" 254 7965 7970
+)
+"src/path.ml" 253 7925 7943 "src/path.ml" 253 7925 7944
+type(
+  G.t
+)
+ident(
+  def g "src/path.ml" 253 7925 7947 "src/path.ml" 253 7925 7964
+)
+"src/path.ml" 253 7925 7947 "src/path.ml" 253 7925 7958
+type(
+  G.t -> int
+)
+ident(
+  int_ref G.nb_vertex "src/path.ml" 36 1780 1782 "src/path.ml" 36 1780 1806
+)
+"src/path.ml" 253 7925 7959 "src/path.ml" 253 7925 7960
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 253 7925 7943 "src/path.ml" 253 7925 7944
+)
+"src/path.ml" 253 7925 7947 "src/path.ml" 253 7925 7960
+call(
+  stack
+)
+type(
+  int
+)
+"src/path.ml" 253 7925 7961 "src/path.ml" 253 7925 7962
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/path.ml" 253 7925 7963 "src/path.ml" 253 7925 7964
+type(
+  int
+)
+"src/path.ml" 253 7925 7947 "src/path.ml" 253 7925 7964
+type(
+  int
+)
+"src/path.ml" 261 8048 8056 "src/path.ml" 261 8048 8060
+type(
+  W.t
+)
+ident(
+  def zero "src/path.ml" 262 8070 8074 "src/path.ml" 267 8202 8207
+)
+"src/path.ml" 261 8048 8063 "src/path.ml" 261 8048 8069
+type(
+  W.t
+)
+ident(
+  ext_ref W.zero
+)
+"src/path.ml" 262 8070 8078 "src/path.ml" 262 8070 8084
+type(
+  G'.E.t -> W.t
+)
+ident(
+  def weight "src/path.ml" 265 8154 8158 "src/path.ml" 267 8202 8207
+)
+"src/path.ml" 262 8070 8085 "src/path.ml" 262 8070 8086
+type(
+  G'.E.t
+)
+ident(
+  def e "src/path.ml" 262 8070 8089 "src/path.ml" 264 8125 8153
+)
+"src/path.ml" 262 8070 8095 "src/path.ml" 262 8070 8096
+type(
+  G'.E.t
+)
+ident(
+  int_ref e "src/path.ml" 262 8070 8085 "src/path.ml" 262 8070 8086
+)
+"src/path.ml" 263 8102 8115 "src/path.ml" 263 8102 8116
+type(
+  G'.V.t
+)
+"src/path.ml" 263 8102 8110 "src/path.ml" 263 8102 8116
+type(
+  G'.E.t
+)
+"src/path.ml" 263 8102 8120 "src/path.ml" 263 8102 8124
+type(
+  W.t
+)
+ident(
+  int_ref zero "src/path.ml" 261 8048 8056 "src/path.ml" 261 8048 8060
+)
+"src/path.ml" 264 8125 8138 "src/path.ml" 264 8125 8139
+type(
+  G.E.t
+)
+ident(
+  def e "src/path.ml" 264 8125 8143 "src/path.ml" 264 8125 8153
+)
+"src/path.ml" 264 8125 8133 "src/path.ml" 264 8125 8139
+type(
+  G'.E.t
+)
+"src/path.ml" 264 8125 8143 "src/path.ml" 264 8125 8151
+type(
+  W.edge -> W.t
+)
+ident(
+  ext_ref W.weight
+)
+"src/path.ml" 264 8125 8152 "src/path.ml" 264 8125 8153
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/path.ml" 264 8125 8138 "src/path.ml" 264 8125 8139
+)
+"src/path.ml" 264 8125 8143 "src/path.ml" 264 8125 8153
+call(
+  tail
+)
+type(
+  W.t
+)
+"src/path.ml" 262 8070 8089 "src/path.ml" 264 8125 8153
+type(
+  W.t
+)
+"src/path.ml" 265 8154 8162 "src/path.ml" 265 8154 8169
+type(
+  W.t -> W.t -> int
+)
+ident(
+  def compare "src/path.ml" 266 8182 8186 "src/path.ml" 267 8202 8207
+)
+"src/path.ml" 265 8154 8172 "src/path.ml" 265 8154 8181
+type(
+  W.t -> W.t -> int
+)
+ident(
+  ext_ref W.compare
+)
+"src/path.ml" 266 8182 8190 "src/path.ml" 266 8182 8193
+type(
+  W.t -> W.t -> W.t
+)
+ident(
+  def add "src/path.ml" 266 8182 8201 "src/path.ml" 267 8202 8207
+)
+"src/path.ml" 266 8182 8196 "src/path.ml" 266 8182 8201
+type(
+  W.t -> W.t -> W.t
+)
+ident(
+  ext_ref W.add
+)
+"src/path.ml" 269 8209 8223 "src/path.ml" 269 8209 8238
+call(
+  stack
+)
+"src/path.ml" 269 8209 8223 "src/path.ml" 269 8209 8242
+call(
+  stack
+)
+"src/path.ml" 271 8244 8250 "src/path.ml" 271 8244 8274
+type(
+  G'.t -> W.t HVV.t
+)
+ident(
+  def all_pairs_shortest_paths "src/path.ml" 302 9203 9217 "src/path.ml" 304 9219 9222
+)
+"src/path.ml" 271 8244 8275 "src/path.ml" 271 8244 8276
+type(
+  G'.t
+)
+ident(
+  def g "src/path.ml" 272 8279 8283 "src/path.ml" 302 9203 9217
+)
+"src/path.ml" 272 8279 8287 "src/path.ml" 272 8279 8297
+type(
+  W.t HVV.t
+)
+ident(
+  def pairs_dist "src/path.ml" 273 8317 8321 "src/path.ml" 302 9203 9217
+)
+"src/path.ml" 272 8279 8300 "src/path.ml" 272 8279 8310
+type(
+  int -> W.t HVV.t
+)
+ident(
+  ext_ref HVV.create
+)
+"src/path.ml" 272 8279 8311 "src/path.ml" 272 8279 8313
+type(
+  int
+)
+"src/path.ml" 272 8279 8300 "src/path.ml" 272 8279 8313
+call(
+  stack
+)
+type(
+  W.t HVV.t
+)
+"src/path.ml" 273 8317 8325 "src/path.ml" 273 8317 8331
+type(
+  W'.t BF.H.t
+)
+ident(
+  def bf_res "src/path.ml" 274 8370 8374 "src/path.ml" 302 9203 9217
+)
+"src/path.ml" 273 8317 8334 "src/path.ml" 273 8317 8355
+type(
+  G'.t -> BF.H.key -> W'.t BF.H.t
+)
+ident(
+  int_ref BF.all_shortest_paths "src/path.ml" 116 3656 3662 "src/path.ml" 116 3656 3680
+)
+"src/path.ml" 273 8317 8356 "src/path.ml" 273 8317 8357
+type(
+  G'.t
+)
+ident(
+  int_ref g "src/path.ml" 271 8244 8275 "src/path.ml" 271 8244 8276
+)
+"src/path.ml" 273 8317 8358 "src/path.ml" 273 8317 8366
+type(
+  BF.H.key
+)
+"src/path.ml" 273 8317 8334 "src/path.ml" 273 8317 8366
+call(
+  stack
+)
+type(
+  W'.t BF.H.t
+)
+"src/path.ml" 277 8442 8452 "src/path.ml" 277 8442 8455
+type(
+  W.t -> W.t -> W.t
+)
+ident(
+  def add "src/path.ml" 278 8464 8470 "src/path.ml" 287 8743 8750
+)
+"src/path.ml" 277 8442 8458 "src/path.ml" 277 8442 8463
+type(
+  W.t -> W.t -> W.t
+)
+ident(
+  ext_ref W.add
+)
+"src/path.ml" 278 8464 8474 "src/path.ml" 278 8464 8477
+type(
+  W.t -> W.t -> W.t
+)
+ident(
+  def sub "src/path.ml" 279 8486 8492 "src/path.ml" 287 8743 8750
+)
+"src/path.ml" 278 8464 8480 "src/path.ml" 278 8464 8485
+type(
+  W.t -> W.t -> W.t
+)
+ident(
+  int_ref W.sub "src/path.ml" 42 1903 1905 "src/path.ml" 42 1903 1926
+)
+"src/path.ml" 279 8486 8496 "src/path.ml" 279 8486 8502
+type(
+  W.edge -> W.t
+)
+ident(
+  def weight "src/path.ml" 285 8689 8695 "src/path.ml" 287 8743 8750
+)
+"src/path.ml" 279 8486 8503 "src/path.ml" 279 8486 8504
+type(
+  W.edge
+)
+ident(
+  def e "src/path.ml" 280 8507 8515 "src/path.ml" 284 8642 8688
+)
+"src/path.ml" 280 8507 8519 "src/path.ml" 280 8507 8521
+type(
+  G.V.t
+)
+ident(
+  def v1 "src/path.ml" 281 8537 8545 "src/path.ml" 284 8642 8688
+)
+"src/path.ml" 280 8507 8524 "src/path.ml" 280 8507 8531
+type(
+  W.edge -> G.V.t
+)
+ident(
+  int_ref G.E.src "src/path.ml" 27 1421 1425 "src/path.ml" 27 1421 1443
+)
+"src/path.ml" 280 8507 8532 "src/path.ml" 280 8507 8533
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/path.ml" 279 8486 8503 "src/path.ml" 279 8486 8504
+)
+"src/path.ml" 280 8507 8524 "src/path.ml" 280 8507 8533
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/path.ml" 281 8537 8549 "src/path.ml" 281 8537 8551
+type(
+  G.V.t
+)
+ident(
+  def v2 "src/path.ml" 282 8567 8575 "src/path.ml" 284 8642 8688
+)
+"src/path.ml" 281 8537 8554 "src/path.ml" 281 8537 8561
+type(
+  W.edge -> G.V.t
+)
+ident(
+  int_ref G.E.dst "src/path.ml" 28 1444 1448 "src/path.ml" 28 1444 1466
+)
+"src/path.ml" 281 8537 8562 "src/path.ml" 281 8537 8563
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/path.ml" 279 8486 8503 "src/path.ml" 279 8486 8504
+)
+"src/path.ml" 281 8537 8554 "src/path.ml" 281 8537 8563
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/path.ml" 282 8567 8575 "src/path.ml" 282 8567 8578
+type(
+  W.t -> W.t -> W.t
+)
+ident(
+  int_ref add "src/path.ml" 277 8442 8452 "src/path.ml" 277 8442 8455
+)
+"src/path.ml" 282 8567 8580 "src/path.ml" 282 8567 8588
+type(
+  W.edge -> W.t
+)
+ident(
+  ext_ref W.weight
+)
+"src/path.ml" 282 8567 8589 "src/path.ml" 282 8567 8590
+type(
+  W.edge
+)
+ident(
+  int_ref e "src/path.ml" 279 8486 8503 "src/path.ml" 279 8486 8504
+)
+"src/path.ml" 282 8567 8579 "src/path.ml" 282 8567 8591
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/path.ml" 283 8592 8603 "src/path.ml" 283 8592 8608
+type(
+  W'.t -> W'.t -> W.t
+)
+ident(
+  int_ref W.sub "src/path.ml" 42 1903 1905 "src/path.ml" 42 1903 1926
+)
+"src/path.ml" 283 8592 8610 "src/path.ml" 283 8592 8619
+type(
+  W'.t BF.H.t -> BF.H.key -> W'.t
+)
+ident(
+  ext_ref BF.H.find
+)
+"src/path.ml" 283 8592 8620 "src/path.ml" 283 8592 8626
+type(
+  W'.t BF.H.t
+)
+ident(
+  int_ref bf_res "src/path.ml" 273 8317 8325 "src/path.ml" 273 8317 8331
+)
+"src/path.ml" 283 8592 8637 "src/path.ml" 283 8592 8639
+type(
+  G.V.t
+)
+ident(
+  int_ref v1 "src/path.ml" 280 8507 8519 "src/path.ml" 280 8507 8521
+)
+"src/path.ml" 283 8592 8627 "src/path.ml" 283 8592 8640
+type(
+  BF.H.key
+)
+"src/path.ml" 283 8592 8609 "src/path.ml" 283 8592 8641
+call(
+  stack
+)
+type(
+  W'.t
+)
+"src/path.ml" 284 8642 8656 "src/path.ml" 284 8642 8665
+type(
+  W'.t BF.H.t -> BF.H.key -> W'.t
+)
+ident(
+  ext_ref BF.H.find
+)
+"src/path.ml" 284 8642 8666 "src/path.ml" 284 8642 8672
+type(
+  W'.t BF.H.t
+)
+ident(
+  int_ref bf_res "src/path.ml" 273 8317 8325 "src/path.ml" 273 8317 8331
+)
+"src/path.ml" 284 8642 8683 "src/path.ml" 284 8642 8685
+type(
+  G.V.t
+)
+ident(
+  int_ref v2 "src/path.ml" 281 8537 8549 "src/path.ml" 281 8537 8551
+)
+"src/path.ml" 284 8642 8673 "src/path.ml" 284 8642 8686
+type(
+  BF.H.key
+)
+"src/path.ml" 284 8642 8655 "src/path.ml" 284 8642 8687
+call(
+  stack
+)
+type(
+  W'.t
+)
+"src/path.ml" 283 8592 8602 "src/path.ml" 284 8642 8688
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/path.ml" 282 8567 8575 "src/path.ml" 284 8642 8688
+call(
+  tail
+)
+type(
+  W.t
+)
+"src/path.ml" 281 8537 8545 "src/path.ml" 284 8642 8688
+type(
+  W.t
+)
+"src/path.ml" 280 8507 8515 "src/path.ml" 284 8642 8688
+type(
+  W.t
+)
+"src/path.ml" 285 8689 8699 "src/path.ml" 285 8689 8706
+type(
+  W.t -> W.t -> int
+)
+ident(
+  def compare "src/path.ml" 286 8719 8725 "src/path.ml" 287 8743 8750
+)
+"src/path.ml" 285 8689 8709 "src/path.ml" 285 8689 8718
+type(
+  W.t -> W.t -> int
+)
+ident(
+  ext_ref W.compare
+)
+"src/path.ml" 286 8719 8729 "src/path.ml" 286 8719 8733
+type(
+  W.t
+)
+ident(
+  def zero "src/path.ml" 286 8719 8742 "src/path.ml" 287 8743 8750
+)
+"src/path.ml" 286 8719 8736 "src/path.ml" 286 8719 8742
+type(
+  W.t
+)
+ident(
+  ext_ref W.zero
+)
+"src/path.ml" 289 8758 8777 "src/path.ml" 289 8758 8788
+call(
+  stack
+)
+"src/path.ml" 289 8758 8777 "src/path.ml" 289 8758 8793
+call(
+  stack
+)
+"src/path.ml" 290 8797 8801 "src/path.ml" 290 8797 8814
+type(
+  (D.H.key -> unit) -> G'.t -> unit
+)
+ident(
+  int_ref G.iter_vertex "src/path.ml" 31 1515 1517 "src/path.ml" 31 1515 1561
+)
+"src/path.ml" 291 8815 8826 "src/path.ml" 291 8815 8827
+type(
+  D.H.key
+)
+ident(
+  def v "src/path.ml" 292 8831 8840 "src/path.ml" 301 9160 9198
+)
+"src/path.ml" 292 8831 8840 "src/path.ml" 292 8831 8853
+type(
+  (G.V.t -> unit) -> G'.t -> unit
+)
+ident(
+  int_ref G.iter_vertex "src/path.ml" 31 1515 1517 "src/path.ml" 31 1515 1561
+)
+"src/path.ml" 293 8854 8870 "src/path.ml" 293 8854 8871
+type(
+  G.V.t
+)
+ident(
+  def u "src/path.ml" 294 8875 8889 "src/path.ml" 301 9160 9194
+)
+"src/path.ml" 295 8893 8914 "src/path.ml" 295 8893 8915
+type(
+  G.E.t list
+)
+"src/path.ml" 295 8893 8917 "src/path.ml" 295 8893 8918
+type(
+  W''.t
+)
+ident(
+  def d "src/path.ml" 296 8947 8963 "src/path.ml" 300 9136 9159
+)
+"src/path.ml" 295 8893 8913 "src/path.ml" 295 8893 8919
+type(
+  G.E.t list * W''.t
+)
+"src/path.ml" 295 8893 8922 "src/path.ml" 295 8893 8937
+type(
+  G'.t -> D.H.key -> G.V.t -> G.E.t list * W''.t
+)
+ident(
+  int_ref D.shortest_path "src/path.ml" 67 2403 2409 "src/path.ml" 67 2403 2422
+)
+"src/path.ml" 295 8893 8938 "src/path.ml" 295 8893 8939
+type(
+  G'.t
+)
+ident(
+  int_ref g "src/path.ml" 271 8244 8275 "src/path.ml" 271 8244 8276
+)
+"src/path.ml" 295 8893 8940 "src/path.ml" 295 8893 8941
+type(
+  D.H.key
+)
+ident(
+  int_ref v "src/path.ml" 291 8815 8826 "src/path.ml" 291 8815 8827
+)
+"src/path.ml" 295 8893 8942 "src/path.ml" 295 8893 8943
+type(
+  G.V.t
+)
+ident(
+  int_ref u "src/path.ml" 293 8854 8870 "src/path.ml" 293 8854 8871
+)
+"src/path.ml" 295 8893 8922 "src/path.ml" 295 8893 8943
+call(
+  stack
+)
+type(
+  G.E.t list * W''.t
+)
+"src/path.ml" 296 8947 8963 "src/path.ml" 296 8947 8970
+type(
+  W.t HVV.t -> HVV.key -> W.t -> unit
+)
+ident(
+  ext_ref HVV.add
+)
+"src/path.ml" 296 8947 8971 "src/path.ml" 296 8947 8981
+type(
+  W.t HVV.t
+)
+ident(
+  int_ref pairs_dist "src/path.ml" 272 8279 8287 "src/path.ml" 272 8279 8297
+)
+"src/path.ml" 296 8947 8983 "src/path.ml" 296 8947 8984
+type(
+  D.H.key
+)
+ident(
+  int_ref v "src/path.ml" 291 8815 8826 "src/path.ml" 291 8815 8827
+)
+"src/path.ml" 296 8947 8986 "src/path.ml" 296 8947 8987
+type(
+  G.V.t
+)
+ident(
+  int_ref u "src/path.ml" 293 8854 8870 "src/path.ml" 293 8854 8871
+)
+"src/path.ml" 296 8947 8982 "src/path.ml" 296 8947 8988
+type(
+  HVV.key
+)
+"src/path.ml" 297 8989 9008 "src/path.ml" 297 8989 9015
+type(
+  W''.t -> W.t -> W.t
+)
+ident(
+  int_ref W''.add "src/path.ml" 277 8442 8452 "src/path.ml" 277 8442 8455
+)
+"src/path.ml" 297 8989 9016 "src/path.ml" 297 8989 9017
+type(
+  W''.t
+)
+ident(
+  int_ref d "src/path.ml" 295 8893 8917 "src/path.ml" 295 8893 8918
+)
+"src/path.ml" 298 9018 9040 "src/path.ml" 298 9018 9047
+type(
+  W'.t -> W'.t -> W.t
+)
+ident(
+  int_ref W''.sub "src/path.ml" 278 8464 8474 "src/path.ml" 278 8464 8477
+)
+"src/path.ml" 298 9018 9049 "src/path.ml" 298 9018 9058
+type(
+  W'.t BF.H.t -> BF.H.key -> W'.t
+)
+ident(
+  ext_ref BF.H.find
+)
+"src/path.ml" 298 9018 9059 "src/path.ml" 298 9018 9065
+type(
+  W'.t BF.H.t
+)
+ident(
+  int_ref bf_res "src/path.ml" 273 8317 8325 "src/path.ml" 273 8317 8331
+)
+"src/path.ml" 298 9018 9076 "src/path.ml" 298 9018 9077
+type(
+  G.V.t
+)
+ident(
+  int_ref u "src/path.ml" 293 8854 8870 "src/path.ml" 293 8854 8871
+)
+"src/path.ml" 298 9018 9066 "src/path.ml" 298 9018 9078
+type(
+  BF.H.key
+)
+"src/path.ml" 298 9018 9048 "src/path.ml" 298 9018 9079
+call(
+  stack
+)
+type(
+  W'.t
+)
+"src/path.ml" 299 9080 9105 "src/path.ml" 299 9080 9114
+type(
+  W'.t BF.H.t -> BF.H.key -> W'.t
+)
+ident(
+  ext_ref BF.H.find
+)
+"src/path.ml" 299 9080 9115 "src/path.ml" 299 9080 9121
+type(
+  W'.t BF.H.t
+)
+ident(
+  int_ref bf_res "src/path.ml" 273 8317 8325 "src/path.ml" 273 8317 8331
+)
+"src/path.ml" 299 9080 9132 "src/path.ml" 299 9080 9133
+type(
+  D.H.key
+)
+ident(
+  int_ref v "src/path.ml" 291 8815 8826 "src/path.ml" 291 8815 8827
+)
+"src/path.ml" 299 9080 9122 "src/path.ml" 299 9080 9134
+type(
+  BF.H.key
+)
+"src/path.ml" 299 9080 9104 "src/path.ml" 299 9080 9135
+call(
+  stack
+)
+type(
+  W'.t
+)
+"src/path.ml" 298 9018 9039 "src/path.ml" 300 9136 9158
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/path.ml" 297 8989 9007 "src/path.ml" 300 9136 9159
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/path.ml" 296 8947 8963 "src/path.ml" 300 9136 9159
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 295 8893 8909 "src/path.ml" 300 9136 9159
+type(
+  unit
+)
+"src/path.ml" 301 9160 9179 "src/path.ml" 301 9160 9188
+type(
+  exn
+)
+"src/path.ml" 301 9160 9192 "src/path.ml" 301 9160 9194
+type(
+  unit
+)
+"src/path.ml" 294 8875 8889 "src/path.ml" 301 9160 9194
+type(
+  unit
+)
+"src/path.ml" 293 8854 8865 "src/path.ml" 301 9160 9196
+type(
+  G.V.t -> unit
+)
+"src/path.ml" 301 9160 9197 "src/path.ml" 301 9160 9198
+type(
+  G'.t
+)
+ident(
+  int_ref g "src/path.ml" 271 8244 8275 "src/path.ml" 271 8244 8276
+)
+"src/path.ml" 292 8831 8840 "src/path.ml" 301 9160 9198
+call(
+  tail
+)
+type(
+  unit
+)
+"src/path.ml" 291 8815 8821 "src/path.ml" 301 9160 9199
+type(
+  D.H.key -> unit
+)
+"src/path.ml" 301 9160 9200 "src/path.ml" 301 9160 9201
+type(
+  G'.t
+)
+ident(
+  int_ref g "src/path.ml" 271 8244 8275 "src/path.ml" 271 8244 8276
+)
+"src/path.ml" 290 8797 8801 "src/path.ml" 301 9160 9201
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 302 9203 9207 "src/path.ml" 302 9203 9217
+type(
+  W.t HVV.t
+)
+ident(
+  int_ref pairs_dist "src/path.ml" 272 8279 8287 "src/path.ml" 272 8279 8297
+)
+"src/path.ml" 290 8797 8801 "src/path.ml" 302 9203 9217
+type(
+  W.t HVV.t
+)
+"src/path.ml" 289 8758 8762 "src/path.ml" 302 9203 9217
+type(
+  W.t HVV.t
+)
+"src/path.ml" 274 8370 8374 "src/path.ml" 302 9203 9217
+type(
+  W.t HVV.t
+)
+"src/path.ml" 273 8317 8321 "src/path.ml" 302 9203 9217
+type(
+  W.t HVV.t
+)
+"src/path.ml" 272 8279 8283 "src/path.ml" 302 9203 9217
+type(
+  W.t HVV.t
+)
+"src/path.ml" 315 9379 9393 "src/path.ml" 315 9379 9410
+call(
+  stack
+)
+"src/path.ml" 316 9411 9439 "src/path.ml" 316 9411 9458
+call(
+  stack
+)
+"src/path.ml" 316 9411 9439 "src/path.ml" 316 9411 9463
+call(
+  stack
+)
+"src/path.ml" 316 9411 9426 "src/path.ml" 316 9411 9464
+call(
+  stack
+)
+"src/path.ml" 321 9584 9590 "src/path.ml" 321 9584 9596
+type(
+  G.t -> path_checker
+)
+ident(
+  def create "src/path.ml" 323 9639 9641 "src/path.ml" 351 10413 10416
+)
+"src/path.ml" 321 9584 9597 "src/path.ml" 321 9584 9598
+type(
+  G.t
+)
+ident(
+  def g "src/path.ml" 321 9584 9601 "src/path.ml" 321 9584 9637
+)
+"src/path.ml" 321 9584 9611 "src/path.ml" 321 9584 9621
+type(
+  int -> bool HVV.t
+)
+ident(
+  ext_ref HVV.create
+)
+"src/path.ml" 321 9584 9622 "src/path.ml" 321 9584 9624
+type(
+  int
+)
+"src/path.ml" 321 9584 9611 "src/path.ml" 321 9584 9624
+call(
+  stack
+)
+type(
+  bool HVV.t
+)
+"src/path.ml" 321 9584 9634 "src/path.ml" 321 9584 9635
+type(
+  G.t
+)
+ident(
+  int_ref g "src/path.ml" 321 9584 9597 "src/path.ml" 321 9584 9598
+)
+"src/path.ml" 321 9584 9601 "src/path.ml" 321 9584 9637
+type(
+  path_checker
+)
+"src/path.ml" 323 9639 9645 "src/path.ml" 323 9639 9655
+type(
+  path_checker -> HV.key -> G.V.t -> bool
+)
+ident(
+  def check_path "src/path.ml" 349 10398 10411 "src/path.ml" 351 10413 10416
+)
+"src/path.ml" 323 9639 9656 "src/path.ml" 323 9639 9658
+type(
+  path_checker
+)
+ident(
+  def pc "src/path.ml" 323 9639 9659 "src/path.ml" 349 10398 10411
+)
+"src/path.ml" 323 9639 9659 "src/path.ml" 323 9639 9661
+type(
+  HV.key
+)
+ident(
+  def v1 "src/path.ml" 323 9639 9662 "src/path.ml" 349 10398 10411
+)
+"src/path.ml" 323 9639 9662 "src/path.ml" 323 9639 9664
+type(
+  G.V.t
+)
+ident(
+  def v2 "src/path.ml" 324 9667 9671 "src/path.ml" 349 10398 10411
+)
+"src/path.ml" 325 9675 9681 "src/path.ml" 325 9675 9689
+type(
+  bool HVV.t -> HVV.key -> bool
+)
+ident(
+  ext_ref HVV.find
+)
+"src/path.ml" 325 9675 9690 "src/path.ml" 325 9675 9692
+type(
+  path_checker
+)
+ident(
+  int_ref pc "src/path.ml" 323 9639 9656 "src/path.ml" 323 9639 9658
+)
+"src/path.ml" 325 9675 9690 "src/path.ml" 325 9675 9698
+type(
+  bool HVV.t
+)
+"src/path.ml" 325 9675 9700 "src/path.ml" 325 9675 9702
+type(
+  HV.key
+)
+ident(
+  int_ref v1 "src/path.ml" 323 9639 9659 "src/path.ml" 323 9639 9661
+)
+"src/path.ml" 325 9675 9704 "src/path.ml" 325 9675 9706
+type(
+  G.V.t
+)
+ident(
+  int_ref v2 "src/path.ml" 323 9639 9662 "src/path.ml" 323 9639 9664
+)
+"src/path.ml" 325 9675 9699 "src/path.ml" 325 9675 9707
+type(
+  HVV.key
+)
+"src/path.ml" 325 9675 9681 "src/path.ml" 325 9675 9707
+call(
+  stack
+)
+type(
+  bool
+)
+"src/path.ml" 326 9708 9717 "src/path.ml" 326 9708 9726
+type(
+  exn
+)
+"src/path.ml" 328 9791 9801 "src/path.ml" 328 9791 9808
+type(
+  unit HV.t
+)
+ident(
+  def visited "src/path.ml" 329 9827 9833 "src/path.ml" 349 10398 10411
+)
+"src/path.ml" 328 9791 9811 "src/path.ml" 328 9791 9820
+type(
+  int -> unit HV.t
+)
+ident(
+  ext_ref HV.create
+)
+"src/path.ml" 328 9791 9821 "src/path.ml" 328 9791 9823
+type(
+  int
+)
+"src/path.ml" 328 9791 9811 "src/path.ml" 328 9791 9823
+call(
+  stack
+)
+type(
+  unit HV.t
+)
+"src/path.ml" 329 9827 9837 "src/path.ml" 329 9827 9838
+type(
+  HV.key Queue.t
+)
+ident(
+  def q "src/path.ml" 330 9860 9866 "src/path.ml" 349 10398 10411
+)
+"src/path.ml" 329 9827 9841 "src/path.ml" 329 9827 9853
+type(
+  unit -> HV.key Queue.t
+)
+ident(
+  ext_ref Queue.create
+)
+"src/path.ml" 329 9827 9854 "src/path.ml" 329 9827 9856
+type(
+  unit
+)
+"src/path.ml" 329 9827 9841 "src/path.ml" 329 9827 9856
+call(
+  stack
+)
+type(
+  HV.key Queue.t
+)
+"src/path.ml" 330 9860 9874 "src/path.ml" 330 9860 9878
+type(
+  unit -> bool
+)
+ident(
+  def loop "src/path.ml" 330 9860 9866 "src/path.ml" 349 10398 10411
+)
+"src/path.ml" 330 9860 9879 "src/path.ml" 330 9860 9881
+type(
+  unit
+)
+"src/path.ml" 331 9884 9895 "src/path.ml" 331 9884 9909
+type(
+  HV.key Queue.t -> bool
+)
+ident(
+  ext_ref Queue.is_empty
+)
+"src/path.ml" 331 9884 9910 "src/path.ml" 331 9884 9911
+type(
+  HV.key Queue.t
+)
+ident(
+  int_ref q "src/path.ml" 329 9827 9837 "src/path.ml" 329 9827 9838
+)
+"src/path.ml" 331 9884 9895 "src/path.ml" 331 9884 9911
+call(
+  stack
+)
+type(
+  bool
+)
+"src/path.ml" 332 9923 9933 "src/path.ml" 332 9923 9940
+type(
+  bool HVV.t -> HVV.key -> bool -> unit
+)
+ident(
+  ext_ref HVV.add
+)
+"src/path.ml" 332 9923 9941 "src/path.ml" 332 9923 9943
+type(
+  path_checker
+)
+ident(
+  int_ref pc "src/path.ml" 323 9639 9656 "src/path.ml" 323 9639 9658
+)
+"src/path.ml" 332 9923 9941 "src/path.ml" 332 9923 9949
+type(
+  bool HVV.t
+)
+"src/path.ml" 332 9923 9951 "src/path.ml" 332 9923 9953
+type(
+  HV.key
+)
+ident(
+  int_ref v1 "src/path.ml" 323 9639 9659 "src/path.ml" 323 9639 9661
+)
+"src/path.ml" 332 9923 9955 "src/path.ml" 332 9923 9957
+type(
+  G.V.t
+)
+ident(
+  int_ref v2 "src/path.ml" 323 9639 9662 "src/path.ml" 323 9639 9664
+)
+"src/path.ml" 332 9923 9950 "src/path.ml" 332 9923 9958
+type(
+  HVV.key
+)
+"src/path.ml" 332 9923 9959 "src/path.ml" 332 9923 9964
+type(
+  bool
+)
+"src/path.ml" 332 9923 9933 "src/path.ml" 332 9923 9964
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 333 9966 9976 "src/path.ml" 333 9966 9981
+type(
+  bool
+)
+"src/path.ml" 331 9884 9917 "src/path.ml" 334 9982 9993
+type(
+  bool
+)
+"src/path.ml" 335 10005 10019 "src/path.ml" 335 10005 10020
+type(
+  HV.key
+)
+ident(
+  def v "src/path.ml" 336 10038 10048 "src/path.ml" 345 10341 10354
+)
+"src/path.ml" 335 10005 10023 "src/path.ml" 335 10005 10032
+type(
+  HV.key Queue.t -> HV.key
+)
+ident(
+  ext_ref Queue.pop
+)
+"src/path.ml" 335 10005 10033 "src/path.ml" 335 10005 10034
+type(
+  HV.key Queue.t
+)
+ident(
+  int_ref q "src/path.ml" 329 9827 9837 "src/path.ml" 329 9827 9838
+)
+"src/path.ml" 335 10005 10023 "src/path.ml" 335 10005 10034
+call(
+  stack
+)
+type(
+  HV.key
+)
+"src/path.ml" 336 10038 10048 "src/path.ml" 336 10038 10055
+type(
+  bool HVV.t -> HVV.key -> bool -> unit
+)
+ident(
+  ext_ref HVV.add
+)
+"src/path.ml" 336 10038 10056 "src/path.ml" 336 10038 10058
+type(
+  path_checker
+)
+ident(
+  int_ref pc "src/path.ml" 323 9639 9656 "src/path.ml" 323 9639 9658
+)
+"src/path.ml" 336 10038 10056 "src/path.ml" 336 10038 10064
+type(
+  bool HVV.t
+)
+"src/path.ml" 336 10038 10066 "src/path.ml" 336 10038 10068
+type(
+  HV.key
+)
+ident(
+  int_ref v1 "src/path.ml" 323 9639 9659 "src/path.ml" 323 9639 9661
+)
+"src/path.ml" 336 10038 10070 "src/path.ml" 336 10038 10071
+type(
+  HV.key
+)
+ident(
+  int_ref v "src/path.ml" 335 10005 10019 "src/path.ml" 335 10005 10020
+)
+"src/path.ml" 336 10038 10065 "src/path.ml" 336 10038 10072
+type(
+  HVV.key
+)
+"src/path.ml" 336 10038 10073 "src/path.ml" 336 10038 10077
+type(
+  bool
+)
+"src/path.ml" 336 10038 10048 "src/path.ml" 336 10038 10077
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 337 10079 10092 "src/path.ml" 337 10079 10103
+type(
+  HV.key -> G.V.t -> int
+)
+ident(
+  ext_ref G.V.compare
+)
+"src/path.ml" 337 10079 10104 "src/path.ml" 337 10079 10105
+type(
+  HV.key
+)
+ident(
+  int_ref v "src/path.ml" 335 10005 10019 "src/path.ml" 335 10005 10020
+)
+"src/path.ml" 337 10079 10106 "src/path.ml" 337 10079 10108
+type(
+  G.V.t
+)
+ident(
+  int_ref v2 "src/path.ml" 323 9639 9662 "src/path.ml" 323 9639 9664
+)
+"src/path.ml" 337 10079 10092 "src/path.ml" 337 10079 10108
+call(
+  stack
+)
+type(
+  int
+)
+"src/path.ml" 337 10079 10109 "src/path.ml" 337 10079 10110
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/path.ml" 337 10079 10111 "src/path.ml" 337 10079 10112
+type(
+  int
+)
+"src/path.ml" 337 10079 10092 "src/path.ml" 337 10079 10112
+type(
+  bool
+)
+"src/path.ml" 338 10118 10130 "src/path.ml" 338 10118 10134
+type(
+  bool
+)
+"src/path.ml" 340 10156 10171 "src/path.ml" 340 10156 10174
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/path.ml" 340 10156 10176 "src/path.ml" 340 10156 10182
+type(
+  unit HV.t -> HV.key -> bool
+)
+ident(
+  ext_ref HV.mem
+)
+"src/path.ml" 340 10156 10183 "src/path.ml" 340 10156 10190
+type(
+  unit HV.t
+)
+ident(
+  int_ref visited "src/path.ml" 328 9791 9801 "src/path.ml" 328 9791 9808
+)
+"src/path.ml" 340 10156 10191 "src/path.ml" 340 10156 10192
+type(
+  HV.key
+)
+ident(
+  int_ref v "src/path.ml" 335 10005 10019 "src/path.ml" 335 10005 10020
+)
+"src/path.ml" 340 10156 10175 "src/path.ml" 340 10156 10193
+call(
+  stack
+)
+type(
+  bool
+)
+"src/path.ml" 340 10156 10171 "src/path.ml" 340 10156 10193
+type(
+  bool
+)
+"src/path.ml" 341 10205 10219 "src/path.ml" 341 10205 10225
+type(
+  unit HV.t -> HV.key -> unit -> unit
+)
+ident(
+  ext_ref HV.add
+)
+"src/path.ml" 341 10205 10226 "src/path.ml" 341 10205 10233
+type(
+  unit HV.t
+)
+ident(
+  int_ref visited "src/path.ml" 328 9791 9801 "src/path.ml" 328 9791 9808
+)
+"src/path.ml" 341 10205 10234 "src/path.ml" 341 10205 10235
+type(
+  HV.key
+)
+ident(
+  int_ref v "src/path.ml" 335 10005 10019 "src/path.ml" 335 10005 10020
+)
+"src/path.ml" 341 10205 10236 "src/path.ml" 341 10205 10238
+type(
+  unit
+)
+"src/path.ml" 341 10205 10219 "src/path.ml" 341 10205 10238
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 342 10240 10254 "src/path.ml" 342 10240 10265
+type(
+  (HV.key -> unit) -> G.t -> HV.key -> unit
+)
+ident(
+  int_ref G.iter_succ "src/path.ml" 311 9302 9309 "src/path.ml" 311 9302 9358
+)
+"src/path.ml" 342 10240 10271 "src/path.ml" 342 10240 10273
+type(
+  HV.key
+)
+ident(
+  def v' "src/path.ml" 342 10240 10277 "src/path.ml" 342 10240 10291
+)
+"src/path.ml" 342 10240 10277 "src/path.ml" 342 10240 10286
+type(
+  HV.key -> HV.key Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"src/path.ml" 342 10240 10287 "src/path.ml" 342 10240 10289
+type(
+  HV.key
+)
+ident(
+  int_ref v' "src/path.ml" 342 10240 10271 "src/path.ml" 342 10240 10273
+)
+"src/path.ml" 342 10240 10290 "src/path.ml" 342 10240 10291
+type(
+  HV.key Queue.t
+)
+ident(
+  int_ref q "src/path.ml" 329 9827 9837 "src/path.ml" 329 9827 9838
+)
+"src/path.ml" 342 10240 10277 "src/path.ml" 342 10240 10291
+call(
+  tail
+)
+type(
+  unit
+)
+"src/path.ml" 342 10240 10266 "src/path.ml" 342 10240 10292
+type(
+  HV.key -> unit
+)
+"src/path.ml" 342 10240 10293 "src/path.ml" 342 10240 10295
+type(
+  path_checker
+)
+ident(
+  int_ref pc "src/path.ml" 323 9639 9656 "src/path.ml" 323 9639 9658
+)
+"src/path.ml" 342 10240 10293 "src/path.ml" 342 10240 10301
+type(
+  G.t
+)
+"src/path.ml" 342 10240 10302 "src/path.ml" 342 10240 10303
+type(
+  HV.key
+)
+ident(
+  int_ref v "src/path.ml" 335 10005 10019 "src/path.ml" 335 10005 10020
+)
+"src/path.ml" 342 10240 10254 "src/path.ml" 342 10240 10303
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 340 10156 10199 "src/path.ml" 343 10304 10319
+type(
+  unit
+)
+"src/path.ml" 340 10156 10168 "src/path.ml" 343 10304 10319
+type(
+  unit
+)
+"src/path.ml" 344 10321 10333 "src/path.ml" 344 10321 10337
+type(
+  unit -> bool
+)
+ident(
+  int_ref loop "src/path.ml" 330 9860 9874 "src/path.ml" 330 9860 9878
+)
+"src/path.ml" 344 10321 10338 "src/path.ml" 344 10321 10340
+type(
+  unit
+)
+"src/path.ml" 344 10321 10333 "src/path.ml" 344 10321 10340
+call(
+  tail
+)
+type(
+  bool
+)
+"src/path.ml" 339 10135 10150 "src/path.ml" 345 10341 10354
+type(
+  bool
+)
+"src/path.ml" 337 10079 10089 "src/path.ml" 345 10341 10354
+type(
+  bool
+)
+"src/path.ml" 336 10038 10048 "src/path.ml" 345 10341 10354
+type(
+  bool
+)
+"src/path.ml" 334 9982 9999 "src/path.ml" 346 10355 10366
+type(
+  bool
+)
+"src/path.ml" 331 9884 9892 "src/path.ml" 346 10355 10366
+type(
+  bool
+)
+"src/path.ml" 348 10376 10382 "src/path.ml" 348 10376 10391
+type(
+  HV.key -> HV.key Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"src/path.ml" 348 10376 10392 "src/path.ml" 348 10376 10394
+type(
+  HV.key
+)
+ident(
+  int_ref v1 "src/path.ml" 323 9639 9659 "src/path.ml" 323 9639 9661
+)
+"src/path.ml" 348 10376 10395 "src/path.ml" 348 10376 10396
+type(
+  HV.key Queue.t
+)
+ident(
+  int_ref q "src/path.ml" 329 9827 9837 "src/path.ml" 329 9827 9838
+)
+"src/path.ml" 348 10376 10382 "src/path.ml" 348 10376 10396
+call(
+  stack
+)
+type(
+  unit
+)
+"src/path.ml" 349 10398 10404 "src/path.ml" 349 10398 10408
+type(
+  unit -> bool
+)
+ident(
+  int_ref loop "src/path.ml" 330 9860 9874 "src/path.ml" 330 9860 9878
+)
+"src/path.ml" 349 10398 10409 "src/path.ml" 349 10398 10411
+type(
+  unit
+)
+"src/path.ml" 349 10398 10404 "src/path.ml" 349 10398 10411
+call(
+  tail
+)
+type(
+  bool
+)
+"src/path.ml" 348 10376 10382 "src/path.ml" 349 10398 10411
+type(
+  bool
+)
+"src/path.ml" 330 9860 9866 "src/path.ml" 349 10398 10411
+type(
+  bool
+)
+"src/path.ml" 329 9827 9833 "src/path.ml" 349 10398 10411
+type(
+  bool
+)
+"src/path.ml" 328 9791 9797 "src/path.ml" 349 10398 10411
+type(
+  bool
+)
+"src/path.ml" 324 9667 9671 "src/path.ml" 349 10398 10411
+type(
+  bool
+)

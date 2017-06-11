@@ -1,0 +1,809 @@
+"src/leaderlist.ml" 35 1702 1715 "src/leaderlist.ml" 35 1702 1728
+call(
+  stack
+)
+"src/leaderlist.ml" 37 1730 1736 "src/leaderlist.ml" 37 1730 1748
+type(
+  G.t -> S.elt -> S.elt list list
+)
+ident(
+  def leader_lists "src/leaderlist.ml" 84 3453 3482 "src/leaderlist.ml" 87 3578 3581
+)
+"src/leaderlist.ml" 37 1730 1749 "src/leaderlist.ml" 37 1730 1750
+type(
+  G.t
+)
+ident(
+  def g "src/leaderlist.ml" 37 1730 1751 "src/leaderlist.ml" 84 3453 3482
+)
+"src/leaderlist.ml" 37 1730 1751 "src/leaderlist.ml" 37 1730 1755
+type(
+  S.elt
+)
+ident(
+  def root "src/leaderlist.ml" 39 1805 1809 "src/leaderlist.ml" 84 3453 3482
+)
+"src/leaderlist.ml" 39 1805 1813 "src/leaderlist.ml" 39 1805 1831
+type(
+  (S.elt -> bool) -> G.t -> S.t * S.t
+)
+ident(
+  def partition_vertices "src/leaderlist.ml" 47 2040 2044 "src/leaderlist.ml" 84 3453 3482
+)
+"src/leaderlist.ml" 39 1805 1832 "src/leaderlist.ml" 39 1805 1833
+type(
+  S.elt -> bool
+)
+ident(
+  def f "src/leaderlist.ml" 39 1805 1834 "src/leaderlist.ml" 43 1948 1976
+)
+"src/leaderlist.ml" 39 1805 1834 "src/leaderlist.ml" 39 1805 1835
+type(
+  G.t
+)
+ident(
+  def g "src/leaderlist.ml" 40 1838 1844 "src/leaderlist.ml" 43 1948 1976
+)
+"src/leaderlist.ml" 40 1838 1844 "src/leaderlist.ml" 40 1838 1857
+type(
+  (S.elt -> S.t * S.t -> S.t * S.t) -> G.t -> S.t * S.t -> S.t * S.t
+)
+ident(
+  int_ref G.fold_vertex "src/leaderlist.ml" 27 1541 1543 "src/leaderlist.ml" 27 1541 1595
+)
+"src/leaderlist.ml" 41 1858 1871 "src/leaderlist.ml" 41 1858 1872
+type(
+  S.elt
+)
+ident(
+  def n "src/leaderlist.ml" 41 1858 1873 "src/leaderlist.ml" 42 1885 1946
+)
+"src/leaderlist.ml" 41 1858 1874 "src/leaderlist.ml" 41 1858 1876
+type(
+  S.t
+)
+ident(
+  def s1 "src/leaderlist.ml" 42 1885 1896 "src/leaderlist.ml" 42 1885 1946
+)
+"src/leaderlist.ml" 41 1858 1878 "src/leaderlist.ml" 41 1858 1880
+type(
+  S.t
+)
+ident(
+  def s2 "src/leaderlist.ml" 42 1885 1896 "src/leaderlist.ml" 42 1885 1946
+)
+"src/leaderlist.ml" 41 1858 1873 "src/leaderlist.ml" 41 1858 1881
+type(
+  S.t * S.t
+)
+"src/leaderlist.ml" 42 1885 1899 "src/leaderlist.ml" 42 1885 1900
+type(
+  S.elt -> bool
+)
+ident(
+  int_ref f "src/leaderlist.ml" 39 1805 1832 "src/leaderlist.ml" 39 1805 1833
+)
+"src/leaderlist.ml" 42 1885 1901 "src/leaderlist.ml" 42 1885 1902
+type(
+  S.elt
+)
+ident(
+  int_ref n "src/leaderlist.ml" 41 1858 1871 "src/leaderlist.ml" 41 1858 1872
+)
+"src/leaderlist.ml" 42 1885 1899 "src/leaderlist.ml" 42 1885 1902
+call(
+  stack
+)
+type(
+  bool
+)
+"src/leaderlist.ml" 42 1885 1909 "src/leaderlist.ml" 42 1885 1914
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  ext_ref S.add
+)
+"src/leaderlist.ml" 42 1885 1915 "src/leaderlist.ml" 42 1885 1916
+type(
+  S.elt
+)
+ident(
+  int_ref n "src/leaderlist.ml" 41 1858 1871 "src/leaderlist.ml" 41 1858 1872
+)
+"src/leaderlist.ml" 42 1885 1917 "src/leaderlist.ml" 42 1885 1919
+type(
+  S.t
+)
+ident(
+  int_ref s1 "src/leaderlist.ml" 41 1858 1874 "src/leaderlist.ml" 41 1858 1876
+)
+"src/leaderlist.ml" 42 1885 1909 "src/leaderlist.ml" 42 1885 1919
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/leaderlist.ml" 42 1885 1921 "src/leaderlist.ml" 42 1885 1923
+type(
+  S.t
+)
+ident(
+  int_ref s2 "src/leaderlist.ml" 41 1858 1878 "src/leaderlist.ml" 41 1858 1880
+)
+"src/leaderlist.ml" 42 1885 1908 "src/leaderlist.ml" 42 1885 1924
+type(
+  S.t * S.t
+)
+"src/leaderlist.ml" 42 1885 1931 "src/leaderlist.ml" 42 1885 1933
+type(
+  S.t
+)
+ident(
+  int_ref s1 "src/leaderlist.ml" 41 1858 1874 "src/leaderlist.ml" 41 1858 1876
+)
+"src/leaderlist.ml" 42 1885 1935 "src/leaderlist.ml" 42 1885 1940
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  ext_ref S.add
+)
+"src/leaderlist.ml" 42 1885 1941 "src/leaderlist.ml" 42 1885 1942
+type(
+  S.elt
+)
+ident(
+  int_ref n "src/leaderlist.ml" 41 1858 1871 "src/leaderlist.ml" 41 1858 1872
+)
+"src/leaderlist.ml" 42 1885 1943 "src/leaderlist.ml" 42 1885 1945
+type(
+  S.t
+)
+ident(
+  int_ref s2 "src/leaderlist.ml" 41 1858 1878 "src/leaderlist.ml" 41 1858 1880
+)
+"src/leaderlist.ml" 42 1885 1935 "src/leaderlist.ml" 42 1885 1945
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/leaderlist.ml" 42 1885 1930 "src/leaderlist.ml" 42 1885 1946
+type(
+  S.t * S.t
+)
+"src/leaderlist.ml" 42 1885 1896 "src/leaderlist.ml" 42 1885 1946
+type(
+  S.t * S.t
+)
+"src/leaderlist.ml" 41 1858 1866 "src/leaderlist.ml" 42 1885 1947
+type(
+  S.elt -> S.t * S.t -> S.t * S.t
+)
+"src/leaderlist.ml" 43 1948 1956 "src/leaderlist.ml" 43 1948 1957
+type(
+  G.t
+)
+ident(
+  int_ref g "src/leaderlist.ml" 39 1805 1834 "src/leaderlist.ml" 39 1805 1835
+)
+"src/leaderlist.ml" 43 1948 1959 "src/leaderlist.ml" 43 1948 1966
+type(
+  S.t
+)
+ident(
+  ext_ref S.empty
+)
+"src/leaderlist.ml" 43 1948 1968 "src/leaderlist.ml" 43 1948 1975
+type(
+  S.t
+)
+ident(
+  ext_ref S.empty
+)
+"src/leaderlist.ml" 43 1948 1958 "src/leaderlist.ml" 43 1948 1976
+type(
+  S.t * S.t
+)
+"src/leaderlist.ml" 40 1838 1844 "src/leaderlist.ml" 43 1948 1976
+call(
+  tail
+)
+type(
+  S.t * S.t
+)
+"src/leaderlist.ml" 47 2040 2048 "src/leaderlist.ml" 47 2040 2057
+type(
+  S.elt -> bool
+)
+ident(
+  def is_leader "src/leaderlist.ml" 65 2693 2697 "src/leaderlist.ml" 84 3453 3482
+)
+"src/leaderlist.ml" 47 2040 2058 "src/leaderlist.ml" 47 2040 2059
+type(
+  S.elt
+)
+ident(
+  def n "src/leaderlist.ml" 48 2062 2068 "src/leaderlist.ml" 63 2634 2653
+)
+"src/leaderlist.ml" 48 2062 2071 "src/leaderlist.ml" 48 2062 2072
+type(
+  S.elt
+)
+ident(
+  int_ref n "src/leaderlist.ml" 47 2040 2058 "src/leaderlist.ml" 47 2040 2059
+)
+"src/leaderlist.ml" 48 2062 2073 "src/leaderlist.ml" 48 2062 2074
+type(
+  S.elt -> S.elt -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/leaderlist.ml" 48 2062 2075 "src/leaderlist.ml" 48 2062 2079
+type(
+  S.elt
+)
+ident(
+  int_ref root "src/leaderlist.ml" 37 1730 1751 "src/leaderlist.ml" 37 1730 1755
+)
+"src/leaderlist.ml" 48 2062 2071 "src/leaderlist.ml" 48 2062 2079
+type(
+  bool
+)
+"src/leaderlist.ml" 48 2062 2085 "src/leaderlist.ml" 48 2062 2089
+type(
+  bool
+)
+"src/leaderlist.ml" 50 2140 2154 "src/leaderlist.ml" 50 2140 2160
+type(
+  G.t -> S.elt -> G.V.t list
+)
+ident(
+  int_ref G.pred "src/leaderlist.ml" 29 1630 1632 "src/leaderlist.ml" 29 1630 1663
+)
+"src/leaderlist.ml" 50 2140 2161 "src/leaderlist.ml" 50 2140 2162
+type(
+  G.t
+)
+ident(
+  int_ref g "src/leaderlist.ml" 37 1730 1749 "src/leaderlist.ml" 37 1730 1750
+)
+"src/leaderlist.ml" 50 2140 2163 "src/leaderlist.ml" 50 2140 2164
+type(
+  S.elt
+)
+ident(
+  int_ref n "src/leaderlist.ml" 47 2040 2058 "src/leaderlist.ml" 47 2040 2059
+)
+"src/leaderlist.ml" 50 2140 2154 "src/leaderlist.ml" 50 2140 2164
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 51 2170 2180 "src/leaderlist.ml" 51 2170 2182
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 52 2186 2196 "src/leaderlist.ml" 52 2186 2200
+type(
+  bool
+)
+"src/leaderlist.ml" 55 2302 2312 "src/leaderlist.ml" 55 2302 2313
+type(
+  G.V.t
+)
+ident(
+  def x "src/leaderlist.ml" 55 2302 2321 "src/leaderlist.ml" 62 2620 2633
+)
+"src/leaderlist.ml" 55 2302 2315 "src/leaderlist.ml" 55 2302 2317
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 55 2302 2312 "src/leaderlist.ml" 55 2302 2317
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 55 2302 2333 "src/leaderlist.ml" 55 2302 2339
+type(
+  G.t -> G.V.t -> G.V.t list
+)
+ident(
+  int_ref G.succ "src/leaderlist.ml" 28 1596 1598 "src/leaderlist.ml" 28 1596 1629
+)
+"src/leaderlist.ml" 55 2302 2340 "src/leaderlist.ml" 55 2302 2341
+type(
+  G.t
+)
+ident(
+  int_ref g "src/leaderlist.ml" 37 1730 1749 "src/leaderlist.ml" 37 1730 1750
+)
+"src/leaderlist.ml" 55 2302 2342 "src/leaderlist.ml" 55 2302 2343
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/leaderlist.ml" 55 2302 2312 "src/leaderlist.ml" 55 2302 2313
+)
+"src/leaderlist.ml" 55 2302 2333 "src/leaderlist.ml" 55 2302 2343
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 56 2349 2363 "src/leaderlist.ml" 56 2349 2365
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 57 2369 2390 "src/leaderlist.ml" 57 2369 2395
+type(
+  bool
+)
+"src/leaderlist.ml" 57 2369 2383 "src/leaderlist.ml" 57 2369 2395
+type(
+  bool
+)
+"src/leaderlist.ml" 58 2447 2461 "src/leaderlist.ml" 58 2447 2462
+type(
+  G.V.t
+)
+"src/leaderlist.ml" 58 2447 2464 "src/leaderlist.ml" 58 2447 2466
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 58 2447 2461 "src/leaderlist.ml" 58 2447 2466
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 59 2470 2484 "src/leaderlist.ml" 59 2470 2489
+type(
+  bool
+)
+"src/leaderlist.ml" 60 2540 2554 "src/leaderlist.ml" 60 2540 2555
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 61 2559 2573 "src/leaderlist.ml" 61 2559 2577
+type(
+  bool
+)
+"src/leaderlist.ml" 55 2302 2321 "src/leaderlist.ml" 62 2620 2633
+type(
+  bool
+)
+"src/leaderlist.ml" 63 2634 2644 "src/leaderlist.ml" 63 2634 2645
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 63 2634 2649 "src/leaderlist.ml" 63 2634 2653
+type(
+  bool
+)
+"src/leaderlist.ml" 50 2140 2148 "src/leaderlist.ml" 63 2634 2653
+type(
+  bool
+)
+"src/leaderlist.ml" 48 2062 2068 "src/leaderlist.ml" 63 2634 2653
+type(
+  bool
+)
+"src/leaderlist.ml" 65 2693 2702 "src/leaderlist.ml" 65 2693 2708
+type(
+  S.t
+)
+ident(
+  def leader "src/leaderlist.ml" 67 2787 2791 "src/leaderlist.ml" 84 3453 3482
+)
+"src/leaderlist.ml" 65 2693 2710 "src/leaderlist.ml" 65 2693 2719
+type(
+  S.t
+)
+ident(
+  def entourage "src/leaderlist.ml" 67 2787 2791 "src/leaderlist.ml" 84 3453 3482
+)
+"src/leaderlist.ml" 65 2693 2701 "src/leaderlist.ml" 65 2693 2720
+type(
+  S.t * S.t
+)
+"src/leaderlist.ml" 65 2693 2723 "src/leaderlist.ml" 65 2693 2741
+type(
+  (S.elt -> bool) -> G.t -> S.t * S.t
+)
+ident(
+  int_ref partition_vertices "src/leaderlist.ml" 39 1805 1813 "src/leaderlist.ml" 39 1805 1831
+)
+"src/leaderlist.ml" 65 2693 2742 "src/leaderlist.ml" 65 2693 2751
+type(
+  S.elt -> bool
+)
+ident(
+  int_ref is_leader "src/leaderlist.ml" 47 2040 2048 "src/leaderlist.ml" 47 2040 2057
+)
+"src/leaderlist.ml" 65 2693 2752 "src/leaderlist.ml" 65 2693 2753
+type(
+  G.t
+)
+ident(
+  int_ref g "src/leaderlist.ml" 37 1730 1749 "src/leaderlist.ml" 37 1730 1750
+)
+"src/leaderlist.ml" 65 2693 2723 "src/leaderlist.ml" 65 2693 2753
+call(
+  stack
+)
+type(
+  S.t * S.t
+)
+"src/leaderlist.ml" 67 2787 2795 "src/leaderlist.ml" 67 2787 2806
+type(
+  G.V.t -> G.V.t list
+)
+ident(
+  def basic_block "src/leaderlist.ml" 83 3372 3376 "src/leaderlist.ml" 84 3453 3482
+)
+"src/leaderlist.ml" 67 2787 2807 "src/leaderlist.ml" 67 2787 2808
+type(
+  G.V.t
+)
+ident(
+  def x "src/leaderlist.ml" 68 2811 2817 "src/leaderlist.ml" 81 3331 3364
+)
+"src/leaderlist.ml" 68 2811 2825 "src/leaderlist.ml" 68 2811 2836
+type(
+  G.V.t -> G.V.t list -> G.V.t list
+)
+ident(
+  def basic_block "src/leaderlist.ml" 68 2811 2817 "src/leaderlist.ml" 81 3331 3364
+)
+"src/leaderlist.ml" 68 2811 2837 "src/leaderlist.ml" 68 2811 2838
+type(
+  G.V.t
+)
+ident(
+  def x "src/leaderlist.ml" 68 2811 2839 "src/leaderlist.ml" 77 3211 3224
+)
+"src/leaderlist.ml" 68 2811 2839 "src/leaderlist.ml" 68 2811 2841
+type(
+  G.V.t list
+)
+ident(
+  def bb "src/leaderlist.ml" 69 2844 2852 "src/leaderlist.ml" 77 3211 3224
+)
+"src/leaderlist.ml" 69 2844 2858 "src/leaderlist.ml" 69 2844 2864
+type(
+  G.t -> G.V.t -> G.V.t list
+)
+ident(
+  int_ref G.succ "src/leaderlist.ml" 28 1596 1598 "src/leaderlist.ml" 28 1596 1629
+)
+"src/leaderlist.ml" 69 2844 2865 "src/leaderlist.ml" 69 2844 2866
+type(
+  G.t
+)
+ident(
+  int_ref g "src/leaderlist.ml" 37 1730 1749 "src/leaderlist.ml" 37 1730 1750
+)
+"src/leaderlist.ml" 69 2844 2867 "src/leaderlist.ml" 69 2844 2868
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/leaderlist.ml" 68 2811 2837 "src/leaderlist.ml" 68 2811 2838
+)
+"src/leaderlist.ml" 69 2844 2858 "src/leaderlist.ml" 69 2844 2868
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 70 2874 2884 "src/leaderlist.ml" 70 2874 2886
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 70 2874 2890 "src/leaderlist.ml" 70 2874 2891
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/leaderlist.ml" 68 2811 2837 "src/leaderlist.ml" 68 2811 2838
+)
+"src/leaderlist.ml" 70 2874 2893 "src/leaderlist.ml" 70 2874 2895
+type(
+  G.V.t list
+)
+ident(
+  int_ref bb "src/leaderlist.ml" 68 2811 2839 "src/leaderlist.ml" 68 2811 2841
+)
+"src/leaderlist.ml" 70 2874 2890 "src/leaderlist.ml" 70 2874 2895
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 71 2938 2948 "src/leaderlist.ml" 71 2938 2949
+type(
+  G.V.t
+)
+ident(
+  def y "src/leaderlist.ml" 71 2938 2956 "src/leaderlist.ml" 77 3211 3224
+)
+"src/leaderlist.ml" 71 2938 2951 "src/leaderlist.ml" 71 2938 2952
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 71 2938 2948 "src/leaderlist.ml" 71 2938 2952
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 71 2938 2968 "src/leaderlist.ml" 71 2938 2973
+type(
+  S.elt -> S.t -> bool
+)
+ident(
+  ext_ref S.mem
+)
+"src/leaderlist.ml" 71 2938 2974 "src/leaderlist.ml" 71 2938 2975
+type(
+  S.elt
+)
+ident(
+  int_ref y "src/leaderlist.ml" 71 2938 2948 "src/leaderlist.ml" 71 2938 2949
+)
+"src/leaderlist.ml" 71 2938 2976 "src/leaderlist.ml" 71 2938 2985
+type(
+  S.t
+)
+ident(
+  int_ref entourage "src/leaderlist.ml" 65 2693 2710 "src/leaderlist.ml" 65 2693 2719
+)
+"src/leaderlist.ml" 71 2938 2968 "src/leaderlist.ml" 71 2938 2985
+call(
+  stack
+)
+type(
+  bool
+)
+"src/leaderlist.ml" 72 2991 3005 "src/leaderlist.ml" 72 2991 3009
+type(
+  bool
+)
+"src/leaderlist.ml" 74 3080 3094 "src/leaderlist.ml" 74 3080 3105
+type(
+  G.V.t -> G.V.t list -> G.V.t list
+)
+ident(
+  int_ref basic_block "src/leaderlist.ml" 68 2811 2825 "src/leaderlist.ml" 68 2811 2836
+)
+"src/leaderlist.ml" 74 3080 3106 "src/leaderlist.ml" 74 3080 3107
+type(
+  G.V.t
+)
+ident(
+  int_ref y "src/leaderlist.ml" 71 2938 2948 "src/leaderlist.ml" 71 2938 2949
+)
+"src/leaderlist.ml" 74 3080 3109 "src/leaderlist.ml" 74 3080 3110
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/leaderlist.ml" 68 2811 2837 "src/leaderlist.ml" 68 2811 2838
+)
+"src/leaderlist.ml" 74 3080 3112 "src/leaderlist.ml" 74 3080 3114
+type(
+  G.V.t list
+)
+ident(
+  int_ref bb "src/leaderlist.ml" 68 2811 2839 "src/leaderlist.ml" 68 2811 2841
+)
+"src/leaderlist.ml" 74 3080 3108 "src/leaderlist.ml" 74 3080 3115
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 74 3080 3094 "src/leaderlist.ml" 74 3080 3115
+call(
+  tail
+)
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 75 3116 3130 "src/leaderlist.ml" 75 3116 3135
+type(
+  bool
+)
+"src/leaderlist.ml" 76 3139 3153 "src/leaderlist.ml" 76 3139 3154
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/leaderlist.ml" 68 2811 2837 "src/leaderlist.ml" 68 2811 2838
+)
+"src/leaderlist.ml" 76 3139 3158 "src/leaderlist.ml" 76 3139 3160
+type(
+  G.V.t list
+)
+ident(
+  int_ref bb "src/leaderlist.ml" 68 2811 2839 "src/leaderlist.ml" 68 2811 2841
+)
+"src/leaderlist.ml" 76 3139 3153 "src/leaderlist.ml" 76 3139 3160
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 71 2938 2956 "src/leaderlist.ml" 77 3211 3224
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 69 2844 2852 "src/leaderlist.ml" 77 3211 3224
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 81 3331 3337 "src/leaderlist.ml" 81 3331 3345
+type(
+  G.V.t list -> G.V.t list
+)
+ident(
+  ext_ref List.rev
+)
+"src/leaderlist.ml" 81 3331 3347 "src/leaderlist.ml" 81 3331 3358
+type(
+  G.V.t -> G.V.t list -> G.V.t list
+)
+ident(
+  int_ref basic_block "src/leaderlist.ml" 68 2811 2825 "src/leaderlist.ml" 68 2811 2836
+)
+"src/leaderlist.ml" 81 3331 3359 "src/leaderlist.ml" 81 3331 3360
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/leaderlist.ml" 67 2787 2807 "src/leaderlist.ml" 67 2787 2808
+)
+"src/leaderlist.ml" 81 3331 3361 "src/leaderlist.ml" 81 3331 3363
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 81 3331 3346 "src/leaderlist.ml" 81 3331 3364
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 81 3331 3337 "src/leaderlist.ml" 81 3331 3364
+call(
+  tail
+)
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 68 2811 2817 "src/leaderlist.ml" 81 3331 3364
+type(
+  G.V.t list
+)
+"src/leaderlist.ml" 83 3372 3380 "src/leaderlist.ml" 83 3372 3396
+type(
+  S.elt list list
+)
+ident(
+  def basic_block_list "src/leaderlist.ml" 84 3453 3457 "src/leaderlist.ml" 84 3453 3482
+)
+"src/leaderlist.ml" 83 3372 3399 "src/leaderlist.ml" 83 3372 3405
+type(
+  (S.elt -> S.elt list list -> S.elt list list) ->
+  S.t -> S.elt list list -> S.elt list list
+)
+ident(
+  ext_ref S.fold
+)
+"src/leaderlist.ml" 83 3372 3411 "src/leaderlist.ml" 83 3372 3412
+type(
+  S.elt
+)
+ident(
+  def x "src/leaderlist.ml" 83 3372 3413 "src/leaderlist.ml" 83 3372 3438
+)
+"src/leaderlist.ml" 83 3372 3413 "src/leaderlist.ml" 83 3372 3415
+type(
+  S.elt list list
+)
+ident(
+  def ss "src/leaderlist.ml" 83 3372 3419 "src/leaderlist.ml" 83 3372 3438
+)
+"src/leaderlist.ml" 83 3372 3420 "src/leaderlist.ml" 83 3372 3431
+type(
+  S.elt -> S.elt list
+)
+ident(
+  int_ref basic_block "src/leaderlist.ml" 67 2787 2795 "src/leaderlist.ml" 67 2787 2806
+)
+"src/leaderlist.ml" 83 3372 3432 "src/leaderlist.ml" 83 3372 3433
+type(
+  S.elt
+)
+ident(
+  int_ref x "src/leaderlist.ml" 83 3372 3411 "src/leaderlist.ml" 83 3372 3412
+)
+"src/leaderlist.ml" 83 3372 3419 "src/leaderlist.ml" 83 3372 3434
+call(
+  stack
+)
+type(
+  S.elt list
+)
+"src/leaderlist.ml" 83 3372 3436 "src/leaderlist.ml" 83 3372 3438
+type(
+  S.elt list list
+)
+ident(
+  int_ref ss "src/leaderlist.ml" 83 3372 3413 "src/leaderlist.ml" 83 3372 3415
+)
+"src/leaderlist.ml" 83 3372 3419 "src/leaderlist.ml" 83 3372 3438
+type(
+  S.elt list list
+)
+"src/leaderlist.ml" 83 3372 3406 "src/leaderlist.ml" 83 3372 3439
+type(
+  S.elt -> S.elt list list -> S.elt list list
+)
+"src/leaderlist.ml" 83 3372 3440 "src/leaderlist.ml" 83 3372 3446
+type(
+  S.t
+)
+ident(
+  int_ref leader "src/leaderlist.ml" 65 2693 2702 "src/leaderlist.ml" 65 2693 2708
+)
+"src/leaderlist.ml" 83 3372 3447 "src/leaderlist.ml" 83 3372 3449
+type(
+  S.elt list list
+)
+"src/leaderlist.ml" 83 3372 3399 "src/leaderlist.ml" 83 3372 3449
+call(
+  stack
+)
+type(
+  S.elt list list
+)
+"src/leaderlist.ml" 84 3453 3457 "src/leaderlist.ml" 84 3453 3465
+type(
+  S.elt list list -> S.elt list list
+)
+ident(
+  ext_ref List.rev
+)
+"src/leaderlist.ml" 84 3453 3466 "src/leaderlist.ml" 84 3453 3482
+type(
+  S.elt list list
+)
+ident(
+  int_ref basic_block_list "src/leaderlist.ml" 83 3372 3380 "src/leaderlist.ml" 83 3372 3396
+)
+"src/leaderlist.ml" 84 3453 3457 "src/leaderlist.ml" 84 3453 3482
+call(
+  tail
+)
+type(
+  S.elt list list
+)
+"src/leaderlist.ml" 83 3372 3376 "src/leaderlist.ml" 84 3453 3482
+type(
+  S.elt list list
+)
+"src/leaderlist.ml" 67 2787 2791 "src/leaderlist.ml" 84 3453 3482
+type(
+  S.elt list list
+)
+"src/leaderlist.ml" 65 2693 2697 "src/leaderlist.ml" 84 3453 3482
+type(
+  S.elt list list
+)
+"src/leaderlist.ml" 47 2040 2044 "src/leaderlist.ml" 84 3453 3482
+type(
+  S.elt list list
+)
+"src/leaderlist.ml" 39 1805 1809 "src/leaderlist.ml" 84 3453 3482
+type(
+  S.elt list list
+)

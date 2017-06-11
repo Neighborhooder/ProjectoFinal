@@ -1,0 +1,1820 @@
+"src/pack.ml" 26 1417 1423 "src/pack.ml" 26 1417 1434
+type(
+  t -> V.label -> V.t
+)
+ident(
+  def find_vertex "src/pack.ml" 33 1570 1572 "src/pack.ml" 196 5469 5472
+)
+"src/pack.ml" 26 1417 1435 "src/pack.ml" 26 1417 1436
+type(
+  t
+)
+ident(
+  def g "src/pack.ml" 26 1417 1437 "src/pack.ml" 31 1561 1568
+)
+"src/pack.ml" 26 1417 1437 "src/pack.ml" 26 1417 1438
+type(
+  V.label
+)
+ident(
+  def i "src/pack.ml" 27 1441 1445 "src/pack.ml" 31 1561 1568
+)
+"src/pack.ml" 28 1449 1455 "src/pack.ml" 28 1449 1466
+type(
+  (vertex -> unit) -> t -> unit
+)
+ident(
+  ext_ref iter_vertex
+)
+"src/pack.ml" 28 1449 1472 "src/pack.ml" 28 1449 1473
+type(
+  vertex
+)
+ident(
+  def v "src/pack.ml" 28 1449 1477 "src/pack.ml" 28 1449 1514
+)
+"src/pack.ml" 28 1449 1480 "src/pack.ml" 28 1449 1487
+type(
+  V.t -> V.label
+)
+ident(
+  ext_ref V.label
+)
+"src/pack.ml" 28 1449 1488 "src/pack.ml" 28 1449 1489
+type(
+  vertex
+)
+ident(
+  int_ref v "src/pack.ml" 28 1449 1472 "src/pack.ml" 28 1449 1473
+)
+"src/pack.ml" 28 1449 1480 "src/pack.ml" 28 1449 1489
+call(
+  stack
+)
+type(
+  V.label
+)
+"src/pack.ml" 28 1449 1490 "src/pack.ml" 28 1449 1491
+type(
+  V.label -> V.label -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/pack.ml" 28 1449 1492 "src/pack.ml" 28 1449 1493
+type(
+  V.label
+)
+ident(
+  int_ref i "src/pack.ml" 26 1417 1437 "src/pack.ml" 26 1417 1438
+)
+"src/pack.ml" 28 1449 1480 "src/pack.ml" 28 1449 1493
+type(
+  bool
+)
+"src/pack.ml" 28 1449 1499 "src/pack.ml" 28 1449 1504
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/pack.ml" 28 1449 1512 "src/pack.ml" 28 1449 1513
+type(
+  vertex
+)
+ident(
+  int_ref v "src/pack.ml" 28 1449 1472 "src/pack.ml" 28 1449 1473
+)
+"src/pack.ml" 28 1449 1505 "src/pack.ml" 28 1449 1514
+type(
+  exn
+)
+"src/pack.ml" 28 1449 1499 "src/pack.ml" 28 1449 1514
+type(
+  unit
+)
+"src/pack.ml" 28 1449 1477 "src/pack.ml" 28 1449 1514
+type(
+  unit
+)
+"src/pack.ml" 28 1449 1467 "src/pack.ml" 28 1449 1515
+type(
+  vertex -> unit
+)
+"src/pack.ml" 28 1449 1516 "src/pack.ml" 28 1449 1517
+type(
+  t
+)
+ident(
+  int_ref g "src/pack.ml" 26 1417 1435 "src/pack.ml" 26 1417 1436
+)
+"src/pack.ml" 28 1449 1455 "src/pack.ml" 28 1449 1517
+call(
+  stack
+)
+type(
+  unit
+)
+"src/pack.ml" 29 1519 1525 "src/pack.ml" 29 1519 1530
+type(
+  exn -> V.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/pack.ml" 29 1519 1531 "src/pack.ml" 29 1519 1540
+type(
+  exn
+)
+"src/pack.ml" 29 1519 1525 "src/pack.ml" 29 1519 1540
+type(
+  V.t
+)
+"src/pack.ml" 28 1449 1455 "src/pack.ml" 29 1519 1540
+type(
+  V.t
+)
+"src/pack.ml" 30 1541 1556 "src/pack.ml" 30 1541 1557
+type(
+  V.t
+)
+ident(
+  def v "src/pack.ml" 31 1561 1567 "src/pack.ml" 31 1561 1568
+)
+"src/pack.ml" 30 1541 1550 "src/pack.ml" 30 1541 1557
+type(
+  exn
+)
+"src/pack.ml" 31 1561 1567 "src/pack.ml" 31 1561 1568
+type(
+  V.t
+)
+ident(
+  int_ref v "src/pack.ml" 30 1541 1556 "src/pack.ml" 30 1541 1557
+)
+"src/pack.ml" 27 1441 1445 "src/pack.ml" 31 1561 1568
+type(
+  V.t
+)
+"src/pack.ml" 33 1570 1589 "src/pack.ml" 33 1570 1601
+call(
+  stack
+)
+"src/pack.ml" 35 1603 1618 "src/pack.ml" 35 1603 1633
+call(
+  stack
+)
+"src/pack.ml" 36 1634 1649 "src/pack.ml" 36 1634 1664
+call(
+  stack
+)
+"src/pack.ml" 37 1665 1684 "src/pack.ml" 37 1665 1700
+call(
+  stack
+)
+"src/pack.ml" 39 1702 1721 "src/pack.ml" 39 1702 1733
+call(
+  stack
+)
+"src/pack.ml" 41 1735 1751 "src/pack.ml" 41 1735 1760
+call(
+  stack
+)
+"src/pack.ml" 43 1762 1784 "src/pack.ml" 43 1762 1802
+call(
+  stack
+)
+"src/pack.ml" 48 1863 1871 "src/pack.ml" 48 1863 1877
+type(
+  G.E.t -> G.E.label
+)
+ident(
+  def weight "src/pack.ml" 49 1894 1898 "src/pack.ml" 53 2000 2005
+)
+"src/pack.ml" 48 1863 1878 "src/pack.ml" 48 1863 1879
+type(
+  G.E.t
+)
+ident(
+  def e "src/pack.ml" 48 1863 1882 "src/pack.ml" 48 1863 1893
+)
+"src/pack.ml" 48 1863 1882 "src/pack.ml" 48 1863 1891
+type(
+  G.E.t -> G.E.label
+)
+ident(
+  ext_ref G.E.label
+)
+"src/pack.ml" 48 1863 1892 "src/pack.ml" 48 1863 1893
+type(
+  G.E.t
+)
+ident(
+  int_ref e "src/pack.ml" 48 1863 1878 "src/pack.ml" 48 1863 1879
+)
+"src/pack.ml" 48 1863 1882 "src/pack.ml" 48 1863 1893
+call(
+  tail
+)
+type(
+  G.E.label
+)
+"src/pack.ml" 49 1894 1902 "src/pack.ml" 49 1894 1906
+type(
+  int
+)
+ident(
+  def zero "src/pack.ml" 50 1911 1915 "src/pack.ml" 53 2000 2005
+)
+"src/pack.ml" 49 1894 1909 "src/pack.ml" 49 1894 1910
+type(
+  int
+)
+"src/pack.ml" 50 1911 1919 "src/pack.ml" 50 1911 1922
+type(
+  int -> int -> int
+)
+ident(
+  def add "src/pack.ml" 51 1929 1933 "src/pack.ml" 53 2000 2005
+)
+"src/pack.ml" 50 1911 1925 "src/pack.ml" 50 1911 1928
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/pack.ml" 51 1929 1937 "src/pack.ml" 51 1929 1940
+type(
+  int -> int -> int
+)
+ident(
+  def sub "src/pack.ml" 52 1947 1951 "src/pack.ml" 53 2000 2005
+)
+"src/pack.ml" 51 1929 1943 "src/pack.ml" 51 1929 1946
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/pack.ml" 52 1947 1955 "src/pack.ml" 52 1947 1962
+type(
+  t -> t -> int
+)
+ident(
+  def compare "src/pack.ml" 52 1947 1999 "src/pack.ml" 53 2000 2005
+)
+"src/pack.ml" 52 1947 1981 "src/pack.ml" 52 1947 1999
+type(
+  t -> t -> int
+)
+type(
+  t -> t -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/pack.ml" 55 2007 2017 "src/pack.ml" 55 2007 2033
+call(
+  stack
+)
+"src/pack.ml" 55 2007 2017 "src/pack.ml" 55 2007 2036
+call(
+  stack
+)
+"src/pack.ml" 56 2037 2047 "src/pack.ml" 56 2037 2062
+call(
+  stack
+)
+"src/pack.ml" 56 2037 2047 "src/pack.ml" 56 2037 2065
+call(
+  stack
+)
+"src/pack.ml" 58 2067 2081 "src/pack.ml" 58 2067 2100
+call(
+  stack
+)
+"src/pack.ml" 58 2067 2081 "src/pack.ml" 58 2067 2103
+call(
+  stack
+)
+"src/pack.ml" 59 2104 2110 "src/pack.ml" 59 2104 2122
+type(
+  G.t -> G.V.t -> G.E.t list
+)
+ident(
+  def bellman_ford "src/pack.ml" 61 2154 2156 "src/pack.ml" 196 5469 5472
+)
+"src/pack.ml" 59 2104 2125 "src/pack.ml" 59 2104 2152
+type(
+  G.t -> G.V.t -> G.E.t list
+)
+ident(
+  ext_ref BF.find_negative_cycle_from
+)
+"src/pack.ml" 64 2212 2220 "src/pack.ml" 64 2212 2232
+type(
+  'a -> 'a
+)
+ident(
+  def max_capacity "src/pack.ml" 65 2239 2243 "src/pack.ml" 71 2391 2396
+)
+"src/pack.ml" 64 2212 2233 "src/pack.ml" 64 2212 2234
+type(
+  'a
+)
+ident(
+  def x "src/pack.ml" 64 2212 2237 "src/pack.ml" 64 2212 2238
+)
+"src/pack.ml" 64 2212 2237 "src/pack.ml" 64 2212 2238
+type(
+  'a
+)
+ident(
+  int_ref x "src/pack.ml" 64 2212 2233 "src/pack.ml" 64 2212 2234
+)
+"src/pack.ml" 65 2239 2247 "src/pack.ml" 65 2239 2259
+type(
+  'b -> int
+)
+ident(
+  def min_capacity "src/pack.ml" 66 2266 2270 "src/pack.ml" 71 2391 2396
+)
+"src/pack.ml" 65 2239 2260 "src/pack.ml" 65 2239 2261
+type(
+  'b
+)
+"src/pack.ml" 65 2239 2264 "src/pack.ml" 65 2239 2265
+type(
+  int
+)
+"src/pack.ml" 66 2266 2274 "src/pack.ml" 66 2266 2278
+type(
+  'c -> int
+)
+ident(
+  def flow "src/pack.ml" 67 2285 2289 "src/pack.ml" 71 2391 2396
+)
+"src/pack.ml" 66 2266 2279 "src/pack.ml" 66 2266 2280
+type(
+  'c
+)
+"src/pack.ml" 66 2266 2283 "src/pack.ml" 66 2266 2284
+type(
+  int
+)
+"src/pack.ml" 67 2285 2293 "src/pack.ml" 67 2285 2296
+type(
+  int -> int -> int
+)
+ident(
+  def add "src/pack.ml" 68 2303 2307 "src/pack.ml" 71 2391 2396
+)
+"src/pack.ml" 67 2285 2299 "src/pack.ml" 67 2285 2302
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/pack.ml" 68 2303 2311 "src/pack.ml" 68 2303 2314
+type(
+  int -> int -> int
+)
+ident(
+  def sub "src/pack.ml" 69 2321 2325 "src/pack.ml" 71 2391 2396
+)
+"src/pack.ml" 68 2303 2317 "src/pack.ml" 68 2303 2320
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/pack.ml" 69 2321 2329 "src/pack.ml" 69 2321 2336
+type(
+  t -> t -> int
+)
+ident(
+  def compare "src/pack.ml" 70 2374 2378 "src/pack.ml" 71 2391 2396
+)
+"src/pack.ml" 69 2321 2355 "src/pack.ml" 69 2321 2373
+type(
+  t -> t -> int
+)
+type(
+  t -> t -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/pack.ml" 70 2374 2382 "src/pack.ml" 70 2374 2386
+type(
+  int
+)
+ident(
+  def zero "src/pack.ml" 70 2374 2390 "src/pack.ml" 71 2391 2396
+)
+"src/pack.ml" 70 2374 2389 "src/pack.ml" 70 2374 2390
+type(
+  int
+)
+"src/pack.ml" 73 2398 2412 "src/pack.ml" 73 2398 2434
+call(
+  stack
+)
+"src/pack.ml" 73 2398 2412 "src/pack.ml" 73 2398 2437
+call(
+  stack
+)
+"src/pack.ml" 74 2438 2444 "src/pack.ml" 74 2438 2458
+type(
+  G.t -> G.V.t -> G.V.t -> (G.E.t -> F.t) * F.t
+)
+ident(
+  def ford_fulkerson "src/pack.ml" 79 2569 2571 "src/pack.ml" 196 5469 5472
+)
+"src/pack.ml" 74 2438 2459 "src/pack.ml" 74 2438 2460
+type(
+  G.t
+)
+ident(
+  def g "src/pack.ml" 75 2463 2467 "src/pack.ml" 77 2551 2567
+)
+"src/pack.ml" 75 2463 2470 "src/pack.ml" 75 2463 2473
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/pack.ml" 75 2463 2474 "src/pack.ml" 75 2463 2487
+type(
+  bool
+)
+ident(
+  ext_ref G.is_directed
+)
+"src/pack.ml" 75 2463 2470 "src/pack.ml" 75 2463 2487
+type(
+  bool
+)
+"src/pack.ml" 76 2493 2499 "src/pack.ml" 76 2493 2510
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/pack.ml" 76 2493 2511 "src/pack.ml" 76 2493 2549
+type(
+  string
+)
+"src/pack.ml" 76 2493 2499 "src/pack.ml" 76 2493 2549
+call(
+  stack
+)
+type(
+  unit
+)
+"src/pack.ml" 75 2463 2467 "src/pack.ml" 76 2493 2549
+type(
+  unit
+)
+"src/pack.ml" 77 2551 2555 "src/pack.ml" 77 2551 2565
+type(
+  G.t -> G.V.t -> G.V.t -> (G.E.t -> F.t) * F.t
+)
+ident(
+  ext_ref FF.maxflow
+)
+"src/pack.ml" 77 2551 2566 "src/pack.ml" 77 2551 2567
+type(
+  G.t
+)
+ident(
+  int_ref g "src/pack.ml" 74 2438 2459 "src/pack.ml" 74 2438 2460
+)
+"src/pack.ml" 77 2551 2555 "src/pack.ml" 77 2551 2567
+call(
+  tail
+)
+type(
+  G.V.t -> G.V.t -> (G.E.t -> F.t) * F.t
+)
+"src/pack.ml" 75 2463 2467 "src/pack.ml" 77 2551 2567
+type(
+  G.V.t -> G.V.t -> (G.E.t -> F.t) * F.t
+)
+"src/pack.ml" 79 2569 2589 "src/pack.ml" 79 2569 2612
+call(
+  stack
+)
+"src/pack.ml" 79 2569 2589 "src/pack.ml" 79 2569 2615
+call(
+  stack
+)
+"src/pack.ml" 80 2616 2622 "src/pack.ml" 80 2616 2637
+type(
+  G.t -> G.V.t -> G.V.t -> (G.E.t -> F.t) * F.t
+)
+ident(
+  def goldberg_tarjan "src/pack.ml" 84 2742 2744 "src/pack.ml" 196 5469 5472
+)
+"src/pack.ml" 80 2616 2638 "src/pack.ml" 80 2616 2639
+type(
+  G.t
+)
+ident(
+  def g "src/pack.ml" 81 2642 2646 "src/pack.ml" 82 2718 2740
+)
+"src/pack.ml" 81 2642 2649 "src/pack.ml" 81 2642 2652
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/pack.ml" 81 2642 2653 "src/pack.ml" 81 2642 2666
+type(
+  bool
+)
+ident(
+  ext_ref G.is_directed
+)
+"src/pack.ml" 81 2642 2649 "src/pack.ml" 81 2642 2666
+type(
+  bool
+)
+"src/pack.ml" 81 2642 2672 "src/pack.ml" 81 2642 2683
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/pack.ml" 81 2642 2684 "src/pack.ml" 81 2642 2716
+type(
+  string
+)
+"src/pack.ml" 81 2642 2672 "src/pack.ml" 81 2642 2716
+call(
+  stack
+)
+type(
+  unit
+)
+"src/pack.ml" 81 2642 2646 "src/pack.ml" 81 2642 2716
+type(
+  unit
+)
+"src/pack.ml" 82 2718 2722 "src/pack.ml" 82 2718 2738
+type(
+  G.t -> G.V.t -> G.V.t -> (G.E.t -> F.t) * F.t
+)
+ident(
+  ext_ref Goldberg.maxflow
+)
+"src/pack.ml" 82 2718 2739 "src/pack.ml" 82 2718 2740
+type(
+  G.t
+)
+ident(
+  int_ref g "src/pack.ml" 80 2616 2638 "src/pack.ml" 80 2616 2639
+)
+"src/pack.ml" 82 2718 2722 "src/pack.ml" 82 2718 2740
+call(
+  tail
+)
+type(
+  G.V.t -> G.V.t -> (G.E.t -> F.t) * F.t
+)
+"src/pack.ml" 81 2642 2646 "src/pack.ml" 82 2718 2740
+type(
+  G.V.t -> G.V.t -> (G.E.t -> F.t) * F.t
+)
+"src/pack.ml" 84 2742 2752 "src/pack.ml" 84 2742 2770
+call(
+  stack
+)
+"src/pack.ml" 86 2772 2793 "src/pack.ml" 86 2772 2806
+call(
+  stack
+)
+"src/pack.ml" 89 2838 2850 "src/pack.ml" 89 2838 2869
+call(
+  stack
+)
+"src/pack.ml" 90 2870 2885 "src/pack.ml" 90 2870 2911
+call(
+  stack
+)
+"src/pack.ml" 91 2912 2920 "src/pack.ml" 91 2912 2931
+type(
+  (G.V.t -> 'd -> 'd) -> G.t -> 'd -> 'd
+)
+ident(
+  def fold_stable "src/pack.ml" 92 2941 2945 "src/pack.ml" 93 2970 2975
+)
+"src/pack.ml" 91 2912 2934 "src/pack.ml" 91 2912 2940
+type(
+  (G.V.t -> 'd -> 'd) -> G.t -> 'd -> 'd
+)
+ident(
+  ext_ref S.fold
+)
+"src/pack.ml" 92 2941 2949 "src/pack.ml" 92 2941 2960
+type(
+  (G.V.t -> unit) -> G.t -> unit
+)
+ident(
+  def iter_stable "src/pack.ml" 92 2941 2969 "src/pack.ml" 93 2970 2975
+)
+"src/pack.ml" 92 2941 2963 "src/pack.ml" 92 2941 2969
+type(
+  (G.V.t -> unit) -> G.t -> unit
+)
+ident(
+  ext_ref S.iter
+)
+"src/pack.ml" 97 3016 3024 "src/pack.ml" 97 3016 3031
+type(
+  t -> t -> int
+)
+ident(
+  def compare "src/pack.ml" 97 3016 3068 "src/pack.ml" 98 3069 3074
+)
+"src/pack.ml" 97 3016 3050 "src/pack.ml" 97 3016 3068
+type(
+  t -> t -> int
+)
+type(
+  t -> t -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/pack.ml" 100 3076 3086 "src/pack.ml" 100 3076 3101
+call(
+  stack
+)
+"src/pack.ml" 100 3076 3086 "src/pack.ml" 100 3076 3106
+call(
+  stack
+)
+"src/pack.ml" 104 3148 3156 "src/pack.ml" 104 3148 3167
+type(
+  V.t -> string
+)
+ident(
+  def vertex_name "src/pack.ml" 105 3198 3202 "src/pack.ml" 111 3441 3446
+)
+"src/pack.ml" 104 3148 3168 "src/pack.ml" 104 3148 3169
+type(
+  V.t
+)
+ident(
+  def v "src/pack.ml" 104 3148 3172 "src/pack.ml" 104 3148 3197
+)
+"src/pack.ml" 104 3148 3172 "src/pack.ml" 104 3148 3185
+type(
+  V.label -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/pack.ml" 104 3148 3187 "src/pack.ml" 104 3148 3194
+type(
+  V.t -> V.label
+)
+ident(
+  ext_ref V.label
+)
+"src/pack.ml" 104 3148 3195 "src/pack.ml" 104 3148 3196
+type(
+  V.t
+)
+ident(
+  int_ref v "src/pack.ml" 104 3148 3168 "src/pack.ml" 104 3148 3169
+)
+"src/pack.ml" 104 3148 3186 "src/pack.ml" 104 3148 3197
+call(
+  stack
+)
+type(
+  V.label
+)
+"src/pack.ml" 104 3148 3172 "src/pack.ml" 104 3148 3197
+call(
+  tail
+)
+type(
+  string
+)
+"src/pack.ml" 105 3198 3206 "src/pack.ml" 105 3198 3222
+type(
+  'e -> 'f list
+)
+ident(
+  def graph_attributes "src/pack.ml" 106 3230 3234 "src/pack.ml" 111 3441 3446
+)
+"src/pack.ml" 105 3198 3223 "src/pack.ml" 105 3198 3224
+type(
+  'e
+)
+"src/pack.ml" 105 3198 3227 "src/pack.ml" 105 3198 3229
+type(
+  'f list
+)
+"src/pack.ml" 106 3230 3238 "src/pack.ml" 106 3230 3263
+type(
+  'g -> 'h list
+)
+ident(
+  def default_vertex_attributes "src/pack.ml" 107 3271 3275 "src/pack.ml" 111 3441 3446
+)
+"src/pack.ml" 106 3230 3264 "src/pack.ml" 106 3230 3265
+type(
+  'g
+)
+"src/pack.ml" 106 3230 3268 "src/pack.ml" 106 3230 3270
+type(
+  'h list
+)
+"src/pack.ml" 107 3271 3279 "src/pack.ml" 107 3271 3296
+type(
+  'i -> 'j list
+)
+ident(
+  def vertex_attributes "src/pack.ml" 108 3304 3308 "src/pack.ml" 111 3441 3446
+)
+"src/pack.ml" 107 3271 3297 "src/pack.ml" 107 3271 3298
+type(
+  'i
+)
+"src/pack.ml" 107 3271 3301 "src/pack.ml" 107 3271 3303
+type(
+  'j list
+)
+"src/pack.ml" 108 3304 3312 "src/pack.ml" 108 3304 3335
+type(
+  'k -> 'l list
+)
+ident(
+  def default_edge_attributes "src/pack.ml" 109 3343 3347 "src/pack.ml" 111 3441 3446
+)
+"src/pack.ml" 108 3304 3336 "src/pack.ml" 108 3304 3337
+type(
+  'k
+)
+"src/pack.ml" 108 3304 3340 "src/pack.ml" 108 3304 3342
+type(
+  'l list
+)
+"src/pack.ml" 109 3343 3351 "src/pack.ml" 109 3343 3366
+type(
+  E.t -> [> `Label of string ] list
+)
+ident(
+  def edge_attributes "src/pack.ml" 110 3411 3415 "src/pack.ml" 111 3441 3446
+)
+"src/pack.ml" 109 3343 3367 "src/pack.ml" 109 3343 3368
+type(
+  E.t
+)
+ident(
+  def e "src/pack.ml" 109 3343 3371 "src/pack.ml" 109 3343 3410
+)
+"src/pack.ml" 109 3343 3381 "src/pack.ml" 109 3343 3394
+type(
+  E.label -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/pack.ml" 109 3343 3396 "src/pack.ml" 109 3343 3403
+type(
+  E.t -> E.label
+)
+ident(
+  ext_ref E.label
+)
+"src/pack.ml" 109 3343 3404 "src/pack.ml" 109 3343 3405
+type(
+  E.t
+)
+ident(
+  int_ref e "src/pack.ml" 109 3343 3367 "src/pack.ml" 109 3343 3368
+)
+"src/pack.ml" 109 3343 3395 "src/pack.ml" 109 3343 3406
+call(
+  stack
+)
+type(
+  E.label
+)
+"src/pack.ml" 109 3343 3380 "src/pack.ml" 109 3343 3408
+call(
+  stack
+)
+type(
+  string
+)
+"src/pack.ml" 109 3343 3373 "src/pack.ml" 109 3343 3408
+type(
+  [> `Label of string ] as 'm
+)
+"src/pack.ml" 109 3343 3371 "src/pack.ml" 109 3343 3410
+type(
+  'm list
+)
+"src/pack.ml" 110 3411 3419 "src/pack.ml" 110 3411 3431
+type(
+  'n -> 'o option
+)
+ident(
+  def get_subgraph "src/pack.ml" 110 3411 3440 "src/pack.ml" 111 3441 3446
+)
+"src/pack.ml" 110 3411 3432 "src/pack.ml" 110 3411 3433
+type(
+  'n
+)
+"src/pack.ml" 110 3411 3436 "src/pack.ml" 110 3411 3440
+type(
+  'o option
+)
+"src/pack.ml" 112 3447 3463 "src/pack.ml" 112 3447 3484
+call(
+  stack
+)
+"src/pack.ml" 113 3485 3502 "src/pack.ml" 113 3485 3525
+call(
+  stack
+)
+"src/pack.ml" 115 3527 3533 "src/pack.ml" 115 3527 3543
+type(
+  Display.t -> string -> unit
+)
+ident(
+  def dot_output "src/pack.ml" 120 3672 3674 "src/pack.ml" 196 5469 5472
+)
+"src/pack.ml" 115 3527 3544 "src/pack.ml" 115 3527 3545
+type(
+  Display.t
+)
+ident(
+  def g "src/pack.ml" 115 3527 3546 "src/pack.ml" 118 3654 3670
+)
+"src/pack.ml" 115 3527 3546 "src/pack.ml" 115 3527 3547
+type(
+  string
+)
+ident(
+  def f "src/pack.ml" 116 3550 3554 "src/pack.ml" 118 3654 3670
+)
+"src/pack.ml" 116 3550 3558 "src/pack.ml" 116 3550 3560
+type(
+  out_channel
+)
+ident(
+  def oc "src/pack.ml" 117 3577 3581 "src/pack.ml" 118 3654 3670
+)
+"src/pack.ml" 116 3550 3563 "src/pack.ml" 116 3550 3571
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"src/pack.ml" 116 3550 3572 "src/pack.ml" 116 3550 3573
+type(
+  string
+)
+ident(
+  int_ref f "src/pack.ml" 115 3527 3546 "src/pack.ml" 115 3527 3547
+)
+"src/pack.ml" 116 3550 3563 "src/pack.ml" 116 3550 3573
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/pack.ml" 117 3577 3584 "src/pack.ml" 117 3577 3595
+type(
+  bool
+)
+ident(
+  ext_ref is_directed
+)
+"src/pack.ml" 117 3577 3601 "src/pack.ml" 117 3577 3618
+type(
+  out_channel -> Display.t -> unit
+)
+ident(
+  ext_ref Dot_.output_graph
+)
+"src/pack.ml" 117 3577 3619 "src/pack.ml" 117 3577 3621
+type(
+  out_channel
+)
+ident(
+  int_ref oc "src/pack.ml" 116 3550 3558 "src/pack.ml" 116 3550 3560
+)
+"src/pack.ml" 117 3577 3622 "src/pack.ml" 117 3577 3623
+type(
+  Display.t
+)
+ident(
+  int_ref g "src/pack.ml" 115 3527 3544 "src/pack.ml" 115 3527 3545
+)
+"src/pack.ml" 117 3577 3601 "src/pack.ml" 117 3577 3623
+call(
+  stack
+)
+type(
+  unit
+)
+"src/pack.ml" 117 3577 3629 "src/pack.ml" 117 3577 3647
+type(
+  out_channel -> Display.t -> unit
+)
+ident(
+  ext_ref Neato.output_graph
+)
+"src/pack.ml" 117 3577 3648 "src/pack.ml" 117 3577 3650
+type(
+  out_channel
+)
+ident(
+  int_ref oc "src/pack.ml" 116 3550 3558 "src/pack.ml" 116 3550 3560
+)
+"src/pack.ml" 117 3577 3651 "src/pack.ml" 117 3577 3652
+type(
+  Display.t
+)
+ident(
+  int_ref g "src/pack.ml" 115 3527 3544 "src/pack.ml" 115 3527 3545
+)
+"src/pack.ml" 117 3577 3629 "src/pack.ml" 117 3577 3652
+call(
+  stack
+)
+type(
+  unit
+)
+"src/pack.ml" 117 3577 3581 "src/pack.ml" 117 3577 3652
+type(
+  unit
+)
+"src/pack.ml" 118 3654 3658 "src/pack.ml" 118 3654 3667
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"src/pack.ml" 118 3654 3668 "src/pack.ml" 118 3654 3670
+type(
+  out_channel
+)
+ident(
+  int_ref oc "src/pack.ml" 116 3550 3558 "src/pack.ml" 116 3550 3560
+)
+"src/pack.ml" 118 3654 3658 "src/pack.ml" 118 3654 3670
+call(
+  tail
+)
+type(
+  unit
+)
+"src/pack.ml" 117 3577 3581 "src/pack.ml" 118 3654 3670
+type(
+  unit
+)
+"src/pack.ml" 116 3550 3554 "src/pack.ml" 118 3654 3670
+type(
+  unit
+)
+"src/pack.ml" 120 3672 3678 "src/pack.ml" 120 3672 3693
+type(
+  Display.t -> unit
+)
+ident(
+  def display_with_gv "src/pack.ml" 126 3849 3851 "src/pack.ml" 196 5469 5472
+)
+"src/pack.ml" 120 3672 3694 "src/pack.ml" 120 3672 3695
+type(
+  Display.t
+)
+ident(
+  def g "src/pack.ml" 121 3698 3702 "src/pack.ml" 124 3829 3847
+)
+"src/pack.ml" 121 3698 3706 "src/pack.ml" 121 3698 3709
+type(
+  string
+)
+ident(
+  def tmp "src/pack.ml" 122 3749 3753 "src/pack.ml" 124 3829 3847
+)
+"src/pack.ml" 121 3698 3712 "src/pack.ml" 121 3698 3730
+type(
+  ?temp_dir:string -> string -> string -> string
+)
+ident(
+  ext_ref Filename.temp_file
+)
+"src/pack.ml" 121 3698 3731 "src/pack.ml" 121 3698 3738
+type(
+  string
+)
+"src/pack.ml" 121 3698 3739 "src/pack.ml" 121 3698 3745
+type(
+  string
+)
+"src/pack.ml" 121 3698 3712 "src/pack.ml" 121 3698 3745
+call(
+  stack
+)
+type(
+  string
+)
+"src/pack.ml" 122 3749 3753 "src/pack.ml" 122 3749 3763
+type(
+  Display.t -> string -> unit
+)
+ident(
+  int_ref dot_output "src/pack.ml" 115 3527 3533 "src/pack.ml" 115 3527 3543
+)
+"src/pack.ml" 122 3749 3764 "src/pack.ml" 122 3749 3765
+type(
+  Display.t
+)
+ident(
+  int_ref g "src/pack.ml" 120 3672 3694 "src/pack.ml" 120 3672 3695
+)
+"src/pack.ml" 122 3749 3766 "src/pack.ml" 122 3749 3769
+type(
+  string
+)
+ident(
+  int_ref tmp "src/pack.ml" 121 3698 3706 "src/pack.ml" 121 3698 3709
+)
+"src/pack.ml" 122 3749 3753 "src/pack.ml" 122 3749 3769
+call(
+  stack
+)
+type(
+  unit
+)
+"src/pack.ml" 123 3771 3775 "src/pack.ml" 123 3771 3781
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/pack.ml" 123 3771 3783 "src/pack.ml" 123 3771 3794
+type(
+  string -> int
+)
+ident(
+  ext_ref Sys.command
+)
+"src/pack.ml" 123 3771 3796 "src/pack.ml" 123 3771 3807
+type(
+  string
+)
+"src/pack.ml" 123 3771 3808 "src/pack.ml" 123 3771 3809
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/pack.ml" 123 3771 3810 "src/pack.ml" 123 3771 3813
+type(
+  string
+)
+ident(
+  int_ref tmp "src/pack.ml" 121 3698 3706 "src/pack.ml" 121 3698 3709
+)
+"src/pack.ml" 123 3771 3814 "src/pack.ml" 123 3771 3815
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/pack.ml" 123 3771 3816 "src/pack.ml" 123 3771 3825
+type(
+  string
+)
+"src/pack.ml" 123 3771 3810 "src/pack.ml" 123 3771 3825
+call(
+  stack
+)
+type(
+  string
+)
+"src/pack.ml" 123 3771 3795 "src/pack.ml" 123 3771 3826
+call(
+  stack
+)
+type(
+  string
+)
+"src/pack.ml" 123 3771 3782 "src/pack.ml" 123 3771 3827
+type(
+  int
+)
+"src/pack.ml" 123 3771 3775 "src/pack.ml" 123 3771 3827
+type(
+  unit
+)
+"src/pack.ml" 124 3829 3833 "src/pack.ml" 124 3829 3843
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"src/pack.ml" 124 3829 3844 "src/pack.ml" 124 3829 3847
+type(
+  string
+)
+ident(
+  int_ref tmp "src/pack.ml" 121 3698 3706 "src/pack.ml" 121 3698 3709
+)
+"src/pack.ml" 124 3829 3833 "src/pack.ml" 124 3829 3847
+type(
+  unit
+)
+"src/pack.ml" 123 3771 3775 "src/pack.ml" 124 3829 3847
+type(
+  unit
+)
+"src/pack.ml" 122 3749 3753 "src/pack.ml" 124 3829 3847
+type(
+  unit
+)
+"src/pack.ml" 121 3698 3702 "src/pack.ml" 124 3829 3847
+type(
+  unit
+)
+"src/pack.ml" 127 3870 3874 "src/pack.ml" 128 3884 3899
+call(
+  stack
+)
+"src/pack.ml" 130 3914 3926 "src/pack.ml" 130 3914 3930
+type(
+  (string * Gml.value) list -> int
+)
+ident(
+  def node "src/pack.ml" 133 4034 4042 "src/pack.ml" 135 4067 4076
+)
+"src/pack.ml" 130 3914 3931 "src/pack.ml" 130 3914 3932
+type(
+  (string * Gml.value) list
+)
+ident(
+  def l "src/pack.ml" 131 3935 3945 "src/pack.ml" 132 4003 4033
+)
+"src/pack.ml" 131 3935 3955 "src/pack.ml" 131 3935 3965
+type(
+  string -> (string * Gml.value) list -> Gml.value
+)
+ident(
+  ext_ref List.assoc
+)
+"src/pack.ml" 131 3935 3966 "src/pack.ml" 131 3935 3970
+type(
+  string
+)
+"src/pack.ml" 131 3935 3971 "src/pack.ml" 131 3935 3972
+type(
+  (string * Gml.value) list
+)
+ident(
+  int_ref l "src/pack.ml" 130 3914 3931 "src/pack.ml" 130 3914 3932
+)
+"src/pack.ml" 131 3935 3955 "src/pack.ml" 131 3935 3972
+call(
+  stack
+)
+type(
+  Gml.value
+)
+"src/pack.ml" 131 3935 3986 "src/pack.ml" 131 3935 3987
+type(
+  int
+)
+ident(
+  def n "src/pack.ml" 131 3935 3991 "src/pack.ml" 131 3935 3992
+)
+"src/pack.ml" 131 3935 3978 "src/pack.ml" 131 3935 3987
+type(
+  Gml.value
+)
+"src/pack.ml" 131 3935 3991 "src/pack.ml" 131 3935 3992
+type(
+  int
+)
+ident(
+  int_ref n "src/pack.ml" 131 3935 3986 "src/pack.ml" 131 3935 3987
+)
+"src/pack.ml" 131 3935 3995 "src/pack.ml" 131 3935 3996
+type(
+  Gml.value
+)
+"src/pack.ml" 131 3935 4000 "src/pack.ml" 131 3935 4002
+type(
+  int
+)
+"src/pack.ml" 131 3935 3949 "src/pack.ml" 131 3935 4002
+type(
+  int
+)
+"src/pack.ml" 132 4003 4018 "src/pack.ml" 132 4003 4027
+type(
+  exn
+)
+"src/pack.ml" 132 4003 4031 "src/pack.ml" 132 4003 4033
+type(
+  int
+)
+"src/pack.ml" 131 3935 3945 "src/pack.ml" 132 4003 4033
+type(
+  int
+)
+"src/pack.ml" 133 4034 4046 "src/pack.ml" 133 4034 4050
+type(
+  'p -> int
+)
+ident(
+  def edge "src/pack.ml" 134 4055 4066 "src/pack.ml" 135 4067 4076
+)
+"src/pack.ml" 133 4034 4051 "src/pack.ml" 133 4034 4052
+type(
+  'p
+)
+"src/pack.ml" 134 4055 4065 "src/pack.ml" 134 4055 4066
+type(
+  int
+)
+"src/pack.ml" 127 3870 3874 "src/pack.ml" 135 4067 4077
+call(
+  stack
+)
+"src/pack.ml" 137 4079 4085 "src/pack.ml" 137 4079 4099
+type(
+  string -> Builder.G.t
+)
+ident(
+  def parse_gml_file "src/pack.ml" 139 4119 4121 "src/pack.ml" 196 5469 5472
+)
+"src/pack.ml" 137 4079 4102 "src/pack.ml" 137 4079 4117
+type(
+  string -> Builder.G.t
+)
+ident(
+  ext_ref GmlParser.parse
+)
+"src/pack.ml" 140 4140 4144 "src/pack.ml" 141 4154 4169
+call(
+  stack
+)
+"src/pack.ml" 143 4184 4196 "src/pack.ml" 143 4184 4201
+type(
+  (Dot_ast.id, int) Hashtbl.t
+)
+ident(
+  def nodes "src/pack.ml" 144 4222 4230 "src/pack.ml" 154 4481 4490
+)
+"src/pack.ml" 143 4184 4204 "src/pack.ml" 143 4184 4218
+type(
+  ?random:bool -> int -> (Dot_ast.id, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"src/pack.ml" 143 4184 4219 "src/pack.ml" 143 4184 4221
+type(
+  int
+)
+"src/pack.ml" 143 4184 4204 "src/pack.ml" 143 4184 4221
+call(
+  stack
+)
+type(
+  (Dot_ast.id, int) Hashtbl.t
+)
+"src/pack.ml" 144 4222 4234 "src/pack.ml" 144 4222 4242
+type(
+  int ref
+)
+ident(
+  def new_node "src/pack.ml" 145 4251 4259 "src/pack.ml" 154 4481 4490
+)
+"src/pack.ml" 144 4222 4245 "src/pack.ml" 144 4222 4248
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/pack.ml" 144 4222 4249 "src/pack.ml" 144 4222 4250
+type(
+  int
+)
+"src/pack.ml" 144 4222 4245 "src/pack.ml" 144 4222 4250
+type(
+  int ref
+)
+"src/pack.ml" 145 4251 4263 "src/pack.ml" 145 4251 4267
+type(
+  Dot_ast.id * 'q -> 'r -> int
+)
+ident(
+  def node "src/pack.ml" 152 4448 4456 "src/pack.ml" 154 4481 4490
+)
+"src/pack.ml" 145 4251 4269 "src/pack.ml" 145 4251 4271
+type(
+  Dot_ast.id
+)
+ident(
+  def id "src/pack.ml" 145 4251 4275 "src/pack.ml" 151 4426 4447
+)
+"src/pack.ml" 145 4251 4272 "src/pack.ml" 145 4251 4273
+type(
+  'q
+)
+"src/pack.ml" 145 4251 4268 "src/pack.ml" 145 4251 4274
+type(
+  Dot_ast.id * 'q
+)
+"src/pack.ml" 145 4251 4275 "src/pack.ml" 145 4251 4276
+type(
+  'r
+)
+"src/pack.ml" 147 4293 4305 "src/pack.ml" 147 4293 4317
+type(
+  (Dot_ast.id, int) Hashtbl.t -> Dot_ast.id -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/pack.ml" 147 4293 4318 "src/pack.ml" 147 4293 4323
+type(
+  (Dot_ast.id, int) Hashtbl.t
+)
+ident(
+  int_ref nodes "src/pack.ml" 143 4184 4196 "src/pack.ml" 143 4184 4201
+)
+"src/pack.ml" 147 4293 4324 "src/pack.ml" 147 4293 4326
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref id "src/pack.ml" 145 4251 4269 "src/pack.ml" 145 4251 4271
+)
+"src/pack.ml" 147 4293 4305 "src/pack.ml" 147 4293 4326
+call(
+  stack
+)
+type(
+  int
+)
+"src/pack.ml" 148 4327 4342 "src/pack.ml" 148 4327 4351
+type(
+  exn
+)
+"src/pack.ml" 149 4355 4367 "src/pack.ml" 149 4355 4371
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/pack.ml" 149 4355 4372 "src/pack.ml" 149 4355 4380
+type(
+  int ref
+)
+ident(
+  int_ref new_node "src/pack.ml" 144 4222 4234 "src/pack.ml" 144 4222 4242
+)
+"src/pack.ml" 149 4355 4367 "src/pack.ml" 149 4355 4380
+type(
+  unit
+)
+"src/pack.ml" 150 4382 4394 "src/pack.ml" 150 4382 4405
+type(
+  (Dot_ast.id, int) Hashtbl.t -> Dot_ast.id -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"src/pack.ml" 150 4382 4406 "src/pack.ml" 150 4382 4411
+type(
+  (Dot_ast.id, int) Hashtbl.t
+)
+ident(
+  int_ref nodes "src/pack.ml" 143 4184 4196 "src/pack.ml" 143 4184 4201
+)
+"src/pack.ml" 150 4382 4412 "src/pack.ml" 150 4382 4414
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref id "src/pack.ml" 145 4251 4269 "src/pack.ml" 145 4251 4271
+)
+"src/pack.ml" 150 4382 4415 "src/pack.ml" 150 4382 4416
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/pack.ml" 150 4382 4416 "src/pack.ml" 150 4382 4424
+type(
+  int ref
+)
+ident(
+  int_ref new_node "src/pack.ml" 144 4222 4234 "src/pack.ml" 144 4222 4242
+)
+"src/pack.ml" 150 4382 4415 "src/pack.ml" 150 4382 4424
+type(
+  int
+)
+"src/pack.ml" 150 4382 4394 "src/pack.ml" 150 4382 4424
+call(
+  stack
+)
+type(
+  unit
+)
+"src/pack.ml" 151 4426 4438 "src/pack.ml" 151 4426 4439
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/pack.ml" 151 4426 4439 "src/pack.ml" 151 4426 4447
+type(
+  int ref
+)
+ident(
+  int_ref new_node "src/pack.ml" 144 4222 4234 "src/pack.ml" 144 4222 4242
+)
+"src/pack.ml" 151 4426 4438 "src/pack.ml" 151 4426 4447
+type(
+  int
+)
+"src/pack.ml" 150 4382 4394 "src/pack.ml" 151 4426 4447
+type(
+  int
+)
+"src/pack.ml" 149 4355 4367 "src/pack.ml" 151 4426 4447
+type(
+  int
+)
+"src/pack.ml" 146 4279 4289 "src/pack.ml" 151 4426 4447
+type(
+  int
+)
+"src/pack.ml" 152 4448 4460 "src/pack.ml" 152 4448 4464
+type(
+  's -> int
+)
+ident(
+  def edge "src/pack.ml" 153 4469 4480 "src/pack.ml" 154 4481 4490
+)
+"src/pack.ml" 152 4448 4465 "src/pack.ml" 152 4448 4466
+type(
+  's
+)
+"src/pack.ml" 153 4469 4479 "src/pack.ml" 153 4469 4480
+type(
+  int
+)
+"src/pack.ml" 140 4140 4144 "src/pack.ml" 154 4481 4491
+call(
+  stack
+)
+"src/pack.ml" 156 4493 4499 "src/pack.ml" 156 4493 4513
+type(
+  string -> Builder.G.t
+)
+ident(
+  def parse_dot_file "src/pack.ml" 158 4533 4535 "src/pack.ml" 196 5469 5472
+)
+"src/pack.ml" 156 4493 4516 "src/pack.ml" 156 4493 4531
+type(
+  string -> Builder.G.t
+)
+ident(
+  ext_ref DotParser.parse
+)
+"src/pack.ml" 161 4570 4574 "src/pack.ml" 162 4584 4593
+call(
+  stack
+)
+"src/pack.ml" 164 4608 4620 "src/pack.ml" 164 4608 4624
+type(
+  int -> (string * Gml.value) list
+)
+ident(
+  def node "src/pack.ml" 165 4650 4658 "src/pack.ml" 166 4692 4701
+)
+"src/pack.ml" 164 4608 4625 "src/pack.ml" 164 4608 4626
+type(
+  int
+)
+ident(
+  def n "src/pack.ml" 164 4608 4629 "src/pack.ml" 164 4608 4649
+)
+"src/pack.ml" 164 4608 4630 "src/pack.ml" 164 4608 4637
+type(
+  string
+)
+"src/pack.ml" 164 4608 4647 "src/pack.ml" 164 4608 4648
+type(
+  int
+)
+ident(
+  int_ref n "src/pack.ml" 164 4608 4625 "src/pack.ml" 164 4608 4626
+)
+"src/pack.ml" 164 4608 4639 "src/pack.ml" 164 4608 4648
+type(
+  Gml.value
+)
+"src/pack.ml" 164 4608 4630 "src/pack.ml" 164 4608 4648
+type(
+  string * Gml.value
+)
+"src/pack.ml" 164 4608 4629 "src/pack.ml" 164 4608 4649
+type(
+  (string * Gml.value) list
+)
+"src/pack.ml" 165 4650 4662 "src/pack.ml" 165 4650 4666
+type(
+  int -> (string * Gml.value) list
+)
+ident(
+  def edge "src/pack.ml" 165 4650 4691 "src/pack.ml" 166 4692 4701
+)
+"src/pack.ml" 165 4650 4667 "src/pack.ml" 165 4650 4668
+type(
+  int
+)
+ident(
+  def n "src/pack.ml" 165 4650 4671 "src/pack.ml" 165 4650 4691
+)
+"src/pack.ml" 165 4650 4672 "src/pack.ml" 165 4650 4679
+type(
+  string
+)
+"src/pack.ml" 165 4650 4689 "src/pack.ml" 165 4650 4690
+type(
+  int
+)
+ident(
+  int_ref n "src/pack.ml" 165 4650 4667 "src/pack.ml" 165 4650 4668
+)
+"src/pack.ml" 165 4650 4681 "src/pack.ml" 165 4650 4690
+type(
+  Gml.value
+)
+"src/pack.ml" 165 4650 4672 "src/pack.ml" 165 4650 4690
+type(
+  string * Gml.value
+)
+"src/pack.ml" 165 4650 4671 "src/pack.ml" 165 4650 4691
+type(
+  (string * Gml.value) list
+)
+"src/pack.ml" 161 4570 4574 "src/pack.ml" 166 4692 4702
+call(
+  stack
+)
+"src/pack.ml" 168 4704 4710 "src/pack.ml" 168 4704 4719
+type(
+  Format.formatter -> G.t -> unit
+)
+ident(
+  def print_gml "src/pack.ml" 169 4739 4741 "src/pack.ml" 196 5469 5472
+)
+"src/pack.ml" 168 4704 4722 "src/pack.ml" 168 4704 4738
+type(
+  Format.formatter -> G.t -> unit
+)
+ident(
+  ext_ref GmlPrinter.print
+)
+"src/pack.ml" 169 4739 4745 "src/pack.ml" 169 4739 4759
+type(
+  G.t -> string -> unit
+)
+ident(
+  def print_gml_file "src/pack.ml" 173 4879 4894 "src/pack.ml" 196 5469 5472
+)
+"src/pack.ml" 169 4739 4760 "src/pack.ml" 169 4739 4761
+type(
+  G.t
+)
+ident(
+  def g "src/pack.ml" 169 4739 4762 "src/pack.ml" 173 4879 4894
+)
+"src/pack.ml" 169 4739 4762 "src/pack.ml" 169 4739 4763
+type(
+  string
+)
+ident(
+  def f "src/pack.ml" 170 4766 4770 "src/pack.ml" 173 4879 4894
+)
+"src/pack.ml" 170 4766 4774 "src/pack.ml" 170 4766 4775
+type(
+  out_channel
+)
+ident(
+  def c "src/pack.ml" 171 4792 4796 "src/pack.ml" 173 4879 4894
+)
+"src/pack.ml" 170 4766 4778 "src/pack.ml" 170 4766 4786
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"src/pack.ml" 170 4766 4787 "src/pack.ml" 170 4766 4788
+type(
+  string
+)
+ident(
+  int_ref f "src/pack.ml" 169 4739 4762 "src/pack.ml" 169 4739 4763
+)
+"src/pack.ml" 170 4766 4778 "src/pack.ml" 170 4766 4788
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/pack.ml" 171 4792 4800 "src/pack.ml" 171 4792 4803
+type(
+  Format.formatter
+)
+ident(
+  def fmt "src/pack.ml" 172 4836 4840 "src/pack.ml" 173 4879 4894
+)
+"src/pack.ml" 171 4792 4806 "src/pack.ml" 171 4792 4830
+type(
+  out_channel -> Format.formatter
+)
+ident(
+  ext_ref Format.formatter_of_out_channel
+)
+"src/pack.ml" 171 4792 4831 "src/pack.ml" 171 4792 4832
+type(
+  out_channel
+)
+ident(
+  int_ref c "src/pack.ml" 170 4766 4774 "src/pack.ml" 170 4766 4775
+)
+"src/pack.ml" 171 4792 4806 "src/pack.ml" 171 4792 4832
+call(
+  stack
+)
+type(
+  Format.formatter
+)
+"src/pack.ml" 172 4836 4840 "src/pack.ml" 172 4836 4847
+type(
+  Format.formatter ->
+  ((Format.formatter -> G.t -> unit) -> G.t -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> G.t -> unit) -> G.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/pack.ml" 172 4836 4848 "src/pack.ml" 172 4836 4851
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/pack.ml" 171 4792 4800 "src/pack.ml" 171 4792 4803
+)
+"src/pack.ml" 172 4836 4852 "src/pack.ml" 172 4836 4858
+type(
+  ((Format.formatter -> G.t -> unit) -> G.t -> unit, Format.formatter, unit)
+  format
+)
+"src/pack.ml" 172 4836 4859 "src/pack.ml" 172 4836 4875
+type(
+  Format.formatter -> G.t -> unit
+)
+ident(
+  ext_ref GmlPrinter.print
+)
+"src/pack.ml" 172 4836 4876 "src/pack.ml" 172 4836 4877
+type(
+  G.t
+)
+ident(
+  int_ref g "src/pack.ml" 169 4739 4760 "src/pack.ml" 169 4739 4761
+)
+"src/pack.ml" 172 4836 4840 "src/pack.ml" 172 4836 4877
+call(
+  stack
+)
+type(
+  unit
+)
+"src/pack.ml" 173 4879 4883 "src/pack.ml" 173 4879 4892
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"src/pack.ml" 173 4879 4893 "src/pack.ml" 173 4879 4894
+type(
+  out_channel
+)
+ident(
+  int_ref c "src/pack.ml" 170 4766 4774 "src/pack.ml" 170 4766 4775
+)
+"src/pack.ml" 173 4879 4883 "src/pack.ml" 173 4879 4894
+call(
+  tail
+)
+type(
+  unit
+)
+"src/pack.ml" 172 4836 4840 "src/pack.ml" 173 4879 4894
+type(
+  unit
+)
+"src/pack.ml" 171 4792 4796 "src/pack.ml" 173 4879 4894
+type(
+  unit
+)
+"src/pack.ml" 170 4766 4770 "src/pack.ml" 173 4879 4894
+type(
+  unit
+)
+"src/pack.ml" 200 5507 5513 "src/pack.ml" 200 5507 5520
+type(
+  t -> t -> int
+)
+ident(
+  def compare "src/pack.ml" 201 5558 5560 "src/pack.ml" 202 5576 5579
+)
+"src/pack.ml" 200 5507 5539 "src/pack.ml" 200 5507 5557
+type(
+  t -> t -> int
+)
+type(
+  t -> t -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/pack.ml" 201 5558 5564 "src/pack.ml" 201 5558 5571
+type(
+  int
+)
+ident(
+  def default "src/pack.ml" 201 5558 5575 "src/pack.ml" 202 5576 5579
+)
+"src/pack.ml" 201 5558 5574 "src/pack.ml" 201 5558 5575
+type(
+  int
+)
+"src/pack.ml" 204 5581 5606 "src/pack.ml" 204 5581 5643
+call(
+  stack
+)
+"src/pack.ml" 204 5581 5606 "src/pack.ml" 204 5581 5646
+call(
+  stack
+)
+"src/pack.ml" 204 5581 5598 "src/pack.ml" 204 5581 5647
+call(
+  stack
+)
+"src/pack.ml" 206 5649 5672 "src/pack.ml" 206 5649 5707
+call(
+  stack
+)
+"src/pack.ml" 206 5649 5672 "src/pack.ml" 206 5649 5710
+call(
+  stack
+)
+"src/pack.ml" 206 5649 5664 "src/pack.ml" 206 5649 5711
+call(
+  stack
+)

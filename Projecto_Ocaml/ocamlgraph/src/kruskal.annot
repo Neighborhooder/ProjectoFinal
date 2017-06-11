@@ -1,0 +1,697 @@
+"src/kruskal.ml" 48 1861 1867 "src/kruskal.ml" 48 1861 1879
+type(
+  G.t -> G.E.t list
+)
+ident(
+  def spanningtree "src/kruskal.ml" 65 2382 2388 "src/kruskal.ml" 67 2390 2393
+)
+"src/kruskal.ml" 48 1861 1880 "src/kruskal.ml" 48 1861 1881
+type(
+  G.t
+)
+ident(
+  def g "src/kruskal.ml" 49 1884 1888 "src/kruskal.ml" 65 2382 2388
+)
+"src/kruskal.ml" 49 1884 1892 "src/kruskal.ml" 49 1884 1900
+type(
+  G.V.t list
+)
+ident(
+  def vertices "src/kruskal.ml" 50 1945 1949 "src/kruskal.ml" 65 2382 2388
+)
+"src/kruskal.ml" 49 1884 1903 "src/kruskal.ml" 49 1884 1916
+type(
+  (G.V.t -> G.V.t list -> G.V.t list) -> G.t -> G.V.t list -> G.V.t list
+)
+ident(
+  int_ref G.fold_vertex "src/kruskal.ml" 38 1623 1625 "src/kruskal.ml" 38 1623 1677
+)
+"src/kruskal.ml" 49 1884 1922 "src/kruskal.ml" 49 1884 1923
+type(
+  G.V.t
+)
+ident(
+  def v "src/kruskal.ml" 49 1884 1924 "src/kruskal.ml" 49 1884 1935
+)
+"src/kruskal.ml" 49 1884 1924 "src/kruskal.ml" 49 1884 1925
+type(
+  G.V.t list
+)
+ident(
+  def a "src/kruskal.ml" 49 1884 1929 "src/kruskal.ml" 49 1884 1935
+)
+"src/kruskal.ml" 49 1884 1929 "src/kruskal.ml" 49 1884 1930
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/kruskal.ml" 49 1884 1922 "src/kruskal.ml" 49 1884 1923
+)
+"src/kruskal.ml" 49 1884 1934 "src/kruskal.ml" 49 1884 1935
+type(
+  G.V.t list
+)
+ident(
+  int_ref a "src/kruskal.ml" 49 1884 1924 "src/kruskal.ml" 49 1884 1925
+)
+"src/kruskal.ml" 49 1884 1929 "src/kruskal.ml" 49 1884 1935
+type(
+  G.V.t list
+)
+"src/kruskal.ml" 49 1884 1917 "src/kruskal.ml" 49 1884 1936
+type(
+  G.V.t -> G.V.t list -> G.V.t list
+)
+"src/kruskal.ml" 49 1884 1937 "src/kruskal.ml" 49 1884 1938
+type(
+  G.t
+)
+ident(
+  int_ref g "src/kruskal.ml" 48 1861 1880 "src/kruskal.ml" 48 1861 1881
+)
+"src/kruskal.ml" 49 1884 1939 "src/kruskal.ml" 49 1884 1941
+type(
+  G.V.t list
+)
+"src/kruskal.ml" 49 1884 1903 "src/kruskal.ml" 49 1884 1941
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/kruskal.ml" 50 1945 1953 "src/kruskal.ml" 50 1945 1955
+type(
+  UF.t
+)
+ident(
+  def uf "src/kruskal.ml" 51 1978 1982 "src/kruskal.ml" 65 2382 2388
+)
+"src/kruskal.ml" 50 1945 1958 "src/kruskal.ml" 50 1945 1965
+type(
+  UF.elt list -> UF.t
+)
+ident(
+  int_ref UF.init "src/kruskal.ml" 23 1345 1347 "src/kruskal.ml" 23 1345 1371
+)
+"src/kruskal.ml" 50 1945 1966 "src/kruskal.ml" 50 1945 1974
+type(
+  UF.elt list
+)
+ident(
+  int_ref vertices "src/kruskal.ml" 49 1884 1892 "src/kruskal.ml" 49 1884 1900
+)
+"src/kruskal.ml" 50 1945 1958 "src/kruskal.ml" 50 1945 1974
+call(
+  stack
+)
+type(
+  UF.t
+)
+"src/kruskal.ml" 51 1978 1986 "src/kruskal.ml" 51 1978 1991
+type(
+  G.E.t list
+)
+ident(
+  def edges "src/kruskal.ml" 56 2144 2148 "src/kruskal.ml" 65 2382 2388
+)
+"src/kruskal.ml" 52 1994 2004 "src/kruskal.ml" 52 1994 2005
+type(
+  G.E.t list ref
+)
+ident(
+  def l "src/kruskal.ml" 53 2018 2024 "src/kruskal.ml" 54 2066 2136
+)
+"src/kruskal.ml" 52 1994 2008 "src/kruskal.ml" 52 1994 2011
+type(
+  G.E.t list -> G.E.t list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/kruskal.ml" 52 1994 2012 "src/kruskal.ml" 52 1994 2014
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 52 1994 2008 "src/kruskal.ml" 52 1994 2014
+type(
+  G.E.t list ref
+)
+"src/kruskal.ml" 53 2018 2024 "src/kruskal.ml" 53 2018 2038
+type(
+  (G.E.t -> unit) -> G.t -> unit
+)
+ident(
+  int_ref G.iter_edges_e "src/kruskal.ml" 39 1678 1680 "src/kruskal.ml" 39 1678 1726
+)
+"src/kruskal.ml" 53 2018 2044 "src/kruskal.ml" 53 2018 2045
+type(
+  G.E.t
+)
+ident(
+  def e "src/kruskal.ml" 53 2018 2049 "src/kruskal.ml" 53 2018 2061
+)
+"src/kruskal.ml" 53 2018 2049 "src/kruskal.ml" 53 2018 2050
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref l "src/kruskal.ml" 52 1994 2004 "src/kruskal.ml" 52 1994 2005
+)
+"src/kruskal.ml" 53 2018 2051 "src/kruskal.ml" 53 2018 2053
+type(
+  G.E.t list ref -> G.E.t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/kruskal.ml" 53 2018 2054 "src/kruskal.ml" 53 2018 2055
+type(
+  G.E.t
+)
+ident(
+  int_ref e "src/kruskal.ml" 53 2018 2044 "src/kruskal.ml" 53 2018 2045
+)
+"src/kruskal.ml" 53 2018 2059 "src/kruskal.ml" 53 2018 2060
+type(
+  G.E.t list ref -> G.E.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/kruskal.ml" 53 2018 2060 "src/kruskal.ml" 53 2018 2061
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref l "src/kruskal.ml" 52 1994 2004 "src/kruskal.ml" 52 1994 2005
+)
+"src/kruskal.ml" 53 2018 2059 "src/kruskal.ml" 53 2018 2061
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 53 2018 2054 "src/kruskal.ml" 53 2018 2061
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 53 2018 2049 "src/kruskal.ml" 53 2018 2061
+type(
+  unit
+)
+"src/kruskal.ml" 53 2018 2039 "src/kruskal.ml" 53 2018 2062
+type(
+  G.E.t -> unit
+)
+"src/kruskal.ml" 53 2018 2063 "src/kruskal.ml" 53 2018 2064
+type(
+  G.t
+)
+ident(
+  int_ref g "src/kruskal.ml" 48 1861 1880 "src/kruskal.ml" 48 1861 1881
+)
+"src/kruskal.ml" 53 2018 2024 "src/kruskal.ml" 53 2018 2064
+call(
+  stack
+)
+type(
+  unit
+)
+"src/kruskal.ml" 54 2066 2072 "src/kruskal.ml" 54 2066 2081
+type(
+  (G.E.t -> G.E.t -> int) -> G.E.t list -> G.E.t list
+)
+ident(
+  ext_ref List.sort
+)
+"src/kruskal.ml" 54 2066 2087 "src/kruskal.ml" 54 2066 2088
+type(
+  G.E.t
+)
+ident(
+  def e "src/kruskal.ml" 54 2066 2089 "src/kruskal.ml" 54 2066 2132
+)
+"src/kruskal.ml" 54 2066 2089 "src/kruskal.ml" 54 2066 2091
+type(
+  G.E.t
+)
+ident(
+  def e' "src/kruskal.ml" 54 2066 2094 "src/kruskal.ml" 54 2066 2132
+)
+"src/kruskal.ml" 54 2066 2094 "src/kruskal.ml" 54 2066 2103
+type(
+  W.t -> W.t -> int
+)
+ident(
+  ext_ref W.compare
+)
+"src/kruskal.ml" 54 2066 2105 "src/kruskal.ml" 54 2066 2114
+type(
+  G.E.t -> W.t
+)
+ident(
+  int_ref G.E.label "src/kruskal.ml" 34 1544 1548 "src/kruskal.ml" 34 1544 1570
+)
+"src/kruskal.ml" 54 2066 2115 "src/kruskal.ml" 54 2066 2116
+type(
+  G.E.t
+)
+ident(
+  int_ref e "src/kruskal.ml" 54 2066 2087 "src/kruskal.ml" 54 2066 2088
+)
+"src/kruskal.ml" 54 2066 2104 "src/kruskal.ml" 54 2066 2117
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/kruskal.ml" 54 2066 2119 "src/kruskal.ml" 54 2066 2128
+type(
+  G.E.t -> W.t
+)
+ident(
+  int_ref G.E.label "src/kruskal.ml" 34 1544 1548 "src/kruskal.ml" 34 1544 1570
+)
+"src/kruskal.ml" 54 2066 2129 "src/kruskal.ml" 54 2066 2131
+type(
+  G.E.t
+)
+ident(
+  int_ref e' "src/kruskal.ml" 54 2066 2089 "src/kruskal.ml" 54 2066 2091
+)
+"src/kruskal.ml" 54 2066 2118 "src/kruskal.ml" 54 2066 2132
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/kruskal.ml" 54 2066 2094 "src/kruskal.ml" 54 2066 2132
+call(
+  tail
+)
+type(
+  int
+)
+"src/kruskal.ml" 54 2066 2082 "src/kruskal.ml" 54 2066 2133
+type(
+  G.E.t -> G.E.t -> int
+)
+"src/kruskal.ml" 54 2066 2134 "src/kruskal.ml" 54 2066 2135
+type(
+  G.E.t list ref -> G.E.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/kruskal.ml" 54 2066 2135 "src/kruskal.ml" 54 2066 2136
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref l "src/kruskal.ml" 52 1994 2004 "src/kruskal.ml" 52 1994 2005
+)
+"src/kruskal.ml" 54 2066 2134 "src/kruskal.ml" 54 2066 2136
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 54 2066 2072 "src/kruskal.ml" 54 2066 2136
+call(
+  stack
+)
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 53 2018 2024 "src/kruskal.ml" 54 2066 2136
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 52 1994 2000 "src/kruskal.ml" 54 2066 2136
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 56 2144 2152 "src/kruskal.ml" 56 2144 2153
+type(
+  G.E.t list ref
+)
+ident(
+  def s "src/kruskal.ml" 57 2166 2170 "src/kruskal.ml" 65 2382 2388
+)
+"src/kruskal.ml" 56 2144 2156 "src/kruskal.ml" 56 2144 2159
+type(
+  G.E.t list -> G.E.t list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/kruskal.ml" 56 2144 2160 "src/kruskal.ml" 56 2144 2162
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 56 2144 2156 "src/kruskal.ml" 56 2144 2162
+type(
+  G.E.t list ref
+)
+"src/kruskal.ml" 57 2166 2174 "src/kruskal.ml" 57 2166 2179
+type(
+  G.E.t -> unit
+)
+ident(
+  def cover "src/kruskal.ml" 64 2355 2359 "src/kruskal.ml" 65 2382 2388
+)
+"src/kruskal.ml" 57 2166 2180 "src/kruskal.ml" 57 2166 2181
+type(
+  G.E.t
+)
+ident(
+  def e "src/kruskal.ml" 58 2184 2190 "src/kruskal.ml" 62 2338 2347
+)
+"src/kruskal.ml" 58 2184 2194 "src/kruskal.ml" 58 2184 2195
+type(
+  G.V.t
+)
+ident(
+  def u "src/kruskal.ml" 59 2225 2231 "src/kruskal.ml" 62 2338 2347
+)
+"src/kruskal.ml" 58 2184 2197 "src/kruskal.ml" 58 2184 2198
+type(
+  G.V.t
+)
+ident(
+  def v "src/kruskal.ml" 59 2225 2231 "src/kruskal.ml" 62 2338 2347
+)
+"src/kruskal.ml" 58 2184 2194 "src/kruskal.ml" 58 2184 2198
+type(
+  G.V.t * G.V.t
+)
+"src/kruskal.ml" 58 2184 2201 "src/kruskal.ml" 58 2184 2208
+type(
+  G.E.t -> G.V.t
+)
+ident(
+  int_ref G.E.src "src/kruskal.ml" 36 1594 1598 "src/kruskal.ml" 36 1594 1616
+)
+"src/kruskal.ml" 58 2184 2209 "src/kruskal.ml" 58 2184 2210
+type(
+  G.E.t
+)
+ident(
+  int_ref e "src/kruskal.ml" 57 2166 2180 "src/kruskal.ml" 57 2166 2181
+)
+"src/kruskal.ml" 58 2184 2201 "src/kruskal.ml" 58 2184 2210
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/kruskal.ml" 58 2184 2212 "src/kruskal.ml" 58 2184 2219
+type(
+  G.E.t -> G.V.t
+)
+ident(
+  int_ref G.E.dst "src/kruskal.ml" 35 1571 1575 "src/kruskal.ml" 35 1571 1593
+)
+"src/kruskal.ml" 58 2184 2220 "src/kruskal.ml" 58 2184 2221
+type(
+  G.E.t
+)
+ident(
+  int_ref e "src/kruskal.ml" 57 2166 2180 "src/kruskal.ml" 57 2166 2181
+)
+"src/kruskal.ml" 58 2184 2212 "src/kruskal.ml" 58 2184 2221
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/kruskal.ml" 58 2184 2201 "src/kruskal.ml" 58 2184 2221
+type(
+  G.V.t * G.V.t
+)
+"src/kruskal.ml" 59 2225 2234 "src/kruskal.ml" 59 2225 2245
+type(
+  UF.elt -> UF.elt -> int
+)
+ident(
+  ext_ref G.V.compare
+)
+"src/kruskal.ml" 59 2225 2247 "src/kruskal.ml" 59 2225 2254
+type(
+  UF.elt -> UF.t -> UF.elt
+)
+ident(
+  int_ref UF.find "src/kruskal.ml" 24 1372 1374 "src/kruskal.ml" 24 1372 1400
+)
+"src/kruskal.ml" 59 2225 2255 "src/kruskal.ml" 59 2225 2256
+type(
+  UF.elt
+)
+ident(
+  int_ref u "src/kruskal.ml" 58 2184 2194 "src/kruskal.ml" 58 2184 2195
+)
+"src/kruskal.ml" 59 2225 2257 "src/kruskal.ml" 59 2225 2259
+type(
+  UF.t
+)
+ident(
+  int_ref uf "src/kruskal.ml" 50 1945 1953 "src/kruskal.ml" 50 1945 1955
+)
+"src/kruskal.ml" 59 2225 2246 "src/kruskal.ml" 59 2225 2260
+call(
+  stack
+)
+type(
+  UF.elt
+)
+"src/kruskal.ml" 59 2225 2262 "src/kruskal.ml" 59 2225 2269
+type(
+  UF.elt -> UF.t -> UF.elt
+)
+ident(
+  int_ref UF.find "src/kruskal.ml" 24 1372 1374 "src/kruskal.ml" 24 1372 1400
+)
+"src/kruskal.ml" 59 2225 2270 "src/kruskal.ml" 59 2225 2271
+type(
+  UF.elt
+)
+ident(
+  int_ref v "src/kruskal.ml" 58 2184 2197 "src/kruskal.ml" 58 2184 2198
+)
+"src/kruskal.ml" 59 2225 2272 "src/kruskal.ml" 59 2225 2274
+type(
+  UF.t
+)
+ident(
+  int_ref uf "src/kruskal.ml" 50 1945 1953 "src/kruskal.ml" 50 1945 1955
+)
+"src/kruskal.ml" 59 2225 2261 "src/kruskal.ml" 59 2225 2275
+call(
+  stack
+)
+type(
+  UF.elt
+)
+"src/kruskal.ml" 59 2225 2234 "src/kruskal.ml" 59 2225 2275
+call(
+  stack
+)
+type(
+  int
+)
+"src/kruskal.ml" 59 2225 2276 "src/kruskal.ml" 59 2225 2278
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/kruskal.ml" 59 2225 2279 "src/kruskal.ml" 59 2225 2280
+type(
+  int
+)
+"src/kruskal.ml" 59 2225 2234 "src/kruskal.ml" 59 2225 2280
+type(
+  bool
+)
+"src/kruskal.ml" 60 2292 2300 "src/kruskal.ml" 60 2292 2308
+type(
+  UF.elt -> UF.elt -> UF.t -> unit
+)
+ident(
+  int_ref UF.union "src/kruskal.ml" 25 1401 1403 "src/kruskal.ml" 25 1401 1438
+)
+"src/kruskal.ml" 60 2292 2309 "src/kruskal.ml" 60 2292 2310
+type(
+  UF.elt
+)
+ident(
+  int_ref u "src/kruskal.ml" 58 2184 2194 "src/kruskal.ml" 58 2184 2195
+)
+"src/kruskal.ml" 60 2292 2311 "src/kruskal.ml" 60 2292 2312
+type(
+  UF.elt
+)
+ident(
+  int_ref v "src/kruskal.ml" 58 2184 2197 "src/kruskal.ml" 58 2184 2198
+)
+"src/kruskal.ml" 60 2292 2313 "src/kruskal.ml" 60 2292 2315
+type(
+  UF.t
+)
+ident(
+  int_ref uf "src/kruskal.ml" 50 1945 1953 "src/kruskal.ml" 50 1945 1955
+)
+"src/kruskal.ml" 60 2292 2300 "src/kruskal.ml" 60 2292 2315
+call(
+  stack
+)
+type(
+  unit
+)
+"src/kruskal.ml" 61 2317 2325 "src/kruskal.ml" 61 2317 2326
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref s "src/kruskal.ml" 56 2144 2152 "src/kruskal.ml" 56 2144 2153
+)
+"src/kruskal.ml" 61 2317 2327 "src/kruskal.ml" 61 2317 2329
+type(
+  G.E.t list ref -> G.E.t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/kruskal.ml" 61 2317 2330 "src/kruskal.ml" 61 2317 2331
+type(
+  G.E.t
+)
+ident(
+  int_ref e "src/kruskal.ml" 57 2166 2180 "src/kruskal.ml" 57 2166 2181
+)
+"src/kruskal.ml" 61 2317 2335 "src/kruskal.ml" 61 2317 2336
+type(
+  G.E.t list ref -> G.E.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/kruskal.ml" 61 2317 2336 "src/kruskal.ml" 61 2317 2337
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref s "src/kruskal.ml" 56 2144 2152 "src/kruskal.ml" 56 2144 2153
+)
+"src/kruskal.ml" 61 2317 2335 "src/kruskal.ml" 61 2317 2337
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 61 2317 2330 "src/kruskal.ml" 61 2317 2337
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 61 2317 2325 "src/kruskal.ml" 61 2317 2337
+type(
+  unit
+)
+"src/kruskal.ml" 59 2225 2286 "src/kruskal.ml" 62 2338 2347
+type(
+  unit
+)
+"src/kruskal.ml" 59 2225 2231 "src/kruskal.ml" 62 2338 2347
+type(
+  unit
+)
+"src/kruskal.ml" 58 2184 2190 "src/kruskal.ml" 62 2338 2347
+type(
+  unit
+)
+"src/kruskal.ml" 64 2355 2359 "src/kruskal.ml" 64 2355 2368
+type(
+  (G.E.t -> unit) -> G.E.t list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/kruskal.ml" 64 2355 2369 "src/kruskal.ml" 64 2355 2374
+type(
+  G.E.t -> unit
+)
+ident(
+  int_ref cover "src/kruskal.ml" 57 2166 2174 "src/kruskal.ml" 57 2166 2179
+)
+"src/kruskal.ml" 64 2355 2375 "src/kruskal.ml" 64 2355 2380
+type(
+  G.E.t list
+)
+ident(
+  int_ref edges "src/kruskal.ml" 51 1978 1986 "src/kruskal.ml" 51 1978 1991
+)
+"src/kruskal.ml" 64 2355 2359 "src/kruskal.ml" 64 2355 2380
+call(
+  stack
+)
+type(
+  unit
+)
+"src/kruskal.ml" 65 2382 2386 "src/kruskal.ml" 65 2382 2387
+type(
+  G.E.t list ref -> G.E.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/kruskal.ml" 65 2382 2387 "src/kruskal.ml" 65 2382 2388
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref s "src/kruskal.ml" 56 2144 2152 "src/kruskal.ml" 56 2144 2153
+)
+"src/kruskal.ml" 65 2382 2386 "src/kruskal.ml" 65 2382 2388
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 64 2355 2359 "src/kruskal.ml" 65 2382 2388
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 57 2166 2170 "src/kruskal.ml" 65 2382 2388
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 56 2144 2148 "src/kruskal.ml" 65 2382 2388
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 51 1978 1982 "src/kruskal.ml" 65 2382 2388
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 50 1945 1949 "src/kruskal.ml" 65 2382 2388
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 49 1884 1888 "src/kruskal.ml" 65 2382 2388
+type(
+  G.E.t list
+)
+"src/kruskal.ml" 70 2459 2461 "src/kruskal.ml" 70 2459 2471
+call(
+  stack
+)
+"src/kruskal.ml" 70 2459 2461 "src/kruskal.ml" 70 2459 2474
+call(
+  stack
+)
+"src/kruskal.ml" 70 2459 2475 "src/kruskal.ml" 70 2459 2494
+call(
+  stack
+)
+"src/kruskal.ml" 70 2459 2461 "src/kruskal.ml" 70 2459 2495
+call(
+  tail
+)

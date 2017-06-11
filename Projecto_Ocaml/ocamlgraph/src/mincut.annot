@@ -1,0 +1,1583 @@
+"src/mincut.ml" 26 1355 1368 "src/mincut.ml" 26 1355 1386
+call(
+  stack
+)
+"src/mincut.ml" 28 1388 1394 "src/mincut.ml" 28 1388 1406
+type(
+  bool H.t -> H.key -> bool
+)
+ident(
+  def find_default "src/mincut.ml" 32 1467 1469 "src/mincut.ml" 98 3605 3608
+)
+"src/mincut.ml" 28 1388 1407 "src/mincut.ml" 28 1388 1411
+type(
+  bool H.t
+)
+ident(
+  def htbl "src/mincut.ml" 28 1388 1412 "src/mincut.ml" 30 1438 1465
+)
+"src/mincut.ml" 28 1388 1412 "src/mincut.ml" 28 1388 1413
+type(
+  H.key
+)
+ident(
+  def x "src/mincut.ml" 29 1416 1420 "src/mincut.ml" 30 1438 1465
+)
+"src/mincut.ml" 29 1416 1424 "src/mincut.ml" 29 1416 1430
+type(
+  bool H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.find
+)
+"src/mincut.ml" 29 1416 1431 "src/mincut.ml" 29 1416 1435
+type(
+  bool H.t
+)
+ident(
+  int_ref htbl "src/mincut.ml" 28 1388 1407 "src/mincut.ml" 28 1388 1411
+)
+"src/mincut.ml" 29 1416 1436 "src/mincut.ml" 29 1416 1437
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mincut.ml" 28 1388 1412 "src/mincut.ml" 28 1388 1413
+)
+"src/mincut.ml" 29 1416 1424 "src/mincut.ml" 29 1416 1437
+call(
+  stack
+)
+type(
+  bool
+)
+"src/mincut.ml" 30 1438 1447 "src/mincut.ml" 30 1438 1456
+type(
+  exn
+)
+"src/mincut.ml" 30 1438 1460 "src/mincut.ml" 30 1438 1465
+type(
+  bool
+)
+"src/mincut.ml" 29 1416 1420 "src/mincut.ml" 30 1438 1465
+type(
+  bool
+)
+"src/mincut.ml" 32 1467 1473 "src/mincut.ml" 32 1467 1483
+type(
+  G.t -> H.key -> H.key list
+)
+ident(
+  def min_cutset "src/mincut.ml" 96 3580 3603 "src/mincut.ml" 98 3605 3608
+)
+"src/mincut.ml" 32 1467 1484 "src/mincut.ml" 32 1467 1486
+type(
+  G.t
+)
+ident(
+  def gr "src/mincut.ml" 32 1467 1487 "src/mincut.ml" 96 3580 3603
+)
+"src/mincut.ml" 32 1467 1487 "src/mincut.ml" 32 1467 1497
+type(
+  H.key
+)
+ident(
+  def first_node "src/mincut.ml" 33 1500 1504 "src/mincut.ml" 96 3580 3603
+)
+"src/mincut.ml" 33 1500 1508 "src/mincut.ml" 33 1500 1516
+type(
+  int H.t
+)
+ident(
+  def n_labels "src/mincut.ml" 34 1534 1538 "src/mincut.ml" 96 3580 3603
+)
+"src/mincut.ml" 33 1500 1519 "src/mincut.ml" 33 1500 1527
+type(
+  int -> int H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/mincut.ml" 33 1500 1528 "src/mincut.ml" 33 1500 1530
+type(
+  int
+)
+"src/mincut.ml" 33 1500 1519 "src/mincut.ml" 33 1500 1530
+call(
+  stack
+)
+type(
+  int H.t
+)
+"src/mincut.ml" 34 1534 1542 "src/mincut.ml" 34 1534 1550
+type(
+  int H.t
+)
+ident(
+  def l_labels "src/mincut.ml" 36 1569 1573 "src/mincut.ml" 96 3580 3603
+)
+"src/mincut.ml" 34 1534 1553 "src/mincut.ml" 34 1534 1561
+type(
+  int -> int H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/mincut.ml" 34 1534 1562 "src/mincut.ml" 34 1534 1564
+type(
+  int
+)
+"src/mincut.ml" 34 1534 1553 "src/mincut.ml" 34 1534 1564
+call(
+  stack
+)
+type(
+  int H.t
+)
+"src/mincut.ml" 36 1569 1577 "src/mincut.ml" 36 1569 1594
+type(
+  bool H.t
+)
+ident(
+  def already_processed "src/mincut.ml" 37 1612 1616 "src/mincut.ml" 96 3580 3603
+)
+"src/mincut.ml" 36 1569 1597 "src/mincut.ml" 36 1569 1605
+type(
+  int -> bool H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/mincut.ml" 36 1569 1606 "src/mincut.ml" 36 1569 1608
+type(
+  int
+)
+"src/mincut.ml" 36 1569 1597 "src/mincut.ml" 36 1569 1608
+call(
+  stack
+)
+type(
+  bool H.t
+)
+"src/mincut.ml" 37 1612 1620 "src/mincut.ml" 37 1612 1640
+type(
+  H.key -> bool
+)
+ident(
+  def is_already_processed "src/mincut.ml" 39 1682 1686 "src/mincut.ml" 96 3580 3603
+)
+"src/mincut.ml" 37 1612 1641 "src/mincut.ml" 37 1612 1642
+type(
+  H.key
+)
+ident(
+  def x "src/mincut.ml" 37 1612 1645 "src/mincut.ml" 37 1612 1677
+)
+"src/mincut.ml" 37 1612 1645 "src/mincut.ml" 37 1612 1657
+type(
+  bool H.t -> H.key -> bool
+)
+ident(
+  int_ref find_default "src/mincut.ml" 28 1388 1394 "src/mincut.ml" 28 1388 1406
+)
+"src/mincut.ml" 37 1612 1658 "src/mincut.ml" 37 1612 1675
+type(
+  bool H.t
+)
+ident(
+  int_ref already_processed "src/mincut.ml" 36 1569 1577 "src/mincut.ml" 36 1569 1594
+)
+"src/mincut.ml" 37 1612 1676 "src/mincut.ml" 37 1612 1677
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mincut.ml" 37 1612 1641 "src/mincut.ml" 37 1612 1642
+)
+"src/mincut.ml" 37 1612 1645 "src/mincut.ml" 37 1612 1677
+call(
+  tail
+)
+type(
+  bool
+)
+"src/mincut.ml" 39 1682 1690 "src/mincut.ml" 39 1682 1702
+type(
+  bool H.t
+)
+ident(
+  def on_the_stack "src/mincut.ml" 40 1720 1724 "src/mincut.ml" 96 3580 3603
+)
+"src/mincut.ml" 39 1682 1705 "src/mincut.ml" 39 1682 1713
+type(
+  int -> bool H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/mincut.ml" 39 1682 1714 "src/mincut.ml" 39 1682 1716
+type(
+  int
+)
+"src/mincut.ml" 39 1682 1705 "src/mincut.ml" 39 1682 1716
+call(
+  stack
+)
+type(
+  bool H.t
+)
+"src/mincut.ml" 40 1720 1728 "src/mincut.ml" 40 1720 1743
+type(
+  H.key -> bool
+)
+ident(
+  def is_on_the_stack "src/mincut.ml" 42 1780 1784 "src/mincut.ml" 96 3580 3603
+)
+"src/mincut.ml" 40 1720 1744 "src/mincut.ml" 40 1720 1745
+type(
+  H.key
+)
+ident(
+  def x "src/mincut.ml" 40 1720 1748 "src/mincut.ml" 40 1720 1775
+)
+"src/mincut.ml" 40 1720 1748 "src/mincut.ml" 40 1720 1760
+type(
+  bool H.t -> H.key -> bool
+)
+ident(
+  int_ref find_default "src/mincut.ml" 28 1388 1394 "src/mincut.ml" 28 1388 1406
+)
+"src/mincut.ml" 40 1720 1761 "src/mincut.ml" 40 1720 1773
+type(
+  bool H.t
+)
+ident(
+  int_ref on_the_stack "src/mincut.ml" 39 1682 1690 "src/mincut.ml" 39 1682 1702
+)
+"src/mincut.ml" 40 1720 1774 "src/mincut.ml" 40 1720 1775
+type(
+  H.key
+)
+ident(
+  int_ref x "src/mincut.ml" 40 1720 1744 "src/mincut.ml" 40 1720 1745
+)
+"src/mincut.ml" 40 1720 1748 "src/mincut.ml" 40 1720 1775
+call(
+  tail
+)
+type(
+  bool
+)
+"src/mincut.ml" 42 1780 1788 "src/mincut.ml" 42 1780 1795
+type(
+  H.key list ref
+)
+ident(
+  def cut_set "src/mincut.ml" 43 1808 1812 "src/mincut.ml" 96 3580 3603
+)
+"src/mincut.ml" 42 1780 1798 "src/mincut.ml" 42 1780 1801
+type(
+  H.key list -> H.key list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/mincut.ml" 42 1780 1802 "src/mincut.ml" 42 1780 1804
+type(
+  H.key list
+)
+"src/mincut.ml" 42 1780 1798 "src/mincut.ml" 42 1780 1804
+type(
+  H.key list ref
+)
+"src/mincut.ml" 43 1808 1816 "src/mincut.ml" 43 1808 1823
+type(
+  int ref
+)
+ident(
+  def counter "src/mincut.ml" 45 1836 1840 "src/mincut.ml" 96 3580 3603
+)
+"src/mincut.ml" 43 1808 1826 "src/mincut.ml" 43 1808 1829
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/mincut.ml" 43 1808 1830 "src/mincut.ml" 43 1808 1831
+type(
+  int
+)
+"src/mincut.ml" 43 1808 1826 "src/mincut.ml" 43 1808 1831
+type(
+  int ref
+)
+"src/mincut.ml" 45 1836 1848 "src/mincut.ml" 45 1836 1853
+type(
+  H.key -> (H.key * H.key list) list -> H.key list
+)
+ident(
+  def step2 "src/mincut.ml" 45 1836 1840 "src/mincut.ml" 96 3580 3603
+)
+"src/mincut.ml" 45 1836 1854 "src/mincut.ml" 45 1836 1857
+type(
+  H.key
+)
+ident(
+  def top "src/mincut.ml" 45 1836 1858 "src/mincut.ml" 53 2132 2177
+)
+"src/mincut.ml" 45 1836 1858 "src/mincut.ml" 45 1836 1871
+type(
+  (H.key * H.key list) list
+)
+ident(
+  def rest_of_stack "src/mincut.ml" 46 1874 1880 "src/mincut.ml" 53 2132 2177
+)
+"src/mincut.ml" 46 1874 1888 "src/mincut.ml" 46 1874 1891
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/mincut.ml" 46 1874 1893 "src/mincut.ml" 46 1874 1913
+type(
+  H.key -> bool
+)
+ident(
+  int_ref is_already_processed "src/mincut.ml" 37 1612 1620 "src/mincut.ml" 37 1612 1640
+)
+"src/mincut.ml" 46 1874 1914 "src/mincut.ml" 46 1874 1917
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 45 1836 1854 "src/mincut.ml" 45 1836 1857
+)
+"src/mincut.ml" 46 1874 1892 "src/mincut.ml" 46 1874 1918
+call(
+  stack
+)
+type(
+  bool
+)
+"src/mincut.ml" 46 1874 1887 "src/mincut.ml" 46 1874 1919
+type(
+  bool
+)
+"src/mincut.ml" 46 1874 1880 "src/mincut.ml" 46 1874 1919
+type(
+  unit
+)
+"src/mincut.ml" 47 1921 1935 "src/mincut.ml" 47 1921 1938
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/mincut.ml" 47 1921 1940 "src/mincut.ml" 47 1921 1955
+type(
+  H.key -> bool
+)
+ident(
+  int_ref is_on_the_stack "src/mincut.ml" 40 1720 1728 "src/mincut.ml" 40 1720 1743
+)
+"src/mincut.ml" 47 1921 1956 "src/mincut.ml" 47 1921 1959
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 45 1836 1854 "src/mincut.ml" 45 1836 1857
+)
+"src/mincut.ml" 47 1921 1939 "src/mincut.ml" 47 1921 1960
+call(
+  stack
+)
+type(
+  bool
+)
+"src/mincut.ml" 47 1921 1934 "src/mincut.ml" 47 1921 1961
+type(
+  bool
+)
+"src/mincut.ml" 47 1921 1927 "src/mincut.ml" 47 1921 1961
+type(
+  unit
+)
+"src/mincut.ml" 48 1963 1969 "src/mincut.ml" 48 1963 1974
+type(
+  bool H.t -> H.key -> bool -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/mincut.ml" 48 1963 1975 "src/mincut.ml" 48 1963 1987
+type(
+  bool H.t
+)
+ident(
+  int_ref on_the_stack "src/mincut.ml" 39 1682 1690 "src/mincut.ml" 39 1682 1702
+)
+"src/mincut.ml" 48 1963 1988 "src/mincut.ml" 48 1963 1991
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 45 1836 1854 "src/mincut.ml" 45 1836 1857
+)
+"src/mincut.ml" 48 1963 1992 "src/mincut.ml" 48 1963 1996
+type(
+  bool
+)
+"src/mincut.ml" 48 1963 1969 "src/mincut.ml" 48 1963 1996
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mincut.ml" 49 1998 2004 "src/mincut.ml" 49 1998 2009
+type(
+  int H.t -> H.key -> int -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/mincut.ml" 49 1998 2010 "src/mincut.ml" 49 1998 2018
+type(
+  int H.t
+)
+ident(
+  int_ref n_labels "src/mincut.ml" 33 1500 1508 "src/mincut.ml" 33 1500 1516
+)
+"src/mincut.ml" 49 1998 2019 "src/mincut.ml" 49 1998 2022
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 45 1836 1854 "src/mincut.ml" 45 1836 1857
+)
+"src/mincut.ml" 49 1998 2023 "src/mincut.ml" 49 1998 2024
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/mincut.ml" 49 1998 2024 "src/mincut.ml" 49 1998 2031
+type(
+  int ref
+)
+ident(
+  int_ref counter "src/mincut.ml" 43 1808 1816 "src/mincut.ml" 43 1808 1823
+)
+"src/mincut.ml" 49 1998 2023 "src/mincut.ml" 49 1998 2031
+type(
+  int
+)
+"src/mincut.ml" 49 1998 2004 "src/mincut.ml" 49 1998 2031
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mincut.ml" 50 2033 2039 "src/mincut.ml" 50 2033 2046
+type(
+  int ref
+)
+ident(
+  int_ref counter "src/mincut.ml" 43 1808 1816 "src/mincut.ml" 43 1808 1823
+)
+"src/mincut.ml" 50 2033 2047 "src/mincut.ml" 50 2033 2049
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/mincut.ml" 50 2033 2050 "src/mincut.ml" 50 2033 2051
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/mincut.ml" 50 2033 2051 "src/mincut.ml" 50 2033 2058
+type(
+  int ref
+)
+ident(
+  int_ref counter "src/mincut.ml" 43 1808 1816 "src/mincut.ml" 43 1808 1823
+)
+"src/mincut.ml" 50 2033 2050 "src/mincut.ml" 50 2033 2058
+type(
+  int
+)
+"src/mincut.ml" 50 2033 2059 "src/mincut.ml" 50 2033 2060
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/mincut.ml" 50 2033 2061 "src/mincut.ml" 50 2033 2062
+type(
+  int
+)
+"src/mincut.ml" 50 2033 2050 "src/mincut.ml" 50 2033 2062
+type(
+  int
+)
+"src/mincut.ml" 50 2033 2039 "src/mincut.ml" 50 2033 2062
+type(
+  unit
+)
+"src/mincut.ml" 51 2064 2070 "src/mincut.ml" 51 2064 2075
+type(
+  int H.t -> H.key -> int -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/mincut.ml" 51 2064 2076 "src/mincut.ml" 51 2064 2084
+type(
+  int H.t
+)
+ident(
+  int_ref l_labels "src/mincut.ml" 34 1534 1542 "src/mincut.ml" 34 1534 1550
+)
+"src/mincut.ml" 51 2064 2085 "src/mincut.ml" 51 2064 2088
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 45 1836 1854 "src/mincut.ml" 45 1836 1857
+)
+"src/mincut.ml" 51 2064 2089 "src/mincut.ml" 51 2064 2090
+type(
+  int
+)
+"src/mincut.ml" 51 2064 2070 "src/mincut.ml" 51 2064 2090
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mincut.ml" 52 2092 2098 "src/mincut.ml" 52 2092 2103
+type(
+  bool H.t -> H.key -> bool -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/mincut.ml" 52 2092 2104 "src/mincut.ml" 52 2092 2121
+type(
+  bool H.t
+)
+ident(
+  int_ref already_processed "src/mincut.ml" 36 1569 1577 "src/mincut.ml" 36 1569 1594
+)
+"src/mincut.ml" 52 2092 2122 "src/mincut.ml" 52 2092 2125
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 45 1836 1854 "src/mincut.ml" 45 1836 1857
+)
+"src/mincut.ml" 52 2092 2126 "src/mincut.ml" 52 2092 2130
+type(
+  bool
+)
+"src/mincut.ml" 52 2092 2098 "src/mincut.ml" 52 2092 2130
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mincut.ml" 53 2132 2138 "src/mincut.ml" 53 2132 2143
+type(
+  H.key list -> H.key -> (H.key * H.key list) list -> H.key list
+)
+ident(
+  int_ref step3 "src/mincut.ml" 55 2179 2187 "src/mincut.ml" 55 2179 2192
+)
+"src/mincut.ml" 53 2132 2145 "src/mincut.ml" 53 2132 2151
+type(
+  G.t -> H.key -> H.key list
+)
+ident(
+  int_ref G.succ "src/mincut.ml" 21 1286 1288 "src/mincut.ml" 21 1286 1319
+)
+"src/mincut.ml" 53 2132 2152 "src/mincut.ml" 53 2132 2154
+type(
+  G.t
+)
+ident(
+  int_ref gr "src/mincut.ml" 32 1467 1484 "src/mincut.ml" 32 1467 1486
+)
+"src/mincut.ml" 53 2132 2155 "src/mincut.ml" 53 2132 2158
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 45 1836 1854 "src/mincut.ml" 45 1836 1857
+)
+"src/mincut.ml" 53 2132 2144 "src/mincut.ml" 53 2132 2159
+call(
+  stack
+)
+type(
+  H.key list
+)
+"src/mincut.ml" 53 2132 2160 "src/mincut.ml" 53 2132 2163
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 45 1836 1854 "src/mincut.ml" 45 1836 1857
+)
+"src/mincut.ml" 53 2132 2164 "src/mincut.ml" 53 2132 2177
+type(
+  (H.key * H.key list) list
+)
+ident(
+  int_ref rest_of_stack "src/mincut.ml" 45 1836 1858 "src/mincut.ml" 45 1836 1871
+)
+"src/mincut.ml" 53 2132 2138 "src/mincut.ml" 53 2132 2177
+call(
+  tail
+)
+type(
+  H.key list
+)
+"src/mincut.ml" 52 2092 2098 "src/mincut.ml" 53 2132 2177
+type(
+  H.key list
+)
+"src/mincut.ml" 51 2064 2070 "src/mincut.ml" 53 2132 2177
+type(
+  H.key list
+)
+"src/mincut.ml" 50 2033 2039 "src/mincut.ml" 53 2132 2177
+type(
+  H.key list
+)
+"src/mincut.ml" 49 1998 2004 "src/mincut.ml" 53 2132 2177
+type(
+  H.key list
+)
+"src/mincut.ml" 48 1963 1969 "src/mincut.ml" 53 2132 2177
+type(
+  H.key list
+)
+"src/mincut.ml" 47 1921 1927 "src/mincut.ml" 53 2132 2177
+type(
+  H.key list
+)
+"src/mincut.ml" 46 1874 1880 "src/mincut.ml" 53 2132 2177
+type(
+  H.key list
+)
+"src/mincut.ml" 55 2179 2187 "src/mincut.ml" 55 2179 2192
+type(
+  H.key list -> H.key -> (H.key * H.key list) list -> H.key list
+)
+ident(
+  def step3 "src/mincut.ml" 45 1836 1840 "src/mincut.ml" 96 3580 3603
+)
+"src/mincut.ml" 55 2179 2193 "src/mincut.ml" 55 2179 2203
+type(
+  H.key list
+)
+ident(
+  def successors "src/mincut.ml" 55 2179 2204 "src/mincut.ml" 93 3547 3558
+)
+"src/mincut.ml" 55 2179 2204 "src/mincut.ml" 55 2179 2207
+type(
+  H.key
+)
+ident(
+  def top "src/mincut.ml" 55 2179 2208 "src/mincut.ml" 93 3547 3558
+)
+"src/mincut.ml" 55 2179 2208 "src/mincut.ml" 55 2179 2221
+type(
+  (H.key * H.key list) list
+)
+ident(
+  def rest_of_stack "src/mincut.ml" 55 2179 2224 "src/mincut.ml" 93 3547 3558
+)
+"src/mincut.ml" 55 2179 2230 "src/mincut.ml" 55 2179 2240
+type(
+  H.key list
+)
+ident(
+  int_ref successors "src/mincut.ml" 55 2179 2193 "src/mincut.ml" 55 2179 2203
+)
+"src/mincut.ml" 56 2246 2254 "src/mincut.ml" 56 2246 2263
+type(
+  H.key
+)
+ident(
+  def successor "src/mincut.ml" 57 2287 2295 "src/mincut.ml" 70 2741 2752
+)
+"src/mincut.ml" 56 2246 2267 "src/mincut.ml" 56 2246 2283
+type(
+  H.key list
+)
+ident(
+  def other_successors "src/mincut.ml" 57 2287 2295 "src/mincut.ml" 70 2741 2752
+)
+"src/mincut.ml" 56 2246 2254 "src/mincut.ml" 56 2246 2283
+type(
+  H.key list
+)
+"src/mincut.ml" 57 2287 2298 "src/mincut.ml" 57 2287 2301
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/mincut.ml" 57 2287 2303 "src/mincut.ml" 57 2287 2323
+type(
+  H.key -> bool
+)
+ident(
+  int_ref is_already_processed "src/mincut.ml" 37 1612 1620 "src/mincut.ml" 37 1612 1640
+)
+"src/mincut.ml" 57 2287 2324 "src/mincut.ml" 57 2287 2333
+type(
+  H.key
+)
+ident(
+  int_ref successor "src/mincut.ml" 56 2246 2254 "src/mincut.ml" 56 2246 2263
+)
+"src/mincut.ml" 57 2287 2302 "src/mincut.ml" 57 2287 2334
+call(
+  stack
+)
+type(
+  bool
+)
+"src/mincut.ml" 57 2287 2298 "src/mincut.ml" 57 2287 2334
+type(
+  bool
+)
+"src/mincut.ml" 59 2356 2369 "src/mincut.ml" 59 2356 2374
+type(
+  H.key -> (H.key * H.key list) list -> H.key list
+)
+ident(
+  int_ref step2 "src/mincut.ml" 45 1836 1848 "src/mincut.ml" 45 1836 1853
+)
+"src/mincut.ml" 59 2356 2375 "src/mincut.ml" 59 2356 2384
+type(
+  H.key
+)
+ident(
+  int_ref successor "src/mincut.ml" 56 2246 2254 "src/mincut.ml" 56 2246 2263
+)
+"src/mincut.ml" 59 2356 2387 "src/mincut.ml" 59 2356 2390
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 55 2179 2204 "src/mincut.ml" 55 2179 2207
+)
+"src/mincut.ml" 59 2356 2391 "src/mincut.ml" 59 2356 2401
+type(
+  H.key list
+)
+ident(
+  int_ref successors "src/mincut.ml" 55 2179 2193 "src/mincut.ml" 55 2179 2203
+)
+"src/mincut.ml" 59 2356 2386 "src/mincut.ml" 59 2356 2402
+type(
+  H.key * H.key list
+)
+"src/mincut.ml" 59 2356 2404 "src/mincut.ml" 59 2356 2417
+type(
+  (H.key * H.key list) list
+)
+ident(
+  int_ref rest_of_stack "src/mincut.ml" 55 2179 2208 "src/mincut.ml" 55 2179 2221
+)
+"src/mincut.ml" 59 2356 2385 "src/mincut.ml" 59 2356 2418
+type(
+  (H.key * H.key list) list
+)
+"src/mincut.ml" 59 2356 2369 "src/mincut.ml" 59 2356 2418
+call(
+  tail
+)
+type(
+  H.key list
+)
+"src/mincut.ml" 62 2459 2473 "src/mincut.ml" 62 2459 2474
+type(
+  int
+)
+ident(
+  def x "src/mincut.ml" 67 2617 2627 "src/mincut.ml" 69 2690 2740
+)
+"src/mincut.ml" 63 2477 2492 "src/mincut.ml" 63 2477 2507
+type(
+  H.key -> bool
+)
+ident(
+  int_ref is_on_the_stack "src/mincut.ml" 40 1720 1728 "src/mincut.ml" 40 1720 1743
+)
+"src/mincut.ml" 63 2477 2508 "src/mincut.ml" 63 2477 2517
+type(
+  H.key
+)
+ident(
+  int_ref successor "src/mincut.ml" 56 2246 2254 "src/mincut.ml" 56 2246 2263
+)
+"src/mincut.ml" 63 2477 2492 "src/mincut.ml" 63 2477 2517
+call(
+  stack
+)
+type(
+  bool
+)
+"src/mincut.ml" 64 2518 2535 "src/mincut.ml" 64 2518 2541
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/mincut.ml" 64 2518 2542 "src/mincut.ml" 64 2518 2550
+type(
+  int H.t
+)
+ident(
+  int_ref n_labels "src/mincut.ml" 33 1500 1508 "src/mincut.ml" 33 1500 1516
+)
+"src/mincut.ml" 64 2518 2551 "src/mincut.ml" 64 2518 2560
+type(
+  H.key
+)
+ident(
+  int_ref successor "src/mincut.ml" 56 2246 2254 "src/mincut.ml" 56 2246 2263
+)
+"src/mincut.ml" 64 2518 2535 "src/mincut.ml" 64 2518 2560
+call(
+  stack
+)
+type(
+  int
+)
+"src/mincut.ml" 65 2561 2578 "src/mincut.ml" 65 2561 2584
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/mincut.ml" 65 2561 2585 "src/mincut.ml" 65 2561 2593
+type(
+  int H.t
+)
+ident(
+  int_ref l_labels "src/mincut.ml" 34 1534 1542 "src/mincut.ml" 34 1534 1550
+)
+"src/mincut.ml" 65 2561 2594 "src/mincut.ml" 65 2561 2603
+type(
+  H.key
+)
+ident(
+  int_ref successor "src/mincut.ml" 56 2246 2254 "src/mincut.ml" 56 2246 2263
+)
+"src/mincut.ml" 65 2561 2578 "src/mincut.ml" 65 2561 2603
+call(
+  stack
+)
+type(
+  int
+)
+"src/mincut.ml" 63 2477 2489 "src/mincut.ml" 65 2561 2603
+type(
+  int
+)
+"src/mincut.ml" 67 2617 2627 "src/mincut.ml" 67 2617 2632
+type(
+  int H.t -> H.key -> int -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/mincut.ml" 67 2617 2633 "src/mincut.ml" 67 2617 2641
+type(
+  int H.t
+)
+ident(
+  int_ref l_labels "src/mincut.ml" 34 1534 1542 "src/mincut.ml" 34 1534 1550
+)
+"src/mincut.ml" 67 2617 2642 "src/mincut.ml" 67 2617 2645
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 55 2179 2204 "src/mincut.ml" 55 2179 2207
+)
+"src/mincut.ml" 68 2646 2659 "src/mincut.ml" 68 2646 2662
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/mincut.ml" 68 2646 2664 "src/mincut.ml" 68 2646 2670
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/mincut.ml" 68 2646 2671 "src/mincut.ml" 68 2646 2679
+type(
+  int H.t
+)
+ident(
+  int_ref l_labels "src/mincut.ml" 34 1534 1542 "src/mincut.ml" 34 1534 1550
+)
+"src/mincut.ml" 68 2646 2680 "src/mincut.ml" 68 2646 2683
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 55 2179 2204 "src/mincut.ml" 55 2179 2207
+)
+"src/mincut.ml" 68 2646 2663 "src/mincut.ml" 68 2646 2684
+call(
+  stack
+)
+type(
+  int
+)
+"src/mincut.ml" 68 2646 2685 "src/mincut.ml" 68 2646 2686
+type(
+  int
+)
+ident(
+  int_ref x "src/mincut.ml" 62 2459 2473 "src/mincut.ml" 62 2459 2474
+)
+"src/mincut.ml" 68 2646 2658 "src/mincut.ml" 68 2646 2687
+call(
+  stack
+)
+type(
+  int
+)
+"src/mincut.ml" 67 2617 2627 "src/mincut.ml" 68 2646 2687
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mincut.ml" 69 2690 2700 "src/mincut.ml" 69 2690 2705
+type(
+  H.key list -> H.key -> (H.key * H.key list) list -> H.key list
+)
+ident(
+  int_ref step3 "src/mincut.ml" 55 2179 2187 "src/mincut.ml" 55 2179 2192
+)
+"src/mincut.ml" 69 2690 2706 "src/mincut.ml" 69 2690 2722
+type(
+  H.key list
+)
+ident(
+  int_ref other_successors "src/mincut.ml" 56 2246 2267 "src/mincut.ml" 56 2246 2283
+)
+"src/mincut.ml" 69 2690 2723 "src/mincut.ml" 69 2690 2726
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 55 2179 2204 "src/mincut.ml" 55 2179 2207
+)
+"src/mincut.ml" 69 2690 2727 "src/mincut.ml" 69 2690 2740
+type(
+  (H.key * H.key list) list
+)
+ident(
+  int_ref rest_of_stack "src/mincut.ml" 55 2179 2208 "src/mincut.ml" 55 2179 2221
+)
+"src/mincut.ml" 69 2690 2700 "src/mincut.ml" 69 2690 2740
+call(
+  tail
+)
+type(
+  H.key list
+)
+"src/mincut.ml" 67 2617 2627 "src/mincut.ml" 69 2690 2740
+type(
+  H.key list
+)
+"src/mincut.ml" 61 2440 2453 "src/mincut.ml" 70 2741 2752
+type(
+  H.key list
+)
+"src/mincut.ml" 57 2287 2295 "src/mincut.ml" 70 2741 2752
+type(
+  H.key list
+)
+"src/mincut.ml" 72 2754 2762 "src/mincut.ml" 72 2754 2764
+type(
+  H.key list
+)
+"src/mincut.ml" 74 2797 2810 "src/mincut.ml" 74 2797 2816
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/mincut.ml" 74 2797 2817 "src/mincut.ml" 74 2797 2825
+type(
+  int H.t
+)
+ident(
+  int_ref l_labels "src/mincut.ml" 34 1534 1542 "src/mincut.ml" 34 1534 1550
+)
+"src/mincut.ml" 74 2797 2826 "src/mincut.ml" 74 2797 2829
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 55 2179 2204 "src/mincut.ml" 55 2179 2207
+)
+"src/mincut.ml" 74 2797 2810 "src/mincut.ml" 74 2797 2829
+call(
+  stack
+)
+type(
+  int
+)
+"src/mincut.ml" 74 2797 2830 "src/mincut.ml" 74 2797 2831
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/mincut.ml" 74 2797 2832 "src/mincut.ml" 74 2797 2838
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/mincut.ml" 74 2797 2839 "src/mincut.ml" 74 2797 2847
+type(
+  int H.t
+)
+ident(
+  int_ref n_labels "src/mincut.ml" 33 1500 1508 "src/mincut.ml" 33 1500 1516
+)
+"src/mincut.ml" 74 2797 2848 "src/mincut.ml" 74 2797 2851
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 55 2179 2204 "src/mincut.ml" 55 2179 2207
+)
+"src/mincut.ml" 74 2797 2832 "src/mincut.ml" 74 2797 2851
+call(
+  stack
+)
+type(
+  int
+)
+"src/mincut.ml" 74 2797 2810 "src/mincut.ml" 74 2797 2851
+type(
+  bool
+)
+"src/mincut.ml" 76 2873 2885 "src/mincut.ml" 76 2873 2892
+type(
+  H.key list ref
+)
+ident(
+  int_ref cut_set "src/mincut.ml" 42 1780 1788 "src/mincut.ml" 42 1780 1795
+)
+"src/mincut.ml" 76 2873 2893 "src/mincut.ml" 76 2873 2895
+type(
+  H.key list ref -> H.key list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/mincut.ml" 76 2873 2896 "src/mincut.ml" 76 2873 2899
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 55 2179 2204 "src/mincut.ml" 55 2179 2207
+)
+"src/mincut.ml" 76 2873 2901 "src/mincut.ml" 76 2873 2902
+type(
+  H.key list ref -> H.key list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/mincut.ml" 76 2873 2902 "src/mincut.ml" 76 2873 2909
+type(
+  H.key list ref
+)
+ident(
+  int_ref cut_set "src/mincut.ml" 42 1780 1788 "src/mincut.ml" 42 1780 1795
+)
+"src/mincut.ml" 76 2873 2901 "src/mincut.ml" 76 2873 2909
+type(
+  H.key list
+)
+"src/mincut.ml" 76 2873 2896 "src/mincut.ml" 76 2873 2909
+type(
+  H.key list
+)
+"src/mincut.ml" 76 2873 2885 "src/mincut.ml" 76 2873 2909
+type(
+  unit
+)
+"src/mincut.ml" 77 2912 2924 "src/mincut.ml" 77 2912 2929
+type(
+  int H.t -> H.key -> int -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/mincut.ml" 77 2912 2930 "src/mincut.ml" 77 2912 2938
+type(
+  int H.t
+)
+ident(
+  int_ref l_labels "src/mincut.ml" 34 1534 1542 "src/mincut.ml" 34 1534 1550
+)
+"src/mincut.ml" 77 2912 2939 "src/mincut.ml" 77 2912 2942
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 55 2179 2204 "src/mincut.ml" 55 2179 2207
+)
+"src/mincut.ml" 77 2912 2943 "src/mincut.ml" 77 2912 2944
+type(
+  int
+)
+"src/mincut.ml" 77 2912 2924 "src/mincut.ml" 77 2912 2946
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mincut.ml" 75 2852 2867 "src/mincut.ml" 78 2947 2960
+type(
+  unit
+)
+"src/mincut.ml" 74 2797 2807 "src/mincut.ml" 78 2947 2960
+type(
+  unit
+)
+"src/mincut.ml" 81 3019 3032 "src/mincut.ml" 81 3019 3038
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/mincut.ml" 81 3019 3039 "src/mincut.ml" 81 3019 3047
+type(
+  int H.t
+)
+ident(
+  int_ref l_labels "src/mincut.ml" 34 1534 1542 "src/mincut.ml" 34 1534 1550
+)
+"src/mincut.ml" 81 3019 3048 "src/mincut.ml" 81 3019 3051
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 55 2179 2204 "src/mincut.ml" 55 2179 2207
+)
+"src/mincut.ml" 81 3019 3032 "src/mincut.ml" 81 3019 3051
+call(
+  stack
+)
+type(
+  int
+)
+"src/mincut.ml" 81 3019 3052 "src/mincut.ml" 81 3019 3053
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/mincut.ml" 81 3019 3054 "src/mincut.ml" 81 3019 3060
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/mincut.ml" 81 3019 3061 "src/mincut.ml" 81 3019 3069
+type(
+  int H.t
+)
+ident(
+  int_ref n_labels "src/mincut.ml" 33 1500 1508 "src/mincut.ml" 33 1500 1516
+)
+"src/mincut.ml" 81 3019 3070 "src/mincut.ml" 81 3019 3073
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 55 2179 2204 "src/mincut.ml" 55 2179 2207
+)
+"src/mincut.ml" 81 3019 3054 "src/mincut.ml" 81 3019 3073
+call(
+  stack
+)
+type(
+  int
+)
+"src/mincut.ml" 81 3019 3032 "src/mincut.ml" 81 3019 3073
+type(
+  bool
+)
+"src/mincut.ml" 82 3074 3089 "src/mincut.ml" 82 3074 3094
+type(
+  exn -> H.key list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/mincut.ml" 82 3074 3113 "src/mincut.ml" 82 3074 3148
+type(
+  string
+)
+"src/mincut.ml" 82 3074 3095 "src/mincut.ml" 82 3074 3149
+type(
+  exn
+)
+"src/mincut.ml" 82 3074 3089 "src/mincut.ml" 82 3074 3149
+type(
+  H.key list
+)
+"src/mincut.ml" 85 3174 3195 "src/mincut.ml" 85 3174 3208
+type(
+  (H.key * H.key list) list
+)
+ident(
+  int_ref rest_of_stack "src/mincut.ml" 55 2179 2208 "src/mincut.ml" 55 2179 2221
+)
+"src/mincut.ml" 86 3214 3228 "src/mincut.ml" 86 3214 3230
+type(
+  (H.key * H.key list) list
+)
+"src/mincut.ml" 86 3214 3234 "src/mincut.ml" 86 3214 3235
+type(
+  H.key list ref -> H.key list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/mincut.ml" 86 3214 3235 "src/mincut.ml" 86 3214 3242
+type(
+  H.key list ref
+)
+ident(
+  int_ref cut_set "src/mincut.ml" 42 1780 1788 "src/mincut.ml" 42 1780 1795
+)
+"src/mincut.ml" 86 3214 3234 "src/mincut.ml" 86 3214 3242
+type(
+  H.key list
+)
+"src/mincut.ml" 87 3257 3272 "src/mincut.ml" 87 3257 3279
+type(
+  H.key
+)
+ident(
+  def new_top "src/mincut.ml" 87 3257 3310 "src/mincut.ml" 92 3529 3546
+)
+"src/mincut.ml" 87 3257 3281 "src/mincut.ml" 87 3257 3295
+type(
+  H.key list
+)
+ident(
+  def new_successors "src/mincut.ml" 87 3257 3310 "src/mincut.ml" 92 3529 3546
+)
+"src/mincut.ml" 87 3257 3271 "src/mincut.ml" 87 3257 3296
+type(
+  H.key * H.key list
+)
+"src/mincut.ml" 87 3257 3298 "src/mincut.ml" 87 3257 3306
+type(
+  (H.key * H.key list) list
+)
+ident(
+  def new_tail "src/mincut.ml" 87 3257 3310 "src/mincut.ml" 92 3529 3546
+)
+"src/mincut.ml" 87 3257 3271 "src/mincut.ml" 87 3257 3306
+type(
+  (H.key * H.key list) list
+)
+"src/mincut.ml" 88 3316 3332 "src/mincut.ml" 88 3316 3337
+type(
+  bool H.t -> H.key -> bool -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/mincut.ml" 88 3316 3338 "src/mincut.ml" 88 3316 3350
+type(
+  bool H.t
+)
+ident(
+  int_ref on_the_stack "src/mincut.ml" 39 1682 1690 "src/mincut.ml" 39 1682 1702
+)
+"src/mincut.ml" 88 3316 3351 "src/mincut.ml" 88 3316 3354
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 55 2179 2204 "src/mincut.ml" 55 2179 2207
+)
+"src/mincut.ml" 88 3316 3355 "src/mincut.ml" 88 3316 3360
+type(
+  bool
+)
+"src/mincut.ml" 88 3316 3332 "src/mincut.ml" 88 3316 3360
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mincut.ml" 89 3362 3378 "src/mincut.ml" 89 3362 3383
+type(
+  int H.t -> H.key -> int -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/mincut.ml" 89 3362 3384 "src/mincut.ml" 89 3362 3392
+type(
+  int H.t
+)
+ident(
+  int_ref l_labels "src/mincut.ml" 34 1534 1542 "src/mincut.ml" 34 1534 1550
+)
+"src/mincut.ml" 89 3362 3393 "src/mincut.ml" 89 3362 3400
+type(
+  H.key
+)
+ident(
+  int_ref new_top "src/mincut.ml" 87 3257 3272 "src/mincut.ml" 87 3257 3279
+)
+"src/mincut.ml" 90 3401 3420 "src/mincut.ml" 90 3401 3423
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/mincut.ml" 90 3401 3425 "src/mincut.ml" 90 3401 3431
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/mincut.ml" 90 3401 3432 "src/mincut.ml" 90 3401 3440
+type(
+  int H.t
+)
+ident(
+  int_ref l_labels "src/mincut.ml" 34 1534 1542 "src/mincut.ml" 34 1534 1550
+)
+"src/mincut.ml" 90 3401 3441 "src/mincut.ml" 90 3401 3444
+type(
+  H.key
+)
+ident(
+  int_ref top "src/mincut.ml" 55 2179 2204 "src/mincut.ml" 55 2179 2207
+)
+"src/mincut.ml" 90 3401 3424 "src/mincut.ml" 90 3401 3445
+call(
+  stack
+)
+type(
+  int
+)
+"src/mincut.ml" 90 3401 3447 "src/mincut.ml" 90 3401 3453
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/mincut.ml" 90 3401 3454 "src/mincut.ml" 90 3401 3462
+type(
+  int H.t
+)
+ident(
+  int_ref l_labels "src/mincut.ml" 34 1534 1542 "src/mincut.ml" 34 1534 1550
+)
+"src/mincut.ml" 90 3401 3463 "src/mincut.ml" 90 3401 3470
+type(
+  H.key
+)
+ident(
+  int_ref new_top "src/mincut.ml" 87 3257 3272 "src/mincut.ml" 87 3257 3279
+)
+"src/mincut.ml" 90 3401 3446 "src/mincut.ml" 90 3401 3471
+call(
+  stack
+)
+type(
+  int
+)
+"src/mincut.ml" 90 3401 3419 "src/mincut.ml" 90 3401 3472
+call(
+  stack
+)
+type(
+  int
+)
+"src/mincut.ml" 89 3362 3378 "src/mincut.ml" 90 3401 3472
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mincut.ml" 91 3475 3491 "src/mincut.ml" 91 3475 3496
+type(
+  H.key list -> H.key -> (H.key * H.key list) list -> H.key list
+)
+ident(
+  int_ref step3 "src/mincut.ml" 55 2179 2187 "src/mincut.ml" 55 2179 2192
+)
+"src/mincut.ml" 91 3475 3497 "src/mincut.ml" 91 3475 3511
+type(
+  H.key list
+)
+ident(
+  int_ref new_successors "src/mincut.ml" 87 3257 3281 "src/mincut.ml" 87 3257 3295
+)
+"src/mincut.ml" 91 3475 3512 "src/mincut.ml" 91 3475 3519
+type(
+  H.key
+)
+ident(
+  int_ref new_top "src/mincut.ml" 87 3257 3272 "src/mincut.ml" 87 3257 3279
+)
+"src/mincut.ml" 91 3475 3520 "src/mincut.ml" 91 3475 3528
+type(
+  (H.key * H.key list) list
+)
+ident(
+  int_ref new_tail "src/mincut.ml" 87 3257 3298 "src/mincut.ml" 87 3257 3306
+)
+"src/mincut.ml" 91 3475 3491 "src/mincut.ml" 91 3475 3528
+call(
+  tail
+)
+type(
+  H.key list
+)
+"src/mincut.ml" 89 3362 3378 "src/mincut.ml" 91 3475 3528
+type(
+  H.key list
+)
+"src/mincut.ml" 87 3257 3310 "src/mincut.ml" 92 3529 3546
+type(
+  H.key list
+)
+"src/mincut.ml" 85 3174 3189 "src/mincut.ml" 92 3529 3546
+type(
+  H.key list
+)
+"src/mincut.ml" 81 3019 3029 "src/mincut.ml" 92 3529 3546
+type(
+  H.key list
+)
+"src/mincut.ml" 72 2754 2768 "src/mincut.ml" 93 3547 3558
+type(
+  H.key list
+)
+"src/mincut.ml" 55 2179 2224 "src/mincut.ml" 93 3547 3558
+type(
+  H.key list
+)
+"src/mincut.ml" 96 3580 3584 "src/mincut.ml" 96 3580 3589
+type(
+  H.key -> (H.key * H.key list) list -> H.key list
+)
+ident(
+  int_ref step2 "src/mincut.ml" 45 1836 1848 "src/mincut.ml" 45 1836 1853
+)
+"src/mincut.ml" 96 3580 3590 "src/mincut.ml" 96 3580 3600
+type(
+  H.key
+)
+ident(
+  int_ref first_node "src/mincut.ml" 32 1467 1487 "src/mincut.ml" 32 1467 1497
+)
+"src/mincut.ml" 96 3580 3601 "src/mincut.ml" 96 3580 3603
+type(
+  (H.key * H.key list) list
+)
+"src/mincut.ml" 96 3580 3584 "src/mincut.ml" 96 3580 3603
+call(
+  tail
+)
+type(
+  H.key list
+)
+"src/mincut.ml" 45 1836 1840 "src/mincut.ml" 96 3580 3603
+type(
+  H.key list
+)
+"src/mincut.ml" 43 1808 1812 "src/mincut.ml" 96 3580 3603
+type(
+  H.key list
+)
+"src/mincut.ml" 42 1780 1784 "src/mincut.ml" 96 3580 3603
+type(
+  H.key list
+)
+"src/mincut.ml" 40 1720 1724 "src/mincut.ml" 96 3580 3603
+type(
+  H.key list
+)
+"src/mincut.ml" 39 1682 1686 "src/mincut.ml" 96 3580 3603
+type(
+  H.key list
+)
+"src/mincut.ml" 37 1612 1616 "src/mincut.ml" 96 3580 3603
+type(
+  H.key list
+)
+"src/mincut.ml" 36 1569 1573 "src/mincut.ml" 96 3580 3603
+type(
+  H.key list
+)
+"src/mincut.ml" 34 1534 1538 "src/mincut.ml" 96 3580 3603
+type(
+  H.key list
+)
+"src/mincut.ml" 33 1500 1504 "src/mincut.ml" 96 3580 3603
+type(
+  H.key list
+)

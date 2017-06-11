@@ -1,0 +1,676 @@
+"lib/unionfind.ml" 40 1577 1590 "lib/unionfind.ml" 40 1577 1605
+call(
+  stack
+)
+"lib/unionfind.ml" 50 1727 1733 "lib/unionfind.ml" 50 1727 1737
+type(
+  elt list -> cell H.t
+)
+ident(
+  def init "lib/unionfind.ml" 59 1896 1898 "lib/unionfind.ml" 82 2405 2408
+)
+"lib/unionfind.ml" 50 1727 1738 "lib/unionfind.ml" 50 1727 1739
+type(
+  elt list
+)
+ident(
+  def l "lib/unionfind.ml" 51 1742 1746 "lib/unionfind.ml" 57 1889 1894
+)
+"lib/unionfind.ml" 51 1742 1750 "lib/unionfind.ml" 51 1742 1751
+type(
+  cell H.t
+)
+ident(
+  def h "lib/unionfind.ml" 52 1770 1774 "lib/unionfind.ml" 57 1889 1894
+)
+"lib/unionfind.ml" 51 1742 1754 "lib/unionfind.ml" 51 1742 1762
+type(
+  int -> cell H.t
+)
+ident(
+  ext_ref H.create
+)
+"lib/unionfind.ml" 51 1742 1763 "lib/unionfind.ml" 51 1742 1766
+type(
+  int
+)
+"lib/unionfind.ml" 51 1742 1754 "lib/unionfind.ml" 51 1742 1766
+call(
+  stack
+)
+type(
+  cell H.t
+)
+"lib/unionfind.ml" 52 1770 1774 "lib/unionfind.ml" 52 1770 1783
+type(
+  (elt -> unit) -> elt list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"lib/unionfind.ml" 53 1784 1795 "lib/unionfind.ml" 53 1784 1796
+type(
+  elt
+)
+ident(
+  def x "lib/unionfind.ml" 54 1800 1809 "lib/unionfind.ml" 55 1862 1878
+)
+"lib/unionfind.ml" 54 1800 1817 "lib/unionfind.ml" 54 1800 1821
+type(
+  cell
+)
+ident(
+  def cell "lib/unionfind.ml" 54 1800 1809 "lib/unionfind.ml" 55 1862 1878
+)
+"lib/unionfind.ml" 54 1800 1830 "lib/unionfind.ml" 54 1800 1831
+type(
+  int
+)
+"lib/unionfind.ml" 54 1800 1840 "lib/unionfind.ml" 54 1800 1841
+type(
+  elt
+)
+ident(
+  int_ref x "lib/unionfind.ml" 53 1784 1795 "lib/unionfind.ml" 53 1784 1796
+)
+"lib/unionfind.ml" 54 1800 1852 "lib/unionfind.ml" 54 1800 1856
+type(
+  cell
+)
+ident(
+  int_ref cell "lib/unionfind.ml" 54 1800 1817 "lib/unionfind.ml" 54 1800 1821
+)
+"lib/unionfind.ml" 54 1800 1824 "lib/unionfind.ml" 54 1800 1858
+type(
+  cell
+)
+"lib/unionfind.ml" 55 1862 1864 "lib/unionfind.ml" 55 1862 1869
+type(
+  cell H.t -> H.key -> cell -> unit
+)
+ident(
+  ext_ref H.add
+)
+"lib/unionfind.ml" 55 1862 1870 "lib/unionfind.ml" 55 1862 1871
+type(
+  cell H.t
+)
+ident(
+  int_ref h "lib/unionfind.ml" 51 1742 1750 "lib/unionfind.ml" 51 1742 1751
+)
+"lib/unionfind.ml" 55 1862 1872 "lib/unionfind.ml" 55 1862 1873
+type(
+  elt
+)
+ident(
+  int_ref x "lib/unionfind.ml" 53 1784 1795 "lib/unionfind.ml" 53 1784 1796
+)
+"lib/unionfind.ml" 55 1862 1874 "lib/unionfind.ml" 55 1862 1878
+type(
+  cell
+)
+ident(
+  int_ref cell "lib/unionfind.ml" 54 1800 1817 "lib/unionfind.ml" 54 1800 1821
+)
+"lib/unionfind.ml" 55 1862 1864 "lib/unionfind.ml" 55 1862 1878
+call(
+  tail
+)
+type(
+  unit
+)
+"lib/unionfind.ml" 54 1800 1809 "lib/unionfind.ml" 55 1862 1878
+type(
+  unit
+)
+"lib/unionfind.ml" 53 1784 1790 "lib/unionfind.ml" 55 1862 1879
+type(
+  elt -> unit
+)
+"lib/unionfind.ml" 56 1880 1886 "lib/unionfind.ml" 56 1880 1887
+type(
+  elt list
+)
+ident(
+  int_ref l "lib/unionfind.ml" 50 1727 1738 "lib/unionfind.ml" 50 1727 1739
+)
+"lib/unionfind.ml" 52 1770 1774 "lib/unionfind.ml" 56 1880 1887
+call(
+  stack
+)
+type(
+  unit
+)
+"lib/unionfind.ml" 57 1889 1893 "lib/unionfind.ml" 57 1889 1894
+type(
+  cell H.t
+)
+ident(
+  int_ref h "lib/unionfind.ml" 51 1742 1750 "lib/unionfind.ml" 51 1742 1751
+)
+"lib/unionfind.ml" 52 1770 1774 "lib/unionfind.ml" 57 1889 1894
+type(
+  cell H.t
+)
+"lib/unionfind.ml" 51 1742 1746 "lib/unionfind.ml" 57 1889 1894
+type(
+  cell H.t
+)
+"lib/unionfind.ml" 59 1896 1906 "lib/unionfind.ml" 59 1896 1914
+type(
+  cell -> cell
+)
+ident(
+  def find_aux "lib/unionfind.ml" 59 1896 1898 "lib/unionfind.ml" 82 2405 2408
+)
+"lib/unionfind.ml" 59 1896 1915 "lib/unionfind.ml" 59 1896 1919
+type(
+  cell
+)
+ident(
+  def cell "lib/unionfind.ml" 60 1922 1926 "lib/unionfind.ml" 65 2036 2043
+)
+"lib/unionfind.ml" 60 1922 1929 "lib/unionfind.ml" 60 1922 1933
+type(
+  cell
+)
+ident(
+  int_ref cell "lib/unionfind.ml" 59 1896 1915 "lib/unionfind.ml" 59 1896 1919
+)
+"lib/unionfind.ml" 60 1922 1929 "lib/unionfind.ml" 60 1922 1940
+type(
+  cell
+)
+"lib/unionfind.ml" 60 1922 1941 "lib/unionfind.ml" 60 1922 1943
+type(
+  cell -> cell -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"lib/unionfind.ml" 60 1922 1944 "lib/unionfind.ml" 60 1922 1948
+type(
+  cell
+)
+ident(
+  int_ref cell "lib/unionfind.ml" 59 1896 1915 "lib/unionfind.ml" 59 1896 1919
+)
+"lib/unionfind.ml" 60 1922 1929 "lib/unionfind.ml" 60 1922 1948
+type(
+  bool
+)
+"lib/unionfind.ml" 61 1954 1960 "lib/unionfind.ml" 61 1954 1964
+type(
+  cell
+)
+ident(
+  int_ref cell "lib/unionfind.ml" 59 1896 1915 "lib/unionfind.ml" 59 1896 1919
+)
+"lib/unionfind.ml" 63 1974 1984 "lib/unionfind.ml" 63 1974 1985
+type(
+  cell
+)
+ident(
+  def r "lib/unionfind.ml" 64 2012 2018 "lib/unionfind.ml" 65 2036 2043
+)
+"lib/unionfind.ml" 63 1974 1988 "lib/unionfind.ml" 63 1974 1996
+type(
+  cell -> cell
+)
+ident(
+  int_ref find_aux "lib/unionfind.ml" 59 1896 1906 "lib/unionfind.ml" 59 1896 1914
+)
+"lib/unionfind.ml" 63 1974 1997 "lib/unionfind.ml" 63 1974 2001
+type(
+  cell
+)
+ident(
+  int_ref cell "lib/unionfind.ml" 59 1896 1915 "lib/unionfind.ml" 59 1896 1919
+)
+"lib/unionfind.ml" 63 1974 1997 "lib/unionfind.ml" 63 1974 2008
+type(
+  cell
+)
+"lib/unionfind.ml" 63 1974 1988 "lib/unionfind.ml" 63 1974 2008
+call(
+  stack
+)
+type(
+  cell
+)
+"lib/unionfind.ml" 64 2012 2018 "lib/unionfind.ml" 64 2012 2022
+type(
+  cell
+)
+ident(
+  int_ref cell "lib/unionfind.ml" 59 1896 1915 "lib/unionfind.ml" 59 1896 1919
+)
+"lib/unionfind.ml" 64 2012 2033 "lib/unionfind.ml" 64 2012 2034
+type(
+  cell
+)
+ident(
+  int_ref r "lib/unionfind.ml" 63 1974 1984 "lib/unionfind.ml" 63 1974 1985
+)
+"lib/unionfind.ml" 64 2012 2018 "lib/unionfind.ml" 64 2012 2034
+type(
+  unit
+)
+"lib/unionfind.ml" 65 2036 2042 "lib/unionfind.ml" 65 2036 2043
+type(
+  cell
+)
+ident(
+  int_ref r "lib/unionfind.ml" 63 1974 1984 "lib/unionfind.ml" 63 1974 1985
+)
+"lib/unionfind.ml" 64 2012 2018 "lib/unionfind.ml" 65 2036 2043
+type(
+  cell
+)
+"lib/unionfind.ml" 63 1974 1980 "lib/unionfind.ml" 65 2036 2043
+type(
+  cell
+)
+"lib/unionfind.ml" 60 1922 1926 "lib/unionfind.ml" 65 2036 2043
+type(
+  cell
+)
+"lib/unionfind.ml" 67 2045 2051 "lib/unionfind.ml" 67 2045 2055
+type(
+  H.key -> cell H.t -> elt
+)
+ident(
+  def find "lib/unionfind.ml" 69 2092 2094 "lib/unionfind.ml" 82 2405 2408
+)
+"lib/unionfind.ml" 67 2045 2056 "lib/unionfind.ml" 67 2045 2057
+type(
+  H.key
+)
+ident(
+  def x "lib/unionfind.ml" 67 2045 2058 "lib/unionfind.ml" 67 2045 2090
+)
+"lib/unionfind.ml" 67 2045 2058 "lib/unionfind.ml" 67 2045 2059
+type(
+  cell H.t
+)
+ident(
+  def h "lib/unionfind.ml" 67 2045 2062 "lib/unionfind.ml" 67 2045 2090
+)
+"lib/unionfind.ml" 67 2045 2063 "lib/unionfind.ml" 67 2045 2071
+type(
+  cell -> cell
+)
+ident(
+  int_ref find_aux "lib/unionfind.ml" 59 1896 1906 "lib/unionfind.ml" 59 1896 1914
+)
+"lib/unionfind.ml" 67 2045 2073 "lib/unionfind.ml" 67 2045 2079
+type(
+  cell H.t -> H.key -> cell
+)
+ident(
+  ext_ref H.find
+)
+"lib/unionfind.ml" 67 2045 2080 "lib/unionfind.ml" 67 2045 2081
+type(
+  cell H.t
+)
+ident(
+  int_ref h "lib/unionfind.ml" 67 2045 2058 "lib/unionfind.ml" 67 2045 2059
+)
+"lib/unionfind.ml" 67 2045 2082 "lib/unionfind.ml" 67 2045 2083
+type(
+  H.key
+)
+ident(
+  int_ref x "lib/unionfind.ml" 67 2045 2056 "lib/unionfind.ml" 67 2045 2057
+)
+"lib/unionfind.ml" 67 2045 2072 "lib/unionfind.ml" 67 2045 2084
+call(
+  stack
+)
+type(
+  cell
+)
+"lib/unionfind.ml" 67 2045 2062 "lib/unionfind.ml" 67 2045 2085
+call(
+  stack
+)
+type(
+  cell
+)
+"lib/unionfind.ml" 67 2045 2062 "lib/unionfind.ml" 67 2045 2090
+type(
+  elt
+)
+"lib/unionfind.ml" 69 2092 2098 "lib/unionfind.ml" 69 2092 2103
+type(
+  H.key -> H.key -> cell H.t -> unit
+)
+ident(
+  def union "lib/unionfind.ml" 81 2397 2404 "lib/unionfind.ml" 82 2405 2408
+)
+"lib/unionfind.ml" 69 2092 2104 "lib/unionfind.ml" 69 2092 2105
+type(
+  H.key
+)
+ident(
+  def x "lib/unionfind.ml" 69 2092 2106 "lib/unionfind.ml" 81 2397 2404
+)
+"lib/unionfind.ml" 69 2092 2106 "lib/unionfind.ml" 69 2092 2107
+type(
+  H.key
+)
+ident(
+  def y "lib/unionfind.ml" 69 2092 2108 "lib/unionfind.ml" 81 2397 2404
+)
+"lib/unionfind.ml" 69 2092 2108 "lib/unionfind.ml" 69 2092 2109
+type(
+  cell H.t
+)
+ident(
+  def h "lib/unionfind.ml" 70 2112 2116 "lib/unionfind.ml" 81 2397 2404
+)
+"lib/unionfind.ml" 70 2112 2120 "lib/unionfind.ml" 70 2112 2122
+type(
+  cell
+)
+ident(
+  def rx "lib/unionfind.ml" 71 2150 2154 "lib/unionfind.ml" 81 2397 2404
+)
+"lib/unionfind.ml" 70 2112 2125 "lib/unionfind.ml" 70 2112 2133
+type(
+  cell -> cell
+)
+ident(
+  int_ref find_aux "lib/unionfind.ml" 59 1896 1906 "lib/unionfind.ml" 59 1896 1914
+)
+"lib/unionfind.ml" 70 2112 2135 "lib/unionfind.ml" 70 2112 2141
+type(
+  cell H.t -> H.key -> cell
+)
+ident(
+  ext_ref H.find
+)
+"lib/unionfind.ml" 70 2112 2142 "lib/unionfind.ml" 70 2112 2143
+type(
+  cell H.t
+)
+ident(
+  int_ref h "lib/unionfind.ml" 69 2092 2108 "lib/unionfind.ml" 69 2092 2109
+)
+"lib/unionfind.ml" 70 2112 2144 "lib/unionfind.ml" 70 2112 2145
+type(
+  H.key
+)
+ident(
+  int_ref x "lib/unionfind.ml" 69 2092 2104 "lib/unionfind.ml" 69 2092 2105
+)
+"lib/unionfind.ml" 70 2112 2134 "lib/unionfind.ml" 70 2112 2146
+call(
+  stack
+)
+type(
+  cell
+)
+"lib/unionfind.ml" 70 2112 2125 "lib/unionfind.ml" 70 2112 2146
+call(
+  stack
+)
+type(
+  cell
+)
+"lib/unionfind.ml" 71 2150 2158 "lib/unionfind.ml" 71 2150 2160
+type(
+  cell
+)
+ident(
+  def ry "lib/unionfind.ml" 72 2188 2192 "lib/unionfind.ml" 81 2397 2404
+)
+"lib/unionfind.ml" 71 2150 2163 "lib/unionfind.ml" 71 2150 2171
+type(
+  cell -> cell
+)
+ident(
+  int_ref find_aux "lib/unionfind.ml" 59 1896 1906 "lib/unionfind.ml" 59 1896 1914
+)
+"lib/unionfind.ml" 71 2150 2173 "lib/unionfind.ml" 71 2150 2179
+type(
+  cell H.t -> H.key -> cell
+)
+ident(
+  ext_ref H.find
+)
+"lib/unionfind.ml" 71 2150 2180 "lib/unionfind.ml" 71 2150 2181
+type(
+  cell H.t
+)
+ident(
+  int_ref h "lib/unionfind.ml" 69 2092 2108 "lib/unionfind.ml" 69 2092 2109
+)
+"lib/unionfind.ml" 71 2150 2182 "lib/unionfind.ml" 71 2150 2183
+type(
+  H.key
+)
+ident(
+  int_ref y "lib/unionfind.ml" 69 2092 2106 "lib/unionfind.ml" 69 2092 2107
+)
+"lib/unionfind.ml" 71 2150 2172 "lib/unionfind.ml" 71 2150 2184
+call(
+  stack
+)
+type(
+  cell
+)
+"lib/unionfind.ml" 71 2150 2163 "lib/unionfind.ml" 71 2150 2184
+call(
+  stack
+)
+type(
+  cell
+)
+"lib/unionfind.ml" 72 2188 2195 "lib/unionfind.ml" 72 2188 2197
+type(
+  cell
+)
+ident(
+  int_ref rx "lib/unionfind.ml" 70 2112 2120 "lib/unionfind.ml" 70 2112 2122
+)
+"lib/unionfind.ml" 72 2188 2198 "lib/unionfind.ml" 72 2188 2200
+type(
+  cell -> cell -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"lib/unionfind.ml" 72 2188 2201 "lib/unionfind.ml" 72 2188 2203
+type(
+  cell
+)
+ident(
+  int_ref ry "lib/unionfind.ml" 71 2150 2158 "lib/unionfind.ml" 71 2150 2160
+)
+"lib/unionfind.ml" 72 2188 2195 "lib/unionfind.ml" 72 2188 2203
+type(
+  bool
+)
+"lib/unionfind.ml" 73 2215 2224 "lib/unionfind.ml" 73 2215 2226
+type(
+  cell
+)
+ident(
+  int_ref rx "lib/unionfind.ml" 70 2112 2120 "lib/unionfind.ml" 70 2112 2122
+)
+"lib/unionfind.ml" 73 2215 2224 "lib/unionfind.ml" 73 2215 2228
+type(
+  int
+)
+"lib/unionfind.ml" 73 2215 2229 "lib/unionfind.ml" 73 2215 2230
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"lib/unionfind.ml" 73 2215 2231 "lib/unionfind.ml" 73 2215 2233
+type(
+  cell
+)
+ident(
+  int_ref ry "lib/unionfind.ml" 71 2150 2158 "lib/unionfind.ml" 71 2150 2160
+)
+"lib/unionfind.ml" 73 2215 2231 "lib/unionfind.ml" 73 2215 2235
+type(
+  int
+)
+"lib/unionfind.ml" 73 2215 2224 "lib/unionfind.ml" 73 2215 2235
+type(
+  bool
+)
+"lib/unionfind.ml" 74 2241 2249 "lib/unionfind.ml" 74 2241 2251
+type(
+  cell
+)
+ident(
+  int_ref ry "lib/unionfind.ml" 71 2150 2158 "lib/unionfind.ml" 71 2150 2160
+)
+"lib/unionfind.ml" 74 2241 2262 "lib/unionfind.ml" 74 2241 2264
+type(
+  cell
+)
+ident(
+  int_ref rx "lib/unionfind.ml" 70 2112 2120 "lib/unionfind.ml" 70 2112 2122
+)
+"lib/unionfind.ml" 74 2241 2249 "lib/unionfind.ml" 74 2241 2264
+type(
+  unit
+)
+"lib/unionfind.ml" 75 2265 2279 "lib/unionfind.ml" 75 2265 2281
+type(
+  cell
+)
+ident(
+  int_ref rx "lib/unionfind.ml" 70 2112 2120 "lib/unionfind.ml" 70 2112 2122
+)
+"lib/unionfind.ml" 75 2265 2279 "lib/unionfind.ml" 75 2265 2283
+type(
+  int
+)
+"lib/unionfind.ml" 75 2265 2284 "lib/unionfind.ml" 75 2265 2285
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"lib/unionfind.ml" 75 2265 2286 "lib/unionfind.ml" 75 2265 2288
+type(
+  cell
+)
+ident(
+  int_ref ry "lib/unionfind.ml" 71 2150 2158 "lib/unionfind.ml" 71 2150 2160
+)
+"lib/unionfind.ml" 75 2265 2286 "lib/unionfind.ml" 75 2265 2290
+type(
+  int
+)
+"lib/unionfind.ml" 75 2265 2279 "lib/unionfind.ml" 75 2265 2290
+type(
+  bool
+)
+"lib/unionfind.ml" 76 2296 2304 "lib/unionfind.ml" 76 2296 2306
+type(
+  cell
+)
+ident(
+  int_ref rx "lib/unionfind.ml" 70 2112 2120 "lib/unionfind.ml" 70 2112 2122
+)
+"lib/unionfind.ml" 76 2296 2317 "lib/unionfind.ml" 76 2296 2319
+type(
+  cell
+)
+ident(
+  int_ref ry "lib/unionfind.ml" 71 2150 2158 "lib/unionfind.ml" 71 2150 2160
+)
+"lib/unionfind.ml" 76 2296 2304 "lib/unionfind.ml" 76 2296 2319
+type(
+  unit
+)
+"lib/unionfind.ml" 78 2337 2345 "lib/unionfind.ml" 78 2337 2347
+type(
+  cell
+)
+ident(
+  int_ref rx "lib/unionfind.ml" 70 2112 2120 "lib/unionfind.ml" 70 2112 2122
+)
+"lib/unionfind.ml" 78 2337 2353 "lib/unionfind.ml" 78 2337 2355
+type(
+  cell
+)
+ident(
+  int_ref rx "lib/unionfind.ml" 70 2112 2120 "lib/unionfind.ml" 70 2112 2122
+)
+"lib/unionfind.ml" 78 2337 2353 "lib/unionfind.ml" 78 2337 2357
+type(
+  int
+)
+"lib/unionfind.ml" 78 2337 2358 "lib/unionfind.ml" 78 2337 2359
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lib/unionfind.ml" 78 2337 2360 "lib/unionfind.ml" 78 2337 2361
+type(
+  int
+)
+"lib/unionfind.ml" 78 2337 2353 "lib/unionfind.ml" 78 2337 2361
+type(
+  int
+)
+"lib/unionfind.ml" 78 2337 2345 "lib/unionfind.ml" 78 2337 2361
+type(
+  unit
+)
+"lib/unionfind.ml" 79 2363 2371 "lib/unionfind.ml" 79 2363 2373
+type(
+  cell
+)
+ident(
+  int_ref ry "lib/unionfind.ml" 71 2150 2158 "lib/unionfind.ml" 71 2150 2160
+)
+"lib/unionfind.ml" 79 2363 2384 "lib/unionfind.ml" 79 2363 2386
+type(
+  cell
+)
+ident(
+  int_ref rx "lib/unionfind.ml" 70 2112 2120 "lib/unionfind.ml" 70 2112 2122
+)
+"lib/unionfind.ml" 79 2363 2371 "lib/unionfind.ml" 79 2363 2386
+type(
+  unit
+)
+"lib/unionfind.ml" 77 2320 2331 "lib/unionfind.ml" 80 2387 2396
+type(
+  unit
+)
+"lib/unionfind.ml" 75 2265 2276 "lib/unionfind.ml" 80 2387 2396
+type(
+  unit
+)
+"lib/unionfind.ml" 72 2188 2209 "lib/unionfind.ml" 81 2397 2404
+type(
+  unit
+)
+"lib/unionfind.ml" 72 2188 2192 "lib/unionfind.ml" 81 2397 2404
+type(
+  unit
+)
+"lib/unionfind.ml" 71 2150 2154 "lib/unionfind.ml" 81 2397 2404
+type(
+  unit
+)
+"lib/unionfind.ml" 70 2112 2116 "lib/unionfind.ml" 81 2397 2404
+type(
+  unit
+)

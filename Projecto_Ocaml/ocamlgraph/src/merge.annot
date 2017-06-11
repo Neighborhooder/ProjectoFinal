@@ -1,0 +1,5230 @@
+"src/merge.ml" 44 2011 2017 "src/merge.ml" 44 2011 2020
+type(
+  B.G.V.t -> B.G.V.t list -> bool
+)
+ident(
+  def mem "src/merge.ml" 46 2071 2073 "src/merge.ml" 226 8158 8161
+)
+"src/merge.ml" 44 2011 2021 "src/merge.ml" 44 2011 2022
+type(
+  B.G.V.t
+)
+ident(
+  def x "src/merge.ml" 44 2011 2023 "src/merge.ml" 44 2011 2069
+)
+"src/merge.ml" 44 2011 2023 "src/merge.ml" 44 2011 2025
+type(
+  B.G.V.t list
+)
+ident(
+  def ec "src/merge.ml" 44 2011 2028 "src/merge.ml" 44 2011 2069
+)
+"src/merge.ml" 44 2011 2028 "src/merge.ml" 44 2011 2039
+type(
+  (B.G.V.t -> bool) -> B.G.V.t list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"src/merge.ml" 44 2011 2045 "src/merge.ml" 44 2011 2046
+type(
+  B.G.V.t
+)
+ident(
+  def y "src/merge.ml" 44 2011 2050 "src/merge.ml" 44 2011 2065
+)
+"src/merge.ml" 44 2011 2050 "src/merge.ml" 44 2011 2061
+type(
+  B.G.V.t -> B.G.V.t -> bool
+)
+ident(
+  ext_ref B.G.V.equal
+)
+"src/merge.ml" 44 2011 2062 "src/merge.ml" 44 2011 2063
+type(
+  B.G.V.t
+)
+ident(
+  int_ref x "src/merge.ml" 44 2011 2021 "src/merge.ml" 44 2011 2022
+)
+"src/merge.ml" 44 2011 2064 "src/merge.ml" 44 2011 2065
+type(
+  B.G.V.t
+)
+ident(
+  int_ref y "src/merge.ml" 44 2011 2045 "src/merge.ml" 44 2011 2046
+)
+"src/merge.ml" 44 2011 2050 "src/merge.ml" 44 2011 2065
+call(
+  tail
+)
+type(
+  bool
+)
+"src/merge.ml" 44 2011 2040 "src/merge.ml" 44 2011 2066
+type(
+  B.G.V.t -> bool
+)
+"src/merge.ml" 44 2011 2067 "src/merge.ml" 44 2011 2069
+type(
+  B.G.V.t list
+)
+ident(
+  int_ref ec "src/merge.ml" 44 2011 2023 "src/merge.ml" 44 2011 2025
+)
+"src/merge.ml" 44 2011 2028 "src/merge.ml" 44 2011 2069
+call(
+  tail
+)
+type(
+  bool
+)
+"src/merge.ml" 46 2071 2077 "src/merge.ml" 46 2071 2085
+type(
+  B.G.V.t -> B.G.V.t list -> bool * B.G.V.t
+)
+ident(
+  def identify "src/merge.ml" 50 2186 2188 "src/merge.ml" 226 8158 8161
+)
+"src/merge.ml" 46 2071 2086 "src/merge.ml" 46 2071 2087
+type(
+  B.G.V.t
+)
+ident(
+  def x "src/merge.ml" 46 2071 2088 "src/merge.ml" 48 2129 2184
+)
+"src/merge.ml" 46 2071 2088 "src/merge.ml" 46 2071 2090
+type(
+  B.G.V.t list
+)
+ident(
+  def ec "src/merge.ml" 46 2071 2093 "src/merge.ml" 48 2129 2184
+)
+"src/merge.ml" 46 2071 2099 "src/merge.ml" 46 2071 2101
+type(
+  B.G.V.t list
+)
+ident(
+  int_ref ec "src/merge.ml" 46 2071 2088 "src/merge.ml" 46 2071 2090
+)
+"src/merge.ml" 47 2107 2113 "src/merge.ml" 47 2107 2115
+type(
+  B.G.V.t list
+)
+"src/merge.ml" 47 2107 2119 "src/merge.ml" 47 2107 2124
+type(
+  bool
+)
+"src/merge.ml" 47 2107 2127 "src/merge.ml" 47 2107 2128
+type(
+  B.G.V.t
+)
+ident(
+  int_ref x "src/merge.ml" 46 2071 2086 "src/merge.ml" 46 2071 2087
+)
+"src/merge.ml" 47 2107 2119 "src/merge.ml" 47 2107 2128
+type(
+  bool * B.G.V.t
+)
+"src/merge.ml" 48 2129 2135 "src/merge.ml" 48 2129 2136
+type(
+  B.G.V.t
+)
+ident(
+  def y "src/merge.ml" 48 2129 2146 "src/merge.ml" 48 2129 2184
+)
+"src/merge.ml" 48 2129 2140 "src/merge.ml" 48 2129 2142
+type(
+  B.G.V.t list
+)
+ident(
+  def ec "src/merge.ml" 48 2129 2146 "src/merge.ml" 48 2129 2184
+)
+"src/merge.ml" 48 2129 2135 "src/merge.ml" 48 2129 2142
+type(
+  B.G.V.t list
+)
+"src/merge.ml" 48 2129 2149 "src/merge.ml" 48 2129 2152
+type(
+  B.G.V.t -> B.G.V.t list -> bool
+)
+ident(
+  int_ref mem "src/merge.ml" 44 2011 2017 "src/merge.ml" 44 2011 2020
+)
+"src/merge.ml" 48 2129 2153 "src/merge.ml" 48 2129 2154
+type(
+  B.G.V.t
+)
+ident(
+  int_ref x "src/merge.ml" 46 2071 2086 "src/merge.ml" 46 2071 2087
+)
+"src/merge.ml" 48 2129 2155 "src/merge.ml" 48 2129 2157
+type(
+  B.G.V.t list
+)
+ident(
+  int_ref ec "src/merge.ml" 48 2129 2140 "src/merge.ml" 48 2129 2142
+)
+"src/merge.ml" 48 2129 2149 "src/merge.ml" 48 2129 2157
+call(
+  stack
+)
+type(
+  bool
+)
+"src/merge.ml" 48 2129 2163 "src/merge.ml" 48 2129 2167
+type(
+  bool
+)
+"src/merge.ml" 48 2129 2169 "src/merge.ml" 48 2129 2170
+type(
+  B.G.V.t
+)
+ident(
+  int_ref y "src/merge.ml" 48 2129 2135 "src/merge.ml" 48 2129 2136
+)
+"src/merge.ml" 48 2129 2163 "src/merge.ml" 48 2129 2170
+type(
+  bool * B.G.V.t
+)
+"src/merge.ml" 48 2129 2176 "src/merge.ml" 48 2129 2181
+type(
+  bool
+)
+"src/merge.ml" 48 2129 2183 "src/merge.ml" 48 2129 2184
+type(
+  B.G.V.t
+)
+ident(
+  int_ref x "src/merge.ml" 46 2071 2086 "src/merge.ml" 46 2071 2087
+)
+"src/merge.ml" 48 2129 2176 "src/merge.ml" 48 2129 2184
+type(
+  bool * B.G.V.t
+)
+"src/merge.ml" 48 2129 2146 "src/merge.ml" 48 2129 2184
+type(
+  bool * B.G.V.t
+)
+"src/merge.ml" 46 2071 2093 "src/merge.ml" 48 2129 2184
+type(
+  bool * B.G.V.t
+)
+"src/merge.ml" 50 2186 2192 "src/merge.ml" 50 2186 2212
+type(
+  B.G.t -> B.G.E.vertex list -> B.G.E.t list
+)
+ident(
+  def identify_extremities "src/merge.ml" 72 2867 2869 "src/merge.ml" 226 8158 8161
+)
+"src/merge.ml" 50 2186 2213 "src/merge.ml" 50 2186 2214
+type(
+  B.G.t
+)
+ident(
+  def g "src/merge.ml" 50 2186 2215 "src/merge.ml" 58 2422 2449
+)
+"src/merge.ml" 50 2186 2215 "src/merge.ml" 50 2186 2217
+type(
+  B.G.E.vertex list
+)
+ident(
+  def vl "src/merge.ml" 51 2220 2224 "src/merge.ml" 58 2422 2449
+)
+"src/merge.ml" 51 2220 2228 "src/merge.ml" 51 2220 2229
+type(
+  B.G.E.t -> B.G.E.t list -> B.G.E.t list
+)
+ident(
+  def f "src/merge.ml" 58 2422 2426 "src/merge.ml" 58 2422 2449
+)
+"src/merge.ml" 51 2220 2230 "src/merge.ml" 51 2220 2231
+type(
+  B.G.E.t
+)
+ident(
+  def e "src/merge.ml" 51 2220 2232 "src/merge.ml" 56 2399 2414
+)
+"src/merge.ml" 51 2220 2232 "src/merge.ml" 51 2220 2236
+type(
+  B.G.E.t list
+)
+ident(
+  def accu "src/merge.ml" 52 2239 2245 "src/merge.ml" 56 2399 2414
+)
+"src/merge.ml" 52 2239 2249 "src/merge.ml" 52 2239 2251
+type(
+  bool
+)
+ident(
+  def sx "src/merge.ml" 53 2286 2292 "src/merge.ml" 56 2399 2414
+)
+"src/merge.ml" 52 2239 2253 "src/merge.ml" 52 2239 2254
+type(
+  B.G.E.vertex
+)
+ident(
+  def x "src/merge.ml" 53 2286 2292 "src/merge.ml" 56 2399 2414
+)
+"src/merge.ml" 52 2239 2249 "src/merge.ml" 52 2239 2254
+type(
+  bool * B.G.E.vertex
+)
+"src/merge.ml" 52 2239 2257 "src/merge.ml" 52 2239 2265
+type(
+  B.G.E.vertex -> B.G.E.vertex list -> bool * B.G.E.vertex
+)
+ident(
+  int_ref identify "src/merge.ml" 46 2071 2077 "src/merge.ml" 46 2071 2085
+)
+"src/merge.ml" 52 2239 2267 "src/merge.ml" 52 2239 2276
+type(
+  B.G.E.t -> B.G.E.vertex
+)
+ident(
+  ext_ref B.G.E.src
+)
+"src/merge.ml" 52 2239 2277 "src/merge.ml" 52 2239 2278
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 51 2220 2230 "src/merge.ml" 51 2220 2231
+)
+"src/merge.ml" 52 2239 2266 "src/merge.ml" 52 2239 2279
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 52 2239 2280 "src/merge.ml" 52 2239 2282
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref vl "src/merge.ml" 50 2186 2215 "src/merge.ml" 50 2186 2217
+)
+"src/merge.ml" 52 2239 2257 "src/merge.ml" 52 2239 2282
+call(
+  stack
+)
+type(
+  bool * B.G.E.vertex
+)
+"src/merge.ml" 53 2286 2296 "src/merge.ml" 53 2286 2298
+type(
+  bool
+)
+ident(
+  def sy "src/merge.ml" 54 2333 2339 "src/merge.ml" 56 2399 2414
+)
+"src/merge.ml" 53 2286 2300 "src/merge.ml" 53 2286 2301
+type(
+  B.G.E.vertex
+)
+ident(
+  def y "src/merge.ml" 54 2333 2339 "src/merge.ml" 56 2399 2414
+)
+"src/merge.ml" 53 2286 2296 "src/merge.ml" 53 2286 2301
+type(
+  bool * B.G.E.vertex
+)
+"src/merge.ml" 53 2286 2304 "src/merge.ml" 53 2286 2312
+type(
+  B.G.E.vertex -> B.G.E.vertex list -> bool * B.G.E.vertex
+)
+ident(
+  int_ref identify "src/merge.ml" 46 2071 2077 "src/merge.ml" 46 2071 2085
+)
+"src/merge.ml" 53 2286 2314 "src/merge.ml" 53 2286 2323
+type(
+  B.G.E.t -> B.G.E.vertex
+)
+ident(
+  ext_ref B.G.E.dst
+)
+"src/merge.ml" 53 2286 2324 "src/merge.ml" 53 2286 2325
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 51 2220 2230 "src/merge.ml" 51 2220 2231
+)
+"src/merge.ml" 53 2286 2313 "src/merge.ml" 53 2286 2326
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 53 2286 2327 "src/merge.ml" 53 2286 2329
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref vl "src/merge.ml" 50 2186 2215 "src/merge.ml" 50 2186 2217
+)
+"src/merge.ml" 53 2286 2304 "src/merge.ml" 53 2286 2329
+call(
+  stack
+)
+type(
+  bool * B.G.E.vertex
+)
+"src/merge.ml" 54 2333 2342 "src/merge.ml" 54 2333 2344
+type(
+  bool
+)
+ident(
+  int_ref sx "src/merge.ml" 52 2239 2249 "src/merge.ml" 52 2239 2251
+)
+"src/merge.ml" 54 2333 2345 "src/merge.ml" 54 2333 2347
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/merge.ml" 54 2333 2348 "src/merge.ml" 54 2333 2350
+type(
+  bool
+)
+ident(
+  int_ref sy "src/merge.ml" 53 2286 2296 "src/merge.ml" 53 2286 2298
+)
+"src/merge.ml" 54 2333 2342 "src/merge.ml" 54 2333 2350
+type(
+  bool
+)
+"src/merge.ml" 55 2351 2369 "src/merge.ml" 55 2351 2375
+type(
+  B.G.E.vertex -> B.G.E.label -> B.G.E.vertex -> B.G.E.t
+)
+ident(
+  ext_ref B.G.E.create
+)
+"src/merge.ml" 55 2351 2376 "src/merge.ml" 55 2351 2377
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref x "src/merge.ml" 52 2239 2253 "src/merge.ml" 52 2239 2254
+)
+"src/merge.ml" 55 2351 2379 "src/merge.ml" 55 2351 2384
+type(
+  B.G.E.t -> B.G.E.label
+)
+ident(
+  ext_ref B.G.E.label
+)
+"src/merge.ml" 55 2351 2385 "src/merge.ml" 55 2351 2386
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 51 2220 2230 "src/merge.ml" 51 2220 2231
+)
+"src/merge.ml" 55 2351 2378 "src/merge.ml" 55 2351 2387
+call(
+  stack
+)
+type(
+  B.G.E.label
+)
+"src/merge.ml" 55 2351 2388 "src/merge.ml" 55 2351 2389
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref y "src/merge.ml" 53 2286 2300 "src/merge.ml" 53 2286 2301
+)
+"src/merge.ml" 55 2351 2369 "src/merge.ml" 55 2351 2389
+call(
+  stack
+)
+type(
+  B.G.E.t
+)
+"src/merge.ml" 55 2351 2394 "src/merge.ml" 55 2351 2398
+type(
+  B.G.E.t list
+)
+ident(
+  int_ref accu "src/merge.ml" 51 2220 2232 "src/merge.ml" 51 2220 2236
+)
+"src/merge.ml" 55 2351 2362 "src/merge.ml" 55 2351 2398
+type(
+  B.G.E.t list
+)
+"src/merge.ml" 56 2399 2410 "src/merge.ml" 56 2399 2414
+type(
+  B.G.E.t list
+)
+ident(
+  int_ref accu "src/merge.ml" 51 2220 2232 "src/merge.ml" 51 2220 2236
+)
+"src/merge.ml" 54 2333 2339 "src/merge.ml" 56 2399 2414
+type(
+  B.G.E.t list
+)
+"src/merge.ml" 53 2286 2292 "src/merge.ml" 56 2399 2414
+type(
+  B.G.E.t list
+)
+"src/merge.ml" 52 2239 2245 "src/merge.ml" 56 2399 2414
+type(
+  B.G.E.t list
+)
+"src/merge.ml" 58 2422 2426 "src/merge.ml" 58 2422 2442
+type(
+  (B.G.edge -> B.G.E.t list -> B.G.E.t list) ->
+  B.G.t -> B.G.E.t list -> B.G.E.t list
+)
+ident(
+  ext_ref B.G.fold_edges_e
+)
+"src/merge.ml" 58 2422 2443 "src/merge.ml" 58 2422 2444
+type(
+  B.G.edge -> B.G.E.t list -> B.G.E.t list
+)
+ident(
+  int_ref f "src/merge.ml" 51 2220 2228 "src/merge.ml" 51 2220 2229
+)
+"src/merge.ml" 58 2422 2445 "src/merge.ml" 58 2422 2446
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 50 2186 2213 "src/merge.ml" 50 2186 2214
+)
+"src/merge.ml" 58 2422 2447 "src/merge.ml" 58 2422 2449
+type(
+  B.G.E.t list
+)
+"src/merge.ml" 58 2422 2426 "src/merge.ml" 58 2422 2449
+call(
+  tail
+)
+type(
+  B.G.E.t list
+)
+"src/merge.ml" 51 2220 2224 "src/merge.ml" 58 2422 2449
+type(
+  B.G.E.t list
+)
+"src/merge.ml" 72 2867 2873 "src/merge.ml" 72 2867 2885
+type(
+  B.G.t -> B.G.E.vertex list -> B.G.t
+)
+ident(
+  def merge_vertex "src/merge.ml" 81 3154 3156 "src/merge.ml" 226 8158 8161
+)
+"src/merge.ml" 72 2867 2886 "src/merge.ml" 72 2867 2887
+type(
+  B.G.t
+)
+ident(
+  def g "src/merge.ml" 72 2867 2888 "src/merge.ml" 79 3100 3152
+)
+"src/merge.ml" 72 2867 2888 "src/merge.ml" 72 2867 2890
+type(
+  B.G.E.vertex list
+)
+ident(
+  def vl "src/merge.ml" 72 2867 2893 "src/merge.ml" 79 3100 3152
+)
+"src/merge.ml" 72 2867 2899 "src/merge.ml" 72 2867 2901
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref vl "src/merge.ml" 72 2867 2888 "src/merge.ml" 72 2867 2890
+)
+"src/merge.ml" 73 2907 2913 "src/merge.ml" 73 2907 2915
+type(
+  B.G.E.vertex list
+)
+"src/merge.ml" 73 2907 2919 "src/merge.ml" 73 2907 2920
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 72 2867 2886 "src/merge.ml" 72 2867 2887
+)
+"src/merge.ml" 74 2921 2927 "src/merge.ml" 74 2921 2928
+type(
+  B.G.E.vertex
+)
+ident(
+  def v "src/merge.ml" 75 2939 2945 "src/merge.ml" 79 3100 3152
+)
+"src/merge.ml" 74 2921 2932 "src/merge.ml" 74 2921 2935
+type(
+  B.G.E.vertex list
+)
+ident(
+  def vl' "src/merge.ml" 75 2939 2945 "src/merge.ml" 79 3100 3152
+)
+"src/merge.ml" 74 2921 2927 "src/merge.ml" 74 2921 2935
+type(
+  B.G.E.vertex list
+)
+"src/merge.ml" 75 2939 2949 "src/merge.ml" 75 2939 2960
+type(
+  B.G.E.t list
+)
+ident(
+  def to_be_added "src/merge.ml" 76 2992 2998 "src/merge.ml" 79 3100 3152
+)
+"src/merge.ml" 75 2939 2963 "src/merge.ml" 75 2939 2983
+type(
+  B.G.t -> B.G.E.vertex list -> B.G.E.t list
+)
+ident(
+  int_ref identify_extremities "src/merge.ml" 50 2186 2192 "src/merge.ml" 50 2186 2212
+)
+"src/merge.ml" 75 2939 2984 "src/merge.ml" 75 2939 2985
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 72 2867 2886 "src/merge.ml" 72 2867 2887
+)
+"src/merge.ml" 75 2939 2986 "src/merge.ml" 75 2939 2988
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref vl "src/merge.ml" 72 2867 2888 "src/merge.ml" 72 2867 2890
+)
+"src/merge.ml" 75 2939 2963 "src/merge.ml" 75 2939 2988
+call(
+  stack
+)
+type(
+  B.G.E.t list
+)
+"src/merge.ml" 76 2992 3002 "src/merge.ml" 76 2992 3003
+type(
+  B.G.t
+)
+ident(
+  def g "src/merge.ml" 77 3046 3052 "src/merge.ml" 79 3100 3152
+)
+"src/merge.ml" 76 2992 3006 "src/merge.ml" 76 2992 3020
+type(
+  (B.G.t -> B.G.E.vertex -> B.G.t) -> B.G.t -> B.G.E.vertex list -> B.G.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/merge.ml" 76 2992 3021 "src/merge.ml" 76 2992 3036
+type(
+  B.G.t -> B.G.E.vertex -> B.G.t
+)
+ident(
+  ext_ref B.remove_vertex
+)
+"src/merge.ml" 76 2992 3037 "src/merge.ml" 76 2992 3038
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 72 2867 2886 "src/merge.ml" 72 2867 2887
+)
+"src/merge.ml" 76 2992 3039 "src/merge.ml" 76 2992 3042
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref vl' "src/merge.ml" 74 2921 2932 "src/merge.ml" 74 2921 2935
+)
+"src/merge.ml" 76 2992 3006 "src/merge.ml" 76 2992 3042
+call(
+  stack
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 77 3046 3055 "src/merge.ml" 77 3046 3066
+type(
+  B.G.E.t list
+)
+ident(
+  int_ref to_be_added "src/merge.ml" 75 2939 2949 "src/merge.ml" 75 2939 2960
+)
+"src/merge.ml" 77 3046 3067 "src/merge.ml" 77 3046 3068
+type(
+  B.G.E.t list -> B.G.E.t list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/merge.ml" 77 3046 3069 "src/merge.ml" 77 3046 3071
+type(
+  B.G.E.t list
+)
+"src/merge.ml" 77 3046 3055 "src/merge.ml" 77 3046 3071
+type(
+  bool
+)
+"src/merge.ml" 78 3072 3083 "src/merge.ml" 78 3072 3095
+type(
+  B.G.t -> B.G.E.vertex -> B.G.t
+)
+ident(
+  ext_ref B.add_vertex
+)
+"src/merge.ml" 78 3072 3096 "src/merge.ml" 78 3072 3097
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 76 2992 3002 "src/merge.ml" 76 2992 3003
+)
+"src/merge.ml" 78 3072 3098 "src/merge.ml" 78 3072 3099
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 74 2921 2927 "src/merge.ml" 74 2921 2928
+)
+"src/merge.ml" 78 3072 3083 "src/merge.ml" 78 3072 3099
+call(
+  tail
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 79 3100 3111 "src/merge.ml" 79 3100 3125
+type(
+  (B.G.t -> B.G.E.t -> B.G.t) -> B.G.t -> B.G.E.t list -> B.G.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/merge.ml" 79 3100 3126 "src/merge.ml" 79 3100 3138
+type(
+  B.G.t -> B.G.E.t -> B.G.t
+)
+ident(
+  ext_ref B.add_edge_e
+)
+"src/merge.ml" 79 3100 3139 "src/merge.ml" 79 3100 3140
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 76 2992 3002 "src/merge.ml" 76 2992 3003
+)
+"src/merge.ml" 79 3100 3141 "src/merge.ml" 79 3100 3152
+type(
+  B.G.E.t list
+)
+ident(
+  int_ref to_be_added "src/merge.ml" 75 2939 2949 "src/merge.ml" 75 2939 2960
+)
+"src/merge.ml" 79 3100 3111 "src/merge.ml" 79 3100 3152
+call(
+  tail
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 77 3046 3052 "src/merge.ml" 79 3100 3152
+type(
+  B.G.t
+)
+"src/merge.ml" 76 2992 2998 "src/merge.ml" 79 3100 3152
+type(
+  B.G.t
+)
+"src/merge.ml" 75 2939 2945 "src/merge.ml" 79 3100 3152
+type(
+  B.G.t
+)
+"src/merge.ml" 72 2867 2893 "src/merge.ml" 79 3100 3152
+type(
+  B.G.t
+)
+"src/merge.ml" 81 3154 3160 "src/merge.ml" 81 3154 3173
+type(
+  ?src:B.G.E.vertex -> ?dst:B.G.E.vertex -> B.G.t -> B.G.edge list -> B.G.t
+)
+ident(
+  def merge_edges_e "src/merge.ml" 113 4381 4383 "src/merge.ml" 226 8158 8161
+)
+"src/merge.ml" 81 3154 3175 "src/merge.ml" 81 3154 3178
+type(
+  B.G.E.vertex option
+)
+ident(
+  def src "src/merge.ml" 81 3154 3179 "src/merge.ml" 111 4366 4379
+)
+"src/merge.ml" 81 3154 3180 "src/merge.ml" 81 3154 3183
+type(
+  B.G.E.vertex option
+)
+ident(
+  def dst "src/merge.ml" 81 3154 3184 "src/merge.ml" 111 4366 4379
+)
+"src/merge.ml" 81 3154 3184 "src/merge.ml" 81 3154 3185
+type(
+  B.G.t
+)
+ident(
+  def g "src/merge.ml" 81 3154 3186 "src/merge.ml" 111 4366 4379
+)
+"src/merge.ml" 81 3154 3186 "src/merge.ml" 81 3154 3188
+type(
+  B.G.edge list
+)
+ident(
+  def el "src/merge.ml" 81 3154 3191 "src/merge.ml" 111 4366 4379
+)
+"src/merge.ml" 81 3154 3197 "src/merge.ml" 81 3154 3199
+type(
+  B.G.edge list
+)
+ident(
+  int_ref el "src/merge.ml" 81 3154 3186 "src/merge.ml" 81 3154 3188
+)
+"src/merge.ml" 82 3205 3211 "src/merge.ml" 82 3205 3212
+type(
+  B.G.edge
+)
+ident(
+  def e "src/merge.ml" 83 3223 3229 "src/merge.ml" 110 4353 4365
+)
+"src/merge.ml" 82 3205 3216 "src/merge.ml" 82 3205 3219
+type(
+  B.G.edge list
+)
+ident(
+  def el' "src/merge.ml" 83 3223 3229 "src/merge.ml" 110 4353 4365
+)
+"src/merge.ml" 82 3205 3211 "src/merge.ml" 82 3205 3219
+type(
+  B.G.edge list
+)
+"src/merge.ml" 83 3223 3233 "src/merge.ml" 83 3223 3236
+type(
+  B.G.edge list
+)
+ident(
+  def el' "src/merge.ml" 84 3277 3283 "src/merge.ml" 110 4353 4365
+)
+"src/merge.ml" 83 3223 3239 "src/merge.ml" 83 3223 3250
+type(
+  (B.G.edge -> bool) -> B.G.edge list -> B.G.edge list
+)
+ident(
+  ext_ref List.filter
+)
+"src/merge.ml" 83 3223 3252 "src/merge.ml" 83 3223 3266
+type(
+  B.G.t -> B.G.edge -> bool
+)
+ident(
+  ext_ref B.G.mem_edge_e
+)
+"src/merge.ml" 83 3223 3267 "src/merge.ml" 83 3223 3268
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 81 3154 3184 "src/merge.ml" 81 3154 3185
+)
+"src/merge.ml" 83 3223 3251 "src/merge.ml" 83 3223 3269
+call(
+  stack
+)
+type(
+  B.G.edge -> bool
+)
+"src/merge.ml" 83 3223 3270 "src/merge.ml" 83 3223 3273
+type(
+  B.G.edge list
+)
+ident(
+  int_ref el' "src/merge.ml" 82 3205 3216 "src/merge.ml" 82 3205 3219
+)
+"src/merge.ml" 83 3223 3239 "src/merge.ml" 83 3223 3273
+call(
+  stack
+)
+type(
+  B.G.edge list
+)
+"src/merge.ml" 84 3277 3286 "src/merge.ml" 84 3277 3289
+type(
+  B.G.edge list
+)
+ident(
+  int_ref el' "src/merge.ml" 83 3223 3233 "src/merge.ml" 83 3223 3236
+)
+"src/merge.ml" 84 3277 3290 "src/merge.ml" 84 3277 3292
+type(
+  B.G.edge list -> B.G.edge list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/merge.ml" 84 3277 3293 "src/merge.ml" 84 3277 3295
+type(
+  B.G.edge list
+)
+"src/merge.ml" 84 3277 3286 "src/merge.ml" 84 3277 3295
+type(
+  bool
+)
+"src/merge.ml" 86 3307 3320 "src/merge.ml" 86 3307 3322
+type(
+  B.G.edge list
+)
+ident(
+  def el "src/merge.ml" 87 3337 3346 "src/merge.ml" 109 4297 4351
+)
+"src/merge.ml" 86 3307 3325 "src/merge.ml" 86 3307 3326
+type(
+  B.G.edge
+)
+ident(
+  int_ref e "src/merge.ml" 82 3205 3211 "src/merge.ml" 82 3205 3212
+)
+"src/merge.ml" 86 3307 3330 "src/merge.ml" 86 3307 3333
+type(
+  B.G.edge list
+)
+ident(
+  int_ref el' "src/merge.ml" 83 3223 3233 "src/merge.ml" 83 3223 3236
+)
+"src/merge.ml" 86 3307 3325 "src/merge.ml" 86 3307 3333
+type(
+  B.G.edge list
+)
+"src/merge.ml" 87 3337 3350 "src/merge.ml" 87 3337 3361
+type(
+  B.G.E.t -> B.G.E.vertex * B.G.E.vertex
+)
+ident(
+  def extremities "src/merge.ml" 88 3390 3399 "src/merge.ml" 109 4297 4351
+)
+"src/merge.ml" 87 3337 3362 "src/merge.ml" 87 3337 3363
+type(
+  B.G.E.t
+)
+ident(
+  def e "src/merge.ml" 87 3337 3366 "src/merge.ml" 87 3337 3386
+)
+"src/merge.ml" 87 3337 3373 "src/merge.ml" 87 3337 3376
+type(
+  B.G.E.t -> B.G.E.vertex
+)
+ident(
+  ext_ref B.G.E.src
+)
+"src/merge.ml" 87 3337 3377 "src/merge.ml" 87 3337 3378
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 87 3337 3362 "src/merge.ml" 87 3337 3363
+)
+"src/merge.ml" 87 3337 3373 "src/merge.ml" 87 3337 3378
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 87 3337 3380 "src/merge.ml" 87 3337 3383
+type(
+  B.G.E.t -> B.G.E.vertex
+)
+ident(
+  ext_ref B.G.E.dst
+)
+"src/merge.ml" 87 3337 3384 "src/merge.ml" 87 3337 3385
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 87 3337 3362 "src/merge.ml" 87 3337 3363
+)
+"src/merge.ml" 87 3337 3380 "src/merge.ml" 87 3337 3385
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 87 3337 3373 "src/merge.ml" 87 3337 3385
+type(
+  B.G.E.vertex * B.G.E.vertex
+)
+"src/merge.ml" 88 3390 3403 "src/merge.ml" 88 3390 3410
+type(
+  B.G.E.vertex list
+)
+ident(
+  def sources "src/merge.ml" 89 3468 3477 "src/merge.ml" 109 4297 4351
+)
+"src/merge.ml" 88 3390 3413 "src/merge.ml" 88 3390 3425
+type(
+  B.G.E.vertex list
+)
+ident(
+  def destinations "src/merge.ml" 89 3468 3477 "src/merge.ml" 109 4297 4351
+)
+"src/merge.ml" 88 3390 3403 "src/merge.ml" 88 3390 3425
+type(
+  B.G.E.vertex list * B.G.E.vertex list
+)
+"src/merge.ml" 88 3390 3428 "src/merge.ml" 88 3390 3438
+type(
+  (B.G.E.vertex * B.G.E.vertex) list -> B.G.E.vertex list * B.G.E.vertex list
+)
+ident(
+  ext_ref List.split
+)
+"src/merge.ml" 88 3390 3440 "src/merge.ml" 88 3390 3448
+type(
+  (B.G.edge -> B.G.E.vertex * B.G.E.vertex) ->
+  B.G.edge list -> (B.G.E.vertex * B.G.E.vertex) list
+)
+ident(
+  ext_ref List.map
+)
+"src/merge.ml" 88 3390 3449 "src/merge.ml" 88 3390 3460
+type(
+  B.G.edge -> B.G.E.vertex * B.G.E.vertex
+)
+ident(
+  int_ref extremities "src/merge.ml" 87 3337 3350 "src/merge.ml" 87 3337 3361
+)
+"src/merge.ml" 88 3390 3461 "src/merge.ml" 88 3390 3463
+type(
+  B.G.edge list
+)
+ident(
+  int_ref el "src/merge.ml" 86 3307 3320 "src/merge.ml" 86 3307 3322
+)
+"src/merge.ml" 88 3390 3439 "src/merge.ml" 88 3390 3464
+call(
+  stack
+)
+type(
+  (B.G.E.vertex * B.G.E.vertex) list
+)
+"src/merge.ml" 88 3390 3428 "src/merge.ml" 88 3390 3464
+call(
+  stack
+)
+type(
+  B.G.E.vertex list * B.G.E.vertex list
+)
+"src/merge.ml" 89 3468 3481 "src/merge.ml" 89 3468 3487
+type(
+  B.G.t -> B.G.E.t -> B.G.t
+)
+ident(
+  def remove "src/merge.ml" 92 3578 3587 "src/merge.ml" 109 4297 4351
+)
+"src/merge.ml" 89 3468 3488 "src/merge.ml" 89 3468 3492
+type(
+  B.G.t
+)
+ident(
+  def accu "src/merge.ml" 89 3468 3493 "src/merge.ml" 91 3535 3574
+)
+"src/merge.ml" 89 3468 3493 "src/merge.ml" 89 3468 3494
+type(
+  B.G.E.t
+)
+ident(
+  def e "src/merge.ml" 90 3497 3508 "src/merge.ml" 91 3535 3574
+)
+"src/merge.ml" 90 3497 3512 "src/merge.ml" 90 3497 3527
+type(
+  B.G.t -> B.G.E.t -> B.G.t
+)
+ident(
+  ext_ref B.remove_edge_e
+)
+"src/merge.ml" 90 3497 3528 "src/merge.ml" 90 3497 3532
+type(
+  B.G.t
+)
+ident(
+  int_ref accu "src/merge.ml" 89 3468 3488 "src/merge.ml" 89 3468 3492
+)
+"src/merge.ml" 90 3497 3533 "src/merge.ml" 90 3497 3534
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 89 3468 3493 "src/merge.ml" 89 3468 3494
+)
+"src/merge.ml" 90 3497 3512 "src/merge.ml" 90 3497 3534
+call(
+  stack
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 91 3535 3568 "src/merge.ml" 91 3535 3569
+type(
+  string
+)
+"src/merge.ml" 91 3535 3551 "src/merge.ml" 91 3535 3569
+type(
+  exn
+)
+"src/merge.ml" 91 3535 3573 "src/merge.ml" 91 3535 3574
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 81 3154 3184 "src/merge.ml" 81 3154 3185
+)
+"src/merge.ml" 90 3497 3508 "src/merge.ml" 91 3535 3574
+type(
+  B.G.t
+)
+"src/merge.ml" 92 3578 3591 "src/merge.ml" 92 3578 3592
+type(
+  B.G.t
+)
+ident(
+  def g "src/merge.ml" 93 3625 3634 "src/merge.ml" 109 4297 4351
+)
+"src/merge.ml" 92 3578 3595 "src/merge.ml" 92 3578 3609
+type(
+  (B.G.t -> B.G.edge -> B.G.t) -> B.G.t -> B.G.edge list -> B.G.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/merge.ml" 92 3578 3610 "src/merge.ml" 92 3578 3616
+type(
+  B.G.t -> B.G.edge -> B.G.t
+)
+ident(
+  int_ref remove "src/merge.ml" 89 3468 3481 "src/merge.ml" 89 3468 3487
+)
+"src/merge.ml" 92 3578 3617 "src/merge.ml" 92 3578 3618
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 81 3154 3184 "src/merge.ml" 81 3154 3185
+)
+"src/merge.ml" 92 3578 3619 "src/merge.ml" 92 3578 3621
+type(
+  B.G.edge list
+)
+ident(
+  int_ref el "src/merge.ml" 86 3307 3320 "src/merge.ml" 86 3307 3322
+)
+"src/merge.ml" 92 3578 3595 "src/merge.ml" 92 3578 3621
+call(
+  stack
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 93 3625 3637 "src/merge.ml" 93 3625 3648
+type(
+  (B.G.E.vertex -> bool) -> B.G.E.vertex list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"src/merge.ml" 93 3625 3654 "src/merge.ml" 93 3625 3655
+type(
+  B.G.E.vertex
+)
+ident(
+  def v "src/merge.ml" 93 3625 3659 "src/merge.ml" 93 3625 3677
+)
+"src/merge.ml" 93 3625 3659 "src/merge.ml" 93 3625 3662
+type(
+  B.G.E.vertex -> B.G.E.vertex list -> bool
+)
+ident(
+  int_ref mem "src/merge.ml" 44 2011 2017 "src/merge.ml" 44 2011 2020
+)
+"src/merge.ml" 93 3625 3663 "src/merge.ml" 93 3625 3664
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 93 3625 3654 "src/merge.ml" 93 3625 3655
+)
+"src/merge.ml" 93 3625 3665 "src/merge.ml" 93 3625 3677
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref destinations "src/merge.ml" 88 3390 3413 "src/merge.ml" 88 3390 3425
+)
+"src/merge.ml" 93 3625 3659 "src/merge.ml" 93 3625 3677
+call(
+  tail
+)
+type(
+  bool
+)
+"src/merge.ml" 93 3625 3649 "src/merge.ml" 93 3625 3678
+type(
+  B.G.E.vertex -> bool
+)
+"src/merge.ml" 93 3625 3679 "src/merge.ml" 93 3625 3686
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref sources "src/merge.ml" 88 3390 3403 "src/merge.ml" 88 3390 3410
+)
+"src/merge.ml" 93 3625 3637 "src/merge.ml" 93 3625 3686
+call(
+  stack
+)
+type(
+  bool
+)
+"src/merge.ml" 94 3692 3707 "src/merge.ml" 94 3692 3708
+type(
+  B.G.E.vertex
+)
+ident(
+  def v "src/merge.ml" 100 3883 3894 "src/merge.ml" 101 3950 4004
+)
+"src/merge.ml" 94 3692 3717 "src/merge.ml" 94 3692 3720
+type(
+  B.G.E.vertex option
+)
+ident(
+  int_ref src "src/merge.ml" 81 3154 3175 "src/merge.ml" 81 3154 3178
+)
+"src/merge.ml" 95 3726 3741 "src/merge.ml" 95 3726 3745
+type(
+  B.G.E.vertex option
+)
+"src/merge.ml" 96 3749 3771 "src/merge.ml" 96 3749 3774
+type(
+  B.G.E.vertex option
+)
+ident(
+  int_ref dst "src/merge.ml" 81 3154 3180 "src/merge.ml" 81 3154 3183
+)
+"src/merge.ml" 97 3780 3798 "src/merge.ml" 97 3780 3802
+type(
+  B.G.E.vertex option
+)
+"src/merge.ml" 97 3780 3806 "src/merge.ml" 97 3780 3813
+type(
+  B.G.E.vertex list -> B.G.E.vertex
+)
+ident(
+  ext_ref List.hd
+)
+"src/merge.ml" 97 3780 3814 "src/merge.ml" 97 3780 3821
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref sources "src/merge.ml" 88 3390 3403 "src/merge.ml" 88 3390 3410
+)
+"src/merge.ml" 97 3780 3806 "src/merge.ml" 97 3780 3821
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 98 3822 3845 "src/merge.ml" 98 3822 3846
+type(
+  B.G.E.vertex
+)
+ident(
+  def w "src/merge.ml" 98 3822 3850 "src/merge.ml" 98 3822 3851
+)
+"src/merge.ml" 98 3822 3840 "src/merge.ml" 98 3822 3846
+type(
+  B.G.E.vertex option
+)
+"src/merge.ml" 98 3822 3850 "src/merge.ml" 98 3822 3851
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref w "src/merge.ml" 98 3822 3845 "src/merge.ml" 98 3822 3846
+)
+"src/merge.ml" 96 3749 3764 "src/merge.ml" 98 3822 3852
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 99 3853 3873 "src/merge.ml" 99 3853 3874
+type(
+  B.G.E.vertex
+)
+ident(
+  def v "src/merge.ml" 99 3853 3878 "src/merge.ml" 99 3853 3879
+)
+"src/merge.ml" 99 3853 3868 "src/merge.ml" 99 3853 3874
+type(
+  B.G.E.vertex option
+)
+"src/merge.ml" 99 3853 3878 "src/merge.ml" 99 3853 3879
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 99 3853 3873 "src/merge.ml" 99 3853 3874
+)
+"src/merge.ml" 94 3692 3711 "src/merge.ml" 99 3853 3879
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 100 3883 3898 "src/merge.ml" 100 3883 3899
+type(
+  B.G.t
+)
+ident(
+  def g "src/merge.ml" 101 3950 3961 "src/merge.ml" 101 3950 4004
+)
+"src/merge.ml" 100 3883 3902 "src/merge.ml" 100 3883 3914
+type(
+  B.G.t -> B.G.E.vertex list -> B.G.t
+)
+ident(
+  int_ref merge_vertex "src/merge.ml" 72 2867 2873 "src/merge.ml" 72 2867 2885
+)
+"src/merge.ml" 100 3883 3915 "src/merge.ml" 100 3883 3916
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 92 3578 3591 "src/merge.ml" 92 3578 3592
+)
+"src/merge.ml" 100 3883 3918 "src/merge.ml" 100 3883 3919
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 94 3692 3707 "src/merge.ml" 94 3692 3708
+)
+"src/merge.ml" 100 3883 3923 "src/merge.ml" 100 3883 3930
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref sources "src/merge.ml" 88 3390 3403 "src/merge.ml" 88 3390 3410
+)
+"src/merge.ml" 100 3883 3918 "src/merge.ml" 100 3883 3930
+type(
+  B.G.E.vertex list
+)
+"src/merge.ml" 100 3883 3931 "src/merge.ml" 100 3883 3932
+type(
+  B.G.E.vertex list -> B.G.E.vertex list -> B.G.E.vertex list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/merge.ml" 100 3883 3933 "src/merge.ml" 100 3883 3945
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref destinations "src/merge.ml" 88 3390 3413 "src/merge.ml" 88 3390 3425
+)
+"src/merge.ml" 100 3883 3917 "src/merge.ml" 100 3883 3946
+call(
+  stack
+)
+type(
+  B.G.E.vertex list
+)
+"src/merge.ml" 100 3883 3902 "src/merge.ml" 100 3883 3946
+call(
+  stack
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 101 3950 3961 "src/merge.ml" 101 3950 3973
+type(
+  B.G.t -> B.G.E.t -> B.G.t
+)
+ident(
+  ext_ref B.add_edge_e
+)
+"src/merge.ml" 101 3950 3974 "src/merge.ml" 101 3950 3975
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 100 3883 3898 "src/merge.ml" 100 3883 3899
+)
+"src/merge.ml" 101 3950 3983 "src/merge.ml" 101 3950 3989
+type(
+  B.G.E.vertex -> B.G.E.label -> B.G.E.vertex -> B.G.E.t
+)
+ident(
+  ext_ref B.G.E.create
+)
+"src/merge.ml" 101 3950 3990 "src/merge.ml" 101 3950 3991
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 94 3692 3707 "src/merge.ml" 94 3692 3708
+)
+"src/merge.ml" 101 3950 3993 "src/merge.ml" 101 3950 3998
+type(
+  B.G.edge -> B.G.E.label
+)
+ident(
+  ext_ref B.G.E.label
+)
+"src/merge.ml" 101 3950 3999 "src/merge.ml" 101 3950 4000
+type(
+  B.G.edge
+)
+ident(
+  int_ref e "src/merge.ml" 82 3205 3211 "src/merge.ml" 82 3205 3212
+)
+"src/merge.ml" 101 3950 3992 "src/merge.ml" 101 3950 4001
+call(
+  stack
+)
+type(
+  B.G.E.label
+)
+"src/merge.ml" 101 3950 4002 "src/merge.ml" 101 3950 4003
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 94 3692 3707 "src/merge.ml" 94 3692 3708
+)
+"src/merge.ml" 101 3950 3983 "src/merge.ml" 101 3950 4003
+call(
+  stack
+)
+type(
+  B.G.E.t
+)
+"src/merge.ml" 101 3950 3961 "src/merge.ml" 101 3950 4004
+call(
+  tail
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 100 3883 3894 "src/merge.ml" 101 3950 4004
+type(
+  B.G.t
+)
+"src/merge.ml" 94 3692 3703 "src/merge.ml" 101 3950 4004
+type(
+  B.G.t
+)
+"src/merge.ml" 103 4019 4034 "src/merge.ml" 103 4019 4035
+type(
+  B.G.E.vertex
+)
+ident(
+  def v "src/merge.ml" 104 4094 4105 "src/merge.ml" 109 4297 4351
+)
+"src/merge.ml" 103 4019 4044 "src/merge.ml" 103 4019 4047
+type(
+  B.G.E.vertex option
+)
+ident(
+  int_ref src "src/merge.ml" 81 3154 3175 "src/merge.ml" 81 3154 3178
+)
+"src/merge.ml" 103 4019 4053 "src/merge.ml" 103 4019 4057
+type(
+  B.G.E.vertex option
+)
+"src/merge.ml" 103 4019 4061 "src/merge.ml" 103 4019 4068
+type(
+  B.G.E.vertex list -> B.G.E.vertex
+)
+ident(
+  ext_ref List.hd
+)
+"src/merge.ml" 103 4019 4069 "src/merge.ml" 103 4019 4076
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref sources "src/merge.ml" 88 3390 3403 "src/merge.ml" 88 3390 3410
+)
+"src/merge.ml" 103 4019 4061 "src/merge.ml" 103 4019 4076
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 103 4019 4084 "src/merge.ml" 103 4019 4085
+type(
+  B.G.E.vertex
+)
+ident(
+  def v "src/merge.ml" 103 4019 4089 "src/merge.ml" 103 4019 4090
+)
+"src/merge.ml" 103 4019 4079 "src/merge.ml" 103 4019 4085
+type(
+  B.G.E.vertex option
+)
+"src/merge.ml" 103 4019 4089 "src/merge.ml" 103 4019 4090
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 103 4019 4084 "src/merge.ml" 103 4019 4085
+)
+"src/merge.ml" 103 4019 4038 "src/merge.ml" 103 4019 4090
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 104 4094 4109 "src/merge.ml" 104 4094 4110
+type(
+  B.G.E.vertex
+)
+ident(
+  def w "src/merge.ml" 107 4202 4213 "src/merge.ml" 109 4297 4351
+)
+"src/merge.ml" 104 4094 4119 "src/merge.ml" 104 4094 4122
+type(
+  B.G.E.vertex option
+)
+ident(
+  int_ref src "src/merge.ml" 81 3154 3175 "src/merge.ml" 81 3154 3178
+)
+"src/merge.ml" 105 4128 4143 "src/merge.ml" 105 4128 4147
+type(
+  B.G.E.vertex option
+)
+"src/merge.ml" 105 4128 4151 "src/merge.ml" 105 4128 4158
+type(
+  B.G.E.vertex list -> B.G.E.vertex
+)
+ident(
+  ext_ref List.hd
+)
+"src/merge.ml" 105 4128 4159 "src/merge.ml" 105 4128 4171
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref destinations "src/merge.ml" 88 3390 3413 "src/merge.ml" 88 3390 3425
+)
+"src/merge.ml" 105 4128 4151 "src/merge.ml" 105 4128 4171
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 106 4172 4192 "src/merge.ml" 106 4172 4193
+type(
+  B.G.E.vertex
+)
+ident(
+  def w "src/merge.ml" 106 4172 4197 "src/merge.ml" 106 4172 4198
+)
+"src/merge.ml" 106 4172 4187 "src/merge.ml" 106 4172 4193
+type(
+  B.G.E.vertex option
+)
+"src/merge.ml" 106 4172 4197 "src/merge.ml" 106 4172 4198
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref w "src/merge.ml" 106 4172 4192 "src/merge.ml" 106 4172 4193
+)
+"src/merge.ml" 104 4094 4113 "src/merge.ml" 106 4172 4198
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 107 4202 4217 "src/merge.ml" 107 4202 4218
+type(
+  B.G.t
+)
+ident(
+  def g "src/merge.ml" 108 4247 4258 "src/merge.ml" 109 4297 4351
+)
+"src/merge.ml" 107 4202 4221 "src/merge.ml" 107 4202 4233
+type(
+  B.G.t -> B.G.E.vertex list -> B.G.t
+)
+ident(
+  int_ref merge_vertex "src/merge.ml" 72 2867 2873 "src/merge.ml" 72 2867 2885
+)
+"src/merge.ml" 107 4202 4234 "src/merge.ml" 107 4202 4235
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 92 3578 3591 "src/merge.ml" 92 3578 3592
+)
+"src/merge.ml" 107 4202 4236 "src/merge.ml" 107 4202 4243
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref sources "src/merge.ml" 88 3390 3403 "src/merge.ml" 88 3390 3410
+)
+"src/merge.ml" 107 4202 4221 "src/merge.ml" 107 4202 4243
+call(
+  stack
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 108 4247 4262 "src/merge.ml" 108 4247 4263
+type(
+  B.G.t
+)
+ident(
+  def g "src/merge.ml" 109 4297 4308 "src/merge.ml" 109 4297 4351
+)
+"src/merge.ml" 108 4247 4266 "src/merge.ml" 108 4247 4278
+type(
+  B.G.t -> B.G.E.vertex list -> B.G.t
+)
+ident(
+  int_ref merge_vertex "src/merge.ml" 72 2867 2873 "src/merge.ml" 72 2867 2885
+)
+"src/merge.ml" 108 4247 4279 "src/merge.ml" 108 4247 4280
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 107 4202 4217 "src/merge.ml" 107 4202 4218
+)
+"src/merge.ml" 108 4247 4281 "src/merge.ml" 108 4247 4293
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref destinations "src/merge.ml" 88 3390 3413 "src/merge.ml" 88 3390 3425
+)
+"src/merge.ml" 108 4247 4266 "src/merge.ml" 108 4247 4293
+call(
+  stack
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 109 4297 4308 "src/merge.ml" 109 4297 4320
+type(
+  B.G.t -> B.G.E.t -> B.G.t
+)
+ident(
+  ext_ref B.add_edge_e
+)
+"src/merge.ml" 109 4297 4321 "src/merge.ml" 109 4297 4322
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 108 4247 4262 "src/merge.ml" 108 4247 4263
+)
+"src/merge.ml" 109 4297 4330 "src/merge.ml" 109 4297 4336
+type(
+  B.G.E.vertex -> B.G.E.label -> B.G.E.vertex -> B.G.E.t
+)
+ident(
+  ext_ref B.G.E.create
+)
+"src/merge.ml" 109 4297 4337 "src/merge.ml" 109 4297 4338
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 103 4019 4034 "src/merge.ml" 103 4019 4035
+)
+"src/merge.ml" 109 4297 4340 "src/merge.ml" 109 4297 4345
+type(
+  B.G.edge -> B.G.E.label
+)
+ident(
+  ext_ref B.G.E.label
+)
+"src/merge.ml" 109 4297 4346 "src/merge.ml" 109 4297 4347
+type(
+  B.G.edge
+)
+ident(
+  int_ref e "src/merge.ml" 82 3205 3211 "src/merge.ml" 82 3205 3212
+)
+"src/merge.ml" 109 4297 4339 "src/merge.ml" 109 4297 4348
+call(
+  stack
+)
+type(
+  B.G.E.label
+)
+"src/merge.ml" 109 4297 4349 "src/merge.ml" 109 4297 4350
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref w "src/merge.ml" 104 4094 4109 "src/merge.ml" 104 4094 4110
+)
+"src/merge.ml" 109 4297 4330 "src/merge.ml" 109 4297 4350
+call(
+  stack
+)
+type(
+  B.G.E.t
+)
+"src/merge.ml" 109 4297 4308 "src/merge.ml" 109 4297 4351
+call(
+  tail
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 108 4247 4258 "src/merge.ml" 109 4297 4351
+type(
+  B.G.t
+)
+"src/merge.ml" 107 4202 4213 "src/merge.ml" 109 4297 4351
+type(
+  B.G.t
+)
+"src/merge.ml" 104 4094 4105 "src/merge.ml" 109 4297 4351
+type(
+  B.G.t
+)
+"src/merge.ml" 103 4019 4030 "src/merge.ml" 109 4297 4351
+type(
+  B.G.t
+)
+"src/merge.ml" 93 3625 3634 "src/merge.ml" 109 4297 4351
+type(
+  B.G.t
+)
+"src/merge.ml" 92 3578 3587 "src/merge.ml" 109 4297 4351
+type(
+  B.G.t
+)
+"src/merge.ml" 89 3468 3477 "src/merge.ml" 109 4297 4351
+type(
+  B.G.t
+)
+"src/merge.ml" 88 3390 3399 "src/merge.ml" 109 4297 4351
+type(
+  B.G.t
+)
+"src/merge.ml" 87 3337 3346 "src/merge.ml" 109 4297 4351
+type(
+  B.G.t
+)
+"src/merge.ml" 86 3307 3315 "src/merge.ml" 109 4297 4352
+type(
+  B.G.t
+)
+"src/merge.ml" 110 4353 4364 "src/merge.ml" 110 4353 4365
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 81 3154 3184 "src/merge.ml" 81 3154 3185
+)
+"src/merge.ml" 84 3277 3283 "src/merge.ml" 110 4353 4365
+type(
+  B.G.t
+)
+"src/merge.ml" 83 3223 3229 "src/merge.ml" 110 4353 4365
+type(
+  B.G.t
+)
+"src/merge.ml" 111 4366 4372 "src/merge.ml" 111 4366 4374
+type(
+  B.G.edge list
+)
+"src/merge.ml" 111 4366 4378 "src/merge.ml" 111 4366 4379
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 81 3154 3184 "src/merge.ml" 81 3154 3185
+)
+"src/merge.ml" 81 3154 3191 "src/merge.ml" 111 4366 4379
+type(
+  B.G.t
+)
+"src/merge.ml" 113 4381 4387 "src/merge.ml" 113 4381 4409
+type(
+  ?src:B.G.E.vertex ->
+  ?dst:B.G.E.vertex -> ?label:B.G.E.label -> B.G.t -> B.G.E.label -> B.G.t
+)
+ident(
+  def merge_edges_with_label "src/merge.ml" 129 4876 4878 "src/merge.ml" 226 8158 8161
+)
+"src/merge.ml" 113 4381 4411 "src/merge.ml" 113 4381 4414
+type(
+  B.G.E.vertex option
+)
+ident(
+  def src "src/merge.ml" 113 4381 4415 "src/merge.ml" 124 4734 4782
+)
+"src/merge.ml" 113 4381 4416 "src/merge.ml" 113 4381 4419
+type(
+  B.G.E.vertex option
+)
+ident(
+  def dst "src/merge.ml" 113 4381 4420 "src/merge.ml" 124 4734 4782
+)
+"src/merge.ml" 113 4381 4421 "src/merge.ml" 113 4381 4426
+type(
+  B.G.E.label option
+)
+ident(
+  def label "src/merge.ml" 113 4381 4427 "src/merge.ml" 124 4734 4782
+)
+"src/merge.ml" 113 4381 4427 "src/merge.ml" 113 4381 4428
+type(
+  B.G.t
+)
+ident(
+  def g "src/merge.ml" 113 4381 4429 "src/merge.ml" 124 4734 4782
+)
+"src/merge.ml" 113 4381 4429 "src/merge.ml" 113 4381 4430
+type(
+  B.G.E.label
+)
+ident(
+  def l "src/merge.ml" 114 4433 4437 "src/merge.ml" 124 4734 4782
+)
+"src/merge.ml" 114 4433 4441 "src/merge.ml" 114 4433 4453
+type(
+  B.G.E.t -> B.G.E.t
+)
+ident(
+  def update_label "src/merge.ml" 118 4551 4555 "src/merge.ml" 124 4734 4782
+)
+"src/merge.ml" 114 4433 4454 "src/merge.ml" 114 4433 4455
+type(
+  B.G.E.t
+)
+ident(
+  def e "src/merge.ml" 114 4433 4458 "src/merge.ml" 116 4493 4543
+)
+"src/merge.ml" 114 4433 4464 "src/merge.ml" 114 4433 4469
+type(
+  B.G.E.label option
+)
+ident(
+  int_ref label "src/merge.ml" 113 4381 4421 "src/merge.ml" 113 4381 4426
+)
+"src/merge.ml" 115 4475 4483 "src/merge.ml" 115 4475 4487
+type(
+  B.G.E.label option
+)
+"src/merge.ml" 115 4475 4491 "src/merge.ml" 115 4475 4492
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 114 4433 4454 "src/merge.ml" 114 4433 4455
+)
+"src/merge.ml" 116 4493 4506 "src/merge.ml" 116 4493 4507
+type(
+  B.G.E.label
+)
+ident(
+  def l "src/merge.ml" 116 4493 4511 "src/merge.ml" 116 4493 4543
+)
+"src/merge.ml" 116 4493 4501 "src/merge.ml" 116 4493 4507
+type(
+  B.G.E.label option
+)
+"src/merge.ml" 116 4493 4518 "src/merge.ml" 116 4493 4524
+type(
+  B.G.E.vertex -> B.G.E.label -> B.G.E.vertex -> B.G.E.t
+)
+ident(
+  ext_ref B.G.E.create
+)
+"src/merge.ml" 116 4493 4526 "src/merge.ml" 116 4493 4529
+type(
+  B.G.E.t -> B.G.E.vertex
+)
+ident(
+  ext_ref B.G.E.src
+)
+"src/merge.ml" 116 4493 4530 "src/merge.ml" 116 4493 4531
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 114 4433 4454 "src/merge.ml" 114 4433 4455
+)
+"src/merge.ml" 116 4493 4525 "src/merge.ml" 116 4493 4532
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 116 4493 4533 "src/merge.ml" 116 4493 4534
+type(
+  B.G.E.label
+)
+ident(
+  int_ref l "src/merge.ml" 116 4493 4506 "src/merge.ml" 116 4493 4507
+)
+"src/merge.ml" 116 4493 4536 "src/merge.ml" 116 4493 4539
+type(
+  B.G.E.t -> B.G.E.vertex
+)
+ident(
+  ext_ref B.G.E.dst
+)
+"src/merge.ml" 116 4493 4540 "src/merge.ml" 116 4493 4541
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 114 4433 4454 "src/merge.ml" 114 4433 4455
+)
+"src/merge.ml" 116 4493 4535 "src/merge.ml" 116 4493 4542
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 116 4493 4518 "src/merge.ml" 116 4493 4542
+call(
+  tail
+)
+type(
+  B.G.E.t
+)
+"src/merge.ml" 114 4433 4458 "src/merge.ml" 116 4493 4543
+type(
+  B.G.E.t
+)
+"src/merge.ml" 118 4551 4559 "src/merge.ml" 118 4551 4571
+type(
+  B.G.E.t -> B.G.E.t list -> B.G.E.t list
+)
+ident(
+  def collect_edge "src/merge.ml" 123 4667 4671 "src/merge.ml" 124 4734 4782
+)
+"src/merge.ml" 118 4551 4572 "src/merge.ml" 118 4551 4573
+type(
+  B.G.E.t
+)
+ident(
+  def e "src/merge.ml" 118 4551 4574 "src/merge.ml" 121 4644 4659
+)
+"src/merge.ml" 118 4551 4574 "src/merge.ml" 118 4551 4578
+type(
+  B.G.E.t list
+)
+ident(
+  def accu "src/merge.ml" 119 4581 4587 "src/merge.ml" 121 4644 4659
+)
+"src/merge.ml" 119 4581 4590 "src/merge.ml" 119 4581 4601
+type(
+  B.G.E.t -> B.G.E.label
+)
+ident(
+  ext_ref B.G.E.label
+)
+"src/merge.ml" 119 4581 4602 "src/merge.ml" 119 4581 4603
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 118 4551 4572 "src/merge.ml" 118 4551 4573
+)
+"src/merge.ml" 119 4581 4590 "src/merge.ml" 119 4581 4603
+call(
+  stack
+)
+type(
+  B.G.E.label
+)
+"src/merge.ml" 119 4581 4604 "src/merge.ml" 119 4581 4605
+type(
+  B.G.E.label -> B.G.E.label -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/merge.ml" 119 4581 4606 "src/merge.ml" 119 4581 4607
+type(
+  B.G.E.label
+)
+ident(
+  int_ref l "src/merge.ml" 113 4381 4429 "src/merge.ml" 113 4381 4430
+)
+"src/merge.ml" 119 4581 4590 "src/merge.ml" 119 4581 4607
+type(
+  bool
+)
+"src/merge.ml" 120 4608 4620 "src/merge.ml" 120 4608 4632
+type(
+  B.G.E.t -> B.G.E.t
+)
+ident(
+  int_ref update_label "src/merge.ml" 114 4433 4441 "src/merge.ml" 114 4433 4453
+)
+"src/merge.ml" 120 4608 4633 "src/merge.ml" 120 4608 4634
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 118 4551 4572 "src/merge.ml" 118 4551 4573
+)
+"src/merge.ml" 120 4608 4619 "src/merge.ml" 120 4608 4635
+call(
+  stack
+)
+type(
+  B.G.E.t
+)
+"src/merge.ml" 120 4608 4639 "src/merge.ml" 120 4608 4643
+type(
+  B.G.E.t list
+)
+ident(
+  int_ref accu "src/merge.ml" 118 4551 4574 "src/merge.ml" 118 4551 4578
+)
+"src/merge.ml" 120 4608 4619 "src/merge.ml" 120 4608 4643
+type(
+  B.G.E.t list
+)
+"src/merge.ml" 121 4644 4655 "src/merge.ml" 121 4644 4659
+type(
+  B.G.E.t list
+)
+ident(
+  int_ref accu "src/merge.ml" 118 4551 4574 "src/merge.ml" 118 4551 4578
+)
+"src/merge.ml" 119 4581 4587 "src/merge.ml" 121 4644 4659
+type(
+  B.G.E.t list
+)
+"src/merge.ml" 123 4667 4675 "src/merge.ml" 123 4667 4693
+type(
+  B.G.edge list
+)
+ident(
+  def edges_to_be_merged "src/merge.ml" 124 4734 4738 "src/merge.ml" 124 4734 4782
+)
+"src/merge.ml" 123 4667 4696 "src/merge.ml" 123 4667 4712
+type(
+  (B.G.edge -> B.G.edge list -> B.G.edge list) ->
+  B.G.t -> B.G.edge list -> B.G.edge list
+)
+ident(
+  ext_ref B.G.fold_edges_e
+)
+"src/merge.ml" 123 4667 4713 "src/merge.ml" 123 4667 4725
+type(
+  B.G.edge -> B.G.edge list -> B.G.edge list
+)
+ident(
+  int_ref collect_edge "src/merge.ml" 118 4551 4559 "src/merge.ml" 118 4551 4571
+)
+"src/merge.ml" 123 4667 4726 "src/merge.ml" 123 4667 4727
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 113 4381 4427 "src/merge.ml" 113 4381 4428
+)
+"src/merge.ml" 123 4667 4728 "src/merge.ml" 123 4667 4730
+type(
+  B.G.edge list
+)
+"src/merge.ml" 123 4667 4696 "src/merge.ml" 123 4667 4730
+call(
+  stack
+)
+type(
+  B.G.edge list
+)
+"src/merge.ml" 124 4734 4738 "src/merge.ml" 124 4734 4751
+type(
+  ?src:B.G.E.vertex -> ?dst:B.G.E.vertex -> B.G.t -> B.G.edge list -> B.G.t
+)
+ident(
+  int_ref merge_edges_e "src/merge.ml" 81 3154 3160 "src/merge.ml" 81 3154 3173
+)
+"src/merge.ml" 124 4734 4753 "src/merge.ml" 124 4734 4756
+type(
+  B.G.E.vertex option
+)
+ident(
+  int_ref src "src/merge.ml" 113 4381 4411 "src/merge.ml" 113 4381 4414
+)
+"src/merge.ml" 124 4734 4758 "src/merge.ml" 124 4734 4761
+type(
+  B.G.E.vertex option
+)
+ident(
+  int_ref dst "src/merge.ml" 113 4381 4416 "src/merge.ml" 113 4381 4419
+)
+"src/merge.ml" 124 4734 4762 "src/merge.ml" 124 4734 4763
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 113 4381 4427 "src/merge.ml" 113 4381 4428
+)
+"src/merge.ml" 124 4734 4764 "src/merge.ml" 124 4734 4782
+type(
+  B.G.edge list
+)
+ident(
+  int_ref edges_to_be_merged "src/merge.ml" 123 4667 4675 "src/merge.ml" 123 4667 4693
+)
+"src/merge.ml" 124 4734 4738 "src/merge.ml" 124 4734 4782
+call(
+  tail
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 123 4667 4671 "src/merge.ml" 124 4734 4782
+type(
+  B.G.t
+)
+"src/merge.ml" 118 4551 4555 "src/merge.ml" 124 4734 4782
+type(
+  B.G.t
+)
+"src/merge.ml" 114 4433 4437 "src/merge.ml" 124 4734 4782
+type(
+  B.G.t
+)
+"src/merge.ml" 129 4876 4882 "src/merge.ml" 129 4876 4895
+type(
+  B.G.t -> B.G.E.label -> B.G.E.label -> int
+)
+ident(
+  def compare_label "src/merge.ml" 144 5402 5404 "src/merge.ml" 226 8158 8161
+)
+"src/merge.ml" 129 4876 4896 "src/merge.ml" 129 4876 4897
+type(
+  B.G.t
+)
+ident(
+  def g "src/merge.ml" 130 4900 4904 "src/merge.ml" 142 5369 5400
+)
+"src/merge.ml" 131 4908 4918 "src/merge.ml" 131 4908 4932
+type(
+  B.G.vertex
+)
+ident(
+  def default_vertex "src/merge.ml" 138 5190 5196 "src/merge.ml" 141 5341 5368
+)
+"src/merge.ml" 132 4935 4947 "src/merge.ml" 132 4935 4960
+type(
+  B.G.vertex option ref
+)
+ident(
+  def a_vertex_of_g "src/merge.ml" 133 4975 4983 "src/merge.ml" 137 5137 5165
+)
+"src/merge.ml" 132 4935 4963 "src/merge.ml" 132 4935 4966
+type(
+  B.G.vertex option -> B.G.vertex option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/merge.ml" 132 4935 4967 "src/merge.ml" 132 4935 4971
+type(
+  B.G.vertex option
+)
+"src/merge.ml" 132 4935 4963 "src/merge.ml" 132 4935 4971
+type(
+  B.G.vertex option ref
+)
+"src/merge.ml" 133 4975 4988 "src/merge.ml" 133 4975 5003
+type(
+  (B.G.vertex -> unit) -> B.G.t -> unit
+)
+ident(
+  ext_ref B.G.iter_vertex
+)
+"src/merge.ml" 133 4975 5009 "src/merge.ml" 133 4975 5010
+type(
+  B.G.vertex
+)
+ident(
+  def v "src/merge.ml" 133 4975 5014 "src/merge.ml" 133 4975 5050
+)
+"src/merge.ml" 133 4975 5014 "src/merge.ml" 133 4975 5027
+type(
+  B.G.vertex option ref
+)
+ident(
+  int_ref a_vertex_of_g "src/merge.ml" 132 4935 4947 "src/merge.ml" 132 4935 4960
+)
+"src/merge.ml" 133 4975 5028 "src/merge.ml" 133 4975 5030
+type(
+  B.G.vertex option ref -> B.G.vertex option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/merge.ml" 133 4975 5036 "src/merge.ml" 133 4975 5037
+type(
+  B.G.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 133 4975 5009 "src/merge.ml" 133 4975 5010
+)
+"src/merge.ml" 133 4975 5031 "src/merge.ml" 133 4975 5037
+type(
+  B.G.vertex option
+)
+"src/merge.ml" 133 4975 5014 "src/merge.ml" 133 4975 5037
+type(
+  unit
+)
+"src/merge.ml" 133 4975 5040 "src/merge.ml" 133 4975 5045
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/merge.ml" 133 4975 5046 "src/merge.ml" 133 4975 5050
+type(
+  exn
+)
+"src/merge.ml" 133 4975 5040 "src/merge.ml" 133 4975 5050
+type(
+  unit
+)
+"src/merge.ml" 133 4975 5014 "src/merge.ml" 133 4975 5050
+type(
+  unit
+)
+"src/merge.ml" 133 4975 5004 "src/merge.ml" 133 4975 5051
+type(
+  B.G.vertex -> unit
+)
+"src/merge.ml" 133 4975 5052 "src/merge.ml" 133 4975 5053
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 129 4876 4896 "src/merge.ml" 129 4876 4897
+)
+"src/merge.ml" 133 4975 4988 "src/merge.ml" 133 4975 5053
+call(
+  stack
+)
+type(
+  unit
+)
+"src/merge.ml" 134 5054 5068 "src/merge.ml" 134 5054 5072
+type(
+  exn
+)
+"src/merge.ml" 134 5054 5076 "src/merge.ml" 134 5054 5078
+type(
+  unit
+)
+"src/merge.ml" 133 4975 4983 "src/merge.ml" 134 5054 5079
+type(
+  unit
+)
+"src/merge.ml" 135 5081 5095 "src/merge.ml" 135 5081 5096
+type(
+  B.G.vertex option ref -> B.G.vertex option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/merge.ml" 135 5081 5096 "src/merge.ml" 135 5081 5109
+type(
+  B.G.vertex option ref
+)
+ident(
+  int_ref a_vertex_of_g "src/merge.ml" 132 4935 4947 "src/merge.ml" 132 4935 4960
+)
+"src/merge.ml" 135 5081 5095 "src/merge.ml" 135 5081 5109
+type(
+  B.G.vertex option
+)
+"src/merge.ml" 136 5115 5130 "src/merge.ml" 136 5115 5131
+type(
+  B.G.vertex
+)
+ident(
+  def v "src/merge.ml" 136 5115 5135 "src/merge.ml" 136 5115 5136
+)
+"src/merge.ml" 136 5115 5125 "src/merge.ml" 136 5115 5131
+type(
+  B.G.vertex option
+)
+"src/merge.ml" 136 5115 5135 "src/merge.ml" 136 5115 5136
+type(
+  B.G.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 136 5115 5130 "src/merge.ml" 136 5115 5131
+)
+"src/merge.ml" 137 5137 5147 "src/merge.ml" 137 5137 5151
+type(
+  B.G.vertex option
+)
+"src/merge.ml" 137 5137 5155 "src/merge.ml" 137 5137 5160
+type(
+  exn -> B.G.vertex
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/merge.ml" 137 5137 5161 "src/merge.ml" 137 5137 5165
+type(
+  exn
+)
+"src/merge.ml" 137 5137 5155 "src/merge.ml" 137 5137 5165
+type(
+  B.G.vertex
+)
+"src/merge.ml" 135 5081 5089 "src/merge.ml" 137 5137 5165
+type(
+  B.G.vertex
+)
+"src/merge.ml" 133 4975 4983 "src/merge.ml" 137 5137 5165
+type(
+  B.G.vertex
+)
+"src/merge.ml" 132 4935 4943 "src/merge.ml" 137 5137 5165
+type(
+  B.G.vertex
+)
+"src/merge.ml" 138 5190 5200 "src/merge.ml" 138 5190 5202
+type(
+  B.G.E.label
+)
+ident(
+  def l1 "src/merge.ml" 138 5190 5203 "src/merge.ml" 141 5341 5368
+)
+"src/merge.ml" 138 5190 5203 "src/merge.ml" 138 5190 5205
+type(
+  B.G.E.label
+)
+ident(
+  def l2 "src/merge.ml" 139 5209 5217 "src/merge.ml" 141 5341 5368
+)
+"src/merge.ml" 139 5209 5221 "src/merge.ml" 139 5209 5223
+type(
+  B.G.E.t
+)
+ident(
+  def e1 "src/merge.ml" 140 5275 5283 "src/merge.ml" 141 5341 5368
+)
+"src/merge.ml" 139 5209 5226 "src/merge.ml" 139 5209 5238
+type(
+  B.G.E.vertex -> B.G.E.label -> B.G.E.vertex -> B.G.E.t
+)
+ident(
+  ext_ref B.G.E.create
+)
+"src/merge.ml" 139 5209 5239 "src/merge.ml" 139 5209 5253
+type(
+  B.G.vertex
+)
+ident(
+  int_ref default_vertex "src/merge.ml" 131 4908 4918 "src/merge.ml" 131 4908 4932
+)
+"src/merge.ml" 139 5209 5254 "src/merge.ml" 139 5209 5256
+type(
+  B.G.E.label
+)
+ident(
+  int_ref l1 "src/merge.ml" 138 5190 5200 "src/merge.ml" 138 5190 5202
+)
+"src/merge.ml" 139 5209 5257 "src/merge.ml" 139 5209 5271
+type(
+  B.G.vertex
+)
+ident(
+  int_ref default_vertex "src/merge.ml" 131 4908 4918 "src/merge.ml" 131 4908 4932
+)
+"src/merge.ml" 139 5209 5226 "src/merge.ml" 139 5209 5271
+call(
+  stack
+)
+type(
+  B.G.E.t
+)
+"src/merge.ml" 140 5275 5287 "src/merge.ml" 140 5275 5289
+type(
+  B.G.E.t
+)
+ident(
+  def e2 "src/merge.ml" 141 5341 5349 "src/merge.ml" 141 5341 5368
+)
+"src/merge.ml" 140 5275 5292 "src/merge.ml" 140 5275 5304
+type(
+  B.G.E.vertex -> B.G.E.label -> B.G.E.vertex -> B.G.E.t
+)
+ident(
+  ext_ref B.G.E.create
+)
+"src/merge.ml" 140 5275 5305 "src/merge.ml" 140 5275 5319
+type(
+  B.G.vertex
+)
+ident(
+  int_ref default_vertex "src/merge.ml" 131 4908 4918 "src/merge.ml" 131 4908 4932
+)
+"src/merge.ml" 140 5275 5320 "src/merge.ml" 140 5275 5322
+type(
+  B.G.E.label
+)
+ident(
+  int_ref l2 "src/merge.ml" 138 5190 5203 "src/merge.ml" 138 5190 5205
+)
+"src/merge.ml" 140 5275 5323 "src/merge.ml" 140 5275 5337
+type(
+  B.G.vertex
+)
+ident(
+  int_ref default_vertex "src/merge.ml" 131 4908 4918 "src/merge.ml" 131 4908 4932
+)
+"src/merge.ml" 140 5275 5292 "src/merge.ml" 140 5275 5337
+call(
+  stack
+)
+type(
+  B.G.E.t
+)
+"src/merge.ml" 141 5341 5349 "src/merge.ml" 141 5341 5362
+type(
+  B.G.E.t -> B.G.E.t -> int
+)
+ident(
+  ext_ref B.G.E.compare
+)
+"src/merge.ml" 141 5341 5363 "src/merge.ml" 141 5341 5365
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e1 "src/merge.ml" 139 5209 5221 "src/merge.ml" 139 5209 5223
+)
+"src/merge.ml" 141 5341 5366 "src/merge.ml" 141 5341 5368
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e2 "src/merge.ml" 140 5275 5287 "src/merge.ml" 140 5275 5289
+)
+"src/merge.ml" 141 5341 5349 "src/merge.ml" 141 5341 5368
+call(
+  tail
+)
+type(
+  int
+)
+"src/merge.ml" 140 5275 5283 "src/merge.ml" 141 5341 5368
+type(
+  int
+)
+"src/merge.ml" 139 5209 5217 "src/merge.ml" 141 5341 5368
+type(
+  int
+)
+"src/merge.ml" 138 5190 5196 "src/merge.ml" 141 5341 5368
+type(
+  B.G.E.label -> B.G.E.label -> int
+)
+"src/merge.ml" 131 4908 4914 "src/merge.ml" 141 5341 5368
+type(
+  B.G.E.label -> B.G.E.label -> int
+)
+"src/merge.ml" 142 5369 5378 "src/merge.ml" 142 5369 5382
+type(
+  exn
+)
+"src/merge.ml" 142 5369 5391 "src/merge.ml" 142 5369 5392
+type(
+  B.G.E.label
+)
+"src/merge.ml" 142 5369 5393 "src/merge.ml" 142 5369 5394
+type(
+  B.G.E.label
+)
+"src/merge.ml" 142 5369 5398 "src/merge.ml" 142 5369 5399
+type(
+  int
+)
+"src/merge.ml" 142 5369 5386 "src/merge.ml" 142 5369 5400
+type(
+  B.G.E.label -> B.G.E.label -> int
+)
+"src/merge.ml" 130 4900 4904 "src/merge.ml" 142 5369 5400
+type(
+  B.G.E.label -> B.G.E.label -> int
+)
+"src/merge.ml" 144 5402 5408 "src/merge.ml" 144 5402 5431
+type(
+  B.G.t -> B.G.t
+)
+ident(
+  def merge_isolabelled_edges "src/merge.ml" 177 6659 6661 "src/merge.ml" 226 8158 8161
+)
+"src/merge.ml" 144 5402 5432 "src/merge.ml" 144 5402 5433
+type(
+  B.G.t
+)
+ident(
+  def g "src/merge.ml" 145 5436 5440 "src/merge.ml" 175 6635 6657
+)
+"src/merge.ml" 145 5436 5455 "src/merge.ml" 145 5436 5470
+call(
+  stack
+)
+"src/merge.ml" 146 5474 5482 "src/merge.ml" 146 5474 5489
+type(
+  S.t -> S.t -> bool
+)
+ident(
+  def do_meet "src/merge.ml" 147 5535 5539 "src/merge.ml" 175 6635 6657
+)
+"src/merge.ml" 146 5474 5490 "src/merge.ml" 146 5474 5492
+type(
+  S.t
+)
+ident(
+  def s1 "src/merge.ml" 146 5474 5493 "src/merge.ml" 146 5474 5531
+)
+"src/merge.ml" 146 5474 5493 "src/merge.ml" 146 5474 5495
+type(
+  S.t
+)
+ident(
+  def s2 "src/merge.ml" 146 5474 5498 "src/merge.ml" 146 5474 5531
+)
+"src/merge.ml" 146 5474 5498 "src/merge.ml" 146 5474 5506
+type(
+  (S.elt -> bool) -> S.t -> bool
+)
+ident(
+  ext_ref S.exists
+)
+"src/merge.ml" 146 5474 5512 "src/merge.ml" 146 5474 5513
+type(
+  S.elt
+)
+ident(
+  def x "src/merge.ml" 146 5474 5517 "src/merge.ml" 146 5474 5527
+)
+"src/merge.ml" 146 5474 5517 "src/merge.ml" 146 5474 5522
+type(
+  S.elt -> S.t -> bool
+)
+ident(
+  ext_ref S.mem
+)
+"src/merge.ml" 146 5474 5523 "src/merge.ml" 146 5474 5524
+type(
+  S.elt
+)
+ident(
+  int_ref x "src/merge.ml" 146 5474 5512 "src/merge.ml" 146 5474 5513
+)
+"src/merge.ml" 146 5474 5525 "src/merge.ml" 146 5474 5527
+type(
+  S.t
+)
+ident(
+  int_ref s2 "src/merge.ml" 146 5474 5493 "src/merge.ml" 146 5474 5495
+)
+"src/merge.ml" 146 5474 5517 "src/merge.ml" 146 5474 5527
+call(
+  tail
+)
+type(
+  bool
+)
+"src/merge.ml" 146 5474 5507 "src/merge.ml" 146 5474 5528
+type(
+  S.elt -> bool
+)
+"src/merge.ml" 146 5474 5529 "src/merge.ml" 146 5474 5531
+type(
+  S.t
+)
+ident(
+  int_ref s1 "src/merge.ml" 146 5474 5490 "src/merge.ml" 146 5474 5492
+)
+"src/merge.ml" 146 5474 5498 "src/merge.ml" 146 5474 5531
+call(
+  tail
+)
+type(
+  bool
+)
+"src/merge.ml" 150 5653 5700 "src/merge.ml" 150 5653 5707
+type(
+  B.G.E.label -> B.G.E.label -> int
+)
+ident(
+  def compare "src/merge.ml" 150 5653 5725 "src/merge.ml" 150 5653 5729
+)
+"src/merge.ml" 150 5653 5710 "src/merge.ml" 150 5653 5723
+type(
+  B.G.t -> B.G.E.label -> B.G.E.label -> int
+)
+ident(
+  int_ref compare_label "src/merge.ml" 129 4876 4882 "src/merge.ml" 129 4876 4895
+)
+"src/merge.ml" 150 5653 5724 "src/merge.ml" 150 5653 5725
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 144 5402 5432 "src/merge.ml" 144 5402 5433
+)
+"src/merge.ml" 150 5653 5710 "src/merge.ml" 150 5653 5725
+call(
+  stack
+)
+type(
+  B.G.E.label -> B.G.E.label -> int
+)
+"src/merge.ml" 150 5653 5659 "src/merge.ml" 150 5653 5730
+call(
+  stack
+)
+"src/merge.ml" 152 5738 5746 "src/merge.ml" 152 5738 5758
+type(
+  B.G.E.t -> (S.t * S.t) M.t -> (S.t * S.t) M.t
+)
+ident(
+  def accumulating "src/merge.ml" 161 6040 6044 "src/merge.ml" 175 6635 6657
+)
+"src/merge.ml" 152 5738 5759 "src/merge.ml" 152 5738 5760
+type(
+  B.G.E.t
+)
+ident(
+  def e "src/merge.ml" 152 5738 5761 "src/merge.ml" 159 5963 6032
+)
+"src/merge.ml" 152 5738 5761 "src/merge.ml" 152 5738 5765
+type(
+  (S.t * S.t) M.t
+)
+ident(
+  def accu "src/merge.ml" 153 5768 5774 "src/merge.ml" 159 5963 6032
+)
+"src/merge.ml" 153 5768 5778 "src/merge.ml" 153 5768 5779
+type(
+  B.G.E.label
+)
+ident(
+  def l "src/merge.ml" 154 5799 5805 "src/merge.ml" 159 5963 6032
+)
+"src/merge.ml" 153 5768 5782 "src/merge.ml" 153 5768 5793
+type(
+  B.G.E.t -> B.G.E.label
+)
+ident(
+  ext_ref B.G.E.label
+)
+"src/merge.ml" 153 5768 5794 "src/merge.ml" 153 5768 5795
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 152 5738 5759 "src/merge.ml" 152 5738 5760
+)
+"src/merge.ml" 153 5768 5782 "src/merge.ml" 153 5768 5795
+call(
+  stack
+)
+type(
+  B.G.E.label
+)
+"src/merge.ml" 155 5809 5821 "src/merge.ml" 155 5809 5822
+type(
+  S.t
+)
+ident(
+  def s "src/merge.ml" 156 5846 5854 "src/merge.ml" 157 5911 5938
+)
+"src/merge.ml" 155 5809 5825 "src/merge.ml" 155 5809 5826
+type(
+  S.t
+)
+ident(
+  def d "src/merge.ml" 156 5846 5854 "src/merge.ml" 157 5911 5938
+)
+"src/merge.ml" 155 5809 5821 "src/merge.ml" 155 5809 5826
+type(
+  S.t * S.t
+)
+"src/merge.ml" 155 5809 5829 "src/merge.ml" 155 5809 5835
+type(
+  M.key -> (S.t * S.t) M.t -> S.t * S.t
+)
+ident(
+  ext_ref M.find
+)
+"src/merge.ml" 155 5809 5836 "src/merge.ml" 155 5809 5837
+type(
+  M.key
+)
+ident(
+  int_ref l "src/merge.ml" 153 5768 5778 "src/merge.ml" 153 5768 5779
+)
+"src/merge.ml" 155 5809 5838 "src/merge.ml" 155 5809 5842
+type(
+  (S.t * S.t) M.t
+)
+ident(
+  int_ref accu "src/merge.ml" 152 5738 5761 "src/merge.ml" 152 5738 5765
+)
+"src/merge.ml" 155 5809 5829 "src/merge.ml" 155 5809 5842
+call(
+  stack
+)
+type(
+  S.t * S.t
+)
+"src/merge.ml" 156 5846 5858 "src/merge.ml" 156 5846 5859
+type(
+  S.t
+)
+ident(
+  def s "src/merge.ml" 157 5911 5919 "src/merge.ml" 157 5911 5938
+)
+"src/merge.ml" 156 5846 5862 "src/merge.ml" 156 5846 5863
+type(
+  S.t
+)
+ident(
+  def d "src/merge.ml" 157 5911 5919 "src/merge.ml" 157 5911 5938
+)
+"src/merge.ml" 156 5846 5858 "src/merge.ml" 156 5846 5863
+type(
+  S.t * S.t
+)
+"src/merge.ml" 156 5846 5873 "src/merge.ml" 156 5846 5878
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  ext_ref S.add
+)
+"src/merge.ml" 156 5846 5880 "src/merge.ml" 156 5846 5883
+type(
+  B.G.E.t -> B.G.E.vertex
+)
+ident(
+  ext_ref B.G.E.src
+)
+"src/merge.ml" 156 5846 5884 "src/merge.ml" 156 5846 5885
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 152 5738 5759 "src/merge.ml" 152 5738 5760
+)
+"src/merge.ml" 156 5846 5879 "src/merge.ml" 156 5846 5886
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 156 5846 5887 "src/merge.ml" 156 5846 5888
+type(
+  S.t
+)
+ident(
+  int_ref s "src/merge.ml" 155 5809 5821 "src/merge.ml" 155 5809 5822
+)
+"src/merge.ml" 156 5846 5873 "src/merge.ml" 156 5846 5888
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/merge.ml" 156 5846 5891 "src/merge.ml" 156 5846 5896
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  ext_ref S.add
+)
+"src/merge.ml" 156 5846 5898 "src/merge.ml" 156 5846 5901
+type(
+  B.G.E.t -> B.G.E.vertex
+)
+ident(
+  ext_ref B.G.E.dst
+)
+"src/merge.ml" 156 5846 5902 "src/merge.ml" 156 5846 5903
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 152 5738 5759 "src/merge.ml" 152 5738 5760
+)
+"src/merge.ml" 156 5846 5897 "src/merge.ml" 156 5846 5904
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 156 5846 5905 "src/merge.ml" 156 5846 5906
+type(
+  S.t
+)
+ident(
+  int_ref d "src/merge.ml" 155 5809 5825 "src/merge.ml" 155 5809 5826
+)
+"src/merge.ml" 156 5846 5891 "src/merge.ml" 156 5846 5906
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/merge.ml" 156 5846 5873 "src/merge.ml" 156 5846 5906
+type(
+  S.t * S.t
+)
+"src/merge.ml" 157 5911 5919 "src/merge.ml" 157 5911 5924
+type(
+  M.key -> S.t * S.t -> (S.t * S.t) M.t -> (S.t * S.t) M.t
+)
+ident(
+  ext_ref M.add
+)
+"src/merge.ml" 157 5911 5925 "src/merge.ml" 157 5911 5926
+type(
+  M.key
+)
+ident(
+  int_ref l "src/merge.ml" 153 5768 5778 "src/merge.ml" 153 5768 5779
+)
+"src/merge.ml" 157 5911 5928 "src/merge.ml" 157 5911 5929
+type(
+  S.t
+)
+ident(
+  int_ref s "src/merge.ml" 156 5846 5858 "src/merge.ml" 156 5846 5859
+)
+"src/merge.ml" 157 5911 5931 "src/merge.ml" 157 5911 5932
+type(
+  S.t
+)
+ident(
+  int_ref d "src/merge.ml" 156 5846 5862 "src/merge.ml" 156 5846 5863
+)
+"src/merge.ml" 157 5911 5927 "src/merge.ml" 157 5911 5933
+type(
+  S.t * S.t
+)
+"src/merge.ml" 157 5911 5934 "src/merge.ml" 157 5911 5938
+type(
+  (S.t * S.t) M.t
+)
+ident(
+  int_ref accu "src/merge.ml" 152 5738 5761 "src/merge.ml" 152 5738 5765
+)
+"src/merge.ml" 157 5911 5919 "src/merge.ml" 157 5911 5938
+call(
+  stack
+)
+type(
+  (S.t * S.t) M.t
+)
+"src/merge.ml" 156 5846 5854 "src/merge.ml" 157 5911 5938
+type(
+  (S.t * S.t) M.t
+)
+"src/merge.ml" 155 5809 5817 "src/merge.ml" 157 5911 5938
+type(
+  (S.t * S.t) M.t
+)
+"src/merge.ml" 158 5939 5950 "src/merge.ml" 158 5939 5959
+type(
+  exn
+)
+"src/merge.ml" 159 5963 5971 "src/merge.ml" 159 5963 5976
+type(
+  M.key -> S.t * S.t -> (S.t * S.t) M.t -> (S.t * S.t) M.t
+)
+ident(
+  ext_ref M.add
+)
+"src/merge.ml" 159 5963 5977 "src/merge.ml" 159 5963 5978
+type(
+  M.key
+)
+ident(
+  int_ref l "src/merge.ml" 153 5768 5778 "src/merge.ml" 153 5768 5779
+)
+"src/merge.ml" 159 5963 5986 "src/merge.ml" 159 5963 5997
+type(
+  S.elt -> S.t
+)
+ident(
+  ext_ref S.singleton
+)
+"src/merge.ml" 159 5963 5999 "src/merge.ml" 159 5963 6002
+type(
+  B.G.E.t -> B.G.E.vertex
+)
+ident(
+  ext_ref B.G.E.src
+)
+"src/merge.ml" 159 5963 6003 "src/merge.ml" 159 5963 6004
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 152 5738 5759 "src/merge.ml" 152 5738 5760
+)
+"src/merge.ml" 159 5963 5998 "src/merge.ml" 159 5963 6005
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 159 5963 5986 "src/merge.ml" 159 5963 6005
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/merge.ml" 159 5963 6007 "src/merge.ml" 159 5963 6018
+type(
+  S.elt -> S.t
+)
+ident(
+  ext_ref S.singleton
+)
+"src/merge.ml" 159 5963 6020 "src/merge.ml" 159 5963 6023
+type(
+  B.G.E.t -> B.G.E.vertex
+)
+ident(
+  ext_ref B.G.E.dst
+)
+"src/merge.ml" 159 5963 6024 "src/merge.ml" 159 5963 6025
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/merge.ml" 152 5738 5759 "src/merge.ml" 152 5738 5760
+)
+"src/merge.ml" 159 5963 6019 "src/merge.ml" 159 5963 6026
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 159 5963 6007 "src/merge.ml" 159 5963 6026
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/merge.ml" 159 5963 5986 "src/merge.ml" 159 5963 6026
+type(
+  S.t * S.t
+)
+"src/merge.ml" 159 5963 6028 "src/merge.ml" 159 5963 6032
+type(
+  (S.t * S.t) M.t
+)
+ident(
+  int_ref accu "src/merge.ml" 152 5738 5761 "src/merge.ml" 152 5738 5765
+)
+"src/merge.ml" 159 5963 5971 "src/merge.ml" 159 5963 6032
+call(
+  tail
+)
+type(
+  (S.t * S.t) M.t
+)
+"src/merge.ml" 154 5799 5805 "src/merge.ml" 159 5963 6032
+type(
+  (S.t * S.t) M.t
+)
+"src/merge.ml" 153 5768 5774 "src/merge.ml" 159 5963 6032
+type(
+  (S.t * S.t) M.t
+)
+"src/merge.ml" 161 6040 6048 "src/merge.ml" 161 6040 6064
+type(
+  (S.t * S.t) M.t
+)
+ident(
+  def to_be_identified "src/merge.ml" 162 6110 6114 "src/merge.ml" 175 6635 6657
+)
+"src/merge.ml" 161 6040 6067 "src/merge.ml" 161 6040 6083
+type(
+  (B.G.edge -> (S.t * S.t) M.t -> (S.t * S.t) M.t) ->
+  B.G.t -> (S.t * S.t) M.t -> (S.t * S.t) M.t
+)
+ident(
+  ext_ref B.G.fold_edges_e
+)
+"src/merge.ml" 161 6040 6084 "src/merge.ml" 161 6040 6096
+type(
+  B.G.edge -> (S.t * S.t) M.t -> (S.t * S.t) M.t
+)
+ident(
+  int_ref accumulating "src/merge.ml" 152 5738 5746 "src/merge.ml" 152 5738 5758
+)
+"src/merge.ml" 161 6040 6097 "src/merge.ml" 161 6040 6098
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 144 5402 5432 "src/merge.ml" 144 5402 5433
+)
+"src/merge.ml" 161 6040 6099 "src/merge.ml" 161 6040 6106
+type(
+  (S.t * S.t) M.t
+)
+ident(
+  ext_ref M.empty
+)
+"src/merge.ml" 161 6040 6067 "src/merge.ml" 161 6040 6106
+call(
+  stack
+)
+type(
+  (S.t * S.t) M.t
+)
+"src/merge.ml" 162 6110 6118 "src/merge.ml" 162 6110 6127
+type(
+  'a -> S.t * S.t -> S.t list -> S.t list
+)
+ident(
+  def gathering "src/merge.ml" 171 6486 6490 "src/merge.ml" 175 6635 6657
+)
+"src/merge.ml" 162 6110 6128 "src/merge.ml" 162 6110 6129
+type(
+  'a
+)
+"src/merge.ml" 162 6110 6131 "src/merge.ml" 162 6110 6132
+type(
+  S.t
+)
+ident(
+  def s "src/merge.ml" 162 6110 6137 "src/merge.ml" 169 6400 6478
+)
+"src/merge.ml" 162 6110 6134 "src/merge.ml" 162 6110 6135
+type(
+  S.t
+)
+ident(
+  def d "src/merge.ml" 162 6110 6137 "src/merge.ml" 169 6400 6478
+)
+"src/merge.ml" 162 6110 6130 "src/merge.ml" 162 6110 6136
+type(
+  S.t * S.t
+)
+"src/merge.ml" 162 6110 6137 "src/merge.ml" 162 6110 6141
+type(
+  S.t list
+)
+ident(
+  def accu "src/merge.ml" 163 6144 6150 "src/merge.ml" 169 6400 6478
+)
+"src/merge.ml" 163 6144 6154 "src/merge.ml" 163 6144 6168
+type(
+  S.t list
+)
+ident(
+  def to_be_gathered "src/merge.ml" 164 6214 6220 "src/merge.ml" 169 6400 6478
+)
+"src/merge.ml" 163 6144 6170 "src/merge.ml" 163 6144 6176
+type(
+  S.t list
+)
+ident(
+  def others "src/merge.ml" 164 6214 6220 "src/merge.ml" 169 6400 6478
+)
+"src/merge.ml" 163 6144 6154 "src/merge.ml" 163 6144 6176
+type(
+  S.t list * S.t list
+)
+"src/merge.ml" 163 6144 6179 "src/merge.ml" 163 6144 6193
+type(
+  (S.t -> bool) -> S.t list -> S.t list * S.t list
+)
+ident(
+  ext_ref List.partition
+)
+"src/merge.ml" 163 6144 6195 "src/merge.ml" 163 6144 6202
+type(
+  S.t -> S.t -> bool
+)
+ident(
+  int_ref do_meet "src/merge.ml" 146 5474 5482 "src/merge.ml" 146 5474 5489
+)
+"src/merge.ml" 163 6144 6203 "src/merge.ml" 163 6144 6204
+type(
+  S.t
+)
+ident(
+  int_ref s "src/merge.ml" 162 6110 6131 "src/merge.ml" 162 6110 6132
+)
+"src/merge.ml" 163 6144 6194 "src/merge.ml" 163 6144 6205
+call(
+  stack
+)
+type(
+  S.t -> bool
+)
+"src/merge.ml" 163 6144 6206 "src/merge.ml" 163 6144 6210
+type(
+  S.t list
+)
+ident(
+  int_ref accu "src/merge.ml" 162 6110 6137 "src/merge.ml" 162 6110 6141
+)
+"src/merge.ml" 163 6144 6179 "src/merge.ml" 163 6144 6210
+call(
+  stack
+)
+type(
+  S.t list * S.t list
+)
+"src/merge.ml" 164 6214 6224 "src/merge.ml" 164 6214 6228
+type(
+  S.t list
+)
+ident(
+  def accu "src/merge.ml" 168 6329 6335 "src/merge.ml" 169 6400 6478
+)
+"src/merge.ml" 165 6231 6239 "src/merge.ml" 165 6231 6253
+type(
+  (S.t -> S.t -> S.t) -> S.t -> S.t list -> S.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/merge.ml" 165 6231 6259 "src/merge.ml" 165 6231 6263
+type(
+  S.t
+)
+ident(
+  def accu "src/merge.ml" 165 6231 6264 "src/merge.ml" 165 6231 6283
+)
+"src/merge.ml" 165 6231 6264 "src/merge.ml" 165 6231 6265
+type(
+  S.t
+)
+ident(
+  def x "src/merge.ml" 165 6231 6269 "src/merge.ml" 165 6231 6283
+)
+"src/merge.ml" 165 6231 6269 "src/merge.ml" 165 6231 6276
+type(
+  S.t -> S.t -> S.t
+)
+ident(
+  ext_ref S.union
+)
+"src/merge.ml" 165 6231 6277 "src/merge.ml" 165 6231 6281
+type(
+  S.t
+)
+ident(
+  int_ref accu "src/merge.ml" 165 6231 6259 "src/merge.ml" 165 6231 6263
+)
+"src/merge.ml" 165 6231 6282 "src/merge.ml" 165 6231 6283
+type(
+  S.t
+)
+ident(
+  int_ref x "src/merge.ml" 165 6231 6264 "src/merge.ml" 165 6231 6265
+)
+"src/merge.ml" 165 6231 6269 "src/merge.ml" 165 6231 6283
+call(
+  tail
+)
+type(
+  S.t
+)
+"src/merge.ml" 165 6231 6254 "src/merge.ml" 165 6231 6284
+type(
+  S.t -> S.t -> S.t
+)
+"src/merge.ml" 165 6231 6285 "src/merge.ml" 165 6231 6286
+type(
+  S.t
+)
+ident(
+  int_ref s "src/merge.ml" 162 6110 6131 "src/merge.ml" 162 6110 6132
+)
+"src/merge.ml" 165 6231 6287 "src/merge.ml" 165 6231 6301
+type(
+  S.t list
+)
+ident(
+  int_ref to_be_gathered "src/merge.ml" 163 6144 6154 "src/merge.ml" 163 6144 6168
+)
+"src/merge.ml" 165 6231 6239 "src/merge.ml" 165 6231 6301
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/merge.ml" 166 6302 6313 "src/merge.ml" 166 6302 6319
+type(
+  S.t list
+)
+ident(
+  int_ref others "src/merge.ml" 163 6144 6170 "src/merge.ml" 163 6144 6176
+)
+"src/merge.ml" 165 6231 6239 "src/merge.ml" 166 6302 6319
+type(
+  S.t list
+)
+"src/merge.ml" 168 6329 6339 "src/merge.ml" 168 6329 6353
+type(
+  S.t list
+)
+ident(
+  def to_be_gathered "src/merge.ml" 169 6400 6406 "src/merge.ml" 169 6400 6478
+)
+"src/merge.ml" 168 6329 6356 "src/merge.ml" 168 6329 6362
+type(
+  S.t list
+)
+ident(
+  def others "src/merge.ml" 169 6400 6406 "src/merge.ml" 169 6400 6478
+)
+"src/merge.ml" 168 6329 6339 "src/merge.ml" 168 6329 6362
+type(
+  S.t list * S.t list
+)
+"src/merge.ml" 168 6329 6365 "src/merge.ml" 168 6329 6379
+type(
+  (S.t -> bool) -> S.t list -> S.t list * S.t list
+)
+ident(
+  ext_ref List.partition
+)
+"src/merge.ml" 168 6329 6381 "src/merge.ml" 168 6329 6388
+type(
+  S.t -> S.t -> bool
+)
+ident(
+  int_ref do_meet "src/merge.ml" 146 5474 5482 "src/merge.ml" 146 5474 5489
+)
+"src/merge.ml" 168 6329 6389 "src/merge.ml" 168 6329 6390
+type(
+  S.t
+)
+ident(
+  int_ref d "src/merge.ml" 162 6110 6134 "src/merge.ml" 162 6110 6135
+)
+"src/merge.ml" 168 6329 6380 "src/merge.ml" 168 6329 6391
+call(
+  stack
+)
+type(
+  S.t -> bool
+)
+"src/merge.ml" 168 6329 6392 "src/merge.ml" 168 6329 6396
+type(
+  S.t list
+)
+ident(
+  int_ref accu "src/merge.ml" 164 6214 6224 "src/merge.ml" 164 6214 6228
+)
+"src/merge.ml" 168 6329 6365 "src/merge.ml" 168 6329 6396
+call(
+  stack
+)
+type(
+  S.t list * S.t list
+)
+"src/merge.ml" 169 6400 6406 "src/merge.ml" 169 6400 6420
+type(
+  (S.t -> S.t -> S.t) -> S.t -> S.t list -> S.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/merge.ml" 169 6400 6426 "src/merge.ml" 169 6400 6430
+type(
+  S.t
+)
+ident(
+  def accu "src/merge.ml" 169 6400 6431 "src/merge.ml" 169 6400 6450
+)
+"src/merge.ml" 169 6400 6431 "src/merge.ml" 169 6400 6432
+type(
+  S.t
+)
+ident(
+  def x "src/merge.ml" 169 6400 6436 "src/merge.ml" 169 6400 6450
+)
+"src/merge.ml" 169 6400 6436 "src/merge.ml" 169 6400 6443
+type(
+  S.t -> S.t -> S.t
+)
+ident(
+  ext_ref S.union
+)
+"src/merge.ml" 169 6400 6444 "src/merge.ml" 169 6400 6448
+type(
+  S.t
+)
+ident(
+  int_ref accu "src/merge.ml" 169 6400 6426 "src/merge.ml" 169 6400 6430
+)
+"src/merge.ml" 169 6400 6449 "src/merge.ml" 169 6400 6450
+type(
+  S.t
+)
+ident(
+  int_ref x "src/merge.ml" 169 6400 6431 "src/merge.ml" 169 6400 6432
+)
+"src/merge.ml" 169 6400 6436 "src/merge.ml" 169 6400 6450
+call(
+  tail
+)
+type(
+  S.t
+)
+"src/merge.ml" 169 6400 6421 "src/merge.ml" 169 6400 6451
+type(
+  S.t -> S.t -> S.t
+)
+"src/merge.ml" 169 6400 6452 "src/merge.ml" 169 6400 6453
+type(
+  S.t
+)
+ident(
+  int_ref d "src/merge.ml" 162 6110 6134 "src/merge.ml" 162 6110 6135
+)
+"src/merge.ml" 169 6400 6454 "src/merge.ml" 169 6400 6468
+type(
+  S.t list
+)
+ident(
+  int_ref to_be_gathered "src/merge.ml" 168 6329 6339 "src/merge.ml" 168 6329 6353
+)
+"src/merge.ml" 169 6400 6406 "src/merge.ml" 169 6400 6468
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/merge.ml" 169 6400 6472 "src/merge.ml" 169 6400 6478
+type(
+  S.t list
+)
+ident(
+  int_ref others "src/merge.ml" 168 6329 6356 "src/merge.ml" 168 6329 6362
+)
+"src/merge.ml" 169 6400 6406 "src/merge.ml" 169 6400 6478
+type(
+  S.t list
+)
+"src/merge.ml" 168 6329 6335 "src/merge.ml" 169 6400 6478
+type(
+  S.t list
+)
+"src/merge.ml" 164 6214 6220 "src/merge.ml" 169 6400 6478
+type(
+  S.t list
+)
+"src/merge.ml" 163 6144 6150 "src/merge.ml" 169 6400 6478
+type(
+  S.t list
+)
+"src/merge.ml" 171 6486 6494 "src/merge.ml" 171 6486 6510
+type(
+  S.t list
+)
+ident(
+  def to_be_identified "src/merge.ml" 172 6553 6557 "src/merge.ml" 175 6635 6657
+)
+"src/merge.ml" 171 6486 6513 "src/merge.ml" 171 6486 6519
+type(
+  (M.key -> S.t * S.t -> S.t list -> S.t list) ->
+  (S.t * S.t) M.t -> S.t list -> S.t list
+)
+ident(
+  ext_ref M.fold
+)
+"src/merge.ml" 171 6486 6520 "src/merge.ml" 171 6486 6529
+type(
+  M.key -> S.t * S.t -> S.t list -> S.t list
+)
+ident(
+  int_ref gathering "src/merge.ml" 162 6110 6118 "src/merge.ml" 162 6110 6127
+)
+"src/merge.ml" 171 6486 6530 "src/merge.ml" 171 6486 6546
+type(
+  (S.t * S.t) M.t
+)
+ident(
+  int_ref to_be_identified "src/merge.ml" 161 6040 6048 "src/merge.ml" 161 6040 6064
+)
+"src/merge.ml" 171 6486 6547 "src/merge.ml" 171 6486 6549
+type(
+  S.t list
+)
+"src/merge.ml" 171 6486 6513 "src/merge.ml" 171 6486 6549
+call(
+  stack
+)
+type(
+  S.t list
+)
+"src/merge.ml" 172 6553 6557 "src/merge.ml" 172 6553 6571
+type(
+  (B.G.t -> S.t -> B.G.t) -> B.G.t -> S.t list -> B.G.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/merge.ml" 173 6572 6583 "src/merge.ml" 173 6572 6587
+type(
+  B.G.t
+)
+ident(
+  def accu "src/merge.ml" 173 6572 6588 "src/merge.ml" 173 6572 6625
+)
+"src/merge.ml" 173 6572 6588 "src/merge.ml" 173 6572 6589
+type(
+  S.t
+)
+ident(
+  def s "src/merge.ml" 173 6572 6593 "src/merge.ml" 173 6572 6625
+)
+"src/merge.ml" 173 6572 6593 "src/merge.ml" 173 6572 6605
+type(
+  B.G.t -> B.G.E.vertex list -> B.G.t
+)
+ident(
+  int_ref merge_vertex "src/merge.ml" 72 2867 2873 "src/merge.ml" 72 2867 2885
+)
+"src/merge.ml" 173 6572 6606 "src/merge.ml" 173 6572 6610
+type(
+  B.G.t
+)
+ident(
+  int_ref accu "src/merge.ml" 173 6572 6583 "src/merge.ml" 173 6572 6587
+)
+"src/merge.ml" 173 6572 6612 "src/merge.ml" 173 6572 6622
+type(
+  S.t -> B.G.E.vertex list
+)
+ident(
+  ext_ref S.elements
+)
+"src/merge.ml" 173 6572 6623 "src/merge.ml" 173 6572 6624
+type(
+  S.t
+)
+ident(
+  int_ref s "src/merge.ml" 173 6572 6588 "src/merge.ml" 173 6572 6589
+)
+"src/merge.ml" 173 6572 6611 "src/merge.ml" 173 6572 6625
+call(
+  stack
+)
+type(
+  B.G.E.vertex list
+)
+"src/merge.ml" 173 6572 6593 "src/merge.ml" 173 6572 6625
+call(
+  tail
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 173 6572 6578 "src/merge.ml" 173 6572 6626
+type(
+  B.G.t -> S.t -> B.G.t
+)
+"src/merge.ml" 174 6627 6633 "src/merge.ml" 174 6627 6634
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 144 5402 5432 "src/merge.ml" 144 5402 5433
+)
+"src/merge.ml" 175 6635 6641 "src/merge.ml" 175 6635 6657
+type(
+  S.t list
+)
+ident(
+  int_ref to_be_identified "src/merge.ml" 171 6486 6494 "src/merge.ml" 171 6486 6510
+)
+"src/merge.ml" 172 6553 6557 "src/merge.ml" 175 6635 6657
+call(
+  tail
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 171 6486 6490 "src/merge.ml" 175 6635 6657
+type(
+  B.G.t
+)
+"src/merge.ml" 162 6110 6114 "src/merge.ml" 175 6635 6657
+type(
+  B.G.t
+)
+"src/merge.ml" 161 6040 6044 "src/merge.ml" 175 6635 6657
+type(
+  B.G.t
+)
+"src/merge.ml" 152 5738 5742 "src/merge.ml" 175 6635 6657
+type(
+  B.G.t
+)
+"src/merge.ml" 147 5535 5539 "src/merge.ml" 175 6635 6657
+type(
+  B.G.t
+)
+"src/merge.ml" 146 5474 5478 "src/merge.ml" 175 6635 6657
+type(
+  B.G.t
+)
+"src/merge.ml" 145 5436 5440 "src/merge.ml" 175 6635 6657
+type(
+  B.G.t
+)
+"src/merge.ml" 177 6659 6665 "src/merge.ml" 177 6659 6675
+type(
+  ?strict:bool -> ?specified_vertex:B.G.vertex -> B.G.t -> B.G.t
+)
+ident(
+  def merge_ends "src/merge.ml" 194 7131 7133 "src/merge.ml" 226 8158 8161
+)
+"src/merge.ml" 177 6659 6678 "src/merge.ml" 177 6659 6684
+type(
+  bool
+)
+"src/merge.ml" 177 6659 6685 "src/merge.ml" 177 6659 6690
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/merge.ml" 177 6659 6685 "src/merge.ml" 177 6659 6690
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/merge.ml" 177 6659 6693 "src/merge.ml" 177 6659 6709
+type(
+  B.G.vertex option
+)
+ident(
+  def specified_vertex "src/merge.ml" 177 6659 6710 "src/merge.ml" 192 7098 7129
+)
+"src/merge.ml" 177 6659 6710 "src/merge.ml" 177 6659 6711
+type(
+  B.G.t
+)
+ident(
+  def g "src/merge.ml" 178 6714 6718 "src/merge.ml" 192 7098 7129
+)
+"src/merge.ml" 178 6714 6722 "src/merge.ml" 178 6714 6733
+type(
+  B.G.vertex -> B.G.vertex list -> B.G.vertex list
+)
+ident(
+  def accumulator "src/merge.ml" 186 6932 6936 "src/merge.ml" 192 7098 7129
+)
+"src/merge.ml" 178 6714 6734 "src/merge.ml" 178 6714 6735
+type(
+  B.G.vertex
+)
+ident(
+  def v "src/merge.ml" 178 6714 6736 "src/merge.ml" 184 6909 6924
+)
+"src/merge.ml" 178 6714 6736 "src/merge.ml" 178 6714 6740
+type(
+  B.G.vertex list
+)
+ident(
+  def accu "src/merge.ml" 179 6743 6749 "src/merge.ml" 184 6909 6924
+)
+"src/merge.ml" 180 6752 6764 "src/merge.ml" 180 6752 6769
+type(
+  int
+)
+ident(
+  def out_d "src/merge.ml" 181 6794 6802 "src/merge.ml" 182 6815 6887
+)
+"src/merge.ml" 180 6752 6772 "src/merge.ml" 180 6752 6786
+type(
+  B.G.t -> B.G.vertex -> int
+)
+ident(
+  ext_ref B.G.out_degree
+)
+"src/merge.ml" 180 6752 6787 "src/merge.ml" 180 6752 6788
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 177 6659 6710 "src/merge.ml" 177 6659 6711
+)
+"src/merge.ml" 180 6752 6789 "src/merge.ml" 180 6752 6790
+type(
+  B.G.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 178 6714 6734 "src/merge.ml" 178 6714 6735
+)
+"src/merge.ml" 180 6752 6772 "src/merge.ml" 180 6752 6790
+call(
+  stack
+)
+type(
+  int
+)
+"src/merge.ml" 181 6794 6802 "src/merge.ml" 181 6794 6807
+type(
+  int
+)
+ident(
+  int_ref out_d "src/merge.ml" 180 6752 6764 "src/merge.ml" 180 6752 6769
+)
+"src/merge.ml" 181 6794 6808 "src/merge.ml" 181 6794 6809
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/merge.ml" 181 6794 6810 "src/merge.ml" 181 6794 6811
+type(
+  int
+)
+"src/merge.ml" 181 6794 6802 "src/merge.ml" 181 6794 6811
+type(
+  bool
+)
+"src/merge.ml" 181 6794 6812 "src/merge.ml" 181 6794 6814
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/merge.ml" 182 6815 6825 "src/merge.ml" 182 6815 6828
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/merge.ml" 182 6815 6829 "src/merge.ml" 182 6815 6835
+type(
+  bool
+)
+ident(
+  int_ref strict "src/merge.ml" 177 6659 6678 "src/merge.ml" 177 6659 6684
+)
+"src/merge.ml" 182 6815 6824 "src/merge.ml" 182 6815 6836
+type(
+  bool
+)
+"src/merge.ml" 182 6815 6837 "src/merge.ml" 182 6815 6839
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/merge.ml" 182 6815 6840 "src/merge.ml" 182 6815 6845
+type(
+  int
+)
+ident(
+  int_ref out_d "src/merge.ml" 180 6752 6764 "src/merge.ml" 180 6752 6769
+)
+"src/merge.ml" 182 6815 6846 "src/merge.ml" 182 6815 6847
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/merge.ml" 182 6815 6848 "src/merge.ml" 182 6815 6859
+type(
+  B.G.edge list -> int
+)
+ident(
+  ext_ref List.length
+)
+"src/merge.ml" 182 6815 6861 "src/merge.ml" 182 6815 6879
+type(
+  B.G.t -> B.G.vertex -> B.G.vertex -> B.G.edge list
+)
+ident(
+  ext_ref B.G.find_all_edges
+)
+"src/merge.ml" 182 6815 6880 "src/merge.ml" 182 6815 6881
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 177 6659 6710 "src/merge.ml" 177 6659 6711
+)
+"src/merge.ml" 182 6815 6882 "src/merge.ml" 182 6815 6883
+type(
+  B.G.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 178 6714 6734 "src/merge.ml" 178 6714 6735
+)
+"src/merge.ml" 182 6815 6884 "src/merge.ml" 182 6815 6885
+type(
+  B.G.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 178 6714 6734 "src/merge.ml" 178 6714 6735
+)
+"src/merge.ml" 182 6815 6860 "src/merge.ml" 182 6815 6886
+call(
+  stack
+)
+type(
+  B.G.edge list
+)
+"src/merge.ml" 182 6815 6848 "src/merge.ml" 182 6815 6886
+call(
+  stack
+)
+type(
+  int
+)
+"src/merge.ml" 182 6815 6840 "src/merge.ml" 182 6815 6886
+type(
+  bool
+)
+"src/merge.ml" 182 6815 6823 "src/merge.ml" 182 6815 6887
+type(
+  bool
+)
+"src/merge.ml" 181 6794 6802 "src/merge.ml" 182 6815 6887
+type(
+  bool
+)
+"src/merge.ml" 180 6752 6760 "src/merge.ml" 182 6815 6887
+type(
+  bool
+)
+"src/merge.ml" 183 6888 6899 "src/merge.ml" 183 6888 6900
+type(
+  B.G.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 178 6714 6734 "src/merge.ml" 178 6714 6735
+)
+"src/merge.ml" 183 6888 6904 "src/merge.ml" 183 6888 6908
+type(
+  B.G.vertex list
+)
+ident(
+  int_ref accu "src/merge.ml" 178 6714 6736 "src/merge.ml" 178 6714 6740
+)
+"src/merge.ml" 183 6888 6899 "src/merge.ml" 183 6888 6908
+type(
+  B.G.vertex list
+)
+"src/merge.ml" 184 6909 6920 "src/merge.ml" 184 6909 6924
+type(
+  B.G.vertex list
+)
+ident(
+  int_ref accu "src/merge.ml" 178 6714 6736 "src/merge.ml" 178 6714 6740
+)
+"src/merge.ml" 179 6743 6749 "src/merge.ml" 184 6909 6924
+type(
+  B.G.vertex list
+)
+"src/merge.ml" 186 6932 6940 "src/merge.ml" 186 6932 6944
+type(
+  B.G.vertex list
+)
+ident(
+  def ends "src/merge.ml" 187 6985 6989 "src/merge.ml" 192 7098 7129
+)
+"src/merge.ml" 186 6932 6952 "src/merge.ml" 186 6932 6963
+type(
+  (B.G.vertex -> B.G.vertex list -> B.G.vertex list) ->
+  B.G.t -> B.G.vertex list -> B.G.vertex list
+)
+ident(
+  ext_ref B.G.fold_vertex
+)
+"src/merge.ml" 186 6932 6964 "src/merge.ml" 186 6932 6975
+type(
+  B.G.vertex -> B.G.vertex list -> B.G.vertex list
+)
+ident(
+  int_ref accumulator "src/merge.ml" 178 6714 6722 "src/merge.ml" 178 6714 6733
+)
+"src/merge.ml" 186 6932 6976 "src/merge.ml" 186 6932 6977
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 177 6659 6710 "src/merge.ml" 177 6659 6711
+)
+"src/merge.ml" 186 6932 6978 "src/merge.ml" 186 6932 6980
+type(
+  B.G.vertex list
+)
+"src/merge.ml" 186 6932 6952 "src/merge.ml" 186 6932 6980
+call(
+  stack
+)
+type(
+  B.G.vertex list
+)
+"src/merge.ml" 187 6985 6993 "src/merge.ml" 187 6985 7005
+type(
+  B.G.vertex list
+)
+ident(
+  def to_be_merged "src/merge.ml" 192 7098 7102 "src/merge.ml" 192 7098 7129
+)
+"src/merge.ml" 188 7008 7020 "src/merge.ml" 188 7008 7036
+type(
+  B.G.vertex option
+)
+ident(
+  int_ref specified_vertex "src/merge.ml" 177 6659 6693 "src/merge.ml" 177 6659 6709
+)
+"src/merge.ml" 189 7042 7055 "src/merge.ml" 189 7042 7056
+type(
+  B.G.vertex
+)
+ident(
+  def v "src/merge.ml" 189 7042 7060 "src/merge.ml" 189 7042 7069
+)
+"src/merge.ml" 189 7042 7050 "src/merge.ml" 189 7042 7056
+type(
+  B.G.vertex option
+)
+"src/merge.ml" 189 7042 7060 "src/merge.ml" 189 7042 7061
+type(
+  B.G.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 189 7042 7055 "src/merge.ml" 189 7042 7056
+)
+"src/merge.ml" 189 7042 7065 "src/merge.ml" 189 7042 7069
+type(
+  B.G.vertex list
+)
+ident(
+  int_ref ends "src/merge.ml" 186 6932 6940 "src/merge.ml" 186 6932 6944
+)
+"src/merge.ml" 189 7042 7060 "src/merge.ml" 189 7042 7069
+type(
+  B.G.vertex list
+)
+"src/merge.ml" 190 7070 7078 "src/merge.ml" 190 7070 7082
+type(
+  B.G.vertex option
+)
+"src/merge.ml" 190 7070 7086 "src/merge.ml" 190 7070 7090
+type(
+  B.G.vertex list
+)
+ident(
+  int_ref ends "src/merge.ml" 186 6932 6940 "src/merge.ml" 186 6932 6944
+)
+"src/merge.ml" 188 7008 7014 "src/merge.ml" 190 7070 7090
+type(
+  B.G.vertex list
+)
+"src/merge.ml" 192 7098 7102 "src/merge.ml" 192 7098 7114
+type(
+  B.G.t -> B.G.E.vertex list -> B.G.t
+)
+ident(
+  int_ref merge_vertex "src/merge.ml" 72 2867 2873 "src/merge.ml" 72 2867 2885
+)
+"src/merge.ml" 192 7098 7115 "src/merge.ml" 192 7098 7116
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 177 6659 6710 "src/merge.ml" 177 6659 6711
+)
+"src/merge.ml" 192 7098 7117 "src/merge.ml" 192 7098 7129
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref to_be_merged "src/merge.ml" 187 6985 6993 "src/merge.ml" 187 6985 7005
+)
+"src/merge.ml" 192 7098 7102 "src/merge.ml" 192 7098 7129
+call(
+  tail
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 187 6985 6989 "src/merge.ml" 192 7098 7129
+type(
+  B.G.t
+)
+"src/merge.ml" 186 6932 6936 "src/merge.ml" 192 7098 7129
+type(
+  B.G.t
+)
+"src/merge.ml" 178 6714 6718 "src/merge.ml" 192 7098 7129
+type(
+  B.G.t
+)
+"src/merge.ml" 194 7131 7137 "src/merge.ml" 194 7131 7149
+type(
+  ?strict:bool -> ?specified_vertex:B.G.vertex -> B.G.t -> B.G.t
+)
+ident(
+  def merge_starts "src/merge.ml" 211 7607 7609 "src/merge.ml" 226 8158 8161
+)
+"src/merge.ml" 194 7131 7152 "src/merge.ml" 194 7131 7158
+type(
+  bool
+)
+"src/merge.ml" 194 7131 7159 "src/merge.ml" 194 7131 7164
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/merge.ml" 194 7131 7159 "src/merge.ml" 194 7131 7164
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/merge.ml" 194 7131 7167 "src/merge.ml" 194 7131 7183
+type(
+  B.G.vertex option
+)
+ident(
+  def specified_vertex "src/merge.ml" 194 7131 7184 "src/merge.ml" 209 7574 7605
+)
+"src/merge.ml" 194 7131 7184 "src/merge.ml" 194 7131 7185
+type(
+  B.G.t
+)
+ident(
+  def g "src/merge.ml" 195 7188 7192 "src/merge.ml" 209 7574 7605
+)
+"src/merge.ml" 195 7188 7196 "src/merge.ml" 195 7188 7207
+type(
+  B.G.vertex -> B.G.vertex list -> B.G.vertex list
+)
+ident(
+  def accumulator "src/merge.ml" 203 7402 7406 "src/merge.ml" 209 7574 7605
+)
+"src/merge.ml" 195 7188 7208 "src/merge.ml" 195 7188 7209
+type(
+  B.G.vertex
+)
+ident(
+  def v "src/merge.ml" 195 7188 7210 "src/merge.ml" 201 7379 7394
+)
+"src/merge.ml" 195 7188 7210 "src/merge.ml" 195 7188 7214
+type(
+  B.G.vertex list
+)
+ident(
+  def accu "src/merge.ml" 196 7217 7223 "src/merge.ml" 201 7379 7394
+)
+"src/merge.ml" 197 7226 7238 "src/merge.ml" 197 7226 7242
+type(
+  int
+)
+ident(
+  def in_d "src/merge.ml" 198 7266 7274 "src/merge.ml" 199 7286 7357
+)
+"src/merge.ml" 197 7226 7245 "src/merge.ml" 197 7226 7258
+type(
+  B.G.t -> B.G.vertex -> int
+)
+ident(
+  ext_ref B.G.in_degree
+)
+"src/merge.ml" 197 7226 7259 "src/merge.ml" 197 7226 7260
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 194 7131 7184 "src/merge.ml" 194 7131 7185
+)
+"src/merge.ml" 197 7226 7261 "src/merge.ml" 197 7226 7262
+type(
+  B.G.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 195 7188 7208 "src/merge.ml" 195 7188 7209
+)
+"src/merge.ml" 197 7226 7245 "src/merge.ml" 197 7226 7262
+call(
+  stack
+)
+type(
+  int
+)
+"src/merge.ml" 198 7266 7274 "src/merge.ml" 198 7266 7278
+type(
+  int
+)
+ident(
+  int_ref in_d "src/merge.ml" 197 7226 7238 "src/merge.ml" 197 7226 7242
+)
+"src/merge.ml" 198 7266 7279 "src/merge.ml" 198 7266 7280
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/merge.ml" 198 7266 7281 "src/merge.ml" 198 7266 7282
+type(
+  int
+)
+"src/merge.ml" 198 7266 7274 "src/merge.ml" 198 7266 7282
+type(
+  bool
+)
+"src/merge.ml" 198 7266 7283 "src/merge.ml" 198 7266 7285
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/merge.ml" 199 7286 7296 "src/merge.ml" 199 7286 7299
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/merge.ml" 199 7286 7300 "src/merge.ml" 199 7286 7306
+type(
+  bool
+)
+ident(
+  int_ref strict "src/merge.ml" 194 7131 7152 "src/merge.ml" 194 7131 7158
+)
+"src/merge.ml" 199 7286 7295 "src/merge.ml" 199 7286 7307
+type(
+  bool
+)
+"src/merge.ml" 199 7286 7308 "src/merge.ml" 199 7286 7310
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/merge.ml" 199 7286 7311 "src/merge.ml" 199 7286 7315
+type(
+  int
+)
+ident(
+  int_ref in_d "src/merge.ml" 197 7226 7238 "src/merge.ml" 197 7226 7242
+)
+"src/merge.ml" 199 7286 7316 "src/merge.ml" 199 7286 7317
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/merge.ml" 199 7286 7318 "src/merge.ml" 199 7286 7329
+type(
+  B.G.edge list -> int
+)
+ident(
+  ext_ref List.length
+)
+"src/merge.ml" 199 7286 7331 "src/merge.ml" 199 7286 7349
+type(
+  B.G.t -> B.G.vertex -> B.G.vertex -> B.G.edge list
+)
+ident(
+  ext_ref B.G.find_all_edges
+)
+"src/merge.ml" 199 7286 7350 "src/merge.ml" 199 7286 7351
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 194 7131 7184 "src/merge.ml" 194 7131 7185
+)
+"src/merge.ml" 199 7286 7352 "src/merge.ml" 199 7286 7353
+type(
+  B.G.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 195 7188 7208 "src/merge.ml" 195 7188 7209
+)
+"src/merge.ml" 199 7286 7354 "src/merge.ml" 199 7286 7355
+type(
+  B.G.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 195 7188 7208 "src/merge.ml" 195 7188 7209
+)
+"src/merge.ml" 199 7286 7330 "src/merge.ml" 199 7286 7356
+call(
+  stack
+)
+type(
+  B.G.edge list
+)
+"src/merge.ml" 199 7286 7318 "src/merge.ml" 199 7286 7356
+call(
+  stack
+)
+type(
+  int
+)
+"src/merge.ml" 199 7286 7311 "src/merge.ml" 199 7286 7356
+type(
+  bool
+)
+"src/merge.ml" 199 7286 7294 "src/merge.ml" 199 7286 7357
+type(
+  bool
+)
+"src/merge.ml" 198 7266 7274 "src/merge.ml" 199 7286 7357
+type(
+  bool
+)
+"src/merge.ml" 197 7226 7234 "src/merge.ml" 199 7286 7357
+type(
+  bool
+)
+"src/merge.ml" 200 7358 7369 "src/merge.ml" 200 7358 7370
+type(
+  B.G.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 195 7188 7208 "src/merge.ml" 195 7188 7209
+)
+"src/merge.ml" 200 7358 7374 "src/merge.ml" 200 7358 7378
+type(
+  B.G.vertex list
+)
+ident(
+  int_ref accu "src/merge.ml" 195 7188 7210 "src/merge.ml" 195 7188 7214
+)
+"src/merge.ml" 200 7358 7369 "src/merge.ml" 200 7358 7378
+type(
+  B.G.vertex list
+)
+"src/merge.ml" 201 7379 7390 "src/merge.ml" 201 7379 7394
+type(
+  B.G.vertex list
+)
+ident(
+  int_ref accu "src/merge.ml" 195 7188 7210 "src/merge.ml" 195 7188 7214
+)
+"src/merge.ml" 196 7217 7223 "src/merge.ml" 201 7379 7394
+type(
+  B.G.vertex list
+)
+"src/merge.ml" 203 7402 7410 "src/merge.ml" 203 7402 7416
+type(
+  B.G.vertex list
+)
+ident(
+  def starts "src/merge.ml" 204 7457 7461 "src/merge.ml" 209 7574 7605
+)
+"src/merge.ml" 203 7402 7424 "src/merge.ml" 203 7402 7435
+type(
+  (B.G.vertex -> B.G.vertex list -> B.G.vertex list) ->
+  B.G.t -> B.G.vertex list -> B.G.vertex list
+)
+ident(
+  ext_ref B.G.fold_vertex
+)
+"src/merge.ml" 203 7402 7436 "src/merge.ml" 203 7402 7447
+type(
+  B.G.vertex -> B.G.vertex list -> B.G.vertex list
+)
+ident(
+  int_ref accumulator "src/merge.ml" 195 7188 7196 "src/merge.ml" 195 7188 7207
+)
+"src/merge.ml" 203 7402 7448 "src/merge.ml" 203 7402 7449
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 194 7131 7184 "src/merge.ml" 194 7131 7185
+)
+"src/merge.ml" 203 7402 7450 "src/merge.ml" 203 7402 7452
+type(
+  B.G.vertex list
+)
+"src/merge.ml" 203 7402 7424 "src/merge.ml" 203 7402 7452
+call(
+  stack
+)
+type(
+  B.G.vertex list
+)
+"src/merge.ml" 204 7457 7465 "src/merge.ml" 204 7457 7477
+type(
+  B.G.vertex list
+)
+ident(
+  def to_be_merged "src/merge.ml" 209 7574 7578 "src/merge.ml" 209 7574 7605
+)
+"src/merge.ml" 205 7480 7492 "src/merge.ml" 205 7480 7508
+type(
+  B.G.vertex option
+)
+ident(
+  int_ref specified_vertex "src/merge.ml" 194 7131 7167 "src/merge.ml" 194 7131 7183
+)
+"src/merge.ml" 206 7514 7527 "src/merge.ml" 206 7514 7528
+type(
+  B.G.vertex
+)
+ident(
+  def v "src/merge.ml" 206 7514 7532 "src/merge.ml" 206 7514 7543
+)
+"src/merge.ml" 206 7514 7522 "src/merge.ml" 206 7514 7528
+type(
+  B.G.vertex option
+)
+"src/merge.ml" 206 7514 7532 "src/merge.ml" 206 7514 7533
+type(
+  B.G.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 206 7514 7527 "src/merge.ml" 206 7514 7528
+)
+"src/merge.ml" 206 7514 7537 "src/merge.ml" 206 7514 7543
+type(
+  B.G.vertex list
+)
+ident(
+  int_ref starts "src/merge.ml" 203 7402 7410 "src/merge.ml" 203 7402 7416
+)
+"src/merge.ml" 206 7514 7532 "src/merge.ml" 206 7514 7543
+type(
+  B.G.vertex list
+)
+"src/merge.ml" 207 7544 7552 "src/merge.ml" 207 7544 7556
+type(
+  B.G.vertex option
+)
+"src/merge.ml" 207 7544 7560 "src/merge.ml" 207 7544 7566
+type(
+  B.G.vertex list
+)
+ident(
+  int_ref starts "src/merge.ml" 203 7402 7410 "src/merge.ml" 203 7402 7416
+)
+"src/merge.ml" 205 7480 7486 "src/merge.ml" 207 7544 7566
+type(
+  B.G.vertex list
+)
+"src/merge.ml" 209 7574 7578 "src/merge.ml" 209 7574 7590
+type(
+  B.G.t -> B.G.E.vertex list -> B.G.t
+)
+ident(
+  int_ref merge_vertex "src/merge.ml" 72 2867 2873 "src/merge.ml" 72 2867 2885
+)
+"src/merge.ml" 209 7574 7591 "src/merge.ml" 209 7574 7592
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 194 7131 7184 "src/merge.ml" 194 7131 7185
+)
+"src/merge.ml" 209 7574 7593 "src/merge.ml" 209 7574 7605
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref to_be_merged "src/merge.ml" 204 7457 7465 "src/merge.ml" 204 7457 7477
+)
+"src/merge.ml" 209 7574 7578 "src/merge.ml" 209 7574 7605
+call(
+  tail
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 204 7457 7461 "src/merge.ml" 209 7574 7605
+type(
+  B.G.t
+)
+"src/merge.ml" 203 7402 7406 "src/merge.ml" 209 7574 7605
+type(
+  B.G.t
+)
+"src/merge.ml" 195 7188 7192 "src/merge.ml" 209 7574 7605
+type(
+  B.G.t
+)
+"src/merge.ml" 211 7607 7613 "src/merge.ml" 211 7607 7622
+type(
+  ?loop_killer:bool ->
+  ?specified_vertex:(B.G.E.vertex list -> B.G.E.vertex) -> B.G.t -> B.G.t
+)
+ident(
+  def merge_scc "src/merge.ml" 224 8119 8156 "src/merge.ml" 226 8158 8161
+)
+"src/merge.ml" 211 7607 7625 "src/merge.ml" 211 7607 7636
+type(
+  bool
+)
+"src/merge.ml" 211 7607 7637 "src/merge.ml" 211 7607 7642
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/merge.ml" 211 7607 7637 "src/merge.ml" 211 7607 7642
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/merge.ml" 211 7607 7645 "src/merge.ml" 211 7607 7661
+type(
+  (B.G.E.vertex list -> B.G.E.vertex) option
+)
+ident(
+  def specified_vertex "src/merge.ml" 211 7607 7662 "src/merge.ml" 224 8119 8156
+)
+"src/merge.ml" 211 7607 7662 "src/merge.ml" 211 7607 7663
+type(
+  B.G.t
+)
+ident(
+  def g "src/merge.ml" 212 7666 7670 "src/merge.ml" 224 8119 8156
+)
+"src/merge.ml" 212 7666 7685 "src/merge.ml" 212 7666 7705
+call(
+  stack
+)
+"src/merge.ml" 213 7709 7717 "src/merge.ml" 213 7709 7727
+type(
+  B.G.V.t list list
+)
+ident(
+  def components "src/merge.ml" 214 7746 7750 "src/merge.ml" 224 8119 8156
+)
+"src/merge.ml" 213 7709 7730 "src/merge.ml" 213 7709 7740
+type(
+  B.G.t -> B.G.V.t list list
+)
+ident(
+  ext_ref C.scc_list
+)
+"src/merge.ml" 213 7709 7741 "src/merge.ml" 213 7709 7742
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 211 7607 7662 "src/merge.ml" 211 7607 7663
+)
+"src/merge.ml" 213 7709 7730 "src/merge.ml" 213 7709 7742
+call(
+  stack
+)
+type(
+  B.G.V.t list list
+)
+"src/merge.ml" 214 7746 7754 "src/merge.ml" 214 7746 7759
+type(
+  B.G.t -> B.G.E.vertex list -> B.G.t
+)
+ident(
+  def alter "src/merge.ml" 224 8119 8123 "src/merge.ml" 224 8119 8156
+)
+"src/merge.ml" 214 7746 7760 "src/merge.ml" 214 7746 7764
+type(
+  B.G.t
+)
+ident(
+  def accu "src/merge.ml" 214 7746 7765 "src/merge.ml" 223 8100 8115
+)
+"src/merge.ml" 214 7746 7765 "src/merge.ml" 214 7746 7781
+type(
+  B.G.E.vertex list
+)
+ident(
+  def to_be_identified "src/merge.ml" 215 7784 7790 "src/merge.ml" 223 8100 8115
+)
+"src/merge.ml" 215 7784 7794 "src/merge.ml" 215 7784 7810
+type(
+  B.G.E.vertex list
+)
+ident(
+  def to_be_identified "src/merge.ml" 219 7948 7954 "src/merge.ml" 223 8100 8115
+)
+"src/merge.ml" 216 7813 7827 "src/merge.ml" 216 7813 7843
+type(
+  (B.G.E.vertex list -> B.G.E.vertex) option
+)
+ident(
+  int_ref specified_vertex "src/merge.ml" 211 7607 7645 "src/merge.ml" 211 7607 7661
+)
+"src/merge.ml" 217 7849 7859 "src/merge.ml" 217 7849 7863
+type(
+  (B.G.E.vertex list -> B.G.E.vertex) option
+)
+"src/merge.ml" 217 7849 7867 "src/merge.ml" 217 7849 7883
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref to_be_identified "src/merge.ml" 214 7746 7765 "src/merge.ml" 214 7746 7781
+)
+"src/merge.ml" 218 7884 7899 "src/merge.ml" 218 7884 7900
+type(
+  B.G.E.vertex list -> B.G.E.vertex
+)
+ident(
+  def f "src/merge.ml" 218 7884 7904 "src/merge.ml" 218 7884 7944
+)
+"src/merge.ml" 218 7884 7894 "src/merge.ml" 218 7884 7900
+type(
+  (B.G.E.vertex list -> B.G.E.vertex) option
+)
+"src/merge.ml" 218 7884 7905 "src/merge.ml" 218 7884 7906
+type(
+  B.G.E.vertex list -> B.G.E.vertex
+)
+ident(
+  int_ref f "src/merge.ml" 218 7884 7899 "src/merge.ml" 218 7884 7900
+)
+"src/merge.ml" 218 7884 7907 "src/merge.ml" 218 7884 7923
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref to_be_identified "src/merge.ml" 214 7746 7765 "src/merge.ml" 214 7746 7781
+)
+"src/merge.ml" 218 7884 7904 "src/merge.ml" 218 7884 7924
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 218 7884 7928 "src/merge.ml" 218 7884 7944
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref to_be_identified "src/merge.ml" 214 7746 7765 "src/merge.ml" 214 7746 7781
+)
+"src/merge.ml" 218 7884 7904 "src/merge.ml" 218 7884 7944
+type(
+  B.G.E.vertex list
+)
+"src/merge.ml" 216 7813 7821 "src/merge.ml" 218 7884 7944
+type(
+  B.G.E.vertex list
+)
+"src/merge.ml" 219 7948 7958 "src/merge.ml" 219 7948 7959
+type(
+  B.G.E.vertex
+)
+ident(
+  def v "src/merge.ml" 220 7990 7996 "src/merge.ml" 223 8100 8115
+)
+"src/merge.ml" 219 7948 7962 "src/merge.ml" 219 7948 7969
+type(
+  B.G.E.vertex list -> B.G.E.vertex
+)
+ident(
+  ext_ref List.hd
+)
+"src/merge.ml" 219 7948 7970 "src/merge.ml" 219 7948 7986
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref to_be_identified "src/merge.ml" 215 7784 7794 "src/merge.ml" 215 7784 7810
+)
+"src/merge.ml" 219 7948 7962 "src/merge.ml" 219 7948 7986
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/merge.ml" 220 7990 8000 "src/merge.ml" 220 7990 8004
+type(
+  B.G.t
+)
+ident(
+  def accu "src/merge.ml" 221 8045 8051 "src/merge.ml" 223 8100 8115
+)
+"src/merge.ml" 220 7990 8007 "src/merge.ml" 220 7990 8019
+type(
+  B.G.t -> B.G.E.vertex list -> B.G.t
+)
+ident(
+  int_ref merge_vertex "src/merge.ml" 72 2867 2873 "src/merge.ml" 72 2867 2885
+)
+"src/merge.ml" 220 7990 8020 "src/merge.ml" 220 7990 8024
+type(
+  B.G.t
+)
+ident(
+  int_ref accu "src/merge.ml" 214 7746 7760 "src/merge.ml" 214 7746 7764
+)
+"src/merge.ml" 220 7990 8025 "src/merge.ml" 220 7990 8041
+type(
+  B.G.E.vertex list
+)
+ident(
+  int_ref to_be_identified "src/merge.ml" 215 7784 7794 "src/merge.ml" 215 7784 7810
+)
+"src/merge.ml" 220 7990 8007 "src/merge.ml" 220 7990 8041
+call(
+  stack
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 221 8045 8054 "src/merge.ml" 221 8045 8065
+type(
+  bool
+)
+ident(
+  int_ref loop_killer "src/merge.ml" 211 7607 7625 "src/merge.ml" 211 7607 7636
+)
+"src/merge.ml" 222 8066 8077 "src/merge.ml" 222 8066 8090
+type(
+  B.G.t -> B.G.E.vertex -> B.G.E.vertex -> B.G.t
+)
+ident(
+  ext_ref B.remove_edge
+)
+"src/merge.ml" 222 8066 8091 "src/merge.ml" 222 8066 8095
+type(
+  B.G.t
+)
+ident(
+  int_ref accu "src/merge.ml" 220 7990 8000 "src/merge.ml" 220 7990 8004
+)
+"src/merge.ml" 222 8066 8096 "src/merge.ml" 222 8066 8097
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 219 7948 7958 "src/merge.ml" 219 7948 7959
+)
+"src/merge.ml" 222 8066 8098 "src/merge.ml" 222 8066 8099
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref v "src/merge.ml" 219 7948 7958 "src/merge.ml" 219 7948 7959
+)
+"src/merge.ml" 222 8066 8077 "src/merge.ml" 222 8066 8099
+call(
+  tail
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 223 8100 8111 "src/merge.ml" 223 8100 8115
+type(
+  B.G.t
+)
+ident(
+  int_ref accu "src/merge.ml" 220 7990 8000 "src/merge.ml" 220 7990 8004
+)
+"src/merge.ml" 221 8045 8051 "src/merge.ml" 223 8100 8115
+type(
+  B.G.t
+)
+"src/merge.ml" 220 7990 7996 "src/merge.ml" 223 8100 8115
+type(
+  B.G.t
+)
+"src/merge.ml" 219 7948 7954 "src/merge.ml" 223 8100 8115
+type(
+  B.G.t
+)
+"src/merge.ml" 215 7784 7790 "src/merge.ml" 223 8100 8115
+type(
+  B.G.t
+)
+"src/merge.ml" 224 8119 8123 "src/merge.ml" 224 8119 8137
+type(
+  (B.G.t -> B.G.E.vertex list -> B.G.t) ->
+  B.G.t -> B.G.E.vertex list list -> B.G.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/merge.ml" 224 8119 8138 "src/merge.ml" 224 8119 8143
+type(
+  B.G.t -> B.G.E.vertex list -> B.G.t
+)
+ident(
+  int_ref alter "src/merge.ml" 214 7746 7754 "src/merge.ml" 214 7746 7759
+)
+"src/merge.ml" 224 8119 8144 "src/merge.ml" 224 8119 8145
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/merge.ml" 211 7607 7662 "src/merge.ml" 211 7607 7663
+)
+"src/merge.ml" 224 8119 8146 "src/merge.ml" 224 8119 8156
+type(
+  B.G.E.vertex list list
+)
+ident(
+  int_ref components "src/merge.ml" 213 7709 7717 "src/merge.ml" 213 7709 7727
+)
+"src/merge.ml" 224 8119 8123 "src/merge.ml" 224 8119 8156
+call(
+  tail
+)
+type(
+  B.G.t
+)
+"src/merge.ml" 214 7746 7750 "src/merge.ml" 224 8119 8156
+type(
+  B.G.t
+)
+"src/merge.ml" 213 7709 7713 "src/merge.ml" 224 8119 8156
+type(
+  B.G.t
+)
+"src/merge.ml" 212 7666 7670 "src/merge.ml" 224 8119 8156
+type(
+  B.G.t
+)
+"src/merge.ml" 228 8163 8186 "src/merge.ml" 228 8163 8198
+call(
+  stack
+)
+"src/merge.ml" 228 8163 8184 "src/merge.ml" 228 8163 8199
+call(
+  tail
+)
+"src/merge.ml" 231 8229 8241 "src/merge.ml" 231 8229 8253
+call(
+  stack
+)
+"src/merge.ml" 231 8229 8239 "src/merge.ml" 231 8229 8254
+call(
+  stack
+)
+"src/merge.ml" 232 8255 8261 "src/merge.ml" 232 8255 8273
+type(
+  Builder.I(G).G.t -> Builder.I(G).G.E.vertex list -> unit
+)
+ident(
+  def merge_vertex "src/merge.ml" 233 8308 8310 "src/merge.ml" 243 8870 8873
+)
+"src/merge.ml" 232 8255 8274 "src/merge.ml" 232 8255 8275
+type(
+  Builder.I(G).G.t
+)
+ident(
+  def g "src/merge.ml" 232 8255 8276 "src/merge.ml" 232 8255 8307
+)
+"src/merge.ml" 232 8255 8276 "src/merge.ml" 232 8255 8278
+type(
+  Builder.I(G).G.E.vertex list
+)
+ident(
+  def vl "src/merge.ml" 232 8255 8281 "src/merge.ml" 232 8255 8307
+)
+"src/merge.ml" 232 8255 8281 "src/merge.ml" 232 8255 8287
+type(
+  Builder.I(G).G.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/merge.ml" 232 8255 8289 "src/merge.ml" 232 8255 8301
+type(
+  Builder.I(G).G.t -> Builder.I(G).G.E.vertex list -> Builder.I(G).G.t
+)
+ident(
+  int_ref merge_vertex "src/merge.ml" 72 2867 2873 "src/merge.ml" 72 2867 2885
+)
+"src/merge.ml" 232 8255 8302 "src/merge.ml" 232 8255 8303
+type(
+  Builder.I(G).G.t
+)
+ident(
+  int_ref g "src/merge.ml" 232 8255 8274 "src/merge.ml" 232 8255 8275
+)
+"src/merge.ml" 232 8255 8304 "src/merge.ml" 232 8255 8306
+type(
+  Builder.I(G).G.E.vertex list
+)
+ident(
+  int_ref vl "src/merge.ml" 232 8255 8276 "src/merge.ml" 232 8255 8278
+)
+"src/merge.ml" 232 8255 8288 "src/merge.ml" 232 8255 8307
+call(
+  stack
+)
+type(
+  Builder.I(G).G.t
+)
+"src/merge.ml" 232 8255 8281 "src/merge.ml" 232 8255 8307
+type(
+  unit
+)
+"src/merge.ml" 233 8308 8314 "src/merge.ml" 233 8308 8327
+type(
+  ?src:Builder.I(G).G.E.vertex ->
+  ?dst:Builder.I(G).G.E.vertex ->
+  Builder.I(G).G.t -> Builder.I(G).G.edge list -> unit
+)
+ident(
+  def merge_edges_e "src/merge.ml" 234 8383 8385 "src/merge.ml" 243 8870 8873
+)
+"src/merge.ml" 233 8308 8329 "src/merge.ml" 233 8308 8332
+type(
+  Builder.I(G).G.E.vertex option
+)
+ident(
+  def src "src/merge.ml" 233 8308 8333 "src/merge.ml" 233 8308 8382
+)
+"src/merge.ml" 233 8308 8334 "src/merge.ml" 233 8308 8337
+type(
+  Builder.I(G).G.E.vertex option
+)
+ident(
+  def dst "src/merge.ml" 233 8308 8338 "src/merge.ml" 233 8308 8382
+)
+"src/merge.ml" 233 8308 8338 "src/merge.ml" 233 8308 8339
+type(
+  Builder.I(G).G.t
+)
+ident(
+  def g "src/merge.ml" 233 8308 8340 "src/merge.ml" 233 8308 8382
+)
+"src/merge.ml" 233 8308 8340 "src/merge.ml" 233 8308 8342
+type(
+  Builder.I(G).G.edge list
+)
+ident(
+  def el "src/merge.ml" 233 8308 8345 "src/merge.ml" 233 8308 8382
+)
+"src/merge.ml" 233 8308 8345 "src/merge.ml" 233 8308 8351
+type(
+  Builder.I(G).G.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/merge.ml" 233 8308 8353 "src/merge.ml" 233 8308 8366
+type(
+  ?src:Builder.I(G).G.E.vertex ->
+  ?dst:Builder.I(G).G.E.vertex ->
+  Builder.I(G).G.t -> Builder.I(G).G.edge list -> Builder.I(G).G.t
+)
+ident(
+  int_ref merge_edges_e "src/merge.ml" 81 3154 3160 "src/merge.ml" 81 3154 3173
+)
+"src/merge.ml" 233 8308 8368 "src/merge.ml" 233 8308 8371
+type(
+  Builder.I(G).G.E.vertex option
+)
+ident(
+  int_ref src "src/merge.ml" 233 8308 8329 "src/merge.ml" 233 8308 8332
+)
+"src/merge.ml" 233 8308 8373 "src/merge.ml" 233 8308 8376
+type(
+  Builder.I(G).G.E.vertex option
+)
+ident(
+  int_ref dst "src/merge.ml" 233 8308 8334 "src/merge.ml" 233 8308 8337
+)
+"src/merge.ml" 233 8308 8377 "src/merge.ml" 233 8308 8378
+type(
+  Builder.I(G).G.t
+)
+ident(
+  int_ref g "src/merge.ml" 233 8308 8338 "src/merge.ml" 233 8308 8339
+)
+"src/merge.ml" 233 8308 8379 "src/merge.ml" 233 8308 8381
+type(
+  Builder.I(G).G.edge list
+)
+ident(
+  int_ref el "src/merge.ml" 233 8308 8340 "src/merge.ml" 233 8308 8342
+)
+"src/merge.ml" 233 8308 8352 "src/merge.ml" 233 8308 8382
+call(
+  stack
+)
+type(
+  Builder.I(G).G.t
+)
+"src/merge.ml" 233 8308 8345 "src/merge.ml" 233 8308 8382
+type(
+  unit
+)
+"src/merge.ml" 234 8383 8389 "src/merge.ml" 234 8383 8411
+type(
+  ?src:Builder.I(G).G.E.vertex ->
+  ?dst:Builder.I(G).G.E.vertex ->
+  ?label:Builder.I(G).G.E.label ->
+  Builder.I(G).G.t -> Builder.I(G).G.E.label -> unit
+)
+ident(
+  def merge_edges_with_label "src/merge.ml" 236 8492 8494 "src/merge.ml" 243 8870 8873
+)
+"src/merge.ml" 234 8383 8413 "src/merge.ml" 234 8383 8416
+type(
+  Builder.I(G).G.E.vertex option
+)
+ident(
+  def src "src/merge.ml" 234 8383 8417 "src/merge.ml" 235 8435 8491
+)
+"src/merge.ml" 234 8383 8418 "src/merge.ml" 234 8383 8421
+type(
+  Builder.I(G).G.E.vertex option
+)
+ident(
+  def dst "src/merge.ml" 234 8383 8422 "src/merge.ml" 235 8435 8491
+)
+"src/merge.ml" 234 8383 8423 "src/merge.ml" 234 8383 8428
+type(
+  Builder.I(G).G.E.label option
+)
+ident(
+  def label "src/merge.ml" 234 8383 8429 "src/merge.ml" 235 8435 8491
+)
+"src/merge.ml" 234 8383 8429 "src/merge.ml" 234 8383 8430
+type(
+  Builder.I(G).G.t
+)
+ident(
+  def g "src/merge.ml" 234 8383 8431 "src/merge.ml" 235 8435 8491
+)
+"src/merge.ml" 234 8383 8431 "src/merge.ml" 234 8383 8432
+type(
+  Builder.I(G).G.E.label
+)
+ident(
+  def l "src/merge.ml" 235 8435 8439 "src/merge.ml" 235 8435 8491
+)
+"src/merge.ml" 235 8435 8439 "src/merge.ml" 235 8435 8445
+type(
+  Builder.I(G).G.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/merge.ml" 235 8435 8447 "src/merge.ml" 235 8435 8469
+type(
+  ?src:Builder.I(G).G.E.vertex ->
+  ?dst:Builder.I(G).G.E.vertex ->
+  ?label:Builder.I(G).G.E.label ->
+  Builder.I(G).G.t -> Builder.I(G).G.E.label -> Builder.I(G).G.t
+)
+ident(
+  int_ref merge_edges_with_label "src/merge.ml" 113 4381 4387 "src/merge.ml" 113 4381 4409
+)
+"src/merge.ml" 235 8435 8471 "src/merge.ml" 235 8435 8474
+type(
+  Builder.I(G).G.E.vertex option
+)
+ident(
+  int_ref src "src/merge.ml" 234 8383 8413 "src/merge.ml" 234 8383 8416
+)
+"src/merge.ml" 235 8435 8476 "src/merge.ml" 235 8435 8479
+type(
+  Builder.I(G).G.E.vertex option
+)
+ident(
+  int_ref dst "src/merge.ml" 234 8383 8418 "src/merge.ml" 234 8383 8421
+)
+"src/merge.ml" 235 8435 8481 "src/merge.ml" 235 8435 8486
+type(
+  Builder.I(G).G.E.label option
+)
+ident(
+  int_ref label "src/merge.ml" 234 8383 8423 "src/merge.ml" 234 8383 8428
+)
+"src/merge.ml" 235 8435 8487 "src/merge.ml" 235 8435 8488
+type(
+  Builder.I(G).G.t
+)
+ident(
+  int_ref g "src/merge.ml" 234 8383 8429 "src/merge.ml" 234 8383 8430
+)
+"src/merge.ml" 235 8435 8489 "src/merge.ml" 235 8435 8490
+type(
+  Builder.I(G).G.E.label
+)
+ident(
+  int_ref l "src/merge.ml" 234 8383 8431 "src/merge.ml" 234 8383 8432
+)
+"src/merge.ml" 235 8435 8446 "src/merge.ml" 235 8435 8491
+call(
+  stack
+)
+type(
+  Builder.I(G).G.t
+)
+"src/merge.ml" 235 8435 8439 "src/merge.ml" 235 8435 8491
+type(
+  unit
+)
+"src/merge.ml" 236 8492 8498 "src/merge.ml" 236 8492 8521
+type(
+  Builder.I(G).G.t -> unit
+)
+ident(
+  def merge_isolabelled_edges "src/merge.ml" 237 8561 8563 "src/merge.ml" 243 8870 8873
+)
+"src/merge.ml" 236 8492 8522 "src/merge.ml" 236 8492 8523
+type(
+  Builder.I(G).G.t
+)
+ident(
+  def g "src/merge.ml" 236 8492 8526 "src/merge.ml" 236 8492 8560
+)
+"src/merge.ml" 236 8492 8526 "src/merge.ml" 236 8492 8532
+type(
+  Builder.I(G).G.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/merge.ml" 236 8492 8534 "src/merge.ml" 236 8492 8557
+type(
+  Builder.I(G).G.t -> Builder.I(G).G.t
+)
+ident(
+  int_ref merge_isolabelled_edges "src/merge.ml" 144 5402 5408 "src/merge.ml" 144 5402 5431
+)
+"src/merge.ml" 236 8492 8558 "src/merge.ml" 236 8492 8559
+type(
+  Builder.I(G).G.t
+)
+ident(
+  int_ref g "src/merge.ml" 236 8492 8522 "src/merge.ml" 236 8492 8523
+)
+"src/merge.ml" 236 8492 8533 "src/merge.ml" 236 8492 8560
+call(
+  stack
+)
+type(
+  Builder.I(G).G.t
+)
+"src/merge.ml" 236 8492 8526 "src/merge.ml" 236 8492 8560
+type(
+  unit
+)
+"src/merge.ml" 237 8561 8567 "src/merge.ml" 237 8561 8577
+type(
+  ?strict:bool ->
+  ?specified_vertex:Builder.I(G).G.vertex -> Builder.I(G).G.t -> unit
+)
+ident(
+  def merge_ends "src/merge.ml" 239 8660 8662 "src/merge.ml" 243 8870 8873
+)
+"src/merge.ml" 237 8561 8579 "src/merge.ml" 237 8561 8585
+type(
+  bool option
+)
+ident(
+  def strict "src/merge.ml" 237 8561 8586 "src/merge.ml" 238 8608 8659
+)
+"src/merge.ml" 237 8561 8587 "src/merge.ml" 237 8561 8603
+type(
+  Builder.I(G).G.vertex option
+)
+ident(
+  def specified_vertex "src/merge.ml" 237 8561 8604 "src/merge.ml" 238 8608 8659
+)
+"src/merge.ml" 237 8561 8604 "src/merge.ml" 237 8561 8605
+type(
+  Builder.I(G).G.t
+)
+ident(
+  def g "src/merge.ml" 238 8608 8612 "src/merge.ml" 238 8608 8659
+)
+"src/merge.ml" 238 8608 8612 "src/merge.ml" 238 8608 8618
+type(
+  Builder.I(G).G.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/merge.ml" 238 8608 8620 "src/merge.ml" 238 8608 8630
+type(
+  ?strict:bool ->
+  ?specified_vertex:Builder.I(G).G.vertex ->
+  Builder.I(G).G.t -> Builder.I(G).G.t
+)
+ident(
+  int_ref merge_ends "src/merge.ml" 177 6659 6665 "src/merge.ml" 177 6659 6675
+)
+"src/merge.ml" 238 8608 8632 "src/merge.ml" 238 8608 8638
+type(
+  bool option
+)
+ident(
+  int_ref strict "src/merge.ml" 237 8561 8579 "src/merge.ml" 237 8561 8585
+)
+"src/merge.ml" 238 8608 8640 "src/merge.ml" 238 8608 8656
+type(
+  Builder.I(G).G.vertex option
+)
+ident(
+  int_ref specified_vertex "src/merge.ml" 237 8561 8587 "src/merge.ml" 237 8561 8603
+)
+"src/merge.ml" 238 8608 8657 "src/merge.ml" 238 8608 8658
+type(
+  Builder.I(G).G.t
+)
+ident(
+  int_ref g "src/merge.ml" 237 8561 8604 "src/merge.ml" 237 8561 8605
+)
+"src/merge.ml" 238 8608 8619 "src/merge.ml" 238 8608 8659
+call(
+  stack
+)
+type(
+  Builder.I(G).G.t
+)
+"src/merge.ml" 238 8608 8612 "src/merge.ml" 238 8608 8659
+type(
+  unit
+)
+"src/merge.ml" 239 8660 8666 "src/merge.ml" 239 8660 8678
+type(
+  ?strict:bool ->
+  ?specified_vertex:Builder.I(G).G.vertex -> Builder.I(G).G.t -> unit
+)
+ident(
+  def merge_starts "src/merge.ml" 241 8763 8765 "src/merge.ml" 243 8870 8873
+)
+"src/merge.ml" 239 8660 8680 "src/merge.ml" 239 8660 8686
+type(
+  bool option
+)
+ident(
+  def strict "src/merge.ml" 239 8660 8687 "src/merge.ml" 240 8709 8762
+)
+"src/merge.ml" 239 8660 8688 "src/merge.ml" 239 8660 8704
+type(
+  Builder.I(G).G.vertex option
+)
+ident(
+  def specified_vertex "src/merge.ml" 239 8660 8705 "src/merge.ml" 240 8709 8762
+)
+"src/merge.ml" 239 8660 8705 "src/merge.ml" 239 8660 8706
+type(
+  Builder.I(G).G.t
+)
+ident(
+  def g "src/merge.ml" 240 8709 8713 "src/merge.ml" 240 8709 8762
+)
+"src/merge.ml" 240 8709 8713 "src/merge.ml" 240 8709 8719
+type(
+  Builder.I(G).G.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/merge.ml" 240 8709 8721 "src/merge.ml" 240 8709 8733
+type(
+  ?strict:bool ->
+  ?specified_vertex:Builder.I(G).G.vertex ->
+  Builder.I(G).G.t -> Builder.I(G).G.t
+)
+ident(
+  int_ref merge_starts "src/merge.ml" 194 7131 7137 "src/merge.ml" 194 7131 7149
+)
+"src/merge.ml" 240 8709 8735 "src/merge.ml" 240 8709 8741
+type(
+  bool option
+)
+ident(
+  int_ref strict "src/merge.ml" 239 8660 8680 "src/merge.ml" 239 8660 8686
+)
+"src/merge.ml" 240 8709 8743 "src/merge.ml" 240 8709 8759
+type(
+  Builder.I(G).G.vertex option
+)
+ident(
+  int_ref specified_vertex "src/merge.ml" 239 8660 8688 "src/merge.ml" 239 8660 8704
+)
+"src/merge.ml" 240 8709 8760 "src/merge.ml" 240 8709 8761
+type(
+  Builder.I(G).G.t
+)
+ident(
+  int_ref g "src/merge.ml" 239 8660 8705 "src/merge.ml" 239 8660 8706
+)
+"src/merge.ml" 240 8709 8720 "src/merge.ml" 240 8709 8762
+call(
+  stack
+)
+type(
+  Builder.I(G).G.t
+)
+"src/merge.ml" 240 8709 8713 "src/merge.ml" 240 8709 8762
+type(
+  unit
+)
+"src/merge.ml" 241 8763 8769 "src/merge.ml" 241 8763 8778
+type(
+  ?loop_killer:bool ->
+  ?specified_vertex:(Builder.I(G).G.E.vertex list -> Builder.I(G).G.E.vertex) ->
+  Builder.I(G).G.t -> unit
+)
+ident(
+  def merge_scc "src/merge.ml" 242 8814 8869 "src/merge.ml" 243 8870 8873
+)
+"src/merge.ml" 241 8763 8780 "src/merge.ml" 241 8763 8791
+type(
+  bool option
+)
+ident(
+  def loop_killer "src/merge.ml" 241 8763 8792 "src/merge.ml" 242 8814 8869
+)
+"src/merge.ml" 241 8763 8793 "src/merge.ml" 241 8763 8809
+type(
+  (Builder.I(G).G.E.vertex list -> Builder.I(G).G.E.vertex) option
+)
+ident(
+  def specified_vertex "src/merge.ml" 241 8763 8810 "src/merge.ml" 242 8814 8869
+)
+"src/merge.ml" 241 8763 8810 "src/merge.ml" 241 8763 8811
+type(
+  Builder.I(G).G.t
+)
+ident(
+  def g "src/merge.ml" 242 8814 8818 "src/merge.ml" 242 8814 8869
+)
+"src/merge.ml" 242 8814 8818 "src/merge.ml" 242 8814 8824
+type(
+  Builder.I(G).G.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/merge.ml" 242 8814 8826 "src/merge.ml" 242 8814 8835
+type(
+  ?loop_killer:bool ->
+  ?specified_vertex:(Builder.I(G).G.E.vertex list -> Builder.I(G).G.E.vertex) ->
+  Builder.I(G).G.t -> Builder.I(G).G.t
+)
+ident(
+  int_ref merge_scc "src/merge.ml" 211 7607 7613 "src/merge.ml" 211 7607 7622
+)
+"src/merge.ml" 242 8814 8837 "src/merge.ml" 242 8814 8848
+type(
+  bool option
+)
+ident(
+  int_ref loop_killer "src/merge.ml" 241 8763 8780 "src/merge.ml" 241 8763 8791
+)
+"src/merge.ml" 242 8814 8850 "src/merge.ml" 242 8814 8866
+type(
+  (Builder.I(G).G.E.vertex list -> Builder.I(G).G.E.vertex) option
+)
+ident(
+  int_ref specified_vertex "src/merge.ml" 241 8763 8793 "src/merge.ml" 241 8763 8809
+)
+"src/merge.ml" 242 8814 8867 "src/merge.ml" 242 8814 8868
+type(
+  Builder.I(G).G.t
+)
+ident(
+  int_ref g "src/merge.ml" 241 8763 8810 "src/merge.ml" 241 8763 8811
+)
+"src/merge.ml" 242 8814 8825 "src/merge.ml" 242 8814 8869
+call(
+  stack
+)
+type(
+  Builder.I(G).G.t
+)
+"src/merge.ml" 242 8814 8818 "src/merge.ml" 242 8814 8869
+type(
+  unit
+)

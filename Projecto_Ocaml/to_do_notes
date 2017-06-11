@@ -1,0 +1,12 @@
+resolver problema de wikipedia simple english
+boruvka -> algoritmo a implementar (criar .ml e .mli como prim e kruskal (src))
+gerar grafo a partir da web (como wget)
+functory(forma de ligar varios pcs para processamento paralelo) -> aprender
+lwt -> biblioteca de threads
+criar modulo de memorização para algoritmos ja existentes
+
+
+
+----------------
+
+//kosaraju -> algorithm
