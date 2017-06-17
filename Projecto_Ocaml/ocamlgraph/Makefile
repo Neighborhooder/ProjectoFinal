@@ -69,7 +69,7 @@ OCAMLGRAPH_LIB:=$(patsubst %, $(OCAMLGRAPH_LIBDIR)/%.cmo, $(OCAMLGRAPH_LIB))
 
 CMO =	version util blocks persistent imperative \
 	delaunay builder classic rand oper \
-	components path nonnegative traverse coloring topological kruskal flow \
+	components path nonnegative traverse coloring topological kruskal flow boruvka \
 	prim dominator graphviz gml dot_parser dot_lexer dot pack \
 	gmap minsep cliquetree mcs_m md strat fixpoint leaderlist contraction \
 	graphml merge mincut clique weakTopological chaoticIteration

@@ -1,0 +1,2166 @@
+"src/boruvka.ml" 61 2089 2123 "src/boruvka.ml" 61 2089 2134
+call(
+  stack
+)
+"src/boruvka.ml" 62 2135 2162 "src/boruvka.ml" 62 2135 2173
+type(
+  S.elt list -> S.t
+)
+ident(
+  def set_of_list "src/boruvka.ml" 63 2179 2262 "src/boruvka.ml" 65 2264 2269
+)
+"src/boruvka.ml" 62 2135 2174 "src/boruvka.ml" 62 2135 2176
+type(
+  S.elt list
+)
+ident(
+  def li "src/boruvka.ml" 63 2179 2204 "src/boruvka.ml" 63 2179 2262
+)
+"src/boruvka.ml" 63 2179 2204 "src/boruvka.ml" 63 2179 2218
+type(
+  (S.t -> S.elt -> S.t) -> S.t -> S.elt list -> S.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/boruvka.ml" 63 2179 2224 "src/boruvka.ml" 63 2179 2227
+type(
+  S.t
+)
+ident(
+  def set "src/boruvka.ml" 63 2179 2228 "src/boruvka.ml" 63 2179 2250
+)
+"src/boruvka.ml" 63 2179 2228 "src/boruvka.ml" 63 2179 2232
+type(
+  S.elt
+)
+ident(
+  def elem "src/boruvka.ml" 63 2179 2236 "src/boruvka.ml" 63 2179 2250
+)
+"src/boruvka.ml" 63 2179 2236 "src/boruvka.ml" 63 2179 2241
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  ext_ref S.add
+)
+"src/boruvka.ml" 63 2179 2242 "src/boruvka.ml" 63 2179 2246
+type(
+  S.elt
+)
+ident(
+  int_ref elem "src/boruvka.ml" 63 2179 2228 "src/boruvka.ml" 63 2179 2232
+)
+"src/boruvka.ml" 63 2179 2247 "src/boruvka.ml" 63 2179 2250
+type(
+  S.t
+)
+ident(
+  int_ref set "src/boruvka.ml" 63 2179 2224 "src/boruvka.ml" 63 2179 2227
+)
+"src/boruvka.ml" 63 2179 2236 "src/boruvka.ml" 63 2179 2250
+call(
+  tail
+)
+type(
+  S.t
+)
+"src/boruvka.ml" 63 2179 2219 "src/boruvka.ml" 63 2179 2251
+type(
+  S.t -> S.elt -> S.t
+)
+"src/boruvka.ml" 63 2179 2252 "src/boruvka.ml" 63 2179 2259
+type(
+  S.t
+)
+ident(
+  ext_ref S.empty
+)
+"src/boruvka.ml" 63 2179 2260 "src/boruvka.ml" 63 2179 2262
+type(
+  S.elt list
+)
+ident(
+  int_ref li "src/boruvka.ml" 62 2135 2174 "src/boruvka.ml" 62 2135 2176
+)
+"src/boruvka.ml" 63 2179 2204 "src/boruvka.ml" 63 2179 2262
+call(
+  tail
+)
+type(
+  S.t
+)
+"src/boruvka.ml" 66 2270 2285 "src/boruvka.ml" 66 2270 2299
+call(
+  stack
+)
+"src/boruvka.ml" 68 2301 2307 "src/boruvka.ml" 68 2301 2319
+type(
+  G.t -> G.E.t list
+)
+ident(
+  def spanningtree "src/boruvka.ml" 121 4688 4694 "src/boruvka.ml" 122 4695 4698
+)
+"src/boruvka.ml" 68 2301 2320 "src/boruvka.ml" 68 2301 2321
+type(
+  G.t
+)
+ident(
+  def g "src/boruvka.ml" 69 2324 2328 "src/boruvka.ml" 121 4688 4694
+)
+"src/boruvka.ml" 69 2324 2332 "src/boruvka.ml" 69 2324 2346
+type(
+  G.V.t list
+)
+ident(
+  def list_of_vertex "src/boruvka.ml" 71 2522 2526 "src/boruvka.ml" 121 4688 4694
+)
+"src/boruvka.ml" 69 2324 2349 "src/boruvka.ml" 69 2324 2362
+type(
+  (G.V.t -> G.V.t list -> G.V.t list) -> G.t -> G.V.t list -> G.V.t list
+)
+ident(
+  int_ref G.fold_vertex "src/boruvka.ml" 50 1800 1802 "src/boruvka.ml" 50 1800 1854
+)
+"src/boruvka.ml" 69 2324 2368 "src/boruvka.ml" 69 2324 2371
+type(
+  G.V.t
+)
+ident(
+  def acc "src/boruvka.ml" 69 2324 2372 "src/boruvka.ml" 69 2324 2389
+)
+"src/boruvka.ml" 69 2324 2372 "src/boruvka.ml" 69 2324 2376
+type(
+  G.V.t list
+)
+ident(
+  def elem "src/boruvka.ml" 69 2324 2380 "src/boruvka.ml" 69 2324 2389
+)
+"src/boruvka.ml" 69 2324 2380 "src/boruvka.ml" 69 2324 2383
+type(
+  G.V.t
+)
+ident(
+  int_ref acc "src/boruvka.ml" 69 2324 2368 "src/boruvka.ml" 69 2324 2371
+)
+"src/boruvka.ml" 69 2324 2385 "src/boruvka.ml" 69 2324 2389
+type(
+  G.V.t list
+)
+ident(
+  int_ref elem "src/boruvka.ml" 69 2324 2372 "src/boruvka.ml" 69 2324 2376
+)
+"src/boruvka.ml" 69 2324 2380 "src/boruvka.ml" 69 2324 2389
+type(
+  G.V.t list
+)
+"src/boruvka.ml" 69 2324 2363 "src/boruvka.ml" 69 2324 2390
+type(
+  G.V.t -> G.V.t list -> G.V.t list
+)
+"src/boruvka.ml" 69 2324 2391 "src/boruvka.ml" 69 2324 2392
+type(
+  G.t
+)
+ident(
+  int_ref g "src/boruvka.ml" 68 2301 2320 "src/boruvka.ml" 68 2301 2321
+)
+"src/boruvka.ml" 69 2324 2393 "src/boruvka.ml" 69 2324 2395
+type(
+  G.V.t list
+)
+"src/boruvka.ml" 69 2324 2349 "src/boruvka.ml" 69 2324 2395
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/boruvka.ml" 71 2522 2530 "src/boruvka.ml" 71 2522 2542
+type(
+  SoL.S.t list
+)
+ident(
+  def list_of_sets "src/boruvka.ml" 73 2623 2627 "src/boruvka.ml" 121 4688 4694
+)
+"src/boruvka.ml" 71 2522 2545 "src/boruvka.ml" 71 2522 2559
+type(
+  (SoL.S.t list -> SoL.S.elt -> SoL.S.t list) ->
+  SoL.S.t list -> SoL.S.elt list -> SoL.S.t list
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/boruvka.ml" 71 2522 2565 "src/boruvka.ml" 71 2522 2568
+type(
+  SoL.S.t list
+)
+ident(
+  def acc "src/boruvka.ml" 71 2522 2569 "src/boruvka.ml" 71 2522 2598
+)
+"src/boruvka.ml" 71 2522 2569 "src/boruvka.ml" 71 2522 2570
+type(
+  SoL.S.elt
+)
+ident(
+  def i "src/boruvka.ml" 71 2522 2574 "src/boruvka.ml" 71 2522 2598
+)
+"src/boruvka.ml" 71 2522 2575 "src/boruvka.ml" 71 2522 2590
+type(
+  SoL.S.elt -> SoL.S.t
+)
+ident(
+  ext_ref SoL.S.singleton
+)
+"src/boruvka.ml" 71 2522 2591 "src/boruvka.ml" 71 2522 2592
+type(
+  SoL.S.elt
+)
+ident(
+  int_ref i "src/boruvka.ml" 71 2522 2569 "src/boruvka.ml" 71 2522 2570
+)
+"src/boruvka.ml" 71 2522 2574 "src/boruvka.ml" 71 2522 2593
+call(
+  stack
+)
+type(
+  SoL.S.t
+)
+"src/boruvka.ml" 71 2522 2595 "src/boruvka.ml" 71 2522 2598
+type(
+  SoL.S.t list
+)
+ident(
+  int_ref acc "src/boruvka.ml" 71 2522 2565 "src/boruvka.ml" 71 2522 2568
+)
+"src/boruvka.ml" 71 2522 2574 "src/boruvka.ml" 71 2522 2598
+type(
+  SoL.S.t list
+)
+"src/boruvka.ml" 71 2522 2560 "src/boruvka.ml" 71 2522 2600
+type(
+  SoL.S.t list -> SoL.S.elt -> SoL.S.t list
+)
+"src/boruvka.ml" 71 2522 2601 "src/boruvka.ml" 71 2522 2603
+type(
+  SoL.S.t list
+)
+"src/boruvka.ml" 71 2522 2604 "src/boruvka.ml" 71 2522 2618
+type(
+  SoL.S.elt list
+)
+ident(
+  int_ref list_of_vertex "src/boruvka.ml" 69 2324 2332 "src/boruvka.ml" 69 2324 2346
+)
+"src/boruvka.ml" 71 2522 2545 "src/boruvka.ml" 71 2522 2618
+call(
+  stack
+)
+type(
+  SoL.S.t list
+)
+"src/boruvka.ml" 73 2623 2631 "src/boruvka.ml" 73 2623 2632
+type(
+  G.E.t list ref
+)
+ident(
+  def l "src/boruvka.ml" 74 2645 2649 "src/boruvka.ml" 121 4688 4694
+)
+"src/boruvka.ml" 73 2623 2635 "src/boruvka.ml" 73 2623 2638
+type(
+  G.E.t list -> G.E.t list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/boruvka.ml" 73 2623 2639 "src/boruvka.ml" 73 2623 2641
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 73 2623 2635 "src/boruvka.ml" 73 2623 2641
+type(
+  G.E.t list ref
+)
+"src/boruvka.ml" 74 2645 2653 "src/boruvka.ml" 74 2645 2664
+type(
+  G.V.t -> G.E.t list
+)
+ident(
+  def assoc_edges "src/boruvka.ml" 83 3084 3088 "src/boruvka.ml" 121 4688 4694
+)
+"src/boruvka.ml" 74 2645 2665 "src/boruvka.ml" 74 2645 2671
+type(
+  G.V.t
+)
+ident(
+  def vertex "src/boruvka.ml" 74 2645 2674 "src/boruvka.ml" 80 2888 2958
+)
+"src/boruvka.ml" 74 2645 2674 "src/boruvka.ml" 74 2645 2688
+type(
+  (G.E.t -> unit) -> G.t -> unit
+)
+ident(
+  int_ref G.iter_edges_e "src/boruvka.ml" 51 1855 1857 "src/boruvka.ml" 51 1855 1903
+)
+"src/boruvka.ml" 74 2645 2694 "src/boruvka.ml" 74 2645 2698
+type(
+  G.E.t
+)
+ident(
+  def elem "src/boruvka.ml" 75 2701 2709 "src/boruvka.ml" 78 2848 2876
+)
+"src/boruvka.ml" 75 2701 2714 "src/boruvka.ml" 75 2701 2725
+type(
+  G.V.t -> G.V.t -> int
+)
+ident(
+  ext_ref G.V.compare
+)
+"src/boruvka.ml" 75 2701 2727 "src/boruvka.ml" 75 2701 2734
+type(
+  G.E.t -> G.V.t
+)
+ident(
+  int_ref G.E.dst "src/boruvka.ml" 47 1748 1752 "src/boruvka.ml" 47 1748 1770
+)
+"src/boruvka.ml" 75 2701 2735 "src/boruvka.ml" 75 2701 2739
+type(
+  G.E.t
+)
+ident(
+  int_ref elem "src/boruvka.ml" 74 2645 2694 "src/boruvka.ml" 74 2645 2698
+)
+"src/boruvka.ml" 75 2701 2726 "src/boruvka.ml" 75 2701 2740
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/boruvka.ml" 75 2701 2741 "src/boruvka.ml" 75 2701 2747
+type(
+  G.V.t
+)
+ident(
+  int_ref vertex "src/boruvka.ml" 74 2645 2665 "src/boruvka.ml" 74 2645 2671
+)
+"src/boruvka.ml" 75 2701 2713 "src/boruvka.ml" 75 2701 2748
+call(
+  stack
+)
+type(
+  int
+)
+"src/boruvka.ml" 75 2701 2749 "src/boruvka.ml" 75 2701 2750
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/boruvka.ml" 75 2701 2751 "src/boruvka.ml" 75 2701 2752
+type(
+  int
+)
+"src/boruvka.ml" 75 2701 2712 "src/boruvka.ml" 75 2701 2753
+type(
+  bool
+)
+"src/boruvka.ml" 76 2759 2773 "src/boruvka.ml" 76 2759 2774
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref l "src/boruvka.ml" 73 2623 2631 "src/boruvka.ml" 73 2623 2632
+)
+"src/boruvka.ml" 76 2759 2775 "src/boruvka.ml" 76 2759 2777
+type(
+  G.E.t list ref -> G.E.t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/boruvka.ml" 76 2759 2778 "src/boruvka.ml" 76 2759 2782
+type(
+  G.E.t
+)
+ident(
+  int_ref elem "src/boruvka.ml" 74 2645 2694 "src/boruvka.ml" 74 2645 2698
+)
+"src/boruvka.ml" 76 2759 2786 "src/boruvka.ml" 76 2759 2787
+type(
+  G.E.t list ref -> G.E.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/boruvka.ml" 76 2759 2787 "src/boruvka.ml" 76 2759 2788
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref l "src/boruvka.ml" 73 2623 2631 "src/boruvka.ml" 73 2623 2632
+)
+"src/boruvka.ml" 76 2759 2786 "src/boruvka.ml" 76 2759 2788
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 76 2759 2778 "src/boruvka.ml" 76 2759 2788
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 76 2759 2773 "src/boruvka.ml" 76 2759 2788
+type(
+  unit
+)
+"src/boruvka.ml" 75 2701 2709 "src/boruvka.ml" 76 2759 2788
+type(
+  unit
+)
+"src/boruvka.ml" 77 2790 2803 "src/boruvka.ml" 77 2790 2814
+type(
+  G.V.t -> G.V.t -> int
+)
+ident(
+  ext_ref G.V.compare
+)
+"src/boruvka.ml" 77 2790 2816 "src/boruvka.ml" 77 2790 2823
+type(
+  G.E.t -> G.V.t
+)
+ident(
+  int_ref G.E.src "src/boruvka.ml" 48 1771 1775 "src/boruvka.ml" 48 1771 1793
+)
+"src/boruvka.ml" 77 2790 2824 "src/boruvka.ml" 77 2790 2828
+type(
+  G.E.t
+)
+ident(
+  int_ref elem "src/boruvka.ml" 74 2645 2694 "src/boruvka.ml" 74 2645 2698
+)
+"src/boruvka.ml" 77 2790 2815 "src/boruvka.ml" 77 2790 2829
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/boruvka.ml" 77 2790 2830 "src/boruvka.ml" 77 2790 2836
+type(
+  G.V.t
+)
+ident(
+  int_ref vertex "src/boruvka.ml" 74 2645 2665 "src/boruvka.ml" 74 2645 2671
+)
+"src/boruvka.ml" 77 2790 2802 "src/boruvka.ml" 77 2790 2837
+call(
+  stack
+)
+type(
+  int
+)
+"src/boruvka.ml" 77 2790 2838 "src/boruvka.ml" 77 2790 2839
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/boruvka.ml" 77 2790 2840 "src/boruvka.ml" 77 2790 2841
+type(
+  int
+)
+"src/boruvka.ml" 77 2790 2801 "src/boruvka.ml" 77 2790 2842
+type(
+  bool
+)
+"src/boruvka.ml" 78 2848 2860 "src/boruvka.ml" 78 2848 2861
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref l "src/boruvka.ml" 73 2623 2631 "src/boruvka.ml" 73 2623 2632
+)
+"src/boruvka.ml" 78 2848 2862 "src/boruvka.ml" 78 2848 2864
+type(
+  G.E.t list ref -> G.E.t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/boruvka.ml" 78 2848 2865 "src/boruvka.ml" 78 2848 2869
+type(
+  G.E.t
+)
+ident(
+  int_ref elem "src/boruvka.ml" 74 2645 2694 "src/boruvka.ml" 74 2645 2698
+)
+"src/boruvka.ml" 78 2848 2873 "src/boruvka.ml" 78 2848 2874
+type(
+  G.E.t list ref -> G.E.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/boruvka.ml" 78 2848 2874 "src/boruvka.ml" 78 2848 2875
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref l "src/boruvka.ml" 73 2623 2631 "src/boruvka.ml" 73 2623 2632
+)
+"src/boruvka.ml" 78 2848 2873 "src/boruvka.ml" 78 2848 2875
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 78 2848 2865 "src/boruvka.ml" 78 2848 2875
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 78 2848 2860 "src/boruvka.ml" 78 2848 2875
+type(
+  unit
+)
+"src/boruvka.ml" 77 2790 2798 "src/boruvka.ml" 78 2848 2876
+type(
+  unit
+)
+"src/boruvka.ml" 75 2701 2709 "src/boruvka.ml" 78 2848 2876
+type(
+  unit
+)
+"src/boruvka.ml" 74 2645 2689 "src/boruvka.ml" 79 2877 2884
+type(
+  G.E.t -> unit
+)
+"src/boruvka.ml" 79 2877 2885 "src/boruvka.ml" 79 2877 2886
+type(
+  G.t
+)
+ident(
+  int_ref g "src/boruvka.ml" 68 2301 2320 "src/boruvka.ml" 68 2301 2321
+)
+"src/boruvka.ml" 74 2645 2674 "src/boruvka.ml" 79 2877 2886
+call(
+  stack
+)
+type(
+  unit
+)
+"src/boruvka.ml" 80 2888 2894 "src/boruvka.ml" 80 2888 2903
+type(
+  (G.E.t -> G.E.t -> int) -> G.E.t list -> G.E.t list
+)
+ident(
+  ext_ref List.sort
+)
+"src/boruvka.ml" 80 2888 2909 "src/boruvka.ml" 80 2888 2910
+type(
+  G.E.t
+)
+ident(
+  def e "src/boruvka.ml" 80 2888 2911 "src/boruvka.ml" 80 2888 2954
+)
+"src/boruvka.ml" 80 2888 2911 "src/boruvka.ml" 80 2888 2913
+type(
+  G.E.t
+)
+ident(
+  def e' "src/boruvka.ml" 80 2888 2916 "src/boruvka.ml" 80 2888 2954
+)
+"src/boruvka.ml" 80 2888 2916 "src/boruvka.ml" 80 2888 2925
+type(
+  W.t -> W.t -> int
+)
+ident(
+  ext_ref W.compare
+)
+"src/boruvka.ml" 80 2888 2927 "src/boruvka.ml" 80 2888 2936
+type(
+  G.E.t -> W.t
+)
+ident(
+  int_ref G.E.label "src/boruvka.ml" 46 1721 1725 "src/boruvka.ml" 46 1721 1747
+)
+"src/boruvka.ml" 80 2888 2937 "src/boruvka.ml" 80 2888 2938
+type(
+  G.E.t
+)
+ident(
+  int_ref e "src/boruvka.ml" 80 2888 2909 "src/boruvka.ml" 80 2888 2910
+)
+"src/boruvka.ml" 80 2888 2926 "src/boruvka.ml" 80 2888 2939
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/boruvka.ml" 80 2888 2941 "src/boruvka.ml" 80 2888 2950
+type(
+  G.E.t -> W.t
+)
+ident(
+  int_ref G.E.label "src/boruvka.ml" 46 1721 1725 "src/boruvka.ml" 46 1721 1747
+)
+"src/boruvka.ml" 80 2888 2951 "src/boruvka.ml" 80 2888 2953
+type(
+  G.E.t
+)
+ident(
+  int_ref e' "src/boruvka.ml" 80 2888 2911 "src/boruvka.ml" 80 2888 2913
+)
+"src/boruvka.ml" 80 2888 2940 "src/boruvka.ml" 80 2888 2954
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/boruvka.ml" 80 2888 2916 "src/boruvka.ml" 80 2888 2954
+call(
+  tail
+)
+type(
+  int
+)
+"src/boruvka.ml" 80 2888 2904 "src/boruvka.ml" 80 2888 2955
+type(
+  G.E.t -> G.E.t -> int
+)
+"src/boruvka.ml" 80 2888 2956 "src/boruvka.ml" 80 2888 2957
+type(
+  G.E.t list ref -> G.E.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/boruvka.ml" 80 2888 2957 "src/boruvka.ml" 80 2888 2958
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref l "src/boruvka.ml" 73 2623 2631 "src/boruvka.ml" 73 2623 2632
+)
+"src/boruvka.ml" 80 2888 2956 "src/boruvka.ml" 80 2888 2958
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 80 2888 2894 "src/boruvka.ml" 80 2888 2958
+call(
+  tail
+)
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 74 2645 2674 "src/boruvka.ml" 80 2888 2958
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 83 3084 3092 "src/boruvka.ml" 83 3084 3112
+type(
+  SoL.S.elt -> SoL.S.t
+)
+ident(
+  def find_in_list_of_sets "src/boruvka.ml" 85 3228 3232 "src/boruvka.ml" 121 4688 4694
+)
+"src/boruvka.ml" 83 3084 3113 "src/boruvka.ml" 83 3084 3119
+type(
+  SoL.S.elt
+)
+ident(
+  def vertex "src/boruvka.ml" 83 3084 3122 "src/boruvka.ml" 83 3084 3223
+)
+"src/boruvka.ml" 83 3084 3122 "src/boruvka.ml" 83 3084 3136
+type(
+  (SoL.S.t -> SoL.S.t -> SoL.S.t) -> SoL.S.t -> SoL.S.t list -> SoL.S.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/boruvka.ml" 83 3084 3142 "src/boruvka.ml" 83 3084 3145
+type(
+  SoL.S.t
+)
+ident(
+  def set "src/boruvka.ml" 83 3084 3146 "src/boruvka.ml" 83 3084 3195
+)
+"src/boruvka.ml" 83 3084 3146 "src/boruvka.ml" 83 3084 3149
+type(
+  SoL.S.t
+)
+ident(
+  def acc "src/boruvka.ml" 83 3084 3153 "src/boruvka.ml" 83 3084 3195
+)
+"src/boruvka.ml" 83 3084 3156 "src/boruvka.ml" 83 3084 3165
+type(
+  SoL.S.elt -> SoL.S.t -> bool
+)
+ident(
+  ext_ref SoL.S.mem
+)
+"src/boruvka.ml" 83 3084 3166 "src/boruvka.ml" 83 3084 3172
+type(
+  SoL.S.elt
+)
+ident(
+  int_ref vertex "src/boruvka.ml" 83 3084 3113 "src/boruvka.ml" 83 3084 3119
+)
+"src/boruvka.ml" 83 3084 3173 "src/boruvka.ml" 83 3084 3176
+type(
+  SoL.S.t
+)
+ident(
+  int_ref set "src/boruvka.ml" 83 3084 3142 "src/boruvka.ml" 83 3084 3145
+)
+"src/boruvka.ml" 83 3084 3155 "src/boruvka.ml" 83 3084 3177
+call(
+  stack
+)
+type(
+  bool
+)
+"src/boruvka.ml" 83 3084 3183 "src/boruvka.ml" 83 3084 3186
+type(
+  SoL.S.t
+)
+ident(
+  int_ref set "src/boruvka.ml" 83 3084 3142 "src/boruvka.ml" 83 3084 3145
+)
+"src/boruvka.ml" 83 3084 3192 "src/boruvka.ml" 83 3084 3195
+type(
+  SoL.S.t
+)
+ident(
+  int_ref acc "src/boruvka.ml" 83 3084 3146 "src/boruvka.ml" 83 3084 3149
+)
+"src/boruvka.ml" 83 3084 3153 "src/boruvka.ml" 83 3084 3195
+type(
+  SoL.S.t
+)
+"src/boruvka.ml" 83 3084 3137 "src/boruvka.ml" 83 3084 3196
+type(
+  SoL.S.t -> SoL.S.t -> SoL.S.t
+)
+"src/boruvka.ml" 83 3084 3197 "src/boruvka.ml" 83 3084 3210
+type(
+  SoL.S.t
+)
+ident(
+  ext_ref SoL.S.empty
+)
+"src/boruvka.ml" 83 3084 3211 "src/boruvka.ml" 83 3084 3223
+type(
+  SoL.S.t list
+)
+ident(
+  int_ref list_of_sets "src/boruvka.ml" 71 2522 2530 "src/boruvka.ml" 71 2522 2542
+)
+"src/boruvka.ml" 83 3084 3122 "src/boruvka.ml" 83 3084 3223
+call(
+  tail
+)
+type(
+  SoL.S.t
+)
+"src/boruvka.ml" 85 3228 3236 "src/boruvka.ml" 85 3228 3254
+type(
+  SoL.S.t -> G.E.t list
+)
+ident(
+  def assoc_edges_of_all "src/boruvka.ml" 87 3349 3353 "src/boruvka.ml" 121 4688 4694
+)
+"src/boruvka.ml" 85 3228 3255 "src/boruvka.ml" 85 3228 3258
+type(
+  SoL.S.t
+)
+ident(
+  def set "src/boruvka.ml" 85 3228 3261 "src/boruvka.ml" 85 3228 3344
+)
+"src/boruvka.ml" 85 3228 3261 "src/boruvka.ml" 85 3228 3271
+type(
+  (SoL.S.elt -> G.E.t list -> G.E.t list) ->
+  SoL.S.t -> G.E.t list -> G.E.t list
+)
+ident(
+  ext_ref SoL.S.fold
+)
+"src/boruvka.ml" 85 3228 3277 "src/boruvka.ml" 85 3228 3278
+type(
+  SoL.S.elt
+)
+ident(
+  def i "src/boruvka.ml" 85 3228 3279 "src/boruvka.ml" 85 3228 3336
+)
+"src/boruvka.ml" 85 3228 3279 "src/boruvka.ml" 85 3228 3282
+type(
+  G.E.t list
+)
+ident(
+  def acc "src/boruvka.ml" 85 3228 3286 "src/boruvka.ml" 85 3228 3336
+)
+"src/boruvka.ml" 85 3228 3290 "src/boruvka.ml" 85 3228 3295
+type(
+  G.E.t list
+)
+ident(
+  def edges "src/boruvka.ml" 85 3228 3315 "src/boruvka.ml" 85 3228 3336
+)
+"src/boruvka.ml" 85 3228 3298 "src/boruvka.ml" 85 3228 3309
+type(
+  SoL.S.elt -> G.E.t list
+)
+ident(
+  int_ref assoc_edges "src/boruvka.ml" 74 2645 2653 "src/boruvka.ml" 74 2645 2664
+)
+"src/boruvka.ml" 85 3228 3310 "src/boruvka.ml" 85 3228 3311
+type(
+  SoL.S.elt
+)
+ident(
+  int_ref i "src/boruvka.ml" 85 3228 3277 "src/boruvka.ml" 85 3228 3278
+)
+"src/boruvka.ml" 85 3228 3298 "src/boruvka.ml" 85 3228 3311
+call(
+  stack
+)
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 85 3228 3315 "src/boruvka.ml" 85 3228 3326
+type(
+  G.E.t list -> G.E.t list -> G.E.t list
+)
+ident(
+  ext_ref List.append
+)
+"src/boruvka.ml" 85 3228 3327 "src/boruvka.ml" 85 3228 3330
+type(
+  G.E.t list
+)
+ident(
+  int_ref acc "src/boruvka.ml" 85 3228 3279 "src/boruvka.ml" 85 3228 3282
+)
+"src/boruvka.ml" 85 3228 3331 "src/boruvka.ml" 85 3228 3336
+type(
+  G.E.t list
+)
+ident(
+  int_ref edges "src/boruvka.ml" 85 3228 3290 "src/boruvka.ml" 85 3228 3295
+)
+"src/boruvka.ml" 85 3228 3315 "src/boruvka.ml" 85 3228 3336
+call(
+  tail
+)
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 85 3228 3286 "src/boruvka.ml" 85 3228 3336
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 85 3228 3272 "src/boruvka.ml" 85 3228 3337
+type(
+  SoL.S.elt -> G.E.t list -> G.E.t list
+)
+"src/boruvka.ml" 85 3228 3338 "src/boruvka.ml" 85 3228 3341
+type(
+  SoL.S.t
+)
+ident(
+  int_ref set "src/boruvka.ml" 85 3228 3255 "src/boruvka.ml" 85 3228 3258
+)
+"src/boruvka.ml" 85 3228 3342 "src/boruvka.ml" 85 3228 3344
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 85 3228 3261 "src/boruvka.ml" 85 3228 3344
+call(
+  tail
+)
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 87 3349 3357 "src/boruvka.ml" 87 3349 3380
+type(
+  SoL.S.t -> G.E.t list
+)
+ident(
+  def list_of_all_assoc_edges "src/boruvka.ml" 90 3479 3483 "src/boruvka.ml" 121 4688 4694
+)
+"src/boruvka.ml" 87 3349 3381 "src/boruvka.ml" 87 3349 3384
+type(
+  SoL.S.t
+)
+ident(
+  def set "src/boruvka.ml" 87 3349 3387 "src/boruvka.ml" 87 3349 3473
+)
+"src/boruvka.ml" 87 3349 3387 "src/boruvka.ml" 87 3349 3396
+type(
+  (G.E.t -> G.E.t -> int) -> G.E.t list -> G.E.t list
+)
+ident(
+  ext_ref List.sort
+)
+"src/boruvka.ml" 87 3349 3402 "src/boruvka.ml" 87 3349 3403
+type(
+  G.E.t
+)
+ident(
+  def e "src/boruvka.ml" 87 3349 3404 "src/boruvka.ml" 87 3349 3447
+)
+"src/boruvka.ml" 87 3349 3404 "src/boruvka.ml" 87 3349 3406
+type(
+  G.E.t
+)
+ident(
+  def e' "src/boruvka.ml" 87 3349 3409 "src/boruvka.ml" 87 3349 3447
+)
+"src/boruvka.ml" 87 3349 3409 "src/boruvka.ml" 87 3349 3418
+type(
+  W.t -> W.t -> int
+)
+ident(
+  ext_ref W.compare
+)
+"src/boruvka.ml" 87 3349 3420 "src/boruvka.ml" 87 3349 3429
+type(
+  G.E.t -> W.t
+)
+ident(
+  int_ref G.E.label "src/boruvka.ml" 46 1721 1725 "src/boruvka.ml" 46 1721 1747
+)
+"src/boruvka.ml" 87 3349 3430 "src/boruvka.ml" 87 3349 3431
+type(
+  G.E.t
+)
+ident(
+  int_ref e "src/boruvka.ml" 87 3349 3402 "src/boruvka.ml" 87 3349 3403
+)
+"src/boruvka.ml" 87 3349 3419 "src/boruvka.ml" 87 3349 3432
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/boruvka.ml" 87 3349 3434 "src/boruvka.ml" 87 3349 3443
+type(
+  G.E.t -> W.t
+)
+ident(
+  int_ref G.E.label "src/boruvka.ml" 46 1721 1725 "src/boruvka.ml" 46 1721 1747
+)
+"src/boruvka.ml" 87 3349 3444 "src/boruvka.ml" 87 3349 3446
+type(
+  G.E.t
+)
+ident(
+  int_ref e' "src/boruvka.ml" 87 3349 3404 "src/boruvka.ml" 87 3349 3406
+)
+"src/boruvka.ml" 87 3349 3433 "src/boruvka.ml" 87 3349 3447
+call(
+  stack
+)
+type(
+  W.t
+)
+"src/boruvka.ml" 87 3349 3409 "src/boruvka.ml" 87 3349 3447
+call(
+  tail
+)
+type(
+  int
+)
+"src/boruvka.ml" 87 3349 3397 "src/boruvka.ml" 87 3349 3448
+type(
+  G.E.t -> G.E.t -> int
+)
+"src/boruvka.ml" 87 3349 3450 "src/boruvka.ml" 87 3349 3468
+type(
+  SoL.S.t -> G.E.t list
+)
+ident(
+  int_ref assoc_edges_of_all "src/boruvka.ml" 85 3228 3236 "src/boruvka.ml" 85 3228 3254
+)
+"src/boruvka.ml" 87 3349 3469 "src/boruvka.ml" 87 3349 3472
+type(
+  SoL.S.t
+)
+ident(
+  int_ref set "src/boruvka.ml" 87 3349 3381 "src/boruvka.ml" 87 3349 3384
+)
+"src/boruvka.ml" 87 3349 3449 "src/boruvka.ml" 87 3349 3473
+call(
+  stack
+)
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 87 3349 3387 "src/boruvka.ml" 87 3349 3473
+call(
+  tail
+)
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 90 3479 3487 "src/boruvka.ml" 90 3479 3497
+type(
+  'a -> 'a list -> 'a list
+)
+ident(
+  def remove_elt "src/boruvka.ml" 97 3669 3673 "src/boruvka.ml" 121 4688 4694
+)
+"src/boruvka.ml" 90 3479 3498 "src/boruvka.ml" 90 3479 3499
+type(
+  'a
+)
+ident(
+  def e "src/boruvka.ml" 90 3479 3500 "src/boruvka.ml" 95 3645 3661
+)
+"src/boruvka.ml" 90 3479 3500 "src/boruvka.ml" 90 3479 3501
+type(
+  'a list
+)
+ident(
+  def l "src/boruvka.ml" 91 3504 3510 "src/boruvka.ml" 95 3645 3661
+)
+"src/boruvka.ml" 91 3504 3518 "src/boruvka.ml" 91 3504 3520
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def go "src/boruvka.ml" 91 3504 3510 "src/boruvka.ml" 95 3645 3661
+)
+"src/boruvka.ml" 91 3504 3521 "src/boruvka.ml" 91 3504 3522
+type(
+  'a list
+)
+ident(
+  def l "src/boruvka.ml" 91 3504 3523 "src/boruvka.ml" 94 3611 3644
+)
+"src/boruvka.ml" 91 3504 3523 "src/boruvka.ml" 91 3504 3526
+type(
+  'a list
+)
+ident(
+  def acc "src/boruvka.ml" 91 3504 3529 "src/boruvka.ml" 94 3611 3644
+)
+"src/boruvka.ml" 91 3504 3535 "src/boruvka.ml" 91 3504 3536
+type(
+  'a list
+)
+ident(
+  int_ref l "src/boruvka.ml" 91 3504 3521 "src/boruvka.ml" 91 3504 3522
+)
+"src/boruvka.ml" 92 3542 3552 "src/boruvka.ml" 92 3542 3554
+type(
+  'a list
+)
+"src/boruvka.ml" 92 3542 3558 "src/boruvka.ml" 92 3542 3566
+type(
+  'a list -> 'a list
+)
+ident(
+  ext_ref List.rev
+)
+"src/boruvka.ml" 92 3542 3567 "src/boruvka.ml" 92 3542 3570
+type(
+  'a list
+)
+ident(
+  int_ref acc "src/boruvka.ml" 91 3504 3523 "src/boruvka.ml" 91 3504 3526
+)
+"src/boruvka.ml" 92 3542 3558 "src/boruvka.ml" 92 3542 3570
+call(
+  tail
+)
+type(
+  'a list
+)
+"src/boruvka.ml" 93 3571 3581 "src/boruvka.ml" 93 3571 3582
+type(
+  'a
+)
+ident(
+  def x "src/boruvka.ml" 93 3571 3592 "src/boruvka.ml" 93 3571 3610
+)
+"src/boruvka.ml" 93 3571 3584 "src/boruvka.ml" 93 3571 3586
+type(
+  'a list
+)
+ident(
+  def xs "src/boruvka.ml" 93 3571 3592 "src/boruvka.ml" 93 3571 3610
+)
+"src/boruvka.ml" 93 3571 3581 "src/boruvka.ml" 93 3571 3586
+type(
+  'a list
+)
+"src/boruvka.ml" 93 3571 3592 "src/boruvka.ml" 93 3571 3593
+type(
+  'a
+)
+ident(
+  int_ref e "src/boruvka.ml" 90 3479 3498 "src/boruvka.ml" 90 3479 3499
+)
+"src/boruvka.ml" 93 3571 3594 "src/boruvka.ml" 93 3571 3595
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/boruvka.ml" 93 3571 3596 "src/boruvka.ml" 93 3571 3597
+type(
+  'a
+)
+ident(
+  int_ref x "src/boruvka.ml" 93 3571 3581 "src/boruvka.ml" 93 3571 3582
+)
+"src/boruvka.ml" 93 3571 3592 "src/boruvka.ml" 93 3571 3597
+type(
+  bool
+)
+"src/boruvka.ml" 93 3571 3601 "src/boruvka.ml" 93 3571 3603
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref go "src/boruvka.ml" 91 3504 3518 "src/boruvka.ml" 91 3504 3520
+)
+"src/boruvka.ml" 93 3571 3604 "src/boruvka.ml" 93 3571 3606
+type(
+  'a list
+)
+ident(
+  int_ref xs "src/boruvka.ml" 93 3571 3584 "src/boruvka.ml" 93 3571 3586
+)
+"src/boruvka.ml" 93 3571 3607 "src/boruvka.ml" 93 3571 3610
+type(
+  'a list
+)
+ident(
+  int_ref acc "src/boruvka.ml" 91 3504 3523 "src/boruvka.ml" 91 3504 3526
+)
+"src/boruvka.ml" 93 3571 3601 "src/boruvka.ml" 93 3571 3610
+call(
+  tail
+)
+type(
+  'a list
+)
+"src/boruvka.ml" 94 3611 3621 "src/boruvka.ml" 94 3611 3622
+type(
+  'a
+)
+ident(
+  def x "src/boruvka.ml" 94 3611 3630 "src/boruvka.ml" 94 3611 3644
+)
+"src/boruvka.ml" 94 3611 3624 "src/boruvka.ml" 94 3611 3626
+type(
+  'a list
+)
+ident(
+  def xs "src/boruvka.ml" 94 3611 3630 "src/boruvka.ml" 94 3611 3644
+)
+"src/boruvka.ml" 94 3611 3621 "src/boruvka.ml" 94 3611 3626
+type(
+  'a list
+)
+"src/boruvka.ml" 94 3611 3630 "src/boruvka.ml" 94 3611 3632
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref go "src/boruvka.ml" 91 3504 3518 "src/boruvka.ml" 91 3504 3520
+)
+"src/boruvka.ml" 94 3611 3633 "src/boruvka.ml" 94 3611 3635
+type(
+  'a list
+)
+ident(
+  int_ref xs "src/boruvka.ml" 94 3611 3624 "src/boruvka.ml" 94 3611 3626
+)
+"src/boruvka.ml" 94 3611 3637 "src/boruvka.ml" 94 3611 3638
+type(
+  'a
+)
+ident(
+  int_ref x "src/boruvka.ml" 94 3611 3621 "src/boruvka.ml" 94 3611 3622
+)
+"src/boruvka.ml" 94 3611 3640 "src/boruvka.ml" 94 3611 3643
+type(
+  'a list
+)
+ident(
+  int_ref acc "src/boruvka.ml" 91 3504 3523 "src/boruvka.ml" 91 3504 3526
+)
+"src/boruvka.ml" 94 3611 3636 "src/boruvka.ml" 94 3611 3644
+type(
+  'a list
+)
+"src/boruvka.ml" 94 3611 3630 "src/boruvka.ml" 94 3611 3644
+call(
+  tail
+)
+type(
+  'a list
+)
+"src/boruvka.ml" 91 3504 3529 "src/boruvka.ml" 94 3611 3644
+type(
+  'a list
+)
+"src/boruvka.ml" 95 3645 3654 "src/boruvka.ml" 95 3645 3656
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref go "src/boruvka.ml" 91 3504 3518 "src/boruvka.ml" 91 3504 3520
+)
+"src/boruvka.ml" 95 3645 3657 "src/boruvka.ml" 95 3645 3658
+type(
+  'a list
+)
+ident(
+  int_ref l "src/boruvka.ml" 90 3479 3500 "src/boruvka.ml" 90 3479 3501
+)
+"src/boruvka.ml" 95 3645 3659 "src/boruvka.ml" 95 3645 3661
+type(
+  'a list
+)
+"src/boruvka.ml" 95 3645 3654 "src/boruvka.ml" 95 3645 3661
+call(
+  tail
+)
+type(
+  'a list
+)
+"src/boruvka.ml" 91 3504 3510 "src/boruvka.ml" 95 3645 3661
+type(
+  'a list
+)
+"src/boruvka.ml" 97 3669 3677 "src/boruvka.ml" 97 3669 3694
+type(
+  'b list -> 'b list
+)
+ident(
+  def remove_duplicates "src/boruvka.ml" 104 3831 3835 "src/boruvka.ml" 121 4688 4694
+)
+"src/boruvka.ml" 97 3669 3695 "src/boruvka.ml" 97 3669 3696
+type(
+  'b list
+)
+ident(
+  def l "src/boruvka.ml" 98 3699 3703 "src/boruvka.ml" 101 3811 3825
+)
+"src/boruvka.ml" 98 3699 3711 "src/boruvka.ml" 98 3699 3713
+type(
+  'c list -> 'c list -> 'c list
+)
+ident(
+  def go "src/boruvka.ml" 98 3699 3703 "src/boruvka.ml" 101 3811 3825
+)
+"src/boruvka.ml" 98 3699 3714 "src/boruvka.ml" 98 3699 3715
+type(
+  'c list
+)
+ident(
+  def l "src/boruvka.ml" 98 3699 3716 "src/boruvka.ml" 100 3762 3810
+)
+"src/boruvka.ml" 98 3699 3716 "src/boruvka.ml" 98 3699 3719
+type(
+  'c list
+)
+ident(
+  def acc "src/boruvka.ml" 98 3699 3722 "src/boruvka.ml" 100 3762 3810
+)
+"src/boruvka.ml" 98 3699 3728 "src/boruvka.ml" 98 3699 3729
+type(
+  'c list
+)
+ident(
+  int_ref l "src/boruvka.ml" 98 3699 3714 "src/boruvka.ml" 98 3699 3715
+)
+"src/boruvka.ml" 99 3735 3743 "src/boruvka.ml" 99 3735 3745
+type(
+  'c list
+)
+"src/boruvka.ml" 99 3735 3749 "src/boruvka.ml" 99 3735 3757
+type(
+  'c list -> 'c list
+)
+ident(
+  ext_ref List.rev
+)
+"src/boruvka.ml" 99 3735 3758 "src/boruvka.ml" 99 3735 3761
+type(
+  'c list
+)
+ident(
+  int_ref acc "src/boruvka.ml" 98 3699 3716 "src/boruvka.ml" 98 3699 3719
+)
+"src/boruvka.ml" 99 3735 3749 "src/boruvka.ml" 99 3735 3761
+call(
+  tail
+)
+type(
+  'c list
+)
+"src/boruvka.ml" 100 3762 3770 "src/boruvka.ml" 100 3762 3771
+type(
+  'c
+)
+ident(
+  def x "src/boruvka.ml" 100 3762 3781 "src/boruvka.ml" 100 3762 3810
+)
+"src/boruvka.ml" 100 3762 3775 "src/boruvka.ml" 100 3762 3777
+type(
+  'c list
+)
+ident(
+  def xs "src/boruvka.ml" 100 3762 3781 "src/boruvka.ml" 100 3762 3810
+)
+"src/boruvka.ml" 100 3762 3770 "src/boruvka.ml" 100 3762 3777
+type(
+  'c list
+)
+"src/boruvka.ml" 100 3762 3781 "src/boruvka.ml" 100 3762 3783
+type(
+  'c list -> 'c list -> 'c list
+)
+ident(
+  int_ref go "src/boruvka.ml" 98 3699 3711 "src/boruvka.ml" 98 3699 3713
+)
+"src/boruvka.ml" 100 3762 3785 "src/boruvka.ml" 100 3762 3795
+type(
+  'c -> 'c list -> 'c list
+)
+ident(
+  int_ref remove_elt "src/boruvka.ml" 90 3479 3487 "src/boruvka.ml" 90 3479 3497
+)
+"src/boruvka.ml" 100 3762 3796 "src/boruvka.ml" 100 3762 3797
+type(
+  'c
+)
+ident(
+  int_ref x "src/boruvka.ml" 100 3762 3770 "src/boruvka.ml" 100 3762 3771
+)
+"src/boruvka.ml" 100 3762 3798 "src/boruvka.ml" 100 3762 3800
+type(
+  'c list
+)
+ident(
+  int_ref xs "src/boruvka.ml" 100 3762 3775 "src/boruvka.ml" 100 3762 3777
+)
+"src/boruvka.ml" 100 3762 3784 "src/boruvka.ml" 100 3762 3801
+call(
+  stack
+)
+type(
+  'c list
+)
+"src/boruvka.ml" 100 3762 3803 "src/boruvka.ml" 100 3762 3804
+type(
+  'c
+)
+ident(
+  int_ref x "src/boruvka.ml" 100 3762 3770 "src/boruvka.ml" 100 3762 3771
+)
+"src/boruvka.ml" 100 3762 3806 "src/boruvka.ml" 100 3762 3809
+type(
+  'c list
+)
+ident(
+  int_ref acc "src/boruvka.ml" 98 3699 3716 "src/boruvka.ml" 98 3699 3719
+)
+"src/boruvka.ml" 100 3762 3802 "src/boruvka.ml" 100 3762 3810
+type(
+  'c list
+)
+"src/boruvka.ml" 100 3762 3781 "src/boruvka.ml" 100 3762 3810
+call(
+  tail
+)
+type(
+  'c list
+)
+"src/boruvka.ml" 98 3699 3722 "src/boruvka.ml" 100 3762 3810
+type(
+  'c list
+)
+"src/boruvka.ml" 101 3811 3818 "src/boruvka.ml" 101 3811 3820
+type(
+  'b list -> 'b list -> 'b list
+)
+ident(
+  int_ref go "src/boruvka.ml" 98 3699 3711 "src/boruvka.ml" 98 3699 3713
+)
+"src/boruvka.ml" 101 3811 3821 "src/boruvka.ml" 101 3811 3822
+type(
+  'b list
+)
+ident(
+  int_ref l "src/boruvka.ml" 97 3669 3695 "src/boruvka.ml" 97 3669 3696
+)
+"src/boruvka.ml" 101 3811 3823 "src/boruvka.ml" 101 3811 3825
+type(
+  'b list
+)
+"src/boruvka.ml" 101 3811 3818 "src/boruvka.ml" 101 3811 3825
+call(
+  tail
+)
+type(
+  'b list
+)
+"src/boruvka.ml" 98 3699 3703 "src/boruvka.ml" 101 3811 3825
+type(
+  'b list
+)
+"src/boruvka.ml" 104 3831 3839 "src/boruvka.ml" 104 3831 3844
+type(
+  SoL.S.elt -> SoL.S.elt -> SoL.S.t
+)
+ident(
+  def union "src/boruvka.ml" 106 3929 3933 "src/boruvka.ml" 121 4688 4694
+)
+"src/boruvka.ml" 104 3831 3845 "src/boruvka.ml" 104 3831 3849
+type(
+  SoL.S.elt
+)
+ident(
+  def set1 "src/boruvka.ml" 104 3831 3850 "src/boruvka.ml" 104 3831 3924
+)
+"src/boruvka.ml" 104 3831 3850 "src/boruvka.ml" 104 3831 3854
+type(
+  SoL.S.elt
+)
+ident(
+  def set2 "src/boruvka.ml" 104 3831 3857 "src/boruvka.ml" 104 3831 3924
+)
+"src/boruvka.ml" 104 3831 3857 "src/boruvka.ml" 104 3831 3868
+type(
+  SoL.S.t -> SoL.S.t -> SoL.S.t
+)
+ident(
+  ext_ref SoL.S.union
+)
+"src/boruvka.ml" 104 3831 3870 "src/boruvka.ml" 104 3831 3890
+type(
+  SoL.S.elt -> SoL.S.t
+)
+ident(
+  int_ref find_in_list_of_sets "src/boruvka.ml" 83 3084 3092 "src/boruvka.ml" 83 3084 3112
+)
+"src/boruvka.ml" 104 3831 3891 "src/boruvka.ml" 104 3831 3895
+type(
+  SoL.S.elt
+)
+ident(
+  int_ref set1 "src/boruvka.ml" 104 3831 3845 "src/boruvka.ml" 104 3831 3849
+)
+"src/boruvka.ml" 104 3831 3869 "src/boruvka.ml" 104 3831 3896
+call(
+  stack
+)
+type(
+  SoL.S.t
+)
+"src/boruvka.ml" 104 3831 3898 "src/boruvka.ml" 104 3831 3918
+type(
+  SoL.S.elt -> SoL.S.t
+)
+ident(
+  int_ref find_in_list_of_sets "src/boruvka.ml" 83 3084 3092 "src/boruvka.ml" 83 3084 3112
+)
+"src/boruvka.ml" 104 3831 3919 "src/boruvka.ml" 104 3831 3923
+type(
+  SoL.S.elt
+)
+ident(
+  int_ref set2 "src/boruvka.ml" 104 3831 3850 "src/boruvka.ml" 104 3831 3854
+)
+"src/boruvka.ml" 104 3831 3897 "src/boruvka.ml" 104 3831 3924
+call(
+  stack
+)
+type(
+  SoL.S.t
+)
+"src/boruvka.ml" 104 3831 3857 "src/boruvka.ml" 104 3831 3924
+call(
+  tail
+)
+type(
+  SoL.S.t
+)
+"src/boruvka.ml" 106 3929 3937 "src/boruvka.ml" 106 3929 3953
+type(
+  SoL.S.t list ref
+)
+ident(
+  def list_of_sets_ref "src/boruvka.ml" 107 3976 3980 "src/boruvka.ml" 121 4688 4694
+)
+"src/boruvka.ml" 106 3929 3956 "src/boruvka.ml" 106 3929 3959
+type(
+  SoL.S.t list -> SoL.S.t list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/boruvka.ml" 106 3929 3960 "src/boruvka.ml" 106 3929 3972
+type(
+  SoL.S.t list
+)
+ident(
+  int_ref list_of_sets "src/boruvka.ml" 71 2522 2530 "src/boruvka.ml" 71 2522 2542
+)
+"src/boruvka.ml" 106 3929 3956 "src/boruvka.ml" 106 3929 3972
+type(
+  SoL.S.t list ref
+)
+"src/boruvka.ml" 107 3976 3984 "src/boruvka.ml" 107 3976 3985
+type(
+  G.E.t list ref
+)
+ident(
+  def s "src/boruvka.ml" 108 3998 4002 "src/boruvka.ml" 121 4688 4694
+)
+"src/boruvka.ml" 107 3976 3988 "src/boruvka.ml" 107 3976 3991
+type(
+  G.E.t list -> G.E.t list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/boruvka.ml" 107 3976 3992 "src/boruvka.ml" 107 3976 3994
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 107 3976 3988 "src/boruvka.ml" 107 3976 3994
+type(
+  G.E.t list ref
+)
+"src/boruvka.ml" 108 3998 4006 "src/boruvka.ml" 108 3998 4011
+type(
+  unit
+)
+ident(
+  def unify "src/boruvka.ml" 120 4677 4681 "src/boruvka.ml" 121 4688 4694
+)
+"src/boruvka.ml" 108 3998 4014 "src/boruvka.ml" 108 3998 4028
+type(
+  (unit -> SoL.S.t -> unit) -> unit -> SoL.S.t list -> unit
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/boruvka.ml" 108 3998 4034 "src/boruvka.ml" 108 3998 4037
+type(
+  unit
+)
+ident(
+  def acc "src/boruvka.ml" 108 3998 4038 "src/boruvka.ml" 118 4604 4644
+)
+"src/boruvka.ml" 108 3998 4038 "src/boruvka.ml" 108 3998 4041
+type(
+  SoL.S.t
+)
+ident(
+  def set "src/boruvka.ml" 109 4045 4053 "src/boruvka.ml" 118 4604 4644
+)
+"src/boruvka.ml" 109 4045 4057 "src/boruvka.ml" 109 4045 4070
+type(
+  G.E.t list
+)
+ident(
+  def list_of_edges "src/boruvka.ml" 110 4106 4121 "src/boruvka.ml" 118 4604 4644
+)
+"src/boruvka.ml" 109 4045 4074 "src/boruvka.ml" 109 4045 4097
+type(
+  SoL.S.t -> G.E.t list
+)
+ident(
+  int_ref list_of_all_assoc_edges "src/boruvka.ml" 87 3349 3357 "src/boruvka.ml" 87 3349 3380
+)
+"src/boruvka.ml" 109 4045 4098 "src/boruvka.ml" 109 4045 4101
+type(
+  SoL.S.t
+)
+ident(
+  int_ref set "src/boruvka.ml" 108 3998 4038 "src/boruvka.ml" 108 3998 4041
+)
+"src/boruvka.ml" 109 4045 4073 "src/boruvka.ml" 109 4045 4102
+call(
+  stack
+)
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 110 4106 4121 "src/boruvka.ml" 110 4106 4130
+type(
+  (G.E.t -> unit) -> G.E.t list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/boruvka.ml" 110 4106 4136 "src/boruvka.ml" 110 4106 4137
+type(
+  G.E.t
+)
+ident(
+  def i "src/boruvka.ml" 110 4106 4141 "src/boruvka.ml" 117 4563 4603
+)
+"src/boruvka.ml" 110 4106 4145 "src/boruvka.ml" 110 4106 4154
+type(
+  SoL.S.elt -> SoL.S.t -> bool
+)
+ident(
+  ext_ref SoL.S.mem
+)
+"src/boruvka.ml" 110 4106 4156 "src/boruvka.ml" 110 4106 4163
+type(
+  G.E.t -> SoL.S.elt
+)
+ident(
+  int_ref G.E.src "src/boruvka.ml" 48 1771 1775 "src/boruvka.ml" 48 1771 1793
+)
+"src/boruvka.ml" 110 4106 4164 "src/boruvka.ml" 110 4106 4165
+type(
+  G.E.t
+)
+ident(
+  int_ref i "src/boruvka.ml" 110 4106 4136 "src/boruvka.ml" 110 4106 4137
+)
+"src/boruvka.ml" 110 4106 4155 "src/boruvka.ml" 110 4106 4166
+call(
+  stack
+)
+type(
+  SoL.S.elt
+)
+"src/boruvka.ml" 110 4106 4167 "src/boruvka.ml" 110 4106 4170
+type(
+  SoL.S.t
+)
+ident(
+  int_ref set "src/boruvka.ml" 108 3998 4038 "src/boruvka.ml" 108 3998 4041
+)
+"src/boruvka.ml" 110 4106 4144 "src/boruvka.ml" 110 4106 4171
+call(
+  stack
+)
+type(
+  bool
+)
+"src/boruvka.ml" 110 4106 4177 "src/boruvka.ml" 110 4106 4179
+type(
+  unit
+)
+"src/boruvka.ml" 111 4180 4216 "src/boruvka.ml" 111 4180 4221
+type(
+  SoL.S.t
+)
+ident(
+  def union "src/boruvka.ml" 113 4304 4319 "src/boruvka.ml" 117 4563 4603
+)
+"src/boruvka.ml" 111 4180 4225 "src/boruvka.ml" 111 4180 4230
+type(
+  SoL.S.elt -> SoL.S.elt -> SoL.S.t
+)
+ident(
+  int_ref union "src/boruvka.ml" 104 3831 3839 "src/boruvka.ml" 104 3831 3844
+)
+"src/boruvka.ml" 111 4180 4232 "src/boruvka.ml" 111 4180 4239
+type(
+  G.E.t -> SoL.S.elt
+)
+ident(
+  int_ref G.E.src "src/boruvka.ml" 48 1771 1775 "src/boruvka.ml" 48 1771 1793
+)
+"src/boruvka.ml" 111 4180 4240 "src/boruvka.ml" 111 4180 4241
+type(
+  G.E.t
+)
+ident(
+  int_ref i "src/boruvka.ml" 110 4106 4136 "src/boruvka.ml" 110 4106 4137
+)
+"src/boruvka.ml" 111 4180 4231 "src/boruvka.ml" 111 4180 4242
+call(
+  stack
+)
+type(
+  SoL.S.elt
+)
+"src/boruvka.ml" 111 4180 4244 "src/boruvka.ml" 111 4180 4251
+type(
+  G.E.t -> SoL.S.elt
+)
+ident(
+  int_ref G.E.dst "src/boruvka.ml" 47 1748 1752 "src/boruvka.ml" 47 1748 1770
+)
+"src/boruvka.ml" 111 4180 4252 "src/boruvka.ml" 111 4180 4253
+type(
+  G.E.t
+)
+ident(
+  int_ref i "src/boruvka.ml" 110 4106 4136 "src/boruvka.ml" 110 4106 4137
+)
+"src/boruvka.ml" 111 4180 4243 "src/boruvka.ml" 111 4180 4254
+call(
+  stack
+)
+type(
+  SoL.S.elt
+)
+"src/boruvka.ml" 111 4180 4224 "src/boruvka.ml" 112 4255 4300
+call(
+  stack
+)
+type(
+  SoL.S.t
+)
+"src/boruvka.ml" 113 4304 4319 "src/boruvka.ml" 113 4304 4335
+type(
+  SoL.S.t list ref
+)
+ident(
+  int_ref list_of_sets_ref "src/boruvka.ml" 106 3929 3937 "src/boruvka.ml" 106 3929 3953
+)
+"src/boruvka.ml" 113 4304 4336 "src/boruvka.ml" 113 4304 4338
+type(
+  SoL.S.t list ref -> SoL.S.t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/boruvka.ml" 113 4304 4339 "src/boruvka.ml" 113 4304 4350
+type(
+  (SoL.S.t -> bool) -> SoL.S.t list -> SoL.S.t list
+)
+ident(
+  ext_ref List.filter
+)
+"src/boruvka.ml" 113 4304 4356 "src/boruvka.ml" 113 4304 4360
+type(
+  SoL.S.t
+)
+ident(
+  def elem "src/boruvka.ml" 114 4364 4396 "src/boruvka.ml" 114 4364 4453
+)
+"src/boruvka.ml" 114 4364 4396 "src/boruvka.ml" 114 4364 4399
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/boruvka.ml" 114 4364 4401 "src/boruvka.ml" 114 4364 4412
+type(
+  SoL.S.t -> SoL.S.t -> bool
+)
+ident(
+  ext_ref SoL.S.equal
+)
+"src/boruvka.ml" 114 4364 4413 "src/boruvka.ml" 114 4364 4417
+type(
+  SoL.S.t
+)
+ident(
+  int_ref elem "src/boruvka.ml" 113 4304 4356 "src/boruvka.ml" 113 4304 4360
+)
+"src/boruvka.ml" 114 4364 4419 "src/boruvka.ml" 114 4364 4439
+type(
+  SoL.S.elt -> SoL.S.t
+)
+ident(
+  int_ref find_in_list_of_sets "src/boruvka.ml" 83 3084 3092 "src/boruvka.ml" 83 3084 3112
+)
+"src/boruvka.ml" 114 4364 4441 "src/boruvka.ml" 114 4364 4448
+type(
+  G.E.t -> SoL.S.elt
+)
+ident(
+  int_ref G.E.src "src/boruvka.ml" 48 1771 1775 "src/boruvka.ml" 48 1771 1793
+)
+"src/boruvka.ml" 114 4364 4449 "src/boruvka.ml" 114 4364 4450
+type(
+  G.E.t
+)
+ident(
+  int_ref i "src/boruvka.ml" 110 4106 4136 "src/boruvka.ml" 110 4106 4137
+)
+"src/boruvka.ml" 114 4364 4440 "src/boruvka.ml" 114 4364 4451
+call(
+  stack
+)
+type(
+  SoL.S.elt
+)
+"src/boruvka.ml" 114 4364 4418 "src/boruvka.ml" 114 4364 4452
+call(
+  stack
+)
+type(
+  SoL.S.t
+)
+"src/boruvka.ml" 114 4364 4399 "src/boruvka.ml" 114 4364 4453
+call(
+  stack
+)
+type(
+  bool
+)
+"src/boruvka.ml" 114 4364 4396 "src/boruvka.ml" 114 4364 4453
+type(
+  bool
+)
+"src/boruvka.ml" 113 4304 4351 "src/boruvka.ml" 114 4364 4455
+type(
+  SoL.S.t -> bool
+)
+"src/boruvka.ml" 114 4364 4456 "src/boruvka.ml" 114 4364 4457
+type(
+  SoL.S.t list ref -> SoL.S.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/boruvka.ml" 114 4364 4457 "src/boruvka.ml" 114 4364 4473
+type(
+  SoL.S.t list ref
+)
+ident(
+  int_ref list_of_sets_ref "src/boruvka.ml" 106 3929 3937 "src/boruvka.ml" 106 3929 3953
+)
+"src/boruvka.ml" 114 4364 4456 "src/boruvka.ml" 114 4364 4473
+type(
+  SoL.S.t list
+)
+"src/boruvka.ml" 113 4304 4339 "src/boruvka.ml" 114 4364 4473
+call(
+  stack
+)
+type(
+  SoL.S.t list
+)
+"src/boruvka.ml" 113 4304 4319 "src/boruvka.ml" 114 4364 4473
+type(
+  unit
+)
+"src/boruvka.ml" 115 4475 4490 "src/boruvka.ml" 115 4475 4506
+type(
+  SoL.S.t list ref
+)
+ident(
+  int_ref list_of_sets_ref "src/boruvka.ml" 106 3929 3937 "src/boruvka.ml" 106 3929 3953
+)
+"src/boruvka.ml" 115 4475 4507 "src/boruvka.ml" 115 4475 4509
+type(
+  SoL.S.t list ref -> SoL.S.t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/boruvka.ml" 115 4475 4510 "src/boruvka.ml" 115 4475 4515
+type(
+  SoL.S.t
+)
+ident(
+  int_ref union "src/boruvka.ml" 111 4180 4216 "src/boruvka.ml" 111 4180 4221
+)
+"src/boruvka.ml" 115 4475 4517 "src/boruvka.ml" 115 4475 4518
+type(
+  SoL.S.t list ref -> SoL.S.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/boruvka.ml" 115 4475 4518 "src/boruvka.ml" 115 4475 4534
+type(
+  SoL.S.t list ref
+)
+ident(
+  int_ref list_of_sets_ref "src/boruvka.ml" 106 3929 3937 "src/boruvka.ml" 106 3929 3953
+)
+"src/boruvka.ml" 115 4475 4517 "src/boruvka.ml" 115 4475 4534
+type(
+  SoL.S.t list
+)
+"src/boruvka.ml" 115 4475 4510 "src/boruvka.ml" 115 4475 4534
+type(
+  SoL.S.t list
+)
+"src/boruvka.ml" 115 4475 4490 "src/boruvka.ml" 115 4475 4534
+type(
+  unit
+)
+"src/boruvka.ml" 116 4536 4551 "src/boruvka.ml" 116 4536 4552
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref s "src/boruvka.ml" 107 3976 3984 "src/boruvka.ml" 107 3976 3985
+)
+"src/boruvka.ml" 116 4536 4553 "src/boruvka.ml" 116 4536 4555
+type(
+  G.E.t list ref -> G.E.t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/boruvka.ml" 116 4536 4556 "src/boruvka.ml" 116 4536 4557
+type(
+  G.E.t
+)
+ident(
+  int_ref i "src/boruvka.ml" 110 4106 4136 "src/boruvka.ml" 110 4106 4137
+)
+"src/boruvka.ml" 116 4536 4559 "src/boruvka.ml" 116 4536 4560
+type(
+  G.E.t list ref -> G.E.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/boruvka.ml" 116 4536 4560 "src/boruvka.ml" 116 4536 4561
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref s "src/boruvka.ml" 107 3976 3984 "src/boruvka.ml" 107 3976 3985
+)
+"src/boruvka.ml" 116 4536 4559 "src/boruvka.ml" 116 4536 4561
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 116 4536 4556 "src/boruvka.ml" 116 4536 4561
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 116 4536 4551 "src/boruvka.ml" 116 4536 4561
+type(
+  unit
+)
+"src/boruvka.ml" 117 4563 4578 "src/boruvka.ml" 117 4563 4579
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref s "src/boruvka.ml" 107 3976 3984 "src/boruvka.ml" 107 3976 3985
+)
+"src/boruvka.ml" 117 4563 4580 "src/boruvka.ml" 117 4563 4582
+type(
+  G.E.t list ref -> G.E.t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/boruvka.ml" 117 4563 4583 "src/boruvka.ml" 117 4563 4600
+type(
+  G.E.t list -> G.E.t list
+)
+ident(
+  int_ref remove_duplicates "src/boruvka.ml" 97 3669 3677 "src/boruvka.ml" 97 3669 3694
+)
+"src/boruvka.ml" 117 4563 4601 "src/boruvka.ml" 117 4563 4602
+type(
+  G.E.t list ref -> G.E.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/boruvka.ml" 117 4563 4602 "src/boruvka.ml" 117 4563 4603
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref s "src/boruvka.ml" 107 3976 3984 "src/boruvka.ml" 107 3976 3985
+)
+"src/boruvka.ml" 117 4563 4601 "src/boruvka.ml" 117 4563 4603
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 117 4563 4583 "src/boruvka.ml" 117 4563 4603
+call(
+  stack
+)
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 117 4563 4578 "src/boruvka.ml" 117 4563 4603
+type(
+  unit
+)
+"src/boruvka.ml" 116 4536 4551 "src/boruvka.ml" 117 4563 4603
+type(
+  unit
+)
+"src/boruvka.ml" 115 4475 4490 "src/boruvka.ml" 117 4563 4603
+type(
+  unit
+)
+"src/boruvka.ml" 113 4304 4319 "src/boruvka.ml" 117 4563 4603
+type(
+  unit
+)
+"src/boruvka.ml" 111 4180 4212 "src/boruvka.ml" 117 4563 4603
+type(
+  unit
+)
+"src/boruvka.ml" 110 4106 4141 "src/boruvka.ml" 117 4563 4603
+type(
+  unit
+)
+"src/boruvka.ml" 110 4106 4131 "src/boruvka.ml" 118 4604 4630
+type(
+  G.E.t -> unit
+)
+"src/boruvka.ml" 118 4604 4631 "src/boruvka.ml" 118 4604 4644
+type(
+  G.E.t list
+)
+ident(
+  int_ref list_of_edges "src/boruvka.ml" 109 4045 4057 "src/boruvka.ml" 109 4045 4070
+)
+"src/boruvka.ml" 110 4106 4121 "src/boruvka.ml" 118 4604 4644
+call(
+  tail
+)
+type(
+  unit
+)
+"src/boruvka.ml" 109 4045 4053 "src/boruvka.ml" 118 4604 4644
+type(
+  unit
+)
+"src/boruvka.ml" 108 3998 4029 "src/boruvka.ml" 119 4645 4652
+type(
+  unit -> SoL.S.t -> unit
+)
+"src/boruvka.ml" 119 4645 4653 "src/boruvka.ml" 119 4645 4655
+type(
+  unit
+)
+"src/boruvka.ml" 119 4645 4656 "src/boruvka.ml" 119 4645 4657
+type(
+  SoL.S.t list ref -> SoL.S.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/boruvka.ml" 119 4645 4657 "src/boruvka.ml" 119 4645 4673
+type(
+  SoL.S.t list ref
+)
+ident(
+  int_ref list_of_sets_ref "src/boruvka.ml" 106 3929 3937 "src/boruvka.ml" 106 3929 3953
+)
+"src/boruvka.ml" 119 4645 4656 "src/boruvka.ml" 119 4645 4673
+type(
+  SoL.S.t list
+)
+"src/boruvka.ml" 108 3998 4014 "src/boruvka.ml" 119 4645 4673
+call(
+  stack
+)
+type(
+  unit
+)
+"src/boruvka.ml" 120 4677 4681 "src/boruvka.ml" 120 4677 4686
+type(
+  unit
+)
+ident(
+  int_ref unify "src/boruvka.ml" 108 3998 4006 "src/boruvka.ml" 108 3998 4011
+)
+"src/boruvka.ml" 121 4688 4692 "src/boruvka.ml" 121 4688 4693
+type(
+  G.E.t list ref -> G.E.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/boruvka.ml" 121 4688 4693 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list ref
+)
+ident(
+  int_ref s "src/boruvka.ml" 107 3976 3984 "src/boruvka.ml" 107 3976 3985
+)
+"src/boruvka.ml" 121 4688 4692 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 120 4677 4681 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 108 3998 4002 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 107 3976 3980 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 106 3929 3933 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 104 3831 3835 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 97 3669 3673 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 90 3479 3483 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 87 3349 3353 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 85 3228 3232 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 83 3084 3088 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 74 2645 2649 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 73 2623 2627 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 71 2522 2526 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 69 2324 2328 "src/boruvka.ml" 121 4688 4694
+type(
+  G.E.t list
+)
+"src/boruvka.ml" 164 5725 5727 "src/boruvka.ml" 164 5725 5737
+call(
+  stack
+)
+"src/boruvka.ml" 164 5725 5727 "src/boruvka.ml" 164 5725 5740
+call(
+  stack
+)
+"src/boruvka.ml" 164 5725 5741 "src/boruvka.ml" 164 5725 5760
+call(
+  stack
+)
+"src/boruvka.ml" 164 5725 5727 "src/boruvka.ml" 164 5725 5761
+call(
+  tail
+)

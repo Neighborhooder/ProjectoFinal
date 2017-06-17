@@ -14,7 +14,6 @@ struct
     let compare = compare
   end
 
-
   module Kruskal_test = Kruskal.Make(G)
   module Prim_test = Prim.Make(G)
 end
@@ -68,16 +67,6 @@ let nodes_city =
   Array.init 18 (fun i -> new_node i)
 
 let node_city i = nodes_city.(i)
-    (*
-let () =
-  for i = 0 to 7 do
-    (G.Mark.set (node i) (Char.code list_nodes.(i)))
-  done;
-  for i = 0 to 7 do
-    print_string(string_of_int (G.Mark.get (node i)))
-  done
-            *)
-
 
 
 let rec get_weight (a,b) cont =
@@ -131,10 +120,13 @@ module Kruskaal = Kruskal.Make(G)(W)
 
 module Prime = Prim.Make(G)(W)
 
+module Boruvka = Boruvka.Make(G)(W)
+
 let kruskal gi = Kruskaal.spanningtree gi
 let kruskale = Kruskaal.spanningtree graph
 let primer = Prime.spanningtree_from graph
 let primee gi = Prime.spanningtree_from gi
+let boruvka = Boruvka.spanningtree graph
 
 let get_weight_of_MST e = List.fold_left (fun acc i -> acc + (G.E.label i)) 0 e
 
@@ -144,7 +136,7 @@ let edge_city_to_text e = Char.escaped(Char.chr (int_of_string((Char.escaped (st
 
 let imprime_edges_cities grafo = G.fold_edges_e (fun i acc-> print_string(edge_city_to_text (G.V.label (G.E.src i)));print_string(" -> ");print_string(edge_city_to_text (G.V.label (G.E.dst i)));print_string(" with weight : ");print_int (G.E.label i);print_string("\n")) grafo ()
 
-let imprime_edges_cities_kruskal = List.iter (fun i ->  print_string(edge_city_to_text (G.V.label (G.E.src i))^ " -> " ^ (edge_city_to_text (G.V.label (G.E.dst i)) ^ " with weight for cities : "^ string_of_int(G.E.label i) ^ "\n"))) kruskale
+(* let imprime_edges_cities_kruskal = List.iter (fun i ->  print_string(edge_city_to_text (G.V.label (G.E.src i))^ " -> " ^ (edge_city_to_text (G.V.label (G.E.dst i)) ^ " with weight for cities : "^ string_of_int(G.E.label i) ^ "\n"))) kruskale *)
 
 let order_int_list e = List.sort (fun i i' -> compare i i') e
 
@@ -159,6 +151,9 @@ let print_list_cities_weights lista_weights = List.iter (fun i ->print_int i;pri
 let printlist_edges list_edges = List.fold_left (fun acc i -> acc ^ " - " ^ label_to_print (G.E.label i) ) "" (list_edges g)
 
 let printliste = List.fold_left (fun acc i -> acc ^label_to_print (G.E.label i)^" Nodo : "^string_of_int(G.E.label (i))^" --- ") "" (primee g (node 0))
+
+let imprime_edges_cities_boruvka = List.iter (fun i ->  print_string(edge_city_to_text (G.V.label (G.E.src i))^ " -> " ^ (edge_city_to_text (G.V.label (G.E.dst i)) ^ " with weight for cities : "^ string_of_int(G.E.label i) ^ "\n"))) boruvka
+
 (*
 let print_weights = List.fold_left (fun acc i -> acc ^ string_of_int (G.E.weight i)) "" (kruskal g) *)
 
@@ -172,5 +167,8 @@ let print_weights = List.fold_left (fun acc i -> acc ^ string_of_int (G.E.weight
 print_list_numbers city_to_number;
 print_list_cities_from_numbers city_to_number;
       print_graph_cities;*)
-let () =  imprime_edges_cities_kruskal;
-  print_endline("Weight of MST with kruskal :" ^ string_of_int(get_weight_of_MST kruskale) ^ " and with Prim :" ^ string_of_int(get_weight_of_MST (primer (node_city 0))));
+(* let () =  imprime_edges_cities_kruskal; *)
+let () =
+  print_string ("boruvka:\n");
+  (* imprime_edges_cities_boruvka; *)
+  print_endline("Weight of MST with kruskal :" ^ string_of_int(get_weight_of_MST kruskale) ^ " and with Prim :" ^ string_of_int(get_weight_of_MST (primer (node_city 0)))^ " and with Boruvka :" ^ string_of_int(get_weight_of_MST (boruvka)))
