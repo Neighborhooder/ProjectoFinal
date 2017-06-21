@@ -110,16 +110,20 @@ end
 
 
 module P1 = Kruskal.Make(G)(W)
+module P2 = Boruvka.Make(G)(W)
 
-let kruskal_test g= P1.spanningtree g
+let kruskal_test g = P1.spanningtree g
+let boruvka_test = P2.spanningtree g
 
 let mst_kruskal = List.fold_left (fun acc x -> acc ^ printlabel (G.E.label x)) "Algoritmo de Kruskal " (kruskal_test g)
 
+let mst_boruvka = List.fold_left (fun acc x -> acc ^ printlabel (G.E.label x)) "Algoritmo de Boruvka " (boruvka_test)
 
 
 let () =
   print_endline (printlist (lo,liy));
   print_endline (mst_kruskal);
+  print_endline (mst_boruvka);
   (* for i = 0 to (n-1) do
     for j = 0 to (m-1) do
       Format.printf "%c" (Char.chr(G.Mark.get (node i j)))

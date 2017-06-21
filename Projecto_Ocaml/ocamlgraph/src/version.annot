@@ -14,9 +14,9 @@ type(
   string
 )
 ident(
-  def date "src/version.ml" 2 22 65 "src/version.ml" 1 0 -1
+  def date "src/version.ml" 2 22 64 "src/version.ml" 1 0 -1
 )
-"src/version.ml" 2 22 33 "src/version.ml" 2 22 65
+"src/version.ml" 2 22 33 "src/version.ml" 2 22 64
 type(
   string
 )

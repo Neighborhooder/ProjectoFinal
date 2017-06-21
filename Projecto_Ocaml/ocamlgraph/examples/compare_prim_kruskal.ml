@@ -21,8 +21,8 @@ open Printf
 open Graph
 
 (* command line *)
-let v_ = ref 30
-let e_ = ref 50
+let v_ = ref 300
+let e_ = ref 1000
 let seed_ = ref None
 let debug_ = ref false
 
@@ -58,18 +58,40 @@ module Int = struct
   let equal = (=)
   let default = 0
 end
+module V = struct
+  type t = int
+end
+
+module E = struct
+  type t = int
+  type label = int
+  let compare = Pervasives.compare
+  let default = (0)
+end
+
+module GI = Imperative.Graph.AbstractLabeled(V)(E)
 
 module G = Imperative.Graph.AbstractLabeled(Int)(Int)
 
 module R = Rand.I(G)
-
+module RI = Rand.I(GI)
 
 
 module W = struct
   type label = G.E.label
   type edge = G.E.t
   type t = int
-  let weight _ = 1
+  let weight _ = 10
+  let zero = 0
+  let add = (+)
+  let compare = compare
+end
+
+module WI = struct
+  type label = G.E.label
+  type edge = G.E.t
+  type t = G.E.label
+  let weight x = G.E.label x
   let zero = 0
   let add = (+)
   let compare = compare
@@ -100,20 +122,32 @@ module Time = struct
 
 end
 
-module P1 = Kruskal.Make(G)(W)
-module P2 = Prim.Make(G)(W)
+module P1 = Kruskal.Make(G)(WI)
+module P2 = Prim.Make(G)(WI)
+module P3 = Boruvka.Make(GI)(WI)
 
 let testp g = Time.time5 P1.spanningtree g
+let kruskall g = P1.spanningtree g
 let testk g = Time.time5 P2.spanningtree g
+let prim g = P2.spanningtree g
+let testb g = Time.time5 P3.spanningtree g
+let boruvkaa g = P3.spanningtree g
 
 let test nb_v nb_e =
   Printf.printf "Execution time v=%d - e=%d\n" nb_v nb_e;
   let g = R.graph ~v:nb_v ~e:nb_e () in
-
+  let gi = RI.graph ~v:nb_v ~e:nb_e () in
+  let get_weight_of_MST e = List.fold_left (fun acc i -> acc + (GI.E.label i)) 0 e in
+  let get_weight_of_MSTs e = List.fold_left (fun acc i -> acc + (G.E.label i)) 0 e in
   let resp = testp g in
   Printf.printf "PRIM : %2.2fs\n" resp;
+  Printf.printf "weight with kruskal : %d %!" (get_weight_of_MSTs (kruskall g));
   let resk = testk g in
-  Printf.printf "KRUSKAL : %2.2fs\n%!" resk
+  Printf.printf "KRUSKAL : %2.2fs\n%!" resk;
+  Printf.printf "weight with prim : %d %!" (get_weight_of_MSTs (prim g));
+  let resz = testb gi in
+  Printf.printf "BORUVKA : %2.2fs\n%!" resz;
+  Printf.printf "weight with boruvka : %d %!" (get_weight_of_MST (boruvkaa gi))
 
 let () = test v e
 (*
